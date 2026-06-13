@@ -164,6 +164,8 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
         currentAudio.destroy();
       }
       nextAudio.volume = targetVolume;
+      // 更新全局BGM实例引用，防止内存泄漏
+      _currentBGMInstance = nextAudio;
     }
   }, interval);
 
