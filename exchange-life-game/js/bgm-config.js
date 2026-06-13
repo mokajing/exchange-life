@@ -47,7 +47,19 @@ const BGM_MAP = {
   gentle_acoustic:  { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.3, loop: true },
   
   // 情感渐强 - 情绪积累
-  emotional_buildup: { file: 'audio/bgm/emotional_buildup.mp3', volume: 0.45, loop: true }
+  emotional_buildup: { file: 'audio/bgm/emotional_buildup.mp3', volume: 0.45, loop: true },
+
+  // === 高考30天专用标签 ===
+  piano_slow:        { file: 'audio/bgm/piano_slow.mp3',       volume: 0.3, loop: true },
+  silence_tension:   { file: 'audio/bgm/silence_tension.mp3',  volume: 0.2, loop: true },
+  ambient_night:     { file: 'audio/bgm/ambient_night.mp3',    volume: 0.25, loop: true },
+  warm_quiet:        { file: 'audio/bgm/warm_quiet.mp3',       volume: 0.3, loop: true },
+  no_bgm_ambient:    { file: 'audio/bgm/no_bgm_ambient.mp3',   volume: 0.15, loop: true },
+  nostalgic_piano:   { file: 'audio/bgm/nostalgic_piano.mp3',  volume: 0.35, loop: true },
+  heartbeat_low:     { file: 'audio/bgm/heartbeat_low.mp3',    volume: 0.3, loop: true },
+  strings_gentle:    { file: 'audio/bgm/strings_gentle.mp3',   volume: 0.3, loop: true },
+  minimal_piano:     { file: 'audio/bgm/minimal_piano.mp3',    volume: 0.25, loop: true },
+  summer_nostalgia:  { file: 'audio/bgm/summer_nostalgia.mp3', volume: 0.4, loop: false }
 };
 
 /**

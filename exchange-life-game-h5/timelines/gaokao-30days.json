@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "id": "gaokao-30days",
+    "title": "高三学生高考前最后30天",
+    "subtitle": "成年后重走那条路，才发现当年的痛苦都是礼物",
+    "sourceType": "documentary",
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-14T02:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "模拟考失利",
+      "description": "最后一次模拟考成绩出来，班主任找谈话，成绩不理想，心里一沉。撕掉卷子又从垃圾桶捡回来重新分析错题。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "成绩单发下来的那一刻，你的手指在发抖。班主任把你叫到办公室，说了什么你已经记不清了，只记得回教室的路上，走廊特别长。你把卷子揉成一团扔进了垃圾桶，晚自习又偷偷捡回来，一道题一道题地看。",
+      "bgmTag": "piano-slow",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "模拟考砸了，你会怎么做？",
+        "options": [
+          { "label": "把卷子撕了扔进垃圾桶", "response": "你用力把卷子揉成团，扔进了角落的垃圾桶。但晚自习的时候，你又悄悄走过去把它捡了回来。" },
+          { "label": "找老师分析每道错题", "response": "你拿着卷子走到讲台前，老师看了你一眼，什么都没说，拿起红笔开始一道道讲。" },
+          { "label": "一个人去操场跑了十圈", "response": "你冲出教室，在空旷的操场上一圈一圈地跑。风灌进耳朵，什么都听不见了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-02",
+      "title": "倒计时变成两位数",
+      "description": "高考倒计时牌换成两位数，教室气氛骤变，连课间都没人说话了。每天凌晨5:40起床，晚上11:30熄灯后在被窝里打手电刷题。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "education",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "不知道从哪天开始，课间十分钟变得安静了。没人聊天，没人打闹，只有翻书声和笔尖划过纸面的沙沙声。倒计时牌上的数字像一把悬在头顶的剑，每一天都在逼近。",
+      "bgmTag": "silence-tension",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-03",
+      "title": "凌晨三点的对视",
+      "description": "第一次失眠，凌晨三点听到隔壁床室友翻身，才知道他也没睡。两个人谁也没说话，但都笑了一下。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "凌晨三点，你翻了个身，发现对面床铺也有动静。黑暗中你们对视了一眼，谁也没有说话，但都轻轻笑了一下。那一刻你知道，你不是一个人在扛。",
+      "bgmTag": "ambient-night",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-04",
+      "title": "父母的小心翼翼",
+      "description": "父母突然变得小心翼翼，饭桌上再也不提成绩，连电视都不敢开大声。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "relationship",
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "妈妈端来夜宵的时候轻手轻脚，像是怕打扰到什么。爸爸把电视声音调到了最小，坐在沙发上假装在看新闻。他们什么都不说，但你全都知道。",
+      "bgmTag": "warm-quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-05",
+      "title": "爸爸的那碗面",
+      "description": "父亲破天荒请了半天假，在校门口等他，带他去吃了一碗牛肉面，什么都没说。筷子拿起来又放下，最后只说了句'吃完回去好好考'。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "放学走出校门，你看见了一个熟悉的身影。爸爸站在那里，手里拎着一个袋子，有点不自在地朝你笑了笑。他带你去了街角的面馆，点了一碗牛肉面。筷子拿起来又放下，半天才挤出一句：'吃完回去好好考。'",
+      "bgmTag": "no-bgm-ambient",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对不善言辞的父亲，你会怎么做？",
+        "options": [
+          { "label": "埋头吃饭一句话不说", "response": "你低下头，一口一口地把面吃完了。碗底干净的时候，你说了声'爸我走了'。他点了点头。" },
+          { "label": "突然说'爸我怕考不好'", "response": "话出口的瞬间你自己都愣住了。爸爸沉默了很久，然后伸手拍了拍你的肩膀：'怕什么，考完就行了。'" },
+          { "label": "说'爸你别来了耽误时间'", "response": "话说出口你就后悔了。爸爸愣了一下，笑着说'好'，转身走了。你看着他的背影，鼻子突然酸了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-06",
+      "title": "拍毕业照",
+      "description": "全班穿着校服站在操场上，笑着笑着就红了眼眶。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "摄影师喊'三二一'的时候，所有人都在笑。可是笑着笑着，有人先红了眼眶。快门按下的那一秒，定格的不只是一张照片，是再也回不去的三年。",
+      "bgmTag": "nostalgic-piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "毕业照那天，你最想做什么？",
+        "options": [
+          { "label": "抱一下最好的朋友", "response": "你走过去，紧紧抱住了那个陪你走过三年的人。谁也没说话，但拥抱比任何话都重。" },
+          { "label": "给暗恋的人塞张纸条", "response": "你把折好的纸条塞进了TA的校服口袋。上面写着什么，只有你自己知道。" },
+          { "label": "一个人去天台看看学校", "response": "你爬上教学楼的天台，俯瞰这个待了三年的地方。风吹过脸颊，像是告别。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-07",
+      "title": "看考场",
+      "description": "走一遍从家到考点的路线，手心全是汗。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "education",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "提前一天去看考场。你沿着从家到考点的路走了一遍，数了几个红绿灯，记住了拐弯处的标志。手心全是汗，心跳声大得像是全世界都能听见。",
+      "bgmTag": "heartbeat-low",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-08",
+      "title": "高考前夜",
+      "description": "妈妈在厨房准备明天的早餐，刀切黄瓜的声音在安静的家里特别清晰。妈妈让穿红色T恤'开门红'，早餐是两根油条一个鸡蛋'100分'。",
+      "ageRange": { "start": 17, "end": 18 },
+      "category": "daily_life",
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "那天晚上家里特别安静。妈妈在厨房里忙活，刀切在砧板上的声音格外清晰。她给你准备了红色T恤说明天穿，早餐摆了两根油条和一个鸡蛋——100分。你躺在床上，听着这些熟悉的声音，忽然觉得没那么怕了。",
+      "bgmTag": "strings-gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-09",
+      "title": "走进考场",
+      "description": "监考老师说'开始答题'，笔尖触纸的声音像是全世界最大的声响。",
+      "ageRange": { "start": 18 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你深吸一口气，走进了那扇门。坐下来，展开试卷，监考老师的声音从远处传来：'开始答题。'笔尖碰到纸面的那一刻，整个世界安静了。只剩下你和面前的这张卷子。",
+      "bgmTag": "minimal-piano",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-10",
+      "title": "最后一科交卷",
+      "description": "最后一科交卷，走出考场大门，夕阳打在脸上，身后有人哭有人笑有人打电话。十八年来第一次没有人告诉他下一步该做什么。",
+      "ageRange": { "start": 18 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "笔放下的瞬间，脑子里一片空白。你站起来，交了卷，走出了那扇门。夕阳特别好，金色的光打在脸上。身后有人在哭，有人在笑，有人在打电话。你站在校门口，突然不知道该往哪走——十八年来，第一次没有人告诉你下一步该做什么。",
+      "bgmTag": "summer-nostalgia",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "最后一科最后15分钟，你在做什么？",
+        "options": [
+          { "label": "反复检查改了又改", "response": "你把每道题都看了一遍又一遍，改了一个答案又改回来。铃响的时候，手心全是汗。" },
+          { "label": "提前交卷不回头", "response": "你放下笔，举手示意交卷。走出教室的那一刻，你没有回头。" },
+          { "label": "闭眼坐着听时钟滴答", "response": "你闭上眼睛，什么都不想了。时钟的滴答声像是心跳，一下一下，直到铃声响起。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-05", "evt-10"],
+    "valleyMoments": ["evt-01", "evt-03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["学业压力", "考试焦虑"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

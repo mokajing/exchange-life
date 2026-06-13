@@ -58,7 +58,8 @@ const TIMELINE_LIST = [
   { id: 'pompeii-baker',      label: '庞贝末日：面包师的最后24小时', level: 'L2' },
   { id: 'antarctic-winter',   label: '南极越冬站：极夜90天',       level: 'L2' },
   { id: 'alien-office-worker',label: '外星人上班第一天',           level: 'L1' },
-  { id: 'easter-island-speaker', label: '复活节岛最后的母语者',    level: 'L2' }
+  { id: 'easter-island-speaker', label: '复活节岛最后的母语者',    level: 'L2' },
+  { id: 'gaokao-30days',         label: '高三学生高考前最后30天',   level: 'L2' }
 ];
 
 let player = null;
@@ -203,10 +204,19 @@ async function loadStory(storyId) {
       }
     });
 
-    // Touch events
-    wx.onTouchStart((e) => player.onTouchStart(e));
-    wx.onTouchMove((e) => player.onTouchMove(e));
-    wx.onTouchEnd((e) => player.onTouchEnd(e));
+    // Touch events (H5 uses standard DOM events, not wx API)
+    canvas.addEventListener('touchstart', (e) => {
+      e.preventDefault();
+      player.onTouchStart(e);
+    }, { passive: false });
+    canvas.addEventListener('touchmove', (e) => {
+      e.preventDefault();
+      player.onTouchMove(e);
+    }, { passive: false });
+    canvas.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      player.onTouchEnd(e);
+    }, { passive: false });
 
     // Mouse fallback for desktop
     canvas.addEventListener('mousedown', (e) => {
