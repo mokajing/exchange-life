@@ -1,0 +1,116 @@
+{
+  "meta": {
+    "id": "zheng-jinxing-001",
+    "title": "金刚——一米一三的'高大'人生",
+    "subtitle": "身体的小与意志的大，父亲的阻拦与深层的爱护",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:45:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "e1",
+      "title": "被围观的童年",
+      "description": "1988年生于浙江象山，天生骨骼变异身高仅1.13米。校园被围观、求职被拒，深陷自卑。",
+      "ageRange": {
+        "start": 0,
+        "end": 28
+      },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你出生时就和别人不一样。一米一三，三十五公斤。走在学校里，所有人的目光都像针一样扎过来。找工作，人家看一眼就摇头。你把自己关在家里，觉得这辈子就这样了。父亲沉默地看着你，不说话。你以为他失望了。后来你才知道，他只是不知道该怎么帮你。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "素材库评审记录/宁波晚报"
+    },
+    {
+      "id": "e2",
+      "title": "驾照与自信",
+      "description": "2017年考取驾照，第一次感受到'我也能做到'的力量。",
+      "ageRange": {
+        "start": 29
+      },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "二十九岁，你去考了驾照。教练看了你一眼，没说什么。你把座椅调到最前，脚刚好够到踏板。科目二一把过。拿到驾照那天，你坐在驾驶座上，第一次觉得自己和这个世界平齐了。不是身高，是尊严。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "你觉得一张驾照对他意味着什么？",
+        "options": [
+          {
+            "label": "证明自己不是废人",
+            "response": "太沉重的词了。但他确实需要这个证明——不是给别人看的，是给自己的。"
+          },
+          {
+            "label": "一种平等的权利",
+            "response": "是的。开车这件事不看身高，只看技术。这是他人生中第一次被公平对待。"
+          }
+        ]
+      },
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e3",
+      "title": "徒手垦荒证明自己",
+      "description": "2022年回乡创业，不顾70岁父亲反对，花一个月徒手清理一亩荒地。父亲从反对到默许再到全力支持。",
+      "ageRange": {
+        "start": 34,
+        "end": 35
+      },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "三十四岁，你说要回乡养鸡。七十岁的父亲急了：你这样怎么干农活？你没争辩，拿起锄头就去开荒。一亩地，全是石头和杂草。你一个人，弯着腰，一块石头一块石头地搬。手上磨出了血泡，血泡破了又长。一个月后，荒地变成了可以种东西的地。父亲站在田埂上看了很久。他没说话，第二天默默来帮你了。",
+      "bgmTag": "determined_march",
+      "visualTone": "warm",
+      "sourceAnchor": "素材库评审记录/纪录短片《金刚》"
+    },
+    {
+      "id": "e4",
+      "title": "纪录片获奖与父亲离世",
+      "description": "养鸡场起步、短视频走红。2025年父亲病逝，低迷后重新振作。纪录片《金刚》获全国短视频大赛最佳作品奖。",
+      "ageRange": {
+        "start": 36,
+        "end": 37
+      },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "鸡场办起来了，短视频也火了。你和父亲在山间并肩劳作的画面感动了好多人。然后父亲走了。你把自己关了半个月，不想动、不想拍、不想说话。后来有一天你走进鸡场，看到那些鸡还在等你喂。你蹲下来，眼泪掉进了饲料盆里。你重新拿起了手机。纪录片《金刚》得了全国大奖。领奖的时候你想，爸，你看，我能行。",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "warm",
+      "sourceAnchor": "素材库评审记录"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": [
+      "e3"
+    ],
+    "valleyMoments": [
+      "e1",
+      "e4"
+    ]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [
+      "残障身体描写",
+      "亲人离世",
+      "校园歧视"
+    ],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

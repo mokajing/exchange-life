@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "demo-001",
+    "title": "从山村到硅谷：一个程序员的三十年",
+    "subtitle": "他用代码改变了命运，却在成功后迷失了自己",
+    "sourceType": "biography",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "山村童年",
+      "description": "在贵州山区长大，家里靠种地为生。每天走两小时山路上学，晚上在煤油灯下写作业。",
+      "ageRange": { "start": 0, "end": 12 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你睁开眼，看到的是低矮的土房天花板。空气里有柴火的味道。窗外是连绵的山，和你一样沉默。每天天不亮就要起床，走两个小时的山路去学校。书包里装着妈妈烙的饼，还热着。你不知道山外面是什么样子，但你知道，你想去看看。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "传记第1章"
+    },
+    {
+      "id": "evt-02",
+      "title": "考上大学",
+      "description": "以全县第三名的成绩考入浙江大学计算机系，第一次离开大山。",
+      "ageRange": { "start": 18 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "录取通知书到的那天，全村人都来了。妈妈哭了，爸爸没哭，但他喝了一整瓶白酒。你坐上绿皮火车，看着窗外的山一点点变矮、变远。你不知道计算机是什么，但你知道，这是你的门票。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果你是他，面对完全陌生的专业，你会……",
+        "options": [
+          { "label": "拼命学习，不辜负家人的期望", "response": "你选择了最稳的路。图书馆成了你的第二个家。" },
+          { "label": "先探索自己真正喜欢什么", "response": "你花了半年迷茫，但找到了比分数更重要的东西。" }
+        ]
+      },
+      "sourceAnchor": "传记第3章"
+    },
+    {
+      "id": "evt-03",
+      "title": "硅谷岁月",
+      "description": "毕业后进入Google，三年后跳槽创业公司，经历了互联网泡沫破裂。",
+      "ageRange": { "start": 24, "end": 30 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "旧金山的阳光比贵州刺眼得多。你在Google写了三年代码，每一行都精确得像手术刀。但你心里有个声音说：这不是终点。你辞职加入了一个三个人的创业公司，赌上了一切。然后泡沫破了。",
+      "bgmTag": "tense_urban",
+      "visualTone": "cool",
+      "sourceAnchor": "传记第5-7章"
+    },
+    {
+      "id": "evt-04",
+      "title": "至暗时刻",
+      "description": "创业失败，负债累累，与妻子离婚。独自在出租屋里度过了人生最低谷。",
+      "ageRange": { "start": 31, "end": 33 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "三十一岁。公司倒了。老婆走了。银行账户里的数字让你不敢看第二遍。你把自己关在十平米的出租屋里，窗帘拉了三个月没打开。有一天你站在窗前，看着楼下的车流，突然想起了妈妈烙的饼的味道。那个味道把你拉了回来。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在最黑暗的时刻，你觉得支撑一个人活下去的是什么？",
+        "options": [
+          { "label": "对某个人的牵挂", "response": "是的。有时候活下去的理由，就是某个人还在等你。" },
+          { "label": "不甘心", "response": "那股不服输的劲儿，像山里的野草，烧不尽。" },
+          { "label": "说不清楚", "response": "也许活着本身不需要理由。呼吸就够了。" }
+        ]
+      },
+      "sourceAnchor": "传记第8章",
+      "isAiBridge": false
+    },
+    {
+      "id": "evt-05",
+      "title": "重新出发",
+      "description": "回到国内，创办教育科技公司，致力于让山区孩子也能接触编程教育。",
+      "ageRange": { "start": 34 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你回到了中国。不是为了赚钱，是为了那些还在走两小时山路的孩子。你创办了一家教育科技公司，把编程课送到了贵州、云南、甘肃的山村小学。有人问你图什么，你说：我就是从那条路上走出来的。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm",
+      "sourceAnchor": "传记第10章"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-02"],
+    "valleyMoments": ["evt-04"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["离婚", "创业失败", "抑郁情绪"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

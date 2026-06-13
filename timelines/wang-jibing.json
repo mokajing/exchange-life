@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "wang-jibing-001",
+    "title": "外卖诗人王计兵——从工地到春晚，用诗句丈量人间",
+    "subtitle": "赶时间的人没有四季，只有一站和下一站",
+    "sourceType": "news",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-13T10:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "捞沙少年的诗与痛",
+      "description": "1969年生于江苏邳州农村，初二辍学。做过建筑工、捞沙工。在沂河捞沙时手脚渗血，枕头垫在脚踝处避免碰触。旧书摊买书花光父亲给的毛衣钱。",
+      "ageRange": { "start": 0, "end": 19 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你出生在徐州邳州最穷的那户人家。初二就放下了书包。十九岁跟着建筑队去沈阳做木工，晚上工友们逛公园，你蹲在路边书摊前看书，看到人家收摊才依依不舍地回工棚。后来回乡捞沙，人泡在水里一整天，皮肤皱得像泡发的纸。晚上睡觉，枕头不敢垫脑袋下面，要垫在脚踝处——因为脚底磨出的伤口碰到床单，像撒了辣椒粉一样疼。父亲给你二十块钱买毛衣，你去了三趟集市，抱回来三蛇皮袋的旧书。父亲没骂你，自己又去了一趟集市。",
+      "bgmTag": "somber_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "央视网专访/群众杂志"
+    },
+    {
+      "id": "evt-02",
+      "title": "被烧掉的二十万字",
+      "description": "1992年发表第一篇小说后沉迷写作，为体验丧亲之痛模拟披麻戴孝，激怒父亲。父亲一把火烧掉20万字手稿。此后25年不再投稿，但从未停止写作。",
+      "ageRange": { "start": 23, "end": 48 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "二十三岁，你的小说发表了。你高兴得像个孩子。可村里人认出了故事里的原型，找上门来和你父亲争吵。你不在意，继续写。写到主人公丧亲那段，你穿上白衣白鞋体验那种痛。父亲彻底怒了。第二天你从河边捞完沙回到桃园，小屋没了。你在角落扒开新翻的泥土，找到一堆纸灰。二十万字，没了。你没哭。从那以后，你写了念给工友听，念完就丢进灶台引火做饭。二十五年，你没投过一篇稿。但你从没停过笔。诗住在你心里，是你最亲密的人。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "二十万字化为灰烬之后，你觉得他为什么还在写？",
+        "options": [
+          { "label": "写作是他唯一不被生活碾碎的东西", "response": "是的。沙子磨破了皮肤，贫穷磨平了棱角，但文字是他骨头里长出来的东西，烧不掉。" },
+          { "label": "不是为了发表，是为了活着", "response": "他说每次写作就像照一次镜子。不是为了被谁看见，是为了确认自己还在。" }
+        ]
+      },
+      "sourceAnchor": "央视网专访/群众杂志"
+    },
+    {
+      "id": "evt-03",
+      "title": "QQ空间里的新起点",
+      "description": "2002年到昆山摆地摊、拾废品，2005年开杂货店。2009年接触网络，在QQ空间写日志，因打字困难被迫精简文字，意外走上诗歌之路。",
+      "ageRange": { "start": 33, "end": 40 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "三十三岁，你和妻子来到昆山。摆地摊、拾废品、开杂货店。日子像流水一样平淡。2009年，为了记账买了电脑。你不熟悉键盘，打字慢得要命。为了省时间，日志越写越短，几句话、十几句话。你不知道这叫诗，你只是觉得这样写舒服。后来有人在论坛里说：你写的这个东西，挺好的。你愣了一下。原来那些被丢进灶台的文字，换了一种方式活了下来。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "neutral",
+      "sourceAnchor": "群众杂志自述"
+    },
+    {
+      "id": "evt-04",
+      "title": "爬三次六楼写出《赶时间的人》",
+      "description": "2019年成为外卖骑手。一次送餐被给错地址三次，爬了三趟六楼。当晚写下成名作《赶时间的人》，2022年在微博获得2000万浏览量。",
+      "ageRange": { "start": 50, "end": 53 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "五十岁，你成了外卖骑手。有一天晚上，你爬上六楼敲门，地址错了。重新联系，又给了一个新地址，还是错的。第三次爬到六楼，气喘吁吁把餐送到顾客手里，道了歉。那天超时了三单。回家的路上，你写下了这些句子：'从空气里赶出风/从风里赶出刀子/从骨头里赶出火/从火里赶出水/赶时间的人没有四季/只有一站和下一站。'三年后这首诗在微博上被转了两千万次。人们叫你'外卖诗人'。你说你是吃着外卖红利走出来的写作者。但你知道，这首诗不是外卖给你的，是那三次六楼、二十五年的沉默、和捞沙时垫在脚踝下的枕头给你的。",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "你觉得是什么让一首诗打动了两千万人？",
+        "options": [
+          { "label": "真实——每个打工人都爬过自己的'六楼'", "response": "是的。他不是替外卖员说话，他是替所有被时间追着跑的人说出了那句来不及说的话。" },
+          { "label": "苦难里长出来的美", "response": "那些句子不是修辞，是从骨头里赶出来的火。你读到的不是诗，是一个人半辈子的重量。" }
+        ]
+      },
+      "sourceAnchor": "央视新闻/群众杂志自述"
+    },
+    {
+      "id": "evt-05",
+      "title": "诗集到手，订单还在倒计时",
+      "description": "2023年收到第一本诗集《赶时间的人》。拆包装时手在抖。手机提示'您的订单还有10分钟即将超时'，放下书跨上电瓶车继续送餐。至今已出版4本诗集。",
+      "ageRange": { "start": 54 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "五十四岁。快递到了。你正在送餐路上，看了一眼订单时间，掉头回家。拆开包装的时候，你的手在抖，声音也在抖。天蓝色的封面，两根指针像闪电。这是你的书。一个外卖员的诗。一个写了三十五年、沉默了二十五年的人，终于有了属于自己的书。妻子说你像个孩子。可你又怎么能责怪自己呢？'您的订单还有10分钟，即将超时。'手机响了。你放下书，跨上电瓶车，回到了送餐路上。梦想实现了。但日子还在继续。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "bright",
+      "sourceAnchor": "群众杂志自述"
+    },
+    {
+      "id": "evt-06",
+      "title": "春晚舞台上的透明人",
+      "description": "2025年受邀登上央视蛇年春晚。彩排时紧张到忘词，感觉'被灯光打穿'。最终完成与主持人对话并引出节目。他说：诗就是我命里的一颗糖。",
+      "ageRange": { "start": 56 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "五十六岁。你站在了春晚的舞台上。灯光打下来的那一刻，你觉得自己被照透了，连一个标点符号都没留下。第一场彩排你忘词了，小声对主持人说：我忘词了。可你想起那些在烟盒上写字的夜晚、等红灯时语音录入的句子、爬六楼喘气时脑子里蹦出来的韵脚——它们都在。你不是一个人在台上。你是所有赶时间的人站在那里。有人问你为什么坚持写诗。你说：诗就是我命里的一颗糖。",
+      "bgmTag": "triumphant_gentle",
+      "visualTone": "bright",
+      "sourceAnchor": "央视新闻/京报网"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-05", "evt-06"],
+    "valleyMoments": ["evt-02"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

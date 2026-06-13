@@ -1,0 +1,97 @@
+{
+  "meta": {
+    "id": "su-min-001",
+    "title": "50岁离家出走——苏敏的觉醒之路",
+    "subtitle": "她用方向盘逃离了三十年的婚姻牢笼",
+    "sourceType": "social_media",
+    "authorized": false,
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-13T10:50:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "e1",
+      "title": "三十年无声的窒息",
+      "description": "在婚姻中长期承受情感忽视与经济控制。AA制婚姻、丈夫的冷暴力、女儿的劝忍，让她逐渐失去自我。",
+      "ageRange": {
+        "start": 20,
+        "end": 55
+      },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你结婚三十年。丈夫和你AA制，连过路费都要算清楚。他不打你，但他从不看你。你说什么他都当空气。女儿说妈你别闹了，忍忍就过去了。你忍了三十年。直到有一天你在厨房切菜，刀停在半空，你突然想不起来自己为什么要站在这里。不是为谁做饭的问题，是你忘了自己是谁了。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e2",
+      "title": "方向盘上的重生",
+      "description": "56岁考取驾照，用攒下的钱买了车，独自出发自驾旅行。视频走红全网，被称为'出走的阿姨'。",
+      "ageRange": {
+        "start": 56
+      },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "五十六岁，你去考了驾照。教练以为你是帮孙子报名的。你买了一辆小车，装上帐篷和锅碗瓢盆，出发了。没有目的地，没有归期。你在云南的湖边煮面条，在新疆的戈壁上看日落。有人问你后不后悔，你说后悔没早点走。你的视频火了，几百万人看着你笑、看着你哭、看着你终于活成了自己。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果你是她，在三十年之后终于握住了方向盘，你会……",
+        "options": [
+          {
+            "label": "一直开，开到再也回不去为止",
+            "response": "你不是在逃跑，你是在找回自己。每一公里都是对自己的救赎。"
+          },
+          {
+            "label": "先停下来想一想，再决定去哪",
+            "response": "三十年来你从没为自己做过决定。这一次，你想慢慢来。"
+          }
+        ]
+      },
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e3",
+      "title": "被看见的勇气",
+      "description": "成为女性觉醒的文化符号。出版自传、接受国内外媒体采访。她的故事推动了关于婚姻、女性自主权的社会讨论。",
+      "ageRange": {
+        "start": 57
+      },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "人们叫你'出走的阿姨'。你说不喜欢这个称呼，你不是出走，你是回家——回到自己的家。有出版社找你写书，有导演找你拍电影。你说你不是什么榜样，你只是一个不想再忍了的普通女人。但有无数个'普通女人'给你留言说：谢谢你让我知道，还可以这样活。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "bright",
+      "sourceAnchor": "素材库评审记录"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": [
+      "e2"
+    ],
+    "valleyMoments": [
+      "e1"
+    ]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [
+      "婚姻冷暴力",
+      "中年抑郁",
+      "家庭矛盾"
+    ],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

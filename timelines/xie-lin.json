@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "xie-lin-001",
+    "title": "一路风尘——大漠独行女侠谢琳的500万公里人生",
+    "subtitle": "她用方向盘丈量中国，用孤独换取自由",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:45:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "e1",
+      "title": "被困住的前半生",
+      "description": "婚姻中的压抑与束缚，在日复一日的琐碎中逐渐失去自我。",
+      "ageRange": {
+        "start": 20,
+        "end": 45
+      },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你曾经以为结婚就是安定。可安定慢慢变成了窒息。厨房、孩子、丈夫的脸色——你的世界缩成了一间屋子的大小。你不知道自己是谁了，只知道自己是某人的妻子、某人的母亲。有一天你看着窗外，突然想起小时候你说长大要去看沙漠。那个声音已经很小了，但它还在。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e2",
+      "title": "方向盘上的觉醒",
+      "description": "学会开车成为人生转折点。第一次独自上路，感受到前所未有的自由。",
+      "ageRange": {
+        "start": 46
+      },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "四十六岁，你学会了开车。不是为了方便买菜，是为了逃。第一次独自上路，车窗外的风灌进来，你深吸一口气。没有人在后座问你去哪，没有人嫌你开得太慢或太快。方向盘在你手里，路在你面前。你哭了。不是因为难过，是因为你终于记起了呼吸的感觉。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果你是她，在半辈子的压抑之后第一次握住方向盘，你会……",
+        "options": [
+          {
+            "label": "一直开下去，不回头",
+            "response": "你没有目的地。但你知道，只要轮子还在转，你就还是活的。"
+          },
+          {
+            "label": "先回家，然后再出发",
+            "response": "你不是不负责任，你只是需要先把自己找回来，才能好好爱别人。"
+          }
+        ]
+      },
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e3",
+      "title": "500万公里的孤独与壮阔",
+      "description": "独自驾车穿越中国，累计行程超500万公里。走过沙漠、雪山、草原，在极端环境中找到内心的平静。",
+      "ageRange": {
+        "start": 47,
+        "end": 55
+      },
+      "category": "travel",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "五百多万公里。你走过了塔克拉玛干的沙、唐古拉山的雪、呼伦贝尔的草。车坏了你自己修，迷路了你就停下来等天亮。有人在服务区问你：大姐你一个人不怕吗？你说怕。但你更怕回去过那种没有自己的日子。孤独是有的，但孤独的另一面是辽阔。你在无人区的星空下停了一夜，那是你这辈子最安静的时刻。",
+      "bgmTag": "epic_landscape",
+      "visualTone": "cool",
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e4",
+      "title": "被看见的自由",
+      "description": "旅行视频走红网络，被称为'大漠独行女侠'。她的故事激励了无数被困在日常中的女性。",
+      "ageRange": {
+        "start": 56
+      },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "有人把你的故事拍成了纪录片。人们叫你'大漠独行女侠'。你说你不是什么女侠，你只是一个不想再憋着的女人。有粉丝留言说看了你的视频，她也去学了驾照。你说这就够了。自由不是一个人的事，是你活出来了，别人才敢想。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "bright",
+      "sourceAnchor": "素材库评审记录"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": [
+      "e2"
+    ],
+    "valleyMoments": [
+      "e1"
+    ]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [
+      "婚姻压抑",
+      "中年危机"
+    ],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

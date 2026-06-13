@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "id": "zhang-guimei-001",
+    "title": "大山里的女校长——张桂梅",
+    "subtitle": "她用命换来了两千多个女孩走出大山的机会",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:50:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "e1",
+      "title": "丧夫之痛与扎根山区",
+      "description": "丈夫去世后从大理调到华坪县。目睹山区女孩因贫困辍学嫁人，决心创办免费女子高中。身患多种疾病仍坚持教学。",
+      "ageRange": {
+        "start": 40,
+        "end": 50
+      },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "丈夫走了以后，你把自己埋进了工作里。从大理到华坪，越扎越深。你看到十几岁的女孩不上学了，问为什么，家里说没钱、嫁人了。你气得发抖。你说我要办一所免费的女子高中，让她们读书、考大学、走出大山。所有人都说你疯了。你确实疯了——被那些女孩的眼睛逼疯的。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e2",
+      "title": "拿命换来的学校",
+      "description": "四处筹款被当成骗子，五年只筹到一万多元。2008年在政府支持下华坪女高终于建成。拖着病体每天凌晨五点起床陪学生晨读。",
+      "ageRange": {
+        "start": 51,
+        "end": 60
+      },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你去街上募捐，人家把你当骗子。五年筹了一万多块。你不放弃。2008年，政府终于点头了。华坪女高建成了。你每天早上五点起床，拿着喇叭喊学生起床。你的身体早就垮了——骨瘤、肺气肿、心脏病，二十多种病。医生说你该住院了。你说等这批孩子考完试再说。你把命贴在了这所学校上。",
+      "bgmTag": "determined_march",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你觉得是什么支撑她撑过了那些年被当成骗子的日子？",
+        "options": [
+          {
+            "label": "那些女孩的眼睛",
+            "response": "每看到一个辍学的姑娘，她就多欠一笔债。这笔债不还完，她停不下来。"
+          },
+          {
+            "label": "一种近乎偏执的信念",
+            "response": "有人说她伟大，有人说她极端。但在那个地方，不极端就什么都做不成。"
+          }
+        ]
+      },
+      "sourceAnchor": "素材库评审记录"
+    },
+    {
+      "id": "e3",
+      "title": "两千多个走出大山的女孩",
+      "description": "华坪女高建校至今，已有2000多名女孩考入大学。张桂梅获'七一勋章'、'时代楷模'等荣誉。她说：我生来就是高山而非溪流。",
+      "ageRange": {
+        "start": 61
+      },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "两千多个女孩从这所学校走出去了。有的当了医生，有的当了老师，有的回到了山里教下一代。你获得了七一勋章、时代楷模。可你最骄傲的不是这些奖章，是那个曾经差点嫁人的姑娘现在站在手术台前救人。你说：我生来就是高山而非溪流，我欲于群峰之巅俯视平庸的沟壑。这句话刻在了女高的墙上，也刻进了每一个从这里走出去的女孩心里。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "sourceAnchor": "素材库评审记录"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": [
+      "e3"
+    ],
+    "valleyMoments": [
+      "e1"
+    ]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [
+      "丧亲",
+      "重病",
+      "贫困"
+    ],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

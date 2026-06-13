@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Temp files
+tmp/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WeChat Mini Game
+exchange-life-game/miniprogram_npm/
+exchange-life-game/project.private.config.json
+
+# H5 build output
+exchange-life-game-h5/dist/
+
+# Audio assets (large binary, use LFS or CDN)
+# audio/bgm/*.mp3

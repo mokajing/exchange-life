@@ -1,0 +1,134 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "人生时间线 (Life Timeline)",
+  "description": "交换人生AI蒸馏引擎的核心数据结构，描述一个人的人生事件序列、情感曲线和关键节点",
+  "type": "object",
+  "required": ["meta", "events", "emotionalArc"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "故事元信息",
+      "required": ["id", "title", "sourceType", "narrativeTemplate"],
+      "properties": {
+        "id": { "type": "string", "description": "唯一标识符" },
+        "title": { "type": "string", "description": "故事标题" },
+        "subtitle": { "type": "string", "description": "副标题/一句话概述" },
+        "sourceType": {
+          "type": "string",
+          "enum": ["biography", "documentary", "news", "social_media", "ugc_submission", "podcast"],
+          "description": "素材来源类型"
+        },
+        "sourceUrl": { "type": "string", "description": "原始素材链接（可选）" },
+        "authorized": { "type": "boolean", "description": "是否已获得授权" },
+        "narrativeTemplate": {
+          "type": "string",
+          "enum": ["hero_journey", "daily_poetry", "crossroads", "flashback", "single_turning_point"],
+          "description": "叙事模板类型"
+        },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "version": { "type": "integer", "default": 1 }
+      }
+    },
+    "events": {
+      "type": "array",
+      "description": "人生事件序列（按时间排序）",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["id", "title", "ageRange", "category"],
+        "properties": {
+          "id": { "type": "string", "description": "事件唯一ID" },
+          "title": { "type": "string", "description": "事件标题" },
+          "description": { "type": "string", "description": "事件详细描述（200字内）" },
+          "ageRange": {
+            "type": "object",
+            "required": ["start"],
+            "properties": {
+              "start": { "type": "integer", "minimum": 0, "maximum": 120, "description": "起始年龄" },
+              "end": { "type": "integer", "minimum": 0, "maximum": 120, "description": "结束年龄（可选，表示持续事件）" },
+              "fuzzy": { "type": "boolean", "default": false, "description": "是否为模糊时间段" }
+            }
+          },
+          "yearRange": {
+            "type": "object",
+            "properties": {
+              "start": { "type": "integer", "description": "起始年份" },
+              "end": { "type": "integer", "description": "结束年份" }
+            }
+          },
+          "category": {
+            "type": "string",
+            "enum": ["growth", "education", "career", "relationship", "health", "crisis", "achievement", "loss", "travel", "spiritual", "daily_life", "other"],
+            "description": "事件类别"
+          },
+          "isKeyNode": { "type": "boolean", "default": false, "description": "是否为关键人生节点（影响交互选择）" },
+          "emotion": {
+            "type": "string",
+            "enum": ["joy", "sadness", "anger", "fear", "surprise", "disgust", "neutral", "mixed"],
+            "description": "该事件的主导情绪"
+          },
+          "emotionIntensity": { "type": "number", "minimum": 0, "maximum": 1, "description": "情绪强度(0-1)" },
+          "narrativeText": { "type": "string", "description": "沉浸式叙事文本（体验时展示的内容）" },
+          "bgmTag": { "type": "string", "description": "BGM标签，用于匹配背景音乐" },
+          "visualTone": {
+            "type": "string",
+            "enum": ["warm", "cool", "dark", "bright", "neutral"],
+            "description": "视觉色调提示"
+          },
+          "interactionChoice": {
+            "type": "object",
+            "description": "交互选择点（仅isKeyNode=true时有效）",
+            "properties": {
+              "prompt": { "type": "string", "description": "选择提示语" },
+              "options": {
+                "type": "array",
+                "maxItems": 3,
+                "items": {
+                  "type": "object",
+                  "required": ["label", "response"],
+                  "properties": {
+                    "label": { "type": "string", "description": "选项文本" },
+                    "response": { "type": "string", "description": "选择后的反馈文本" }
+                  }
+                }
+              }
+            }
+          },
+          "sourceAnchor": { "type": "string", "description": "原始素材锚点（溯源用）" },
+          "isAiBridge": { "type": "boolean", "default": false, "description": "是否为AI补充的衔接内容（非原始素材）" }
+        }
+      }
+    },
+    "emotionalArc": {
+      "type": "object",
+      "description": "整体情感曲线",
+      "properties": {
+        "overallTone": { "type": "string", "enum": ["uplifting", "melancholic", "bittersweet", "tense", "serene", "dramatic"] },
+        "peakMoments": {
+          "type": "array",
+          "items": { "type": "string", "description": "情绪峰值事件的ID" }
+        },
+        "valleyMoments": {
+          "type": "array",
+          "items": { "type": "string", "description": "情绪低谷事件的ID" }
+        }
+      }
+    },
+    "safetyInfo": {
+      "type": "object",
+      "description": "安全分级信息",
+      "properties": {
+        "complianceLevel": { "type": "string", "enum": ["L1", "L2", "L3", "L4", "L5"] },
+        "popularityLevel": { "type": "string", "enum": ["S", "A", "B", "C"] },
+        "commercialValue": { "type": "string", "enum": ["V1", "V2", "V3", "V4"] },
+        "triggerWarnings": {
+          "type": "array",
+          "items": { "type": "string" },
+          "description": "触发预警标签列表"
+        },
+        "requiresSafetyPrompt": { "type": "boolean" },
+        "requiresAgeVerification": { "type": "boolean" }
+      }
+    }
+  }
+}

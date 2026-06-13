@@ -1,0 +1,1 @@
+- [exchange-life-product](memory/exchange-life-product.md) — 交换人生产品核心定义、分级体系、专家团、Skills概览
