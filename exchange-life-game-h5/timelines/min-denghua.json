@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "id": "min-denghua-001",
+    "title": "羽言之声——脑瘫博士闵登华的26年",
+    "subtitle": "如果我不是残疾人，我的声音应该就是这样",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:45:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "e1",
+      "title": "被困在身体里的灵魂",
+      "description": "00后安徽农村青年，出生时缺氧致先天性脑瘫。手指痉挛写字速度仅常人三分之一，言语含糊几乎无人能听清。爷爷背他走2公里山路上学，母亲放弃工作陪读。",
+      "ageRange": {
+        "start": 0,
+        "end": 17
+      },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你出生的时候缺氧了太久。从此你的身体不听你的话。手指蜷曲着，写一个字要花别人三倍的时间。说话含含糊糊，除了妈妈没人听得懂。爷爷每天背你走两公里山路去上学，他的背越来越弯，你在他背上越来越沉。妈妈辞了工作陪你读书。你想说谢谢，可说出来的是谁也听不懂的声音。你把这句话咽回去了。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "素材库评审记录/人民网"
+    },
+    {
+      "id": "e2",
+      "title": "高考551分的逆袭",
+      "description": "以高考551分考入合肥工业大学。后因无法做实验从材料专业转经济学，从零开始学编程。考研403分上岸西南财大，以专业第二考取博士。",
+      "ageRange": {
+        "start": 18,
+        "end": 24
+      },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "十八岁，高考551分。你进了合肥工大。可材料专业要做实验，你的手握不住试管。你转了经济学，从零开始啃编程。别人敲键盘像弹钢琴，你一个字一个字地戳。考研403分，西南财大。博士考试，专业第二。有人说你是天才。你知道你不是。你只是比别人多花了三倍的时间，做了同样的事。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "他用程序员语言称自己的身体缺陷为'硬件bug'。你怎么看这种自嘲？",
+        "options": [
+          {
+            "label": "这不是自嘲，是重新定义",
+            "response": "他没有把自己当成残缺品，而是当成一台需要适配的系统。这种视角本身就是一种力量。"
+          },
+          {
+            "label": "幽默是他对抗命运的方式",
+            "response": "笑着说出痛苦的人，不是不痛，是不想让痛定义自己。"
+          }
+        ]
+      },
+      "sourceAnchor": "素材库评审记录/中国经营报"
+    },
+    {
+      "id": "e3",
+      "title": "'按钮时刻'——26年来第一次听到自己的声音",
+      "description": "2025年底用AI编程工具开发语音助手'羽言'。2026年4月科创天府活动上按下按钮，含糊的声音变为清晰的标准男中音。全场掌声。他说：如果我不是残疾人，我的声音应该就是这样。",
+      "ageRange": {
+        "start": 25,
+        "end": 26
+      },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "你用AI写了一个程序，叫'羽言'。它能把你的声音变成清晰的标准男中音。2026年4月17日，科创天府活动现场，你按下了那个按钮。全场安静了一秒。然后一个清澈的男中音响了起来——是你的声音，又不是你的声音。是你二十六年来第一次听到自己'应有的声音'。掌声响起来的时候，你笑了。你说：如果我不是残疾人，我的声音应该就是这样。那一刻，所有人都听懂了你。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "sourceAnchor": "素材库评审记录/人民网"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": [
+      "e3"
+    ],
+    "valleyMoments": [
+      "e1"
+    ]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [
+      "残障身体描写",
+      "励志焦虑风险"
+    ],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

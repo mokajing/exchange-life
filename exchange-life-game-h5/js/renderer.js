@@ -311,4 +311,8 @@ class Renderer {
 
 // 导出TONE_COLORS供其他模块使用
 Renderer.TONE_COLORS = TONE_COLORS;
-module.exports = Renderer;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = Renderer;
+} else {
+  window.Renderer = Renderer;
+}

@@ -3,7 +3,7 @@
  * 管理事件流转、交互选择、进度追踪
  */
 
-const Renderer = require('./renderer');
+const Renderer = (typeof window !== 'undefined' && window.Renderer) || require('./renderer');
 const TONE_COLORS = Renderer.TONE_COLORS;
 
 class TimelinePlayer {
@@ -277,4 +277,8 @@ class TimelinePlayer {
   }
 }
 
-module.exports = TimelinePlayer;
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = TimelinePlayer;
+} else {
+  window.TimelinePlayer = TimelinePlayer;
+}

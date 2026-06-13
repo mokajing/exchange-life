@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "zhang-xue-001",
+    "title": "修车少年张雪——20年死磕，打破世界摩托车37年垄断",
+    "subtitle": "从山村修车学徒到WSBK双冠王，他用热爱把中国制造送上世界之巅",
+    "sourceType": "news",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T10:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "山村少年的引擎梦",
+      "description": "1987年生于湖南怀化农村，父母离异。14岁辍学成为摩托车修理铺学徒，从此与发动机结下不解之缘。",
+      "ageRange": { "start": 0, "end": 14 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你出生在湖南怀化的山村里。父母离异后，家里安静得像熄了火的引擎。14岁那年，你放下书包，走进镇上的摩托车修理铺。别人觉得脏、累、没出息，你却觉得那些沾满机油的零件比课本有意思多了。师傅骂你笨手笨脚，你不吭声，晚上偷偷把拆下来的零件摸了一遍又一遍。你不知道什么叫梦想，你只知道，发动机的声音让你安心。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "新华社/界面新闻报道"
+    },
+    {
+      "id": "evt-02",
+      "title": "拆装17次的执念",
+      "description": "为搞懂一台进口600cc发动机，将其拆装17次，手绘72张凸轮图。蒙眼一小时内徒手组装完整发动机成为标志性技能。",
+      "ageRange": { "start": 14, "end": 18 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "修理铺来了一台进口600cc发动机，没人敢碰。你盯着它看了三天，然后动手拆了。装回去的时候多了两个螺丝，你又拆了重来。就这样拆了装、装了拆，整整17次。你画了72张凸轮图，每一根线条都是手指磨出来的茧子换来的。后来你能蒙着眼睛，一个小时装好一台发动机。不是天赋，是你把每一个零件的形状、重量、温度都刻进了骨头里。",
+      "bgmTag": "focused_rhythm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果你是他，面对一台完全陌生的精密机器，你会……",
+        "options": [
+          { "label": "拆了装、装了拆，直到闭着眼都能摸对位置", "response": "你选了最笨的路。但正是这条路，让你后来赢在了别人看不懂的地方。" },
+          { "label": "先找图纸和教程，系统学习再动手", "response": "你选了更聪明的路。知识让你走得远，但有些东西只有手才知道。" }
+        ]
+      },
+      "sourceAnchor": "腾讯新闻/北京青年报"
+    },
+    {
+      "id": "evt-03",
+      "title": "暴雨中的100公里",
+      "description": "19岁冒暴雨骑行100多公里追赶电视台采访车，翻车被拒仍不放弃。这段纪录片在夺冠后刷屏网络。",
+      "ageRange": { "start": 19 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "19岁。你听说电视台有个节目组在拍摩托车手，已经走了。你骑上那辆破车就追。暴雨砸在脸上像石子，视线模糊得只剩车灯那一团光。100多公里，你摔了一次，爬起来继续骑。追到了，浑身泥水站在人家面前。他们说：不需要了。你没哭，也没走。你就站在那里，让雨水替你流完所有的委屈。二十年后这段视频刷屏的时候，人们才看懂那个少年眼里烧的是什么。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "被拒绝之后，你觉得支撑他继续走下去的是什么？",
+        "options": [
+          { "label": "不甘心——凭什么我不行", "response": "那股劲儿像引擎里的火花塞，灭了又亮，亮了又灭，但从没彻底熄灭。" },
+          { "label": "纯粹的热爱——骑车本身就是意义", "response": "不是为了证明什么，只是离开摩托车他就不知道自己是谁。" },
+          { "label": "说不清楚，就是一种本能", "response": "有些坚持不需要理由。就像呼吸，你不会问自己为什么要呼吸。" }
+        ]
+      },
+      "sourceAnchor": "头条新闻/纪录片原始素材"
+    },
+    {
+      "id": "evt-04",
+      "title": "重庆闯荡与凯越崛起",
+      "description": "2013年怀揣2万元赴重庆，靠论坛发改装帖卖车积累第一桶金。2017年联合创立凯越机车，从年销800台做到年销3万台。2023年带队征战达喀尔拉力赛。",
+      "ageRange": { "start": 26, "end": 36 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.75,
+      "narrativeText": "26岁，你揣着两万块钱去了重庆。没有背景、没有人脉，你在摩托论坛上一条一条发改装帖，一辆一辆帮人淘车。慢慢地，有人信你了。2017年你和合伙人创办了凯越机车。第一年卖了800台，第三年3万台。你带着车队去了达喀尔——那是全世界最残酷的拉力赛。你没拿冠军，但你知道了世界顶级赛场长什么样。你也知道了，你还差什么。",
+      "bgmTag": "driving_beat",
+      "visualTone": "bright",
+      "sourceAnchor": "界面新闻/北京青年报"
+    },
+    {
+      "id": "evt-05",
+      "title": "以自己的名字命名",
+      "description": "2024年离开凯越，以'张雪'为名创立ZXMOTO。发布首款500RR，2025年销量突破2.5万台。研发投入6958万，亏损2278万。",
+      "ageRange": { "start": 37 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "37岁。你离开了自己一手带大的凯越。有人说你疯了，有人说你忘恩负义。你没解释。你用了自己的名字——张雪机车。把自己的命和品牌绑在一起，输了就是输了自己。第一款车500RR发布那天，你站在台上，手心全是汗。2025年卖了2.5万台，亏了2278万。研发花了将近七千万。有人说你烧钱太猛，你说：不烧钱，怎么烧出别人造不出的引擎？",
+      "bgmTag": "determined_march",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "用自己的名字做品牌，意味着什么？",
+        "options": [
+          { "label": "把自己逼到没有退路", "response": "是的。当你的名字就是产品，每一次失败都是对自己的否定。但也正因如此，每一次成功都是重生。" },
+          { "label": "一种承诺——我不会辜负这个名字", "response": "你把三十年的人生押在了这两个字上。这不是营销，是誓言。" }
+        ]
+      },
+      "sourceAnchor": "界面新闻/张雪机车官网"
+    },
+    {
+      "id": "evt-06",
+      "title": "葡萄牙站的轰鸣",
+      "description": "2026年3月28-29日，WSBK葡萄牙站。自研820RR-RS赛车连夺两回合冠军，打破欧美日品牌37年垄断。冲线时张雪在重庆看直播激动落泪。",
+      "ageRange": { "start": 39 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "2026年3月28日。你坐在重庆的屏幕前，看着一万公里外的葡萄牙赛道。你的车，你造的引擎，你赌上一切的品牌——53号820RR-RS从第二位发车，全程领跑，领先第二名近4秒冲线。第二天，又是冠军。两天，两冠。37年来第一次有中国品牌站上WSBK的最高领奖台。你哭了。不是因为赢了，是因为那个14岁在修理铺里摸零件的少年、19岁在暴雨里摔车的少年、26岁揣着两万块去重庆的少年——他们都在这一刻活过来了。你说：做一件事不是奔着结果去而是因为热爱，可能结果真的不一样。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "sourceAnchor": "新华社/北京青年报/界面新闻"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-06"],
+    "valleyMoments": ["evt-03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

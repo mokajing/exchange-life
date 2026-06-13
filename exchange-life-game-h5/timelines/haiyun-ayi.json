@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "id": "haiyun-ayi",
+    "title": "海云阿姨",
+    "subtitle": "一个普通母亲的尊严之路——从失业离婚到金牌月嫂",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T11:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "hy-001",
+      "title": "三重打击",
+      "description": "中年遭遇失业、离婚、家庭疏远。卖掉唯一的房子，带孩子北漂。",
+      "ageRange": { "start": 38, "end": 40 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "你三十八岁那年，生活像多米诺骨牌一样倒了。工厂倒闭，丈夫离开，连娘家也觉得你'丢人'。你看着熟睡的儿子，做了一个决定：卖掉房子，去北京。你不知道北京有多大，不知道自己能做什么，只知道儿子不能没有妈，妈不能没有活下去的理由。火车开动的那一刻，你没有回头。不是不想，是不敢。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是她，在做出这个决定时……",
+        "options": [
+          { "label": "我害怕，但我必须走", "response": "恐惧和勇气从来不是对立的。真正的勇敢，是带着恐惧依然前行。" },
+          { "label": "为了孩子，什么都可以", "response": "母爱是最原始的力量。但请记住，你也是为了自己。" },
+          { "label": "也许留下来会更好？", "response": "留下也是一种选择。但你选择了不认命，这本身就是一种力量。" }
+        ]
+      }
+    },
+    {
+      "id": "hy-002",
+      "title": "第一次上户",
+      "description": "从零开始做月嫂。被雇主嫌弃'农村来的'，但她用专业和真诚赢得了信任。",
+      "ageRange": { "start": 40, "end": 42 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你考了月嫂证，第一次上户那天紧张得手心出汗。雇主家的客厅比你老家的整间屋子还大。女主人看了你一眼，说：'你是农村来的？'你点点头，没有辩解。你把每一个奶瓶消毒三遍，把宝宝的衣服叠得整整齐齐，半夜三点起来喂奶从不抱怨。一个月后，女主人拉着你的手说：'海云姐，你是我请过最好的月嫂。'那一刻你知道，尊严不是别人给的，是自己挣的。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对雇主的偏见，你会怎么回应？",
+        "options": [
+          { "label": "用行动证明自己", "response": "沉默的专业比任何辩解都有力。你用双手回答了所有质疑。" },
+          { "label": "不卑不亢地说'是的，但我专业'", "response": "承认出身不等于承认低人一等。你的底气来自实力。" }
+        ]
+      }
+    },
+    {
+      "id": "hy-003",
+      "title": "不断培训，成为金牌月嫂",
+      "description": "利用休息时间参加培训，考取高级证书。从普通月嫂成长为行业标杆。",
+      "ageRange": { "start": 42, "end": 48 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "别人休息的时候你在上课。育婴师证、营养师证、催乳师证……你把每一张证书都当作给自己的勋章。有人说你一个农村妇女考这些有什么用，你说：'我不是为了证明给谁看，我是为了让自己更值钱。'渐渐地，你的排期排到了半年后，雇主们口口相传：'找海云阿姨，放心。'你终于不用再为下个月的房租发愁了。",
+      "bgmTag": "driving_beat",
+      "visualTone": "bright"
+    },
+    {
+      "id": "hy-004",
+      "title": "儿子的一句'妈你辛苦了'",
+      "description": "多年付出终于得到儿子的理解。这句话比任何金牌都重。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "儿子长大了。有一天他回家，看到你刚下户回来累得靠在沙发上睡着了。他没有叫醒你，而是轻轻给你盖了一条毯子。等你醒来，看到桌上放着一碗面和一张纸条：'妈，你辛苦了。我以后会好好努力，让你不用再这么累了。'你端着那碗面，眼泪掉进了汤里。这些年所有的委屈、疲惫、孤独，在这一刻都被融化了。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm"
+    },
+    {
+      "id": "hy-005",
+      "title": "尊严的重量",
+      "description": "回望来路，她明白尊严不是终点，而是每一步选择不放弃的过程。",
+      "ageRange": { "start": 50 },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "现在你五十岁了。有人叫你'金牌月嫂'，有人叫你'海云阿姨'，儿子叫你'妈'。你不再是那个被工厂辞退的女工，不再是那个被丈夫抛弃的妻子，不再是那个被亲戚看不起的女儿。你是海云。一个靠自己双手活出尊严的普通女人。你的故事没有什么惊天动地的情节，但它映射着中国三千万家政从业者的真实人生——她们在别人的家里照顾别人的孩子，却常常顾不上自己的孩子。她们值得被看见，值得被尊重，值得拥有一个属于自己的名字。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["hy-002", "hy-004"],
+    "valleyMoments": ["hy-001"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["离婚", "经济困境", "社会偏见"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

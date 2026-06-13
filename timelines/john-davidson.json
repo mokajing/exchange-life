@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "john-davidson",
+    "title": "失控的嘴，不屈的魂",
+    "subtitle": "约翰·戴维森与妥瑞氏症的四十年——从被霸凌的少年到女王授勋的倡导者",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T11:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "jd-001",
+      "title": "14岁，身体开始背叛",
+      "description": "苏格兰少年约翰·戴维森14岁时确诊妥瑞氏综合征，不受控的抽搐和发声让他成为校园里的'怪胎'。",
+      "ageRange": { "start": 14, "end": 16 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你十四岁那年，身体开始不听使唤。脖子会突然扭动，嘴里会蹦出你根本不想说的词。老师说你在捣乱，同学叫你'疯子'。你知道自己不是故意的，但没有人相信你。父亲看着你的眼神从担忧变成了失望，最后变成了离开。你把自己关在房间里，觉得这具身体是一座囚笼。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是14岁的约翰，面对身体的'背叛'……",
+        "options": [
+          { "label": "拼命控制自己", "response": "你试过了。但越控制越失控。妥瑞氏症不会因为意志力而消失。" },
+          { "label": "不再去学校", "response": "逃避可以暂时止痛，但孤独比嘲笑更难受。" },
+          { "label": "告诉妈妈我不是故意的", "response": "这是最勇敢的选择。被理解的第一步，是开口说出来。" }
+        ]
+      }
+    },
+    {
+      "id": "jd-002",
+      "title": "药物的囚笼",
+      "description": "为了压制症状服用大量药物，副作用让他昏昏沉沉，几乎失去自我。在最黑暗的时刻，他想过结束一切。",
+      "ageRange": { "start": 17, "end": 25 },
+      "category": "crisis",
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "医生给你开了药。吃药后抽搐少了，但你整个人像被蒙上了一层雾。你不再是那个聪明的男孩了，你变成了一个迟钝的、安静的影子。有人说'这样好多了'，但你知道那不是'好了'，那是'消失了'。在最黑的夜里，你想过不再醒来。你觉得如果身体注定是一个错误，那活着还有什么意义？",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark"
+    },
+    {
+      "id": "jd-003",
+      "title": "永远不用为失控的自己道歉",
+      "description": "伴侣多蒂的一句话改变了一切。她接纳了他全部的不完美。",
+      "ageRange": { "start": 26, "end": 30 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "然后你遇到了多蒂。第一次约会时你的脖子一直在抽动，你说了一句脏话。你以为她会转身离开。但她只是安静地看着你，然后说了一句话：'你永远不用为失控的自己向我道歉。'那一刻，你哭了。不是因为悲伤，而是因为二十多年来，第一次有人告诉你：你不需要被修好，你只需要被接纳。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果你听到这句话……",
+        "options": [
+          { "label": "我不相信有人会真的接受我", "response": "这种不信任是正常的。被伤害太深的人，需要时间来相信温柔是真的。" },
+          { "label": "也许我可以试着放下防备", "response": "放下防备不是软弱，而是另一种勇气。你值得被完整地爱着。" }
+        ]
+      }
+    },
+    {
+      "id": "jd-004",
+      "title": "走进学校，把伤疤变成盾牌",
+      "description": "他开始走访学校做讲座，用自己的经历教孩子们理解'不同'。从被霸凌者变成倡导者。",
+      "ageRange": { "start": 30, "end": 55 },
+      "category": "career",
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你决定回到那些曾经让你恐惧的地方——学校。你站在讲台上，当着几百个孩子的面，让你的身体自由地抽动。你告诉他们：'这就是妥瑞氏症。它不会传染，不会伤人，但它会让一个人看起来很不一样。'有孩子举手问：'你不觉得丢脸吗？'你笑了：'以前觉得。但现在我觉得，如果我能让你们少嘲笑一个'不一样'的人，那我的抽动就有了意义。'",
+      "bgmTag": "determined_march",
+      "visualTone": "bright"
+    },
+    {
+      "id": "jd-005",
+      "title": "女王授勋MBE",
+      "description": "2019年获女王授予大英帝国员佐勋章，表彰他对妥瑞氏症群体的贡献。",
+      "ageRange": { "start": 56 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "白金汉宫。女王把勋章别在你的胸前。你的手在抖——不是因为紧张，是因为妥瑞氏症。但你没有试图控制它。四十年前那个躲在房间里哭泣的男孩，大概永远不会想到有一天，他会带着这具'失控'的身体站在这里。你不是因为克服了妥瑞氏症而被授勋，你是因为带着妥瑞氏症活出了尊严。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright"
+    },
+    {
+      "id": "jd-006",
+      "title": "BAFTA之夜：理解vs冒犯",
+      "description": "2026年BAFTA颁奖礼上因症状发作引发争议。全世界第一次直面这一疾病的真实面貌。",
+      "ageRange": { "start": 63 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "BAFTA颁奖礼。灯光璀璨，名流云集。你的症状突然发作，嘴里喊出了不受控的词。全场安静了。有人震惊，有人愤怒，有人不知所措。第二天，全世界都在讨论这件事。有人说你不该出席，有人说这正是妥瑞氏症的真实面貌。你选择站出来解释：'这不是冒犯，这是疾病。如果我的失控能让一百万人第一次真正了解妥瑞氏症，那我愿意承受所有的误解。'",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对公众的争议，你会怎么做？",
+        "options": [
+          { "label": "道歉并退出公众视野", "response": "保护自己没有错。但不是每个人都理解，退出不等于认错。" },
+          { "label": "继续发声，让更多人理解", "response": "这需要巨大的勇气。但每一次真诚的对话，都在缩小'不同'与'正常'之间的距离。" },
+          { "label": "让时间证明一切", "response": "有时候沉默也是一种力量。行动比言语更能改变偏见。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["jd-003", "jd-005"],
+    "valleyMoments": ["jd-001", "jd-002"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["霸凌", "自杀意念提及", "神经多样性", "种族敏感词汇已脱敏"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
