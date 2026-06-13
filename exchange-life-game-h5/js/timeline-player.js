@@ -275,4 +275,9 @@ class TimelinePlayer {
   }
 }
 
-module.exports = TimelinePlayer;
+// 双模式导出：兼容浏览器和Node环境
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = TimelinePlayer;
+} else {
+  window.TimelinePlayer = TimelinePlayer;
+}
