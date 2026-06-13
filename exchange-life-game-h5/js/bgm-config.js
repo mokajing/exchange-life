@@ -70,9 +70,26 @@ function getBGM(tag) {
 }
 
 /**
+ * BGM管理器 - 追踪当前播放实例，防止内存泄漏
+ */
+let _currentBGMInstance = null;
+
+/**
  * 播放BGM（微信小游戏InnerAudioContext）
+ * 自动停止并销毁上一个BGM实例
  */
 function playBGM(tag) {
+  // 清理上一个实例，防止内存泄漏
+  if (_currentBGMInstance) {
+    try {
+      _currentBGMInstance.stop();
+      _currentBGMInstance.destroy();
+    } catch (e) {
+      // ignore cleanup errors
+    }
+    _currentBGMInstance = null;
+  }
+
   const config = getBGM(tag);
   try {
     const audio = wx.createInnerAudioContext();
@@ -86,10 +103,26 @@ function playBGM(tag) {
     });
     
     audio.play();
+    _currentBGMInstance = audio;
     return audio;
   } catch (e) {
     console.warn(`[BGM] Exception playing ${tag}:`, e.message || e);
     return null;
+  }
+}
+
+/**
+ * 停止当前BGM并释放资源
+ */
+function stopBGM() {
+  if (_currentBGMInstance) {
+    try {
+      _currentBGMInstance.stop();
+      _currentBGMInstance.destroy();
+    } catch (e) {
+      // ignore
+    }
+    _currentBGMInstance = null;
   }
 }
 
@@ -137,5 +170,4 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
   return nextAudio;
 }
 
-const bgmExports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
-if (typeof module !== 'undefined' && module.exports) { module.exports = bgmExports; } else { window.BGMConfig = bgmExports; }
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };

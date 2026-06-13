@@ -232,6 +232,17 @@ class TimelinePlayer {
     }, 500);
   }
 
+  /**
+   * 销毁播放器，清理所有定时器和资源
+   */
+  destroy() {
+    if (this._advanceTimer) {
+      clearTimeout(this._advanceTimer);
+      this._advanceTimer = null;
+    }
+    this.state = 'idle';
+  }
+
   _hasChoices() {
     const event = this.timeline.events[this.currentEventIndex];
     return event && event.isKeyNode && event.interactionChoice && event.interactionChoice.options;
@@ -309,4 +320,4 @@ class TimelinePlayer {
   }
 }
 
-if (typeof module !== 'undefined' && module.exports) { module.exports = TimelinePlayer; } else { window.TimelinePlayer = TimelinePlayer; }
+module.exports = TimelinePlayer;

@@ -295,8 +295,9 @@ class Renderer {
     let charIndex = 0;
     for (let i = 0; i < lineIndex; i++) {
       charIndex += lines[i].length;
-      // 如果原文中有换行符，需要额外+1
-      if (this.currentText[charIndex] === '\n') {
+      // _wrapText在遇到\n时将\n前的内容推入lines，\n本身不包含在行内
+      // 因此每行之后需要跳过对应的\n字符（如果原文中该位置确实是\n）
+      if (charIndex < this.currentText.length && this.currentText[charIndex] === '\n') {
         charIndex++;
       }
     }
