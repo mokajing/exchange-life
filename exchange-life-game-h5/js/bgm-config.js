@@ -59,7 +59,14 @@ const BGM_MAP = {
   heartbeat_low:     { file: 'audio/bgm/heartbeat_low.mp3',    volume: 0.3, loop: true },
   strings_gentle:    { file: 'audio/bgm/strings_gentle.mp3',   volume: 0.3, loop: true },
   minimal_piano:     { file: 'audio/bgm/minimal_piano.mp3',    volume: 0.25, loop: true },
-  summer_nostalgia:  { file: 'audio/bgm/summer_nostalgia.mp3', volume: 0.4, loop: false }
+  summer_nostalgia:  { file: 'audio/bgm/summer_nostalgia.mp3', volume: 0.4, loop: false },
+
+  // === 东京假日本人专用标签 ===
+  new_beginning:     { file: 'audio/bgm/new_beginning.mp3',     volume: 0.35, loop: true },
+  bittersweet:       { file: 'audio/bgm/bittersweet.mp3',       volume: 0.35, loop: true },
+  emotional_peak:    { file: 'audio/bgm/emotional_peak.mp3',    volume: 0.45, loop: true },
+  homecoming:        { file: 'audio/bgm/homecoming.mp3',        volume: 0.4, loop: true },
+  resolution:        { file: 'audio/bgm/resolution.mp3',        volume: 0.4, loop: true }
 };
 
 /**
