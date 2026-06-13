@@ -54,7 +54,11 @@ const TIMELINE_LIST = [
   { id: 'li-jia',         label: '李佳：乡村教师',          level: 'L1' },
   { id: 'haiyun-ayi',     label: '海云阿姨：家政女王',      level: 'L1' },
   { id: 'john-davidson',  label: 'John Davidson：跨国收养', level: 'L2' },
-  { id: 'wu-shaoqing',    label: '吴少卿：海归返乡',        level: 'L1' }
+  { id: 'wu-shaoqing',    label: '吴少卿：海归返乡',        level: 'L1' },
+  { id: 'pompeii-baker',      label: '庞贝末日：面包师的最后24小时', level: 'L2' },
+  { id: 'antarctic-winter',   label: '南极越冬站：极夜90天',       level: 'L2' },
+  { id: 'alien-office-worker',label: '外星人上班第一天',           level: 'L1' },
+  { id: 'easter-island-speaker', label: '复活节岛最后的母语者',    level: 'L2' }
 ];
 
 let player = null;

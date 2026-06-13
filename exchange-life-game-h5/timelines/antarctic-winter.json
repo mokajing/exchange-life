@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "antarctic-winter-001",
+    "title": "南极越冬站的极夜90天",
+    "subtitle": "在南极科考站经历90天完全黑暗，等待太阳回归",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-14T01:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-aw-01",
+      "title": "封站仪式",
+      "description": "最后一班补给飞机离开，越冬队正式封站。18-20人被留在冰盖上，未来6个月没有任何外界救援可能。",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "涡轮螺旋桨的声音越来越远。你站在跑道上，看着那架飞机变成一个点，然后消失在灰蓝的天际线上。从这一刻起，全世界都帮不了你了。接下来六个月，你和身边这十八个人就是彼此的全部世界。风从冰盖上刮过来，带着零下四十度的问候。你转身走向站房，身后的跑道很快被新雪覆盖——连你来时的痕迹都不会留下。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "封站前夕，你要不要给家人打最后一个电话？",
+        "options": [
+          { "label": "打，听听他们的声音", "response": "卫星信号断断续续，你只来得及说一句'我很好'就断了线。但那三个字够了。" },
+          { "label": "不打，怕自己会哭", "response": "你把想说的话写在了日记本上。有些告别，说出来反而更重。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-aw-02",
+      "title": "极夜降临",
+      "description": "最后一次日落，太阳沿地平线擦过，此后90天只有极光、星空和探照灯光。",
+      "ageRange": { "start": 28 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "最后一次日落持续了整整三个小时。太阳沿着地平线缓缓滑行，像一枚不愿沉入水底的金币。天空从深蓝变成靛紫，最终沉入永恒的黑。你站在站房屋顶，看着最后一缕光线消失。从此以后，你的世界里不再有日出和日落。只有极光的翡翠绿和深紫偶尔划过天幕，像宇宙写给地球的情书。你从未见过如此纯粹的黑暗，也从未见过如此璀璨的星空。",
+      "bgmTag": "ambient_space",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-aw-03",
+      "title": "深度黑暗期",
+      "description": "完全黑暗期，户外温度降至-60°C至-80°C。越冬综合征开始显现：失眠、易怒、时间感知混乱。",
+      "ageRange": { "start": 28 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "第47天。你已经记不清今天是星期几了。睡眠变成了一团模糊的东西，醒来时不知道是凌晨三点还是下午三点。站内的机械嗡鸣声成了你唯一的时钟。你发现自己开始对小事发火——谁把杯子放在了错误的位置，谁的呼吸声太大了。你知道这是越冬综合征，NASA用它来模拟火星任务的心理压力。知道归知道，当黑暗像水一样灌满每一个缝隙时，理性是最先沉下去的东西。",
+      "bgmTag": "heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "已经47天没见过太阳了，你感觉怎样？",
+        "options": [
+          { "label": "还好，我能撑住", "response": "你说得轻松，但夜里翻来覆去的时候，身体比嘴诚实。" },
+          { "label": "有点撑不住了", "response": "承认脆弱不是失败。站长拍了拍你的肩说：'每个越冬队员都会经历这个阶段。'" },
+          { "label": "去找站长聊聊", "response": "你们在厨房里泡了杯热可可，聊起了各自为什么选择来南极。答案出奇地相似：想看看自己的极限在哪里。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-aw-04",
+      "title": "仲冬节",
+      "description": "南极最重要的传统节日。全球各越冬站互发贺电，厨师用最后的面粉做蛋糕，所有人围坐交换礼物。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "厨师老张用最后的面粉和罐头水果做了一个歪歪扭扭的蛋糕。上面插着十八根蜡烛，每一根都代表一个在黑暗中坚守的人。你们围坐在一起唱歌，歌声在金属墙壁间回荡，粗糙但温暖。有人拿出了珍藏的照片，有人讲了个让所有人笑到肚子疼的故事。来自英国站、美国站、俄罗斯站的贺电陆续到达——在这颗星球最孤独的角落里，你们并不孤单。黑暗中的光不是太阳，是人。",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "仲冬节到了，你准备什么礼物送给队友？",
+        "options": [
+          { "label": "一封手写信", "response": "你写了三页纸，把平时不好意思说的感谢都写了进去。收到信的队友红了眼眶。" },
+          { "label": "用废旧零件做个小玩意", "response": "你用螺丝钉和铜线做了一个迷你企鹅摆件。丑萌丑萌的，但所有人都想要。" },
+          { "label": "做一道家乡菜", "response": "你用有限的食材还原了妈妈的味道。那一刻，整个站房都变成了家。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-aw-05",
+      "title": "第一缕阳光",
+      "description": "极夜结束，太阳正式回归。所有人在屋顶等待，看到金线从地平线升起时集体落泪。",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "你在屋顶站了两个小时。寒风刺骨，但没有人离开。然后，一道金线从地平线升起来了。\n\n很细。很亮。像一把刀切开了九十天的黑暗。\n\n所有人沉默了。然后有人开始哭。然后所有人都哭了。不是因为悲伤，而是因为你从未如此真切地理解过一件事：太阳每天都会升起，这件事本身就是一个奇迹。你有多久没有因为太阳升起而感动了？在这个被遗忘的冰原上，你重新学会了感恩光明。",
+      "bgmTag": "silence_to_strings",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-aw-05"],
+    "valleyMoments": ["evt-aw-03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["极端孤独", "封闭空间焦虑", "心理压力"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

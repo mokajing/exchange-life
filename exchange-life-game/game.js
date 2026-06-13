@@ -33,7 +33,11 @@ const TIMELINE_LIST = [
   'liu-xuelian',    // L1/A/V2 - 388分到双一流硕士
   'miao-jie',       // L1/S/V1 - 柔术单亲妈妈
   'xiao-yuting',    // L2/A/V2 - 残臂农妇17年照护
-  'jiang-yanchen'   // L3/S/V2 - 反向折叠人重获新生
+  'jiang-yanchen',  // L3/S/V2 - 反向折叠人重获新生
+  'pompeii-baker',      // L2/S/V2 - 庞贝末日面包师 (P0脑洞)
+  'antarctic-winter',   // L2/S/V2 - 南极越冬站极夜90天 (P0脑洞)
+  'alien-office-worker',// L1/A/V2 - 外星人上班第一天 (P0脑洞)
+  'easter-island-speaker' // L2/A/V2 - 复活节岛最后母语者 (P0脑洞)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

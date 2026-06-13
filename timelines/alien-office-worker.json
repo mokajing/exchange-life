@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "alien-office-worker-001",
+    "title": "外星人伪装成人类上班的第一天",
+    "subtitle": "Zyx-7伪装成'张小明'，体验人类职场社交的荒诞与温暖",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-14T01:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-al-01",
+      "title": "穿衣困惑",
+      "description": "第一次尝试穿西装，把领带系在了腰上，花20分钟研究纽扣的排列逻辑。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你从充电式睡眠中醒来，打开人类行为手册第三版。今天的任务：伪装成一个叫'张小明'的人类去上班。第一步就卡住了——这条叫'领带'的织物为什么不是系在腰上？你花了二十分钟研究纽扣的排列逻辑，最终得出结论：人类的服装设计是一种故意的低效，目的是筛选出愿意为规则付出时间成本的个体。你对着镜子练习微笑，每次加载需要0.7秒。镜子里的那张脸看起来几乎像个人类了。几乎。",
+      "bgmTag": "playful_quirk",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-al-02",
+      "title": "地铁通勤",
+      "description": "完全不理解个人空间概念，贴着陌生人站立被白眼若干。保安问工牌时掏出发光晶体。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "地铁里挤满了人。你不理解为什么每个人都在刻意保持距离——在你的母星，信息共享需要物理接触。你贴着一个陌生人站得笔直，对方用一种你无法解码的眼神看了你三秒。你在笔记本上记下：'人类存在一个看不见的力场，半径约40厘米，入侵会触发敌意反应。'到了公司门口，保安问你工牌呢。你掏出一个发光的菱形晶体。空气凝固了0.8秒。你紧急改口说这是充电宝。保安的表情从警觉变成了困惑，然后挥了挥手让你进去。你的心跳模拟器加速了12%。",
+      "bgmTag": "urban_jazz",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-al-03",
+      "title": "早会自我介绍",
+      "description": "差点说出NGC-4258星系，紧急改口说来自河南。咖啡味觉传感器过载导致表情抽搐。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "早会上轮到你自我介绍。你张开嘴，差点说出'我来自NGC-4258星系'。紧急改口：'大家好，我叫张小明，来自……河南。'全场鼓掌。没有人追问为什么你的口音不像河南人。后来你才知道，人类有一种叫'礼貌'的协议，它允许人们在不深究的情况下接受彼此的存在。喝咖啡的时候，你的味觉传感器过载了——这种叫'咖啡因'的物质对人类是提神饮料，对你的传感器是一次小型电磁脉冲。你的面部肌肉失控抽搐了三秒。旁边的同事关切地问：'烫到了？'你点头。人类真好骗。",
+      "bgmTag": "playful_quirk",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "早会自我介绍时，你想怎么表现？",
+        "options": [
+          { "label": "严格按手册念预设介绍", "response": "顺利通过但无聊。你在隐身模式下观察了一整天。" },
+          { "label": "即兴发挥，说出真实想法", "response": "'我的爱好是观察你们。'全场安静了两秒，然后有人说'好特别的自我介绍！'" },
+          { "label": "紧张到说出母语（电子音）", "response": "一串电子音脱口而出。全场安静后有人说'哇你会beatbox！'你意外成了社交达人。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-al-04",
+      "title": "午餐社交陷阱",
+      "description": "同事问新来的女生怎么样，回答了身高体重心率。食堂里理解了'妈妈的味道'的含义。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "午餐前的闲聊是个雷区。同事随口问：'你觉得新来的那个女生怎么样？'你如实回答：'身高167厘米，体重53公斤，静息心率72次/分。'对方愣了三秒，然后笑着说'你这人也太直了吧'。你在笔记本上记下：'人类询问他人评价时，期望的不是数据，而是一种叫'感觉'的模糊输出。'食堂里，有人端着餐盘走过来说'这儿有人吗'。你摇头。她坐下了。你不知道为什么，但这个简单的动作让你的某个传感器产生了从未有过的读数。后来你在日志里写道：'人类的善意常常伪装成随意。'",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "同事问你老家哪儿的，你怎么回答？",
+        "options": [
+          { "label": "说河南并编造童年故事", "response": "你发现人类的故乡记忆是最柔软的部分。聊着聊着，连你自己都开始想念一个从未去过的地方。" },
+          { "label": "说很远的地方然后转移话题", "response": "同事的好奇心被你激发了。后续被反复追问，引出一段关于秘密与信任的思考。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-al-05",
+      "title": "Excel与KTV",
+      "description": "用脑波0.3秒完成整季度财报后赶紧删掉重敲。KTV用超声波震碎杯子被封麦霸。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "下午的工作是做Excel报表。你用脑波在0.3秒内完成了整个季度的财务分析。看着屏幕上完美的数据，你突然意识到这不对——人类不可能这么快。你吓得赶紧全部删掉，开始一个一个键慢慢敲。原来在人类社会，效率太高也是一种异常。下班后的团建KTV上，你用超声波频段唱了一首歌，不小心震碎了一个杯子。全场欢呼，你被封为'麦霸'。你不理解这个称号的含义，但从同事们发光的眼神判断，这似乎是某种荣誉。",
+      "bgmTag": "driving_beat",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-al-06",
+      "title": "改天请你吃饭",
+      "description": "同事说'改天一起吃饭'，掏出日历认真问哪天，全场尴尬。理解了社交客套的本质。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "下班时同事说：'改天一起吃饭啊！'你掏出日历认真地问：'哪天？'空气再次凝固。你看到对方的表情经历了一系列复杂的变化——从惊讶到尴尬到一种你无法命名的情绪。后来一个老员工笑着帮你圆场：'他刚来，还不太懂咱们的规矩。'那一刻你第一次感受到：人类的善意不需要逻辑。你在日志上划掉了'人类缺乏社群本能'，改写为：'人类用善意的谎言维护着关系的温度。改天请你吃饭不是承诺，是一种温暖的信号。'",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老板说'这个项目你跟一下'，你怎么理解？",
+        "options": [
+          { "label": "理解为物理跟踪", "response": "你跟着老板走了三个街区。老板回头看到你时脸上的表情值得载入人类学教科书。" },
+          { "label": "认真请教旁边同事", "response": "你获得了第一个人类朋友。他教你什么叫'跟项目'，你教他什么叫'真诚的困惑'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-al-07",
+      "title": "观察日志",
+      "description": "夜晚写日志：人类把40%清醒时间花在不想做的事上，但他们说这叫生活。向母星汇报。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "夜深了。你坐在窗前写观察日志。窗外是城市的灯光，每一盏灯下都有一个在做'不想做的事'的人类。你写道：'人类把40%的清醒时间花在不想做的事情上，但他们把这叫做生活。他们最奇怪的地方是会因为一杯免费的下午茶快乐30分钟，却为了每月15日的一串数字难过30天。但那杯茶是真的甜的。'你向母星发出了今天的汇报：'地球人最强大的武器不是核弹，是一个叫微信工作群的东西。但让他们值得接触的也不是科技，而是那种明知荒诞却依然坚持的日常。这种坚持本身，可能就是意义。'",
+      "bgmTag": "gentle_piano",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-al-06", "evt-al-07"],
+    "valleyMoments": ["evt-al-03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

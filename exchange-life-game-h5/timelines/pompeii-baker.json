@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "pompeii-baker-001",
+    "title": "庞贝末日：一个面包师的最后24小时",
+    "subtitle": "公元79年维苏威火山喷发，体验庞贝城面包师马库斯的最后一天",
+    "sourceType": "documentary",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-14T01:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-pb-01",
+      "title": "晨光面包",
+      "description": "凌晨4时起床，点燃油灯，检查面团。驴拉石磨研磨小麦，第一批panis quadratus出炉，刻上面包师印记。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "面团在你掌心柔软而温顺，像一个还未醒来的孩子。油灯的光在墙壁上投下摇晃的影子，石磨转动的声音是这条街最早的晨曲。你把双手插进面粉里，感受那种熟悉的、温暖的阻力。第一炉面包出炉时，麦香弥漫了整个面包坊——这是你每天最骄傲的时刻。你在每个面包上刻下自己的印记，像一位签名赠书的作者。街上的邻居们还在睡梦中，而你已经开始用双手养活这条街了。",
+      "bgmTag": "morning_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-pb-02",
+      "title": "晨市送面包",
+      "description": "街头晨市开始，奴隶普布利乌斯送面包到各熟食摊。面包坊接待第一批零售顾客。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "斯塔比亚大街渐渐热闹起来。你的面包被装进藤篮，由普布利乌斯送往各个熟食摊。零售顾客们排着队，老主妇玛尔塔照例要了两个八分圆面包，还不忘夸一句'马库斯的面包是全庞贝最好的'。邻居卢修斯凑过来低声说：'最近几天地面又震了，井水也变热了。'你笑了笑，递给他一个刚出炉的面包：'吃吧，火山安静了十七年了。'生活就是这样，人们总是选择相信一切如常。",
+      "bgmTag": "urban_jazz",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对邻居的警告，你会怎么做？",
+        "options": [
+          { "label": "认真对待，提前做逃生准备", "response": "你在心里默默记下了家中值钱物品的位置，但手上的活计没有停。" },
+          { "label": "一笑置之，火山已经安静了17年", "response": "你拍了拍卢修斯的肩膀，把他的话当作又一个街头传闻。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-pb-03",
+      "title": "浴场闲谈",
+      "description": "去公共浴场，与友人讨论近日井水变热、硫磺味加重的异象。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.3,
+      "narrativeText": "浴场的蒸汽模糊了一切。你和朋友们泡在温热的水池里，话题从面包价格转向了最近的怪事。'井水烫得像烧过的酒''地下的隆隆声越来越频繁''硫磺味重得连狗都不愿出门'。有人说该去神庙祈祷，有人说只是季节变化。你们笑着互相安慰，像所有面对未知的人类一样——明知不对，但不愿相信。热水包裹着身体，暂时隔绝了那些令人不安的念头。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-pb-04",
+      "title": "午餐中庭",
+      "description": "与妻子克劳迪娅、女儿朱莉娅在中庭用餐，享受日常的家庭时光。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "阳光透过中庭的天窗洒在餐桌上。克劳迪娅端来了橄榄和奶酪，小朱莉娅用沾满面粉的小手抓着面包往嘴里塞，脸上全是白色的粉末。她冲你笑，露出缺了一颗的门牙。这一刻没有什么比这更重要——不是面包坊的生意，不是地下的隆隆声，不是任何异象。只是你和你的家人，在这座小城里，吃着你自己烤的面包。越平凡越珍贵，只是此刻你还不知道。",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-pb-05",
+      "title": "火山喷发",
+      "description": "维苏威火山喷发柱升起，天空变暗，浮石开始降落。面包坊屋顶出现裂缝。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "天空裂开了。一根巨大的灰黑色柱子从维苏威山顶直插云霄，像一棵倒长的巨树。太阳消失了，白昼变成了黄昏。浮石像冰雹一样砸下来，先是小的，然后是拳头大的，每一颗都带着灼热的温度。面包坊的屋顶发出了可怕的断裂声。你站在炉前，看着自己毕生的心血——那些面团、那些工具、那个刻着你名字的烤炉——然后你做了一生中最艰难的决定：关上炉门，转身离开。放弃面包坊的那一刻，你放弃了自己一生的全部。",
+      "bgmTag": "heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "火山正在喷发，你必须立刻做出选择：",
+        "options": [
+          { "label": "立即带家人从海港方向逃离", "response": "你拉起克劳迪娅和朱莉娅的手，冲向斯塔比亚门的方向。" },
+          { "label": "帮助邻居老人一起逃", "response": "你折回去搀扶行动不便的老玛尔塔，队伍因此慢了下来。" },
+          { "label": "躲在地窖中等待", "response": "你把家人推进地窖，用木板封住入口，在黑暗中等待命运。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-pb-06",
+      "title": "逃亡与折返",
+      "description": "在斯塔比亚门外遭遇人群拥堵。决定折返回家取积蓄。房屋已半塌。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "斯塔比亚门外是一片混乱。哭喊声、祈祷声、坍塌声混成一片。你紧紧握着那袋塞斯特提银币——那是全家人多年的积蓄。房屋已经半塌了，你是冒着生命危险跑回去取的。克劳迪娅在门外哭着喊你的名字，朱莉娅的脸被灰烬染成了灰色。你想起了很多遇难者被发现时身旁都有钱袋——人在末日面前，依然放不下对未来的执念。但你更放不下的是眼前这两个活着的人。",
+      "bgmTag": "driving_beat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "你已经逃出来了，但想起家中还有东西没拿：",
+        "options": [
+          { "label": "不回头，继续逃", "response": "你把钱袋扔在地上，拉着家人头也不回地跑向城外。" },
+          { "label": "折返救困在废墟中的普布利乌斯", "response": "你转身冲进烟尘中，循着微弱的呼救声找到了被压在横梁下的奴隶。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-pb-07",
+      "title": "最后的拥抱",
+      "description": "火山碎屑流以时速700公里席卷全城。一切终止。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 79 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 1.0,
+      "narrativeText": "热浪从背后涌来，像一堵无形的墙。你感到温暖。然后，什么都没有了。\n\n……\n\n两千年后，考古学家在庞贝遗址发现了你们。石膏灌注进火山灰留下的空腔，还原出了最后一刻的姿态——一个男人紧紧抱着一个女人和一个孩子。他们没有名字，但他们拥抱的姿势，跨越了两千年的沉默，依然在诉说着同一件事：在一切终结的时刻，人类最本能的反应，是保护所爱之人。",
+      "bgmTag": "silence_to_strings",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt-pb-05", "evt-pb-07"],
+    "valleyMoments": ["evt-pb-04"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["自然灾害", "死亡场景", "家庭分离"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
