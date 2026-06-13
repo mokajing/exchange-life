@@ -40,12 +40,21 @@ class Renderer {
 
   /**
    * 设置新的叙事文本（触发打字机效果）
+   * @param {string} text - 叙事文本
+   * @param {number} emotionIntensity - 情绪强度(0-1)，影响打字速度（PRD V2.1情感节拍器）
    */
-  setText(text) {
+  setText(text, emotionIntensity) {
     this.currentText = text;
     this.totalChars = text.length;
     this.displayedChars = 0;
     this.isTyping = true;
+    // 情感节拍器：高情绪强度→慢速沉浸，低情绪强度→正常速度
+    // 基础速度30字/秒，情绪强度0.8时降至15字/秒，强度0.2时保持30字/秒
+    if (typeof emotionIntensity === 'number') {
+      this.typeSpeed = Math.max(15, 30 - emotionIntensity * 18);
+    } else {
+      this.typeSpeed = 30;
+    }
   }
 
   /**

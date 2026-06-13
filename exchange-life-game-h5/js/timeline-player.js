@@ -175,7 +175,8 @@ class TimelinePlayer {
 
     // 设置叙事文本和视觉色调
     const narrativeText = event.narrativeText || event.description || '';
-    this.renderer.setText(narrativeText);
+    // PRD V2.1情感节拍器：传入情绪强度调节打字速度
+    this.renderer.setText(narrativeText, event.emotionIntensity);
     if (event.visualTone) {
       this.renderer.setTone(event.visualTone);
     }
