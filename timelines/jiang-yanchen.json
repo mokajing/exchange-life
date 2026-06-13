@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "jiang-yanchen-001",
+    "title": "反向折叠人姜延琛——从Z字形畸形到重新站立",
+    "subtitle": "世界首例反向折叠病例，历经天花板级手术矫正170度，首次借助助行器独立站直行走",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T22:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "走路脚后跟不着地",
+      "description": "2004年出生于山东德州夏津县普通家庭。2岁半走路脚后跟不着地，确诊跟腱挛缩，行跟腱延长术。",
+      "ageRange": { "start": 0, "end": 5 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你两岁半的时候，妈妈发现你走路总是踮着脚。去医院检查，医生说是跟腱挛缩。做了手术，以为就好了。但命运给你的考验才刚刚开始。那时候你还不懂什么叫疾病，只知道别的小朋友能跑能跳，你不行。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "新闻报道/深度稿"
+    },
+    {
+      "id": "evt-02",
+      "title": "脖子再也托不起来",
+      "description": "小学阶段脖子逐渐后仰发硬，头再也托不起来。初三时脖子折叠贴到后背，身体呈Z字形畸形。",
+      "ageRange": { "start": 6, "end": 15 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "上小学的时候，你的脖子开始往后仰。一开始只是有点僵，后来越来越硬，直到你的头再也抬不起来。到了初三，你的脸几乎贴到了后背，整个人折成了一个Z字。你跪着上课，趴着看书，靠余光看黑板。同学们的目光像针一样扎在你身上。但你没有放弃学习，因为你知道，如果连知识都放弃了，你就真的什么都没有了。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是他，身体被折叠成Z字形，只能跪着上课，你会……",
+        "options": [
+          { "label": "拼命学习，用知识证明自己还有价值", "response": "你选了最难的路。当身体被困住的时候，思想是你唯一的自由。" },
+          { "label": "接受现实，不再勉强自己", "response": "你选择了和解。但有些人注定要在绝境里找到光。" }
+        ]
+      },
+      "sourceAnchor": "多家媒体报道"
+    },
+    {
+      "id": "evt-03",
+      "title": "趴在瑜伽垫上高考",
+      "description": "2022年6月趴在瑜伽垫上完成高考，超二本线60分，数学全班第一。被德州学院能源与动力工程专业录取。",
+      "ageRange": { "start": 18 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "2022年6月，你趴在瑜伽垫上走进了高考考场。别人坐着答题，你趴着。笔尖在纸上划过的时候，你能感觉到自己的心跳。成绩出来了：超二本线60分，数学全班第一。你被德州学院录取了。拿到录取通知书的那天，你哭了。不是因为高兴，是因为你终于证明了一件事：你的身体可以被折叠，但你的人生不会。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "sourceAnchor": "高考新闻报道"
+    },
+    {
+      "id": "evt-04",
+      "title": "世界首例反向折叠病例",
+      "description": "2023年5月赴北大第一医院治疗，王宇医生接收世界首例反向折叠病例。第一阶段手术从折叠180度展开至90度。",
+      "ageRange": { "start": 19 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "2023年5月，你被推进了北大第一医院的手术室。王宇医生说，你是他见过的第一个反向折叠病例。手术风险极高，没有人做过这样的手术。你躺在手术台上，听着仪器的滴答声，心里只有一个念头：如果我放弃了我自己，将来万一真要是治好了，我是个一无是处的人，还不如不治呢。第一阶段手术成功了。你从折叠180度展开到了90度。第一次平视这个世界的时候，你愣住了。原来天花板是这个样子的。",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对世界首例的高风险手术，你会……",
+        "options": [
+          { "label": "赌一把，哪怕只有万分之一的希望", "response": "你选了相信。有些奇迹不是等来的，是拼出来的。" },
+          { "label": "保守治疗，安全第一", "response": "你选了稳妥。但有些门一旦关上，就再也打不开了。" }
+        ]
+      },
+      "sourceAnchor": "北大第一医院报道"
+    },
+    {
+      "id": "evt-05",
+      "title": "四次天花板级手术",
+      "description": "2024年8月转至成都京东方医院梁益建团队，历经4次天花板级手术，矫正170度。",
+      "ageRange": { "start": 20, "end": 21 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.75,
+      "narrativeText": "2024年8月，你转到了成都京东方医院。梁益建团队接过了接力棒。四次手术，每一次都是在刀尖上跳舞。疼痛、恐惧、漫长的康复期——你在病床上度过了20岁和21岁。但你从来没有说过放弃。你在尽力让自己变得全面，万一将来治好了，你还是能做一个有能力的人。",
+      "bgmTag": "determined_march",
+      "visualTone": "cool",
+      "sourceAnchor": "成都京东方医院报道"
+    },
+    {
+      "id": "evt-06",
+      "title": "重获新生",
+      "description": "2025年8月25日首次借助助行器独立站直行走。8月26日出院，计划重返德州学院大三学业并备战考研。",
+      "ageRange": { "start": 21 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "2025年8月25日。你扶着助行器，一步一步，慢慢地站了起来。二十一年来，你第一次用自己的双腿直立行走。很激动，也很累。你说感觉重获新生了。第二天你出院了。你要回德州学院读大三，还要备战考研。你的身体曾经被折叠成Z字形，但你的意志从来都是笔直的。",
+      "bgmTag": "triumphant_gentle",
+      "visualTone": "bright",
+      "sourceAnchor": "出院报道"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-03", "evt-06"],
+    "valleyMoments": ["evt-02"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["重大疾病", "身体畸形", "长期病痛", "高风险手术"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

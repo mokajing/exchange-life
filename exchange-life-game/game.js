@@ -27,7 +27,10 @@ const TIMELINE_LIST = [
   'john-davidson',  // John Davidson - 跨国收养
   'wu-shaoqing',    // 吴少卿 - 海归返乡
   'song-yuansheng', // L2/S/V1 - 煤矿到教授
-  'liu-xuelian'     // L1/A/V2 - 388分到双一流硕士
+  'liu-xuelian',    // L1/A/V2 - 388分到双一流硕士
+  'miao-jie',       // L1/S/V1 - 柔术单亲妈妈
+  'xiao-yuting',    // L2/A/V2 - 残臂农妇17年照护
+  'jiang-yanchen'   // L3/S/V2 - 反向折叠人重获新生
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

@@ -355,10 +355,4 @@ class Renderer {
 
 // 导出TONE_COLORS供其他模块使用
 Renderer.TONE_COLORS = TONE_COLORS;
-
-// 双模式导出：兼容浏览器和Node.js
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = Renderer;
-} else {
-  window.Renderer = Renderer;
-}
+if (typeof module !== 'undefined' && module.exports) { module.exports = Renderer; } else { window.Renderer = Renderer; }
