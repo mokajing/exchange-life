@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "liu-xuelian-001",
+    "title": "从388分到双一流硕士——刘雪莲的七年逆袭路",
+    "subtitle": "中考失利的16岁少女，用七年光阴从中职跑到双一流硕士，把一场逆袭跑到了极致",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T19:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "388分的至暗时刻",
+      "description": "2019年中考仅388分，无缘普通高中。独自把自己关在房间流泪，不知如何面对父母和未来。",
+      "ageRange": { "start": 16 },
+      "yearRange": { "start": 2019 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "中考成绩出来的那天，你盯着手机屏幕上的388分，觉得天塌了。普通高中分数线远远够不着。你把门关上，一个人坐在床边哭。不是嚎啕大哭，是那种眼泪止不住、却发不出声音的哭。你不知道怎么跟爸妈开口。他们在外打工，省吃俭用供你读书，你却考成这样。你觉得对不起所有人，更对不起自己。那个夏天，是你人生中最长最热的黑夜。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是她，面对这个分数，你会……",
+        "options": [
+          { "label": "擦干眼泪，找一条还能走的路", "response": "你没有被分数定义。388分只是起点，不是终点。" },
+          { "label": "再复读一年，拼一把", "response": "勇气可嘉。但有时候换一条赛道，反而能跑得更远。" },
+          { "label": "算了，就这样吧", "response": "你不是不想努力，只是那一刻太累了。休息一下也没关系。" }
+        ]
+      },
+      "sourceAnchor": "湖北日报全媒报道(2026-06-13)"
+    },
+    {
+      "id": "evt-02",
+      "title": "五个字点亮希望",
+      "description": "跑遍私立高中被学费劝退后，老师推荐了中职计算机专业。老师说'可以考本科'，这五个字改变了她的人生轨迹。",
+      "ageRange": { "start": 16 },
+      "yearRange": { "start": 2019 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你跑了好几家私立高中，学费贵得吓人，家里根本负担不起。正当你快要认命的时候，班主任拉住你说：'去中职吧，可以考本科。'就这五个字——可以考本科——像一束光照进了你最黑的角落。你第一次知道，原来中职不是绝路，原来还有一条通往大学的路。你报了宜昌市现代信息学校的计算机专业。走进校门那天，你在心里对自己说：这一次，我不会再让自己失望。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "听到'可以考本科'这五个字时，你觉得改变她的是什么？",
+        "options": [
+          { "label": "一个信息差——原来还有这条路", "response": "很多时候，人和人之间的差距不是能力，是知不知道还有别的选择。" },
+          { "label": "一位愿意多说一句话的老师", "response": "有些老师教书本知识，有些老师教人生的可能性。你的班主任是后者。" }
+        ]
+      },
+      "sourceAnchor": "湖北日报/宜昌市现代信息学校官网"
+    },
+    {
+      "id": "evt-03",
+      "title": "三点一线的苦修岁月",
+      "description": "中职三年，教室、实训室、宿舍三点一线。红牛和咖啡因堆出来的日夜，全省3万考生中跻身TOP80。",
+      "ageRange": { "start": 16, "end": 19 },
+      "yearRange": { "start": 2019, "end": 2022 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.65,
+      "narrativeText": "中职三年，你的生活只有三个地方：教室、实训室、宿舍。别人刷短视频的时候你在敲代码，别人周末出去玩的时候你在刷题。红牛喝了一箱又一箱，咖啡粉直接倒进嘴里冲水咽下去。不是不累，是不敢停。你知道自己没有退路。技能高考那天，你走进考场，手心全是汗。成绩出来：全省第50名。三万名考生里，你挤进了前80。你没有欢呼，只是默默红了眼眶。",
+      "bgmTag": "focused_rhythm",
+      "visualTone": "neutral",
+      "sourceAnchor": "湖北日报/湖北文理学院校友会"
+    },
+    {
+      "id": "evt-04",
+      "title": "证明自己不比任何人差",
+      "description": "进入湖北文理学院本科，四年笃行不怠。用行动撕掉'职校生'的偏见标签，证明自己值得更好的未来。",
+      "ageRange": { "start": 19, "end": 23 },
+      "yearRange": { "start": 2022, "end": 2026 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "进了本科，你身边终于有了从普高上来的同学。有人听说你是中职考来的，眼神里闪过一丝不易察觉的轻视。你没说什么，只是比所有人都更拼。图书馆开门你第一个到，关门你最后一个走。期末成绩出来，你排在专业前列。那些曾经怀疑的目光，慢慢变成了尊重。你不是要证明给谁看，你只是要告诉自己：你值得站在这里。",
+      "bgmTag": "determined_march",
+      "visualTone": "bright",
+      "sourceAnchor": "湖北文理学院校友会"
+    },
+    {
+      "id": "evt-05",
+      "title": "七年逆袭的绽放时刻",
+      "description": "2026年收到华中师范大学（双一流）硕士研究生待录取通知。从388分到双一流，七年光阴完成了最极致的逆袭。",
+      "ageRange": { "start": 23 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "2026年5月，你打开邮箱，看到了华中师范大学的待录取通知。双一流。硕士。七年前那个对着388分哭泣的女孩，此刻安静地坐在屏幕前，眼泪又流了下来。但这一次，是笑着流的。七年。从中职到本科到双一流硕士。你跑过了无数个想放弃的夜晚，跑过了所有人的偏见和质疑，跑过了那个曾经觉得自己不配的自己。你不是天才，你只是一个不肯认输的普通人。而这个世界，终究没有辜负不肯认输的人。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "回顾这七年，你最想对16岁那个哭泣的自己说什么？",
+        "options": [
+          { "label": "别怕，路还很长，你会走到你想去的地方", "response": "388分不是你人生的句号，只是一个逗号。后面的故事，比前面精彩一万倍。" },
+          { "label": "谢谢你没有放弃自己", "response": "那个在最黑的夜里还在翻书的你，就是今天这一切的答案。" },
+          { "label": "分数不能定义你，只有你自己能", "response": "你用七年证明了一件事：人生的考卷，从来不止一张。" }
+        ]
+      },
+      "sourceAnchor": "湖北日报全媒报道(2026-06-13)/搜狐教育频道"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-05"],
+    "valleyMoments": ["evt-01"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["学业挫折"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

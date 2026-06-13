@@ -25,7 +25,9 @@ const TIMELINE_LIST = [
   'li-jia',         // 李佳 - 乡村教师
   'haiyun-ayi',     // 海云阿姨 - 家政女王
   'john-davidson',  // John Davidson - 跨国收养
-  'wu-shaoqing'     // 吴少卿 - 海归返乡
+  'wu-shaoqing',    // 吴少卿 - 海归返乡
+  'song-yuansheng', // L2/S/V1 - 煤矿到教授
+  'liu-xuelian'     // L1/A/V2 - 388分到双一流硕士
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

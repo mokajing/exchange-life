@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "song-yuansheng-001",
+    "title": "从煤矿深处到大学讲台——宋远升的逆袭人生",
+    "subtitle": "14岁辍学下井挖煤，43岁成为法学教授、博士生导师，用知识完成中国底层个体最极致的人生跨越",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T19:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "山区少年的黑暗起点",
+      "description": "1974年生于吉林蛟河山区，6岁随家迁回山东。极度贫困中长大，14岁被迫辍学下井挖煤。",
+      "ageRange": { "start": 0, "end": 14 },
+      "yearRange": { "start": 1974, "end": 1988 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你出生在吉林蛟河的山区里。六岁那年，全家迁回山东老家，日子却越过越紧巴。穷到什么程度？一年到头吃不上几顿饱饭。14岁，别的孩子还在教室里读书，你已经跟着大人下了矿井。黑漆漆的巷道里，只有头顶矿灯那一小团光。粉尘呛得你喘不过气，汗水混着煤灰糊满了脸。你不知道外面的世界有多大，你只知道，如果不挖煤，家里就揭不开锅。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "百度百家号纪实报道"
+    },
+    {
+      "id": "evt-02",
+      "title": "矿井深处的生死考验",
+      "description": "在小煤窑经历塌方、瓦斯泄漏等生死时刻。同龄伙伴有的伤残、有的离世，你在黑暗中第一次萌生了改变命运的念头。",
+      "ageRange": { "start": 14, "end": 18 },
+      "yearRange": { "start": 1988, "end": 1992 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "矿井里没有白天黑夜。你经历过塌方，石头砸在身旁不到一米的地方；你闻过瓦斯泄漏的刺鼻味道，工友喊着快跑，你腿软得几乎站不住。和你一起下井的几个年轻人，有的断了腿，有的再也没上来。每次从井下爬出来，看到天上的太阳，你都觉得像是捡回了一条命。你开始想：难道我这辈子就这样了？难道我的命就该埋在地下？",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是他，在经历了生死之后，你会……",
+        "options": [
+          { "label": "拼命读书，哪怕一边打工一边学", "response": "你选了最难的路。但正是这条路，把你从地底带到了讲台上。" },
+          { "label": "先攒钱，等有条件了再说", "response": "务实的选择。但有些窗口，错过了就不会再开。" },
+          { "label": "认命吧，活着就好", "response": "活下去本身就需要勇气。但你心里清楚，这不是你想要的答案。" }
+        ]
+      },
+      "sourceAnchor": "百度百家号纪实报道"
+    },
+    {
+      "id": "evt-03",
+      "title": "边打工边自学的漫长跋涉",
+      "description": "离开矿井后辗转打工，同时自学文化课。从初中课本开始，一路考入大学。",
+      "ageRange": { "start": 18, "end": 30 },
+      "yearRange": { "start": 1992, "end": 2004 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你离开了矿井，但并没有离开苦难。工地搬砖、工厂流水线、饭店洗碗……你干过十几种活。但不管多累，你每天晚上都会翻开书本。从初中课本开始，一个字一个字地啃。别人笑话你：一个挖煤的还想考大学？你不吭声，只是把书翻得更勤了。自考、成考、统招……你用十几年时间，走完了别人六年走完的路。当你终于拿到大学录取通知书的那一刻，你没有哭，只是长长地吐了一口气。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "支撑他在打工之余坚持学习的，你觉得是什么？",
+        "options": [
+          { "label": "不甘心——不想一辈子在底层挣扎", "response": "那股不甘像矿井里的通风口，虽小，却是唯一的光。" },
+          { "label": "对知识的纯粹渴望", "response": "在黑暗里待过的人，最懂得光的珍贵。书本就是他的光。" }
+        ]
+      },
+      "sourceAnchor": "百度百家号纪实报道"
+    },
+    {
+      "id": "evt-04",
+      "title": "从硕士到博士的学术攀登",
+      "description": "大学毕业后继续深造，一路读到博士。学术研究成为他新的战场，用笔代替了镐头。",
+      "ageRange": { "start": 30, "end": 40 },
+      "yearRange": { "start": 2004, "end": 2014 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.75,
+      "narrativeText": "进了大学，你发现自己比同学大了整整一轮。他们聊的游戏和偶像你一个都不懂，但你懂的苦难，他们一辈子也未必能体会。你把所有时间都泡在图书馆里。硕士、博士，一步一个脚印。写论文的时候，你常常想起矿井里的日子——那些黑暗中的挣扎，反而成了你研究法律与社会公平最真实的底色。你不再是用镐头挖煤的人，你是用笔挖掘真相的学者。",
+      "bgmTag": "determined_march",
+      "visualTone": "bright",
+      "sourceAnchor": "百度百家号纪实报道"
+    },
+    {
+      "id": "evt-05",
+      "title": "站上大学讲台",
+      "description": "43岁成为华东政法大学教授、博士生导师。从煤矿深处到大学讲台，完成了中国底层个体最极致的人生跨越。",
+      "ageRange": { "start": 40, "end": 52 },
+      "yearRange": { "start": 2014, "end": 2026 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "43岁那年，你站在了华东政法大学的讲台上。台下是一双双年轻的眼睛，和你当年在矿井里仰望头顶那束光时一样明亮。你是教授，是博导，是你曾经不敢想象的那个自己。你没有忘记来时的路。你的课堂上，总会讲到那些被遗忘在角落里的人——因为你自己就是从那个角落走出来的。有人问你成功的秘诀，你说：没有秘诀，只是在每一个想放弃的瞬间，又多撑了一秒。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "回顾这段从矿井到讲台的路，你最想对自己说什么？",
+        "options": [
+          { "label": "谢谢你没有放弃", "response": "那些在黑暗中多撑一秒的瞬间，最终汇聚成了讲台上的光。" },
+          { "label": "苦难不值得歌颂，但值得被记住", "response": "你不是为了吃苦才来到这个世界，但你把吃过的苦变成了照亮别人的灯。" },
+          { "label": "每一步都算数", "response": "从矿井到教室，每一步都踩在命运的裂缝上，但你从未踏空。" }
+        ]
+      },
+      "sourceAnchor": "百度百家号纪实报道"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-05"],
+    "valleyMoments": ["evt-02"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["贫困", "矿难", "生死体验"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
