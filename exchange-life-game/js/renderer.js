@@ -28,6 +28,10 @@ class Renderer {
     this.currentText = '';
     this.isTyping = false;
     
+    // 文本换行缓存（避免每帧重新计算）
+    this._cachedLines = null;
+    this._cachedTextKey = '';
+    
     // 淡入淡出
     this.fadeAlpha = 0;
     this.fadeTarget = 1;

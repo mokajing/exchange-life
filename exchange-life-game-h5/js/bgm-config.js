@@ -62,12 +62,23 @@ function getBGM(tag) {
  */
 function playBGM(tag) {
   const config = getBGM(tag);
-  const audio = wx.createInnerAudioContext();
-  audio.src = config.file;
-  audio.volume = config.volume;
-  audio.loop = config.loop;
-  audio.play();
-  return audio;
+  try {
+    const audio = wx.createInnerAudioContext();
+    audio.src = config.file;
+    audio.volume = config.volume;
+    audio.loop = config.loop;
+    
+    // 错误处理
+    audio.onError((err) => {
+      console.warn(`[BGM] Failed to play ${tag}:`, err.errMsg || err);
+    });
+    
+    audio.play();
+    return audio;
+  } catch (e) {
+    console.warn(`[BGM] Exception playing ${tag}:`, e.message || e);
+    return null;
+  }
 }
 
 /**
@@ -107,8 +118,9 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
   return nextAudio;
 }
 
+const BGM_EXPORTS = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
+  module.exports = BGM_EXPORTS;
 } else {
-  window.BGMConfig = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
+  window.BGMConfig = BGM_EXPORTS;
 }

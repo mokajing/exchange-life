@@ -3,7 +3,7 @@
  * 管理事件流转、交互选择、进度追踪
  */
 
-const Renderer = (typeof window !== 'undefined' && window.Renderer) || require('./renderer');
+const Renderer = require('./renderer');
 const TONE_COLORS = Renderer.TONE_COLORS;
 
 class TimelinePlayer {
@@ -165,9 +165,17 @@ class TimelinePlayer {
 
     this.currentEventIndex = index;
     const event = this.timeline.events[index];
+    
+    // 边界检查：确保event有效
+    if (!event) {
+      console.warn(`[TimelinePlayer] Event at index ${index} is undefined, skipping`);
+      this._advanceToNextEvent();
+      return;
+    }
 
     // 设置叙事文本和视觉色调
-    this.renderer.setText(event.narrativeText || event.description);
+    const narrativeText = event.narrativeText || event.description || '';
+    this.renderer.setText(narrativeText);
     if (event.visualTone) {
       this.renderer.setTone(event.visualTone);
     }
