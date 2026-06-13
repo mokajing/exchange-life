@@ -15,6 +15,9 @@ const TIMELINE_LIST = [
   'zhang-xue',      // L1/S/V1 - 从流浪汉到CEO
   'wang-jibing',    // L1/A/V2 - 外卖诗人
   'cai-yongbin',    // L1/A/V2 - 盲人程序员
+  'emperor-delivery', // L1/A/V2 - 古代皇帝穿越当外卖骑手 (P0脑洞)
+  'gaokao-100days',   // L1/A/V2 - 重返高三100天 (P0脑洞)
+  'danmu-world',      // L1/A/V2 - 活在弹幕世界 (P0脑洞)
   'xie-lin',        // L2/A/V2 - 大漠独行女侠
   'zheng-jinxing',  // L2/A/V2 - 一米一三的高大人生
   'min-denghua',    // L2/S/V2 - 脑瘫博士

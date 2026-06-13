@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "emperor-delivery-001",
+    "title": "朕的外卖生涯：从龙椅到电动车",
+    "subtitle": "一位古代皇帝穿越到现代，成为外卖骑手体验底层生活",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-13T12:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-ed-01",
+      "title": "穿越初醒",
+      "description": "在陌生的出租屋中醒来，发现自己不再是皇帝，而是一个普通的外卖骑手。",
+      "ageRange": { "start": 35 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你猛地睁开眼，看到的不是雕龙画凤的寝殿天花板，而是一片泛黄的白墙。空气中没有龙涎香，只有隔壁飘来的油烟味。你下意识想喊'来人'，却发现嗓子干涩得发不出声。低头一看，身上穿的不是龙袍，而是一件皱巴巴的黄色骑手服。手机在枕边震动，屏幕上弹出一条消息：'您有新的订单，请及时接单。'你愣了很久，才意识到一个荒诞的事实——你，曾经九五之尊的皇帝，现在是一个外卖骑手。窗外是车水马龙的现代都市，霓虹灯闪烁得像一场永远醒不来的梦。",
+      "bgmTag": "silence",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-ed-02",
+      "title": "第一次接单",
+      "description": "笨拙地学会使用手机App，骑上电动车送出人生第一份外卖。",
+      "ageRange": { "start": 35 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你盯着手机上那个不断跳动的倒计时，手指悬在屏幕上方迟迟不敢落下。曾经批阅奏折的手，如今连一个'接单'按钮都按不利索。你深吸一口气，点了下去。导航提示音响起，像一个不耐烦的太监在催促你赶路。你跨上电动车，风吹在脸上，比御花园里的任何一阵风都真实。你不知道这条路通向哪里，但你知道，这一次没有仪仗队为你开道，没有御膳房替你兜底。你必须自己找到路，自己送达这份冒着热气的盒饭。这是你作为'普通人'的第一道圣旨，而下达命令的是一个素未谋面的陌生人。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对完全陌生的送餐流程，你会怎么做？",
+        "options": [
+          { "label": "放下身段，虚心向老骑手请教", "response": "你拦住了一位路过的大哥，他看了你一眼，笑着说：'新来的吧？跟着我跑两趟就会了。'" },
+          { "label": "凭自己的判断摸索前行", "response": "你相信自己的能力，哪怕走错了三条街，也要用自己的方式完成这一单。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ed-03",
+      "title": "遭遇差评",
+      "description": "因为超时被顾客给了差评，第一次体验到被'评判'的滋味。",
+      "ageRange": { "start": 35 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "手机屏幕上弹出一行刺眼的文字：'配送太慢，态度一般，一星差评。'你握着手机的手微微发抖。曾经，天下人对你只有跪拜和赞美，没有人敢对你说半个'不'字。而现在，一个素未谋面的人用一根手指就否定了你整整一个小时的努力。你想愤怒，想下旨治罪，但你很快发现，这里没有大臣替你执行，没有律法为你撑腰。你只是一个超时十五分钟的骑手，一个被算法标记为'表现不佳'的数据点。你把手机塞回口袋，站在楼道里沉默了很久。电梯门开了又关，关了又开，像极了那些你永远无法回去的朝堂岁月。",
+      "bgmTag": "melancholic_piano",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-ed-04",
+      "title": "深夜反思",
+      "description": "结束一天的奔波后，在出租屋里独自回忆过去与现在的巨大落差。",
+      "ageRange": { "start": 35 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "凌晨两点，你终于回到了那个不足十平米的出租屋。脱下被汗水浸透的骑手服，你坐在床边，看着镜子里那张疲惫的脸。这张脸不再年轻，不再威严，眼角有了皱纹，嘴唇干裂起皮。你想起从前铜镜里映出的那张脸，总是被无数人称赞'龙颜大悦'。可那时候的你，真的'悦'过吗？你坐拥万里江山，却从未亲手为自己做过一顿饭；你拥有三千佳丽，却从未被人真心拥抱过。今天那个给你差评的顾客，至少还在认真地表达不满。而你从前听到的所有话，都不过是精心编排的表演。窗外的城市渐渐安静下来，你第一次听到了自己真实的呼吸声。",
+      "bgmTag": "rain_sounds",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-ed-05",
+      "title": "一碗馄饨的温度",
+      "description": "一位老人点了一碗馄饨，收到餐后真诚地说了一声谢谢，让你感受到前所未有的温暖。",
+      "ageRange": { "start": 35 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "那是一个下雨天，你接到一单来自老旧小区的馄饨订单。爬了六层楼，敲开门，迎接你的是一位满头白发的老奶奶。她接过餐盒，没有急着关门，而是抬头看着你，认真地说了一句：'小伙子，辛苦了，谢谢你啊。'就这么简单的一句话，像一道闪电劈进了你心里。你做皇帝的时候，听过千万句'万岁'，却没有一句比这三个字更重。她的眼神里没有敬畏，没有算计，只有一个普通人对另一个普通人的善意。你站在门口，雨水顺着脸颊流下来，分不清是雨还是别的什么。你突然明白，尊严不是别人跪出来的，是自己挣出来的。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这一刻，你对'尊严'有了新的理解。你会怎么回应这位老人？",
+        "options": [
+          { "label": "微笑着说'不客气，应该的'", "response": "你用平等的姿态回应了这份善意，第一次觉得'应该的'三个字如此踏实。" },
+          { "label": "深深鞠了一躬", "response": "你用曾经接受万邦来朝的礼仪，向一位普通老人表达了最真诚的敬意。" },
+          { "label": "眼眶红了，转身快步离开", "response": "你还没学会如何接受平凡的温暖，但你知道，这份温度会留在心里很久。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ed-06",
+      "title": "暴雨中的坚持",
+      "description": "在极端天气中依然准时送达，获得了顾客的认可和平台的奖励。",
+      "ageRange": { "start": 35 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.75,
+      "narrativeText": "台风天的订单比平时多了三倍，路上几乎没有行人。你穿着雨衣骑着电动车在风雨中穿行，雨水模糊了视线，大风几乎要把你吹倒。你想起从前出巡时，沿途百姓夹道跪迎，风雨再大也有人替你撑伞。而现在，你就是自己的伞。你咬着牙把最后一单送到了写字楼里，浑身湿透地站在前台。接过餐的年轻人愣了一下，然后说了句'这么大的雨你还送啊，牛'。那一刻你没有觉得委屈，反而有一种奇怪的满足感。这不是靠权力换来的服从，而是靠双腿和意志赢得的尊重。系统提示你获得了'风雨无阻'勋章，你笑了，这枚小小的虚拟勋章，比你收藏的任何玉玺都轻，却也比任何玉玺都重。",
+      "bgmTag": "driving_beat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-ed-07",
+      "title": "融入现代",
+      "description": "逐渐适应了骑手生活，在现代城市中找到了属于自己的位置和价值。",
+      "ageRange": { "start": 35 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "三个月过去了。你已经能熟练地在高峰期穿梭于城市的每一条小巷，知道哪家店的出餐最快，哪个路口最容易堵车，哪栋写字楼的电梯要等最久。你认识了几个一起跑单的兄弟，他们教你怎么看导航、怎么跟商家沟通、怎么在雨天保护餐品不被淋湿。没有人知道你是谁，也没有人在乎你曾经是谁。你只是一个普通的骑手，一个靠双手吃饭的人。有一天晚上收工后，你和几个兄弟坐在路边摊吃烧烤喝啤酒。有人问你以前是干什么的，你笑了笑说：'管过一些人，后来不管了。'他们哈哈大笑，举杯碰了一下。那一刻你忽然觉得，这杯酒比御宴上的琼浆玉液好喝一万倍。因为你终于不用再演了。",
+      "bgmTag": "urban_jazz",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt-ed-05", "evt-ed-07"],
+    "valleyMoments": ["evt-ed-03", "evt-ed-04"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V3",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

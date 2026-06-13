@@ -31,10 +31,142 @@ const wx = {
 // Make wx globally available for shared modules
 window.wx = wx;
 
+// Timeline故事列表（按安全等级排序，L1优先）
+const TIMELINE_LIST = [
+  { id: 'zhang-xue',      label: '张雪：从流浪汉到CEO',     level: 'L1' },
+  { id: 'wang-jibing',    label: '王计兵：外卖诗人',        level: 'L1' },
+  { id: 'cai-yongbin',    label: '蔡勇斌：盲人程序员',      level: 'L1' },
+  { id: 'emperor-delivery', label: '古代皇帝穿越当外卖骑手', level: 'L1' },
+  { id: 'gaokao-100days',   label: '重返高三：距离高考100天', level: 'L1' },
+  { id: 'danmu-world',      label: '活在弹幕世界',          level: 'L1' },
+  { id: 'liu-xuelian',    label: '刘学莲：388分到双一流硕士', level: 'L1' },
+  { id: 'miao-jie',       label: '苗姐：柔术单亲妈妈',      level: 'L1' },
+  { id: 'xie-lin',        label: '谢琳：大漠独行女侠',      level: 'L2' },
+  { id: 'zheng-jinxing',  label: '郑金行：一米一三的高大人生', level: 'L2' },
+  { id: 'min-denghua',    label: '闵登华：脑瘫博士26年',    level: 'L2' },
+  { id: 'zhang-guimei',   label: '张桂梅：山区女校长',      level: 'L2' },
+  { id: 'lu-hong',        label: '陆鸿：残疾创业者',        level: 'L2' },
+  { id: 'jin-xiaoyu',     label: '金晓宇：天才翻译家',      level: 'L2' },
+  { id: 'song-yuansheng', label: '宋元生：煤矿到教授',      level: 'L2' },
+  { id: 'xiao-yuting',    label: '肖玉婷：残臂农妇17年照护', level: 'L2' },
+  { id: 'su-min',         label: '苏敏：56岁自驾出逃的母亲', level: 'L3' },
+  { id: 'jiang-yanchen',  label: '姜彦辰：反向折叠人重获新生', level: 'L3' },
+  { id: 'li-jia',         label: '李佳：乡村教师',          level: 'L1' },
+  { id: 'haiyun-ayi',     label: '海云阿姨：家政女王',      level: 'L1' },
+  { id: 'john-davidson',  label: 'John Davidson：跨国收养', level: 'L2' },
+  { id: 'wu-shaoqing',    label: '吴少卿：海归返乡',        level: 'L1' }
+];
+
+let player = null;
+
 // Load timeline data (H5 uses fetch instead of require)
 async function init() {
   try {
-    const response = await fetch('timelines/zhang-xue.json');
+    // 显示故事选择界面
+    showStorySelector();
+  } catch (err) {
+    console.error('初始化失败:', err);
+    document.body.innerHTML = '<div style="color:#fff;padding:40px;font-size:18px;">加载失败，请确保通过HTTP服务器访问（非file://协议）</div>';
+  }
+}
+
+function showStorySelector() {
+  const canvas = document.getElementById('gameCanvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  let selectedIndex = -1;
+  const itemH = 50;
+  const gap = 10;
+  const padding = 30;
+  const startY = 100;
+  const maxVisible = Math.floor((canvas.height - startY - 60) / (itemH + gap));
+
+  function renderSelector() {
+    ctx.fillStyle = '#0A0A0A';
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    // 标题
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#D4A574';
+    ctx.font = 'bold 28px "PingFang SC", sans-serif';
+    ctx.fillText('交换人生', canvas.width / 2, 50);
+    ctx.fillStyle = '#888';
+    ctx.font = '14px "PingFang SC", sans-serif';
+    ctx.fillText('选择一个人生开始体验', canvas.width / 2, 78);
+
+    // 故事列表
+    TIMELINE_LIST.forEach((story, i) => {
+      if (i >= maxVisible) return;
+      const y = startY + i * (itemH + gap);
+      const isSelected = i === selectedIndex;
+
+      // 背景
+      ctx.fillStyle = isSelected ? 'rgba(212,165,116,0.2)' : 'rgba(255,255,255,0.05)';
+      ctx.beginPath();
+      ctx.roundRect(padding, y, canvas.width - padding * 2, itemH, 8);
+      ctx.fill();
+
+      // 边框
+      ctx.strokeStyle = isSelected ? '#D4A574' : 'rgba(255,255,255,0.1)';
+      ctx.lineWidth = isSelected ? 2 : 1;
+      ctx.stroke();
+
+      // 文字
+      ctx.textAlign = 'left';
+      ctx.fillStyle = isSelected ? '#D4A574' : '#E0E0E0';
+      ctx.font = `${isSelected ? 'bold ' : ''}16px "PingFang SC", sans-serif`;
+      ctx.fillText(story.label, padding + 16, y + itemH / 2 + 6);
+
+      // 等级标签
+      ctx.textAlign = 'right';
+      ctx.fillStyle = story.level === 'L1' ? '#4CAF50' : story.level === 'L2' ? '#FFC107' : '#FF5722';
+      ctx.font = '12px "PingFang SC", sans-serif';
+      ctx.fillText(story.level, canvas.width - padding - 16, y + itemH / 2 + 4);
+    });
+
+    // 提示
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgba(255,255,255,0.3)';
+    ctx.font = '12px "PingFang SC", sans-serif';
+    ctx.fillText('点击选择 · 共' + TIMELINE_LIST.length + '个故事', canvas.width / 2, canvas.height - 20);
+  }
+
+  renderSelector();
+
+  // 点击处理
+  function handleSelect(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = (e.clientX || e.touches[0].clientX) - rect.left;
+    const y = (e.clientY || e.touches[0].clientY) - rect.top;
+
+    for (let i = 0; i < Math.min(TIMELINE_LIST.length, maxVisible); i++) {
+      const iy = startY + i * (itemH + gap);
+      if (x >= padding && x <= canvas.width - padding && y >= iy && y <= iy + itemH) {
+        selectedIndex = i;
+        renderSelector();
+        // 延迟后加载故事
+        setTimeout(() => loadStory(TIMELINE_LIST[i].id), 200);
+        canvas.removeEventListener('click', handleSelect);
+        canvas.removeEventListener('touchstart', handleTouchSelect);
+        return;
+      }
+    }
+  }
+
+  function handleTouchSelect(e) {
+    e.preventDefault();
+    handleSelect(e);
+  }
+
+  canvas.addEventListener('click', handleSelect);
+  canvas.addEventListener('touchstart', handleTouchSelect, { passive: false });
+}
+
+async function loadStory(storyId) {
+  try {
+    const response = await fetch('timelines/' + storyId + '.json');
     const timelineData = await response.json();
 
     const canvas = document.getElementById('gameCanvas');
@@ -46,12 +178,14 @@ async function init() {
     window.addEventListener('resize', () => {
       canvas.width = window.innerWidth;
       canvas.height = window.innerHeight;
-      player.width = canvas.width;
-      player.height = canvas.height;
+      if (player) {
+        player.width = canvas.width;
+        player.height = canvas.height;
+      }
     });
 
     // Create player (using global TimelinePlayer from script tag)
-    const player = new TimelinePlayer({
+    player = new TimelinePlayer({
       canvas,
       ctx,
       width: canvas.width,
@@ -94,8 +228,9 @@ async function init() {
     player.start();
     gameLoop();
   } catch (err) {
-    console.error('初始化失败:', err);
-    document.body.innerHTML = '<div style="color:#fff;padding:40px;font-size:18px;">加载失败，请确保通过HTTP服务器访问（非file://协议）</div>';
+    console.error('加载故事失败:', err);
+    alert('加载故事失败: ' + err.message);
+    showStorySelector();
   }
 }
 
