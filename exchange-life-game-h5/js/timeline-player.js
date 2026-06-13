@@ -122,6 +122,9 @@ class TimelinePlayer {
   }
 
   onTouchEnd(e) {
+    // 防御性检查：changedTouches可能为空
+    if (!e.changedTouches || e.changedTouches.length === 0) return;
+    
     const touchY = e.changedTouches[0].clientY;
     const dy = Math.abs(touchY - this.touchStartY);
     const dt = Date.now() - this.touchStartTime;
