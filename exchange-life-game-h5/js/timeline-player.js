@@ -275,8 +275,4 @@ class TimelinePlayer {
   }
 }
 
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = TimelinePlayer;
-} else {
-  window.TimelinePlayer = TimelinePlayer;
-}
+module.exports = TimelinePlayer;

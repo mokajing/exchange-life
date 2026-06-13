@@ -125,8 +125,4 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
   return nextAudio;
 }
 
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
-} else {
-  window.BGMConfig = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
-}
+module.exports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
