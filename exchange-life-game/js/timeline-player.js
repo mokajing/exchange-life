@@ -134,10 +134,12 @@ class TimelinePlayer {
           const event = this.timeline.events[this.currentEventIndex];
           this.onChoiceCallback(event.id, choiceIdx);
           
-          // 显示反馈文本
+          // 显示反馈文本（保持情感节拍器节奏）
           this.state = 'feedback';
           this.choiceFeedbackTimer = this.choiceFeedbackDuration;
-          this.renderer.setText(this._getFeedbackText(event));
+          const feedbackText = this._getFeedbackText(event);
+          // 反馈文本使用中等情绪强度0.5，避免过快或过慢
+          this.renderer.setText(feedbackText, 0.5);
         }
         break;
 
