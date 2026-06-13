@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "jin-xiaoyu",
+    "title": "《我们的天才儿子》：躁郁症翻译家金晓宇的苦难与光芒",
+    "subtitle": "6岁失明、高中确诊躁郁症，十年翻译22部著作600万字",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T15:22:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "6岁左眼失明",
+      "description": "童年时左眼意外失明，从此只能用一只眼看世界",
+      "ageRange": { "start": 6 },
+      "yearRange": { "start": 1978 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "6岁那年，你的左眼永远失去了光明。从此，你只能用一只眼睛看这个世界。视野变窄了，但你学会了用更专注的目光去凝视每一行文字。",
+      "bgmTag": "melancholy-cello",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-002",
+      "title": "高中确诊躁郁症",
+      "description": "高中阶段确诊躁郁症，多次住院、自杀未遂",
+      "ageRange": { "start": 15, "end": 20 },
+      "yearRange": { "start": 1987, "end": 1992 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "高中的时候，你的情绪开始像过山车一样失控。有时兴奋得彻夜不眠，有时抑郁得想结束一切。医生说是躁郁症。你住进了精神病院，不止一次。那些日子，黑暗得像没有尽头。",
+      "bgmTag": "dark-ambient",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "当精神疾病让你反复跌入深渊，什么能让你继续前行？",
+        "options": [
+          { "label": "家人不离不弃的爱", "response": "是父母的眼神，告诉你'我们永远不会放弃你'。" },
+          { "label": "找到一件能让自己平静的事", "response": "你在文字中找到了安宁，翻译成了你的避风港。" },
+          { "label": "对未来的某种执念", "response": "你相信黑暗中总有光，只是还没找到开关。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-003",
+      "title": "自学英日德三语",
+      "description": "在父母守护下自学英语、日语、德语三门外语",
+      "ageRange": { "start": 20, "end": 30 },
+      "yearRange": { "start": 1992, "end": 2002 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "出院后，你把自己关在房间里。父母没有逼你工作，只是默默陪着你。你开始学英语、日语、德语。语言成了你和世界对话的方式，也成了你对抗疾病的武器。",
+      "bgmTag": "gentle-piano",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-004",
+      "title": "十年翻译22部著作600万字",
+      "description": "十年间翻译22部著作，累计600余万字",
+      "ageRange": { "start": 30, "end": 40 },
+      "yearRange": { "start": 2002, "end": 2012 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "十年，22本书，600万字。你的手指在键盘上敲击出另一个世界的声音。翻译的时候，你不是病人，不是'那个疯子'，你是一个译者，一个让文字跨越语言边界的人。",
+      "bgmTag": "creative-flow",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果你能找到一件事让你忘记痛苦，那会是什么？",
+        "options": [
+          { "label": "沉浸在一项需要专注的工作中", "response": "当你全神贯注时，时间停止了，痛苦也暂停了。" },
+          { "label": "创造一些属于自己的东西", "response": "作品是你存在的证明，比任何诊断书都真实。" },
+          { "label": "帮助他人，从中获得意义", "response": "当你看到别人因你而受益，痛苦就有了价值。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-005",
+      "title": "照料患阿尔茨海默症的母亲",
+      "description": "母亲患阿尔茨海默症，由他照料三年直至离世",
+      "ageRange": { "start": 40, "end": 43 },
+      "yearRange": { "start": 2012, "end": 2015 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "妈妈忘了很多人和事，但她记得你。你放下了翻译，每天给她做饭、擦身、陪她说话。三年前她照顾你，现在换你了。直到她离开的那天，你握着她的手，轻声说：'妈，谢谢你。'",
+      "bgmTag": "farewell-piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-006",
+      "title": "父亲致电媒体：能不能写写我儿子",
+      "description": "父亲在殡仪馆致电媒体，希望世人知道儿子的故事",
+      "ageRange": { "start": 43 },
+      "yearRange": { "start": 2015 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "妈妈走后，爸爸老了。他在殡仪馆里拨通了记者的电话：'能不能写写我儿子？他翻译了很多书……'这是一个父亲最后的心愿——让世界知道，他的儿子不是'疯子'，是一个有才华的人。",
+      "bgmTag": "emotional-climax",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果你的父母为你做了一件让你意想不到的事，你会怎么感受？",
+        "options": [
+          { "label": "感动到无法言语", "response": "原来他们一直看在眼里，只是从未说出口。" },
+          { "label": "愧疚自己让他们操心了这么多年", "response": "你想说对不起，但话到嘴边变成了'谢谢你们'。" },
+          { "label": "决心不辜负他们的期望", "response": "从今以后，你要活得让他们骄傲。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-007",
+      "title": "全网阅读过亿，被称为杭州版《美丽心灵》",
+      "description": "报道引发全网关注，阅读量过亿",
+      "ageRange": { "start": 43, "end": 45 },
+      "yearRange": { "start": 2015, "end": 2017 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "文章发出去后，阅读量破亿。人们叫你'杭州版《美丽心灵》'。你没想到，自己这个躲在房间里翻译的人，会被这么多人看见。",
+      "bgmTag": "hopeful-strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-008",
+      "title": "父亲去世，开始独居生活",
+      "description": "2023年父亲去世后，51岁的他开始独居，继续翻译",
+      "ageRange": { "start": 51 },
+      "yearRange": { "start": 2023 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "2023年，爸爸也走了。51岁的你，第一次独自生活。屋子里安静得可怕，但你打开了电脑，继续翻译。你知道，这是爸妈最想看到的——你没有停下来。",
+      "bgmTag": "lonely-piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-009",
+      "title": "签署遗体捐献书，继续翻译事业",
+      "description": "签署遗体捐献书，以另一种方式延续生命的意义",
+      "ageRange": { "start": 51 },
+      "yearRange": { "start": 2023 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你签署了遗体捐献书。你说，身体是父母给的，最后也要还给这个世界。而你翻译的文字，会代替你继续活着。",
+      "bgmTag": "peaceful-ambient",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-004", "evt-006"],
+    "valleyMoments": ["evt-002", "evt-005", "evt-008"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["mental-illness", "suicide-reference", "bereavement", "caregiver-burnout"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

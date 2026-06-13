@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "id": "lu-hong",
+    "title": "从傻子到千万厂长：脑瘫少年陆鸿的逆袭人生",
+    "subtitle": "被骂连狗都不如的脑瘫患者，用40年成为感动中国人物",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T15:22:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "10个月大时中毒性脑炎致脑瘫",
+      "description": "1979年生于苏州吴江，10个月大时因中毒性脑炎致脑瘫",
+      "ageRange": { "start": 0, "end": 1 },
+      "yearRange": { "start": 1979, "end": 1980 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你来到这个世界才10个月，一场中毒性脑炎改变了你的命运。从此，你的身体不再听使唤，说话含糊不清，走路摇摇晃晃。",
+      "bgmTag": "melancholy-cello",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-002",
+      "title": "被嘲傻子的童年",
+      "description": "自幼被嘲笑为傻子，承受歧视与孤立",
+      "ageRange": { "start": 6, "end": 18 },
+      "yearRange": { "start": 1985, "end": 1997 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "'傻子！'这两个字像针一样扎进你的耳朵。同学们躲着你，邻居们议论你。你学会了低头走路，学会了把委屈咽进肚子里。",
+      "bgmTag": "lonely-piano",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-003",
+      "title": "求职被辱连狗都不如",
+      "description": "找工作时被老板当面羞辱",
+      "ageRange": { "start": 18, "end": 20 },
+      "yearRange": { "start": 1997, "end": 1999 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.9,
+      "narrativeText": "那个夏天，你鼓起勇气去工厂应聘。老板看了你一眼，当着所有人的面说：'你这样的人，连狗都不如！'你站在那里，脸烧得通红。那一刻，你在心里发誓：一定要活出个人样来。",
+      "bgmTag": "tense-drum",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "当你被这样羞辱时，你会怎么回应？",
+        "options": [
+          { "label": "默默离开，用行动证明自己", "response": "你没有争辩，转身离开。但心里的火，烧得更旺了。" },
+          { "label": "当场反驳，维护尊严", "response": "你颤抖着说：'我会证明你看错人了。'" },
+          { "label": "回家大哭一场，然后重新开始", "response": "眼泪流干了，你擦干脸，开始寻找下一条路。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-004",
+      "title": "摆摊修自行车起步",
+      "description": "从摆摊修自行车开始自食其力",
+      "ageRange": { "start": 20, "end": 25 },
+      "yearRange": { "start": 1999, "end": 2004 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你在街边摆了个修车摊。手不灵活，就一遍遍练；动作慢，就比别人早起两小时。慢慢地，来找你修车的人多了起来。",
+      "bgmTag": "determined-rhythm",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-005",
+      "title": "自学PS和摄影，开照相馆",
+      "description": "自学Photoshop和摄影，练就把头P正的绝活",
+      "ageRange": { "start": 25, "end": 35 },
+      "yearRange": { "start": 2004, "end": 2014 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你用不灵活的手指，一下下敲击键盘学习PS。别人觉得不可能的照片，你硬是把自己的头'P正'了。你开了照相馆，顾客说：'这师傅手艺真绝！'",
+      "bgmTag": "creative-flow",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-006",
+      "title": "成立纸制品公司，吸纳残疾员工",
+      "description": "2017年成立公司，吸纳35名残疾员工抱团取暖",
+      "ageRange": { "start": 38 },
+      "yearRange": { "start": 2017 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你成立了纸制品公司，招了35个和你一样的残疾员工。你说：'我们抱团取暖，谁也别嫌弃谁。'看着他们认真工作的样子，你知道自己做对了。",
+      "bgmTag": "warm-community",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果你有能力帮助和你处境相似的人，你会怎么做？",
+        "options": [
+          { "label": "创造就业机会，让他们自食其力", "response": "你相信每个人都有价值，只需要一个机会。" },
+          { "label": "提供技能培训，授人以渔", "response": "你把自己学到的本领，毫无保留地教给他们。" },
+          { "label": "建立互助社群，彼此支撑", "response": "你们互相鼓励，在黑暗中找到彼此的光。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-007",
+      "title": "被合伙人骗走70万",
+      "description": "曾被合伙人骗走70万，在妻子支持下东山再起",
+      "ageRange": { "start": 38, "end": 40 },
+      "yearRange": { "start": 2017, "end": 2019 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你最信任的合伙人卷走了70万。那是你全部的血汗钱。你躺在床上三天没起来。妻子沈春妹坐在床边说：'没关系，我们从头再来。'她的话像一束光，照进了深渊。",
+      "bgmTag": "heartbreak-violin",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-008",
+      "title": "相册远销海外，年营业额超1500万",
+      "description": "产品卖进故宫、华为，年营业额超1500万",
+      "ageRange": { "start": 40, "end": 44 },
+      "yearRange": { "start": 2019, "end": 2023 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你的相册卖到了十几个国家，故宫和华为都成了你的客户。年营业额超过1500万。曾经被骂'傻子'的你，现在被人叫'陆老板'。",
+      "bgmTag": "triumphant-brass",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-009",
+      "title": "获评感动中国2022年度人物",
+      "description": "2023年获评感动中国2022年度人物",
+      "ageRange": { "start": 44 },
+      "yearRange": { "start": 2023 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "站在感动中国的舞台上，灯光打在你身上。主持人念出你的名字，台下掌声雷动。你想起了那个被骂'连狗都不如'的夏天，想起了妻子那句'从头再来'。这一刻，所有的苦难都有了意义。",
+      "bgmTag": "emotional-climax",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "当你终于被世界看见，你最想感谢谁？",
+        "options": [
+          { "label": "感谢从未放弃的自己", "response": "是你自己，在最黑暗的时候选择了坚持。" },
+          { "label": "感谢一直支持你的家人", "response": "没有他们的爱，你走不到今天。" },
+          { "label": "感谢那些曾经看不起你的人", "response": "是他们的轻视，点燃了你心中的火。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-010",
+      "title": "进军科技助残领域",
+      "description": "2025年研发轮椅牵引车头，帮助更多残疾人",
+      "ageRange": { "start": 46 },
+      "yearRange": { "start": 2025 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你没有停下脚步。2025年，你开始研发轮椅牵引车头。当一个坐上轮椅的员工装上它，激动地说'好像有了翅膀'时，你知道，这才是你真正想做的事。",
+      "bgmTag": "hopeful-strings",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-009"],
+    "valleyMoments": ["evt-003", "evt-007"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["disability-discrimination", "verbal-abuse"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "meta": {
+    "id": "li-jia",
+    "title": "从环卫工到研究生：8小时外求上进的母亲",
+    "subtitle": "32岁环卫工妈妈碎片化学习8个月考上研究生",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T15:22:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-001",
+      "title": "普通家庭出生",
+      "description": "出生于普通家庭，成长过程平稳",
+      "ageRange": { "start": 0, "end": 18 },
+      "yearRange": { "start": 1993, "end": 2011 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你出生在一个普通的家庭，没有太多波澜的童年，像大多数孩子一样长大。",
+      "bgmTag": "gentle-piano",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-002",
+      "title": "大专毕业学英语",
+      "description": "大专英语专业毕业，步入社会",
+      "ageRange": { "start": 18, "end": 22 },
+      "yearRange": { "start": 2011, "end": 2015 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你选择了英语专业，毕业后踏入社会，对未来有些迷茫但充满期待。",
+      "bgmTag": "hopeful-strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-003",
+      "title": "结婚生子开小店",
+      "description": "2015年结婚，先后育有两子，与丈夫开冒菜店后歇业",
+      "ageRange": { "start": 22, "end": 28 },
+      "yearRange": { "start": 2015, "end": 2021 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你结婚了，有了两个孩子。和丈夫一起开了家冒菜店，生活忙碌而充实。但小店后来歇业了，你需要找一份稳定的工作。",
+      "bgmTag": "family-warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-004",
+      "title": "入职成都理工大学环卫岗",
+      "description": "2021年12月入职成都理工大学环卫岗位，日复一日清扫校园",
+      "ageRange": { "start": 28, "end": 32 },
+      "yearRange": { "start": 2021, "end": 2025 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你成为了成都理工大学的一名环卫工。每天凌晨5:45起床，清扫校园。日子重复而压抑，但校园里弥漫的书香气息，悄悄在你心里种下了一颗种子。",
+      "bgmTag": "melancholy-cello",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-005",
+      "title": "决定考研",
+      "description": "2025年4月看到考研录取刷屏，决定考研",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2025 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "那天你刷到考研录取的消息，心跳突然加速。一个念头闪过脑海：'我也可以试试吗？'你深吸一口气，做出了改变命运的决定。",
+      "bgmTag": "dramatic-buildup",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果你在这个年纪决定重新开始学习，你会怎么做？",
+        "options": [
+          { "label": "立刻制定计划，全力以赴", "response": "你拿出了笔记本，开始规划每一天的学习时间。" },
+          { "label": "先试试看，不行再放弃", "response": "你告诉自己先试一个月，没想到这一试就是八个月。" },
+          { "label": "和家人商量后再决定", "response": "你和丈夫谈了很久，他最终支持了你的决定。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-006",
+      "title": "获评一级环卫工，一度想放弃",
+      "description": "2025年7月获评一级环卫工，工作量增加，备考压力巨大",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2025 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你被评为一级环卫工，工作量增加了。白天扫地累得直不起腰，晚上还要看书做题。有好几次，你想过放弃。但看着熟睡的孩子，你又翻开了书本。",
+      "bgmTag": "tense-strings",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-007",
+      "title": "碎片化学习8个月",
+      "description": "利用碎片时间学习，6门科目备考",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2025 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你把时间掰成碎片：扫地的间隙背单词，午休时做题，等孩子睡着后看网课。8个月，6门科目，你用别人喝咖啡的时间，拼出了自己的未来。",
+      "bgmTag": "determined-rhythm",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-008",
+      "title": "初试超国家线40分",
+      "description": "2025年12月初试，成绩超国家线约40分",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2025 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "成绩出来了。你颤抖着手点开页面——超国家线40分！那一刻，所有的疲惫都化作了泪水。你做到了。",
+      "bgmTag": "triumphant-brass",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-009",
+      "title": "复试紧张到手抖",
+      "description": "2026年3-4月复试，紧张到手抖但顺利通过",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "复试那天，你的手一直在抖。面试官的问题像连珠炮，但你想起那些凌晨的苦读，深吸一口气，稳稳地回答了每一个问题。",
+      "bgmTag": "suspense-piano",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-010",
+      "title": "收到拟录取通知",
+      "description": "2026年4月7日17:32收到拟录取通知，第一时间告诉母亲",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "4月7日下午5点32分，手机震动。你看到'拟录取'三个字，眼泪夺眶而出。你第一个拨通了妈妈的电话——此前你从未告诉娘家人自己在考研。电话那头，妈妈哭了。",
+      "bgmTag": "emotional-climax",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "当你终于实现了一个看似不可能的梦想，你最想告诉谁？",
+        "options": [
+          { "label": "第一时间告诉父母", "response": "你知道他们一直相信你，哪怕你从未说出口。" },
+          { "label": "先独自消化这份喜悦", "response": "你需要一点时间，确认这不是梦。" },
+          { "label": "告诉一直支持你的伴侣", "response": "是他/她的默默承担，让你有机会追逐梦想。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-011",
+      "title": "校园广播念出名字",
+      "description": "2026年5月28日校园广播念出她的名字，圆满高潮",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "校园广播里传出了你的名字。曾经你是那个默默扫地的人，现在整个学校都知道——有一位环卫工妈妈，考上了本校的研究生。",
+      "bgmTag": "celebration-orchestra",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-012",
+      "title": "即将入学开启新篇章",
+      "description": "2026年9月即将辞去环卫工作，正式入学",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2026 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "九月，你将脱下环卫服，背上书包走进教室。这不是终点，而是另一段人生的起点。你说：'8小时内求生存，8小时外求上进。'",
+      "bgmTag": "new-beginning",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-010", "evt-011"],
+    "valleyMoments": ["evt-006"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
