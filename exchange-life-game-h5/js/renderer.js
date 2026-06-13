@@ -275,6 +275,12 @@ class Renderer {
   // === 工具方法 ===
 
   _wrapText(ctx, text, maxWidth) {
+    // 使用缓存避免每帧重复计算
+    const cacheKey = text + '|' + maxWidth + '|' + ctx.font;
+    if (this._cachedTextKey === cacheKey && this._cachedLines) {
+      return this._cachedLines;
+    }
+    
     const lines = [];
     let currentLine = '';
     
@@ -295,6 +301,11 @@ class Renderer {
       }
     }
     if (currentLine) lines.push(currentLine);
+    
+    // 更新缓存
+    this._cachedLines = lines;
+    this._cachedTextKey = cacheKey;
+    
     return lines;
   }
 
@@ -315,6 +326,7 @@ class Renderer {
 
 // 导出TONE_COLORS供其他模块使用
 Renderer.TONE_COLORS = TONE_COLORS;
+
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = Renderer;
 } else {

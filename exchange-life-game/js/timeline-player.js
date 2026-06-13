@@ -269,19 +269,8 @@ class TimelinePlayer {
   }
 
   _wrapFeedbackText(ctx, text, maxWidth) {
-    const lines = [];
-    let currentLine = '';
-    for (let i = 0; i < text.length; i++) {
-      const testLine = currentLine + text[i];
-      if (ctx.measureText(testLine).width > maxWidth && currentLine.length > 0) {
-        lines.push(currentLine);
-        currentLine = text[i];
-      } else {
-        currentLine = testLine;
-      }
-    }
-    if (currentLine) lines.push(currentLine);
-    return lines;
+    // 复用Renderer的_wrapText方法，避免代码重复
+    return this.renderer._wrapText(ctx, text, maxWidth);
   }
 }
 

@@ -92,6 +92,10 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
   nextAudio.loop = nextConfig.loop;
   nextAudio.play();
 
+  // 保存初始音量用于线性计算
+  const startVolume = currentAudio ? currentAudio.volume : 0;
+  const targetVolume = nextConfig.volume;
+  
   // 简单线性淡入淡出
   const steps = 20;
   const interval = (duration * 1000) / steps;
@@ -102,9 +106,11 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
     const progress = step / steps;
     
     if (currentAudio) {
-      currentAudio.volume = Math.max(0, (1 - progress) * currentAudio.volume);
+      // 线性衰减：从startVolume到0
+      currentAudio.volume = Math.max(0, startVolume * (1 - progress));
     }
-    nextAudio.volume = Math.min(nextConfig.volume, progress * nextConfig.volume);
+    // 线性增长：从0到targetVolume
+    nextAudio.volume = Math.min(targetVolume, targetVolume * progress);
 
     if (step >= steps) {
       clearInterval(timer);
@@ -112,6 +118,7 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
         currentAudio.stop();
         currentAudio.destroy();
       }
+      nextAudio.volume = targetVolume;
     }
   }, interval);
 
