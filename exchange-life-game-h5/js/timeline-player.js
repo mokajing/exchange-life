@@ -21,10 +21,14 @@ class TimelinePlayer {
 
     // 播放状态
     this.currentEventIndex = 0;
-    this.state = 'idle'; // idle | typing | waiting | choosing | feedback | complete
+    this.state = 'idle'; // idle | safety_prompt | typing | waiting | choosing | feedback | complete
     this.selectedChoice = -1;
     this.choiceFeedbackTimer = 0;
     this.choiceFeedbackDuration = 3; // 秒
+
+    // 安全提示（PRD V2.1 UESL模型）
+    this.safetyLevel = (this.timeline.safetyInfo && this.timeline.safetyInfo.complianceLevel) || 'L1';
+    this.requiresSafetyPrompt = this.safetyLevel === 'L2' || this.safetyLevel === 'L3' || this.safetyLevel === 'L4';
 
     // 触摸检测
     this.touchStartY = 0;
@@ -42,9 +46,29 @@ class TimelinePlayer {
    */
   start() {
     this.currentEventIndex = 0;
-    this._loadEvent(0);
-    this.renderer.fadeAlpha = 0;
-    this.renderer.fadeTarget = 1;
+    // PRD V2.1: L2+故事开始前显示心理安全提示
+    if (this.requiresSafetyPrompt) {
+      this.state = 'safety_prompt';
+      this.renderer.setText(this._getSafetyPromptText(), 0.3);
+      this.renderer.fadeAlpha = 0;
+      this.renderer.fadeTarget = 1;
+    } else {
+      this._loadEvent(0);
+      this.renderer.fadeAlpha = 0;
+      this.renderer.fadeTarget = 1;
+    }
+  }
+
+  /**
+   * 获取安全提示文本（PRD V2.1 UESL模型）
+   */
+  _getSafetyPromptText() {
+    const level = this.safetyLevel;
+    if (level === 'L3' || level === 'L4') {
+      return '⚠️ 本故事涉及较重情感内容。\n\n如果你正在经历类似困境，请确保有亲友陪伴或寻求专业支持。\n\n体验过程中可随时点击退出。\n\n心理援助热线：400-161-9995\n\n准备好后，点击开始体验。';
+    }
+    // L2
+    return '💡 本故事涉及一些情感话题。\n\n如果感到不适，可以随时暂停或退出。\n\n准备好后，点击开始体验。';
   }
 
   /**
@@ -110,6 +134,11 @@ class TimelinePlayer {
 
   _handleTap(x, y) {
     switch (this.state) {
+      case 'safety_prompt':
+        // PRD V2.1: 用户确认安全提示后开始体验
+        this._loadEvent(0);
+        break;
+
       case 'typing':
         // 点击跳过打字动画
         this.renderer.skipTyping();

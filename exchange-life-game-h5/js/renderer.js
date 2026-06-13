@@ -211,11 +211,14 @@ class Renderer {
     const visibleLines = lines.slice(0, maxLines);
 
     visibleLines.forEach((line, i) => {
-      // 逐行淡入效果：基于行索引和打字进度的平滑过渡
-      const lineProgress = Math.min(1, this.displayedChars / Math.max(1, this.totalChars));
-      const lineDelay = i / Math.max(1, visibleLines.length);
-      const lineAlpha = Math.min(1, (lineProgress - lineDelay * 0.5) * 2 + 0.3);
-      ctx.globalAlpha = Math.max(0.3, Math.min(1, lineAlpha));
+      // 逐行淡入效果：每行基于其在文本中的字符位置独立计算淡入进度
+      // 计算该行对应的字符范围在总文本中的比例位置
+      const lineCharStart = this._getLineCharIndex(i, lines);
+      const lineCharEnd = lineCharStart + line.length;
+      const charProgress = Math.min(1, this.displayedChars / Math.max(1, lineCharEnd));
+      // 平滑淡入：从0.2到1.0，避免完全透明
+      const lineAlpha = 0.2 + charProgress * 0.8;
+      ctx.globalAlpha = Math.max(0.2, Math.min(1, lineAlpha));
       ctx.fillText(line, padding, startY + i * lineHeight);
     });
     ctx.globalAlpha = 1;
@@ -285,6 +288,21 @@ class Renderer {
 
   // === 工具方法 ===
 
+  /**
+   * 获取第lineIndex行在原始文本中的起始字符索引
+   */
+  _getLineCharIndex(lineIndex, lines) {
+    let charIndex = 0;
+    for (let i = 0; i < lineIndex; i++) {
+      charIndex += lines[i].length;
+      // 如果原文中有换行符，需要额外+1
+      if (this.currentText[charIndex] === '\n') {
+        charIndex++;
+      }
+    }
+    return charIndex;
+  }
+
   _wrapText(ctx, text, maxWidth) {
     // 使用缓存避免每帧重复计算
     const cacheKey = text + '|' + maxWidth + '|' + ctx.font;
@@ -338,7 +356,7 @@ class Renderer {
 // 导出TONE_COLORS供其他模块使用
 Renderer.TONE_COLORS = TONE_COLORS;
 
-// 双模式导出：兼容浏览器和Node环境
+// 双模式导出：兼容浏览器和Node.js
 if (typeof module !== 'undefined' && module.exports) {
   module.exports = Renderer;
 } else {

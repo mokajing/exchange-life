@@ -125,10 +125,10 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
   return nextAudio;
 }
 
-// 双模式导出：兼容浏览器和Node环境
-const BGMExports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
+// 双模式导出：兼容浏览器和Node.js
+const bgmExports = { BGM_MAP, getBGM, playBGM, crossfadeBGM };
 if (typeof module !== 'undefined' && module.exports) {
-  module.exports = BGMExports;
+  module.exports = bgmExports;
 } else {
-  window.BGMConfig = BGMExports;
+  window.BGMConfig = bgmExports;
 }
