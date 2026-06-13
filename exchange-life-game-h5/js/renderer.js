@@ -202,8 +202,10 @@ class Renderer {
     const visibleLines = lines.slice(0, maxLines);
 
     visibleLines.forEach((line, i) => {
-      // 逐行淡入效果
-      const lineAlpha = Math.min(1, (this.displayedChars / this.totalChars) * visibleLines.length - i * 0.3);
+      // 逐行淡入效果：基于行索引和打字进度的平滑过渡
+      const lineProgress = Math.min(1, this.displayedChars / Math.max(1, this.totalChars));
+      const lineDelay = i / Math.max(1, visibleLines.length);
+      const lineAlpha = Math.min(1, (lineProgress - lineDelay * 0.5) * 2 + 0.3);
       ctx.globalAlpha = Math.max(0.3, Math.min(1, lineAlpha));
       ctx.fillText(line, padding, startY + i * lineHeight);
     });
