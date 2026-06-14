@@ -100,6 +100,20 @@ class TimelinePlayer {
    * 每帧渲染
    */
   render() {
+    // echo/complete状态下不渲染event内容，由回响环节自行处理
+    if (this.state === 'echo' || this.state === 'complete') {
+      const progress = 1;
+      this.renderer.render({
+        title: '',
+        subtitle: null,
+        choices: null,
+        selectedChoice: -1,
+        progress: progress,
+        feedbackText: null
+      });
+      return;
+    }
+
     const event = this.timeline.events[this.currentEventIndex];
     if (!event) return;
 
