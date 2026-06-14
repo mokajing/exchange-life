@@ -80,7 +80,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.5,
       "narrativeText": "第18站，一个年轻人摇摇晃晃上了车，酒气弥漫。\n\n他找了个座位坐下，头靠着窗户，眼神迷离。你从后视镜里看了他一眼。\n\n末班车上，每个人都带着自己的故事。有些故事，需要你多一点耐心。",
-      "bgmTag": "ambient-calm",
+      "bgmTag": "ambient_calm",
       "visualTone": "dark",
       "interactionChoice": {
         "prompt": "这位乘客看起来不太舒服……",
