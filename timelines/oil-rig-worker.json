@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": "oil-rig-worker",
+    "title": "海上石油钻井平台工人",
+    "subtitle": "在离岸300公里的钢铁孤岛上，与世隔绝28天——这是地球上最危险的工业岗位之一",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWmMdleoMCbwEwa3ZWGlDd3mE",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_helicopter",
+      "title": "直升机登机",
+      "description": "Day -1：从珠海/深圳直升机基地登机，1.5小时飞行至南海某钻井平台。下降时看到无边无际的深蓝色海面上那个火柴盒大小的钢架结构。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "直升机的螺旋桨轰鸣着，你的胃随着每一次颠簸而收紧。窗外是无边无际的深蓝，直到一个火柴盒大小的钢架出现在海平面上——那就是你未来28天的全部世界。",
+      "bgmTag": "industrial_tension",
+      "visualTone": "cool",
+      "sourceAnchor": "第85卷·Layer1·时间线Day-1"
+    },
+    {
+      "id": "evt_02_adapt",
+      "title": "适应期",
+      "description": "Day 1-3：每天12小时轮班，学会在摇晃中走路、在噪音中交流、在密闭空间找到自己的节奏。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "平台永远在晃。吃饭时汤会洒出来，睡觉时床会摇，连上厕所都要扶着墙。噪音无处不在——钻机的轰鸣、海浪拍打钢柱的节奏、对讲机里的电流声。你开始学着在这些声音里找到自己的呼吸。",
+      "bgmTag": "ocean_waves",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "第一次独立操作设备，你怎么做？",
+        "options": [
+          { "label": "照手册来", "response": "老员工说你太慢了，但安全员点了点头。安全比速度重要。" },
+          { "label": "按野路子来", "response": "任务完成了，但被安全员警告。在这里，规矩是用命换来的。" }
+        ]
+      },
+      "sourceAnchor": "第85卷·Layer1·时间线Day1-3"
+    },
+    {
+      "id": "evt_03_routine",
+      "title": "机械重复",
+      "description": "Day 4-14：钻井、测压、泥浆调配、设备维护。每天面对同样的走廊、食堂、人脸。时间感开始模糊。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "日子变成了复制粘贴。起床、换工服、上班、吃饭、下班、洗澡、睡觉。走廊是一样的灰色，食堂是一样的不锈钢餐盘，连同事的脸都开始重叠。你不再数日子了——数了只会觉得更慢。",
+      "bgmTag": "monotone_loop",
+      "visualTone": "neutral",
+      "sourceAnchor": "第85卷·Layer1·时间线Day4-14"
+    },
+    {
+      "id": "evt_04_deep_sea",
+      "title": "深海期",
+      "description": "Day 15-21：心理上最深的地方。与外界联系只有卫星电话和偶尔的视频通话。有人开始数倒计时，有人对着海说话。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第17天，你收到家里的消息：孩子发烧住院了。视频通话只有三分钟，信号断断续续。你说'没事，爸爸很快就回来了'，挂断后在甲板上站了很久。海上的星空无比清澈，但你只想看一眼家里的天花板。",
+      "bgmTag": "lonely_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "收到家里的坏消息，你会怎么做？",
+        "options": [
+          { "label": "申请提前轮换", "response": "队长说名额满了，但拍了拍你的肩。你知道他尽力了。" },
+          { "label": "咬牙坚持", "response": "同事们没说什么，但晚饭时有人默默给你夹了块肉。这就是战友情。" }
+        ]
+      },
+      "sourceAnchor": "第85卷·Layer2·情感层低谷"
+    },
+    {
+      "id": "evt_05_stuck_drill",
+      "title": "卡钻事故",
+      "description": "凌晨3点，钻头卡在3000米深处的岩层里。全平台震动，警报响了。所有人15分钟内各就各位，处理了6个小时成功解卡。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "警报声把你从床上弹起来。凌晨三点，整个平台在震动。钻头卡在了3000米深处——如果处理不当，可能引发井喷。你穿上工服冲向岗位，手在抖，但脑子异常清醒。六个小时后，当钻头终于松动的那一刻，欢呼声比任何一场球赛都响亮。",
+      "bgmTag": "emergency_alarm",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "紧急处理方案怎么选？",
+        "options": [
+          { "label": "激进方案", "response": "风险高但快。幸运的是，这次赌赢了。" },
+          { "label": "保守方案", "response": "全队多紧张了6小时，但没有人受伤。安全永远是第一位的。" }
+        ]
+      },
+      "sourceAnchor": "第85卷·Layer1·关键事件2"
+    },
+    {
+      "id": "evt_06_birthday",
+      "title": "海上生日",
+      "description": "一个工友在平台过生日。食堂阿姨用面粉和奶油做了蛋糕，全平台80多人一起唱生日歌。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "蛋糕歪歪扭扭的，奶油有点化，蜡烛是食堂阿姨从储物间翻出来的。但当80多个穿着橙色工服的男人挤在一起唱生日歌时，你觉得这是世界上最温暖的派对。他说这是他过得最简陋却最难忘的生日。",
+      "bgmTag": "warm_gathering",
+      "visualTone": "warm",
+      "sourceAnchor": "第85卷·Layer1·关键事件3"
+    },
+    {
+      "id": "evt_07_departure",
+      "title": "离开平台",
+      "description": "Day 28：直升机来了。脱下连体工服，看着平台越来越小。那种终于离开了和还会回来的复杂心情。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "直升机起飞的那一刻，你没有欢呼。你看着平台变小、变远，变成海平面上的一个点。28天前你害怕它，现在你要离开它了。你不是解脱，你是骄傲、疲惫、不舍和期待的混合体。回到陆地后，城市的嘈杂让你恍惚——世界还是那个世界，但你已经不是那个你了。",
+      "bgmTag": "farewell_ocean",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "下一个28天，你还签吗？",
+        "options": [
+          { "label": "签", "response": "孤独还在，但你知道自己能扛。而且，那群兄弟还在等你。" },
+          { "label": "回家", "response": "你需要一段时间重新适应陆地。但至少，你证明了自己能做到。" }
+        ]
+      },
+      "sourceAnchor": "第85卷·Layer1·时间线Day28"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt_05_stuck_drill", "evt_06_birthday"],
+    "valleyMoments": ["evt_04_deep_sea"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["industrial_accident", "isolation_anxiety"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

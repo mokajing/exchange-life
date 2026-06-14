@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "qing-palace-maid",
+    "title": "清朝宫女出宫后的第一天",
+    "subtitle": "自由了却不知道往哪走——一个在紫禁城生活了十余年的宫女，迈出神武门后面对陌生的'自由'",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeQ5pjoQuN2xAxnlWxkXOEP2",
+    "authorized": true,
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-15T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_gate",
+      "title": "迈出神武门",
+      "description": "06:00 神武门外，发放遣散银两约20两。身后是生活了十余年的紫禁城，身前是'自由'——但这个词对她来说很陌生。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你迈出神武门的那一刻，晨光刺眼。身后是熟悉的红墙黄瓦，身前是一条你从未走过的街。手里攥着20两遣散银，这是你在宫里十年换来的全部家当。自由了——可你不知道该往哪走。",
+      "bgmTag": "ancient_morning",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "出宫后第一件事做什么？",
+        "options": [
+          { "label": "先吃顿饭", "response": "你走向街边的小摊，第一次发现食物可以这么烫，没人催你快吃。" },
+          { "label": "找落脚处", "response": "你开始打听回老家的路，却发现连'东南西北'都不会说了。" },
+          { "label": "找熟人", "response": "你想找以前出宫的姐妹，却发现连她们的名字都记不全了。" }
+        ]
+      },
+      "sourceAnchor": "第87卷·Layer1·核心事件1"
+    },
+    {
+      "id": "evt_02_meal",
+      "title": "第一顿饭",
+      "description": "07:30 在街头小摊吃一碗豆腐脑，发现原来食物可以这么烫，没人催她快吃。小小的惊喜。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.5,
+      "narrativeText": "街边的豆腐脑冒着热气，你小心翼翼地吹了吹。在宫里，吃饭有固定的时间、固定的姿势、固定的沉默。现在，你可以慢慢吃，可以烫嘴，可以发出声音。这碗豆腐脑，是你二十五年人生里第一顿真正属于自己的饭。",
+      "bgmTag": "street_market",
+      "visualTone": "warm",
+      "sourceAnchor": "第87卷·Layer1·核心事件2"
+    },
+    {
+      "id": "evt_03_lost",
+      "title": "迷路问路",
+      "description": "12:00 在护国寺附近迷路。她不知道'东南西北'在宫外怎么用，因为习惯了用'乾清宫方向''坤宁宫方向'来定位。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你站在护国寺的街口，四周都是陌生的面孔和嘈杂的声音。你想问路，却发现自己说不出'东南西北'——在宫里，你只说'往乾清宫方向'或'朝坤宁宫那边走'。你张了张嘴，脸涨得通红。",
+      "bgmTag": "urban_confusion",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "遇到路人时怎么做？",
+        "options": [
+          { "label": "大方求助", "response": "你鼓起勇气开口，路人热心指了路。原来宫外的世界没那么可怕。" },
+          { "label": "不好意思开口", "response": "你站在原地很久，直到一个好心的大娘主动问你。" },
+          { "label": "假装自己知道", "response": "你随便选了个方向走，结果绕回了原点。但至少，你迈出了第一步。" }
+        ]
+      },
+      "sourceAnchor": "第87卷·Layer1·核心事件3"
+    },
+    {
+      "id": "evt_04_fabric",
+      "title": "买布做衣",
+      "description": "15:00 第一次自己买布料做衣服。发现宫外的布料颜色居然可以自己选，最后选了宫里不允许的桃红色。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "布摊上的颜色让你眼花缭乱。在宫里，你只能穿蓝布长衫，不许鲜艳，不许戴首饰。现在，这些颜色都属于你。你的手停在一匹桃红色的布上——这是宫里绝对禁止的颜色。你深吸一口气，指着它说：'就要这个。'",
+      "bgmTag": "gentle_hope",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "选什么颜色的布料？",
+        "options": [
+          { "label": "桃红色", "response": "你的心跳加速了。这是你第一次为自己做决定，感觉像偷来的快乐。" },
+          { "label": "天蓝色", "response": "你选了个温和的颜色，像是给自己一个缓冲。自由可以慢慢来。" },
+          { "label": "素色", "response": "你还是习惯性地选了安全的颜色。没关系，下次也许就会不一样。" }
+        ]
+      },
+      "sourceAnchor": "第87卷·Layer1·核心事件4"
+    },
+    {
+      "id": "evt_05_night",
+      "title": "夜晚独处",
+      "description": "18:00 在客栈独自过夜。没有值夜嬷嬷查房，没有更漏声，她失眠了——自由太安静了。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "客栈的房间很小，但比宫里的任何地方都安静。没有嬷嬷的脚步声，没有更漏的滴答声，没有远处传来的钟鸣。你躺在床上，听着自己的呼吸声，突然觉得自由像一座空房子——很大，但没有回声。你失眠了。",
+      "bgmTag": "quiet_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "这个安静的夜晚，你想做什么？",
+        "options": [
+          { "label": "写封信", "response": "你提起笔，却发现不知道该写给谁。宫里的姐妹们还在高墙之内，而你已经在墙外了。" },
+          { "label": "数银子", "response": "你把20两银子数了一遍又一遍。这是你的全部，也是你的起点。" },
+          { "label": "看窗外", "response": "窗外的月光洒进来，和宫里的月光一样亮。但这一次，没有人催你熄灯。" }
+        ]
+      },
+      "sourceAnchor": "第87卷·Layer1·核心事件5"
+    },
+    {
+      "id": "evt_06_dawn",
+      "title": "新的开始",
+      "description": "第二天清晨，她决定先去买一张北京城的地图。自由的第二天，她开始学着认识这个世界。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1890, "end": 1890 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "天亮了。你推开窗，晨风带着街市的气息。昨晚的空旷感还在，但你不再害怕了。你决定今天先去买一张北京城的地图——既然不会认路，那就从头学起。后来，你开了自己的裁缝铺，专门做桃红色的衣裳。",
+      "bgmTag": "new_beginning",
+      "visualTone": "warm",
+      "sourceAnchor": "第87卷·Layer2·情感弧线收束"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_fabric"],
+    "valleyMoments": ["evt_05_night"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

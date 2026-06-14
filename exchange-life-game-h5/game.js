@@ -66,7 +66,9 @@ const TIMELINE_LIST = [
   { id: 'er-nurse-newyear',      label: '急诊科护士的跨年值班夜',   level: 'L2' },
   { id: 'sat-diver-rescue',      label: '深海饱和潜水员水下救援72h', level: 'L3' },
   { id: 'qin-no-burning-books',  label: '如果秦始皇没有焚书坑儒',     level: 'L1' },
-  { id: 'bus-night-driver',      label: '公交车末班车司机的午夜归程',   level: 'L1' }
+  { id: 'bus-night-driver',      label: '公交车末班车司机的午夜归程',   level: 'L1' },
+  { id: 'qing-palace-maid',      label: '清朝宫女出宫后的第一天',       level: 'L1' },
+  { id: 'oil-rig-worker',        label: '海上石油钻井平台工人28天',     level: 'L2' }
 ];
 
 let player = null;

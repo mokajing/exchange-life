@@ -98,7 +98,23 @@ const BGM_MAP = {
   emotional_strings: { file: 'audio/bgm/emotional_strings.mp3', volume: 0.4, loop: true },
   solitude_piano:    { file: 'audio/bgm/solitude_piano.mp3',    volume: 0.25, loop: true },
   nostalgic_warm:    { file: 'audio/bgm/nostalgic_warm.mp3',    volume: 0.35, loop: true },
-  warm_ending:       { file: 'audio/bgm/warm_ending.mp3',       volume: 0.35, loop: false }
+  warm_ending:       { file: 'audio/bgm/warm_ending.mp3',       volume: 0.35, loop: false },
+
+  // === 清朝宫女出宫专用标签 (2026-06-15 P0第87卷) ===
+  ancient_morning:   { file: 'audio/bgm/ancient_morning.mp3',   volume: 0.3, loop: true },
+  street_market:     { file: 'audio/bgm/street_market.mp3',     volume: 0.35, loop: true },
+  urban_confusion:   { file: 'audio/bgm/urban_confusion.mp3',   volume: 0.3, loop: true },
+  gentle_hope:       { file: 'audio/bgm/gentle_hope.mp3',       volume: 0.35, loop: true },
+  quiet_night:       { file: 'audio/bgm/quiet_night.mp3',       volume: 0.25, loop: true },
+
+  // === 海上钻井平台工人专用标签 (2026-06-15 P0第85卷) ===
+  industrial_tension:{ file: 'audio/bgm/industrial_tension.mp3',volume: 0.4, loop: true },
+  ocean_waves:       { file: 'audio/bgm/ocean_waves.mp3',       volume: 0.3, loop: true },
+  monotone_loop:     { file: 'audio/bgm/monotone_loop.mp3',     volume: 0.25, loop: true },
+  lonely_piano:      { file: 'audio/bgm/lonely_piano.mp3',      volume: 0.3, loop: true },
+  emergency_alarm:   { file: 'audio/bgm/emergency_alarm.mp3',   volume: 0.5, loop: false },
+  warm_gathering:    { file: 'audio/bgm/warm_gathering.mp3',    volume: 0.35, loop: true },
+  farewell_ocean:    { file: 'audio/bgm/farewell_ocean.mp3',    volume: 0.35, loop: true }
 };
 
 /**
