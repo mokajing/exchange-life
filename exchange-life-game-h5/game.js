@@ -65,7 +65,8 @@ const TIMELINE_LIST = [
   { id: 'kyoto-wagashi-heir',    label: '京都百年老铺第四代传人',    level: 'L1' },
   { id: 'er-nurse-newyear',      label: '急诊科护士的跨年值班夜',   level: 'L2' },
   { id: 'sat-diver-rescue',      label: '深海饱和潜水员水下救援72h', level: 'L3' },
-  { id: 'qin-no-burning-books',  label: '如果秦始皇没有焚书坑儒',     level: 'L1' }
+  { id: 'qin-no-burning-books',  label: '如果秦始皇没有焚书坑儒',     level: 'L1' },
+  { id: 'bus-night-driver',      label: '公交车末班车司机的午夜归程',   level: 'L1' }
 ];
 
 let player = null;

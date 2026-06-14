@@ -1,0 +1,176 @@
+{
+  "meta": {
+    "id": "bus-night-driver",
+    "title": "公交车末班车司机的午夜归程",
+    "subtitle": "城市夜晚最真实的切片，后视镜里13年的光影流转",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8gKlzPoKunez6e2q89ekBD76",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-14T20:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-precheck",
+      "title": "发车前的仪式",
+      "description": "到达公交总站，签到打卡，做发车前例行检查。踢一脚轮胎听声音——老师傅教的，开了16年已成肌肉记忆。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "21:00，你走进公交总站。夜班的灯光昏黄而熟悉。\n\n你绕着车走一圈，踢一脚轮胎——闷响，气压够了。这个动作重复了十六年，身体比脑子先记住。\n\n钥匙转动，引擎低鸣。刷卡机的绿灯亮起，像是在说：准备好了。",
+      "bgmTag": "ambient_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-02-departure",
+      "title": "末班车出发",
+      "description": "21:30末班车从总站发出，沿23路全程37站，单程约75分钟。和调度员确认线路，拿钥匙，预热发动机。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "21:30，末班车准时发出。\n\n37站，28.7公里。这条线路你闭着眼都能开——三个商圈、两家医院、一所大学、一个火车站。\n\n白天的喧嚣已经退潮，剩下的才是这座城市最真实的样子。",
+      "bgmTag": "urban_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-03-passengers",
+      "title": "深夜乘客图谱",
+      "description": "去程沿途观察上车的乘客：加班到崩溃的白领、刚下夜班的保安、约会结束的情侣、喝醉后抱着扶手的年轻人、从医院出来的老人。",
+      "ageRange": { "start": 48 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "车门打开，又关上。每个人都是一帧画面。\n\n加班到眼神空洞的白领，靠在窗边睡着了。刚下夜班的保安，制服上还沾着灰。一对情侣在后排小声说着什么，女孩把头靠在男孩肩上。\n\n一个喝醉的年轻人紧紧抱着扶手，嘴里念叨着听不清的话。一位老人从医院那站上车，手里攥着一张化验单。\n\n你不问，不看，但都记得。",
+      "bgmTag": "melancholy_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-04-rain-wheelchair",
+      "title": "雨夜的轮椅乘客",
+      "description": "三年前暴雨夜破例多等3分钟，因为看到远处有轮椅拼命往车站赶。从此每晚在那个站多等30秒，成了不成文的约定。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第3站到了。外面下着雨。\n\n三年前的那个暴雨夜，你在后视镜里看到一个轮椅正拼命往这边赶。你破了例，多等了三分钟。\n\n从那以后，每到这一站，你都多等30秒。不需要谁的感谢，只是想着——万一他今晚就在赶路呢？",
+      "bgmTag": "emotional_strings",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "雨夜，远处似乎有人影在移动……",
+        "options": [
+          { "label": "多等30秒", "response": "后视镜里，一个身影匆匆赶来。车门打开时，一声轻轻的「谢谢师傅」飘进来。画面短暂变暖。" },
+          { "label": "按规定时间发车", "response": "车门关闭，驶离站台。后视镜里，一个模糊的身影渐渐远去。车厢安静得只剩下引擎声。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-drunk-passenger",
+      "title": "醉酒乘客",
+      "description": "遇到醉酒乘客，需要判断是否提供帮助。末班车司机需要更擅长判断乘客状态。",
+      "ageRange": { "start": 48 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "第18站，一个年轻人摇摇晃晃上了车，酒气弥漫。\n\n他找了个座位坐下，头靠着窗户，眼神迷离。你从后视镜里看了他一眼。\n\n末班车上，每个人都带着自己的故事。有些故事，需要你多一点耐心。",
+      "bgmTag": "ambient-calm",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "这位乘客看起来不太舒服……",
+        "options": [
+          { "label": "停车询问是否需要帮助", "response": "你轻声问了一句「还好吗」。他抬起头，眼眶红红的，说了句「没事，就是累了」。你点点头，继续开车。有时候一句问候就够了。" },
+          { "label": "保持观察但不干预", "response": "你默默注意着他的状态。他在下一站下了车，脚步踉跄但还算稳当。你目送他消失在路灯尽头。" },
+          { "label": "通过广播提醒到站", "response": "「下一站，平安路。」广播响起。他像是被唤醒了什么，抬起头看了看窗外，然后慢慢站起来。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-06-emotional-crash",
+      "title": "情绪崩溃者",
+      "description": "第28站，一位乘客情绪崩溃。深夜的车厢里，有些情绪终于藏不住了。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第28站，一个中年女人上了车。\n\n她坐在最后一排，低着头。过了几站，你听到压抑的抽泣声。\n\n深夜的末班车，是很多人唯一可以不用假装坚强的地方。",
+      "bgmTag": "emotional_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "后排传来压抑的哭声……",
+        "options": [
+          { "label": "递一包纸巾到后排", "response": "你趁着红灯停车的间隙，把一包纸巾轻轻放在她旁边的座位上。她没有抬头，但哭声渐渐小了。有些温暖不需要语言。" },
+          { "label": "放慢车速，给她多一些时间", "response": "你把车速放得很慢很慢。这段路本来五分钟就到，你开了八分钟。到站时，她已经擦干了眼泪，轻声说了句「谢谢」。" },
+          { "label": "报站时多说一句注意安全", "response": "「下一站到了，请注意安全。」你的声音比平时柔和了一些。她抬起头看了你一眼，点了点头。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-07-return-empty",
+      "title": "回程的空车",
+      "description": "回程最后5站往往空无一人，但依然每站停靠、开门、关门。因为在后视镜里看到过有人在远处奔跑。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "00:10，回程。\n\n车厢空了。报站器的电子女声在空荡荡的车厢里回响，像是一种陪伴。\n\n最后五站，没有人上车。但你依然每站停靠、开门、关门。\n\n因为你曾在后视镜里看到过有人在远处奔跑——「如果我开走了，他要再等多久？」",
+      "bgmTag": "solitude_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "最后几站，车厢空无一人……",
+        "options": [
+          { "label": "每站照常停靠", "response": "开门，等待，关门。每一站都是对某个可能存在的赶路人的一份承诺。后视镜里，路灯拉长了空座椅的影子。" },
+          { "label": "加速通过，早些回家", "response": "你踩下油门，站点一闪而过。到家早了十分钟，但心里有什么东西没放下。" },
+          { "label": "在后视镜里多看一眼再决定", "response": "你习惯性地看了一眼后视镜。远处没有奔跑的身影，只有一盏路灯孤零零地亮着。你还是停了车，开门，等待，关门。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-08-reflection",
+      "title": "后视镜里的城市",
+      "description": "13年来从后视镜看着城市变化：楼拆了又建，店开了又关，乘客的面孔从年轻变成中年再也没出现过。",
+      "ageRange": { "start": 48 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "后视镜是一面时光的镜子。\n\n十三年了。有些楼拆了又建起来，有些店开了又关了。有些面孔从年轻坐到中年，然后某一天就再也没出现过。\n\n你不认识他们中的任何一个，但你记得每一张脸。\n\n这座城市在你的后视镜里活着。",
+      "bgmTag": "nostalgic_warm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-09-home",
+      "title": "桌上的纸条",
+      "description": "骑电动车回家，妻子已睡，桌上留着饭菜和一张纸条「热一下再吃」。写了13年，字从圆珠笔变成了老花镜才能看清的字。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "00:50，到家了。\n\n妻子已经睡了。桌上留着饭菜，旁边是一张纸条：「热一下再吃。」\n\n这张纸条写了十三年。字迹从圆珠笔变成了老花镜才能看清的模样。\n\n你热了饭，坐下来，安安静静地吃完。\n\n窗外的城市还在亮着灯，而你回到了属于自己的那一盏。",
+      "bgmTag": "warm_ending",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-04-rain-wheelchair", "evt-09-home"],
+    "valleyMoments": ["evt-06-emotional-crash", "evt-07-return-empty"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

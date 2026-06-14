@@ -90,7 +90,15 @@ const BGM_MAP = {
   intellectual:      { file: 'audio/bgm/intellectual.mp3',      volume: 0.3, loop: true },
   triumph:           { file: 'audio/bgm/triumph.mp3',           volume: 0.5, loop: false },
   reflective:        { file: 'audio/bgm/reflective.mp3',        volume: 0.3, loop: true },
-  farewell:          { file: 'audio/bgm/farewell.mp3',          volume: 0.3, loop: true }
+  farewell:          { file: 'audio/bgm/farewell.mp3',          volume: 0.3, loop: true },
+
+  // === 末班车司机专用标签 (2026-06-14 P0第50卷) ===
+  urban_night:       { file: 'audio/bgm/urban_night.mp3',       volume: 0.25, loop: true },
+  melancholy_piano:  { file: 'audio/bgm/melancholy_piano.mp3',  volume: 0.3, loop: true },
+  emotional_strings: { file: 'audio/bgm/emotional_strings.mp3', volume: 0.4, loop: true },
+  solitude_piano:    { file: 'audio/bgm/solitude_piano.mp3',    volume: 0.25, loop: true },
+  nostalgic_warm:    { file: 'audio/bgm/nostalgic_warm.mp3',    volume: 0.35, loop: true },
+  warm_ending:       { file: 'audio/bgm/warm_ending.mp3',       volume: 0.35, loop: false }
 };
 
 /**

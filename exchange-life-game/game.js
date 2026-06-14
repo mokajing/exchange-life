@@ -44,7 +44,8 @@ const TIMELINE_LIST = [
   'kyoto-wagashi-heir',     // L1/A/V2 - 京都百年老铺第四代传人 (P0第3卷)
   'er-nurse-newyear',       // L2/S/V1 - 急诊科护士跨年值班夜 (P0第9卷)
   'sat-diver-rescue',       // L3/S/V1 - 深海饱和潜水员水下救援72h (P0第33卷)
-  'qin-no-burning-books'    // L1/S/V2 - 如果秦始皇没有焚书坑儒 (P0第43卷)
+  'qin-no-burning-books',   // L1/S/V2 - 如果秦始皇没有焚书坑儒 (P0第43卷)
+  'bus-night-driver'          // L1/S/V2 - 公交车末班车司机的午夜归程 (P0第50卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
