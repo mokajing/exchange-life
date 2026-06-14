@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "id": "lighthouse-keeper",
+    "title": "灯塔守护人的最后一次值守",
+    "subtitle": "31年孤岛守望，今夜之后灯塔将无人看守——一个即将消失的职业的最后告别",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeQ5pjoQuN2xbj2OWxkXOEP2",
+    "authorized": true,
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-15T02:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_arrival",
+      "title": "初登孤岛",
+      "description": "1985年，23岁的小林从海军退役，被分配到东海某孤岛灯塔站，成为最年轻的灯塔守护人。",
+      "ageRange": { "start": 23, "end": 23 },
+      "yearRange": { "start": 1985, "end": 1985 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你踏上这座孤岛时，海风裹着盐雾扑面而来。23岁的你刚从海军退役，被分配到东海某灯塔站。站长是个沉默的中年人，只说了一句：'从今天起，你就是光的守护者了。'",
+      "bgmTag": "ocean_calm",
+      "visualTone": "cool",
+      "sourceAnchor": "第90卷·Layer1·时间线1985"
+    },
+    {
+      "id": "evt_02_typhoon",
+      "title": "台风中的坚守",
+      "description": "1992年，第一次经历台风正面袭击，发电机故障，手动摇柄维持灯塔运转36小时，获海上卫士嘉奖。",
+      "ageRange": { "start": 30, "end": 30 },
+      "yearRange": { "start": 1992, "end": 1992 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "台风来了。发电机在狂风中罢工，你用双手摇动备用摇柄，一下、两下……整整36小时。灯塔的光没有熄灭，你的手臂几乎失去知觉。事后你获得了海上卫士嘉奖，但只有你知道那36小时有多漫长。",
+      "bgmTag": "storm_tension",
+      "visualTone": "dark",
+      "sourceAnchor": "第90卷·Layer1·时间线1992"
+    },
+    {
+      "id": "evt_03_solitude",
+      "title": "搭档离开后的孤独",
+      "description": "2003年，灯塔站从三人编制缩减为两人；搭档老王退休，新来的年轻人待了三个月就走了。",
+      "ageRange": { "start": 41, "end": 41 },
+      "yearRange": { "start": 2003, "end": 2003 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "老王退休那天，接他的船带走了岛上最后一个人声。新来的年轻人只待了三个月就申请调走了。从此，这座岛上只剩你和光。你开始对着大海自言自语，海浪成了你唯一的回应。",
+      "bgmTag": "lonely_waves",
+      "visualTone": "cool",
+      "sourceAnchor": "第90卷·Layer1·时间线2003"
+    },
+    {
+      "id": "evt_04_notice",
+      "title": "自动化改造通知",
+      "description": "2015年，上级通知灯塔将全面自动化改造，人工值守制度将于次年取消。",
+      "ageRange": { "start": 53, "end": 53 },
+      "yearRange": { "start": 2015, "end": 2015 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "一纸通知打破了30年的平静。灯塔将全面自动化，不再需要人值守了。你看着那张薄薄的纸，感觉比台风的重量还沉。机器可以替代你的工作，但能替代你31年的守护吗？",
+      "bgmTag": "silence_after_storm",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "如何处理自动化设备说明书？",
+        "options": [
+          { "label": "认真阅读，了解新系统", "response": "你翻开说明书，一行行读下去。理性告诉你这是进步，但心里有个声音在说：这些代码不懂什么是守护。" },
+          { "label": "扔进抽屉，不想看", "response": "你把说明书塞进抽屉深处。不是抗拒，只是还没准备好和31年的自己告别。" },
+          { "label": "折成纸飞机扔出窗外", "response": "纸飞机在海风中划出一道弧线，消失在浪花里。你笑了——这是31年来最轻松的一刻。" }
+        ]
+      },
+      "sourceAnchor": "第90卷·Layer1·时间线2015"
+    },
+    {
+      "id": "evt_05_lens_cleaning",
+      "title": "最后一次擦拭透镜",
+      "description": "最后一班值守日，凌晨四点起床，像过去31年一样用鹿皮布擦拭菲涅尔水晶透镜，但这次擦了三遍。",
+      "ageRange": { "start": 54, "end": 54 },
+      "yearRange": { "start": 2016, "end": 2016 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "凌晨四点，你沿着旋转楼梯逐级而上。鹿皮布在水晶透镜上缓缓移动，这一次你擦了三遍。透镜里有你的指纹，有三十一年来的盐雾痕迹。你对着透镜里自己变形的脸看了很久——那个23岁的小伙子变成了54岁的老人。",
+      "bgmTag": "piano_farewell",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "午夜独白时，有一艘船经过，你要不要打信号？",
+        "options": [
+          { "label": "用灯光打摩斯码发送'你好'", "response": "那边回了一声汽笛。这是你31年来收到的最后一次回应。两个字的问候，比任何长篇大论都动人。" },
+          { "label": "不打信号，只是看着", "response": "船默默驶过。你想起31年来有无数艘船这样经过，你从不知道它们要去哪。今晚也一样。" },
+          { "label": "打SOS（紧急求救信号）", "response": "先是一个玩笑，然后沉默。你真的需要求救吗？也许每个人都需要被看见一次。" }
+        ]
+      },
+      "sourceAnchor": "第90卷·Layer2·共鸣节点一"
+    },
+    {
+      "id": "evt_06_midnight_monologue",
+      "title": "午夜独白",
+      "description": "在灯塔最高处对着大海自言自语，把31年没对任何人说的话都说出来了。",
+      "ageRange": { "start": 54, "end": 54 },
+      "yearRange": { "start": 2016, "end": 2016 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你坐在灯塔最高处，喝了一口保温杯里的茶。你说当年为什么选择这份工作——因为第一次出海演习时差点溺水，是灯塔的光让你找到了回去的路。你说最怕的不是台风而是中秋节晚上看对岸的灯火。你说后悔没能多陪女儿。大海什么都没说，但海浪的声音像在回应。",
+      "bgmTag": "cello_solitude",
+      "visualTone": "dark",
+      "sourceAnchor": "第90卷·Layer2·共鸣节点二"
+    },
+    {
+      "id": "evt_07_last_light",
+      "title": "最后一次亮灯仪式",
+      "description": "用最标准的动作完成灯塔亮灯流程，明知明天起不再需要这个仪式。",
+      "ageRange": { "start": 54, "end": 54 },
+      "yearRange": { "start": 2016, "end": 2016 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "日落时分，你用最标准的动作完成亮灯流程。转动的透镜声逐渐响亮，光柱扫过渐暗的天空。这是全体验中色彩最饱和的一刻——地平线的橙红、灯塔内部的暖黄、与渐暗的蓝灰天空形成强烈对比。明知明天起不再需要这个仪式，但你依然一丝不苟。",
+      "bgmTag": "vocal_hope",
+      "visualTone": "warm",
+      "sourceAnchor": "第90卷·Layer3·BGM方案"
+    },
+    {
+      "id": "evt_08_departure",
+      "title": "登船离开",
+      "description": "2016年3月16日06:00，最后一次手动关闭灯塔主灯。站在船尾看着灯塔越来越小，没有回头。",
+      "ageRange": { "start": 54, "end": 54 },
+      "yearRange": { "start": 2016, "end": 2016 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "天亮了，接你的船来了。你站在船尾，灯塔从一座建筑变成一个点。你想：从今天起，光还在，但没有人知道光是从哪儿发出来的了。船转弯了，灯塔消失在晨雾里。你没有哭——31年的孤独让你学会了不哭。你没有回头，不是因为不想看，是因为知道一看就再也走不了了。",
+      "bgmTag": "piano_ascend",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "离开前，要不要在灯塔日志上写最后一句话？",
+        "options": [
+          { "label": "写下'光还在'", "response": "三个字，是31年最好的总结。合上日志的那一刻，你知道有些东西永远不会被自动化替代。" },
+          { "label": "什么都不写，合上日志", "response": "空白的一页也是告别。有些话不需要说，就像灯塔不需要解释自己为什么发光。" },
+          { "label": "写下名字和日期，画一盏灯塔", "response": "简笔画的灯塔下面写着：1985-2016，林建国。画面叙事胜过千言万语。" }
+        ]
+      },
+      "sourceAnchor": "第90卷·Layer2·共鸣节点三"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_lens_cleaning", "evt_06_midnight_monologue", "evt_08_departure"],
+    "valleyMoments": ["evt_03_solitude", "evt_04_notice"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["职业消逝", "孤独感", "告别"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

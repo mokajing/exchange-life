@@ -114,7 +114,17 @@ const BGM_MAP = {
   lonely_piano:      { file: 'audio/bgm/lonely_piano.mp3',      volume: 0.3, loop: true },
   emergency_alarm:   { file: 'audio/bgm/emergency_alarm.mp3',   volume: 0.5, loop: false },
   warm_gathering:    { file: 'audio/bgm/warm_gathering.mp3',    volume: 0.35, loop: true },
-  farewell_ocean:    { file: 'audio/bgm/farewell_ocean.mp3',    volume: 0.35, loop: true }
+  farewell_ocean:    { file: 'audio/bgm/farewell_ocean.mp3',    volume: 0.35, loop: true },
+
+  // === 灯塔守护人专用标签 (2026-06-15 P0第90卷) ===
+  ocean_calm:        { file: 'audio/bgm/ocean_calm.mp3',        volume: 0.3, loop: true },
+  storm_tension:     { file: 'audio/bgm/storm_tension.mp3',     volume: 0.45, loop: true },
+  lonely_waves:      { file: 'audio/bgm/lonely_waves.mp3',      volume: 0.25, loop: true },
+  silence_after_storm:{ file: 'audio/bgm/silence_after_storm.mp3',volume: 0.2, loop: true },
+  piano_farewell:    { file: 'audio/bgm/piano_farewell.mp3',    volume: 0.3, loop: true },
+  cello_solitude:    { file: 'audio/bgm/cello_solitude.mp3',    volume: 0.3, loop: true },
+  vocal_hope:        { file: 'audio/bgm/vocal_hope.mp3',        volume: 0.4, loop: true },
+  piano_ascend:      { file: 'audio/bgm/piano_ascend.mp3',      volume: 0.35, loop: false }
 };
 
 /**

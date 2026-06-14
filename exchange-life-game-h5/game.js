@@ -68,7 +68,8 @@ const TIMELINE_LIST = [
   { id: 'qin-no-burning-books',  label: '如果秦始皇没有焚书坑儒',     level: 'L1' },
   { id: 'bus-night-driver',      label: '公交车末班车司机的午夜归程',   level: 'L1' },
   { id: 'qing-palace-maid',      label: '清朝宫女出宫后的第一天',       level: 'L1' },
-  { id: 'oil-rig-worker',        label: '海上石油钻井平台工人28天',     level: 'L2' }
+  { id: 'oil-rig-worker',        label: '海上石油钻井平台工人28天',     level: 'L2' },
+  { id: 'lighthouse-keeper',     label: '灯塔守护人的最后一次值守',       level: 'L2' }
 ];
 
 let player = null;
