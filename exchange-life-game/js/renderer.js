@@ -55,6 +55,9 @@ class Renderer {
     } else {
       this.typeSpeed = 30;
     }
+    // 预计算完整文本换行（修复缓存失效问题：避免每帧substring导致cacheKey变化）
+    this._precomputedLines = null;
+    this._precomputedTextKey = '';
   }
 
   /**
@@ -194,7 +197,6 @@ class Renderer {
 
   _renderNarrativeText(ctx, w, h, state) {
     const colors = TONE_COLORS[this.targetTone] || TONE_COLORS.neutral;
-    const text = this.currentText.substring(0, Math.floor(this.displayedChars));
     
     ctx.textAlign = 'left';
     ctx.fillStyle = colors.text;
@@ -206,22 +208,74 @@ class Renderer {
     const startY = 160;
     const maxLines = Math.floor((h - startY - 120) / lineHeight);
 
-    // 自动换行
-    const lines = this._wrapText(ctx, text, maxWidth);
-    const visibleLines = lines.slice(0, maxLines);
+    // 性能优化：使用预计算的完整文本换行，避免每帧substring导致缓存失效
+    const fullLines = this._getPrecomputedLines(ctx, maxWidth);
+    const displayedCount = Math.floor(this.displayedChars);
 
-    visibleLines.forEach((line, i) => {
-      // 逐行淡入效果：每行基于其在文本中的字符位置独立计算淡入进度
-      // 计算该行对应的字符范围在总文本中的比例位置
-      const lineCharStart = this._getLineCharIndex(i, lines);
-      const lineCharEnd = lineCharStart + line.length;
-      const charProgress = Math.min(1, this.displayedChars / Math.max(1, lineCharEnd));
-      // 平滑淡入：从0.2到1.0，避免完全透明
+    // 根据已显示字符数截取可见行
+    let charAccum = 0;
+    const visibleLines = [];
+    for (let i = 0; i < fullLines.length && visibleLines.length < maxLines; i++) {
+      const line = fullLines[i];
+      const lineEnd = charAccum + line.length;
+      // 跳过原文中的\n字符
+      const hasNewline = charAccum + line.length < this.currentText.length && this.currentText[lineEnd] === '\n';
+      const lineTotalChars = line.length + (hasNewline ? 1 : 0);
+
+      if (charAccum >= displayedCount) break; // 该行完全未显示
+
+      if (lineEnd <= displayedCount) {
+        // 该行完全已显示
+        visibleLines.push({ text: line, charStart: charAccum, charEnd: lineEnd });
+      } else {
+        // 该行部分显示（打字机当前行）
+        const partialLen = displayedCount - charAccum;
+        visibleLines.push({ text: line.substring(0, partialLen), charStart: charAccum, charEnd: displayedCount });
+      }
+      charAccum += lineTotalChars;
+    }
+
+    visibleLines.forEach((lineInfo, i) => {
+      // 逐行淡入效果
+      const charProgress = Math.min(1, this.displayedChars / Math.max(1, lineInfo.charEnd));
       const lineAlpha = 0.2 + charProgress * 0.8;
       ctx.globalAlpha = Math.max(0.2, Math.min(1, lineAlpha));
-      ctx.fillText(line, padding, startY + i * lineHeight);
+      ctx.fillText(lineInfo.text, padding, startY + i * lineHeight);
     });
     ctx.globalAlpha = 1;
+  }
+
+  /**
+   * 获取预计算的完整文本换行结果（懒加载，setText后首次渲染时计算一次）
+   */
+  _getPrecomputedLines(ctx, maxWidth) {
+    const cacheKey = this.currentText + '|' + maxWidth + '|' + ctx.font;
+    if (this._precomputedTextKey === cacheKey && this._precomputedLines) {
+      return this._precomputedLines;
+    }
+    // 对完整文本做一次换行计算并缓存
+    const lines = [];
+    let currentLine = '';
+    for (let i = 0; i < this.currentText.length; i++) {
+      const char = this.currentText[i];
+      if (char === '\n') {
+        lines.push(currentLine);
+        currentLine = '';
+        continue;
+      }
+      const testLine = currentLine + char;
+      const metrics = ctx.measureText(testLine);
+      if (metrics.width > maxWidth && currentLine.length > 0) {
+        lines.push(currentLine);
+        currentLine = char;
+      } else {
+        currentLine = testLine;
+      }
+    }
+    if (currentLine) lines.push(currentLine);
+    this._precomputedLines = lines;
+    this._precomputedTextKey = cacheKey;
+    return lines;
   }
 
   _renderChoices(ctx, w, h, choices, selectedIndex) {
