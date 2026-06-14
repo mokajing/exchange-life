@@ -74,7 +74,16 @@ const BGM_MAP = {
   bittersweet:       { file: 'audio/bgm/bittersweet.mp3',       volume: 0.35, loop: true },
   emotional_peak:    { file: 'audio/bgm/emotional_peak.mp3',    volume: 0.45, loop: true },
   homecoming:        { file: 'audio/bgm/homecoming.mp3',        volume: 0.4, loop: true },
-  resolution:        { file: 'audio/bgm/resolution.mp3',        volume: 0.4, loop: true }
+  resolution:        { file: 'audio/bgm/resolution.mp3',        volume: 0.4, loop: true },
+
+  // === 新增标签 (2026-06-14 专家团迭代) ===
+  ambient_calm:      { file: 'audio/bgm/ambient_calm.mp3',      volume: 0.25, loop: true },
+  emotional_climax:  { file: 'audio/bgm/emotional_climax.mp3',  volume: 0.5, loop: false },
+  silence_transition:{ file: 'audio/bgm/silence_transition.mp3',volume: 0.15, loop: true },
+  night_quiet:       { file: 'audio/bgm/night_quiet.mp3',       volume: 0.2, loop: true },
+  hopeful_dawn:      { file: 'audio/bgm/hopeful_dawn.mp3',      volume: 0.35, loop: true },
+  family_warmth:     { file: 'audio/bgm/family_warmth.mp3',     volume: 0.35, loop: true },
+  deep_pressure:     { file: 'audio/bgm/deep_pressure.mp3',     volume: 0.4, loop: true }
 };
 
 /**

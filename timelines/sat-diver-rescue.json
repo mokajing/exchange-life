@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "sat-diver-rescue-068",
+    "title": "深海饱和潜水员的水下救援72小时",
+    "subtitle": "在120米深的海底高压舱里，每下降一米都是一次生死赌注",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-14T19:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-sd-01",
+      "title": "紧急调度",
+      "description": "接到紧急调度通知：南海钻井平台水下坍塌，3名潜水员被困120米深处，氧气仅剩72小时。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "电话响的时候你正在厨房煮咖啡。调度员的声音很平静，但你听出了底下压着的紧迫：'南海某平台水下结构坍塌，三名常规潜水员被卡在120米深处，氧气余量72小时。'你挂了电话，站在厨房里看着窗外的阳光，脑子里闪过一个念头：这会不会是最后一次看到太阳？然后你放下杯子，开始收拾装备。有些恐惧是用专业来包装的。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "接到任务后，你会怎么做？",
+        "options": [
+          { "label": "立即出发，一小时后到码头", "response": "你抓起装备包就出门了。专业的本能比任何犹豫都快。" },
+          { "label": "给我十分钟，打个电话回家", "response": "你拨通了家里的电话，没有说出任务的事，只是说了句'这几天可能信号不好'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-sd-02",
+      "title": "加压进入深海",
+      "description": "进入高压生活舱开始加压，从常压到120米水深需要8小时，声音变成唐老鸭嗓。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "高压舱的门关上的那一刻，世界变了。氦氧混合气体让你的声音变成了卡通音，同事在通讯器里笑你像只愤怒的米老鼠。你也笑了，但心里清楚这具身体正在变成一台深海机器。关节轻微疼痛，那是压力在重塑你的每一个细胞。从常压到13个大气压，八个小时的加压过程像一场缓慢的变形记。你不再是陆地上的林远了，你是属于深海的另一个存在。",
+      "bgmTag": "deep_pressure",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-sd-03",
+      "title": "第一次切割救援",
+      "description": "找到第一名被困潜水员，左腿被钢梁压住，在浑浊海水中用液压剪切断钢梁耗时47分钟。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "能见度不足三米。探照灯的光柱切开了悬浮的淤泥云，你看到了那根钢梁——像巨兽的肋骨斜插在海底。被困者的头盔灯光微弱地闪烁着。你游到他身边，他透过面罩对你笑了一下。不是苦笑，是那种'你来了'的、纯粹的、小孩般的笑。这个笑容穿过冰冷的海水直达心里。你启动液压剪，震颤从指尖传到手腕。切。再切。偏移了三厘米。重新对位。再切。四十七分钟，像四十七年那么长。",
+      "bgmTag": "emotional_climax",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "能见度太低，一次只能定位一个被困者，你先救谁？",
+        "options": [
+          { "label": "先救信号最强的年轻潜水员", "response": "你选择了成功率最高的方案。理性告诉你这是对的，但另外两个人的信号灯还在黑暗中闪烁。" },
+          { "label": "先救信号最弱的老兵", "response": "他的生命体征最不乐观。你赌他还撑得住，向最微弱的光游去。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-sd-04",
+      "title": "黑暗中的等待",
+      "description": "返回潜水钟短暂休息，窗外是绝对黑暗，只有呼吸声和氦气嘶嘶声。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "潜水钟里，你啃着压缩饼干，用氦气嗓子和支援船通话。同事说'你听起来像只愤怒的米老鼠'，你笑了，这是48小时里第一次笑。窗外是绝对的黑暗——不是夜晚的黑，是120米深海那种吞噬一切的、有重量的黑。你只能听到自己的呼吸声和氦气混合物的嘶嘶声。恐惧在大脑里存在着，但手指知道该做什么。这种分离是饱和潜水员最基本的生存技能。",
+      "bgmTag": "night_quiet",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-sd-05",
+      "title": "密封圈泄漏",
+      "description": "救援最后阶段发现潜水服右臂密封圈微漏，必须在30分钟内返回否则有减压病风险。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "警报声尖锐地刺入耳膜。潜水服右臂密封圈出现微漏，显示屏上的数字在跳动。三十分钟。你还有三分钟才能确保最后一名被困者安全进入救援舱。大脑在0.5秒内完成了利弊计算：走，他能活但你可能会得减压病；留，你可能没事但他多等三分钟的焦虑会吞噬一切。然后你的手继续做该做的事。不是不怕死，是觉得有些东西比死重要。你不会先走，不是因为勇敢，是因为如果换作是你被困在那里，你也会希望有人不要先走。",
+      "bgmTag": "emotional_climax",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "密封圈报警，最后一名被困者还需要3分钟，你怎么选？",
+        "options": [
+          { "label": "继续救援，赌这3分钟", "response": "你咬紧牙关，手上的动作没有丝毫犹豫。三分钟后，被困者安全了。你的手臂开始发麻。" },
+          { "label": "先处理装备30秒再回来", "response": "你用30秒做了应急处理，然后冲回去完成最后的固定。每一秒都像走在刀刃上。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-sd-06",
+      "title": "减压舱的五天",
+      "description": "全部获救后进入减压程序，在狭小高压舱内等待5天排出体内氮气。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "减压舱成了世界上最奇怪的聊天室。五天的时间，你和三个获救者在六平米的空间里分享彼此的人生。老周讲他女儿考上大学的事，声音像唐老鸭，但他在哭。退伍海军说他这辈子救过七个人，你是第八个救他的。年轻的潜水员说他女朋友还不知道他出事了。透过六英寸的舷窗，你看到月亮从海平面上升起来了。原来月亮在水下也能看到。高压舱里没有小人物，只有被压力挤出来的、最真实的人。",
+      "bgmTag": "ambient_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-sd-07",
+      "title": "甲板上的大拇指",
+      "description": "减压完成走出舱门，三个获救者在甲板上等他，竖起大拇指。",
+      "ageRange": { "start": 37 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "舱门打开的那一刻，阳光太强了。你眯着眼睛，看到三个人站在甲板上。其中一个拄着拐杖。没有人说太多话，只是轮流竖起了大拇指。这是潜水员之间最古老也最重的感谢——'我看见了你的选择，我记住了。'你也竖起大拇指，然后转身走向食堂，因为你不想让别人看到眼泪。阳光照在手上，手还在微微发抖。英雄这个词太轻了，真正经历过的人不会用它来形容自己。",
+      "bgmTag": "hopeful_dawn",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt-sd-03", "evt-sd-05"],
+    "valleyMoments": ["evt-sd-04", "evt-sd-06"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["幽闭空间", "深海环境", "生命威胁", "高压环境"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

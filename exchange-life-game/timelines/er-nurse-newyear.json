@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "er-nurse-newyear-037",
+    "title": "急诊科护士的跨年值班夜",
+    "subtitle": "12月31日19:00到1月1日08:00，体验急诊科护士最漫长的一夜",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-14T19:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-en-01",
+      "title": "苦笑接班",
+      "description": "19:00接班，白班护士说今晚应该还行，两人都苦笑了。急诊科没有还行的夜晚。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "荧光灯把走廊照得惨白。白班的小张一边摘手套一边说'今晚应该还行，跨年嘛'，说完你们俩都苦笑了一下。急诊科没有还行的夜晚，尤其是跨年夜。你整理好护士站的物品，检查抢救车里的药品，把听诊器挂在脖子上。外面的城市已经开始热闹了，而你的一天刚刚开始。监护仪规律的滴滴声是你的倒计时钟声。",
+      "bgmTag": "ambient_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-en-02",
+      "title": "醉酒患者",
+      "description": "20:30第一位醉酒患者送达，跨年聚餐喝到胃出血的中年男性。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "disgust",
+      "emotionIntensity": 0.4,
+      "narrativeText": "推车的轮子声打破了短暂的安静。一个中年男人被抬进来，满身酒气，嘴角还有呕吐物的痕迹。同事还在外面打电话催他回去继续喝。你熟练地建立静脉通路、监测生命体征。他的妻子站在一旁，脸上是那种已经习以为常的疲惫。跨年夜的急诊科，醉酒永远是第一个到访的客人。你已经记不清这是第几个了。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-en-03",
+      "title": "心梗老人",
+      "description": "22:15心梗老人送达，家属说他下午就说胸闷，想等过完年再来。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "老人的脸色灰白，左手紧紧攥着胸口。家属说他下午就说胸闷，但觉得过年去医院不吉利，想撑过这个年再说。你开始做心肺复苏按压的时候，心里想的是：每年都是这样，总觉得能撑过去。一下、两下、三下，你的手臂机械而有力地起伏。监护仪上的波形像一条挣扎的蛇。老人的女儿在旁边哭着喊爸，声音穿透了整个抢救室。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "此时又来了车祸伤者，你会怎么做？",
+        "options": [
+          { "label": "先处理车祸伤者，让同事接手老人", "response": "你快速交接给同事，转身奔向新的抢救床。分身乏术的无力感像潮水一样涌来。" },
+          { "label": "继续为老人按压，指挥他人处理车祸", "response": "你没有停下手中的按压，嘴里快速下达指令。每一秒都是赌注。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-en-04",
+      "title": "跨年倒计时",
+      "description": "00:00跨年时刻，外面烟花声与心肺复苏的节奏重叠。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "十、九、八、七……外面的倒计时声透过急诊室的玻璃门传进来，和你的手按压的节奏重叠在一起。烟花在远处炸开，暖橙色的光一闪一闪地映在冰冷的白色墙壁上。你在倒数声中做着心肺复苏，一下、两下、三下。这个世界在庆祝新生，而你在挽留一个即将消逝的生命。时间从未如此残忍地分裂成两个方向。",
+      "bgmTag": "emotional_climax",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-en-05",
+      "title": "洗手间三分钟",
+      "description": "00:17老人抢救无效，护士长拍了拍她的肩膀。她去洗手间待了三分钟。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "监护仪拉成了一条直线。护士长走过来，什么都没说，只是轻轻拍了拍你的肩膀。你走进洗手间，关上门，打开水龙头。水流声盖住了一切。你看着镜子里的自己，帽子歪了，口罩在下巴上留下一道红印。你想哭，但眼泪好像也被 exhaustion 蒸发了。三分钟。你给自己三分钟。然后洗了把脸，重新戴好帽子，推开门走出去。下一个患者已经在等了。",
+      "bgmTag": "silence_transition",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "在这三分钟里，你想做什么？",
+        "options": [
+          { "label": "允许自己哭一会儿", "response": "眼泪终于落下来了。无声的，像水龙头的水一样停不住。但三分钟后，你擦干了脸。" },
+          { "label": "什么都不做，只是站着呼吸", "response": "你靠着墙，闭上眼睛，感受水流声和自己的心跳。三分钟很长，也很短。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-en-06",
+      "title": "穿拖鞋的妈妈",
+      "description": "02:40小女孩发高烧，妈妈穿着睡衣套羽绒服脚踩拖鞋冲进来。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "一个小女孩被抱进来的时候，你注意到了她妈妈的脚——一双棉拖鞋，上面还有卡通图案。睡衣外面套了件羽绒服，头发乱糟糟的，显然是从床上直接冲出来的。你给孩子量体温的时候，小女孩迷迷糊糊地说了一句'妈妈别哭'。那个穿着拖鞋的妈妈忍着泪点了点头。你忽然想起了自己的妈妈，想起小时候半夜发烧时，也是这样被抱在怀里颠簸着赶到医院。有些爱，不需要任何修饰就已经足够动人。",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-en-07",
+      "title": "凌晨四点的咖啡",
+      "description": "04:30急诊科终于安静了十几分钟，护士坐在护士站望着走廊。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "自动贩卖机的罐头落下来，发出沉闷的一声。你拿着咖啡坐回护士站，走廊终于安静了。咖啡是凉的，但你已经没有力气再去换一罐热的了。去年的跨年夜也是在这里，去年许的愿是希望明年跨年不值班，结果今年还是你。你望着空荡荡的走廊尽头，那里有一扇窗，窗外是沉睡的城市。新年第三个小时，世界终于安静了。这杯凉掉的咖啡，是你给自己的、唯一的跨年礼物。",
+      "bgmTag": "night_quiet",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "这难得的安静时刻，你想做什么？",
+        "options": [
+          { "label": "翻看手机里家人的跨年祝福", "response": "妈妈发来一条消息：'闺女记得吃饭。'你盯着屏幕看了很久，回了个'好'字。" },
+          { "label": "什么都不想，就静静坐着", "response": "你把手机扣在桌上，望着窗外的黑暗发呆。有些疲惫连倾诉都嫌多余。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-en-08",
+      "title": "新年第一缕阳光",
+      "description": "08:00交班走出医院大门，阳光很好，新年的第一天。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "白班护士问昨晚怎么样，你想了想说'还行'。和十二小时前接班时一模一样的回答，但只有你知道这两个字里装了多少东西。你换下工作服，推开医院大门。阳光很好，不太像冬天。空气里有鞭炮残留的火药味和早餐摊的豆浆香。你站在门口多站了一会儿，没有人催你。新的一年开始了，而你刚刚结束了最漫长的一夜。你深吸一口气，朝家的方向走去。",
+      "bgmTag": "hopeful_dawn",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-en-04", "evt-en-05"],
+    "valleyMoments": ["evt-en-05", "evt-en-07"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["死亡场景", "医疗急救", "情绪高压"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

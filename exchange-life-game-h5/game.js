@@ -62,7 +62,9 @@ const TIMELINE_LIST = [
   { id: 'gaokao-30days',         label: '高三学生高考前最后30天',   level: 'L2' },
   { id: 'tokyo-fake-japanese',   label: '我在东京当了三年假日本人', level: 'L2' },
   { id: 'cao-xueqin-modern',     label: '如果曹雪芹生在当代',       level: 'L2' },
-  { id: 'kyoto-wagashi-heir',    label: '京都百年老铺第四代传人',    level: 'L1' }
+  { id: 'kyoto-wagashi-heir',    label: '京都百年老铺第四代传人',    level: 'L1' },
+  { id: 'er-nurse-newyear',      label: '急诊科护士的跨年值班夜',   level: 'L2' },
+  { id: 'sat-diver-rescue',      label: '深海饱和潜水员水下救援72h', level: 'L3' }
 ];
 
 let player = null;

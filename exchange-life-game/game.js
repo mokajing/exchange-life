@@ -41,7 +41,9 @@ const TIMELINE_LIST = [
   'gaokao-30days',          // L2/S/V2 - 高三学生高考前最后30天 (P0脑洞)
   'tokyo-fake-japanese',    // L2/S/V2 - 我在东京当了三年假日本人 (P0脑洞)
   'cao-xueqin-modern',      // L2/A/V2 - 如果曹雪芹生在当代 (P0第二卷)
-  'kyoto-wagashi-heir'      // L1/A/V2 - 京都百年老铺第四代传人 (P0第3卷)
+  'kyoto-wagashi-heir',     // L1/A/V2 - 京都百年老铺第四代传人 (P0第3卷)
+  'er-nurse-newyear',       // L2/S/V1 - 急诊科护士跨年值班夜 (P0第9卷)
+  'sat-diver-rescue'        // L3/S/V1 - 深海饱和潜水员水下救援72h (P0第33卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
