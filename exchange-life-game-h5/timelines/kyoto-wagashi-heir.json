@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "kyoto-wagashi-heir-001",
+    "title": "京都百年老铺第四代传人",
+    "subtitle": "一个逃离又回归的和菓子匠人，在传统与创新之间找到属于自己的道",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-14T08:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-kwh-01",
+      "title": "工坊初体验",
+      "description": "5岁第一次被允许进入工坊，用小手碾白豆沙。祖父说'手要有温度，菓子才有灵魂'。",
+      "ageRange": { "start": 5 },
+      "yearRange": { "start": 1998 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "工坊的门对你来说太高了，祖父把你抱起来放在木台上。白豆沙在你小小的掌心里柔软得像云，你使劲捏，它就变形；你轻轻碰，它就保持原样。祖父蹲下来看着你的手，说了一句你当时听不懂的话：'手要有温度，菓子才有灵魂。'你只是觉得好玩，把豆沙捏成了一只歪歪扭扭的小兔子。祖父笑了，把它放进蒸笼里。那天下午你吃到了自己做的第一块和菓子，虽然丑，但甜到了心里。",
+      "bgmTag": "morning_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-kwh-02",
+      "title": "叛逆出走",
+      "description": "18岁高中毕业宣布不继承家业，要去东京学建筑。父亲沉默三天没和他说话。",
+      "ageRange": { "start": 18 },
+      "yearRange": { "start": 2011 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你说你不干了。饭桌上，父亲放下筷子，看了你一眼，然后起身走进了工坊。整整三天，他没有跟你说一句话。母亲夹在中间，每顿饭都多做一道你爱吃的菜，但你吃不出味道。你知道他不是生气，是失望。暖帘挂在门口，每天被风吹得轻轻摇晃，像是在问你：你真的要走吗？你把行李收拾好，最后看了一眼工坊的灯光，转身走进了京都站的夜色里。",
+      "bgmTag": "tension_rise",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对家族的期望和自己的梦想，你会怎么选择？",
+        "options": [
+          { "label": "坚持离开，去东京追寻建筑梦", "response": "你坐上了新干线。窗外的风景飞速后退，像你和这个家的距离一样越来越远。" },
+          { "label": "留下来，接过父亲的衣钵", "response": "你把行李箱放回柜子。第二天清晨五点，你站在了工坊里。父亲看到你，什么也没说，只是递给你一把木铲。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-kwh-03",
+      "title": "超市里的眼泪",
+      "description": "22岁在东京建筑事务所工作时，偶然在超市看到机器产的练切，突然哭了。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": 2015 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "加班到深夜，你去便利店买便当。货架上一排塑料盒装的练切，颜色鲜艳得刺眼，标签上写着'机器制造·均一品质'。你站在那里，手里还握着设计图纸，眼泪毫无预兆地掉了下来。不是因为想家，是因为你突然明白了那些机器永远做不出来的东西是什么——是手掌的温度，是三十年磨出来的手感，是祖父说的'灵魂'。你在便利店的冷光灯下站了很久，直到店员过来问你是否需要帮助。",
+      "bgmTag": "night_thoughts",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-kwh-04",
+      "title": "父亲倒了",
+      "description": "28岁接到母亲电话'你爸倒了'，连夜坐新干线回京都。次日站在工坊前深呼吸后推开门。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2021 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "电话是凌晨两点打的。母亲的声音很轻，像是怕吵醒谁：'你爸倒了。'你从东京的公寓冲出去，赶上最后一班新干线。车厢里只有你一个乘客，窗外是无尽的黑夜。你想起小时候在工坊里捏的那只歪兔子，想起父亲三天不说话的样子，想起自己在超市里流的眼泪。到家时天还没亮，父亲躺在医院里，中风，左半边身子不能动了。你站在工坊门前，深吸一口气，推开了那扇你曾经逃离的门。里面的木头味道一点都没变。",
+      "bgmTag": "tension_rise",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "回到工坊后，你如何面对这一切？",
+        "options": [
+          { "label": "从零开始学习，接受自己是个新手", "response": "你把建筑图纸收进箱子底，重新拿起了木铲。这一次，你是心甘情愿的。" },
+          { "label": "一边照顾父亲一边摸索经营", "response": "白天在医院陪父亲做康复，晚上回工坊练习。你的手上全是烫伤的痕迹。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-kwh-05",
+      "title": "歪练切的箱子",
+      "description": "翻到父亲保存的箱子，里面全是四代目小时候捏的歪歪扭扭的练切，每一个都用保鲜膜仔细包着。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2023 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "整理工坊储物间的时候，你翻到了一个旧纸箱。打开一看，里面整整齐齐码着几十个保鲜膜包裹。你小心翼翼地拆开一个——是你五岁时捏的那只歪兔子。再拆一个，七岁做的樱花瓣，形状完全不对。再一个，十岁练的第一枚练切，颜色混成了一团灰。每一个都被仔细地包着，像珍宝一样。原来他一直在看着你。原来那些沉默不是失望，是他不知道该怎么表达的爱。你蹲在地上，抱着那个箱子，哭得像个孩子。",
+      "bgmTag": "emotional_peak",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-kwh-06",
+      "title": "朝露",
+      "description": "独立经营第3年，独立完成父亲的招牌作品'朝露'用于裏千家茶会。端出去的瞬间双手微颤。",
+      "ageRange": { "start": 31 },
+      "yearRange": { "start": 2024 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "裏千家的茶会订单来了。这是父亲生前最引以为豪的合作。你花了整整一周准备'朝露'——父亲的代表作。练切的透明度要像清晨的露水，颜色要从白渐变到淡绿，像春天的第一片嫩叶。你做了一百多枚，挑出了最好的十二枚。茶会那天，你端着漆盘走进茶室，双手微微颤抖。不是因为紧张，是因为你终于理解了父亲说的'手要有温度'。客人轻声赞叹的那一刻，你觉得父亲就站在你身后，点了一下头。",
+      "bgmTag": "emotional_peak",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "完成父亲的招牌作品后，你对传承有什么新的理解？",
+        "options": [
+          { "label": "守护传统，做到和父亲一样好", "response": "你把'朝露'的做法刻在心里，决心让它永远不变。这是你对父亲的承诺。" },
+          { "label": "在传统基础上加入自己的风格", "response": "你开始在练切中加入建筑学的线条感。这不是背叛，是你用自己的方式延续这条路。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-kwh-07",
+      "title": "收暖帘",
+      "description": "傍晚关店，把暖帘收进来折好。一个人站在门口看祇園的夕阳，心里第一次觉得'这条路是我自己选的'。",
+      "ageRange": { "start": 31 },
+      "yearRange": { "start": 2024 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "傍晚的光线穿过暖帘的缝隙，在木地板上投下靛蓝色的影子。你把暖帘收进来，沿着折痕叠好，挂回门内。这个动作你做了三年，但今天不一样。你站在门口，看祇園的夕阳一点点沉下去，蝉鸣声渐渐弱了。工坊里的木头味道、豆沙的甜香、手上洗不掉的茧——这些不再是负担，而是你自己选择的人生。你轻轻关上门，心里第一次觉得安静。",
+      "bgmTag": "ending_peaceful",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-kwh-05", "evt-kwh-06"],
+    "valleyMoments": ["evt-kwh-02", "evt-kwh-04"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["家庭压力", "父子关系"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

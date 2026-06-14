@@ -61,6 +61,14 @@ const BGM_MAP = {
   minimal_piano:     { file: 'audio/bgm/minimal_piano.mp3',    volume: 0.25, loop: true },
   summer_nostalgia:  { file: 'audio/bgm/summer_nostalgia.mp3', volume: 0.4, loop: false },
 
+  // === 通用新增标签（曹雪芹/京都老铺等） ===
+  morning_calm:      { file: 'audio/bgm/morning_calm.mp3',     volume: 0.3, loop: true },
+  tension_rise:      { file: 'audio/bgm/tension_rise.mp3',     volume: 0.45, loop: true },
+  night_thoughts:    { file: 'audio/bgm/night_thoughts.mp3',   volume: 0.3, loop: true },
+  urban_jazz:        { file: 'audio/bgm/urban_jazz.mp3',       volume: 0.35, loop: true },
+  silence:           { file: 'audio/bgm/silence.mp3',          volume: 0.1, loop: true },
+  ending_peaceful:   { file: 'audio/bgm/ending_peaceful.mp3',  volume: 0.3, loop: true },
+
   // === 东京假日本人专用标签 ===
   new_beginning:     { file: 'audio/bgm/new_beginning.mp3',     volume: 0.35, loop: true },
   bittersweet:       { file: 'audio/bgm/bittersweet.mp3',       volume: 0.35, loop: true },

@@ -60,7 +60,9 @@ const TIMELINE_LIST = [
   { id: 'alien-office-worker',label: '外星人上班第一天',           level: 'L1' },
   { id: 'easter-island-speaker', label: '复活节岛最后的母语者',    level: 'L2' },
   { id: 'gaokao-30days',         label: '高三学生高考前最后30天',   level: 'L2' },
-  { id: 'tokyo-fake-japanese',   label: '我在东京当了三年假日本人', level: 'L2' }
+  { id: 'tokyo-fake-japanese',   label: '我在东京当了三年假日本人', level: 'L2' },
+  { id: 'cao-xueqin-modern',     label: '如果曹雪芹生在当代',       level: 'L2' },
+  { id: 'kyoto-wagashi-heir',    label: '京都百年老铺第四代传人',    level: 'L1' }
 ];
 
 let player = null;

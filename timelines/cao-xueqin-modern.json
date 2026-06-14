@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "cao-xueqin-modern-001",
+    "title": "如果曹雪芹生在当代",
+    "subtitle": "一个出身学术世家的文学天才，从钟鸣鼎食跌入茅椽蓬牖，在网文与QQ空间之间寻找属于自己的红楼梦",
+    "sourceType": "social_media",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-14T08:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-cxq-01",
+      "title": "书香童年",
+      "description": "北京top2高校中文系教授之子曹轩出生。家中藏书万卷，爷爷奶奶是著名红学家。就读顶级中学，作文常年被当范文。",
+      "ageRange": { "start": 0, "end": 17 },
+      "yearRange": { "start": 1998, "end": 2016 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你的童年被书包裹着。爷爷的书房里永远弥漫着旧纸和墨汁的气味，你踩着小板凳够到书架最高层，抽出一本线装《石头记》，虽然看不懂，但觉得那些竖排的字像一排排安静的人。周末去琉璃厂淘旧书，平日在家跟爷爷对对联。你的周记用古文写，老师在班上念，同学们觉得你是个怪人，但你不在乎——你觉得文字本该如此。",
+      "bgmTag": "morning_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-cxq-02",
+      "title": "崩塌之年",
+      "description": "父亲因学术腐败被调查撤职，家庭资产冻结，全家从海淀搬至昌平出租屋。18岁的曹轩在考场接到电话。",
+      "ageRange": { "start": 18 },
+      "yearRange": { "start": 2017 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "考场上手机震了。你爸被带走了。你挂了电话，手心全是汗，但笔没停。最后一道作文题没写完。回家时发现楼下围满了记者，闪光灯像一场无声的暴风雪。妈妈坐在沙发上，一句话不说，电视里正在播你爸的新闻。那天晚上你把房间里所有的书都推到了墙角，像是它们突然变成了别人的东西。从海淀到昌平，从一个世界到另一个世界，只用了一个下午。",
+      "bgmTag": "tension_rise",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对家庭的剧变，你会怎么做？",
+        "options": [
+          { "label": "咬牙撑住，继续完成学业", "response": "你把眼泪咽回去，第二天照常上课。课本上的字变得模糊，但你逼自己一行行看下去。" },
+          { "label": "放弃保研资格，打工养家", "response": "你在深夜的外卖APP上注册了账号。从此白天上课，晚上送外卖，凌晨写网文。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-cxq-03",
+      "title": "网文糊口",
+      "description": "放弃保研，打零工维生。送外卖、做家教、写玄幻小说，笔名'雪中吟'。日更6000字，月入2000刚好够母亲的药费。",
+      "ageRange": { "start": 19, "end": 23 },
+      "yearRange": { "start": 2018, "end": 2022 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "今天送了43单。第43单送到一间书房，透过防盗门看见书柜上好像有本《红楼梦》。你站在门口愣了三秒，然后按了门铃。晚上回到出租屋，打开电脑继续写玄幻。日更六千字，订阅惨淡，但一个月能赚两千块。刚好够我妈的药。键盘的RGB灯光是这间屋子里唯一的暖色。你有时候会想，曹雪芹当年在西郊黄叶村写书的时候，是不是也这样穷过。然后你笑了一下，觉得自己不配和他比。",
+      "bgmTag": "night_thoughts",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-cxq-04",
+      "title": "QQ空间爆火",
+      "description": "失业后第47天，在QQ空间连载'我家楼下的小人物们'系列短文。《保安老张的三顿饭》被转发出圈，一周访问量从47涨到47万。",
+      "ageRange": { "start": 24 },
+      "yearRange": { "start": 2023 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "被裁的第47天。你泡了一碗面，打开QQ空间写了第16篇小人物——《保安老张的三顿饭》。写的是你每天进小区时看到的那个保安，他早上吃包子，中午吃盒饭，晚上就着一瓶啤酒啃鸡爪。你只是把他写了下来。然后世界疯了。微博大V转发，评论涌进来，一周之内QQ空间访问量从47涨到47万。手机震动得像发了高烧。你坐在出租屋里，面条已经坨了，屏幕上全是红点。你不知道该高兴还是该哭。",
+      "bgmTag": "urban_jazz",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "突然被看见之后，你会怎么选择？",
+        "options": [
+          { "label": "趁热出书，抓住机会", "response": "编辑找上门，你说好。但签约那天晚上你失眠了，因为你知道自己真正想写的不是这些。" },
+          { "label": "继续写小人物，不急着变现", "response": "你拒绝了三个出版邀约，继续在QQ空间写。有人说你傻，但你知道自己在攒什么东西。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-cxq-05",
+      "title": "我其实一直想写一本大书",
+      "description": "出版社找上门要出书。曹轩沉默很久说：我其实一直想写一本大书，但写不了。编辑问为什么，他说：阅历还不够。",
+      "ageRange": { "start": 24 },
+      "yearRange": { "start": 2023 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "当红出版编辑找到你，说你这个系列出一本书吧。你沉默了很久。她说怎么了？你说：我其实一直想写一本大书，但写不了。她问为什么。你说：阅历还不够。她愣了一下，大概没见过拒绝出书的年轻人。你不是不想出，是你心里装着的那个东西太大了，大到现在的你还托不住它。就像你的祖先曹雪芹，也是在穷尽了一生的跌宕之后，才写出了那本书。你还需要更多时间。",
+      "bgmTag": "night_thoughts",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-cxq-06",
+      "title": "母亲的U盘",
+      "description": "书还没出，母亲因病离世。连夜写了《我妈的最后三天》，没有发，存在U盘里锁进抽屉。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2024 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 1.0,
+      "narrativeText": "她走了。冰箱里还有她周三包的饺子。你煮了一碗，咸了。她以前从不放太多盐。你连夜写了一篇《我妈的最后三天》，写到天亮，一个字都没改。然后你没有发。把它存在一个U盘里，锁进了抽屉最深处。有些东西写了就够了，不需要被看见。窗外是早晨了，鸟叫了一声，很轻。你关上抽屉，觉得整个人生都被关进去了。",
+      "bgmTag": "silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "失去至亲之后，你如何面对写作？",
+        "options": [
+          { "label": "停下来，给自己时间悲伤", "response": "你把电脑合上了。整整三个月没有写一个字。但每天还是会翻开一本书，像小时候那样。" },
+          { "label": "继续写，把悲伤变成文字", "response": "你没有停。只是写的东西变了，不再是小人物系列，而是一些没有标题的碎片。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-cxq-07",
+      "title": "他还在写",
+      "description": "体验结束时，屏幕只有一行字。他还在写。不知道在写什么，但知道他在写。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2025 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "窗外黄叶村的叶子又落了。他看了一眼，低头继续写。写字的声音像秋天的雨。不太大，但一直下。他还在写。不知道在写什么，但知道他在写。也许有一天他会写出那本大书，也许不会。但他还在写。这就够了。",
+      "bgmTag": "ending_peaceful",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-cxq-04", "evt-cxq-05"],
+    "valleyMoments": ["evt-cxq-02", "evt-cxq-06"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["家庭变故", "贫困叙事", "亲人离世"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
