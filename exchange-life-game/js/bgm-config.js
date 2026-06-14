@@ -83,7 +83,14 @@ const BGM_MAP = {
   night_quiet:       { file: 'audio/bgm/night_quiet.mp3',       volume: 0.2, loop: true },
   hopeful_dawn:      { file: 'audio/bgm/hopeful_dawn.mp3',      volume: 0.35, loop: true },
   family_warmth:     { file: 'audio/bgm/family_warmth.mp3',     volume: 0.35, loop: true },
-  deep_pressure:     { file: 'audio/bgm/deep_pressure.mp3',     volume: 0.4, loop: true }
+  deep_pressure:     { file: 'audio/bgm/deep_pressure.mp3',     volume: 0.4, loop: true },
+
+  // === 秦始皇平行历史专用标签 (2026-06-14 P0新增) ===
+  ancient_mystery:   { file: 'audio/bgm/ancient_mystery.mp3',   volume: 0.35, loop: true },
+  intellectual:      { file: 'audio/bgm/intellectual.mp3',      volume: 0.3, loop: true },
+  triumph:           { file: 'audio/bgm/triumph.mp3',           volume: 0.5, loop: false },
+  reflective:        { file: 'audio/bgm/reflective.mp3',        volume: 0.3, loop: true },
+  farewell:          { file: 'audio/bgm/farewell.mp3',          volume: 0.3, loop: true }
 };
 
 /**

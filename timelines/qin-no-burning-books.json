@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "qin-no-burning-books",
+    "title": "如果秦始皇没有焚书坑儒",
+    "subtitle": "平行人生假设·当先秦知识体系完整保存，中华文明的另一种可能",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-14T19:25:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-divergence",
+      "title": "公元前213年·历史分叉点",
+      "description": "秦始皇在李斯和扶苏之间选择折中方案——不焚书，建立大秦博士院统一典藏诸子百家典籍。坑儒改为流放服役。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": -213 },
+      "category": "other",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你睁开眼，发现自己站在一座宏伟的宫殿前。\n\n这里是你熟悉的秦朝，却又处处不同。竹简没有被投入火中，而是被小心翼翼地抄录、分类、送入一座名为「大秦博士院」的建筑。\n\n你的历史课本上写着「焚书坑儒」，但在这个世界里，这四个字从未存在过。",
+      "bgmTag": "ancient-mystery",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想先探索哪里？",
+        "options": [
+          { "label": "走进大秦博士院", "response": "你推开厚重的木门，眼前是层层叠叠的竹简书架，空气中弥漫着墨香。" },
+          { "label": "走访民间学馆", "response": "你来到咸阳城外的私学，听到朗朗读书声中夹杂着各家学派的辩论。" }
+        ]
+      },
+      "sourceAnchor": "第43卷·Layer1事实层"
+    },
+    {
+      "id": "evt-02-fusu-reign",
+      "title": "扶苏继位·温和改革者",
+      "description": "公元前210年秦始皇驾崩，扶苏在蒙恬支持下顺利继位，推行儒法并重政策，减轻徭役赋税。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": -210, "end": -200 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "始皇帝驾崩的消息传来，但这一次，赵高的阴谋未能得逞。\n\n扶苏在蒙恬的支持下顺利继位。他记得父亲晚年的暴政给天下带来的苦难，决心走一条不同的路。\n\n儒法并重，轻徭薄赋。陈胜吴广的起义规模缩小了，因为百姓的日子好过了一些。秦朝延续了下来，带着它完整的知识传承体系。",
+      "bgmTag": "hopeful",
+      "visualTone": "warm",
+      "sourceAnchor": "第43卷·时间线"
+    },
+    {
+      "id": "evt-03-hundred-schools",
+      "title": "百家争鸣2.0",
+      "description": "墨家几何学、名家逻辑学、阴阳家天文学与儒家经典并行发展，中国出现类似古希腊哲学传统的学术繁荣。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": -100, "end": 0 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你走进一间学堂，惊讶地发现这里教授的不只是儒家经典。\n\n左边，一位先生正在讲解《墨子》中的光学八条，用铜镜演示小孔成像的原理。右边，名家的弟子们在辩论「白马非马」的逻辑命题，他们的推演方法让你想起古希腊的亚里士多德。\n\n在这个世界里，墨家的科学传统没有断绝。几何、力学、光学……这些知识被一代代传下来，与儒家的人文关怀并行不悖。",
+      "bgmTag": "intellectual",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "你想深入学习哪个学派？",
+        "options": [
+          { "label": "跟随墨家学习科学", "response": "你亲手操作小孔成像实验，看着光线穿过小孔在墙上形成倒立的影像。原来两千多年前，中国人已经理解了光的直线传播。" },
+          { "label": "参加名家辩论会", "response": "你举手发言，AI辩手根据你的观点展开激烈交锋。逻辑的力量在这里被推崇到极致。" }
+        ]
+      },
+      "sourceAnchor": "第43卷·Layer2情感层"
+    },
+    {
+      "id": "evt-04-imperial-exam",
+      "title": "百家并试的科举",
+      "description": "科举制度以百家并试取代独尊儒术，考生需通晓儒、墨、名、法、阴阳五家基础。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": 500, "end": 800 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你站在考场外，看到考生们抱着厚厚的书籍走过。\n\n这不是你记忆中只考四书五经的科举。在这个世界里，考生需要通晓五家之学：儒家的仁义、墨家的兼爱与科学、名家的逻辑、法家的制度设计、阴阳家的宇宙论。\n\n你能通过这样的考试吗？",
+      "bgmTag": "tension",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "尝试一道百家并试考题？",
+        "options": [
+          { "label": "挑战墨家几何题", "response": "题目：已知小孔成像中物距与像距的关系，推导放大率公式。你用现代物理知识轻松解答，考官惊叹不已。" },
+          { "label": "挑战名家逻辑题", "response": "题目：「坚白石二」是否成立？你用形式逻辑分析，给出了一个让考官沉思良久的答案。" },
+          { "label": "跳过，继续前行", "response": "你决定不在考试中停留，继续探索这个平行世界。" }
+        ]
+      },
+      "sourceAnchor": "第43卷·Layer4交互层"
+    },
+    {
+      "id": "evt-05-science-revolution",
+      "title": "13世纪·东方科学革命",
+      "description": "宋明时期出现新百家学派，融合先秦诸子与佛教道教思想。科学革命迹象在13世纪浮现，墨家机械传统为技术突破提供方法论基础。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": 1200, "end": 1400 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你来到宋朝的工坊，眼前的景象让你震惊。\n\n齿轮咬合，蒸汽嘶嘶作响。工匠们用墨家传承千年的机械原理，制造出了第一台原始蒸汽机。\n\n这不是英国工业革命，这是中国的。比瓦特早了五百年。\n\n墨家的力学著作被大量传抄，名家的逻辑推演方法成为科学研究的方法论基础。在这个世界里，「李约瑟之问」有了完全不同的答案。",
+      "bgmTag": "triumph",
+      "visualTone": "bright",
+      "sourceAnchor": "第43卷·Layer3感官层"
+    },
+    {
+      "id": "evt-06-modern-civilization",
+      "title": "现代·超级文明体",
+      "description": "一个保留了完整先秦知识体系的中国，成为全球科技与人文并重的超级文明体。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": 1900, "end": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你走在现代的街道上，看到的是一种独特的文明形态。\n\n高楼大厦融合了东方美学与现代科技。学校里同时教授量子力学和《道德经》，医院里中西医结合已是常态。\n\n这是一个没有经历文化断层的世界。先秦的智慧没有被遗忘，而是在两千年的传承中不断生长、演化。\n\n你感到一种深深的震撼，也感到一种淡淡的忧伤。",
+      "bgmTag": "reflective",
+      "visualTone": "cool",
+      "sourceAnchor": "第43卷·Layer2情感层"
+    },
+    {
+      "id": "evt-07-return",
+      "title": "回到现实·我们本可以拥有的",
+      "description": "体验者回到自己的世界，面对破碎的先秦典籍残篇，感受文化断层的怅然，但也看到传承的希望。",
+      "ageRange": { "start": 0, "fuzzy": true },
+      "yearRange": { "start": 2026 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "画面闪烁，你回到了自己的世界。\n\n翻开《汉书·艺文志》，那些「凡XX家，XX篇，今佚」的记录，此刻读来格外沉重。\n\n永乐大典散佚了，敦煌遗书流散了，多少智慧消失在历史的烟尘中。\n\n但你也看到了希望。虽然历史无法改变，但我们仍可以珍惜和保护现存的文化遗产。每一本被阅读的古籍，每一次对传统的重新理解，都是在修复那道文化的裂痕。\n\n这个平行世界的旅程结束了。但你带走了一样东西：对中华文明多元潜能的重新认识。",
+      "bgmTag": "farewell",
+      "visualTone": "dark",
+      "sourceAnchor": "第43卷·Layer2情感层·收束"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-03-hundred-schools", "evt-05-science-revolution"],
+    "valleyMoments": ["evt-07-return"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
