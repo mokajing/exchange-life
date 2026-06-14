@@ -246,25 +246,25 @@ class Renderer {
   }
 
   /**
-   * 获取预计算的完整文本换行结果（懒加载，setText后首次渲染时计算一次）
+   * 统一换行计算（带缓存，供内部和外部调用）
+   * 替代原_wrapText和_getPrecomputedLines两套缓存，减少内存开销
    */
-  _getPrecomputedLines(ctx, maxWidth) {
-    const cacheKey = this.currentText + '|' + maxWidth + '|' + ctx.font;
+  _computeLines(text, maxWidth) {
+    const cacheKey = text + '|' + maxWidth + '|' + this.ctx.font;
     if (this._precomputedTextKey === cacheKey && this._precomputedLines) {
       return this._precomputedLines;
     }
-    // 对完整文本做一次换行计算并缓存
     const lines = [];
     let currentLine = '';
-    for (let i = 0; i < this.currentText.length; i++) {
-      const char = this.currentText[i];
+    for (let i = 0; i < text.length; i++) {
+      const char = text[i];
       if (char === '\n') {
         lines.push(currentLine);
         currentLine = '';
         continue;
       }
       const testLine = currentLine + char;
-      const metrics = ctx.measureText(testLine);
+      const metrics = this.ctx.measureText(testLine);
       if (metrics.width > maxWidth && currentLine.length > 0) {
         lines.push(currentLine);
         currentLine = char;
@@ -276,6 +276,13 @@ class Renderer {
     this._precomputedLines = lines;
     this._precomputedTextKey = cacheKey;
     return lines;
+  }
+
+  /**
+   * 获取预计算的完整文本换行结果（懒加载，setText后首次渲染时计算一次）
+   */
+  _getPrecomputedLines(ctx, maxWidth) {
+    return this._computeLines(this.currentText, maxWidth);
   }
 
   _renderChoices(ctx, w, h, choices, selectedIndex) {
