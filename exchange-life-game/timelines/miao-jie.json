@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "id": "miao-jie-001",
+    "title": "苗婕的金腰带——35岁单亲妈妈重返柔术赛场",
+    "subtitle": "退役8年后以国家柔术队最大龄队员身份重返世锦赛，独自抚养两子，格斗从武器蜕变为生存支柱",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-13T22:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "格斗少女的起点",
+      "description": "自幼接触格斗运动，展现出过人的身体天赋和意志力。",
+      "ageRange": { "start": 0, "end": 18 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你从小就比同龄女孩好动。当别人在玩洋娃娃的时候，你在操场上跑步、翻跟头。教练说你身体条件好，适合练格斗。那时候你还不懂什么叫柔术，只知道垫子上的汗水味让你觉得踏实。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "纪录片《籍籍无名》"
+    },
+    {
+      "id": "evt-02",
+      "title": "退役与母亲身份",
+      "description": "年轻时因各种原因退役，成为两个孩子的单亲妈妈，住45平米小屋，身兼运动员/教练/女儿/妈妈多重身份。",
+      "ageRange": { "start": 22, "end": 30 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "退役那天你把拳套收进柜子最深处。你以为再也不会打开了。生活变成了尿布、奶粉、房租。一个人带两个孩子，住在45平米的小屋里。清晨5点孩子还没醒你就出门晨跑，午休时间赶去训练馆，接孩子的间隙在公园做200个深蹲。你不是在追梦，你是在用格斗撑住自己不倒下。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是这位独自带着两个孩子的母亲，面对生活的重压，你会……",
+        "options": [
+          { "label": "把格斗当作活下去的支柱，再苦也不放弃", "response": "你选择了最难的路。格斗不再是比赛，而是你和命运谈判的方式。" },
+          { "label": "先稳定生活，等孩子大了再说", "response": "你选择了稳妥。但有些火一旦熄灭，就再也点不燃了。" }
+        ]
+      },
+      "sourceAnchor": "澎湃新闻专访"
+    },
+    {
+      "id": "evt-03",
+      "title": "35岁的国家队召唤",
+      "description": "退役8年后收到国家队征召，以最大龄队员身份重返赛场。",
+      "ageRange": { "start": 35 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "电话响的时候你正在给孩子热牛奶。国家队？你以为是诈骗。确认了三遍才相信。35岁，退役8年，两个孩子的妈——他们说需要你。你看着镜子里的自己，眼角的皱纹比记忆中多了好几条。但你摸了摸自己的肩膀，肌肉记忆还在。你对着镜子说：我可以。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "35岁收到国家队征召，你会……",
+        "options": [
+          { "label": "放下顾虑，拼一次", "response": "你选了不留遗憾。年龄是数字，但热爱没有保质期。" },
+          { "label": "婉拒，安心照顾家庭", "response": "你选了责任。但你知道，有些机会错过就不会再来。" }
+        ]
+      },
+      "sourceAnchor": "上海广播电视台真实传媒"
+    },
+    {
+      "id": "evt-04",
+      "title": "杭州亚运会首枚奖牌",
+      "description": "在杭州亚运会上为中国柔术赢得首枚奖牌，ONE冠军赛创45秒降服纪录。",
+      "ageRange": { "start": 35 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "杭州亚运会的垫子上，你听见国歌响起的那一刻，眼泪比汗水先掉下来。中国柔术的第一枚亚运奖牌，挂在了一个35岁单亲妈妈的脖子上。ONE冠军赛上你用45秒降服对手，解说员喊破了音。你的两个孩子在台下举着手绘的牌子：妈妈最棒。那一刻你知道，所有的凌晨5点、所有的200个深蹲、所有咬着牙撑过去的日子，都值得了。",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright",
+      "sourceAnchor": "央视体育报道"
+    },
+    {
+      "id": "evt-05",
+      "title": "格斗是生存的支柱",
+      "description": "格斗从对抗外界的武器蜕变为支撑生活的力量源泉。",
+      "ageRange": { "start": 35 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "有人问你为什么还要打。你说，格斗不是为了赢别人，是为了不被生活打败。每一次被摔倒再爬起来，都是在告诉自己：你还可以。你不是什么传奇，你只是一个不肯认输的妈妈。金腰带会褪色，但你在垫子上找回的那个自己，永远不会。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm",
+      "sourceAnchor": "纪录片《籍籍无名》第二集"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt-04"],
+    "valleyMoments": ["evt-02"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

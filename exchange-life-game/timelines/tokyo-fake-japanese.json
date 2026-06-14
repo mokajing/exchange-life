@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "tokyo-fake-japanese-001",
+    "title": "我在东京当了三年「假日本人」",
+    "subtitle": "一个中国留学生在东京三年的文化伪装、身份撕裂与最终觉醒",
+    "sourceType": "social_media",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-14T04:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-tfj-01",
+      "title": "初到东京",
+      "description": "赴日留学，就读东京某私立大学国际经济系。因中文口音被便利店店员反复确认订单，萌生融入念头。",
+      "ageRange": { "start": 20 },
+      "yearRange": { "start": 2019, "end": 2019 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "九月的东京闷热得像蒸笼。你拖着行李箱走出成田机场，空气里弥漫着陌生的清洁剂味道。便利店里，你用练习了无数遍的日语点了一份饭团，店员歪着头看了你一眼，又问了一遍。你重复，她又确认。第三次时你终于明白——不是你的发音有问题，是你的脸和声音之间存在某种她无法调和的错位。那一刻你在心里种下了一颗种子：如果我能把自己完全变成另一个人呢？",
+      "bgmTag": "new_beginning",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-tfj-02",
+      "title": "成为木村翔太",
+      "description": "开始使用日文名，在社交场合不再提及中国身份。模仿关西腔调，参加居酒屋打工。",
+      "ageRange": { "start": 20 },
+      "yearRange": { "start": 2019, "end": 2019 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "从十二月起，你有了一个新名字：木村翔太。你在名片上写下这四个字的时候，手指微微发抖——不是恐惧，是一种奇异的兴奋。居酒屋里，你用刚学会的关西腔跟客人开玩笑，他们笑得前仰后合，没有人追问你的来历。你开始享受这种隐形的快感，像一个成功的魔术师，连自己都快要相信了。",
+      "bgmTag": "urban_jazz",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "同事问你哪里人，你会怎么回答？",
+        "options": [
+          { "label": "直说「中国来的」", "response": "同事点点头，礼貌但保持距离地笑了笑。你感到一丝轻松，也有一丝被隔离的凉意。" },
+          { "label": "说「东京出身」", "response": "对话顺畅地进行下去，但你注意到自己每次撒谎时喉咙都会发紧。" },
+          { "label": "含糊说「亚洲」", "response": "对方没有追问，但你整晚都在纠结这个模糊的答案到底意味着什么。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-tfj-03",
+      "title": "伪装的巅峰",
+      "description": "疫情封锁期间深度沉浸日本网络社群，日语能力飞跃。被店长夸完全听不出是外国人。",
+      "ageRange": { "start": 21 },
+      "yearRange": { "start": 2020, "end": 2020 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "疫情把所有人关在了屏幕后面，而你却在虚拟世界里获得了前所未有的自由。没有了面对面的审视，你的日语在Twitter和Discord的深夜对话中突飞猛进。店长拍着你的肩膀说：'翔太，我完全听不出你是外国人了。'这句话像一枚勋章别在你胸口，闪闪发光。可你不知道的是，勋章的背面刻着一行小字：可是你妈妈叫你的名字，也是这个发音吗？",
+      "bgmTag": "bittersweet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-tfj-04",
+      "title": "被揭穿的瞬间",
+      "description": "大学同学聚餐时，韩国留学生当众揭穿身份。饭桌陷入尴尬沉默。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": 2021, "end": 2021 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "居酒屋的灯光暖黄而暧昧，直到那句话像一把刀劈开了所有伪装。'翔太其实是中国人吧，我听过他打电话说中文。'韩国留学生的语气没有恶意，甚至带着好奇，但你的世界在那一秒坍塌了。三个日本同学的表情微妙地变了——不是愤怒，不是鄙夷，而是一种比那更让你窒息的东西：重新评估。你突然意识到，过去两年建立的所有信任，都建立在一个谎言之上。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "此刻你会怎么做？",
+        "options": [
+          { "label": "坦白承认并道歉", "response": "你深吸一口气，用日语说出了那个被你藏了两年的真相。沉默很长，但最终有人举起了酒杯。" },
+          { "label": "否认并转移话题", "response": "你笑着摇头，但声音里的颤抖出卖了你。那顿饭剩下的时间，每个人都在假装什么都没发生。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-tfj-05",
+      "title": "奥运之夜的身份撕裂",
+      "description": "东京奥运期间看中日乒乓球决赛，中国队得分时下意识握拳被室友捕捉到。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": 2021, "end": 2021 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "宿舍公共区域的电视亮着，中日乒乓球决赛正在进行。你告诉自己只是随便看看，但当中国队得分的那一刻，你的右手不由自主地握成了拳头。室友的目光像探照灯一样扫过来，你们四目相对。他没有说什么，但那个眼神你读得懂：原来如此。你低下头，盯着自己攥紧的拳头，仿佛它属于一个陌生人。你到底是谁？这个问题从未如此沉重。",
+      "bgmTag": "emotional_peak",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-tfj-06",
+      "title": "浦东机场的眼泪",
+      "description": "三年来第一次回国，在浦东机场听到满耳中文突然哭了。发现自己不会用方言和奶奶对话。",
+      "ageRange": { "start": 23 },
+      "yearRange": { "start": 2022, "end": 2022 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "行李转盘的嗡嗡声混着广播里的普通话，像一场迟到了三年的大雨。你站在那里，眼泪毫无预兆地涌出来。不是因为悲伤，是因为一种你几乎忘记的感觉：被母语包裹的安全感。回到老家县城，奶奶拉着你的手说了好多话，你却发现自己需要用普通话回应——方言已经从舌头上脱落了。你看着奶奶困惑的眼神，忽然明白：你不仅伪装成了一个日本人，你还在不知不觉中弄丢了一部分自己。",
+      "bgmTag": "homecoming",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "在中华料理店老板用中文跟你说话时...",
+        "options": [
+          { "label": "假装听不懂", "response": "老板摇了摇头，转身继续炒菜。你站在原地，一阵刺痛从胸口蔓延开来。" },
+          { "label": "用中文回应并聊了起来", "response": "老板笑了，给你多加了一份小菜。他成了你在东京唯一能说中文的朋友。" },
+          { "label": "微笑不回应，默默离开", "response": "回去的路上你反复回想老板的眼神，那里面有理解，也有心疼。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-tfj-07",
+      "title": "我叫林浩",
+      "description": "返回东京后决定不再隐藏身份。在研究室自我介绍时说出真名。",
+      "ageRange": { "start": 23 },
+      "yearRange": { "start": 2022, "end": 2022 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "研究室的门推开时，你的心跳很快，但这一次不是因为伪装，而是因为真实。'我叫林浩，中国人，之前用的日文名是木村翔太。'教授沉默了五秒，然后点了点头：'知道了，林同学。'就这五个字，轻得像羽毛，却把你从两年的重负里托了出来。窗外樱花正在落，你第一次觉得，不需要成为任何人，你就是你。浩砀的浩，心胸开阔的浩。你爸取的名字，你终于做到了。",
+      "bgmTag": "resolution",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-tfj-03", "evt-tfj-07"],
+    "valleyMoments": ["evt-tfj-04", "evt-tfj-05", "evt-tfj-06"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["文化身份焦虑", "身份认同危机", "思乡情绪"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "xiao-yuting-001",
+    "title": "单手擎起风雨家——残臂农妇肖玉亭17年不离不弃守至亲",
+    "subtitle": "先天右手缺失的北京农妇，以残臂独自照料两位重病亲人17年，从未让公公生过一处褥疮",
+    "sourceType": "news",
+    "authorized": false,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-13T22:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "天生少了一只手",
+      "description": "1975年生于北京大兴区榆垡镇求贤村，自幼右手先天缺失（三级残疾）。",
+      "ageRange": { "start": 0, "end": 18 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你出生的时候，右手的袖管是空的。村里人说这孩子命苦，但你妈不信。她用一只手把你拉扯大，教你用左手做所有事。穿衣、吃饭、写字、干活——别人用两只手做的事，你用一只手也能做到。只是慢一点，只是累一点。你从小就知道，你没有资格喊累。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "百家号/大兴区委宣传部"
+    },
+    {
+      "id": "evt-02",
+      "title": "嫁入负债家庭",
+      "description": "2001年嫁入负债家庭，与丈夫靠大棚种植还清外债。",
+      "ageRange": { "start": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "26岁那年你嫁进了这个家。婆婆拉着你的手说：闺女，委屈你了。你说没事。你和丈夫一起种大棚，还完了家里欠的债。四棚蔬菜，你一个人打理三棚。凌晨四点起床，天黑才收工。你的左手磨出了厚厚的茧子，但日子一天天好起来了。你以为最难的时候已经过去了。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果你是她，面对一个负债的家庭和未知的未来，你会……",
+        "options": [
+          { "label": "咬牙撑下去，日子总会好起来", "response": "你选了最朴素的路。有些人的坚强不是因为不怕，是因为没有退路。" },
+          { "label": "先照顾好自己再说", "response": "你选了自己。这没有错，但有些人注定要扛起更多。" }
+        ]
+      },
+      "sourceAnchor": "首都文明网报道"
+    },
+    {
+      "id": "evt-03",
+      "title": "丈夫煤气中毒",
+      "description": "2009年丈夫煤气中毒致智力下降、肢体无力，家庭支柱倒下。",
+      "ageRange": { "start": 34 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "2009年冬天，丈夫煤气中毒被送进医院。命保住了，但脑子坏了。他变得像个孩子，说话含糊，走路摇晃，连简单的农活都做不了了。你站在病床前看着他，感觉天塌了一半。两个孩子还在上学，大棚里的菜等着收，债还没还完。你用仅剩的那只手抹了一把脸，然后转身走进了大棚。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "sourceAnchor": "北京时间深度报道"
+    },
+    {
+      "id": "evt-04",
+      "title": "公公突发脑卒中",
+      "description": "2011年公公突发脑卒中半身不遂，照护重担全部压在她一人肩上。",
+      "ageRange": { "start": 36 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "两年后公公也倒了。脑卒中，半身不遂，躺在床上动不了。你给他翻身、擦身、喂饭、换尿布。一只手，你要完成别人两只手都觉得累的活。你把公公的身体翻过来擦洗的时候，自己的腰也快断了。但你从来没让他生过一处褥疮。十七年，一天都没有断过。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是这位只有一只手的照护者，面对两个重病亲人，你会……",
+        "options": [
+          { "label": "再难也要守住这个家", "response": "你选了最沉重的担当。有些爱不是用嘴说的，是用十七年的每一天证明的。" },
+          { "label": "寻求外界帮助，不能把自己耗尽", "response": "你选了求助。这不是软弱，是让自己能走更远的智慧。" }
+        ]
+      },
+      "sourceAnchor": "百家号官方报道"
+    },
+    {
+      "id": "evt-05",
+      "title": "孩子的温暖",
+      "description": "两个孩子懂事地帮忙，成为她坚持下去的力量。",
+      "ageRange": { "start": 36, "end": 50 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "孩子们从小就比别人家的孩子懂事。放学回来帮你捶背，周末帮你摘菜。大女儿说：妈，等我长大了替你扛。小儿子说：妈，我给你当右手。你听着这些话，眼泪在眼眶里转，但你笑着点头。你知道他们不是在安慰你，他们是认真的。这就是你撑下去的理由。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm",
+      "sourceAnchor": "首都文明网"
+    },
+    {
+      "id": "evt-06",
+      "title": "公公安详离世",
+      "description": "2025年底公公安详离世，从未生过褥疮。丈夫已能简单自理。",
+      "ageRange": { "start": 50 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "2025年冬天，公公走了。走得很安详，身上干干净净，没有一处褥疮。医生说这在长期卧床的病人里几乎不可能。你知道那是你用十七年的每一天换来的。丈夫现在能自己吃饭、慢慢走路了。你终于可以坐下来歇一歇了。但你坐下来的时候才发现，自己已经忘了怎么休息。",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "cool",
+      "sourceAnchor": "大兴区委宣传部"
+    },
+    {
+      "id": "evt-07",
+      "title": "中国好人榜",
+      "description": "入选2025年大兴榜样、2026年第二批中国好人榜北京市推荐候选人。",
+      "ageRange": { "start": 50 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他们说你是榜样，是好人的代表。你摆摆手说：我就是做了该做的事。但你知道，这世上没有什么是该做的。你所做的一切，都是因为爱。一只空荡荡的袖管，撑起了一整个家。你不是超人，你只是一个不肯放手的妻子、母亲、儿媳。",
+      "bgmTag": "triumphant_gentle",
+      "visualTone": "bright",
+      "sourceAnchor": "中国好人榜公示"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-04", "evt-07"],
+    "valleyMoments": ["evt-03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["长期照护压力", "家庭成员重大疾病", "丧亲"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

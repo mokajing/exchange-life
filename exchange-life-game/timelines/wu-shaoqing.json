@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "id": "wu-shaoqing",
+    "title": "寻找你的名字",
+    "subtitle": "84岁素人到票房女王——一个人活了84年终于被叫出名字",
+    "sourceType": "documentary",
+    "authorized": false,
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-13T11:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "ws-001",
+      "title": "没有名字的童年",
+      "description": "潮汕女孩吴少卿出生时没有正式名字，家人叫她'阿妹'。侨批上写着母亲的名字，却从未写过她的。",
+      "ageRange": { "start": 0, "end": 12 },
+      "category": "growth",
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你出生在潮汕的一个小村庄。从记事起，你就知道自己没有一个真正的名字。家里人叫你'阿妹'，邻居叫你'老三家的那个丫头'。你看到母亲收到的侨批上，写着外婆的名字、舅舅的名字，却从来没有出现过你的。你开始想：是不是我不够重要，所以不需要一个名字？",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "cool"
+    },
+    {
+      "id": "ws-002",
+      "title": "嫁人后更没了名字",
+      "description": "出嫁后成为'某某的妻子''某某的母亲'，自己的名字彻底消失在户口本之外。",
+      "ageRange": { "start": 18, "end": 50 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "十八岁那年你嫁了人。从那以后，你变成了'建国的媳妇''三个孩子的妈'。村里没人再叫你原来的名字，连你自己都快忘了。你在灶台前忙了三十年，在田地里弯了三十年的腰。偶尔夜深人静的时候，你会想起小时候母亲哼的那首潮汕歌谣，那是唯一还记得的、属于你自己的声音。",
+      "bgmTag": "somber_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如果你是她，在这个时刻会怎么想？",
+        "options": [
+          { "label": "也许这就是命吧", "response": "你选择了接受。在那个年代，大多数女性都是这样过来的。但接受不代表不痛。" },
+          { "label": "总有一天我要找回自己", "response": "这颗种子埋在了心底。它需要几十年才能发芽，但它一直在。" },
+          { "label": "我的孩子会有名字的", "response": "你把希望寄托在下一代身上。这是那个时代女性最深沉的爱与不甘。" }
+        ]
+      }
+    },
+    {
+      "id": "ws-003",
+      "title": "84岁，第一次被叫全名",
+      "description": "一部纪录片让她的人生被看见。当导演在镜头前喊出'吴少卿'三个字时，她愣住了，然后笑了。",
+      "ageRange": { "start": 84 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "八十四岁那年，一群年轻人扛着摄像机来到你家。他们说要把你的故事拍成电影。你觉得荒唐——我一个老太太，有什么好拍的？但当导演第一次在镜头前郑重地喊出'吴少卿'三个字时，你整个人愣住了。这个名字，你已经几十年没有听过了。眼泪没有流下来，但你笑了。那种笑，是八十四年来第一次觉得自己被看见了的笑。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "当你听到自己的名字被郑重喊出时……",
+        "options": [
+          { "label": "原来我的名字这么好听", "response": "是的。每一个被认真对待的名字，都是一个人存在的证明。" },
+          { "label": "这辈子值了", "response": "不是'值了'，而是'终于开始了'。被看见这件事，永远不嫌晚。" }
+        ]
+      }
+    },
+    {
+      "id": "ws-004",
+      "title": "代价：被看见的重量",
+      "description": "出名后隐私被翻出，家人的生活被打扰。她开始反思：被看见是有代价的。",
+      "ageRange": { "start": 84 },
+      "category": "crisis",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "电影上映后，你成了'网红'。记者来了，网友来了，连多年不联系的亲戚也来了。有人夸你励志，有人挖你的旧事，有人在你家门口直播。你的孙子说：'奶奶，我不想上学被同学问东问西。'你第一次意识到，被看见是有代价的。你想起了那些安静做饭的日子，想起了没有人打扰的午后。你开始明白：被尊重地看见，和被消费地围观，是完全不同的两件事。",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "ws-005",
+      "title": "名字的意义",
+      "description": "晚年感悟：名字不只是称呼，是一个人活过的证据。",
+      "ageRange": { "start": 85 },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "现在你八十五岁了。有人问你：'吴奶奶，你这辈子最后悔什么？'你想了想说：'后悔没有早点知道自己值得被叫一声名字。'你不是名人，不是英雄，你只是一个普通的潮汕女人。但你的故事告诉每一个没有被好好叫过名字的人：你值得被看见，你值得被记住，你值得拥有一个属于自己的、被郑重念出的名字。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["ws-003"],
+    "valleyMoments": ["ws-001", "ws-004"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["身份认同", "性别议题", "隐私反思"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

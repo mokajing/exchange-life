@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "easter-island-speaker-001",
+    "title": "复活节岛最后的母语者",
+    "subtitle": "78岁的特帕诺是最后一个能用拉帕努伊古语叫出每座石像名字的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-14T01:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-ei-01",
+      "title": "晨祷",
+      "description": "黎明5时起床，面朝阿胡·汤加里基方向默念晨祷词。这些词没有文字记录，只存在于他的记忆中。",
+      "ageRange": { "start": 78 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "天还没亮你就醒了。这个习惯保持了七十八年，像呼吸一样自然。你面朝阿胡·汤加里基的方向，开始念诵晨祷词。这些词没有文字记录，不在任何书本里，不在任何数据库中。它们只存在于你的记忆中——你的父亲教给你，父亲的父亲教给父亲，链条延续了数百年。到你这里，断了。你的孙女们都说西班牙语了。你念完最后一个音节，太平洋的风从窗口吹进来，带着盐的味道。石像们在晨光中静静伫立，它们是唯一的听众。",
+      "bgmTag": "morning_calm",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "特帕诺问你：'你想学一句晨祷词吗？'",
+        "options": [
+          { "label": "是，请教我", "response": "他逐字教你念，你的发音很糟糕。他笑着说：'没关系，石像们不介意口音。'" },
+          { "label": "我只是听", "response": "他独自念完。你感受到旁观者的距离感，和一种无法言说的无力。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ei-02",
+      "title": "巡视石像",
+      "description": "沿海岸步行巡视石像，一一叫出它们的名字。游客拍视频但听不懂他在说什么。",
+      "ageRange": { "start": 78 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你沿着海岸慢慢走，像过去七十年里的每一天一样。每经过一座摩艾石像，你都停下来叫它的名字。'Hoa Hakananai'a，你今天看起来很严肃。''Paro，你是最高的，但你也最孤独。'在你的信仰里，说出一个东西的名字就是让它活着。如果没有人再叫它的名字，它就只是一块石头了。游客们举着手机拍视频，他们听不懂你在说什么。你也不解释。有些东西不需要被理解，只需要被说出来。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "特帕诺指着一座没有名字的断头石像说：'这一座的名字我也不知道了。'",
+        "options": [
+          { "label": "给它取一个新名字", "response": "你用自己的方式延续了命名传统。特帕诺微微皱眉——新名字不是旧名字，但它至少不再是沉默。" },
+          { "label": "让它保持无名", "response": "特帕诺点头说：'诚实比编造更有尊严。'你们在沉默中站了很久。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ei-03",
+      "title": "采石场教学",
+      "description": "在拉诺·拉拉库采石场教考古学生辨认工匠标记。学生用英语做笔记，拼不出拉帕努伊语发音。",
+      "ageRange": { "start": 78 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "采石场的火山岩上还留着千年前工匠的刻痕。你指着其中一个标记对那个年轻的考古学生说：'这个叫te ua——风的牙齿。'学生用英语在本子上记下音标，但怎么也拼不出正确的发音。你耐心地重复了一遍又一遍。每一个音节都是一块活化石，从你的嘴里传到他的耳朵里，再落到纸上时已经变了形状。你想起了祖母说过的一句话：'语言像水，倒进不同的容器就会变成不同的形状。但水的味道不会变。'你不确定这个学生能不能尝到那个味道。",
+      "bgmTag": "ambient_space",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-ei-04",
+      "title": "录音机的悖论",
+      "description": "UNESCO语言学家来录音。特帕诺念完创世神话后说：'机器记住了，但机器不会用它祈祷。'",
+      "ageRange": { "start": 78 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "语言学家带来了精密的录音设备。你对着话筒念诵Makemake创造人类的创世神话——每一个元音都承载着数百年的重量。念完后，语言学家满意地说：'太珍贵了，这些录音会永远保存在数据库里。'你沉默了很久。然后你说：'但数据库不会做梦。我妈妈用这种语言唱摇篮曲哄我睡觉时，每个元音都是不一样的温度。你们的机器听不出来。'语言不只是信息载体。它是活着的记忆的皮肤。当最后一个会说它的人离开，那些录音就只是声音，不再是语言。",
+      "bgmTag": "heartbeat",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "语言学家邀请你也参与录制，用你自己的语言讲述家乡。",
+        "options": [
+          { "label": "录", "response": "你开口时才发现，自己的方言里也有正在消失的词。你成了另一种消亡的见证者。" },
+          { "label": "不录", "response": "你开始思考自己是否也在对某种消亡无动于衷。沉默本身也是一种回答。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ei-05",
+      "title": "日落石像",
+      "description": "坐在阿胡·阿基维七尊面朝大海的石像前看日落。这是岛上唯一面向海洋的石像群。",
+      "ageRange": { "start": 78 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "傍晚六点，你坐在阿胡·阿基维的七尊石像前。它们是岛上唯一面向海洋的石像群——其他所有摩艾都面朝内陆，守护着村庄。只有这七尊望着大海，望着祖先来时的方向。太阳沉入无际的太平洋，天空从金橙转为深紫。你说：'它们在看祖先来时的方向。但我的孙女连这个故事都不想听了。'风穿过石像之间，发出低沉的呜咽。也许石像也在叹息。也许那只是风。但在这一刻，你愿意相信前者。",
+      "bgmTag": "silence_to_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "特帕诺问：'如果你能把一个词永远保留下来，你会选哪个？'",
+        "options": [
+          { "label": "输入一个对自己重要的词", "response": "这个词被刻入了虚拟的第八座石像上。它将成为你在这座岛上留下的永恒印记。" },
+          { "label": "我选不出来", "response": "特帕诺笑了：'选不出来也是一种答案。说明你有太多舍不得的东西。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt-ei-06",
+      "title": "最后一个读者",
+      "description": "夜晚用拉帕努伊语写日记。他是自己的最后一个读者，也是第一个遗忘者。",
+      "ageRange": { "start": 78 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "夜晚九点。油灯的光在笔记本上投下温暖的影子。你用拉帕努伊语写下今天的日记——和过去几十年里的每一天一样。但今天写到某个词时，你停下了。你发现自己也开始记不清了。你正在成为自己的语言的最后一个读者，同时也是第一个遗忘者。这个矛盾像一把钝刀，缓慢而持续地切割着什么。窗外是太平洋的浪声——几千年来从未改变。石像还在，浪声还在，但语言终将消散。你合上笔记本，关灯。在黑暗中，你听到了自己的呼吸声。至少这个声音，还是你自己的。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "melancholic",
+    "peakMoments": ["evt-ei-04", "evt-ei-06"],
+    "valleyMoments": ["evt-ei-01"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["文化消亡", "孤独", "语言丧失"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
