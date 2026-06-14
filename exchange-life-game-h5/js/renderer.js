@@ -28,9 +28,7 @@ class Renderer {
     this.currentText = '';
     this.isTyping = false;
     
-    // 文本换行缓存（避免每帧重新计算）
-    this._cachedLines = null;
-    this._cachedTextKey = '';
+    // 文本换行缓存（统一使用_precomputedLines/_precomputedTextKey）
     
     // 淡入淡出
     this.fadeAlpha = 0;
@@ -285,6 +283,14 @@ class Renderer {
     return this._computeLines(this.currentText, maxWidth);
   }
 
+  /**
+   * 兼容旧接口：_wrapText现在委托给_computeLines
+   * @deprecated 请使用_computeLines
+   */
+  _wrapText(ctx, text, maxWidth) {
+    return this._computeLines(text, maxWidth);
+  }
+
   _renderChoices(ctx, w, h, choices, selectedIndex) {
     const colors = TONE_COLORS[this.targetTone] || TONE_COLORS.neutral;
     const choiceH = 60;
@@ -363,41 +369,6 @@ class Renderer {
       }
     }
     return charIndex;
-  }
-
-  _wrapText(ctx, text, maxWidth) {
-    // 使用缓存避免每帧重复计算
-    const cacheKey = text + '|' + maxWidth + '|' + ctx.font;
-    if (this._cachedTextKey === cacheKey && this._cachedLines) {
-      return this._cachedLines;
-    }
-    
-    const lines = [];
-    let currentLine = '';
-    
-    for (let i = 0; i < text.length; i++) {
-      const char = text[i];
-      if (char === '\n') {
-        lines.push(currentLine);
-        currentLine = '';
-        continue;
-      }
-      const testLine = currentLine + char;
-      const metrics = ctx.measureText(testLine);
-      if (metrics.width > maxWidth && currentLine.length > 0) {
-        lines.push(currentLine);
-        currentLine = char;
-      } else {
-        currentLine = testLine;
-      }
-    }
-    if (currentLine) lines.push(currentLine);
-    
-    // 更新缓存
-    this._cachedLines = lines;
-    this._cachedTextKey = cacheKey;
-    
-    return lines;
   }
 
   _roundRect(ctx, x, y, w, h, r) {
