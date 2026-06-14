@@ -1,0 +1,206 @@
+{
+  "meta": {
+    "id": "retired-cadre-day1",
+    "title": "退休第一天的老干部",
+    "subtitle": "当一个人不再被社会定义时，他是谁",
+    "sourceType": "social_media",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/20eMKjyp81omOrdoie1kGdO9VxAZB1Gv",
+    "authorized": true,
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-15T06:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-alarm",
+      "title": "闹钟响了",
+      "description": "06:00闹钟响，下意识按掉，然后想起今天不用上班了。在床上躺了比平时多二十分钟。",
+      "ageRange": { "start": 60 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.4,
+      "narrativeText": "06:00，闹钟响了。\n\n你下意识按掉它，然后想起来——今天不用上班了。\n\n你在床上多躺了二十分钟。不知道该不该起来。身体还在「上班模式」，意识已经退场了。",
+      "bgmTag": "ambient_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-shirt",
+      "title": "白衬衫与党徽",
+      "description": "07:30还是穿上了白衬衫，扣到最上面一颗。妻子说不用去了，他说习惯了。站在镜子前看了自己很久，把党徽别在左胸口袋上。",
+      "ageRange": { "start": 60 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "07:30，你还是穿上了那件白衬衫，扣到最上面一颗。\n\n妻子说：「你今天不用去了。」\n你说：「习惯了。」\n\n站在镜子前看了自己很久。你把那枚党徽别在左胸口袋上。镜子里的人，和昨天一样，又不一样。",
+      "bgmTag": "melancholy_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-03-breakfast",
+      "title": "安静的早餐",
+      "description": "08:00早餐和往常一样：粥、咸菜、煮鸡蛋。但今天没人打电话请示工作，手机安静得让人不安。拿起手机三次，又放下三次。",
+      "ageRange": { "start": 60 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "08:00，餐桌前。\n\n粥、咸菜、一个煮鸡蛋。和往常一样。\n\n但今天没人打电话请示工作。手机安静得让你不安。你拿起手机三次，又放下三次。\n\n屏幕亮了又暗，暗了又亮。没有人找你。",
+      "bgmTag": "silence_tension",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-04-gate",
+      "title": "小区门口的等待",
+      "description": "09:00惯性走到小区门口，那是司机每天接他的位置。站了五分钟，一辆黑色轿车开过来，不是他的。司机探出头说师傅让一下。",
+      "ageRange": { "start": 60 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "09:00，你走到了小区门口。\n\n这是司机每天接你的位置。你站了五分钟。\n\n一辆黑色轿车开过来。不是你的。司机探出头：「师傅，让一下。」\n\n你往后退了两步。那辆车载着别人走了。\n\n从「X局」到「师傅」，只用了一秒钟。",
+      "bgmTag": "emotional_strings",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "被叫「师傅」的那一刻……",
+        "options": [
+          { "label": "苦笑一下，转身离开", "response": "你嘴角动了动，算是笑了。然后转身，慢慢走回小区。脚步比平时慢了很多。" },
+          { "label": "愣在原地，看着车远去", "response": "你站在那里，看着尾灯消失在拐角。风吹过来，有点凉。你第一次觉得，这个小区门口变得陌生了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-office",
+      "title": "空了的办公室",
+      "description": "10:00去了单位。门卫愣了一下说您今天不是。笑着说来拿点东西。办公室已经搬空了，桌上只剩一个笔筒和一张合影。",
+      "ageRange": { "start": 60 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "10:00，你走进了单位大门。\n\n门卫看到你愣了一下：「X局，您今天不是……」\n你笑着说：「来拿点东西。」\n\n办公室已经搬空了。桌上只剩一个笔筒和一张合影。合影里你站在中间，那是三年前的项目验收会。\n\n那些面孔，有些还记得你的名字，有些已经开始忘了。",
+      "bgmTag": "empty_room_echo",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "桌上的合影……",
+        "options": [
+          { "label": "拿走那张合影", "response": "你把合影放进包里。这张照片是你和过去的最后一条线。带着它，好像就没有完全离开。" },
+          { "label": "什么都不拿", "response": "你看了一眼，转身离开。有些东西，留在原地就好。纯粹的告别，不需要纪念品。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-06-canteen",
+      "title": "食堂的角落",
+      "description": "12:00食堂。端着餐盘找位置，以前有人帮他留座，今天坐在角落。几个年轻同事经过，犹豫了一下叫了声老领导，然后快步走开。",
+      "ageRange": { "start": 60 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "12:00，食堂。\n\n你端着餐盘找位置。以前总有人帮你留座，今天你坐在了角落。\n\n几个年轻同事经过，犹豫了一下，点头叫了声「老领导」，然后快步走开了。\n\n饭菜和以前一样，但味道不太一样。这不是恶意，是比恶意更让人无力的「无关紧要」。",
+      "bgmTag": "melancholy_piano",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-07-park-chess",
+      "title": "公园棋局",
+      "description": "14:00路过公园，看到一群老人下棋。站在旁边看了很久，一个老人抬头问会下吗。他说会一点。老人往旁边挪了挪，给他让了半个马扎。",
+      "ageRange": { "start": 60 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "14:00，回家的路上，你经过了公园。\n\n一群老人在下棋。你站在旁边看了很久。\n\n一个老人抬起头问你：「会下吗？」\n你说：「会一点。」\n\n他往旁边挪了挪，给你让了半个马扎。\n\n在这里，你不是X局，不是老领导。你只是一个会下棋的人。",
+      "bgmTag": "warm_acoustic",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老人让出了半个马扎……",
+        "options": [
+          { "label": "坐下来，下一盘", "response": "你坐下了。棋子落盘的声音清脆。老人问你姓什么，你说姓张。他点点头：「老张，该你了。」这是今天第一次有人叫你名字。" },
+          { "label": "摆摆手，继续走", "response": "你笑了笑，摆摆手。继续往前走。身后传来棋子落盘的声音，和老人们闲聊的碎语。你没有回头。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-08-stamps",
+      "title": "尘封的集邮册",
+      "description": "16:00在家翻出了尘封的集邮册。三十年前的爱好，后来再也没碰过。邮票还按年份排着，最后一页停在1997年。从抽屉翻出一张最近的邮票放进去。",
+      "ageRange": { "start": 60 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "16:00，你翻出了那本集邮册。\n\n三十年前的爱好，后来就再也没碰过。邮票还按年份排着，最后一页停在1997年。\n\n你想了想，从抽屉里翻出一张最近的邮票，小心地放进去。\n\n三十年的空白，今天补上了一格。",
+      "bgmTag": "nostalgic_music_box",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-09-dinner",
+      "title": "妻子的干杯",
+      "description": "18:00晚饭。妻子做了红烧肉，开了一瓶酒。她举杯说恭喜退休。碰了一下杯，喝了一口没说话。妻子说以后天天在家做饭有人试菜了。他笑了，今天第一次真正笑。",
+      "ageRange": { "start": 60 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "18:00，晚饭。\n\n妻子做了你爱吃的红烧肉，还开了一瓶酒。\n\n她举起杯：「恭喜退休。」\n你碰了一下杯，喝了一口，没说话。\n\n她说：「以后你天天在家，我做饭有人试菜了。」\n\n你笑了。这是今天第一次真正地笑。\n\n在她眼里，你不是X局，不是老领导。你只是那个需要试菜的人。",
+      "bgmTag": "warm_family",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "妻子举起了酒杯……",
+        "options": [
+          { "label": "碰杯，说一句「谢谢你」", "response": "杯子轻轻碰在一起。你说了一句「谢谢你」。她愣了一下，然后笑了。有些话，说了四十年才说出口。" },
+          { "label": "碰杯，沉默", "response": "杯子轻轻碰在一起。你没说话，但她懂。四十年的默契，不需要语言。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-10-phone-call",
+      "title": "深夜的电话",
+      "description": "21:00坐在阳台看车流。手机响了，是以前的下属。对方说新领导问项目的事，正准备详细说，对方说算了再问问别人。电话挂断了。握着手机屏幕慢慢暗下去。",
+      "ageRange": { "start": 60 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "21:00，阳台上。\n\n楼下的车流像一条光带。手机响了，是以前的下属。\n\n「X局，新来的领导问那个项目的事……」\n你正准备详细说。\n\n「算了算了，我再问问别人。」\n\n电话挂断了。你握着手机，屏幕慢慢暗下去。\n\n被需要了五秒钟，然后被挂断了。",
+      "bgmTag": "lonely_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "电话挂断后……",
+        "options": [
+          { "label": "回拨过去，主动说明", "response": "你回拨了过去。对方客套了几句，还是挂断了。短暂的「被需要」，像烟花一样消散了。但至少，你试过了。" },
+          { "label": "放下手机，安静坐着", "response": "你把手机放在桌上。夜风吹过阳台。你安静地坐着，听着远处的车声。有些东西，放下了反而轻了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-11-darkness",
+      "title": "黑暗中的呼吸",
+      "description": "23:00躺在床上睡不着。翻了个身，妻子说慢慢就习惯了。他说我知道。黑暗里睁着眼睛听着自己的呼吸声。",
+      "ageRange": { "start": 60 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "23:00，躺在床上。\n\n睡不着。你翻了个身。\n\n妻子轻声说：「慢慢就习惯了。」\n你说：「我知道。」\n\n黑暗里，你睁着眼睛，听着自己的呼吸声。\n\n这是退休的第一天。明天，还有第二天。",
+      "bgmTag": "deep_night_ambient",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-09-dinner"],
+    "valleyMoments": ["evt-04-gate", "evt-05-office", "evt-10-phone-call"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["身份丧失", "退休焦虑", "社交孤立感"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

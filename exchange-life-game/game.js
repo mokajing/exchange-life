@@ -48,7 +48,8 @@ const TIMELINE_LIST = [
   'bus-night-driver',          // L1/S/V2 - 公交车末班车司机的午夜归程 (P0第50卷)
   'qing-palace-maid',           // L1/S/V2 - 清朝宫女出宫后的第一天 (P0第87卷)
   'oil-rig-worker',              // L2/S/V1 - 海上石油钻井平台工人28天 (P0第85卷)
-  'lighthouse-keeper'             // L2/S/V1 - 灯塔守护人的最后一次值守 (P0第90卷)
+  'lighthouse-keeper',             // L2/S/V1 - 灯塔守护人的最后一次值守 (P0第90卷)
+  'retired-cadre-day1'              // L2/S/V1 - 退休第一天的老干部 (P0第110卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

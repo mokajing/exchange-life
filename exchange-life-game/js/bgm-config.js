@@ -124,7 +124,15 @@ const BGM_MAP = {
   piano_farewell:    { file: 'audio/bgm/piano_farewell.mp3',    volume: 0.3, loop: true },
   cello_solitude:    { file: 'audio/bgm/cello_solitude.mp3',    volume: 0.3, loop: true },
   vocal_hope:        { file: 'audio/bgm/vocal_hope.mp3',        volume: 0.4, loop: true },
-  piano_ascend:      { file: 'audio/bgm/piano_ascend.mp3',      volume: 0.35, loop: false }
+  piano_ascend:      { file: 'audio/bgm/piano_ascend.mp3',      volume: 0.35, loop: false },
+
+  // === 退休第一天老干部专用标签 (2026-06-15 P0第110卷) ===
+  empty_room_echo:   { file: 'audio/bgm/empty_room_echo.mp3',   volume: 0.25, loop: true },
+  warm_acoustic:     { file: 'audio/bgm/warm_acoustic.mp3',     volume: 0.3, loop: true },
+  nostalgic_music_box:{ file: 'audio/bgm/nostalgic_music_box.mp3',volume: 0.3, loop: true },
+  warm_family:       { file: 'audio/bgm/warm_family.mp3',       volume: 0.35, loop: true },
+  lonely_night:      { file: 'audio/bgm/lonely_night.mp3',      volume: 0.25, loop: true },
+  deep_night_ambient:{ file: 'audio/bgm/deep_night_ambient.mp3',volume: 0.2, loop: true }
 };
 
 /**
