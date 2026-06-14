@@ -101,15 +101,18 @@ function getBGM(tag) {
 }
 
 /**
- * BGM管理器 - 追踪当前播放实例，防止内存泄漏
+ * BGM管理器 - 追踪当前播放实例和活跃的crossfade定时器，防止内存泄漏
  */
 let _currentBGMInstance = null;
+let _activeCrossfadeTimer = null;
 
 /**
  * 播放BGM（微信小游戏InnerAudioContext）
  * 自动停止并销毁上一个BGM实例
  */
 function playBGM(tag) {
+  // 清理活跃的crossfade定时器
+  _clearCrossfadeTimer();
   // 清理上一个实例，防止内存泄漏
   if (_currentBGMInstance) {
     try {
@@ -146,6 +149,7 @@ function playBGM(tag) {
  * 停止当前BGM并释放资源
  */
 function stopBGM() {
+  _clearCrossfadeTimer();
   if (_currentBGMInstance) {
     try {
       _currentBGMInstance.stop();
@@ -161,6 +165,9 @@ function stopBGM() {
  * 交叉淡入切换BGM
  */
 function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
+  // 清理之前的crossfade定时器
+  _clearCrossfadeTimer();
+  
   const nextConfig = getBGM(nextTag);
   const nextAudio = wx.createInnerAudioContext();
   nextAudio.src = nextConfig.file;
@@ -200,7 +207,20 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
     }
   }, interval);
 
+  // 跟踪定时器以便后续清理
+  _activeCrossfadeTimer = timer;
+
   return nextAudio;
+}
+
+/**
+ * 内部工具：清理活跃的crossfade定时器
+ */
+function _clearCrossfadeTimer() {
+  if (_activeCrossfadeTimer) {
+    clearInterval(_activeCrossfadeTimer);
+    _activeCrossfadeTimer = null;
+  }
 }
 
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };

@@ -21,10 +21,15 @@ class TimelinePlayer {
 
     // 播放状态
     this.currentEventIndex = 0;
-    this.state = 'idle'; // idle | safety_prompt | typing | waiting | choosing | feedback | complete
+    this.state = 'idle'; // idle | safety_prompt | typing | waiting | choosing | feedback | echo | complete
     this.selectedChoice = -1;
     this.choiceFeedbackTimer = 0;
     this.choiceFeedbackDuration = 3; // 秒
+
+    // PRD V3.0 回响环节状态
+    this.echoStep = 0; // 0=渐弱音景 1=身份锚定 2=记录入口 3=温和出口
+    this.echoTimer = 0;
+    this.echoUserInput = '';
 
     // 安全提示（PRD V2.1 UESL模型）
     this.safetyLevel = (this.timeline.safetyInfo && this.timeline.safetyInfo.complianceLevel) || 'L1';
@@ -83,6 +88,11 @@ class TimelinePlayer {
       if (this.choiceFeedbackTimer <= 0) {
         this._advanceToNextEvent();
       }
+    }
+
+    // PRD V3.0 回响环节更新
+    if (this.state === 'echo') {
+      this._updateEcho(dt);
     }
   }
 
@@ -180,6 +190,11 @@ class TimelinePlayer {
         this._advanceToNextEvent();
         break;
 
+      case 'echo':
+        // PRD V3.0 回响环节点击处理
+        this._handleEchoTap();
+        break;
+
       case 'complete':
         // 体验结束，可重新开始
         this.start();
@@ -191,9 +206,8 @@ class TimelinePlayer {
 
   _loadEvent(index) {
     if (index >= this.timeline.events.length) {
-      this.state = 'complete';
-      this.renderer.setText('体验结束。感谢你的陪伴。');
-      this.onCompleteCallback();
+      // PRD V3.0: 进入回响环节而非直接complete
+      this._startEchoPhase();
       return;
     }
 
@@ -317,6 +331,85 @@ class TimelinePlayer {
   _wrapFeedbackText(ctx, text, maxWidth) {
     // 复用Renderer的_wrapText方法，避免代码重复
     return this.renderer._wrapText(ctx, text, maxWidth);
+  }
+
+  // === PRD V3.0 回响环节 ===
+
+  /**
+   * 启动回响环节（体验结束后的结构化过渡）
+   * 四步流程：渐弱音景→身份锚定→记录入口→温和出口
+   */
+  _startEchoPhase() {
+    this.state = 'echo';
+    this.echoStep = 0;
+    this.echoTimer = 0;
+    this.echoUserInput = '';
+    // 步骤0：渐弱音景（3秒BGM渐弱至静默）
+    this.renderer.setText('', 0.1);
+    this.renderer.fadeTarget = 1;
+    this.onCompleteCallback();
+  }
+
+  /**
+   * 回响环节每帧更新
+   */
+  _updateEcho(dt) {
+    this.echoTimer += dt;
+    if (this.echoStep === 0 && this.echoTimer >= 3) {
+      // 步骤0完成，进入身份锚定
+      this.echoStep = 1;
+      this.echoTimer = 0;
+      this.renderer.setText(this._getIdentityAnchorText(), 0.2);
+    }
+    if (this.echoStep === 1 && this.echoTimer >= 4) {
+      // 步骤1完成（身份锚定展示≥3秒），进入记录入口
+      this.echoStep = 2;
+      this.echoTimer = 0;
+      this.renderer.setText(this._getEchoRecordPrompt(), 0.2);
+    }
+    // 步骤2和3等待用户点击
+  }
+
+  /**
+   * 回响环节的点击处理
+   */
+  _handleEchoTap() {
+    if (this.echoStep === 0 || this.echoStep === 1) {
+      // 渐弱/身份锚定阶段不可跳过（PRD V3.0强制要求身份锚定≥3秒）
+      return;
+    }
+    if (this.echoStep === 2) {
+      // 记录入口→温和出口
+      this.echoStep = 3;
+      this.echoTimer = 0;
+      this.renderer.setText(this._getGentleExitText(), 0.2);
+    } else if (this.echoStep === 3) {
+      // 温和出口→complete
+      this.state = 'complete';
+      this.renderer.setText('感谢你的陪伴。\n\n点击重新开始。', 0.3);
+    }
+  }
+
+  /**
+   * 身份锚定提示文本（PRD V3.0强制要求，不可跳过，展示≥3秒）
+   */
+  _getIdentityAnchorText() {
+    const title = (this.timeline.meta && this.timeline.meta.title) || '这段人生';
+    return `你刚刚体验的是「${title}」的人生片段。\n\n现在，请慢慢回到你自己的生活中。\n\n深呼吸一次，感受此刻的自己。`;
+  }
+
+  /**
+   * 回响记录入口提示（可选文字输入，低门槛引导语）
+   */
+  _getEchoRecordPrompt() {
+    return '如果这段体验让你想起了什么，\n哪怕只是一个词、一种感觉，\n可以轻轻写下来。\n\n（点击继续，或停留片刻）';
+  }
+
+  /**
+   * 温和出口文本（推荐轻松体验+稍后再来，禁止直接推送付费内容）
+   */
+  _getGentleExitText() {
+    return '每一段人生都值得被温柔对待。\n\n你可以稍后再来，也可以试试其他故事。\n\n不着急，按自己的节奏来。';
   }
 }
 

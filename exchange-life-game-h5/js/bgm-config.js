@@ -83,7 +83,14 @@ const BGM_MAP = {
   night_quiet:       { file: 'audio/bgm/night_quiet.mp3',       volume: 0.2, loop: true },
   hopeful_dawn:      { file: 'audio/bgm/hopeful_dawn.mp3',      volume: 0.35, loop: true },
   family_warmth:     { file: 'audio/bgm/family_warmth.mp3',     volume: 0.35, loop: true },
-  deep_pressure:     { file: 'audio/bgm/deep_pressure.mp3',     volume: 0.4, loop: true }
+  deep_pressure:     { file: 'audio/bgm/deep_pressure.mp3',     volume: 0.4, loop: true },
+
+  // === 秦始皇平行历史专用标签 (2026-06-14 P0新增) ===
+  ancient_mystery:   { file: 'audio/bgm/ancient_mystery.mp3',   volume: 0.35, loop: true },
+  intellectual:      { file: 'audio/bgm/intellectual.mp3',      volume: 0.3, loop: true },
+  triumph:           { file: 'audio/bgm/triumph.mp3',           volume: 0.5, loop: false },
+  reflective:        { file: 'audio/bgm/reflective.mp3',        volume: 0.3, loop: true },
+  farewell:          { file: 'audio/bgm/farewell.mp3',          volume: 0.3, loop: true }
 };
 
 /**
@@ -94,15 +101,18 @@ function getBGM(tag) {
 }
 
 /**
- * BGM管理器 - 追踪当前播放实例，防止内存泄漏
+ * BGM管理器 - 追踪当前播放实例和活跃的crossfade定时器，防止内存泄漏
  */
 let _currentBGMInstance = null;
+let _activeCrossfadeTimer = null;
 
 /**
  * 播放BGM（微信小游戏InnerAudioContext）
  * 自动停止并销毁上一个BGM实例
  */
 function playBGM(tag) {
+  // 清理活跃的crossfade定时器
+  _clearCrossfadeTimer();
   // 清理上一个实例，防止内存泄漏
   if (_currentBGMInstance) {
     try {
@@ -139,6 +149,7 @@ function playBGM(tag) {
  * 停止当前BGM并释放资源
  */
 function stopBGM() {
+  _clearCrossfadeTimer();
   if (_currentBGMInstance) {
     try {
       _currentBGMInstance.stop();
@@ -154,6 +165,9 @@ function stopBGM() {
  * 交叉淡入切换BGM
  */
 function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
+  // 清理之前的crossfade定时器
+  _clearCrossfadeTimer();
+  
   const nextConfig = getBGM(nextTag);
   const nextAudio = wx.createInnerAudioContext();
   nextAudio.src = nextConfig.file;
@@ -193,7 +207,20 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
     }
   }, interval);
 
+  // 跟踪定时器以便后续清理
+  _activeCrossfadeTimer = timer;
+
   return nextAudio;
+}
+
+/**
+ * 内部工具：清理活跃的crossfade定时器
+ */
+function _clearCrossfadeTimer() {
+  if (_activeCrossfadeTimer) {
+    clearInterval(_activeCrossfadeTimer);
+    _activeCrossfadeTimer = null;
+  }
 }
 
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
