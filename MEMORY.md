@@ -1,4 +1,10 @@
-- [exchange-life-product](memory/exchange-life-product.md) — 交换人生产品核心定义、分级体系、专家团、Skills概览
+交换人生项目需同时维护两套源码：H5版本（exchange-life-game-h5/）和微信小游戏版本（exchange-life-wechat-minigame/）。每次迭代时必须同步更新两套代码。
 
-## 2026-06-13 16:33 UTC
-交换人生定时任务素材优先级规则（2026-06-13更新）：P0核心素材来源于PRD文档（nodeId: Obva6QBXJwxNZoMOC2AxbnRZ8n4qY5Pr），优先融入小程序/小游戏；P1高阶真实素材来源于素材库文档（nodeId: EpGBa2Lm8aZxe5myCEPP6ZPjWgN7R35y），因需真人授权、采用难度大，产品端优先级降级。How to apply: 专家团自动迭代时按此优先级取材，P0先用、P1备选。
+共享模块（js/renderer.js、js/timeline-player.js、js/bgm-config.js）和timelines/目录内容完全一致，修改一处后需同步到另一处。
+
+差异点仅在game.js入口文件：
+- H5版使用wx polyfill + DOM API + fetch加载JSON
+- 小游戏版使用原生wx API + FileSystemManager读取JSON
+
+Why: 产品要按微信小游戏形式上传至微信开放平台，H5代码不能直接用于小游戏提审。
+How to apply: 后续开发、部署、素材更新时需同步考虑两套代码的差异与共用逻辑；涉及小游戏相关改动时确认目标目录为小游戏源码而非H5目录；修改共享模块后必须双向同步。
