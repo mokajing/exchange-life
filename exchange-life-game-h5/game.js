@@ -88,6 +88,7 @@ const TIMELINE_LIST = [
   { id: 'dyslexia-programmer', label: '阅读障碍程序员的代码人生', level: 'L3' },
   { id: 'miner-to-streamer', label: '从煤矿工人到直播带货主播', level: 'L2' },
   { id: 'underwater-archaeologist', label: '文物水下考古队员的南海沉船发掘', level: 'L2' },
+  { id: 'qin-great-wall-guard', label: '秦朝修筑长城的戍卒家书——在夯土与烽火之间用竹简写下「勿念」', level: 'L2' },
   { id: 'volcano-scientist', label: '火山爆发前夜的监测站值守科学家', level: 'L1' },
   { id: 'wang-jibing', label: '外卖诗人王计兵——从工地到春晚，用诗句丈量人间', level: 'L1' },
   { id: 'wu-shaoqing', label: '寻找你的名字', level: 'L1' },
