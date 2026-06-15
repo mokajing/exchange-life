@@ -157,7 +157,15 @@ const BGM_MAP = {
   nostalgic_strings: { file: 'audio/bgm/nostalgic_strings.mp3', volume: 0.35, loop: true },
   // family_warmth 已在上方定义（volume: 0.35），此处移除重复定义
   uneasy_whispers:   { file: 'audio/bgm/uneasy_whispers.mp3',   volume: 0.3, loop: true },
-  ocean_night:       { file: 'audio/bgm/ocean_night.mp3',       volume: 0.3, loop: true }
+  ocean_night:       { file: 'audio/bgm/ocean_night.mp3',       volume: 0.3, loop: true },
+
+  // === 性别交换体验专用标签 (2026-06-15 P0第135卷) ===
+  dreamy_electronic: { file: 'audio/bgm/dreamy_electronic.mp3', volume: 0.35, loop: true },
+  ambient_noise:     { file: 'audio/bgm/ambient_noise.mp3',     volume: 0.2, loop: true },
+  gentle_piano:      { file: 'audio/bgm/gentle_piano.mp3',      volume: 0.3, loop: true },
+  upbeat_acoustic:   { file: 'audio/bgm/upbeat_acoustic.mp3',   volume: 0.4, loop: true },
+  piano_solo:        { file: 'audio/bgm/piano_solo.mp3',        volume: 0.35, loop: false },
+  warm_guitar:       { file: 'audio/bgm/warm_guitar.mp3',       volume: 0.35, loop: true }
 };
 
 /**

@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "gender-swap-week",
+    "title": "性别交换体验·钢铁直男程序员与美妆博主互换身体的一周",
+    "subtitle": "当算法思维遇上化妆刷，七天互换让你看见被低估的专业",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-15T12:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "day1-wakeup",
+      "title": "Day 1·醒来发现身体互换",
+      "description": "周一清晨，程序员在美妆博主的身体里醒来，博主在程序员的身体里惊醒。从恐慌到被迫接受现实，两人开始手忙脚乱地适应对方的生活。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你睁开眼，天花板是陌生的粉色。手——不是你的手，指甲上还有昨天没卸完的甲油。镜子里是一张精致的脸，但眼神里满是惊恐。手机响了，屏幕上弹出一条消息：'我们好像……换了？'",
+      "bgmTag": "dreamy_electronic",
+      "visualTone": "warm"
+    },
+    {
+      "id": "day2-career",
+      "title": "Day 2·用对方的身份工作",
+      "description": "程序员用美妆博主的手写代码，博主用程序员的脸直播化妆。各自在对方的职业领域遭遇前所未有的挑战。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你坐在电脑前，手指悬在键盘上。这双手习惯了握化妆刷，现在却要敲出精准的代码。另一边，她正对着镜头，用你的脸挤出一个不自然的微笑，手里拿着她从未碰过的粉底液。",
+      "bgmTag": "focused_rhythm",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "今天先做什么？",
+        "options": [
+          { "label": "先体验对方的职业", "response": "你决定直面挑战，打开IDE/化妆包，开始笨拙但认真地学习对方的手艺。" },
+          { "label": "先处理对方的社交消息", "response": "你打开手机，发现对方的微信里有上百条未读消息，每一条都是你不熟悉的世界。" }
+        ]
+      }
+    },
+    {
+      "id": "day3-social",
+      "title": "Day 3·社交圈的尴尬与误解",
+      "description": "各自面对对方朋友、同事的质疑。程序员被默认'不专业'，博主被说'不就是化妆吗'。隐性偏见第一次变得如此具体。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "技术评审会上，你用她的声音提出方案，会议室里有人轻声笑了。'这个想法挺可爱的。'你突然明白了她每次直播时被弹幕说'花瓶'时的感受。",
+      "bgmTag": "ambient_noise",
+      "visualTone": "dark"
+    },
+    {
+      "id": "day4-understand",
+      "title": "Day 4·原来你的'简单'并不简单",
+      "description": "开始理解对方职业的专业性。程序员发现化妆需要屏住呼吸的手稳，博主发现debug需要三维思维模型。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你第三次画歪了眼线。手抖得像帕金森。你想起自己说过'女生化妆不就是涂涂抹抹'——现在你为这句话感到羞愧。每一层妆容，都是对'被看见'的渴望。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对对方的专业性，你选择……",
+        "options": [
+          { "label": "深入理解对方的痛苦", "response": "你放下偏见，认真记录每一个曾被轻视的瞬间。这些细节将成为你们和解的桥梁。" },
+          { "label": "保持距离完成任务", "response": "你告诉自己这只是体验，熬过七天就好。但深夜独处时，那些被忽视的细节悄悄爬上心头。" }
+        ]
+      }
+    },
+    {
+      "id": "day5-brave",
+      "title": "Day 5·用对方的身体做一件不敢做的事",
+      "description": "程序员用博主的脸直播，用算法思维拆解化妆步骤，观众惊叹逻辑清晰。博主用程序员的身体在代码评审中提出产品体验建议，被CTO夸奖。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "直播间里，你用算法的逻辑讲解眼影晕染：'这一步的时间复杂度是O(n)，先从浅色打底，再逐层叠加。'弹幕炸了：'今天的姐姐好理性！''这讲解比我老师还清楚！'",
+      "bgmTag": "upbeat_acoustic",
+      "visualTone": "bright"
+    },
+    {
+      "id": "day6-vulnerable",
+      "title": "Day 6·发现对方隐藏的脆弱",
+      "description": "情感高潮。程序员发现博主深夜崩溃于debug的压力，博主发现程序员曾因外貌被嘲笑而封闭自我。两个灵魂第一次真正看见彼此。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "凌晨三点，你看到她留在编辑器里的注释：'为什么我这么笨？'那不是代码bug，是她对自己的审判。你想起自己高中时被叫'四眼田鸡'后删掉所有社交软件的夜晚。原来你们都在用专业武装自己，害怕被看穿那个不够好的自己。",
+      "bgmTag": "piano_solo",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对这份脆弱，你选择……",
+        "options": [
+          { "label": "主动安慰", "response": "你打开对话框，写下：'你不是笨，你只是还没习惯这种思维方式。就像我第一次画眼线一样。'" },
+          { "label": "默默陪伴", "response": "你没有说话，只是在她的代码旁边加了一行注释：'这段逻辑很漂亮。'有些理解不需要语言。" }
+        ]
+      }
+    },
+    {
+      "id": "day7-farewell",
+      "title": "Day 7·换回身体前的最后对话",
+      "description": "周日晚上，两人在咖啡馆面对面坐着。程序员用博主的手画了一条完美的眼线，博主用程序员的手写了一段没有bug的代码。他们同时笑了，眼眶微红。",
+      "ageRange": { "start": 27, "end": 27 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "咖啡馆的灯光很暖。你用她的手画了一条完美的眼线，她用你的手写了一段没有bug的代码。你们同时笑了，眼眶微红。没有说谢谢，但都知道对方懂了。明天醒来，一切会回到原位。但有些东西，永远不一样了。",
+      "bgmTag": "warm_guitar",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["day5-brave", "day6-vulnerable"],
+    "valleyMoments": ["day3-social", "day6-vulnerable"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["性别刻板印象", "职场偏见", "外貌焦虑"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
