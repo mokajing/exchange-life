@@ -183,7 +183,22 @@ const BGM_MAP = {
   desert_caravan:    { file: 'audio/bgm/desert_caravan.mp3',    volume: 0.35, loop: true },
   desert_storm:      { file: 'audio/bgm/desert_storm.mp3',      volume: 0.4, loop: true },
   desert_market:     { file: 'audio/bgm/desert_market.mp3',     volume: 0.3, loop: true },
-  desert_night:      { file: 'audio/bgm/desert_night.mp3',      volume: 0.25, loop: true }
+  desert_night:      { file: 'audio/bgm/desert_night.mp3',      volume: 0.25, loop: true },
+
+  // === 中年危机/铁路道口专用标签 (2026-06-15 P0第141-142卷) ===
+  warm_morning:      { file: 'audio/bgm/warm_morning.mp3',      volume: 0.3, loop: true },
+  silent_shock:      { file: 'audio/bgm/silent_shock.mp3',      volume: 0.2, loop: true },
+  urban_solitude:    { file: 'audio/bgm/urban_solitude.mp3',    volume: 0.25, loop: true },
+  anxiety_pulse:     { file: 'audio/bgm/anxiety_pulse.mp3',     volume: 0.3, loop: true },
+  bittersweet_home:  { file: 'audio/bgm/bittersweet_home.mp3',  volume: 0.35, loop: true },
+  quiet_resilience:  { file: 'audio/bgm/quiet_resilience.mp3',  volume: 0.25, loop: true },
+  railway_dawn:      { file: 'audio/bgm/railway_dawn.mp3',      volume: 0.3, loop: true },
+  farewell_whistle:  { file: 'audio/bgm/farewell_whistle.mp3',  volume: 0.35, loop: true },
+  nostalgic_lunch:   { file: 'audio/bgm/nostalgic_lunch.mp3',   volume: 0.3, loop: true },
+  quiet_companionship:{ file: 'audio/bgm/quiet_companionship.mp3', volume: 0.25, loop: true },
+  unexpected_witness:{ file: 'audio/bgm/unexpected_witness.mp3',volume: 0.3, loop: true },
+  vanishing_speed:   { file: 'audio/bgm/vanishing_speed.mp3',   volume: 0.35, loop: true },
+  dignified_farewell:{ file: 'audio/bgm/dignified_farewell.mp3',volume: 0.3, loop: true }
 };
 
 /**

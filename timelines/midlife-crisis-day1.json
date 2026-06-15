@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "midlife-crisis-day1",
+    "title": "中年危机的第一天",
+    "subtitle": "在40岁生日当天被裁员的中年人",
+    "sourceType": "social_media",
+    "authorized": true,
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-15T15:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "morning-birthday",
+      "title": "生日清晨",
+      "description": "闹钟响起，今天是40岁生日。妻子在枕边说了句生日快乐，儿子在校门口回头说爸爸今天早点回来吃蛋糕。温暖的日常，一切如常。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "煎蛋。热牛奶。儿子忘带红领巾。妻子说生日快乐。你说谢谢。出门时阳光正好。四十岁，人生过半，一切都还好。",
+      "bgmTag": "warm_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "layoff-notice",
+      "title": "裁员通知",
+      "description": "到达公司，桌上有HR发的会议邀请。10点整，小会议室里被告知部门整体裁撤。赔偿方案N+3。上司说不是你的问题。抱着纸箱走出办公楼，在楼下站了十分钟。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "会议室的荧光灯很白。HR的声音带着职业性的温和。N+3。不是你的问题。你点头。收拾桌面。马克杯是儿子送的。笔记本用了三年。相框里是一家人去年在海边。纸箱比想象中轻。走出大楼时，你不知道该往哪走。",
+      "bgmTag": "silent_shock",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "被裁员后，第一个电话打给谁？",
+        "options": [
+          { "label": "打给妻子", "response": "电话响了四声。她说'怎么了'。你张了张嘴，说了句'没事，就是想听听你的声音'。她沉默了两秒，说'晚上早点回来'。" },
+          { "label": "不打给任何人", "response": "你把手机放回口袋。公园长椅上的风很凉。你看着手机屏幕上'40岁生日快乐'的未读消息，一条都没有点开。" }
+        ]
+      }
+    },
+    {
+      "id": "park-bench",
+      "title": "公园长椅",
+      "description": "中午十二点，坐在公园长椅上。没告诉任何人。看着手机里生日快乐的消息发呆。风吹过树叶，远处有孩子在笑。世界照常运转，只有你停下来了。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "公园的长椅被太阳晒得微温。远处的孩子在笑。风吹过来，带着草坪修剪后的味道。手机震动了一下，又一下。你没有看。你在想一个词：过期。四十岁，像货架上过了保质期的商品。",
+      "bgmTag": "urban_solitude",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "job-app-age",
+      "title": "招聘App上的年龄门槛",
+      "description": "下午三点，打开招聘App。第一条就写着年龄要求35岁以下。年龄第一次从数字变成了门槛。继续刷，假装没看到。又一条，35岁以下。再一条，还是。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "屏幕的白光照在脸上。年龄：40。学历：本科。经验：15年。薪资要求：——薪资要求？往下滑。35岁以下。再滑。35岁以下。再滑。年轻有活力者优先。你关掉App。又打开。又关掉。",
+      "bgmTag": "anxiety_pulse",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "看到'35岁以下'后你的反应是？",
+        "options": [
+          { "label": "搜索'40岁转行做什么'", "response": "搜索结果很长。职业规划师的文章、中年转型的故事、还有广告。你点开了一个帖子，标题是'40岁以后，我不再定义自己'。看了三行，退出了。" },
+          { "label": "截屏发给朋友自嘲", "response": "你截了图，配文'连APP都嫌我老哈哈'。朋友秒回了一个拥抱的表情包。你们都没再说话。有些安慰，不需要语言。" }
+        ]
+      }
+    },
+    {
+      "id": "birthday-cake",
+      "title": "回家吹蜡烛",
+      "description": "傍晚六点半，推开家门。妻子和孩子准备好了蛋糕。蜡烛的光照在他们脸上。他笑着说没事，今天挺好的。吹灭蜡烛的那一刻，他把所有的不安都藏进了黑暗里。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "门开了。蛋糕在桌上。蜡烛亮着。儿子跑过来抱住你的腿。妻子笑着说你回来了。你说，没事，今天挺好的。吹蜡烛的时候，你许了一个愿。愿望是什么，你不会告诉任何人。烛光灭了。黑暗只持续了一秒。灯亮了。你笑了。",
+      "bgmTag": "bittersweet_home",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "吹完蜡烛后，你想——",
+        "options": [
+          { "label": "去卧室看看熟睡的孩子", "response": "孩子的呼吸很轻。你站在床边看了很久。他突然翻了个身，小手抓住了你的手指。你没有动。这一刻，你知道自己在为谁而战。" },
+          { "label": "把剩下的蛋糕吃掉", "response": "奶油有点甜。你一个人坐在厨房，慢慢吃完了一块。这是今天唯一属于你自己的时刻。甜的。" }
+        ]
+      }
+    },
+    {
+      "id": "late-night-resume",
+      "title": "深夜改简历",
+      "description": "等家人都睡了，独自坐在客厅。打开电脑，光标闪了三下。他开始打字。不是英雄主义，是别无选择。也不是放弃，是还没准备好放弃。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "客厅很安静。只有键盘的声音。光标闪烁。删除键按了很多次。他写下一行字，删掉。又写下，又删掉。最后留下了一句：十五年项目管理经验，擅长跨部门协作与危机处理。他看着这行字，觉得像在描述一个陌生人。但他没有关掉文档。",
+      "bgmTag": "quiet_resilience",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["layoff-notice", "birthday-cake"],
+    "valleyMoments": ["park-bench", "job-app-age"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["职场挫折", "年龄歧视", "情绪压抑"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

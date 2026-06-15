@@ -76,7 +76,9 @@ const TIMELINE_LIST = [
   { id: 'gender-swap-week',           label: '性别交换体验：程序员与美妆博主互换一周', level: 'L2' },
   { id: 'stutterer-interview',        label: '重度口吃者的求职面试', level: 'L3' },
   { id: 'no-fire-humanity',           label: '如果人类从未学会用火', level: 'L2' },
-  { id: 'mali-gold-merchant',         label: '马里帝国黄金商队', level: 'L1' }
+  { id: 'mali-gold-merchant',         label: '马里帝国黄金商队', level: 'L1' },
+  { id: 'midlife-crisis-day1',        label: '中年危机的第一天：40岁生日被裁', level: 'L2' },
+  { id: 'railway-crossing-keeper',    label: '铁路道口看守员的最后一班岗', level: 'L1' }
 ];
 
 let player = null;

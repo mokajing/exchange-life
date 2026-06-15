@@ -55,7 +55,9 @@ const TIMELINE_LIST = [
   'gender-swap-week',                      // L2/S/V1 - 性别交换体验·程序员与美妆博主互换一周 (P0第135卷)
   'stutterer-interview',                       // L3/S/V1 - 重度口吃者的求职面试 (P0第140卷)
   'no-fire-humanity',                              // L2/A/V2 - 如果人类从未学会用火 (P0第143卷)
-  'mali-gold-merchant'                               // L1/A/V2 - 马里帝国黄金商队 (P0第144卷)
+  'mali-gold-merchant',                               // L1/A/V2 - 马里帝国黄金商队 (P0第144卷)
+  'midlife-crisis-day1',                                  // L2/S/V1 - 中年危机的第一天 (P0第142卷)
+  'railway-crossing-keeper'                                // L1/S/V1 - 铁路道口看守员的最后一班岗 (P0第141卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

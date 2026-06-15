@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "railway-crossing-keeper",
+    "title": "铁路道口看守员的最后一班岗",
+    "subtitle": "在高铁时代最后一个人工值守道口的黄昏",
+    "sourceType": "documentary",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T15:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "dawn-shift-start",
+      "title": "凌晨接班",
+      "description": "提前40分钟到达。值班房的地板拖了两遍，窗户擦得能当镜子用。墙上贴满40年的列车时刻表，桌上是20年前的收音机和40年前的搪瓷杯。那面褪色的小红旗被熨斗熨平了。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "六点整。他比平时早到了四十分钟。值班房的地板拖了两遍。窗户擦得能照见人。那面小红旗褪了色，他用熨斗熨平。搪瓷杯是四十年前部队发的，白底红字写着'为人民服务'。他坐下来，等第一列火车的铃声。",
+      "bgmTag": "railway_dawn",
+      "visualTone": "cool"
+    },
+    {
+      "id": "old-driver-farewell",
+      "title": "老司机的三声鸣笛",
+      "description": "上午9:15，第18列列车经过。绿皮货车，司机王国强是他认识20年的老熟人。火车特意减速，鸣笛三声——这是他们之间的暗号：三声代表道别。陈国栋举起小红旗，手有点抖。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.75,
+      "narrativeText": "绿皮车来了。远远的，汽笛响了三声。不是两声，不是四声。三声。他知道是谁。王国强。二十年。他们从没有在对方面前表现过情绪。今天他的手有点抖。旗举得很稳。火车过去了。二十秒。比高铁长很多。",
+      "bgmTag": "farewell_whistle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老司机鸣笛道别后，你想——",
+        "options": [
+          { "label": "用对讲机多说几句", "response": "你按下对讲机。'老王，今天慢点开。'对面沉默了两秒。'知道了。'又沉默。'老陈，保重。'你没再说话。有些话，三声汽笛已经说完了。" },
+          { "label": "默默挥旗不打扰", "response": "你没有按对讲机。旗举着，直到车尾消失在弯道后面。你在心里说了句再见。四十年的默契，不需要语言。" }
+        ]
+      }
+    },
+    {
+      "id": "lunch-routine",
+      "title": "最后的午餐",
+      "description": "中午十二点，铝饭盒里是老伴准备的韭菜鸡蛋饺子。收音机播着评书《三国演义》。这是他40年的午餐惯例。今天吃得很慢，因为以后再也不用在这里吃饭了。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "韭菜鸡蛋馅。老伴包的。铝饭盒用了三十年。收音机里的评书说到关羽走麦城。他嚼得很慢。不是因为牙不好。是因为以后不用在这里吃了。每一口都是告别。",
+      "bgmTag": "nostalgic_lunch",
+      "visualTone": "warm"
+    },
+    {
+      "id": "neighbor-visit",
+      "title": "老邻居来访",
+      "description": "下午两点半，住在道口旁边50年的李奶奶拄着拐杖来了。她说听说今天最后一天，来看看。两人沉默了很久，只有远处的火车声。以前送孩子上学天天从这里过，一晃孙子都上大学了。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.65,
+      "narrativeText": "李奶奶来了。拐杖点在碎石路上，一步一步。她说，听说今天最后一天。他说，是啊。她说，以前送孩子上学天天从你这过。他说，记得。她说，一晃孙子都上大学了。然后两个人都不说话了。远处有火车的声音。很近，又很远。",
+      "bgmTag": "quiet_companionship",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "young-photographer",
+      "title": "来拍照的年轻人",
+      "description": "下午四点，一个背着相机的年轻人说他是铁路爱好者，坐了两个小时火车来记录最后一个人工道口。陈国栋不理解这有什么好拍的，但还是配合拍了张举旗的工作照。他在签到簿上写了第一行非工作内容。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.55,
+      "narrativeText": "年轻人背着相机。他说他坐了两个小时火车来的。他说他想记录最后一个人工道口。他不理解。但他站好了，举起旗，让年轻人拍了一张。年轻人走后，他翻开签到簿。四十年，第一次写了工作以外的字：今天有人来给我拍照。",
+      "bgmTag": "unexpected_witness",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对来拍照的年轻人，你选择——",
+        "options": [
+          { "label": "配合拍照，多说几句", "response": "你多说了几句。关于四十年前的第一天，关于那些消失的道口。年轻人认真听着。后来他在网上发了帖子，很多人留言说谢谢。你不知道这件事。但有人知道了你。" },
+          { "label": "婉拒，继续工作", "response": "你摆了摆手。年轻人点点头，安静地拍了几张远景。你在签到簿上写的是：今天有人来拍照，我没同意。沉默也是一种回答。" }
+        ]
+      }
+    },
+    {
+      "id": "last-high-speed-train",
+      "title": "最后一列高铁",
+      "description": "下午5:45，职业生涯监护通过的最后一列火车——G238次高铁。速度太快，不到3秒就消失了。他举着旗的手慢慢放下，自言自语：太快了，都来不及看一眼。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "它不鸣笛。它不停留。银色的子弹从铁轨上射过来。他举起旗。风裹着气浪扑到脸上。然后它就没了。三秒。他举着旗的手慢慢放下。太快了。都来不及看一眼。四十年。八十万次。最后一次，只有三秒。",
+      "bgmTag": "vanishing_speed",
+      "visualTone": "cool"
+    },
+    {
+      "id": "final-closing",
+      "title": "道口关闭",
+      "description": "傍晚六点，签到簿最后一页写上：1986.3.15—2026.1.15，在岗40年，未发生一起安全事故。取下时刻表，收好收音机和搪瓷杯，叠好小红旗。粉笔写下道口关闭请走天桥，加了句注意安全台阶有点陡。对着空荡荡的道口敬了一个军礼。",
+      "ageRange": { "start": 62 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "签到簿翻到最后一页。他写：1986.3.15—2026.1.15，在岗40年，未发生一起安全事故。笔迹很稳。他取下墙上的时刻表，收好收音机，把搪瓷杯放进包里。小红旗叠整齐。黑板上他写：道口关闭，请走天桥。停了一下，又在下面加了一行：注意安全，天桥台阶有点陡。然后他对着空荡荡的道口，敬了一个军礼。转身。走了。",
+      "bgmTag": "dignified_farewell",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "离开时，你选择——",
+        "options": [
+          { "label": "不回头，径直走", "response": "你没有回头。脚步声渐渐远了。第二天新闻说最后一座人工道口正式退役。配图是自动化道口的红闪灯。没有人知道昨天有一个老兵在上面敬过一个礼。" },
+          { "label": "回头再看一眼", "response": "你回了头。新装的自动化道口已经开始闪烁红光。你站了二十秒。从口袋里摸出一颗小石子——四十年前第一天上班时从铁轨旁捡的。你把石子放在道口边。然后走了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["old-driver-farewell", "last-high-speed-train"],
+    "valleyMoments": ["final-closing"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
