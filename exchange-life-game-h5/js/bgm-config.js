@@ -258,7 +258,16 @@ const BGM_MAP = {
   urban_cold:             { file: 'audio/bgm/urban_cold.mp3',             volume: 0.3, loop: true },
   reflective_silence:     { file: 'audio/bgm/reflective_silence.mp3',     volume: 0.25, loop: true },
   generational_gap:       { file: 'audio/bgm/generational_gap.mp3',       volume: 0.3, loop: true },
-  farewell_gentle:        { file: 'audio/bgm/farewell_gentle.mp3',        volume: 0.3, loop: true }
+  farewell_gentle:        { file: 'audio/bgm/farewell_gentle.mp3',        volume: 0.3, loop: true },
+
+  // === 阅读障碍程序员专用标签 (2026-06-16 P0第207卷) ===
+  discovery_spark:        { file: 'audio/bgm/discovery_spark.mp3',        volume: 0.35, loop: true },
+  workplace_tension:      { file: 'audio/bgm/workplace_tension.mp3',      volume: 0.3, loop: true },
+  breakthrough_light:     { file: 'audio/bgm/breakthrough_light.mp3',     volume: 0.4, loop: true },
+  emotional_release:      { file: 'audio/bgm/emotional_release.mp3',      volume: 0.45, loop: false },
+  connection_warm:        { file: 'audio/bgm/connection_warm.mp3',        volume: 0.35, loop: true },
+  daily_peace:            { file: 'audio/bgm/daily_peace.mp3',            volume: 0.25, loop: true },
+  academic_quiet:         { file: 'audio/bgm/academic_quiet.mp3',         volume: 0.25, loop: true }
 };
 
 /**

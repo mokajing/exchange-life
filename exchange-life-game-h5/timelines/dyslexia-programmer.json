@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "id": "dyslexia-programmer",
+    "title": "阅读障碍程序员的代码人生",
+    "subtitle": "在字母会跳舞的IDE里用形状而非拼写记住每个关键字的人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T00:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_diagnosis",
+      "title": "三年级·确诊发展性阅读障碍",
+      "description": "小学三年级被确诊发展性阅读障碍，第一次知道自己看字和别人不一样",
+      "ageRange": { "start": 9 },
+      "category": "health",
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "医生说出'发展性阅读障碍'的时候，妈妈的手抖了一下。你盯着诊断书上的字，它们在你眼里本来就是歪歪扭扭、挤在一起的。你不知道为什么别人能看得那么清楚，而你看到的总是在跳舞。从那天起，你学会了一个词：不一样。",
+      "bgmTag": "childhood_confusion",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_self_learn_programming",
+      "title": "初中·靠字形记忆法自学编程",
+      "description": "初中开始接触编程，发现代码的轮廓形状比文字更容易识别，开始用视觉方式记忆关键字",
+      "ageRange": { "start": 13 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第一次打开编程软件，你愣住了。那些英文单词虽然也跳，但它们的形状是固定的——if像一个小台阶，while像一个圆圈套着横线。你开始用轮廓而不是拼写来记住它们。别人背单词，你画图形。这是你第一次觉得，也许自己的眼睛不是缺陷，而是另一种天赋。",
+      "bgmTag": "discovery_spark",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "发现代码的形状比文字好认，你会怎么做？",
+        "options": [
+          { "label": "继续用图形记忆法自学", "response": "你把每个关键字都画成小图标，贴在笔记本上。别人笑你奇怪，但你写得比他们快。" },
+          { "label": "尝试强迫自己背拼写", "response": "你花了三个月背单词表，效率只有别人的三分之一。最后你还是回到了图形记忆。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_competition_award",
+      "title": "高中·信息学竞赛省二等奖",
+      "description": "凭借独特的空间推理能力在信息学竞赛中获得省二等奖，算法思维成为优势",
+      "ageRange": { "start": 16 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "领奖台上，你手里攥着奖状。省二等奖。评委说你写的算法'思路清奇，空间复杂度优化得很漂亮'。他们不知道的是，你看代码不是逐行扫描，而是整块整块地'感觉'结构。那些在别人眼里是一行行文字的算法，在你脑中是一张张立体的地图。",
+      "bgmTag": "achievement_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_college_algorithm",
+      "title": "大学·GPA3.2但算法课满分",
+      "description": "大学计算机系GPA只有3.2（被文科课拖累），但算法课和数据结构课都是满分",
+      "ageRange": { "start": 19 },
+      "category": "education",
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "成绩单发下来，GPA 3.2。英语课拉了后腿，那些阅读理解你永远做不完。但算法课满分，数据结构满分，操作系统98。教授说你是他见过'最会想问题的学生'。你知道，你的大脑只是换了一种方式运转。",
+      "bgmTag": "academic_quiet",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_05_code_review_sting",
+      "title": "入职·Code Review被质疑拼写错误",
+      "description": "入职大厂后第一次Code Review，同事评论'请检查变量名拼写'，其实是你自创的缩写体系",
+      "ageRange": { "start": 23 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "屏幕上弹出一条评论：'这个变量名是不是拼错了？'你盯着那行字看了三秒才反应过来——不是在说代码逻辑，是在说你的命名。那是你用了五年的缩写体系，为了避开容易混淆的字母组合。你默默改了名字，没有解释。这种微刺痛，你已经习惯了二十年。",
+      "bgmTag": "workplace_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对Code Review的拼写质疑，你会怎么回应？",
+        "options": [
+          { "label": "默默改正不解释", "response": "你把变量名改成标准拼写，关掉评论窗口。有些解释太累了，不如省点力气写代码。" },
+          { "label": "回复说明自己的命名逻辑", "response": "你写了一段长长的解释，附上你的命名规范文档。对方回了个'原来如此，学到了'。" },
+          { "label": "申请当面沟通", "response": "你走到同事工位旁，花十分钟讲了你的阅读障碍和命名策略。他说：'以后我review你的代码会注意这个。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_visual_navigation",
+      "title": "突破·设计视觉代码导航法",
+      "description": "独立设计出基于语法高亮颜色+缩进层级的视觉代码导航法，处理大型遗留代码效率反超普通程序员",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你不再假装自己和别人一样读代码了。你开始正式构建属于自己的导航系统：紫色是函数定义，绿色是条件分支，黄色是循环体，缩进的层级用不同深度的灰色区分。别人读代码像读书，你看代码像看地图。当团队接手一个十万行的遗留项目时，你是第一个理清架构的人。",
+      "bgmTag": "breakthrough_light",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_07_core_module_owner",
+      "title": "第三年·成为核心模块owner",
+      "description": "入职第三年成为核心模块owner，负责系统最关键的基础架构",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "晋升邮件来的那天，你正在debug一个并发问题。'恭喜你成为XX模块的owner。'你盯着屏幕上的字，它们还在跳，但已经不重要了。重要的是，你负责的这个模块，每天支撑着千万用户的请求。你的代码，稳稳地跑在那里。",
+      "bgmTag": "achievement_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_tech_sharing_confession",
+      "title": "转折·技术分享会上坦白阅读障碍",
+      "description": "公司年度技术分享会上公开讲述自己的阅读障碍经历，全场沉默后掌声持续两分钟",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "站在台上，你深吸一口气。'我有阅读障碍。'台下安静了。你讲了二十分钟，讲字母如何跳舞，讲你如何用形状记住关键字，讲Code Review时的微刺痛，讲那个帮你理清十万行代码的视觉导航法。讲完后，沉默持续了很久。然后掌声响起来，整整两分钟。有人擦眼泪，有人用力鼓掌。你站在那里，第一次觉得，不需要再表演正常了。",
+      "bgmTag": "emotional_release",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "技术分享会上，你是否决定公开讲述自己的阅读障碍？",
+        "options": [
+          { "label": "讲出来", "response": "你说出了藏了二十年的秘密。掌声响起的那一刻，你知道有些东西永远改变了。" },
+          { "label": "只讲技术方法不讲个人经历", "response": "你分享了视觉导航法的技术细节，但没有提阅读障碍。台下有人问'你为什么想到这个方法'，你笑了笑说'因为我和大家看代码的方式不太一样'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_mentor_discovery",
+      "title": "传承·发现新人也有阅读障碍",
+      "description": "带新人时发现对方也认字母吃力，第一次意识到自己不是孤例",
+      "ageRange": { "start": 27 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "新来的实习生code review总是很慢。你观察了一周，发现他盯着屏幕的眼神和你一模一样。你把他叫到会议室，关上门，轻声问：'你是不是也觉得字母会动？'他愣住了，眼眶红了。你说：'我也有。来，我教你一个方法。'那一刻，你不是mentor，你是同类。",
+      "bgmTag": "connection_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_daily_reality",
+      "title": "至今·每天多花40分钟校对",
+      "description": "至今每天仍需比同事多花40分钟校对代码注释和文档，但这已成为平静的日常",
+      "ageRange": { "start": 27 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "每天早上，你提前四十分钟到工位。这四十分钟是你的校对时间——检查注释里的拼写，确认文档里的措辞，把那些跳舞的字一个个按回原位。同事们以为你只是习惯早起。你知道，这是你和世界相处的方式。不再羞耻，不再隐藏，只是平静地做自己需要做的事。",
+      "bgmTag": "daily_peace",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_06_visual_navigation", "evt_08_tech_sharing_confession"],
+    "valleyMoments": ["evt_01_diagnosis", "evt_05_code_review_sting"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["neurodiversity", "workplace_discrimination", "learning_disability"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
