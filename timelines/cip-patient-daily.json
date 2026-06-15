@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "cip-patient-daily",
+    "title": "无痛之境：用伤疤代替警报的人生",
+    "subtitle": "先天性无痛症患者林小满的24年——在感受不到疼痛的世界里，学会用计时器和镜子守护自己",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOBjMQpBCgMbwYAm8A7depqY",
+    "authorized": false,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T18:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_tongue",
+      "title": "舌头上的齿痕",
+      "description": "3岁时咬破舌尖流血不止，父母才发现异常。确诊先天性无痛症（CIP），全家世界崩塌的瞬间。",
+      "ageRange": { "start": 3 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你们觉得辣的时候会说'好辣'，我说'好辣'是因为妈妈告诉我这个表情应该配这两个字。舌头上布满新旧交叠的疤痕，那是我最早的记忆印记。",
+      "bgmTag": "minimal_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "你想先了解这种病的医学原理，还是直接听她的故事？",
+        "options": [
+          { "label": "了解医学原理", "response": "SCN9A基因突变导致Nav1.7钠通道功能丧失，痛觉信号无法传递。这不是超能力，是疾病。" },
+          { "label": "直接听故事", "response": "好的，让我们走进小满的世界。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_check_routine",
+      "title": "手机里的47个闹钟",
+      "description": "6岁学会每晚睡前从头到脚摸一遍检查身体。现在手机里每2小时一个检查提醒，每个备注不同部位。",
+      "ageRange": { "start": 6, "end": 24 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你们的身体会自动报警，我的身体是一台拆掉了所有警报器的机器。47个闹钟，是我给自己装上的替代神经。",
+      "bgmTag": "metronome_beep",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_03_appendix",
+      "title": "阑尾炎穿孔的沉默",
+      "description": "10岁时阑尾炎穿孔，因为没有腹痛，直到发烧呕吐才送医，差点丧命。",
+      "ageRange": { "start": 10 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "肚子破了洞，我却不知道。医生说再晚两小时就来不及了。那是我第一次明白，'不痛'不是幸运，是致命的沉默。",
+      "bgmTag": "tense_pulse",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_04_school_monster",
+      "title": "操场上的旁观者",
+      "description": "14岁同学恶作剧掐她手臂，她不反应被叫'怪物'。社会性疼痛的第一次觉醒。",
+      "ageRange": { "start": 14 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "我不是勇敢，我只是不知道应该哭。后来我学会了在别人哭的时候也皱眉，这样才不会被当成异类。表演正常，比承受疼痛更累。",
+      "bgmTag": "muffled_playground",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "如果你是她的同学，你会怎么做？",
+        "options": [
+          { "label": "上前制止", "response": "你的勇气可能改变一个人对世界的信任。" },
+          { "label": "什么都不做", "response": "沉默也是一种选择。但沉默的后果，会在她心里留下痕迹。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_charcot",
+      "title": "身体的账单到期",
+      "description": "18岁右膝Charcot关节病确诊，开始拄拐。多年未察觉的微小损伤累积成不可逆的伤害。",
+      "ageRange": { "start": 18 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "膝盖碎了，不是因为一次重击，而是因为一千次我没有感觉到的磕碰。身体的账单，终于到了还款日。",
+      "bgmTag": "cello_solo",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_mother_diary",
+      "title": "妈妈的笔记本",
+      "description": "母亲拿出写了20年的观察日记，密密麻麻记录着女儿每天的体温、关节状态、情绪变化。",
+      "ageRange": { "start": 3, "end": 24 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "医生说她会活不过20岁。我就想，那我就替她疼，替她记着。——妈妈的笔记本里，藏着一个母亲20年的心跳。",
+      "bgmTag": "cello_maternal",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想从谁的视角继续这段旅程？",
+        "options": [
+          { "label": "小满的视角", "response": "我习惯了被照顾，也习惯了愧疚。" },
+          { "label": "妈妈的视角", "response": "每一天都是倒计时，也是奇迹。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_online_record",
+      "title": "我不是奇迹，我只是活着",
+      "description": "22岁开始在网上记录无痛症生活，用文字和画作连接同样孤独的灵魂。",
+      "ageRange": { "start": 22 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "我不是奇迹，我只是活着。当我把日常写下来，才发现原来有那么多人和我一样，在看不见的地方努力呼吸。",
+      "bgmTag": "gentle_strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_painting_red",
+      "title": "画布上的红色",
+      "description": "24岁双膝置换术后重新开始画画。画中自己的身体上标满红色标记，每一个对应一处曾经未被察觉的伤。",
+      "ageRange": { "start": 24 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "我画不出痛的感觉，但我可以画出痛的形状。这些红点就是我活着的证据。它们不是伤疤，是我与自己和解的方式。",
+      "bgmTag": "warm_quartet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "体验即将结束，你想留下什么？",
+        "options": [
+          { "label": "给小满留一句话", "response": "你的话会被珍藏。谢谢你来过她的世界。" },
+          { "label": "了解更多关于CIP", "response": "知识是理解的起点。愿这份了解带来温柔。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_mother_diary", "evt_08_painting_red"],
+    "valleyMoments": ["evt_01_tongue", "evt_04_school_monster"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["罕见病", "身体伤害", "校园排斥", "照护者压力"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

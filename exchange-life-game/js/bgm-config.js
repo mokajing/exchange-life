@@ -214,7 +214,16 @@ const BGM_MAP = {
   achievement_warm:  { file: 'audio/bgm/achievement_warm.mp3',  volume: 0.35, loop: true },
   night_breakdown:   { file: 'audio/bgm/night_breakdown.mp3',   volume: 0.3, loop: true },
   healing_gentle:    { file: 'audio/bgm/healing_gentle.mp3',    volume: 0.3, loop: true },
-  sunrise_hope:      { file: 'audio/bgm/sunrise_hope.mp3',      volume: 0.4, loop: false }
+  sunrise_hope:      { file: 'audio/bgm/sunrise_hope.mp3',      volume: 0.4, loop: false },
+
+  // === 先天性无痛症患者专用标签 (2026-06-15 P0第157卷) ===
+  metronome_beep:    { file: 'audio/bgm/metronome_beep.mp3',    volume: 0.25, loop: true },
+  tense_pulse:       { file: 'audio/bgm/tense_pulse.mp3',       volume: 0.35, loop: true },
+  muffled_playground:{ file: 'audio/bgm/muffled_playground.mp3',volume: 0.2, loop: true },
+  cello_solo:        { file: 'audio/bgm/cello_solo.mp3',        volume: 0.3, loop: true },
+  cello_maternal:    { file: 'audio/bgm/cello_maternal.mp3',    volume: 0.35, loop: true },
+  gentle_strings:    { file: 'audio/bgm/gentle_strings.mp3',    volume: 0.3, loop: true },
+  warm_quartet:      { file: 'audio/bgm/warm_quartet.mp3',      volume: 0.4, loop: false }
 };
 
 /**

@@ -61,7 +61,8 @@ const TIMELINE_LIST = [
   'tang-huji-wine-shop',                                        // L1/S/V1 - 唐朝长安胡姬酒肆的当垆女 (P0第147卷)
   'dyslexia-exam-week',                                          // L3/S/V2 - 失读症大学生的期末考试周 (P0第146卷)
   'emotion-weather-forecaster',                                     // L1/S/V1 - 情绪天气预报员的混乱第一天 (P0第151卷)
-  'aymara-weaver'                                                     // L1/S/V1 - 安第斯山脉艾马拉织布妇人的最后一代 (P0第156卷)
+  'aymara-weaver',                                                     // L1/S/V1 - 安第斯山脉艾马拉织布妇人的最后一代 (P0第156卷)
+  'cip-patient-daily'                                                      // L3/S/V2 - 先天性无痛症患者的日常 (P0第157卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

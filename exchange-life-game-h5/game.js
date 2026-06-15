@@ -82,7 +82,8 @@ const TIMELINE_LIST = [
   { id: 'tang-huji-wine-shop',        label: '唐朝长安胡姬酒肆的当垆女', level: 'L1' },
   { id: 'dyslexia-exam-week',         label: '失读症大学生的期末考试周', level: 'L3' },
   { id: 'emotion-weather-forecaster', label: '情绪天气预报员的混乱第一天', level: 'L1' },
-  { id: 'aymara-weaver',              label: '安第斯山脉艾马拉织布妇人的最后一代', level: 'L1' }
+  { id: 'aymara-weaver',              label: '安第斯山脉艾马拉织布妇人的最后一代', level: 'L1' },
+  { id: 'cip-patient-daily',          label: '无痛之境：先天性无痛症患者的日常', level: 'L3' }
 ];
 
 let player = null;
