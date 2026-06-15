@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "wechat-exposure-day",
+    "title": "微信聊天记录被公开播放的社死第一天",
+    "subtitle": "在社交隐私归零的世界里做数字裸奔者",
+    "sourceType": "social_media",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T04:32:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_notification",
+      "title": "神秘通知：你的聊天记录已同步至公共广场大屏",
+      "description": "08:00起床发现手机上弹出神秘通知，困惑与不安的开始。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "手机屏幕亮起，一条从未见过的系统通知赫然出现在锁屏界面：'您的微信聊天记录已同步至城市公共广场大屏。'你揉了揉眼睛，以为是恶作剧软件。但当你打开微信，发现所有对话窗口都多了一个'已公开'的标签。心脏开始加速跳动。",
+      "bgmTag": "digital_glitch_alert",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_02_subway_screen",
+      "title": "地铁站大屏：和闺蜜吐槽老板的对话",
+      "description": "出门上班路上看到地铁站大屏正在滚动播放你和闺蜜吐槽老板的对话截图。每个打工人都有这种聊天记录。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "走进地铁站的那一刻，你僵住了。候车区的大屏上正循环播放着一段熟悉的对话——那是上周你和闺蜜吐槽老板'又改需求又不加预算'的聊天记录。路过的乘客有人抬头看了一眼，有人低头刷手机浑然不觉。但你感觉所有人的目光都像探照灯一样聚焦在你身上。那种心脏骤停的感觉，每个打工人都会懂。",
+      "bgmTag": "panic_pulse",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "发现记录被公开后，你如何应对？",
+        "options": [
+          { "label": "立刻删除微信假装没事", "response": "你卸载了微信，试图抹去一切痕迹。但你知道这不过是掩耳盗铃——记录已经在外面了。逃避让你暂时安心，但焦虑并未消失。" },
+          { "label": "主动联系可能被看到的人解释", "response": "你鼓起勇气给闺蜜发了消息：'你可能看到了……'出乎意料的是，她回复：'哈哈我也被播了，咱俩一起社死吧！'原来你不是一个人。" },
+          { "label": "索性不管了爱咋咋地", "response": "你深吸一口气，决定正面迎接这场风暴。反正最坏的结果也不过是被所有人看到真实的自己——而真实的你，其实也没那么糟糕。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_office_confrontation",
+      "title": "办公室谈话：打印出来的辞职吹牛记录",
+      "description": "到公司发现同事们在偷偷看你跟暗恋对象的暧昧聊天记录投在茶水间电视上。老板叫你去办公室，桌上放着打印出来的你跟朋友吹牛说想辞职的聊天记录。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "推开办公室门的那一刻，你看到了桌上那张A4纸。上面打印着你三个月前跟朋友说的'等攒够钱就辞职去大理开民宿'。老板抬起头看着你，表情难以解读。茶水间的电视上还在循环播放你和暗恋对象互发晚安的记录。这一天，你在不同人面前的所有面孔都被摊在了阳光下。",
+      "bgmTag": "awkward_silence",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "老板找你谈话时，你如何回应？",
+        "options": [
+          { "label": "诚恳道歉并解释语境", "response": "'对不起，那是私下聊天时的夸张表达……'你试图还原当时的语境。老板沉默了一会儿，说：'我年轻时也想过辞职去丽江。'原来每个人都有过这样的念头。" },
+          { "label": "装傻说那不是我的号", "response": "'那个……可能不是我本人发的。'你自己都觉得这个借口苍白无力。老板看了你一眼，没有拆穿，但眼神里的失望比责骂更让人难受。" },
+          { "label": "反向输出说这就是真实的我", "response": "'是的，那是我的真实想法。但我依然认真对待这份工作。'出乎意料的是，老板点了点头：'至少你敢承认。'有时候坦诚反而是最好的策略。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_mom_call",
+      "title": "妈妈的电话：不是责骂而是理解",
+      "description": "妈妈打来视频电话问你为什么跟亲戚说不想参加婚礼的记录出现在家族群。但她说的不是责骂，而是'妈知道你压力大，不想来就不来'。中国式亲情最戳人的瞬间。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "手机响了，是妈妈的视频电话。你的心提到了嗓子眼——家族群里肯定已经炸了。但接通后，妈妈的第一句话不是责骂：'妈知道你最近压力大，不想参加婚礼就不来吧。你爸那边我来说。'眼泪突然就掉下来了。在所有关系似乎都在崩塌的这一天，最担心会生气的那个人，反而给了你最柔软的理解。",
+      "bgmTag": "maternal_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_ex_message",
+      "title": "前任的消息：错过的和解",
+      "description": "前任发来消息说看到了你们分手时你说的那些狠话被投在了商圈大屏上。但对方回复的是'当年我也说了很多伤你的话，对不起'。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "手机震动了一下。是前任。你的心跳漏了一拍——那些分手时说的狠话，此刻正挂在市中心商圈的大屏上。你以为会收到质问或嘲讽，但屏幕上只有短短一行字：'当年我也说了很多伤你的话。对不起。'有些和解来得太晚，但在隐私消失的荒诞时刻，它终究还是来了。",
+      "bgmTag": "reconciliation_piano",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_night_reflection",
+      "title": "深夜反思：真实的自己并不那么不堪",
+      "description": "躺在床上反思这一天，发现自己其实没做过什么真正见不得人的事，只是所有私密表达都被暴露了。隐私消失后才发现真实的自己并不那么不堪。",
+      "ageRange": { "start": 22, "end": 35, "fuzzy": true },
+      "yearRange": { "start": 2024, "end": 2026 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "终于找到了关闭按钮，但系统提示需要邀请3位好友点赞才能停止公开。你犹豫了很久，最终选择了发一条朋友圈：'今天我被公开了所有聊天记录。如果你看到了什么让你不舒服的内容，我道歉。但这也是真实的我。'三分钟后，点赞数超过了30个。躺在床上，你意识到：每个人都有自己的多面性，这不丢人。真实才是连接的起点。",
+      "bgmTag": "night_city_calm",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "需要3位好友点赞才能关闭公开，你如何选择？",
+        "options": [
+          { "label": "选最亲密的朋友求助", "response": "你私聊了三个最信任的人。他们秒赞，还附上了'抱抱'的表情包。在最尴尬的时刻，真正的友谊显得格外珍贵。" },
+          { "label": "发朋友圈公开求赞化解尴尬", "response": "你把这件事变成了一个自嘲的段子。评论区里满是'哈哈哈我也被播了'和'给你点赞过来了'。原来大家都在同一条船上。" },
+          { "label": "拒绝求助自己扛到系统自动关闭", "response": "你决定不再为别人的眼光而活。24小时后系统自动关闭了公开。这一天很长，但你学会了与自己和解。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_office_confrontation"],
+    "valleyMoments": ["evt_02_subway_screen", "evt_04_mom_call"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["privacy_anxiety", "social_embarrassment"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
