@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "convenience-store-newyear",
+    "title": "深夜便利店店员的除夕夜",
+    "subtitle": "在城市最安静的角落里见证最真实的人间团圆",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T03:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_stock_up",
+      "title": "备货迎新年",
+      "description": "除夕夜22:00开始备货，整理货架迎接最后一波客人",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "冷柜嗡嗡作响，你把最后一箱饮料码整齐。窗外是深蓝色的冬夜，窗内是被荧光灯照亮的方寸天地。手机里妈妈发来消息：\"饺子包好了，给你留了一盘。\"你回了个笑脸，继续理货。这是你在异乡过的第三个除夕夜班。",
+      "bgmTag": "store_night",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_elderly_couple",
+      "title": "老夫妻的饺子皮",
+      "description": "23:30一对老夫妻来买饺子皮和醋，说儿子今年没抢到票回不来",
+      "ageRange": { "start": 24 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "门铃叮咚响了。一对头发花白的老人走进来，阿姨直奔冷藏区拿了一包饺子皮，叔叔在旁边挑了瓶醋。\"儿子今年没抢到票，\"阿姨笑着说，\"我们俩自己过也要有仪式感。\"结账时她多看了你一眼：\"小伙子，新年快乐啊。\"你点头微笑，喉咙有点紧。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老夫妻结账时，你想怎么做？",
+        "options": [
+          { "label": "多送一包饺子皮", "response": "你悄悄把另一包饺子皮放进袋子。阿姨发现后愣了一下，然后握住你的手：\"谢谢你，孩子。\"那一刻你觉得她像你的奶奶。" },
+          { "label": "微笑说新年快乐", "response": "\"新年快乐！\"你说得比平时大声。叔叔点点头，阿姨眼眶红了。他们走后，你在监控里看到两人在路灯下牵着手慢慢走远。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_delivery_rider",
+      "title": "外卖骑手的热饮",
+      "description": "跨年前10分钟一个外卖骑手冲进来买热饮，说跑完这单就回家视频",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "23:50，门被猛地推开。一个穿着黄色制服的骑手喘着气冲到热饮柜前，拿了两瓶奶茶。\"跑完这单就回家跟老婆视频，\"他边扫码边说，声音里带着笑意，\"她刚生了二胎，我还没见到呢。\"你帮他加热了奶茶，他道谢时眼睛亮得像星星。",
+      "bgmTag": "hopeful_moment",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_midnight_alone",
+      "title": "零点独自守店",
+      "description": "00:00跨年瞬间店里只有一个人，监控画面里街对面有人放了一支仙女棒",
+      "ageRange": { "start": 24 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "零点的钟声从远处传来。店里安静得只听见冷柜嗡嗡声。你掏出手机给妈妈发了句\"新年快乐\"，然后继续理货。抬头时瞥见监控画面——街对面有个女孩独自放了一支仙女棒，火花在黑暗中划出短暂的弧线。你们隔着屏幕和玻璃，各自守着各自的年。",
+      "bgmTag": "midnight_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "零点时刻，你想做什么？",
+        "options": [
+          { "label": "给妈妈打视频电话", "response": "视频接通的那一刻，妈妈的脸占满了屏幕。\"吃饺子了吗？\"她问。你点头，眼泪差点掉下来。挂断后你擦干眼角，继续工作，但心里暖了很多。" },
+          { "label": "发条文字消息继续工作", "response": "你发了句\"妈，新年快乐，我挺好的\"，然后把手机放回口袋。冷柜还在嗡嗡响，但你知道有人在等你回家。这份等待本身就是力量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_sanitation_worker",
+      "title": "环卫工人的热水",
+      "description": "01:30一位环卫工人进店接热水，聊了几句家常",
+      "ageRange": { "start": 24 },
+      "category": "relationship",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "凌晨一点半，一位穿着橙色马甲的大爷推门进来。\"小伙子，能接点热水吗？\"你递过去一杯刚烧开的热水，他双手捧着，慢慢喝了一口。\"我扫完这条街就回去，\"他说，\"老伴在家等我吃年夜饭呢。\"你们聊了几句，他走时朝你挥挥手，背影消失在路灯下。",
+      "bgmTag": "night_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_crying_girl",
+      "title": "哭泣的女孩",
+      "description": "03:00一个女孩哭着进来买纸巾和巧克力，你没问原因只是多给了她一颗糖",
+      "ageRange": { "start": 24 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨三点，门铃轻响。一个女孩低着头走进来，眼睛红肿，手里攥着纸巾。她拿了盒巧克力放到柜台上，小声说了句\"谢谢\"。你没问她为什么哭，只是在找零时多放了一颗糖在她手心。她抬起头看了你一眼，眼泪又掉了下来，但嘴角微微上扬。有些安慰不需要语言。",
+      "bgmTag": "gentle_comfort",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对哭泣的女孩，你会怎么做？",
+        "options": [
+          { "label": "默默递上纸巾", "response": "你把纸巾放在她手边，没有说话。她点点头，擦完眼泪后轻声说了句\"谢谢\"。有时候沉默比任何话语都更像拥抱。" },
+          { "label": "轻声问一句还好吗", "response": "\"还好吗？\"你轻声问。她摇摇头，又点点头，然后笑了：\"会好的。\"你相信她。有些人只需要被问一句，就能重新站起来。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_dawn_handover",
+      "title": "清晨的汤圆",
+      "description": "05:30第一缕晨光与早班交接，同事带了一碗家里包的汤圆",
+      "ageRange": { "start": 24 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "天亮了。柔和的自然光从落地窗涌入，色温从暖黄渐变成清透的白。早班同事推门进来，手里端着一碗冒着热气的汤圆。\"你辛苦了，\"她说，\"我妈包的，特意给你带的。\"你接过碗，咬了一口，芝麻馅甜得刚刚好。一夜的疲惫都被这三个字接住了。窗外的城市正在醒来，而你守护了它最安静的时刻。",
+      "bgmTag": "morning_hope",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_elderly_couple", "evt_04_midnight_alone"],
+    "valleyMoments": ["evt_06_crying_girl"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
