@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "id": "intangible-heritage-last-day",
+    "title": "非遗传承人的最后一天",
+    "subtitle": "手艺即将失传，坚持的意义是什么",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_routine",
+      "title": "清晨的习惯",
+      "description": "老人比鸡还早地醒来，习惯性摸向床头的工具包，确认刻刀、针线、模具都在。这个动作做了六十年，像呼吸一样自然。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "清晨5:00，天还没亮透。你比鸡还早地醒来，手已经先于意识摸向床头——那个跟了你一辈子的木箱还在。打开它，刻刀、针线、模具，一件件确认。这个动作做了六十年，像呼吸一样自然。",
+      "bgmTag": "traditional_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_lonely_lunch",
+      "title": "一个人的午饭",
+      "description": "中午12点，一个人吃饭。老伴走了三年了，灶台上还是摆两副碗筷。收音机里放着地方戏，是学艺时师傅最爱哼的调子。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "loss",
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "中午12:00，灶台上摆着两副碗筷。老伴走了三年了，但你还是习惯性地多放一副。收音机里放着地方戏，那是你学艺时师傅最爱哼的调子。一个人吃饭，嚼得很慢。",
+      "bgmTag": "melancholic_traditional",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_core_creation",
+      "title": "最后的创作",
+      "description": "下午14:00-17:00，最核心的创作时段。今天要做一件特别的作品——不是为了卖，是为了留给博物馆、徒弟、自己的交代。手已经不太听使唤了，但肌肉记忆还在。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "下午两点，你坐到工作台前。今天要做一件特别的作品——不是为了卖，是为了留给博物馆、留给徒弟、给自己一个交代。手已经不太听使唤了，关节僵硬，指尖发麻。但当刻刀触到木头的那一刻，六十年的肌肉记忆苏醒了。",
+      "bgmTag": "craftsman_focus",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这件作品，你想留给谁？",
+        "options": [
+          { "label": "留给博物馆", "response": "你把毕生心血托付给公共记忆，希望后人能看到这门手艺曾经的模样。" },
+          { "label": "留给徒弟", "response": "你把作品和技艺一起传给年轻人，哪怕他可能不会继续走下去。" },
+          { "label": "留给自己", "response": "这是你对自己六十年的交代，不为任何人，只为那个曾经热爱手艺的自己。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_apprentice_call",
+      "title": "徒弟的电话",
+      "description": "傍晚18:00，最后一个徒弟打来电话说'师傅，厂里又催我回去上班了'。你说了句'去吧'，挂了电话后对着未完成的作品坐了半小时。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "傍晚六点，电话响了。是你最后一个徒弟。'师傅，厂里又催我回去上班了……'他的声音里有愧疚，也有解脱。你说了句'去吧'，语气平静得像在说天气。挂了电话，你对着未完成的作品坐了半小时。不是悲伤，是一种比悲伤更深的东西。",
+      "bgmTag": "silent_moment",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对徒弟的离开，你会……",
+        "options": [
+          { "label": "劝他留下", "response": "你说'再想想吧，这门手艺不能断在你手里'。话出口就知道没用，但还是想试最后一次。" },
+          { "label": "让他走", "response": "你说'去吧，年轻人有年轻人的路'。成全的苦涩和释然同时涌上来。" },
+          { "label": "什么都不说", "response": "你沉默了很久，最后只说了句'路上小心'。有些话，语言承载不了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_machine_copy",
+      "title": "机器复制品",
+      "description": "在市场上看到自己花三个月做的东西被机器一小时压出一千个，价格是你的百分之一。买的人还夸'一模一样'。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "前几天去市场，你看到了那个摊位。机器压出来的东西，和你花三个月做的一模一样，价格是你的百分之一。买的人还夸'真精致'。你站在摊位前看了很久，转身离开时，脚步比来时重了很多。",
+      "bgmTag": "urban_cold",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "看到机器复制品时，你会……",
+        "options": [
+          { "label": "买一个回来研究", "response": "知己知彼。你想知道机器能做到什么程度，也想确认手工的温度是否真的无可替代。" },
+          { "label": "转身离开", "response": "不看。承认痛苦太难，你选择把这份刺痛埋在心里。" },
+          { "label": "看完整个生产过程", "response": "你站在摊位前看完了整个流水线。凝视深渊，直到理解它为何能吞噬一切。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_museum_visit",
+      "title": "博物馆征集",
+      "description": "工作人员说'您这门手艺我们想记录下来'，你问'记录之后呢？'对方沉默了三秒。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "博物馆的人来了。他们说'您这门手艺我们想记录下来'，语气诚恳。你问了一句'记录之后呢？'对方沉默了三秒。那三秒里，你听到了一个时代的答案。",
+      "bgmTag": "reflective_silence",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对博物馆的征集，你会……",
+        "options": [
+          { "label": "答应捐赠代表作", "response": "你把最好的作品交出去，希望它能替这门手艺活下去。" },
+          { "label": "拒绝", "response": "你说'让它跟我一起走吧'。守护到最后，是你最后的尊严。" },
+          { "label": "提出条件", "response": "你说'除非你们承诺每年带学生来学'。这不是交易，是谈判。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_ai_pattern",
+      "title": "孙子的AI纹样",
+      "description": "孙子用AI生成了一幅'传统纹样'，你看了很久，说'好看，但没有手温'。孙子不懂什么叫手温。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "relationship",
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "孙子兴冲冲地拿来一幅图，说是AI生成的'传统纹样'。你看了很久，线条流畅，配色精准，挑不出毛病。你说'好看，但没有手温'。孙子歪着头问'什么是手温？'你笑了笑，没有解释。有些东西，解释了也听不懂。",
+      "bgmTag": "generational_gap",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_clean_tools",
+      "title": "擦拭工具",
+      "description": "夜晚21:00，把工具一件件擦干净，放回那个跟了一辈子的木箱。关灯前看了一眼墙上师傅的照片，轻声说了句什么。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "夜晚九点，你把工具一件件拿出来，用软布擦拭。刻刀、针线、模具，每一件都带着你的体温和岁月的痕迹。放回木箱时，动作轻得像在安放婴儿。关灯前，你看了一眼墙上师傅的照片，轻声说了句什么。没人听见，但你知道他听得见。",
+      "bgmTag": "farewell_gentle",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_core_creation", "evt_04_apprentice_call"],
+    "valleyMoments": ["evt_05_machine_copy"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["文化传承议题", "老龄化", "手艺消亡"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

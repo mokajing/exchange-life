@@ -67,7 +67,8 @@ const TIMELINE_LIST = [
   'bianjing-night-market',                                                          // L1/S/V1 - 宋朝汴京夜市摆摊指南 (P0第162卷)
   'volcano-scientist',                                                                 // L2/S/V1 - 火山爆发前夜的监测站值守科学家 (P0第166卷)
   'encyclopedia-editor',                                                                  // L1/S/V1 - 没有互联网世界的纸质百科全书编辑 (P0第167卷)
-  'urban-demolition-windfall'                                                                // L2/S/V2 - 城中村拆迁户的一夜暴富 (P0第197卷)
+  'urban-demolition-windfall',                                                                // L2/S/V2 - 城中村拆迁户的一夜暴富 (P0第197卷)
+  'intangible-heritage-last-day'                                                                  // L2/S/V2 - 非遗传承人的最后一天 (P0第202卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

@@ -248,7 +248,17 @@ const BGM_MAP = {
   triumph_warm:        { file: 'audio/bgm/triumph_warm.mp3',        volume: 0.4, loop: false },
 
   // === 城中村拆迁户专用标签 (2026-06-15 P0第197卷) ===
-  urban_morning:       { file: 'audio/bgm/urban_morning.mp3',       volume: 0.3, loop: true }
+  urban_morning:       { file: 'audio/bgm/urban_morning.mp3',       volume: 0.3, loop: true },
+
+  // === 非遗传承人专用标签 (2026-06-16 P0第202卷) ===
+  traditional_morning:    { file: 'audio/bgm/traditional_morning.mp3',    volume: 0.3, loop: true },
+  melancholic_traditional:{ file: 'audio/bgm/melancholic_traditional.mp3',volume: 0.3, loop: true },
+  craftsman_focus:        { file: 'audio/bgm/craftsman_focus.mp3',        volume: 0.35, loop: true },
+  silent_moment:          { file: 'audio/bgm/silent_moment.mp3',          volume: 0.2, loop: true },
+  urban_cold:             { file: 'audio/bgm/urban_cold.mp3',             volume: 0.3, loop: true },
+  reflective_silence:     { file: 'audio/bgm/reflective_silence.mp3',     volume: 0.25, loop: true },
+  generational_gap:       { file: 'audio/bgm/generational_gap.mp3',       volume: 0.3, loop: true },
+  farewell_gentle:        { file: 'audio/bgm/farewell_gentle.mp3',        volume: 0.3, loop: true }
 };
 
 /**
