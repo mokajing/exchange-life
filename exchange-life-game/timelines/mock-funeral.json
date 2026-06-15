@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "id": "mock-funeral",
+    "title": "提前体验自己的追悼会",
+    "subtitle": "当死亡不再是抽象概念而是一场可以预演的仪式，你终于听到了那些活着时永远不会被说出口的话",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T02:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_preparation",
+      "title": "体验前72小时·签署知情同意书",
+      "description": "签署知情同意书、心理评估基线测试、录制「给活着的自己」视频信",
+      "ageRange": { "start": 30 },
+      "category": "spiritual",
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "笔尖悬在纸上。知情同意书上写着：'您可能经历强烈的情绪波动、悲伤、甚至短暂的绝望感。'你深吸一口气，签下名字。旁边的心理咨询师轻声说：'任何时候你都可以喊停。'镜头亮起，你对着镜头里的自己说：'嘿，如果你正在看这段视频，说明你还活着。'",
+      "bgmTag": "solemn_cello",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_select_eulogist",
+      "title": "体验前24小时·选定悼词撰写人",
+      "description": "选定悼词撰写人（亲友/同事/陌生人三种视角）、布置灵堂场景、挑选遗照",
+      "ageRange": { "start": 30 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "三张照片摆在面前：父亲、那个你以为不在乎你的同事、一个从未见过你的陌生人。你要选择谁来为你写悼词。选父亲，你会听到颤抖的声音里藏着三十年的沉默；选同事，你可能会发现那些你以为的冷漠背后藏着什么；选陌生人，你将听到一个完全基于你社交痕迹的'他人眼中的你'。",
+      "bgmTag": "solemn_cello",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "你想让谁来写你的悼词？",
+        "options": [
+          { "label": "至亲（父亲）", "response": "你选择了父亲。他接过任务时手微微发抖，说要回房间想想。你知道他会写三遍才敢上台。" },
+          { "label": "不太熟的同事", "response": "你选了那个平时点头之交的同事。她愣了一下，然后认真地点了点头。" },
+          { "label": "AI生成的陌生人视角", "response": "系统开始分析你的社交数据。几分钟后，一段由'陌生人'撰写的悼词出现在屏幕上——冰冷，却意外地准确。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_funeral_day",
+      "title": "体验日·以灵魂旁观者身份参加追悼会",
+      "description": "以「灵魂旁观者」身份参加自己的追悼会，聆听三段悼词",
+      "ageRange": { "start": 30 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "你坐在角落，没有人能看到你。灵堂里弥漫着白菊的淡香。父亲走上台，手里攥着一张写了又改、改了又写的纸。他的声音一开始是稳的，念到'我记得他第一次叫我爸爸'时，声音碎了。台下有人低声啜泣。你发现自己也在哭——为一个还活着的自己。",
+      "bgmTag": "mourning_vocal",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "听到父亲的悼词，你的内心...",
+        "options": [
+          { "label": "原来他一直记得", "response": "那些你以为被遗忘的瞬间，他都记得。只是从来不说。" },
+          { "label": "我想抱抱他", "response": "你伸出手，穿过空气。他还在那里，但你已经碰不到了。这种无力感比悲伤更重。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_colleague_eulogy",
+      "title": "同事的悼词·意外的眼泪",
+      "description": "发现那个你以为不在乎你的同事，在你'走后'哭得最凶",
+      "ageRange": { "start": 30 },
+      "category": "relationship",
+      "emotion": "surprise",
+      "emotionIntensity": 0.85,
+      "narrativeText": "她走上台时，你几乎认不出她。眼睛红肿，手里紧紧攥着一张照片——是你们去年团建时的合影，你完全不记得她也在那张照片里。'他总是在茶水间问我项目进展，我以为他只是客气...'她的声音哽咽了，'后来我才知道，那是他关心人的方式。'",
+      "bgmTag": "mourning_vocal",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_child_understanding",
+      "title": "孩子的表情·理解'永远不见'",
+      "description": "看到自己的孩子第一次试图理解'永远不见'是什么意思时的表情",
+      "ageRange": { "start": 30 },
+      "category": "relationship",
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "五岁的孩子拉着妈妈的手，小声问：'爸爸是不是去很远的地方了？'妈妈蹲下来，眼眶通红：'是的，很远很远。'孩子歪着头想了想：'那我可以坐飞机去找他吗？'那一刻，整个房间的空气都凝固了。你坐在角落里，泪水模糊了视线。",
+      "bgmTag": "mourning_vocal",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_dark_alone",
+      "title": "黑暗独处·30分钟的绝对寂静",
+      "description": "在黑暗中独处30分钟，面对自己最后悔的事",
+      "ageRange": { "start": 30 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "灯灭了。完全的黑暗。没有声音，没有光线，只有你自己的呼吸和心跳。前五分钟你还在想刚才的悼词。第十分钟，一个名字浮现在脑海里——那个你欠了一句'对不起'的人。第二十分钟，你意识到最后悔的不是做错的事，而是从未开口说的那些话。第三十分钟，一声婴儿啼哭从远处传来，像新生。",
+      "bgmTag": "silence_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在黑暗中，你最想对谁说一句话？",
+        "options": [
+          { "label": "说出那个名字", "response": "你在心里默念那个名字。黑暗中没有回应，但说出来本身就是一种释放。" },
+          { "label": "保持沉默", "response": "有些话太重了，连在心里说出来都需要勇气。你选择把这份重量继续背着。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_write_letter",
+      "title": "写遗书·用毛笔写下自己的名字",
+      "description": "亲手用毛笔在宣纸上写下自己的名字和一句话，作为'遗书'封存",
+      "ageRange": { "start": 30 },
+      "category": "spiritual",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "毛笔蘸墨，宣纸铺开。你写下自己的名字，笔画比平时慢了很多。然后在下面写了一句话——不是给别人的，是给未来的自己的。墨迹未干，你把纸折好，放进信封。工作人员告诉你：'重生后你可以取回它。'",
+      "bgmTag": "ink_writing",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_08_rebirth",
+      "title": "重生归来·第一个拥抱的重量",
+      "description": "体验结束后第一个拥抱的重量——身体还在，但某些东西已经永远不同了",
+      "ageRange": { "start": 30 },
+      "category": "spiritual",
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "灯光渐亮。窗外有鸟鸣。钢琴版的《Canon in D》缓缓响起。你走出房间，阳光刺眼但温暖。母亲站在门口，看到你的一瞬间，眼泪就掉下来了。她紧紧抱住你，抱得很用力。你能感受到她的体温、她的心跳、她衣服上熟悉的洗衣液味道。身体还在。但某些东西，已经永远不同了。",
+      "bgmTag": "rebirth_piano",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_09_rebirth_declaration",
+      "title": "重生宣言·从今天起要做的事",
+      "description": "撰写「重生宣言」，写下三件'从今天起要做的事'",
+      "ageRange": { "start": 30 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你坐在窗边，手里拿着那张从信封里取回的宣纸。墨迹已经干了。你拿出手机，打开备忘录，写下三件事：第一件是给那个人发一条消息；第二件是周末带孩子去公园；第三件是...你停了一下，然后写下了一个你拖延了五年的计划。系统提示：'30天后我们会提醒你。'",
+      "bgmTag": "rebirth_piano",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "你的重生宣言中，最重要的一件事是？",
+        "options": [
+          { "label": "修复一段关系", "response": "有些话再不说就来不及了。你拿起手机，手指悬在那个熟悉的号码上。" },
+          { "label": "开始一件拖延已久的事", "response": "五年了。是时候了。你在日历上圈下了下周的日期。" },
+          { "label": "好好陪身边的人", "response": "你看了看窗外，决定今晚不做任何计划，只是和家人一起吃一顿饭。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_10_deep_conversation",
+      "title": "深度对话·与重要他人的连接",
+      "description": "体验后与重要他人进行深度对话，完成情感着陆",
+      "ageRange": { "start": 30 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.75,
+      "narrativeText": "晚上，你和父亲坐在阳台上。他给你倒了一杯茶，你们沉默了很久。然后他说：'今天...我写那段话的时候，想起了你小时候。'你没有说话，只是把手放在他的手背上。他的手掌粗糙而温暖。这一刻不需要悼词，不需要仪式。活着，就是最好的答案。",
+      "bgmTag": "evening_warmth",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_funeral_day", "evt_05_child_understanding", "evt_06_dark_alone"],
+    "valleyMoments": ["evt_06_dark_alone"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["death", "grief", "emotional_intensity"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}
