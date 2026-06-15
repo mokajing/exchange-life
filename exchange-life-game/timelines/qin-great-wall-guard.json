@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "qin-great-wall-guard",
+    "title": "秦朝修筑长城的戍卒家书",
+    "subtitle": "在夯土与烽火之间，用竹简写下「勿念」的无名守边人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-conscripted",
+      "title": "征发入伍·离别南阳",
+      "description": "秦始皇三十二年，主人公黑夫从南阳郡被征发，步行四十余日抵达上郡肤施工地。",
+      "ageRange": { "start": 20, "end": 22 },
+      "yearRange": { "start": -215, "end": -213 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你叫黑夫，南阳郡的一个普通农夫。\n\n官府的征发令来得突然。母亲站在村口，手里攥着一包粗布缝制的冬衣，眼眶红了却不敢哭出声。\n\n你回头望了最后一眼炊烟升起的方向，然后转身踏上北去的路。这一走，就是四十多天。脚下的黄土越来越厚，风越来越冷，家乡的轮廓终于消失在视线尽头。",
+      "bgmTag": "ancient_sorrow",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "离开时你最想带走什么？",
+        "options": [
+          { "label": "母亲缝的冬衣", "response": "你把冬衣紧紧抱在怀里，上面还带着灶火的温度。" },
+          { "label": "家门口的一捧土", "response": "你用布包了一捧黄土揣在怀里，那是家的味道。" },
+          { "label": "什么都不带，轻身上路", "response": "你两手空空地走了，把牵挂都留在了身后。" }
+        ]
+      },
+      "sourceAnchor": "第239卷·Layer1事实层·征发入伍"
+    },
+    {
+      "id": "evt-02-ramming-earth",
+      "title": "夯土筑城·日复一日",
+      "description": "每日劳作十二时辰，用版筑法夯实黄土墙体。监工以程计量，不达标者笞五十。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": -213 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "举杵。落下。再举。再落。\n\n每天从天亮干到天黑，十二个时辰里只有吃饭时能喘口气。版筑法要求每层夯土厚约十厘米，反复捶打直到密实得像石头。\n\n你的手磨出了血泡，血泡破了又结痂，结痂又被磨破。监工拿着尺子量你的进度，不够就挨鞭子。\n\n夜里躺在窝棚里，浑身骨头都在叫嚣。远处传来不知谁哼的家乡调子，调子不对，但旋律像是母亲哄你睡觉时唱过的。你把脸埋进胳膊里，不出声。",
+      "bgmTag": "labor_rhythm",
+      "visualTone": "dark",
+      "sourceAnchor": "第239卷·Layer1事实层·夯土筑城"
+    },
+    {
+      "id": "evt-03-letter-home",
+      "title": "家书时刻·竹简上的三个字",
+      "description": "利用休沐日用竹简给母亲写信，刻下「母勿忧」三个字。这是考古出土的真实秦简家书中最常出现的内容。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": -213 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "休沐日，你终于有了片刻空闲。\n\n你找来一片竹简和一把小刀。你不会写太多字，歪歪扭扭地刻下三个字：母勿忧。\n\n手指上的血泡混着墨痕，字迹深浅不一。你不知道这封信要走两个月才能到家，也不知道母亲收到时你还活着还是已经死了。\n\n但你还是写了。因为除了这三个字，你不知道还能说什么。",
+      "bgmTag": "guqin_memory",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "家书还要写些什么？",
+        "options": [
+          { "label": "只报平安「儿身安勿念」", "response": "你把所有苦楚咽下去，只留下让她安心的话。" },
+          { "label": "如实写「衣寒食少甚苦」", "response": "你忍不住写下了真实的处境，希望家里能寄些衣物来。" },
+          { "label": "什么都不写，把竹简放下", "response": "千言万语堵在胸口，最终一个字也刻不下去。" }
+        ]
+      },
+      "sourceAnchor": "第239卷·Layer1事实层·家书时刻"
+    },
+    {
+      "id": "evt-04-beacon-fire",
+      "title": "烽火传递·夜守烽燧",
+      "description": "夜间值守烽燧，学习五里一燧、十里一墩的信号体系。某夜匈奴小股骑兵试探，点燃烽火后援军两个时辰方至。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": -213 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "夜深了，你独自守在烽燧台上。\n\n北风呼啸，星星冷得像冰碴。你盯着北方的黑暗，耳朵捕捉着每一丝动静。误报烽火者斩，漏报者也斩。\n\n突然，远处传来马蹄声。你的心猛地收紧——是匈奴骑兵！\n\n你点燃了烽火。火焰在黑暗中腾起，像一声无声的呐喊。然后就是等待。一个时辰，两个时辰……援军终于赶到时，你的后背已经被冷汗浸透了。",
+      "bgmTag": "tension_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "点燃烽火后的漫长等待中，你在想什么？",
+        "options": [
+          { "label": "握紧兵器盯着北方", "response": "你把全部注意力集中在眼前的黑暗上，不让恐惧有可乘之机。" },
+          { "label": "想起家里的田该收了", "response": "思绪飘回了南阳的麦田，如果不在这里守夜，此刻你应该在割稻。" },
+          { "label": "数星星计算援军还有多久", "response": "你用数星星来对抗时间的煎熬，每数一百颗就告诉自己快到了。" }
+        ]
+      },
+      "sourceAnchor": "第239卷·Layer1事实层·烽火传递"
+    },
+    {
+      "id": "evt-05-comrade-death",
+      "title": "同袍之死·地基的一部分",
+      "description": "邻伍的老卒因劳累过度倒在夯土台上，被草草掩埋在城墙基址旁。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": -213 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "那天下午，隔壁伍的老卒倒下了。\n\n他年纪比你大不少，头发已经花白。这些天他一直咳嗽，但没人敢停下来休息。他倒在夯土台上的时候，手里的杵还没松开。\n\n监工走过来看了一眼，说了句「埋了便是地基的一部分」。\n\n你们把他抬到城墙基址旁，用黄土盖住了他的身体。没有墓碑，没有名字。从此以后，这段长城下面就多了一个无名的守边人。",
+      "bgmTag": "mourning_wind",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "老卒倒下时，你会怎么做？",
+        "options": [
+          { "label": "停下手中的活去看他", "response": "你放下了杵，走到他身边。哪怕只是一瞬间的陪伴，也是你能给他的最后一点温暖。" },
+          { "label": "继续夯土不敢停", "response": "你咬着牙继续干活，眼泪掉在黄土里。停下来意味着挨鞭子，你承受不起。" },
+          { "label": "默默把水囊放在他身边", "response": "你把自己的水囊悄悄放在他手边。他已经不需要了，但你觉得应该做点什么。" }
+        ]
+      },
+      "sourceAnchor": "第239卷·Layer1事实层·同袍之死"
+    },
+    {
+      "id": "evt-06-sunrise-hope",
+      "title": "烽火台日出·无名者的尊严",
+      "description": "值守一夜未眠，天亮时看到晨光从长城垛口的缝隙间照进来，那道光照在满是泥垢的手上。",
+      "ageRange": { "start": 22 },
+      "yearRange": { "start": -213 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "一夜未眠。\n\n天边终于泛起鱼肚白。你站在烽燧台上，看着第一缕晨光从长城垛口的缝隙间挤进来。\n\n那道金色的光照在你满是泥垢的手上，照在被夯杵磨出血痕的掌心。你忽然觉得自己在做一件很大的事——虽然没人会记住你的名字，虽然这段城墙下面埋着无数像你一样的人。\n\n但你们筑起的这道墙，会替你们站在这里很久很久。\n\n你深吸一口气，新的一天又开始了。",
+      "bgmTag": "dawn_hope",
+      "visualTone": "bright",
+      "sourceAnchor": "第239卷·Layer2情感层·烽火台上的日出"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "melancholic",
+    "peakMoments": ["evt-03-letter-home", "evt-05-comrade-death"],
+    "valleyMoments": ["evt-02-ramming-earth", "evt-04-beacon-fire"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["古代劳役", "死亡主题", "思乡情绪"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

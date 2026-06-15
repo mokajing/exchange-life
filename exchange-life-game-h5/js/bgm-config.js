@@ -423,8 +423,4 @@ function _clearCrossfadeTimer() {
   }
 }
 
-window.BGM_MAP = BGM_MAP;
-window.getBGM = getBGM;
-window.playBGM = playBGM;
-window.stopBGM = stopBGM;
-window.crossfadeBGM = crossfadeBGM;
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
