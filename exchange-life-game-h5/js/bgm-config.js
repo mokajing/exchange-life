@@ -223,7 +223,14 @@ const BGM_MAP = {
   cello_solo:        { file: 'audio/bgm/cello_solo.mp3',        volume: 0.3, loop: true },
   cello_maternal:    { file: 'audio/bgm/cello_maternal.mp3',    volume: 0.35, loop: true },
   gentle_strings:    { file: 'audio/bgm/gentle_strings.mp3',    volume: 0.3, loop: true },
-  warm_quartet:      { file: 'audio/bgm/warm_quartet.mp3',      volume: 0.4, loop: false }
+  warm_quartet:      { file: 'audio/bgm/warm_quartet.mp3',      volume: 0.4, loop: false },
+
+  // === 宋朝汴京夜市专用标签 (2026-06-15 P0第162卷) ===
+  ancient_china_day:   { file: 'audio/bgm/ancient_china_day.mp3',   volume: 0.35, loop: true },
+  ancient_china_tense: { file: 'audio/bgm/ancient_china_tense.mp3', volume: 0.4, loop: true },
+  ancient_china_bustle:{ file: 'audio/bgm/ancient_china_bustle.mp3',volume: 0.45, loop: true },
+  ancient_china_warm:  { file: 'audio/bgm/ancient_china_warm.mp3',  volume: 0.35, loop: true },
+  ancient_china_night: { file: 'audio/bgm/ancient_china_night.mp3', volume: 0.3, loop: true }
 };
 
 /**

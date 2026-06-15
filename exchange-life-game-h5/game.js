@@ -84,7 +84,8 @@ const TIMELINE_LIST = [
   { id: 'emotion-weather-forecaster', label: '情绪天气预报员的混乱第一天', level: 'L1' },
   { id: 'aymara-weaver',              label: '安第斯山脉艾马拉织布妇人的最后一代', level: 'L1' },
   { id: 'cip-patient-daily',          label: '无痛之境：先天性无痛症患者的日常', level: 'L3' },
-  { id: 'mortuary-makeup-artist',     label: '殡仪馆化妆师：给逝者画上最后一张脸', level: 'L2' }
+  { id: 'mortuary-makeup-artist',     label: '殡仪馆化妆师：给逝者画上最后一张脸', level: 'L2' },
+  { id: 'bianjing-night-market',      label: '宋朝汴京夜市摆摊指南：一个小摊贩的烟火人生', level: 'L1' }
 ];
 
 let player = null;

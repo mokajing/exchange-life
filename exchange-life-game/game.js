@@ -63,7 +63,8 @@ const TIMELINE_LIST = [
   'emotion-weather-forecaster',                                     // L1/S/V1 - 情绪天气预报员的混乱第一天 (P0第151卷)
   'aymara-weaver',                                                     // L1/S/V1 - 安第斯山脉艾马拉织布妇人的最后一代 (P0第156卷)
   'cip-patient-daily',                                                      // L3/S/V2 - 先天性无痛症患者的日常 (P0第157卷)
-  'mortuary-makeup-artist'                                                     // L2/S/V1 - 殡仪馆化妆师 (P0第154卷)
+  'mortuary-makeup-artist',                                                     // L2/S/V1 - 殡仪馆化妆师 (P0第154卷)
+  'bianjing-night-market'                                                          // L1/S/V1 - 宋朝汴京夜市摆摊指南 (P0第162卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

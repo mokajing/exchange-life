@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "bianjing-night-market",
+    "title": "宋朝汴京夜市摆摊指南",
+    "subtitle": "没有城管的最繁华夜经济里，一个小摊贩的烟火人生",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T20:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_prep",
+      "title": "午后备货",
+      "description": "申时初刻，在后厨准备食材。油热了，葱花切好，铜板码齐。深呼吸，今天又是充满希望的一天。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "申时初刻，阳光斜斜照进后厨。你把最后一把葱花切好，铜板在布袋里叮当作响。油锅已经烧热，今晚的旋煎羊要做得比昨天更香。深呼吸——又是充满希望的一天。",
+      "bgmTag": "ancient_china_day",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_choose_spot",
+      "title": "出摊选址博弈",
+      "description": "州桥夜市、马行街、潘楼街……热门地段的摊位争夺，老摊贩靠规矩和人情维系位置，新来者需拜码头。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "推着车来到夜市街口，心怦怦直跳。州桥夜市人流最大但竞争激烈，马行街稳定但利润薄，新开的巷口或许能独占客源……你深吸一口气，做出了选择。",
+      "bgmTag": "ancient_china_day",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "今晚在哪里出摊？",
+        "options": [
+          { "label": "州桥夜市（人流大但竞争激烈）", "response": "你挤进了最热闹的州桥夜市，隔壁阿婆笑着教你吆喝诀窍。" },
+          { "label": "马行街（稳定但利润薄）", "response": "马行街的老主顾们看到你来了，纷纷打招呼。安稳的一晚。" },
+          { "label": "新开的巷口（冒险但可能独占客源）", "response": "冷清的巷口让你忐忑，但第一个客人尝完后连连称赞，口碑慢慢传开了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_inspector",
+      "title": "巡铺军检查",
+      "description": "宋代夜市虽无现代城管，但有巡铺维持秩序。摊贩需在合法经营与灵活变通间找平衡。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "酉时刚过，巡铺军的灯笼远远晃过来。你的免行钱这个月还没交齐，手心开始冒汗。是老实交代，还是塞点小费通融，或者暂时收摊躲避？",
+      "bgmTag": "ancient_china_tense",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "巡铺军来了，怎么办？",
+        "options": [
+          { "label": "老实交税", "response": "你掏出仅有的铜钱补上了欠款。巡铺军点点头走了，虽然心疼，但心里踏实。" },
+          { "label": "塞点小费", "response": "你悄悄递上一包糖蜜糕，巡铺军会意地笑了笑，转身离去。灰色地带的生存智慧。" },
+          { "label": "暂时收摊躲避", "response": "你迅速收拾家伙躲进巷子深处。等巡铺军走远才重新出摊，耽误了半个时辰的生意。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_rush_hour",
+      "title": "亥时高峰·食客百态",
+      "description": "下班的衙役、赶考的书生、寻欢的富商、偷闲的宫女太监……每个客人背后都是一段故事。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "亥时到了，夜市迎来最高峰。'这位客官要甜的还是咸的？——好嘞！——那边稍等马上来！'锅铲翻飞，铜钱碰撞，人声鼎沸。一个书生边吃边念叨着明日科考的题目，一个便装出行的宫女偷偷多买了两份带回去。你在忙碌中感到一种充实的快乐。",
+      "bgmTag": "ancient_china_bustle",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_05_warmth",
+      "title": "温暖的连接瞬间",
+      "description": "第一次被老顾客记住名字，下雨天隔壁阿婆递来热汤，收到假铜钱却选择不揭穿衣衫褴褛的老妇。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "'小哥，还是老样子？'一个熟悉的声音响起。在百万人的汴京城里被一个人记得，比赚十文钱还暖。忽然下起小雨，生意冷清下来，隔壁卖旋煎羊的阿婆端来一碗热汤：'后生仔，淋了雨要生病的。'你接过汤碗，眼眶微微发热。",
+      "bgmTag": "ancient_china_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "一位衣衫褴褛的老妇用一枚可疑的铜钱买了一份点心，你……",
+        "options": [
+          { "label": "收下铜钱，不揭穿", "response": "你微笑着收下那枚轻飘飘的铜钱。不是大方，是懂得她比你更需要这枚钱的体面。" },
+          { "label": "婉拒收钱，送她一份", "response": "你摆摆手说'阿婆，这份算我请的'。老人浑浊的眼里闪过一丝光亮。" },
+          { "label": "照常交易", "response": "你按规矩收了钱、给了点心。生意就是生意，但你心里记下了这张脸。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_close",
+      "title": "子时收摊·独处时刻",
+      "description": "数铜钱、洗器具、望着渐熄的灯火想远方老家。月亮从屋檐角挪到了巷子中央。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "子时已过，最后一位客人离开。你蹲在地上数铜钱，今天的收入比昨天多了七文，够给娘买一副新药了。洗好器具，抬头望月——月亮从屋檐角挪到了巷子中央，更鼓声远远传来。你想起了远方的老家，想起了出发时娘说的话。疲惫，但安心。",
+      "bgmTag": "ancient_china_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_hope",
+      "title": "对明日的小小期盼",
+      "description": "收完摊后的片刻宁静，想着明天的菜单要不要换个花样，想着攒够了钱就能开个小店面。",
+      "ageRange": { "start": 25, "end": 25 },
+      "yearRange": { "start": 1060, "end": 1060 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.4,
+      "narrativeText": "躺在窄小的阁楼里，听着窗外虫鸣渐弱。明天试试做个新口味的糖蜜糕吧，听说最近流行加了桂花的版本。再攒三个月的钱，也许就能在巷口租个小店面了……带着这些小小的念头，你沉沉睡去。汴京的夜还未结束，而你的梦已经开始。",
+      "bgmTag": "ancient_china_night",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_warmth"],
+    "valleyMoments": ["evt_03_inspector"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
