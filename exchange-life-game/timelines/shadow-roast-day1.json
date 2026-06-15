@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "id": "shadow-roast-day1",
+    "title": "影子吐槽你的第一天",
+    "subtitle": "当你的影子有了独立人格，开始公开吐槽你所有的伪装和小谎言",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T03:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_shadow_awakens",
+      "title": "影子觉醒",
+      "description": "清晨6:30闹钟响起，起床时发现影子没有跟随动作，而是叉着腰站在床边摇头",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "闹钟响了第三遍。你揉着眼睛坐起来，习惯性地看向床头——影子不在那里。转头一看，它正叉着腰站在墙边，半透明的靛蓝色身体微微发光，脑袋摇得像拨浪鼓。\"又熬夜到两点？你看看你那黑眼圈，粉底都遮不住。\"这是你的影子第一次开口说话。",
+      "bgmTag": "playful_morning",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_02_subway_show",
+      "title": "地铁社死现场",
+      "description": "上午8:00通勤地铁上，影子当着全车厢人的面比划出主角昨晚偷吃零食的动作",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "地铁挤得像沙丁鱼罐头。你抓着扶手假装看手机，影子却在车厢壁上开始了默剧表演——双手捧着空气往嘴里塞，表情夸张地咀嚼，还摸了摸肚子做出满足的样子。旁边有人憋笑，有人疑惑地看着你。\"你说减肥来着？昨晚那包辣条是谁吃的？\"影子的声音只有你能听见，但它的动作全世界都看得见。",
+      "bgmTag": "awkward_silence",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "影子在地铁上开始表演，你会怎么做？",
+        "options": [
+          { "label": "试图用手遮住影子", "response": "你伸手去挡，但手穿过了影子的身体。它反而加大了表演幅度，还朝你做了个鬼脸。越遮越明显，乘客们开始窃窃私语。" },
+          { "label": "假装不认识它", "response": "你把头扭向另一边，装作在看窗外。影子立刻升级表演，模仿你昨天在办公室摸鱼刷短视频的姿势。荒诞加倍，但你发现有个小朋友正开心地跟着影子一起做动作。" },
+          { "label": "干脆跟它一起演", "response": "你深吸一口气，也对着车厢壁做了个夸张的吃零食动作。几个年轻人笑了，有人鼓掌。影子愣了一下，然后也笑了——虽然它没有嘴。意外的温暖。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_meeting_disaster",
+      "title": "会议拆台时刻",
+      "description": "上午10:30公司会议上，影子在投影幕布上表演主角摸鱼时的真实状态",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "周会正在进行。轮到你汇报时，影子突然跳上投影幕布，开始了一段精彩的默剧：先是假装认真敲键盘，然后偷偷切屏刷社交媒体，接着打了个哈欠伸懒腰，最后还模仿了你昨天对老板说\"这个方案我周末加班赶出来了\"时的虚伪表情。会议室安静了三秒，然后爆发出笑声——不是嘲笑，是那种\"我们都懂\"的笑声。",
+      "bgmTag": "tension_release",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "影子在会议上拆台后，你怎么应对？",
+        "options": [
+          { "label": "道歉并解释", "response": "\"抱歉，我...最近确实有点累。\"你低下头，准备接受批评。但老板却说：\"至少你的影子比你诚实。\"会议室又笑了，这次是善意的。" },
+          { "label": "顺着影子说出真话", "response": "你深吸一口气：\"它说得对。这个方案我没做完，因为我上周在焦虑另一个项目。\"全场安静，然后老板点头：\"谢谢你的坦诚。我们需要这样的真话。\"" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_lunch_debate",
+      "title": "午餐辩论赛",
+      "description": "中午12:00午餐时同事围观主角与影子的辩论赛",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "食堂里，你和影子面对面坐着（它坐在你对面的空椅子上）。\"你说你喜欢这份工作？\"影子歪着头，\"那你为什么每天上班前都要在车里坐十分钟才肯下车？\"你想反驳，但它继续：\"还有，你说你不介意前任结婚，但昨晚你看了人家朋友圈二十分钟。\"同事们围过来看热闹，有人递给你一瓶水：\"加油，辩赢它！\"",
+      "bgmTag": "lively_cafeteria",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_client_truth",
+      "title": "客户来访的真话",
+      "description": "下午15:00重要客户来访，影子突然认真起来，帮主角说出了不敢说的真话",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "大客户来了。你正准备用那套熟练的话术介绍产品，影子却站到了你和客户之间。它没有做鬼脸，没有吐槽，只是静静地看着你，然后用一种你从未听过的温柔声音说：\"告诉他实话。告诉他我们的产品确实有缺陷，但也告诉他我们为什么还在坚持做这件事。\"你愣住了。然后你开口了，说出了入职以来最真诚的一段话。客户听完沉默了很久，然后说：\"就冲这份真诚，我们合作。\"",
+      "bgmTag": "truth_moment",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "影子帮你说了真话之后，你想对它说什么？",
+        "options": [
+          { "label": "谢谢你", "response": "你在心里默默说了声谢谢。影子没有回应，但它的颜色似乎变暖了一点。" },
+          { "label": "你为什么要帮我？", "response": "\"因为你是我啊。\"影子的声音很轻，\"我不帮你，谁帮你？\"" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_sunset_silence",
+      "title": "黄昏的沉默",
+      "description": "傍晚18:30下班路上，影子第一次沉默，只是安静地跟着走",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "夕阳把街道染成琥珀色。你走在回家的路上，影子跟在身后，一言不发。没有吐槽，没有表演，没有质问。它只是安静地跟着，像一个认识了很久的老朋友。风吹过来，你放慢脚步，它也放慢脚步。这一刻的沉默，比今天所有的吐槽都更有力量。",
+      "bgmTag": "sunset_walk",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_night_conversation",
+      "title": "深夜真心话",
+      "description": "晚上22:00睡前对话，影子轻声说了句其实我只是希望你别再骗自己了",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "台灯亮着暖黄色的光。你躺在床上，影子坐在床边的地板上。\"你今天...是不是故意的？\"你问。它摇摇头：\"我只是把你不敢说的话说了出来。\"停顿了一下，它轻声说：\"其实我只是希望你别再骗自己了。你明明知道什么是对的，只是害怕面对。\"房间里很安静，只有老式台灯开关的咔嗒声。你笑了，眼泪也流了下来。",
+      "bgmTag": "night_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "听完影子的话，你想做什么？",
+        "options": [
+          { "label": "给它一个拥抱", "response": "你伸出手，穿过了它的身体。但那一刻，你感觉到了温度——不是来自影子，是来自你自己。" },
+          { "label": "说声晚安", "response": "\"晚安。\"你说。\"晚安。\"影子回答。然后它慢慢变淡，融入了夜色里。但你知道它还在。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_subway_show", "evt_03_meeting_disaster"],
+    "valleyMoments": ["evt_06_sunset_silence"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["自我认知", "社交尴尬"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

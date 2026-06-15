@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "truth-translator-day",
+    "title": "真相翻译官的一天",
+    "subtitle": "在一个无法说谎的世界里，将过于尖锐的真话翻译成对方能承受的真相版本",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T03:40:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_cannot_lie",
+      "title": "无法说谎的早晨",
+      "description": "醒来发现自己无法说出任何非事实的话，连善意的安慰都变成直白的陈述",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "闹钟响了。你想对室友说\"早安，今天天气不错\"，但窗外明明阴沉沉的。嘴巴张开，出来的却是：\"早安，今天天气很糟，但我希望你心情好。\"你愣住了。这不是你想说的话，却是事实。在这个世界里，谎言不存在——语言从诞生起就绑定了真实表达。",
+      "bgmTag": "minimal_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_friend_tears",
+      "title": "哭泣的朋友",
+      "description": "朋友失恋来找你倾诉，你想安慰却只能说这件事确实很糟",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "她坐在你家沙发上哭得喘不过气。你想说\"你会遇到更好的\"，但出口的是：\"这段关系结束了，你很痛苦，这是事实。\"她抬起头看你，眼泪还在流。你继续说：\"我不会骗你说时间能治愈一切，因为我不确定。但我可以坐在这里陪你，直到你准备好面对明天。\"她靠在你肩上，哭声渐渐小了。原来真话也可以是一种陪伴。",
+      "bgmTag": "heart_pause",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对哭泣的朋友，你会怎么做？",
+        "options": [
+          { "label": "直接说出你认为的事实", "response": "\"他不会回来了，你需要接受这个事实。\"你说得很轻，但每个字都像石头。她沉默了很久，然后点头：\"至少你没骗我。\"" },
+          { "label": "沉默陪伴直到准备好翻译", "response": "你没有说话，只是坐在她身边。半小时后她开口了：\"你觉得我该怎么办？\"你回答：\"我不知道。但我知道你现在需要有人在这里。\"有时候沉默比真话更温柔。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_translation_work",
+      "title": "真相翻译官的工作",
+      "description": "作为真相翻译官，需要将他人过于尖锐的真话翻译成对方能承受的真相版本",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你的职业是真相翻译官。在这个世界里，人们不会说谎，但真话有时太锋利。你的工作是把锋利的真相打磨成不伤人却依然真实的形状。今天的第一位客户是一位母亲，她对女儿说：\"我对你失望。\"你需要把这句话翻译成女儿能听进去的版本。",
+      "bgmTag": "work_focus",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_mother_daughter",
+      "title": "母女的真相",
+      "description": "翻译一对母女的对话：母亲说我对你失望被翻译成我希望你过得好但我不知道怎么说",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "母亲坐在左边，女儿坐在右边。\"我对你失望，\"母亲说，声音冰冷。你闭上眼睛感受这句话的内核，然后转向女儿：\"你妈妈的意思是，她希望你过得好，但她不知道如何表达这份关心，所以用了让你受伤的方式。\"女儿的眼泪掉了下来。母亲也红了眼眶。真话的内核其实是爱，只是包裹了太多层的恐惧和无力。",
+      "bgmTag": "warm_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "翻译完母女对话后，你对这份工作有什么新的理解？",
+        "options": [
+          { "label": "真相可以是温柔的", "response": "你意识到翻译不是篡改，而是找到真话里被忽略的温度。每一句伤人的话背后，都藏着一个不知道怎么表达的爱。" },
+          { "label": "这份工作比我想象的难", "response": "你感到疲惫。把锋利变成柔软需要消耗自己的情感。但你看到母女和解的那一刻，觉得一切都值得。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_business_negotiation",
+      "title": "没有谎言的商务谈判",
+      "description": "参加一场商务谈判，发现没有谎言的世界里商业逻辑完全不同",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "下午的谈判桌上，甲方说：\"我们的预算只有这么多，再高我们就找别家。\"乙方回答：\"这个价格我们利润很薄，但如果你们能保证长期合作，我们可以接受。\"没有虚张声势，没有 bluffing，没有\"这是我们最后的报价\"。所有底牌摊在桌上，谈判反而更快达成了共识。你发现当谎言消失后，信任成了最高效的商业货币。",
+      "bgmTag": "business_clarity",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_mirror_truth",
+      "title": "面对镜中的自己",
+      "description": "夜晚独处时意识到自己也早已习惯了用谎言保护自己",
+      "ageRange": { "start": 28 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "夜深了。你站在浴室镜前，看着自己的眼睛。\"你快乐吗？\"你问自己。嘴巴张开，答案自动流出：\"不完全是。我害怕失败，所以我假装不在乎结果。我孤独，但我告诉别人我喜欢独处。我说'我很好'的时候，通常意味着'我不想解释'。\"镜子前的你无处可逃。原来最难翻译的真相，是对自己说的。",
+      "bgmTag": "self_reflection",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对镜子中的自己，你想怎么做？",
+        "options": [
+          { "label": "对自己说出一直回避的真话", "response": "\"我害怕被拒绝，所以我从不主动争取。\"说出来那一刻，肩膀松了下来。承认脆弱不是软弱，是另一种勇敢。" },
+          { "label": "先说出一个对自己的肯定再面对真相", "response": "\"我是一个努力的人。\"你先说了这句。然后才敢继续：\"但我也有不想努力的时候，这不代表我不够好。\"肯定和真相可以共存。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_return_reality",
+      "title": "回归有谎言的世界",
+      "description": "体验结束回到现实，重新审视日常中那些必要的谎言背后的爱与恐惧",
+      "ageRange": { "start": 28 },
+      "category": "spiritual",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你回到了自己的世界。手机上有三条未读消息，其中一条是妈妈问\"最近好吗\"。你打了三个字\"我很好\"，然后停住了。你知道这是一句谎言，但也知道这三个字承载了多少不想让她担心的温柔。在你自己的世界里，有些谎言是盾牌，有些真话是桥梁——分辨它们的能力本身就是成长。",
+      "bgmTag": "return_gentle",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_mother_daughter", "evt_06_mirror_truth"],
+    "valleyMoments": ["evt_02_friend_tears"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["自我认知", "亲密关系冲突"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
