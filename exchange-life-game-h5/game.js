@@ -102,6 +102,7 @@ const TIMELINE_LIST = [
   { id: 'earthquake-search-dog-handler', label: '地震搜救犬训导员的废墟72小时——在瓦砾与绝望之间用鼻子和信任寻找生命信号', level: 'L2' },
   { id: 'ocd-morning-ritual', label: '强迫症患者的出门仪式——在所有人都能轻松推开门的世界里用一遍遍检查才能迈出第一步', level: 'L3' },
   { id: 'selective-mutism-kindergarten', label: '选择性缄默症儿童的幼儿园日常——不是不想说话而是恐惧把声音锁在了喉咙里', level: 'L3' },
+  { id: 'oral-historian-last-day', label: '口述史传承人的最后一天——在没有文字的世界里当记忆开始裂缝三千年的链条第一次面临断裂', level: 'L1' },
   { id: 'volcano-scientist', label: '火山爆发前夜的监测站值守科学家', level: 'L1' },
   { id: 'wang-jibing', label: '外卖诗人王计兵——从工地到春晚，用诗句丈量人间', level: 'L1' },
   { id: 'wu-shaoqing', label: '寻找你的名字', level: 'L1' },

@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "oral-historian-last-day",
+    "title": "口述史传承人的最后一天",
+    "subtitle": "在没有文字的世界里，当记忆开始裂缝，三千年的链条第一次面临断裂",
+    "sourceType": "documentary",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T07:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_ritual",
+      "title": "清晨日出仪式",
+      "description": "带领全村背诵创世歌谣，每个音节对应一段被编码的历史。庄严的使命感在金色晨光中升腾。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.75,
+      "narrativeText": "太阳从山脊后面升起的时候，你已经站在了老榕树下。村民们围成三圈，最里面是孩子们，中间是壮年人，最外圈是老人们。你张开嘴，第一个音节像石头投入静水——那是创世歌谣的起始音，对应着'天地初开时第一缕风穿过峡谷'的记忆。三百个音节，三百段历史，你的声音是这座没有墙壁的图书馆里唯一的光。今天的声音和昨天一样稳，但你心里知道，有些东西正在悄悄改变。",
+      "bgmTag": "dawn_chant",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_teach_apprentice",
+      "title": "教授学徒背诵族谱",
+      "description": "教15岁学徒背诵第七代族谱时，自己突然忘记第三代某位女性的名字。那个卡壳的瞬间，时间凝固了。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.92,
+      "narrativeText": "阿禾的眼睛很亮，像你年轻时的样子。她跟着你一字一句地念，第七代族谱已经背到了第三个名字。然后轮到你了。'第三代……'你的嘴唇动了动，那个名字就在嘴边，像一条滑溜的鱼，你伸手去抓，它却游进了深水。沉默。两秒。三秒。阿禾看着你，努力掩饰眼里的失望，但那表情你太熟悉了——和你看着自己父亲忘记回家路时一模一样。三千年的链条，在你这里，第一次出现了裂缝。",
+      "bgmTag": "memory_crack",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "当你发现自己忘记了那个名字时——",
+        "options": [
+          { "label": "停下来诚实告诉学徒'我需要想一想'", "response": "你深吸一口气，说出了这辈子最难的一句话：'我忘了。'阿禾愣住了，然后轻轻点头。那一刻你意识到，承认遗忘本身就是一种传承——教会下一代如何面对不完美。" },
+          { "label": "用模糊描述替代继续讲下去", "response": "你说'那位以织布闻名的女性'，跳过了名字。故事继续流淌，但你知道那个空缺像一颗石子沉入河底，再也捞不回来。安全的代价是真实的流失。" },
+          { "label": "跳过这一段直接进入下一代", "response": "你加快了语速，把那段空白吞进了肚子里。阿禾没有追问，但她的手指在膝盖上轻轻敲了一下——那是你教她的'有疑问'的信号。你选择了逃避，而她选择了记住你的逃避。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_mediate_dispute",
+      "title": "调解水源争端",
+      "description": "用口头方式调解两户人家关于水源分配的争端，引用三十年前另一位传承人的判词作为先例。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "午后的阳光晒得土地发白。两家人站在溪边，脸红脖子粗地争论谁该多用一桶水。你慢慢走到中间，开口念出三十年前老传承人阿公的判词——那些话像溪水一样流过你的舌尖，每一个停顿都有分量。'水不分你我，旱季共减三成，雨季各取所需。'两家人安静下来。你不是在裁决，你是在让祖先的智慧重新活一次。这一刻，你觉得自己不是一个人，而是一条河流经的河床。",
+      "bgmTag": "village_peace",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_afternoon_review",
+      "title": "午后独自复习发现更多裂缝",
+      "description": "坐在老树下反复默诵，发现自己把两个不同时代的旱灾记忆混淆了。恐惧比死亡更深。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.88,
+      "narrativeText": "树荫斑驳，风穿过叶子发出细碎的声响。你闭上眼，试图把今天的漏洞补上。但越回忆越混乱——那场大旱到底是祖父讲的还是曾祖父讲的？饥荒那年死去的是三个孩子还是五个？你把两段记忆叠在一起，它们像两张透明的画重合了，分不清哪张是真的。你睁开眼，手心全是汗。如果连你都记错了，那这些故事传到阿禾那里，就已经是变形的影子了。遗忘不是突然降临的黑暗，而是缓慢渗入的潮气。",
+      "bgmTag": "wind_through_leaves",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "发现记忆混淆后，你会怎么做？",
+        "options": [
+          { "label": "去找村里最老的老人交叉验证", "response": "你拄着拐杖走到村尾，九十岁的阿婆坐在门口晒太阳。她听了你的困惑，慢慢说：'你记的没错，只是把两场旱灾合在了一起。'她的声音像一根线，把你散落的记忆重新串起来。但你也注意到，她自己也有些事情记不清了。" },
+          { "label": "接受不完美，记录'不确定'标记", "response": "你在心里给那段记忆打上一个结——'此处存疑'。这是你从未做过的事。以前的传承人从不承认不确定，但你决定把'不知道'也传给下一代。也许诚实比完美更重要。" },
+          { "label": "加倍练习直到确认无误", "response": "你一遍遍重复那段歌谣，直到嘴唇发麻、嗓子干涩。有些碎片回来了，有些永远消失了。你用毅力填补了空洞，但不确定填进去的是原来的形状还是你自己的想象。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_elder_council",
+      "title": "夜间长老会坦白记忆衰退",
+      "description": "向长老会坦白记忆衰退的事实，讨论是否将部分记忆分拆给多位年轻传承人分担。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "篝火的光映在每个人脸上。七个长老围坐，没有人说话。你开口了，声音比你预想的平稳：'我的记忆开始出现裂缝了。'沉默。没有人责怪你，没有人惊讶。老族长点了点头，像是在确认一个早已知道的事实。'我们都在等这一天，'他说，'因为每个传承人都会走到这一步。'然后大家开始讨论：是把记忆分给三个人，还是五个人？要不要开始尝试用结绳辅助？那些温柔的、不带评判的讨论，比任何安慰都更让你心碎——因为他们接纳的不是你的完美，而是你的有限。",
+      "bgmTag": "council_humming",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "长老们询问你希望如何处理记忆传承——",
+        "options": [
+          { "label": "建议将记忆分拆给多个年轻人分担", "response": "你说：'一个人的肩膀扛不住三千年的重量了。'长老们点头。从明天起，阿禾学族谱，小山学歌谣，阿月学判词。完整的记忆变成了拼图，但每一块都被更多人共同守护。" },
+          { "label": "请求给自己更多时间恢复", "response": "你需要时间。不是因为你觉得能完全恢复，而是因为你还不想放手。长老们同意了，给了你一个雨季的时间。你知道这只是一个缓冲，但这个缓冲里有尊严。" },
+          { "label": "提议尝试用结绳/刻痕辅助记忆", "response": "你从怀里掏出一根打了七个结的绳子。'也许我们可以试试这个。'长老们传看着那根绳子，有人皱眉，有人沉思。这是一个危险的提议——它在触碰'不用外物承载记忆'的古老禁忌。但也是一个勇敢的提议。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_midnight_reflection",
+      "title": "深夜独坐回忆",
+      "description": "烛光映照面部轮廓，在完全的静默中与自己的记忆对话。释然与悲伤交织的夜晚。",
+      "ageRange": { "start": 68, "end": 68 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "所有人都睡了。你坐在窗前，只有一支蜡烛陪着你。火焰轻轻摇晃，把你的影子投在土墙上，像一个更大的、更模糊的你。你想起师父临终前说的话：'记忆不是你的财产，你只是它的过客。'那时候你不懂，现在懂了。你不是失去了什么，而是在学习如何交出。窗外有虫鸣，远处有溪流声，这些声音不需要任何人记住就会一直存在。也许有些东西也是这样——即使被遗忘，也不会真正消失。蜡烛燃到一半的时候，你终于闭上了眼睛。不是放弃，是信任。",
+      "bgmTag": "candle_lullaby",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_teach_apprentice", "evt_05_elder_council"],
+    "valleyMoments": ["evt_04_afternoon_review"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["memory_decline", "aging", "loss_of_identity"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
