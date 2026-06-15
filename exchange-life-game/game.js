@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 交换人生 - 微信小游戏入口
  * 沉浸式人生体验渲染引擎
  */
@@ -72,7 +72,20 @@ const TIMELINE_LIST = [
   'dyslexia-programmer',                                                                              // L3/S/V2 - 阅读障碍程序员的代码人生 (P0第207卷)
   'miner-to-streamer',                                                                                   // L2/S/V2 - 从煤矿工人到直播带货主播 (P0第219卷)
   'underwater-archaeologist',                                                                                // L2/S/V2 - 文物水下考古队员的南海沉船发掘 (P0第225卷)
-  'mock-funeral'                                                                                               // L3/S/V2 - 提前体验自己的追悼会 (P0第231卷)
+  'mock-funeral',                                                                                               // L3/S/V2 - 提前体验自己的追悼会 (P0第231卷)
+  'qin-great-wall-guard',                                                                                        // L2/S/V2 - 秦朝修筑长城的戍卒家书 (P0第239卷)
+  'shadow-roast-day1',                                                                                            // L2/S/V2 - 影子吐槽大会第一天 (P0第245卷)
+  'convenience-store-newyear',                                                                                     // L1/S/V1 - 便利店除夕夜值班员 (P0第247卷)
+  'truth-translator-day',                                                                                           // L2/S/V2 - 真相翻译官的一天 (P0第248卷)
+  'irish-traveller-memory',                                                                                          // L2/S/V2 - 爱尔兰旅人家族的游牧记忆 (P0第253卷)
+  'tourette-classroom',                                                                                               // L3/S/V2 - 抽动秽语综合征患者的课堂日常 (P0第254卷)
+  'bullet-train-mechanic',                                                                                             // L2/S/V2 - 高铁机械师的凌晨四点 (P0第255卷)
+  'wechat-exposure-day',                                                                                                // L2/S/V2 - 微信群聊社死现场实录 (P0第257卷)
+  'inca-quipu-keeper',                                                                                                   // L2/S/V2 - 印加帝国奇普记事官的最后一天 (P0第260卷)
+  'funeral-ceremony-host',                                                                                                // L2/S/V2 - 殡仪馆司仪的告别仪式 (P0第265卷)
+  'earthquake-search-dog-handler',                                                                                       // L2/S/V2 - 地震搜救犬训导员的废墟72小时 (P0第272卷)
+  'ocd-morning-ritual',                                                                                                   // L3/S/V2 - 强迫症患者的出门仪式 (P0第271卷)
+  'selective-mutism-kindergarten'                                                                                         // L3/S/V2 - 选择性缄默症儿童的幼儿园日常 (P0第270卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

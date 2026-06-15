@@ -1,4 +1,4 @@
-/**
+﻿/**
  * BGM配置 - 音乐标签到实际音频文件的映射
  * Alpha阶段使用占位符，后续替换为真实音频资源
  */
@@ -290,7 +290,30 @@ const BGM_MAP = {
   silence_heartbeat:      { file: 'audio/bgm/silence_heartbeat.mp3',      volume: 0.2, loop: true },
   ink_writing:            { file: 'audio/bgm/ink_writing.mp3',            volume: 0.25, loop: true },
   rebirth_piano:          { file: 'audio/bgm/rebirth_piano.mp3',          volume: 0.4, loop: false },
-  evening_warmth:         { file: 'audio/bgm/evening_warmth.mp3',         volume: 0.3, loop: true }
+  evening_warmth:         { file: 'audio/bgm/evening_warmth.mp3',         volume: 0.3, loop: true },
+
+  // === 地震搜救犬训导员专用标签 (2026-06-16 P0第272卷) ===
+  urgent_drums:           { file: 'audio/bgm/urgent_drums.mp3',           volume: 0.45, loop: true },
+  tension_strings:        { file: 'audio/bgm/tension_strings.mp3',        volume: 0.35, loop: true },
+  dissonant_piano:        { file: 'audio/bgm/dissonant_piano.mp3',        volume: 0.3, loop: true },
+  campfire_guitar:        { file: 'audio/bgm/campfire_guitar.mp3',        volume: 0.3, loop: true },
+  hope_strings:           { file: 'audio/bgm/hope_strings.mp3',           volume: 0.4, loop: true },
+  farewell_melody:        { file: 'audio/bgm/farewell_melody.mp3',        volume: 0.35, loop: false },
+
+  // === 强迫症患者专用标签 (2026-06-16 P0第271卷) ===
+  ticking_clock:          { file: 'audio/bgm/ticking_clock.mp3',          volume: 0.3, loop: true },
+  anxiety_loop:           { file: 'audio/bgm/anxiety_loop.mp3',           volume: 0.35, loop: true },
+  intrusive_pulse:        { file: 'audio/bgm/intrusive_pulse.mp3',        volume: 0.3, loop: true },
+  breakthrough_clarinet:  { file: 'audio/bgm/breakthrough_clarinet.mp3',  volume: 0.4, loop: false },
+  gentle_piano:           { file: 'audio/bgm/gentle_piano.mp3',           volume: 0.3, loop: true },
+  morning_birds:          { file: 'audio/bgm/morning_birds.mp3',          volume: 0.35, loop: false },
+
+  // === 选择性缄默症儿童专用标签 (2026-06-16 P0第270卷) ===
+  silence_pressure:       { file: 'audio/bgm/silence_pressure.mp3',       volume: 0.25, loop: true },
+  water_echo:             { file: 'audio/bgm/water_echo.mp3',             volume: 0.2, loop: true },
+  crayon_asmr:            { file: 'audio/bgm/crayon_asmr.mp3',            volume: 0.25, loop: true },
+  wind_chime_connection:  { file: 'audio/bgm/wind_chime_connection.mp3',  volume: 0.3, loop: false },
+  lullaby_warmth:         { file: 'audio/bgm/lullaby_warmth.mp3',         volume: 0.35, loop: false }
 };
 
 /**
