@@ -173,7 +173,17 @@ const BGM_MAP = {
   tension_silence:   { file: 'audio/bgm/tension_silence.mp3',   volume: 0.2, loop: true },
   focus_flow:        { file: 'audio/bgm/focus_flow.mp3',        volume: 0.35, loop: true },
   city_afternoon:    { file: 'audio/bgm/city_afternoon.mp3',    volume: 0.3, loop: true },
-  reflection_gentle: { file: 'audio/bgm/reflection_gentle.mp3', volume: 0.3, loop: true }
+  reflection_gentle: { file: 'audio/bgm/reflection_gentle.mp3', volume: 0.3, loop: true },
+
+  // === 无火人类/马里商队专用标签 (2026-06-15 P0第143-144卷) ===
+  primal_wind:       { file: 'audio/bgm/primal_wind.mp3',       volume: 0.3, loop: true },
+  primal_mourn:      { file: 'audio/bgm/primal_mourn.mp3',      volume: 0.25, loop: true },
+  primal_tension:    { file: 'audio/bgm/primal_tension.mp3',    volume: 0.35, loop: true },
+  primal_dawn:       { file: 'audio/bgm/primal_dawn.mp3',       volume: 0.4, loop: true },
+  desert_caravan:    { file: 'audio/bgm/desert_caravan.mp3',    volume: 0.35, loop: true },
+  desert_storm:      { file: 'audio/bgm/desert_storm.mp3',      volume: 0.4, loop: true },
+  desert_market:     { file: 'audio/bgm/desert_market.mp3',     volume: 0.3, loop: true },
+  desert_night:      { file: 'audio/bgm/desert_night.mp3',      volume: 0.25, loop: true }
 };
 
 /**

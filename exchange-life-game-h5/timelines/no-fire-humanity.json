@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "no-fire-humanity",
+    "title": "如果人类从未学会用火",
+    "subtitle": "在茹毛饮血的进化岔路口，做一个靠体温熬过冰河期的人类部落成员",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T14:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_fire_gone",
+      "title": "火种已绝",
+      "description": "部落长老在最后一次自然火熄灭后宣布'火种已绝'，整个部落进入原始生存模式",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "最后一缕青烟消散在灰白的天空下。长老举起枯瘦的手臂，声音像风穿过枯骨：'火种已绝。'你站在人群中，手指不自觉地攥紧。没有火的夜晚，寒冷会从脚底爬上脊椎。作为部落猎手，你知道从今天起，每一天都是与死亡的赛跑。",
+      "bgmTag": "primal_wind",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_raw_meat",
+      "title": "生食之痛",
+      "description": "连续30天无火状态，部落中陆续有人因食用生冷腐肉致病死亡",
+      "ageRange": { "start": 28 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第三十天。你的胃像被石头磨着。生肉的腥味卡在喉咙里，咽下去的每一口都需要勇气。昨夜又有两个孩子没挺过来——他们的肚子鼓胀，嘴里吐出黑色的液体。你看着自己的双手，指甲缝里嵌满了泥土和血迹。这就是没有火的世界。",
+      "bgmTag": "primal_mourn",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "部落正在分裂，你会怎么做？",
+        "options": [
+          { "label": "支持向南迁徙", "response": "你站出来支持迁徙派。未知的南方或许温暖，但路上可能有更多危险。至少，动起来比等死强。" },
+          { "label": "留守等待火种", "response": "你选择留下。这片土地是你的根，你相信雷击会再次带来火种。等待是最煎熬的勇气。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_hunt_cold",
+      "title": "冰原狩猎",
+      "description": "深冬时节，在没有篝火的情况下带领小队外出狩猎，用体温和兽皮维持生命",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "风雪像刀子一样割在脸上。你裹紧三层兽皮，带领五个猎手踏入白茫茫的冰原。没有火把驱赶野兽，没有篝火烤暖冻僵的手指。你用石头磨尖的木矛刺入一头鹿的脖颈时，温热的血溅在脸上——那是这个冬天唯一的热度。",
+      "bgmTag": "primal_wind",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_tribe_split",
+      "title": "部落分裂",
+      "description": "部落陷入要不要向南迁徙的分裂争论，最终分成两派",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "争吵声比寒风更刺耳。迁徙派说留下来是等死，留守派说路上才是送死。你看着曾经围坐在同一堆篝火旁的族人，如今面对面站着，中间隔着一道看不见的深渊。长老沉默不语，他的眼睛已经浑浊得看不清未来。",
+      "bgmTag": "primal_tension",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_05_lightning_tree",
+      "title": "雷击枯树",
+      "description": "初春雪融后，部落发现雷击引燃了远处一棵枯树，全族倾巢出动护送火种",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "远处的山脊上，一缕橙色的光在风中摇曳。所有人都停下了手中的事。'火！'不知是谁先喊出来的。你感到眼眶发热——不是烟熏的，是九十天的绝望在这一刻碎裂了。全族倾巢出动，用最柔软的干草包裹燃烧的树枝，用身体挡住寒风。三天三夜，没有人睡觉，没有人松手。",
+      "bgmTag": "primal_dawn",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "火种护送的最后一程，你负责什么？",
+        "options": [
+          { "label": "在最前方挡风开路", "response": "你走在最前面，用身体为身后的火种挡住刺骨的寒风。脸颊被冻得失去知觉，但你不敢回头——怕眼泪会被风吹灭希望。" },
+          { "label": "紧贴火种守护温度", "response": "你把火种抱在怀里，用兽皮和体温守护这团脆弱的光。灼热烫伤了胸口，但你宁愿自己被烧，也不愿它再熄灭。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_fire_returns",
+      "title": "火种归营",
+      "description": "历经三天三夜将火种护送回营地，重新点燃篝火",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "当第一簇火焰在营地中央跳动时，所有人都跪了下来。不是因为敬畏，是因为腿软了。九十天的黑暗、寒冷、饥饿、恐惧，在这一刻被橙色的光芒融化。孩子们围着篝火笑出声来，老人们流着泪把脸凑近火焰。你坐在火旁，看着跳动的火光映在每个人脸上。活着。有火。这就够了。",
+      "bgmTag": "primal_dawn",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt_05_lightning_tree", "evt_06_fire_returns"],
+    "valleyMoments": ["evt_02_raw_meat", "evt_04_tribe_split"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": ["原始生存场景", "疾病与死亡描写"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

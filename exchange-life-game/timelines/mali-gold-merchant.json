@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "mali-gold-merchant",
+    "title": "马里帝国黄金商队",
+    "subtitle": "撒哈拉沙漠上运盐驮黄金的最后一个曼丁哥商人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T14:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_caravan_dawn",
+      "title": "商队启程",
+      "description": "黎明时分，带领由60头骆驼组成的商队从廷巴克图出发，穿越撒哈拉沙漠北上",
+      "ageRange": { "start": 35 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "黎明的廷巴克图还笼罩在薄雾中。六十头骆驼排成长列，驼铃在寂静中叮当作响。你检查完最后一袋盐砖的捆扎，翻身骑上领头骆驼。北方的塔加扎盐矿在等你，而更北方的地中海商人在等你的黄金。这条路你的父亲走过，父亲的父亲也走过。你是最后一个。",
+      "bgmTag": "desert_caravan",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_sahara_crossing",
+      "title": "沙漠腹地",
+      "description": "穿越撒哈拉沙漠最危险的路段，水源告急，沙暴来袭",
+      "ageRange": { "start": 35 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "第七天。水袋里的水只剩一半，骆驼的脚步越来越慢。太阳像一个白色的火球悬在头顶，沙子烫得能灼伤脚底。然后你看到了地平线上的黑线——沙暴。它像一堵移动的墙，吞噬着天空。你把脸埋进骆驼的脖颈，用布裹住口鼻。世界变成了咆哮的黑暗。",
+      "bgmTag": "desert_storm",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "沙暴过后，商队损失了三头骆驼和部分盐砖。你会怎么做？",
+        "options": [
+          { "label": "加速赶路弥补损失", "response": "你催促商队加快步伐。时间就是生命，在沙漠里多停留一天就多一分危险。但骆驼们已经疲惫不堪。" },
+          { "label": "原地休整恢复体力", "response": "你下令就地扎营休息。人和骆驼都需要恢复。损失的盐砖无法挽回，但活着的才能走到终点。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_salt_mines",
+      "title": "塔加扎盐矿",
+      "description": "抵达塔加扎盐矿，用黄金和象牙交换珍贵的岩盐",
+      "ageRange": { "start": 35 },
+      "category": "career",
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "盐矿像一座白色的城市嵌在沙漠中央。矿工们从地下凿出巨大的盐板，每一块都比黄金还珍贵——在这片土地上，盐就是货币。你用带来的黄金粉末和象牙换取了三十块上等岩盐。交易完成时，矿主递给你一碗盐水。咸涩的味道滑过干裂的嘴唇，这是沙漠里最奢侈的款待。",
+      "bgmTag": "desert_market",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_gold_trade",
+      "title": "黄金交易",
+      "description": "在北方的贸易站与地中海商人进行黄金交易，见证两种文明的碰撞",
+      "ageRange": { "start": 35 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "热那亚商人展开一张羊皮纸地图，上面画着你从未见过的海洋和城市。他用蹩脚的阿拉伯语询问黄金的纯度，你用手势比划着马里帝国的疆域。当金锭放在天平上时，他的眼睛亮了。你用黄金换回了丝绸、香料和一本你看不懂的书。两种文明在一杆天平上短暂交汇。",
+      "bgmTag": "desert_market",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "地中海商人邀请你去他的国家看看，你会怎么选择？",
+        "options": [
+          { "label": "婉拒，继续做沙漠商人", "response": "你微笑着摇头。沙漠是你的血脉，驼铃声是你的心跳。外面的世界很大，但你的路在这里。" },
+          { "label": "答应下次同行去看看", "response": "你点了点头。也许有一天，你会站在大海边上，看看那些用你的黄金建造的教堂和宫殿。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_return_home",
+      "title": "归途",
+      "description": "满载盐和货物踏上归途，穿越沙漠回到廷巴克图",
+      "ageRange": { "start": 35 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "回程的路总是比去程短。也许是因为风的方向变了，也许是因为心已经飞回了家。当廷巴克图的轮廓出现在地平线上时，驼铃声变得轻快起来。孩子们在城门口等待，妻子站在屋顶上张望。你从骆驼背上卸下盐和丝绸，也卸下了三个月的风沙与孤独。",
+      "bgmTag": "desert_caravan",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_last_merchant",
+      "title": "最后的商人",
+      "description": "意识到自己是这条古老商路上最后的曼丁哥商人，传承即将断裂",
+      "ageRange": { "start": 35 },
+      "category": "spiritual",
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "夜晚，你坐在院子里数星星。儿子在旁边玩弄一块盐砖。你想教他辨认风向、估算水量、与不同部落打交道的手势。但他更喜欢听收音机里传来的音乐。你知道，当你走不动的那天，这条走了千年的商路就会消失在沙子里。你是最后一个。但你走过的每一步，都已经刻在了沙漠的记忆里。",
+      "bgmTag": "desert_night",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_salt_mines", "evt_05_return_home"],
+    "valleyMoments": ["evt_02_sahara_crossing", "evt_06_last_merchant"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
