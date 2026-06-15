@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "aymara-weaver",
+    "title": "安第斯山脉艾马拉织布妇人的最后一代",
+    "subtitle": "在海拔4000米用羊驼毛线编织祖先记忆的守艺人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T17:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_rise",
+      "title": "清晨起身",
+      "description": "4:30起身喂羊驼、挤奶，晨雾中检查纺锤上的昨日剩线",
+      "ageRange": { "start": 65 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "高原的黎明来得比太阳更早。你在黑暗中摸索着起身，推开木门，冷冽的空气裹着羊驼毛脂的气息扑面而来。纺锤上还缠着昨日的剩线，指尖触到那熟悉的粗糙质感，一天的节奏便从这根线开始。",
+      "bgmTag": "morning_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_weaving_start",
+      "title": "庭院织布",
+      "description": "5:30-7:00在庭院里用背带织机开始当日第一匹布",
+      "ageRange": { "start": 65 },
+      "category": "daily_life",
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "背带织机系在腰间，你的体重就是张力。经线是三个月前染好晾干的，每一根都记得茜草根的温度。梭子穿过，压紧，换色，再穿线。手指的动作比思考更快——这是长在肌肉里的记忆，是祖母的手在你手上的延续。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_family_breakfast",
+      "title": "家人早餐",
+      "description": "7:00-8:00为家人准备藜麦粥和土豆，丈夫出门放牧",
+      "ageRange": { "start": 65 },
+      "category": "relationship",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "藜麦粥在陶锅里咕嘟作响，土豆埋在灶灰里焖熟。丈夫喝完最后一口粥，交代了今日要赶的集市订单，便牵着羊驼消失在晨雾中。你目送他的背影，然后转身回到织机前。沉默是他们之间最舒适的对话方式。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_dye_collection",
+      "title": "染料采集",
+      "description": "雨季前后上山采挖茜草根、收集胭脂虫，染料配方是母女间口耳相传的秘密",
+      "ageRange": { "start": 65 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "山坡上的茜草根要趁雨季采挖，这时候汁液最浓。你蹲下身，指甲缝里嵌满了红褐色的泥土。胭脂虫藏在仙人掌上，小心翼翼地拨下来，生怕捏碎了那珍贵的红色。这些配方是母亲教给你的，母亲的母亲也是这样教她的。",
+      "bgmTag": "epic_landscape",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "今日使用哪种染料？",
+        "options": [
+          { "label": "茜草根（赭红色）", "response": "你选择了茜草根。这种红偏橙，像高原日落的颜色。祖母说，用茜草染的织物，穿着的人永远不会迷路。" },
+          { "label": "万寿菊（明黄色）", "response": "万寿菊的黄带着绿调，是丰收的颜色。你把花瓣捣碎，汁液染黄了指尖，也染亮了今天的心情。" },
+          { "label": "靛蓝叶（深蓝色）", "response": "靛蓝的深蓝近黑，像夜晚的高原天空。这种颜色最难掌控，但染出的织物最有深度，如同艾马拉人沉默的性格。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_pattern_language",
+      "title": "纹样语言",
+      "description": "每种几何图案对应一个家族故事或自然现象——菱形代表湖泊，锯齿纹代表山脊",
+      "ageRange": { "start": 65 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "菱形是湖泊，锯齿纹是山脊，螺旋纹是风的轨迹。每一个纹样都是一个词，组合起来就是一句话、一个故事、一段历史。你的织物是可穿戴的文字，在没有书面语言的年代，祖先们就是这样记录一切的。",
+      "bgmTag": "focused_rhythm",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "孙女问这个花纹是什么意思，你会怎么做？",
+        "options": [
+          { "label": "详细解释纹样的含义", "response": "你放下梭子，指着织物上的菱形慢慢讲述。这是曾祖母传下来的'归途'纹样，每个转折都有讲究。孙女的眼睛亮了起来。" },
+          { "label": "让她自己猜", "response": "'你觉得它像什么？'你笑着反问。孙女歪着头想了想：'像奶奶笑起来的眼角皱纹。'你愣住了，然后笑了——也许这就是新的解读。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_daughter_memory",
+      "title": "想起女儿",
+      "description": "女儿去了利马当保姆，孙女更想学手机剪辑而非织布",
+      "ageRange": { "start": 65 },
+      "category": "relationship",
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "女儿离开那天你没哭，只是连夜织了一条围巾塞进行李箱，上面织的是'归途'的纹样。现在她在利马给人带孩子，偶尔打来视频电话，背景是陌生的白色墙壁。孙女在旁边刷着手机，对织机的声音充耳不闻。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_07_market_day",
+      "title": "市集日",
+      "description": "每周四背着成品走3小时山路到镇上集市，与中间商博弈价格",
+      "ageRange": { "start": 65 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "三小时的山路，背篓里的织物压着肩膀。集市上嘈杂喧闹，中间商翻看着你的作品，嘴里说着'太贵了'。你知道他转手能卖三倍价钱，但你也知道，没有他，这些织物走不出这座山。",
+      "bgmTag": "driving_beat",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "中间商压价时，你怎么做？",
+        "options": [
+          { "label": "坚持原价", "response": "你平静地看着他：'这个价格，少一分都不行。'他知道你不会让步，最终叹了口气，掏出了钱包。" },
+          { "label": "以物易物", "response": "你指了指他摊位上的盐和糖。钱会花完，但这些能用在织物的染色里。他愣了一下，同意了交换。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_teaching_granddaughter",
+      "title": "教孙女认纹样",
+      "description": "17:00-18:30教孙女辨认传统纹样的含义，全村仅剩7位能完整解读的老妇人",
+      "ageRange": { "start": 65 },
+      "category": "relationship",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "孙女终于放下了手机，好奇地摸着织物上的纹路。'这个是什么意思？'她指着螺旋纹问。你告诉她这是风的轨迹，是祖母在暴风雨夜里织出来的。她的眼睛亮了一下，又暗下去——'可是妈妈说不学这个了。'",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_09_night_prayer",
+      "title": "油灯下的祷词",
+      "description": "19:00后油灯下整理当日成品，默念祖母传授的织物祷词",
+      "ageRange": { "start": 65 },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "油灯摇曳，影子在土墙上晃动。你抚摸着今日织成的布匹，默念着祖母教过的祷词。那些词句古老得像石头，温暖得像羊驼毛。只要你的手还能动，这些故事就不会消失。哪怕你是最后一个懂全部纹样的人。",
+      "bgmTag": "ending_peaceful",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_pattern_language", "evt_08_teaching_granddaughter"],
+    "valleyMoments": ["evt_06_daughter_memory"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

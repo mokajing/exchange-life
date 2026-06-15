@@ -81,7 +81,8 @@ const TIMELINE_LIST = [
   { id: 'railway-crossing-keeper',    label: '铁路道口看守员的最后一班岗', level: 'L1' },
   { id: 'tang-huji-wine-shop',        label: '唐朝长安胡姬酒肆的当垆女', level: 'L1' },
   { id: 'dyslexia-exam-week',         label: '失读症大学生的期末考试周', level: 'L3' },
-  { id: 'emotion-weather-forecaster', label: '情绪天气预报员的混乱第一天', level: 'L1' }
+  { id: 'emotion-weather-forecaster', label: '情绪天气预报员的混乱第一天', level: 'L1' },
+  { id: 'aymara-weaver',              label: '安第斯山脉艾马拉织布妇人的最后一代', level: 'L1' }
 ];
 
 let player = null;
