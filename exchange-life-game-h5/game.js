@@ -87,6 +87,7 @@ const TIMELINE_LIST = [
   { id: 'intangible-heritage-last-day', label: '非遗传承人的最后一天', level: 'L2' },
   { id: 'dyslexia-programmer', label: '阅读障碍程序员的代码人生', level: 'L3' },
   { id: 'miner-to-streamer', label: '从煤矿工人到直播带货主播', level: 'L2' },
+  { id: 'underwater-archaeologist', label: '文物水下考古队员的南海沉船发掘', level: 'L2' },
   { id: 'volcano-scientist', label: '火山爆发前夜的监测站值守科学家', level: 'L1' },
   { id: 'wang-jibing', label: '外卖诗人王计兵——从工地到春晚，用诗句丈量人间', level: 'L1' },
   { id: 'wu-shaoqing', label: '寻找你的名字', level: 'L1' },
