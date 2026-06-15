@@ -427,4 +427,4 @@ class TimelinePlayer {
   }
 }
 
-module.exports = TimelinePlayer;
+window.TimelinePlayer = TimelinePlayer;
