@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "id": "tourette-classroom",
+    "title": "抽动秽语综合征患者的课堂日常",
+    "subtitle": "在无法控制发声和动作的教室里用意志力对抗被误解的\"故意捣乱\"",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T04:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_first_tic",
+      "title": "课堂首次发作",
+      "description": "小学三年级课堂上突然发出怪声，被老师罚站，全班同学哄笑，涨红了脸却解释不清。身体第一次背叛了自己。",
+      "ageRange": { "start": 9, "end": 9 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "安静的教室里，笔尖划过纸张的沙沙声突然被一声突兀的清嗓打破。那不是你想发出的声音，但它就这样从喉咙里蹦了出来。老师的目光像探照灯一样射过来，同学们的笑声像潮水般涌来。你站起来走向教室后面，每一步都像踩在棉花上。你想说'我不是故意的'，但嘴巴又不听使唤地发出一声鼻音。那三分钟，比三个世纪还长。",
+      "bgmTag": "classroom_silence",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "课堂上抽动发作时，你会怎么做？",
+        "options": [
+          { "label": "拼命压抑直到脸涨红", "response": "你把所有力气都用在'忍住'上，脖子上的青筋凸起，脸颊烫得像要烧起来。但那股力量越压越强，最终像弹簧一样反弹得更厉害。" },
+          { "label": "假装咳嗽掩饰", "response": "你试图把抽动伪装成普通的咳嗽，但身体的节奏骗不了人。有些同学信了，但更多的人投来疑惑的目光。" },
+          { "label": "举手请求去洗手间冷静", "response": "这是你能想到的最体面的方式。走出教室的那一刻，走廊里的安静让你终于能喘口气。但回到座位后，一切又会重来。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_mother_visits",
+      "title": "母亲挨个找班主任沟通",
+      "description": "母亲带着厚厚一叠病历本挨个找班主任沟通，有的老师愿意配合有的直接说\"管不了\"。那份无助与坚持并存的爱。",
+      "ageRange": { "start": 10, "end": 12 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "妈妈的包里永远装着一叠病历本和诊断书。每次换班主任，她都会提前约时间，小心翼翼地解释'他不是调皮，是生病了'。有的老师点点头说'我会注意'，有的皱着眉说'班里这么多孩子我管不了'。你站在办公室门外，听见妈妈的声音从恳切变得哽咽，又强撑着恢复平静。那些被拒绝的瞬间，比任何一次抽动都更让你疼。",
+      "bgmTag": "maternal_worry",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_misdiagnosis",
+      "title": "被误诊为多动症和品行障碍",
+      "description": "初中时期被多家医院误诊为多动症、品行障碍，吃了不该吃的药，被贴上'问题少年'的标签。",
+      "ageRange": { "start": 12, "end": 15 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.75,
+      "narrativeText": "他们说你是多动症，说你品行有问题。药片吞下去，副作用让你昏昏沉沉，但抽动并没有消失。你在心里一遍遍问自己：'我到底怎么了？为什么所有人都觉得我是故意的？'那些年，你学会了一个词——'坏孩子'。它像烙印一样刻在你的背上，走到哪里都甩不掉。",
+      "bgmTag": "confusion_fog",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_04_diagnosis",
+      "title": "高中确诊妥瑞氏症",
+      "description": "遇到一位神经科医生确诊妥瑞氏症，第一次知道\"这不是我的错\"，在诊室里哭了二十分钟。释然的重量。",
+      "ageRange": { "start": 16, "end": 16 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "医生的声音很轻，但每个字都像锤子敲在心上：'这是妥瑞氏症，一种神经发育障碍。不是你不够努力，不是品德问题，是大脑里有个小小的bug。'你愣住了。然后眼泪就那样毫无预兆地涌出来，不是难过，是如释重负。原来这么多年，你不是坏孩子，你只是不一样。那二十分钟的哭泣，是你人生中最沉重也最轻盈的时刻。",
+      "bgmTag": "piano_revelation",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "新班主任问\"你是不是故意的\"，你会怎么回应？",
+        "options": [
+          { "label": "沉默不语", "response": "你低下头，什么都不说。沉默是最安全的壳，但也让误解继续生长。" },
+          { "label": "拿出诊断书", "response": "那张纸被你折得整整齐齐放在口袋里。递出去的那一刻，像是在交出自己的秘密。有些老师看了会点头，有些依然半信半疑。" },
+          { "label": "试着口头解释", "response": "你深吸一口气，用最平静的语调说出'我有妥瑞氏症'。这需要比压抑抽动更大的勇气，但也是重建尊严的第一步。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_college_disclosure",
+      "title": "大学公开课主动说明症状",
+      "description": "大学公开课上主动站起来向全班解释自己的症状，从此不再躲闪。从\"藏起来\"到\"说出来\"的一步。",
+      "ageRange": { "start": 19, "end": 19 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "阶梯教室里坐满了人。你站起来的时候，腿在发抖。'大家好，我有妥瑞氏症，可能会在课堂上发出一些声音或做出一些动作。这不是故意的，也不是表演。如果打扰到你，我很抱歉，但我不会为此道歉。'说完这段话，教室里安静了三秒，然后响起了掌声。那一刻你知道，尊严不是不发病，是发病了依然敢站在人群里。",
+      "bgmTag": "courage_dawn",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "大学课堂上是否主动向同学说明？",
+        "options": [
+          { "label": "继续隐藏", "response": "你选择像以前一样把自己藏起来。安全，但也孤独。每一次抽动都是一次无声的自我否定。" },
+          { "label": "课后私下告诉几个朋友", "response": "你小心翼翼地挑选可以信任的人，在小范围内打开自己。这是一种温和的试探，也是一种自我保护。" },
+          { "label": "在课堂上公开分享", "response": "这需要最大的勇气，但也带来最深的解放。当你不再为自己的存在道歉，世界也开始为你让路。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_volunteer",
+      "title": "成为妥瑞氏症互助社群志愿者",
+      "description": "毕业后成为妥瑞氏症互助社群志愿者，帮助刚确诊的家庭少走弯路。帮助他人就是治愈自己。",
+      "ageRange": { "start": 23, "end": 28 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "电话那头是一个母亲颤抖的声音：'医生说我孩子是妥瑞氏症，我该怎么办？'你用曾经被别人安慰过的话安慰她，用自己走过的路为她画一张地图。你发现，当你把自己的伤口变成别人的灯塔时，那些疼痛就有了意义。你不再是那个在教室后面罚站的孩子了，你是一个走过黑暗、正在帮别人找光的人。",
+      "bgmTag": "hope_guitar",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_diagnosis", "evt_05_college_disclosure"],
+    "valleyMoments": ["evt_01_first_tic", "evt_03_misdiagnosis"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["neurodiversity", "school_bullying", "misdiagnosis", "emotional_distress"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}
