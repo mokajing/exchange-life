@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": "volcano-scientist",
+    "title": "火山爆发前夜的监测站值守科学家",
+    "subtitle": "在岩浆即将吞噬一切的最后48小时里，选择留下记录数据的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-15T20:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_d48h_tremor",
+      "title": "D-48h：异常震颤",
+      "description": "地震仪群捕捉到异常低频震颤，岩浆房压力突破历史阈值",
+      "ageRange": { "start": 42 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "凌晨三点，地震仪的指针开始不规则跳动。你揉了揉眼睛，盯着屏幕上那串熟悉的波形——这不是普通的地震波，是岩浆在地下深处挤压岩层的低吟。二十年的职业直觉告诉你：这座山醒了。",
+      "bgmTag": "tension_low",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_d36h_gas",
+      "title": "D-36h：气体异常",
+      "description": "火山口二氧化硫排放量骤增3倍，地表裂缝开始冒出热气",
+      "ageRange": { "start": 42 },
+      "category": "career",
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "二氧化硫检测仪的数字跳得让人心慌。你戴上防毒面具走到观测台，远处的火山口笼罩在一层淡黄色的雾气中。地面裂缝像大地的伤口，正往外冒着灼热的气息。这不是演习。",
+      "bgmTag": "tension_rising",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_d24h_evacuation",
+      "title": "D-24h：撤退命令",
+      "description": "政府发布红色预警，周边居民全部撤离，监测站接到撤退命令",
+      "ageRange": { "start": 42 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "卫星电话响了三次。第一次是气象局确认红色预警，第二次是地方政府通知居民撤离完毕，第三次是上级命令：'立即撤出，这是命令。'你看着桌上女儿画的全家福，画上火山是笑着的。你知道自己接下来要做什么。",
+      "bgmTag": "tension_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "收到撤退命令，你会怎么做？",
+        "options": [
+          { "label": "服从命令立即撤离", "response": "你收拾了必要的设备和个人物品，最后看了一眼监控屏幕上的数据曲线。有些遗憾，但活着才能继续研究。" },
+          { "label": "签署留守免责书", "response": "你拿起笔，在'自愿留守免责书'上签下自己的名字。手很稳，心也很稳。这些数据如果丢失，下次喷发时山下三万人可能来不及疏散。" },
+          { "label": "请求再给12小时", "response": "你对着电话说：'再给我12小时，我需要完成最后一组倾斜仪校准。'电话那头沉默了很久，然后说：'注意安全。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_d18h_stay",
+      "title": "D-18h：留守决定",
+      "description": "站长决定带两名志愿者留守，其余人员撤离",
+      "ageRange": { "start": 42 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "同事们收拾行李的声音在走廊里回响。没有人拥抱，没有人告别，只是眼神交汇的那一刻，双方都知道这可能是最后一面。小李走之前回头看了一眼，你朝他点了点头。门关上后，监测站安静得只剩下仪器的嗡鸣声。",
+      "bgmTag": "solitude_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_05_d12h_heat",
+      "title": "D-12h：温度飙升",
+      "description": "地面温度升至60°C，设备开始过热报警",
+      "ageRange": { "start": 42 },
+      "category": "crisis",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "温度计的水银柱已经顶到了头。你给设备加装了临时散热风扇，汗水滴在键盘上瞬间蒸发。窗外的空气扭曲变形，像隔着一层毛玻璃看世界。你想起女儿问过的话：'爸爸，火山会不会生气？'",
+      "bgmTag": "tension_rising",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_d6h_explosion",
+      "title": "D-6h：蒸汽爆炸",
+      "description": "第一次蒸汽爆炸，通讯塔受损，仅剩卫星电话",
+      "ageRange": { "start": 42 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "一声闷响从地底传来，整座建筑剧烈摇晃。你本能地护住头部，等震动停止后冲向通讯室——天线歪了，信号断断续续。只剩卫星电话还能用。你拨通了家里的号码，女儿问：'爸爸你什么时候回来？'你说：'等山安静了就回来。'挂掉电话后，你在椅子上坐了三分钟，然后重新开始记录。",
+      "bgmTag": "tension_peak",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "通讯塔受损后，你会怎么做？",
+        "options": [
+          { "label": "尝试修复通讯塔", "response": "你穿上防护服爬上屋顶，在高温和余震中勉强扶正了天线。信号恢复了一格，足够发送关键数据包。" },
+          { "label": "放弃通讯专注采集", "response": "你放弃了修复的念头，把所有精力投入到数据采集。与外界的联系断了，但与火山的对话才刚刚开始。" },
+          { "label": "用最后电量给家人发消息", "response": "你用卫星电话发了条短信：'爸爸在工作，很快回来。爱你们。'然后把所有剩余电量留给数据传输。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_d2h_magma",
+      "title": "D-2h：岩浆破表",
+      "description": "岩浆突破地表，监测站进入最后数据采集窗口",
+      "ageRange": { "start": 42 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "橙红色的光芒从窗缝渗入，像夕阳提前降临。你没有跑，而是调整了热成像仪的角度——这个距离的热辐射数据，人类历史上还没有人记录过。恐惧还在，但被一种更强大的东西压住了：好奇心，和责任感。",
+      "bgmTag": "tension_peak",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "岩浆前锋可见，你的选择是？",
+        "options": [
+          { "label": "转移到备用观测点", "response": "你带着便携设备转移到500米外的备用点。距离远了，但安全系数提高了。数据精度会下降，但你还能继续工作。" },
+          { "label": "留在原位获取最近距离数据", "response": "你决定留下来。这组数据的价值无法估量，即使代价可能是生命。你的手在颤抖，但操作依然精准。" },
+          { "label": "开始整理个人物品准备撤离", "response": "你把女儿的照片放进防水袋，背上应急包走向出口。回头看了一眼仪器屏幕上跳动的数字，然后转身离开。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_d0h_final_data",
+      "title": "D-0h：最后的数据",
+      "description": "火山全面喷发，监测站被吞没前的最后一组数据传输成功",
+      "ageRange": { "start": 42 },
+      "category": "achievement",
+      "emotion": "mixed",
+      "emotionIntensity": 1.0,
+      "narrativeText": "电力中断前90秒，你将48小时连续监测数据包压缩上传至云端服务器。进度条缓慢爬行，98%...99%...100%。'传输成功'四个字亮起的那一刻，你长长地舒了一口气。然后拿起背包，走向门口。身后的窗户已经被红光映透，但你没有回头。有些数据比生命更重要，但生命本身也值得珍惜。",
+      "bgmTag": "resolution_peaceful",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "tense",
+    "peakMoments": ["evt_06_d6h_explosion", "evt_07_d2h_magma", "evt_08_d0h_final_data"],
+    "valleyMoments": ["evt_04_d18h_stay"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["自然灾害", "生死抉择", "亲情分离"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

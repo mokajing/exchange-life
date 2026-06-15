@@ -64,7 +64,9 @@ const TIMELINE_LIST = [
   'aymara-weaver',                                                     // L1/S/V1 - 安第斯山脉艾马拉织布妇人的最后一代 (P0第156卷)
   'cip-patient-daily',                                                      // L3/S/V2 - 先天性无痛症患者的日常 (P0第157卷)
   'mortuary-makeup-artist',                                                     // L2/S/V1 - 殡仪馆化妆师 (P0第154卷)
-  'bianjing-night-market'                                                          // L1/S/V1 - 宋朝汴京夜市摆摊指南 (P0第162卷)
+  'bianjing-night-market',                                                          // L1/S/V1 - 宋朝汴京夜市摆摊指南 (P0第162卷)
+  'volcano-scientist',                                                                 // L2/S/V1 - 火山爆发前夜的监测站值守科学家 (P0第166卷)
+  'encyclopedia-editor'                                                                  // L1/S/V1 - 没有互联网世界的纸质百科全书编辑 (P0第167卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

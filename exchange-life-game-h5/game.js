@@ -85,7 +85,9 @@ const TIMELINE_LIST = [
   { id: 'aymara-weaver',              label: '安第斯山脉艾马拉织布妇人的最后一代', level: 'L1' },
   { id: 'cip-patient-daily',          label: '无痛之境：先天性无痛症患者的日常', level: 'L3' },
   { id: 'mortuary-makeup-artist',     label: '殡仪馆化妆师：给逝者画上最后一张脸', level: 'L2' },
-  { id: 'bianjing-night-market',      label: '宋朝汴京夜市摆摊指南：一个小摊贩的烟火人生', level: 'L1' }
+  { id: 'bianjing-night-market',      label: '宋朝汴京夜市摆摊指南：一个小摊贩的烟火人生', level: 'L1' },
+  { id: 'volcano-scientist',          label: '火山爆发前夜的监测站值守科学家：最后48小时的数据守护', level: 'L2' },
+  { id: 'encyclopedia-editor',        label: '没有互联网世界的纸质百科全书编辑：用红笔守护知识的重量', level: 'L1' }
 ];
 
 let player = null;

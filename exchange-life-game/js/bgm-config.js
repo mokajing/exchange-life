@@ -230,7 +230,22 @@ const BGM_MAP = {
   ancient_china_tense: { file: 'audio/bgm/ancient_china_tense.mp3', volume: 0.4, loop: true },
   ancient_china_bustle:{ file: 'audio/bgm/ancient_china_bustle.mp3',volume: 0.45, loop: true },
   ancient_china_warm:  { file: 'audio/bgm/ancient_china_warm.mp3',  volume: 0.35, loop: true },
-  ancient_china_night: { file: 'audio/bgm/ancient_china_night.mp3', volume: 0.3, loop: true }
+  ancient_china_night: { file: 'audio/bgm/ancient_china_night.mp3', volume: 0.3, loop: true },
+
+  // === 火山科学家专用标签 (2026-06-15 P0第166卷) ===
+  tension_low:         { file: 'audio/bgm/tension_low.mp3',         volume: 0.25, loop: true },
+  tension_rising:      { file: 'audio/bgm/tension_rising.mp3',      volume: 0.35, loop: true },
+  tension_silence:     { file: 'audio/bgm/tension_silence.mp3',     volume: 0.2, loop: true },
+  solitude_calm:       { file: 'audio/bgm/solitude_calm.mp3',       volume: 0.25, loop: true },
+  tension_peak:        { file: 'audio/bgm/tension_peak.mp3',        volume: 0.45, loop: true },
+  resolution_peaceful: { file: 'audio/bgm/resolution_peaceful.mp3', volume: 0.35, loop: false },
+
+  // === 百科编辑专用标签 (2026-06-15 P0第167卷) ===
+  office_quiet:        { file: 'audio/bgm/office_quiet.mp3',        volume: 0.25, loop: true },
+  melancholy_gentle:   { file: 'audio/bgm/melancholy_gentle.mp3',   volume: 0.3, loop: true },
+  nature_peaceful:     { file: 'audio/bgm/nature_peaceful.mp3',     volume: 0.3, loop: true },
+  industrial_rhythm:   { file: 'audio/bgm/industrial_rhythm.mp3',   volume: 0.35, loop: true },
+  triumph_warm:        { file: 'audio/bgm/triumph_warm.mp3',        volume: 0.4, loop: false }
 };
 
 /**

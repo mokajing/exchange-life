@@ -1,0 +1,104 @@
+{
+  "meta": {
+    "id": "encyclopedia-editor",
+    "title": "没有互联网世界的纸质百科全书编辑",
+    "subtitle": "在没有网络的世界里，用红笔和卡片目录守护知识的重量",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T20:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_meeting",
+      "title": "晨间编务会",
+      "description": "编辑部二十多人围坐长桌，用红笔在清样上逐条批注，争论\"人工智能\"词条是否该收录",
+      "ageRange": { "start": 45 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "清晨八点的编辑部弥漫着油墨和旧纸张混合的气味。二十多个人围坐在橡木长桌旁，每人面前摊着一叠清样和红蓝铅笔。'人工智能'这个词被圈了出来——在这个世界里，它只是实验室里的概念，值得收录吗？争论持续了四十分钟，最终决定放在'计算机科学'条目下作为子项。",
+      "bgmTag": "office_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_reader_letters",
+      "title": "读者来信",
+      "description": "每天收到上百封手写信件询问知识问题，编辑们亲笔回信",
+      "ageRange": { "start": 45 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "今天的信件堆得像小山一样。你拆开一封字迹颤抖的信，是一位老人写的：'我眼睛快看不见了，趁还能读，想再买一套新版留给孙女。'另一位母亲问：'我的孩子得了罕见病，百科里只有三行字，能不能告诉我更多？'你翻遍了所有馆藏文献，只找到两篇相关论文。那种'查不到'的无力感，是这个时代特有的痛。",
+      "bgmTag": "melancholy_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对询问罕见病的母亲，你会怎么做？",
+        "options": [
+          { "label": "如实告知资料有限", "response": "你写下：'很抱歉，目前我们能找到的资料确实有限。但我们已将您的问题记录在案，未来如有新发现会第一时间通知您。'" },
+          { "label": "附所有相关文献复印件", "response": "你把能找到的两篇论文、一本医学词典的相关章节全部复印寄出，并附上手写的阅读指引。虽然不多，但已是全部。" },
+          { "label": "推荐专科医生", "response": "你在回信中附上了三位相关领域专家的联系方式，并说明'他们可能比我们更了解最新进展'。知识的边界之外，还有人的温度。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_field_trip",
+      "title": "实地核查之旅",
+      "description": "为核实滇金丝猴条目，乘绿皮火车前往云南山区拜访动物学家，耗时两周",
+      "ageRange": { "start": 45 },
+      "category": "career",
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "绿皮火车晃荡了三十个小时才到昆明。又转了两趟汽车，终于抵达海拔三千米的观测站。老教授指着远处的树冠说：'它们就在那里，但你得学会等待。'你在山里住了十天，亲眼看到滇金丝猴在晨雾中梳理毛发的那一刻，才明白为什么文字永远无法完全替代亲历。",
+      "bgmTag": "nature_peaceful",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_printing_night",
+      "title": "印刷厂校稿夜",
+      "description": "在轮转印刷机的轰鸣声中做最后校对，发现重大错误时整版重排",
+      "ageRange": { "start": 45 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "印刷厂的噪音震耳欲聋。你在最后一遍校对时发现了一个致命错误：某个化学方程式的下标印反了。这意味着整版要重排，工期延误三天，成本增加两万。厂长皱着眉看你，你知道他在想什么。但你还是说了：'重排。'在没有'一键更新'的世界里，每一个错误都要用肉身去弥补。",
+      "bgmTag": "industrial_rhythm",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "发现已售书籍中的错误，你会怎么处理？",
+        "options": [
+          { "label": "发更正函给登记读者", "response": "你决定逐一寄出更正函。成本高，耗时长，但这是对读者的承诺。每一封信都是对错误的救赎。" },
+          { "label": "等下一版修正", "response": "你选择在下一次修订时统一更正。省钱省力，但那些已经买到错误版本的读者可能永远不会知道。" },
+          { "label": "公开登报致歉", "response": "你在三家主流报纸刊登更正声明。最透明的方式，但也意味着声誉受损。真相和面子，你选了前者。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_launch_event",
+      "title": "新版发布会",
+      "description": "图书馆员、教师、学者排队购买，一位老读者抱着第一版来说\"你们陪我走过了四十年\"",
+      "ageRange": { "start": 45 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "发布会现场挤满了人。一位白发苍苍的老太太从包里掏出第一版的精装本，封面已经磨损得看不清字。她握着你的手说：'1986年买的，那时候我女儿刚出生。现在她都当妈妈了，我来买新版给她。'那一刻你知道，自己守护的不只是知识，是几代人之间无声的传承。",
+      "bgmTag": "triumph_warm",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_04_printing_night", "evt_05_launch_event"],
+    "valleyMoments": ["evt_02_reader_letters"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
