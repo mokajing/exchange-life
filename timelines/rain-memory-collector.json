@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "rain-memory-collector",
+    "title": "雨水记忆师",
+    "subtitle": "在每一滴雨都承载一段记忆的世界里，为干旱城市收集最后一滴记忆之雨的人",
+    "sourceType": "ugc_submission",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJPqNj72qCvml2pnn8zN67Mw4",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T10:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-dawn-collect",
+      "title": "天顶收集台·等待最后一场雨",
+      "description": "05:00-07:00，林雨在日出前架设记忆收集网，等待本季最后一场雨。城市已连续干旱247天，降雨概率仅3%。检查收集瓶——瓶中已有237滴来自不同时代的记忆雨。",
+      "ageRange": { "start": 32 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "05:00，天还没亮。\n\n你站在天顶收集台前，手指抚过纳米收集网的边缘。城市已经247天没有下雨了。\n\n气象预报说今天降雨概率3%。你依然来了。\n\n收集瓶里装着237滴记忆雨——1943年母亲送别儿子的泪、2008年女孩初吻的雨、2023年老人最后一次淋雨的释然。\n\n你是这座城市最后一个雨水记忆师。",
+      "bgmTag": "ambient_sparse",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-decode-memory",
+      "title": "记忆解译室·陌生人的三段记忆",
+      "description": "07:00-10:00，将昨日收集的三滴雨解译：1943年母亲在雨中送别儿子的告别、2008年女孩在雨中初吻的悸动、2023年老人最后一次淋雨的释然。",
+      "ageRange": { "start": 32 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "07:00，解译仪低频嗡鸣。\n\n你用手指擦拭屏幕上的雾气，记忆画面逐渐清晰——\n\n第一滴：1943年，一位母亲在雨中追着军车跑，手里攥着没来得及塞给儿子的布鞋。\n第二滴：2008年，两个高中生在屋檐下躲雨，肩膀碰在一起的瞬间，雨声突然变大了。\n第三滴：2023年，一个老人独自站在阳台上，仰头让雨打在脸上，笑着说「还记得」。\n\n每一滴雨都是一个人最珍贵的时刻。而你，是唯一还在倾听的人。",
+      "bgmTag": "warm_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-03-black-market",
+      "title": "记忆交易黑市·道德的天平",
+      "description": "10:00-14:00，富豪出高价购买'第一次淋雨的记忆'，因为他的孩子出生在干旱时代从未见过雨。发现有人非法复制和篡改雨水记忆，制造虚假的'幸福记忆雨'。",
+      "ageRange": { "start": 32 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "10:00，地下通道尽头，霓虹灯在潮湿的墙壁上流淌。\n\n一个穿西装的男人拦住你：「我出五十万。只要一滴——'第一次淋雨'的记忆。我的孩子……他从来没见过雨。」\n\n他的眼睛是真诚的。但你身后，有人在兜售被篡改过的「幸福记忆雨」——那些记忆是假的，是被工业复制过的赝品。\n\n你的职业道德和那个父亲的眼神，在你心里拉扯。",
+      "bgmTag": "industrial_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对这位父亲的请求……",
+        "options": [
+          { "label": "接受委托，出售记忆", "response": "你把那滴记忆雨交到他手上。他颤抖着接过去。你拿到了报酬，但走出黑市时，脚步比进来时沉了很多。" },
+          { "label": "拒绝，但无力改变什么", "response": "你摇了摇头。他失望地转身离开。你知道他会找到别的贩子——而那些贩子不会在乎记忆的真假。" },
+          { "label": "用AI生成的人造记忆替代", "response": "你递给他一瓶人造记忆雨。它看起来一样，摸起来一样，但缺少了某种只有真实时间才能沉淀的东西。你不确定这是慈悲还是欺骗。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-truth",
+      "title": "废弃气象站·真相的重量",
+      "description": "14:00-18:00，发现真相：城市不再下雨是因为上游安装了'记忆截留装置'——将雨水中的记忆全部提取，只留下干燥水蒸气。记忆被批量贩卖给'记忆消费公司'。",
+      "ageRange": { "start": 32 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "14:00，废弃气象站的铁门在你身后关上。\n\n你看到了它——一个巨大的倒置伞状结构，横亘在城市上游的天空中。那是「记忆截留装置」。\n\n它把每一滴雨里的记忆全部抽走，只放回干燥的水蒸气。城市不是不下雨，是下的雨已经被掏空了灵魂。\n\n而那些被抽走的记忆，正被装进标准化的瓶子，贴上价格标签，摆在「记忆消费公司」的货架上。\n\n你的手在发抖。不是因为冷。",
+      "bgmTag": "silence_metallic",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "知道了真相之后……",
+        "options": [
+          { "label": "直接破坏截留装置", "response": "你拉下了总闸。机器发出刺耳的尖叫后沉默了。明天会下雨——真正的雨。但依赖记忆产业生存的数千人将失去工作。" },
+          { "label": "将证据提交媒体和政府", "response": "你把拍摄的证据加密发送给了三家媒体。然后等待。你知道等待可能意味着被掩盖，但至少你没有用暴力回答暴力。" },
+          { "label": "与公司谈判保留天然雨水", "response": "你坐在谈判桌前，要求他们至少保留10%的天然雨水不被截留。他们说可以考虑。你知道'考虑'可能意味着永远不会有结果。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-release",
+      "title": "全城记忆雨·237滴归还天空",
+      "description": "18:00-次日05:00，林雨释放全部237滴记忆雨回云层。当雨落下时，全城人在雨中看到陌生人的记忆——爱与告别、欢笑与泪水。雨停后，天空出现27年来第一道彩虹。",
+      "ageRange": { "start": 32 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "18:00，你站在天顶收集台上，手里捧着那瓶237滴记忆雨。\n\n长按收集瓶。震动从指尖传遍全身。瓶子裂开了。\n\n237滴记忆升入云层。\n\n然后，雨落下来了。\n\n不是普通的雨。每一滴落在皮肤上，你都看到了一段陌生人的记忆——有人在笑，有人在哭，有人在告别，有人在重逢。\n\n整座城市的人都走出了屋子。他们在雨中站着，看着彼此的记忆在雨幕中闪烁。\n\n没有人说话。所有人都在流泪。所有人都在微笑。\n\n雨停了。天空出现了27年来的第一道彩虹。",
+      "bgmTag": "symphony_rainbow",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "释放记忆的那一刻……",
+        "options": [
+          { "label": "释放全部237滴，让全城共享", "response": "所有记忆都回到了天空。不可逆。但当你看到整座城市在雨中拥抱时，你知道这是对的。" },
+          { "label": "只释放快乐记忆，过滤悲伤", "response": "你筛选了记忆，只放出了欢笑和温暖。雨落下来时人们在笑，但笑容里少了些什么——真实的重量。" },
+          { "label": "什么都不释放，保留档案", "response": "你把瓶子收回口袋。记忆安全了，但天空依然是灰的。你保住了可能性，却错过了此刻。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt-05-release"],
+    "valleyMoments": ["evt-03-black-market", "evt-04-truth"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["逝去亲人的记忆场景", "气候焦虑"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

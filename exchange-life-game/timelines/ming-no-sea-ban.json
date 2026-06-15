@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "id": "ming-no-sea-ban",
+    "title": "如果明朝没有海禁",
+    "subtitle": "隆庆开海后泉州港一名跨国商行掌柜的航海时代",
+    "sourceType": "ugc_submission",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWj9Amqo9hR1zMoB583pmz5aA",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T10:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-mazu-temple",
+      "title": "卯时·妈祖庙上香",
+      "description": "05:00-07:00，泉州后渚港，主角陈景澜（48岁，景澜商行掌柜）登船前在妈祖庙上香。手里攥着父亲留下的牵星板。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "卯时，天还没亮。\n\n你跪在妈祖庙里，手里的线香燃起细微的噼啪声。远处海浪拍岸，像父亲当年描述的节奏。\n\n你攥着那块牵星板——父亲留给你的。他是郑和船队的一名火长，用这块木板测量星辰的高度，把一整片大海走成了回家的路。\n\n今天你要发一批货去满剌加。你替父亲再看一眼这片海。",
+      "bgmTag": "ancient_ritual",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-warehouse-loading",
+      "title": "辰时·仓库装船",
+      "description": "07:00-09:00，在商行仓库监督景德镇青花瓷和漳州天鹅绒装船。这批货要发往满剌加换回胡椒、檀香和生丝订单。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "辰时，阳光照进仓库。\n\n景德镇的青花瓷用稻草裹了一层又一层，漳州的天鹅绒叠得整整齐齐。码头工人的号子声此起彼伏，船帆升起时绳索摩擦桅杆发出吱嘎声。\n\n你站在仓库门口，看着这些即将跨越半个地球的货物。瓷器换香料，丝绸换白银——这就是你的日子，也是泉州的日子。",
+      "bgmTag": "harbor_bustle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-03-negotiation",
+      "title": "巳时·与哈桑谈判",
+      "description": "09:00-11:00，在商行会客厅与来自古里的穆斯林商人哈桑谈判下一季采购合同。哈桑提出降价可介绍埃及市场。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "巳时，会客厅里煮茶的沸水声咕嘟作响。\n\n哈桑坐在你对面，算盘珠子在你手下滑动。他用带着阿拉伯口音的闽南语说：「景澜兄，生丝价格再低一成，我带你进埃及市场。」\n\n你知道他说的是真的。但你也知道，低了这一成，今年的利润就薄得像蝉翼。",
+      "bgmTag": "tea_negotiation",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "哈桑的条件……",
+        "options": [
+          { "label": "接受薄利，换取长远市场", "response": "你点了点头。哈桑笑了，从袖中掏出一张手绘的亚历山大港地图。晚上回家时，妻子端上了一盘你没见过的异域水果——她说这是你用未来换来的甜。" },
+          { "label": "坚持现有价格，守住利润", "response": "你摇了摇头。哈桑收起笑容，说了句「再想想」。晚上茶馆里同行告诉你：「哈桑找别家了。」你没后悔，但夜里翻来覆去睡不着。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-permit-office",
+      "title": "未时·市舶提举司办船引",
+      "description": "13:00-15:00，去泉州市舶提举司办理出港船引续期。官员暗示要'打点'。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.5,
+      "narrativeText": "未时，市舶提举司的衙门里弥漫着霉味。\n\n提举司的官员翻着你的旧船引，头也不抬地说：「这笔墨费涨了。」\n\n你知道他在说什么。每一笔贿赂都在啃食父亲用命换来的航海自由。但你更知道，没有这张船引，你的船就出不了港。",
+      "bgmTag": "bureaucracy_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对官员的暗示……",
+        "options": [
+          { "label": "按惯例送银子", "response": "你把银锭推过去。他笑着盖了章。走出衙门时阳光很好，但你觉得自己脏了一块。" },
+          { "label": "用远洋利润数据据理力争", "response": "你掏出账本，一笔一笔念给他听。他皱着眉拖延了一周。回家后妻子说：「你就是像你爹。」这句话比任何印章都让你踏实。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-fathers-journal",
+      "title": "申时·父亲的航海日志",
+      "description": "15:00-17:00，在城南家中书房翻看父亲的航海日志。父亲是郑和船队的火长，日志记满星斗定位法和各港口潮汐时间。最后一页写着'愿我儿景澜，代我再看远一些'。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "申时，书房的斜阳落在泛黄的纸页上。\n\n你翻开父亲的航海日志。前面的字迹遒劲有力，记满了牵星术的口诀和各港口的潮汐时间。越往后字迹越颤抖——那是体力衰退的痕迹。\n\n最后一页只有一行字：\n\n「愿我儿景澜，代我再看远一些。」\n\n你的眼泪落在了那行字上。窗外秋风吹动竹帘，像是父亲在轻轻翻页。",
+      "bgmTag": "nostalgic_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-06-dinner-mango",
+      "title": "酉时·吕宋芒果的甜",
+      "description": "17:00-19:00，家中晚餐，妻子林氏端上一盘来自吕宋的芒果——儿子上次随船带回来的。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "酉时，饭桌上摆着一盘金黄的芒果。\n\n妻子笑着说：「绍祖上次从吕宋带回来的。甜得不像是这个世界的东西。」\n\n你咬了一口。汁水顺着嘴角流下来，甜到心里。\n\n这就是全球贸易对普通人生活的改变——不是账本上的数字，是一家人围坐在一起时，嘴里多了一种从未有过的甜。",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-07-teahouse-news",
+      "title": "戌时·茶馆里的佛郎机消息",
+      "description": "19:00-21:00，在港口茶馆与同行交流信息。听说佛郎机人的船已到广东外海，用的是完全不同的造船技术。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "戌时，茶馆里人声嘈杂。\n\n一个从广州回来的同行压低声音说：「佛郎机人的船到了广东外海。他们的船……和我们完全不一样。帆是三角的，能逆风走。」\n\n你端着茶杯的手顿了一下。一种隐隐的不安涌上来——更大的世界正在逼近，而你不确定自己准备好了没有。",
+      "bgmTag": "uneasy_whispers",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-08-dock-soliloquy",
+      "title": "亥时·码头独白",
+      "description": "21:00-23:00，独自站在后渚港码头，看着夜海中的商船灯火。想起父亲临终前说'海不是边界，海是路'。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "亥时，码头上只剩你一个人。\n\n夜海中的商船灯火如繁星落入水面。桅杆上的绳索被风吹出呜咽声，像一把看不见的弦乐。\n\n你想起父亲临终前的话：「海不是边界，海是路。」\n\n你对着大海轻声说：「阿爹，我替你看得更远了。」\n\n海浪有节奏地拍打着码头。没有人回答。但你知道，他听见了。",
+      "bgmTag": "ocean_night",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "一个年轻人跑来问是否招收学徒……",
+        "options": [
+          { "label": "收下这个年轻人", "response": "你看着他明亮的眼睛，点了点头。「明天卯时来码头。」又一个景澜走出了泉州。" },
+          { "label": "让他去广州闯一闯", "response": "你拍了拍他的肩膀：「去广州吧。海太大了，该让年轻人自己去丈量。」他鞠躬离开，背影消失在夜色里。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-05-fathers-journal", "evt-08-dock-soliloquy"],
+    "valleyMoments": ["evt-04-permit-office"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["已故亲人的回忆场景"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

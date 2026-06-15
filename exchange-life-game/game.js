@@ -50,7 +50,8 @@ const TIMELINE_LIST = [
   'oil-rig-worker',              // L2/S/V1 - 海上石油钻井平台工人28天 (P0第85卷)
   'lighthouse-keeper',             // L2/S/V1 - 灯塔守护人的最后一次值守 (P0第90卷)
   'retired-cadre-day1',              // L2/S/V1 - 退休第一天的老干部 (P0第110卷)
-  'quanzhou-maritime-merchant'        // L1/S/V2 - 如果明朝没有海禁 (P0第118卷)
+  'quanzhou-maritime-merchant',        // L1/S/V2 - 如果明朝没有海禁 (P0第118卷)
+  'rain-memory-collector'              // L1/S/V1 - 雨水记忆师 (P0第192轮)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

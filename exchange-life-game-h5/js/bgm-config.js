@@ -142,7 +142,22 @@ const BGM_MAP = {
   bureaucracy_tension: { file: 'audio/bgm/bureaucracy_tension.mp3', volume: 0.35, loop: true },
   family_dinner:     { file: 'audio/bgm/family_dinner.mp3',     volume: 0.3, loop: true },
   tension_rising:    { file: 'audio/bgm/tension_rising.mp3',    volume: 0.4, loop: true },
-  night_sea_reflection: { file: 'audio/bgm/night_sea_reflection.mp3', volume: 0.3, loop: true }
+  night_sea_reflection: { file: 'audio/bgm/night_sea_reflection.mp3', volume: 0.3, loop: true },
+
+  // === 雨水记忆师专用标签 (2026-06-15 P0第192轮) ===
+  ambient_sparse:    { file: 'audio/bgm/ambient_sparse.mp3',    volume: 0.25, loop: true },
+  warm_strings:      { file: 'audio/bgm/warm_strings.mp3',      volume: 0.35, loop: true },
+  silence_metallic:  { file: 'audio/bgm/silence_metallic.mp3',  volume: 0.2, loop: true },
+  symphony_rainbow:  { file: 'audio/bgm/symphony_rainbow.mp3',  volume: 0.5, loop: false },
+
+  // === 明朝航海补充标签 (2026-06-15 P0第118卷扩展) ===
+  ancient_ritual:    { file: 'audio/bgm/ancient_ritual.mp3',    volume: 0.25, loop: true },
+  harbor_bustle:     { file: 'audio/bgm/harbor_bustle.mp3',     volume: 0.35, loop: true },
+  tea_negotiation:   { file: 'audio/bgm/tea_negotiation.mp3',   volume: 0.3, loop: true },
+  nostalgic_strings: { file: 'audio/bgm/nostalgic_strings.mp3', volume: 0.35, loop: true },
+  family_warmth:     { file: 'audio/bgm/family_warmth.mp3',     volume: 0.3, loop: true },
+  uneasy_whispers:   { file: 'audio/bgm/uneasy_whispers.mp3',   volume: 0.3, loop: true },
+  ocean_night:       { file: 'audio/bgm/ocean_night.mp3',       volume: 0.3, loop: true }
 };
 
 /**
