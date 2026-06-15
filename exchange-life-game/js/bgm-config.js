@@ -165,7 +165,15 @@ const BGM_MAP = {
   gentle_piano:      { file: 'audio/bgm/gentle_piano.mp3',      volume: 0.3, loop: true },
   upbeat_acoustic:   { file: 'audio/bgm/upbeat_acoustic.mp3',   volume: 0.4, loop: true },
   piano_solo:        { file: 'audio/bgm/piano_solo.mp3',        volume: 0.35, loop: false },
-  warm_guitar:       { file: 'audio/bgm/warm_guitar.mp3',       volume: 0.35, loop: true }
+  warm_guitar:       { file: 'audio/bgm/warm_guitar.mp3',       volume: 0.35, loop: true },
+
+  // === 重度口吃者求职面试专用标签 (2026-06-15 P0第140卷) ===
+  morning_quiet:     { file: 'audio/bgm/morning_quiet.mp3',     volume: 0.25, loop: true },
+  urban_anxiety:     { file: 'audio/bgm/urban_anxiety.mp3',     volume: 0.3, loop: true },
+  tension_silence:   { file: 'audio/bgm/tension_silence.mp3',   volume: 0.2, loop: true },
+  focus_flow:        { file: 'audio/bgm/focus_flow.mp3',        volume: 0.35, loop: true },
+  city_afternoon:    { file: 'audio/bgm/city_afternoon.mp3',    volume: 0.3, loop: true },
+  reflection_gentle: { file: 'audio/bgm/reflection_gentle.mp3', volume: 0.3, loop: true }
 };
 
 /**

@@ -73,7 +73,8 @@ const TIMELINE_LIST = [
   { id: 'retired-cadre-day1',    label: '退休第一天的老干部',             level: 'L2' },
   { id: 'quanzhou-maritime-merchant', label: '如果明朝没有海禁',           level: 'L1' },
   { id: 'rain-memory-collector',      label: '雨水记忆师：收集最后一滴记忆之雨', level: 'L1' },
-  { id: 'gender-swap-week',           label: '性别交换体验：程序员与美妆博主互换一周', level: 'L2' }
+  { id: 'gender-swap-week',           label: '性别交换体验：程序员与美妆博主互换一周', level: 'L2' },
+  { id: 'stutterer-interview',        label: '重度口吃者的求职面试', level: 'L3' }
 ];
 
 let player = null;

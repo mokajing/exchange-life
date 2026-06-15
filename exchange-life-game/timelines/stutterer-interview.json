@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "stutterer-interview",
+    "title": "重度口吃者的求职面试",
+    "subtitle": "在每一句话都要用尽全力才能说出口的世界里，证明自己值得一个机会",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-15T13:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_practice",
+      "title": "镜前练习",
+      "description": "07:00醒来，对着镜子练习\"我叫XX，很高兴见到您\"——这句话练习了137遍",
+      "ageRange": { "start": 24 },
+      "category": "daily_life",
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "清晨的阳光透过窗帘缝隙，你站在浴室镜前。\"我...我叫...\"嘴唇颤抖，喉咙像被什么堵住。第137遍。镜子里的自己眼神坚定，但嘴巴就是不听使唤。口袋里装着三个备用口罩——紧张时戴上，可以缓解表达焦虑。",
+      "bgmTag": "morning_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_dress_up",
+      "title": "穿上正装",
+      "description": "08:30穿上提前一周准备好的正装，检查口袋里的备用口罩",
+      "ageRange": { "start": 24 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "正装是上周就熨好的。你仔细检查领带结，摸了摸口袋里的口罩。它们是你的安全网，虽然你知道面试时不能戴。深呼吸，出门。",
+      "bgmTag": "morning_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_wait_downstairs",
+      "title": "楼下等待",
+      "description": "09:15提前45分钟到达面试地点楼下，在便利店假装买东西，实际上在做深呼吸",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "便利店冷气很足。你拿着一瓶水站在货架旁，假装在看商品标签。心跳声越来越大，远处模糊的交谈声像隔着一层水膜。你在心里默念：\"我可以的，我可以的...\"",
+      "bgmTag": "urban_anxiety",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_interview_start",
+      "title": "面试开始",
+      "description": "10:00面试开始，面试官5个人，自我介绍卡在第三个字",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "五双眼睛看着你。\"各...各位...面...面试官...好...\"声音卡住了。空气凝固。有人低头看手机，有人放慢语速等待，有人真诚地给了你一个微笑。简历上写着\"在校期间获得辩论赛冠军\"——他们不知道那是做执行一辩，不用开口。",
+      "bgmTag": "tension_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "自我介绍卡壳了，你会怎么做？",
+        "options": [
+          { "label": "停下深呼吸重新开始", "response": "你闭上眼睛，深吸一口气。三秒后，你用更慢的语速继续。虽然还是卡顿，但你没有放弃。" },
+          { "label": "换一种表达方式", "response": "你掏出事先准备的纸条递过去。面试官接过看了看，有人点头，有人皱眉。\"请口头回答。\"" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_question_advantage",
+      "title": "最大的优势",
+      "description": "10:12面试官问\"你觉得自己最大的优势是什么\"，准备了答案写在纸上递过去，但面试官说\"请口头回答\"",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "\"你觉得...自己...最大的...优势...\"问题像一块石头砸下来。你把写满答案的纸推过去，手指微微发抖。\"请口头回答。\"四个字，比任何技术问题都难。",
+      "bgmTag": "tension_silence",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_coding_test",
+      "title": "技术测试",
+      "description": "10:25技术测试环节，代码写得飞快，全场安静，这是他唯一不需要说话的15分钟",
+      "ageRange": { "start": 24 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "键盘敲击声清脆而稳定。代码在屏幕上流淌，逻辑清晰，结构优雅。这是你的语言——不需要嘴巴的语言。15分钟，全场安静。你终于可以在不被声音定义的空间里呼吸。",
+      "bgmTag": "focus_flow",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "技术测试中，你想怎么表现？",
+        "options": [
+          { "label": "做完就好", "response": "你完成了所有题目，不多不少。稳扎稳打，就像你面对生活的态度。" },
+          { "label": "展示更多", "response": "你额外添加了一个优雅的优化方案。代码会说话，而且说得比谁都清楚。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_leave_building",
+      "title": "走出大楼",
+      "description": "10:30面试结束，走出大楼，给妈妈发微信\"还行\"，没有说具体怎么样",
+      "ageRange": { "start": 24 },
+      "category": "relationship",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "阳光刺眼。你站在写字楼外，城市的声音重新涌入耳朵——鸟鸣、车流、风声。掏出手机，给妈妈发了两个字：\"还行\"。千言万语压缩成这两个字。你已经尽力了，剩下的交给命运。",
+      "bgmTag": "city_afternoon",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_reflection",
+      "title": "事后回想",
+      "description": "回家路上，回想面试中的每一个瞬间",
+      "ageRange": { "start": 24 },
+      "category": "spiritual",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "地铁窗外是流动的城市。你想起那个微笑的面试官，想起键盘敲击时的平静，想起\"还行\"发出后的释然。表达能力不等于能力。你比任何人都清楚这一点。",
+      "bgmTag": "reflection_gentle",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_interview_start", "evt_06_coding_test"],
+    "valleyMoments": ["evt_05_question_advantage"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": ["社交焦虑", "言语障碍", "求职压力"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

@@ -52,7 +52,8 @@ const TIMELINE_LIST = [
   'retired-cadre-day1',              // L2/S/V1 - 退休第一天的老干部 (P0第110卷)
   'quanzhou-maritime-merchant',        // L1/S/V2 - 如果明朝没有海禁 (P0第118卷)
   'rain-memory-collector',              // L1/S/V1 - 雨水记忆师 (P0第192轮)
-  'gender-swap-week'                      // L2/S/V1 - 性别交换体验·程序员与美妆博主互换一周 (P0第135卷)
+  'gender-swap-week',                      // L2/S/V1 - 性别交换体验·程序员与美妆博主互换一周 (P0第135卷)
+  'stutterer-interview'                       // L3/S/V1 - 重度口吃者的求职面试 (P0第140卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
