@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "linan-tea-shop-rainy-season",
+    "title": "南宋临安城茶坊掌柜的雨季日常",
+    "subtitle": "在烟雨江南用一盏茶留住南渡遗民的故国记忆",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/oP0MALyR8kDGbpoDUYP7mzeAW3bzYmDO",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T06:31:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-mao-tea-prep",
+      "title": "卯时备茶",
+      "description": "清晨五点，梅雨中的临安城。掌柜亲自挑选建窑兔毫盏、碾磨龙凤团茶，检查炭火湿度——梅雨天茶叶最易受潮，这是二十年练出的手感。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "卯时的雨声敲打着茶坊的木檐。你推开坊门，潮湿的空气裹着远处西湖的水汽涌进来。架上的建盏泛着黑釉的光泽，你伸手摸过每一只，指尖感受着兔毫纹的细腻——这是二十年练就的手感。炭炉里的火要再旺些，梅雨天的茶叶最容易受潮，龙凤团茶的香气只有在恰到好处的温度下才能完全释放。",
+      "bgmTag": "rainy_morning_guqin",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-si-old-scholar",
+      "title": "巳时来客·老秀才的眼泪",
+      "description": "一位从北方逃难来的老秀才点了一碗「汴京旧味」的姜盐茶，喝到一半忽然落泪——他三十年没喝过这个味道了。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "巳时，雨势渐密。一位衣衫半旧的老秀才推门而入，操着浓重的开封口音说要一碗「汴京旧味」。你凭直觉配了一碗姜盐茶——那是北方人最爱的口味。他接过茶盏，轻啜一口，忽然停住了。茶汤的热气氤氲中，他的眼眶渐渐泛红。「三十年了……」他喃喃道，「我三十年没喝过这个味道了。」那一刻，你想起自己也是从北方来的。",
+      "bgmTag": "nostalgic_tears",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对老秀才的乡愁，你会怎么做？",
+        "options": [
+          { "label": "推荐临安新茶，帮他融入南方", "response": "你轻声介绍起本地的龙井新茶，老秀才擦干眼泪，试着品了一口。他说：'也好，总要往前看。'" },
+          { "label": "默默添茶，陪他坐一会儿", "response": "你没有说话，只是又为他添了一勺姜盐。两人相对无言，只有雨声和茶香在空气中交织。有些乡愁，不需要言语。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-03-wu-official-inspection",
+      "title": "午时官差·茶引查验",
+      "description": "提举茶盐司的小吏来查茶引（经营许可证），态度傲慢却不懂茶，掌柜赔笑应付后在后厨默默叹气。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.5,
+      "narrativeText": "午时刚过，提举茶盐司的小吏便来了。他翻看着茶引，眼神却飘向墙上的字画，嘴里念叨着你听不懂的官话。你知道他根本不懂茶，但依然赔着笑脸，奉上最好的茶点。等他走后，你走进后厨，靠着灶台深深叹了口气。这间茶坊是你二十年的心血，可在这些人眼里，不过是一张许可证上的数字。",
+      "bgmTag": "tension_afternoon",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对官差的刁难，你的态度是？",
+        "options": [
+          { "label": "忍气吞声，赔笑脸应付", "response": "你低下头，把准备好的茶点端上去。小吏满意地走了，你却在后厨站了很久才平复心情。" },
+          { "label": "不卑不亢，据理力争", "response": "你平静地指出茶引齐全、账目清晰。小吏愣了一下，悻悻离去。你心里忐忑，但也有一丝痛快。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-shen-student-gathering",
+      "title": "申时雅集·太学生的争论",
+      "description": "几位太学生来办茶会斗茶，讨论的却是北伐还是议和——茶汤里映出的是整个时代的焦虑。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "申时，几位太学生结伴而来，说是要斗茶。他们比试着汤花的色泽和持久度，话题却渐渐转向了朝堂——是北伐收复失地，还是与金人议和保全偏安？年轻的脸上写满了焦虑和热忱。你在一旁默默添茶，听着他们的争论，忽然意识到这间小小的茶坊，不只是生意，更是乱世中一方容身之所。",
+      "bgmTag": "scholar_debate",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "听到太学生们争论国事，你会？",
+        "options": [
+          { "label": "插话表达自己的看法", "response": "你放下茶壶，轻声说了一句：'诸位，茶要趁热喝，国事也要趁早谋。'太学生们愣住了，随即有人点头称是。" },
+          { "label": "默默添茶不语", "response": "你只是安静地为每个人续上茶汤。有些话不必说出口，茶汤里的温度已经替你表达了所有。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-you-widow-visit",
+      "title": "酉时收坊·寡妇的茶香",
+      "description": "雨声渐密，最后一个客人是隔壁绸缎庄的寡妇，她每天来坐一个时辰不说话，只为闻一闻茶香——她说这味道像她在扬州老家时的日子。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "酉时，雨声更密了。隔壁绸缎庄的寡妇如约而至，她总是这个时候来，坐一个时辰，不说话，只是静静地闻着茶香。临走时，她轻声说：'你这里的茶，是我在这座城里唯一觉得安心的味道。像我扬州老家时的日子。'你送她到门口，看着她撑伞消失在雨幕中，心里泛起一阵温热的酸楚。",
+      "bgmTag": "evening_rain_solitude",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-06-hai-closing-reflection",
+      "title": "亥时熄炉·师父的遗言",
+      "description": "熄炉独坐，听着檐下雨声，想起师父临终的话「茶坊卖的不是茶，是人心里那点不肯灭的火」。",
+      "ageRange": { "start": 45, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 1155, "end": 1155 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "亥时，最后一位客人也走了。你熄灭炭炉，独自坐在空荡荡的茶坊里。檐下的雨声滴答作响，像是师父临终前的叮嘱又在耳边响起：'孩子，茶坊卖的不是茶，是人心里那点不肯灭的火。'你闭上眼，感受着这份穿越二十年的温暖。明日，雨还会下，茶还会煮，人还会来。这就够了。",
+      "bgmTag": "night_rain_peace",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-02-si-old-scholar", "evt-06-hai-closing-reflection"],
+    "valleyMoments": ["evt-03-wu-official-inspection"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
