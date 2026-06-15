@@ -282,7 +282,15 @@ const BGM_MAP = {
   reunion_piano:          { file: 'audio/bgm/reunion_piano.mp3',          volume: 0.4, loop: false },
   evening_reflection:     { file: 'audio/bgm/evening_reflection.mp3',     volume: 0.3, loop: true },
   team_warmth:            { file: 'audio/bgm/team_warmth.mp3',            volume: 0.35, loop: true },
-  night_ocean:            { file: 'audio/bgm/night_ocean.mp3',            volume: 0.2, loop: true }
+  night_ocean:            { file: 'audio/bgm/night_ocean.mp3',            volume: 0.2, loop: true },
+
+  // === 模拟葬礼体验专用标签 (2026-06-16 P0第231卷) ===
+  solemn_cello:           { file: 'audio/bgm/solemn_cello.mp3',           volume: 0.3, loop: true },
+  mourning_vocal:         { file: 'audio/bgm/mourning_vocal.mp3',         volume: 0.35, loop: true },
+  silence_heartbeat:      { file: 'audio/bgm/silence_heartbeat.mp3',      volume: 0.2, loop: true },
+  ink_writing:            { file: 'audio/bgm/ink_writing.mp3',            volume: 0.25, loop: true },
+  rebirth_piano:          { file: 'audio/bgm/rebirth_piano.mp3',          volume: 0.4, loop: false },
+  evening_warmth:         { file: 'audio/bgm/evening_warmth.mp3',         volume: 0.3, loop: true }
 };
 
 /**
