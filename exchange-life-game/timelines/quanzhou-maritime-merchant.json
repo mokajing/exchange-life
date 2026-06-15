@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "id": "quanzhou-maritime-merchant",
+    "title": "如果明朝没有海禁",
+    "subtitle": "隆庆开海后泉州港一名跨国商行掌柜的航海时代",
+    "sourceType": "social_media",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/YndMj49yWj9Amqo9hR1zMoB583pmz5aA",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T10:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-mazu-temple",
+      "title": "妈祖庙上香",
+      "description": "卯时（5:00-7:00），泉州后渚港，主角陈景澜（48岁）登船前在妈祖庙上香，手里攥着父亲留下的牵星板。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "卯时，天色未明。\n\n你站在妈祖庙前，手里攥着那块被磨得光滑的牵星板——那是父亲留下的遗物。\n\n酥油灯的暖黄光映在你脸上。你上了三炷香，低声说：「妈祖娘娘，保佑今日顺风。」\n\n庙外是后渚港的海浪声，和父亲当年出发时听到的一模一样。",
+      "bgmTag": "temple_ambient",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-warehouse-loading",
+      "title": "监督装船",
+      "description": "辰时（7:00-9:00），在商行仓库监督景德镇青花瓷和漳州天鹅绒装船，这批货要发往满剌加换回胡椒、檀香和生丝订单。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "辰时，阳光洒在后渚港码头上。\n\n你站在仓库前，看着工人们将一箱箱景德镇青花瓷抬上船。旁边是捆扎整齐的漳州天鹅绒，在阳光下泛着温润的光泽。\n\n这批货要走两个月到满剌加，换回胡椒、檀香，还有哈桑预定的那批生丝。\n\n号子声、绳索摩擦桅杆的吱嘎声、海鸥的鸣叫——这是你最熟悉的声音。",
+      "bgmTag": "harbor_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-03-negotiation",
+      "title": "与哈桑谈判",
+      "description": "巳时（9:00-11:00），在商行会客厅与来自古里的穆斯林商人哈桑谈判下一季采购合同。哈桑提出降价换埃及市场的提议。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "巳时，商行会客厅。\n\n煮茶的沸水声里，你和哈桑隔桌而坐。他用带着闽南腔的官话说：「陈掌柜，生丝价格若能再降一成，我可以介绍更远的埃及市场给你。」\n\n算盘珠子在你指尖拨动。你知道他在试探你的底线，但也知道他说的是真话——埃及市场，那是父亲日志里提过却从未抵达的地方。",
+      "bgmTag": "tea_house_negotiation",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "哈桑的提议……",
+        "options": [
+          { "label": "接受薄利换长远市场", "response": "你放下茶盏，点了点头：「好，就依你。」哈桑笑了，从袖中取出一张手绘地图——上面标注着从满剌加到亚历山大港的航线。你知道，这一步走出去，景澜商行的名字就会出现在更远的地方。" },
+          { "label": "坚持现有价格守住利润", "response": "你摇了摇头：「哈桑兄，这个价格已是诚意。」哈桑没有生气，只是收起地图说：「那就下次再谈。」你知道他会找别家，但你也知道，有些底线守住了，生意才能做得长久。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-son-letter",
+      "title": "长子的来信",
+      "description": "午时（11:00-13:00），收到长子陈绍祖从满剌加商馆发回的信，信走了四个月，汇报当地苏丹对明朝丝绸的需求量翻了三倍。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "午时，伙计匆匆跑来，手里举着一封信。\n\n信封上是绍祖的字迹，边角已被海水浸得发黄。这封信走了四个月，从满剌加漂洋过海来到你手中。\n\n信中写道：「父亲大人安好，苏丹对丝绸的需求量翻了三倍，儿已扩建商馆……」\n\n你把信读了三遍。儿子在那边站稳了脚跟，比你当年走得更远。",
+      "bgmTag": "letter_reading",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-05-permit-office",
+      "title": "市舶司办证",
+      "description": "未时（13:00-15:00），去泉州市舶提举司办理出港船引续期，官员暗示要加收茶水费。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "未时，市舶提举司衙门。\n\n你递上船引续期的文书。提举司的王大人翻了翻，慢悠悠地说：「陈掌柜，最近朝廷查得紧，这手续嘛……要多费些周折。」\n\n你听懂了他的意思。每一笔「茶水费」都在啃食父亲用命换来的航海自由。但你笑着应承下来，因为你知道，这张船引背后是一整船人的生计。",
+      "bgmTag": "bureaucracy_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对王大人的暗示……",
+        "options": [
+          { "label": "按惯例送银子", "response": "你从袖中取出一个锦囊放在桌上。王大人笑了，船引很快盖好了印。走出衙门时，你回头看了一眼那块「市舶提举司」的匾额，心里五味杂陈。" },
+          { "label": "用远洋利润数据据理力争", "response": "你拿出账本，一笔笔算给王大人听：「大人，这一船货出去，回来能缴税三千两。」王大人沉默良久，最终盖了印，但说：「下不为例。」你知道被拖延了一周，但妻子晚上对你说：「你就是像你爹。」这句话比什么都值。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-06-father-journal",
+      "title": "父亲的航海日志",
+      "description": "申时（15:00-17:00），在城南家中书房翻看父亲的航海日志。父亲是郑和船队的火长，日志里记满了星斗定位法和各港口潮汐时间。最后一页写着'愿我儿景澜代我再看远一些'。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "申时，书房。\n\n你翻开那本泛黄的航海日志。父亲的笔迹从遒劲到最后几页因体力衰退而颤抖。\n\n日志里记满了牵星术的口诀、各个港口的潮汐时间、还有某年某月在古里遇到的风暴。\n\n翻到最后一页，只有短短一行字：「愿我儿景澜，代我再看远一些。」\n\n窗外秋风吹动竹帘，你盯着那行字看了很久。眼泪落在纸页上，洇开了墨迹。",
+      "bgmTag": "emotional_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "读到父亲的遗言……",
+        "options": [
+          { "label": "轻声回应：阿爹，我替你看得更远了", "response": "你合上日志，对着窗外的斜阳轻声说：「阿爹，我替你看得更远了。」风吹过竹林，像是回应。你知道，父亲听得见。" },
+          { "label": "把日志贴在胸口，久久不语", "response": "你把日志贴在胸口，感受着纸页的温度。那些字迹仿佛还在跳动。你没有说话，但心里的某个地方，被填满了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-07-dinner-mango",
+      "title": "吕宋芒果",
+      "description": "酉时（17:00-19:00），家中晚餐，妻子林氏端上一盘来自吕宋的芒果，是儿子上次随船带回来的。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "酉时，家中餐桌。\n\n妻子端上一盘金黄的芒果：「尝尝，绍祖上次带回来的。」\n\n你咬了一口，甜汁溢满口腔。妻子笑着说：「这芒果甜得不像是这个世界的。」\n\n你也笑了：「这就是另一个世界的东西。」\n\n碗筷轻碰声，巷子里小孩追逐的笑声——这一刻，全球贸易不再是账本上的数字，而是舌尖上的甜。",
+      "bgmTag": "family_dinner",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-08-teahouse-news",
+      "title": "茶馆消息",
+      "description": "戌时（19:00-21:00），在港口茶馆与同行交流信息，听说佛郎机人的船已到广东外海，用的是完全不同的造船技术。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "戌时，港口茶馆。\n\n茶香袅袅中，老赵压低声音说：「听说了吗？佛郎机人的船到广东外海了，那船造得跟咱们完全不一样。」\n\n你放下茶盏，心里泛起一丝不安。一种「更大的世界正在逼近」的预感，像潮水一样漫上来。\n\n你知道，这片海上的规则，可能快要变了。",
+      "bgmTag": "tension_rising",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-09-dock-solitude",
+      "title": "码头独白",
+      "description": "亥时（21:00-23:00），独自站在后渚港码头，看着夜海中的商船灯火，想起父亲临终前的话'海不是边界，海是路'。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 1500 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "亥时，后渚港码头。\n\n你独自站在那里，看着夜海中的商船灯火，如繁星落入人间。\n\n海浪有节奏地拍打着石岸，远处隐约传来船歌。风吹过桅杆绳索，发出呜咽般的声响，像弦乐。\n\n你想起父亲临终前说的话：「海不是边界，海是路。」\n\n你对着海轻声说：「阿爹，我替你看得更远了。」",
+      "bgmTag": "night_sea_reflection",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "一个年轻人跑来问是否招收学徒……",
+        "options": [
+          { "label": "收下这个年轻人", "response": "你看着眼前这个眼神明亮的少年，仿佛看到了四十年前的自己。你说：「明天来报到吧。」又一个景澜走出了泉州。" },
+          { "label": "让他去广州闯一闯", "response": "你拍了拍他的肩膀：「去广州吧，那里有更广阔的海。」少年点头离去。你望着他的背影想：海太大了，该让年轻人自己去丈量。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-06-father-journal", "evt-09-dock-solitude"],
+    "valleyMoments": ["evt-05-permit-office"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["丧亲回忆"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

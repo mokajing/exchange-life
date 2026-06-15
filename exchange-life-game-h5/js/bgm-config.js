@@ -132,7 +132,17 @@ const BGM_MAP = {
   nostalgic_music_box:{ file: 'audio/bgm/nostalgic_music_box.mp3',volume: 0.3, loop: true },
   warm_family:       { file: 'audio/bgm/warm_family.mp3',       volume: 0.35, loop: true },
   lonely_night:      { file: 'audio/bgm/lonely_night.mp3',      volume: 0.25, loop: true },
-  deep_night_ambient:{ file: 'audio/bgm/deep_night_ambient.mp3',volume: 0.2, loop: true }
+  deep_night_ambient:{ file: 'audio/bgm/deep_night_ambient.mp3',volume: 0.2, loop: true },
+
+  // === 明朝海禁平行历史专用标签 (2026-06-15 P0第118卷) ===
+  temple_ambient:    { file: 'audio/bgm/temple_ambient.mp3',    volume: 0.25, loop: true },
+  harbor_morning:    { file: 'audio/bgm/harbor_morning.mp3',    volume: 0.35, loop: true },
+  tea_house_negotiation: { file: 'audio/bgm/tea_house_negotiation.mp3', volume: 0.3, loop: true },
+  letter_reading:    { file: 'audio/bgm/letter_reading.mp3',    volume: 0.3, loop: true },
+  bureaucracy_tension: { file: 'audio/bgm/bureaucracy_tension.mp3', volume: 0.35, loop: true },
+  family_dinner:     { file: 'audio/bgm/family_dinner.mp3',     volume: 0.3, loop: true },
+  tension_rising:    { file: 'audio/bgm/tension_rising.mp3',    volume: 0.4, loop: true },
+  night_sea_reflection: { file: 'audio/bgm/night_sea_reflection.mp3', volume: 0.3, loop: true }
 };
 
 /**

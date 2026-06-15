@@ -70,7 +70,8 @@ const TIMELINE_LIST = [
   { id: 'qing-palace-maid',      label: '清朝宫女出宫后的第一天',       level: 'L1' },
   { id: 'oil-rig-worker',        label: '海上石油钻井平台工人28天',     level: 'L2' },
   { id: 'lighthouse-keeper',     label: '灯塔守护人的最后一次值守',       level: 'L2' },
-  { id: 'retired-cadre-day1',    label: '退休第一天的老干部',             level: 'L2' }
+  { id: 'retired-cadre-day1',    label: '退休第一天的老干部',             level: 'L2' },
+  { id: 'quanzhou-maritime-merchant', label: '如果明朝没有海禁',           level: 'L1' }
 ];
 
 let player = null;
