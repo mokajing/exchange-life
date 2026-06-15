@@ -78,7 +78,9 @@ const TIMELINE_LIST = [
   { id: 'no-fire-humanity',           label: '如果人类从未学会用火', level: 'L2' },
   { id: 'mali-gold-merchant',         label: '马里帝国黄金商队', level: 'L1' },
   { id: 'midlife-crisis-day1',        label: '中年危机的第一天：40岁生日被裁', level: 'L2' },
-  { id: 'railway-crossing-keeper',    label: '铁路道口看守员的最后一班岗', level: 'L1' }
+  { id: 'railway-crossing-keeper',    label: '铁路道口看守员的最后一班岗', level: 'L1' },
+  { id: 'tang-huji-wine-shop',        label: '唐朝长安胡姬酒肆的当垆女', level: 'L1' },
+  { id: 'dyslexia-exam-week',         label: '失读症大学生的期末考试周', level: 'L3' }
 ];
 
 let player = null;

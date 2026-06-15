@@ -57,7 +57,9 @@ const TIMELINE_LIST = [
   'no-fire-humanity',                              // L2/A/V2 - 如果人类从未学会用火 (P0第143卷)
   'mali-gold-merchant',                               // L1/A/V2 - 马里帝国黄金商队 (P0第144卷)
   'midlife-crisis-day1',                                  // L2/S/V1 - 中年危机的第一天 (P0第142卷)
-  'railway-crossing-keeper'                                // L1/S/V1 - 铁路道口看守员的最后一班岗 (P0第141卷)
+  'railway-crossing-keeper',                                // L1/S/V1 - 铁路道口看守员的最后一班岗 (P0第141卷)
+  'tang-huji-wine-shop',                                        // L1/S/V1 - 唐朝长安胡姬酒肆的当垆女 (P0第147卷)
+  'dyslexia-exam-week'                                          // L3/S/V2 - 失读症大学生的期末考试周 (P0第146卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

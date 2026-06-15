@@ -198,7 +198,23 @@ const BGM_MAP = {
   quiet_companionship:{ file: 'audio/bgm/quiet_companionship.mp3', volume: 0.25, loop: true },
   unexpected_witness:{ file: 'audio/bgm/unexpected_witness.mp3',volume: 0.3, loop: true },
   vanishing_speed:   { file: 'audio/bgm/vanishing_speed.mp3',   volume: 0.35, loop: true },
-  dignified_farewell:{ file: 'audio/bgm/dignified_farewell.mp3',volume: 0.3, loop: true }
+  dignified_farewell:{ file: 'audio/bgm/dignified_farewell.mp3',volume: 0.3, loop: true },
+
+  // === 唐朝胡姬酒肆专用标签 (2026-06-15 P0第147卷) ===
+  market_morning:    { file: 'audio/bgm/market_morning.mp3',    volume: 0.3, loop: true },
+  silk_road_bustle:  { file: 'audio/bgm/silk_road_bustle.mp3',  volume: 0.35, loop: true },
+  guqin_pipa:        { file: 'audio/bgm/guqin_pipa.mp3',        volume: 0.3, loop: true },
+  tension_resolve:   { file: 'audio/bgm/tension_resolve.mp3',   volume: 0.35, loop: true },
+  homesick_night:    { file: 'audio/bgm/homesick_night.mp3',    volume: 0.25, loop: true },
+  silence_heavy:     { file: 'audio/bgm/silence_heavy.mp3',     volume: 0.2, loop: true },
+
+  // === 失读症大学生专用标签 (2026-06-15 P0第146卷) ===
+  childhood_confusion:{ file: 'audio/bgm/childhood_confusion.mp3', volume: 0.25, loop: true },
+  hospital_quiet:    { file: 'audio/bgm/hospital_quiet.mp3',    volume: 0.2, loop: true },
+  achievement_warm:  { file: 'audio/bgm/achievement_warm.mp3',  volume: 0.35, loop: true },
+  night_breakdown:   { file: 'audio/bgm/night_breakdown.mp3',   volume: 0.3, loop: true },
+  healing_gentle:    { file: 'audio/bgm/healing_gentle.mp3',    volume: 0.3, loop: true },
+  sunrise_hope:      { file: 'audio/bgm/sunrise_hope.mp3',      volume: 0.4, loop: false }
 };
 
 /**

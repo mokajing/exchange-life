@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": "dyslexia-exam-week",
+    "title": "失读症大学生的期末考试周",
+    "subtitle": "在文字会跳舞的考场里，用别人两倍的时间证明自己不是笨",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-15T16:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_childhood_misunderstood",
+      "title": "三年级·被批评「不认真」",
+      "description": "小学三年级被老师当众批评不认真，实际是第一次意识到自己看字和别人不一样",
+      "ageRange": { "start": 9 },
+      "category": "education",
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "老师把你的作业本摔在桌上。'你看看你写的什么！上课不听讲！'全班同学的目光像针一样扎过来。你低下头，盯着课本上那些歪歪扭扭的字——它们在你眼里本来就是这样的啊。你不知道为什么别人能看得那么清楚，而你看到的总是在跳舞。",
+      "bgmTag": "childhood_confusion",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_diagnosis",
+      "title": "初二·确诊失读症",
+      "description": "初二确诊失读症，母亲在医院走廊哭了半小时，他反而安慰妈妈",
+      "ageRange": { "start": 14 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "医生说出'失读症'三个字的时候，妈妈的手抖了一下。医院走廊很长，她蹲在墙角哭了半个小时。你站在旁边，不知道该说什么，最后轻轻拍了拍她的肩膀：'妈，我只是看书慢，不是笨。'你说的是真的，但那时候你自己也不太相信。",
+      "bgmTag": "hospital_quiet",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "确诊后，你想怎么面对这个结果？",
+        "options": [
+          { "label": "安慰妈妈，假装没事", "response": "你把眼泪咽回去，笑着说'没事的'。从那天起，你学会了在别人面前表演正常。" },
+          { "label": "问医生有没有办法治好", "response": "医生说这不是病，是一种不同的学习方式。你似懂非懂，但至少知道这不是你的错。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_gaokao_victory",
+      "title": "高考·凭实力考入一本",
+      "description": "凭借口头答辩加分和延长考试时间考入一本，但从未告诉大学室友自己的情况",
+      "ageRange": { "start": 18 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "录取通知书到的那天，你把信封摸了又摸。一本线，你过了。延长考试时间的便利让你终于有了公平的机会。但你没有告诉室友们这件事。在新环境里，你可以重新开始——做一个'正常人'。这个秘密，你打算藏一辈子。",
+      "bgmTag": "achievement_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_classroom_reading",
+      "title": "大二·课堂朗读事件",
+      "description": "某次课堂朗读被教授点名，结巴读完一段话后全班沉默",
+      "ageRange": { "start": 19 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "教授点了你的名字。你站起来，捧着课本，那些字又开始跳舞了。'这...这段...讲的是...'声音卡住了。教室里安静得可怕。你听见自己的呼吸声，听见椅子挪动的声音，听见有人翻书的声音。终于读完了那段话，坐下的时候，后背全是汗。那种沉默比嘲笑更刺痛。",
+      "bgmTag": "silence_heavy",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "课堂朗读卡壳了，你会怎么做？",
+        "options": [
+          { "label": "硬着头皮读完", "response": "你咬着牙把每个字挤出来。读完后没有人鼓掌，也没有人嘲笑。只有沉默，漫长的沉默。" },
+          { "label": "坦白说自己需要帮助", "response": "你深吸一口气说：'老师，我有阅读障碍，可以给我多一点时间吗？'教室里有几声轻叹，教授点了点头。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_exam_prep_night",
+      "title": "考前·深夜复习崩溃",
+      "description": "期末考试周每天只睡4小时，同样的内容需要读三遍才能理解，深夜对着课本崩溃大哭",
+      "ageRange": { "start": 20 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "凌晨三点。图书馆只剩你一个人。同一页书你已经读了第三遍，还是没看懂。语音转文字工具把老师的录音变成了满屏的文字，你用荧光笔标了又标，思维导图画了一张又一张。突然就绷不住了。你把脸埋在臂弯里，眼泪打湿了袖口。不是委屈，是累。是那种用尽全身力气才勉强跟上的累。",
+      "bgmTag": "night_breakdown",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "深夜复习崩溃了，你想怎么做？",
+        "options": [
+          { "label": "继续强迫自己读", "response": "你擦干眼泪，重新翻开课本。第四遍。第五遍。天快亮的时候，你终于读懂了那一页。代价是第二天头痛欲裂。" },
+          { "label": "放下课本去操场走走", "response": "你合上书，走出图书馆。夜风很凉，星星很亮。你在操场上走了三圈，回来的时候，心里平静了一些。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_counselor_words",
+      "title": "咨询室·被看见的时刻",
+      "description": "心理咨询师说「你不是有缺陷的人，你是用不同方式学习的人」",
+      "ageRange": { "start": 20 },
+      "category": "spiritual",
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "心理咨询室的灯光很柔和。你说完课堂朗读的事，说完深夜崩溃的事，说完假装正常的疲惫。咨询师沉默了一会儿，然后说：'你不是有缺陷的人，你是用不同方式学习的人。'这句话像一把钥匙，打开了你锁了二十年的门。原来被接纳的感觉，是这样的。",
+      "bgmTag": "healing_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_exam_day",
+      "title": "考试日·单独考场",
+      "description": "提前到场，独自进入单独考场，面对试卷上跳舞的文字，用电脑答题",
+      "ageRange": { "start": 20 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "单独考场很安静，只有你和监考老师。电脑屏幕上的字体调大了两号，行间距也加宽了。你深吸一口气，开始读题。文字还是会跳，但你已经学会了和它们共处。你用语音输入写下答案，一个字一个字地确认。时间比别人多30%，但你需要的不只是时间——你需要的是被允许以自己的节奏存在。",
+      "bgmTag": "focus_flow",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "考试中遇到一段特别难读的题目，你怎么处理？",
+        "options": [
+          { "label": "反复读直到理解", "response": "你读了五遍，终于在第六遍时抓住了关键信息。慢，但你没有放弃。" },
+          { "label": "先跳过做后面的题", "response": "你标记了这道题，先完成其他部分。回头再看时，换个角度居然读懂了。有时候退一步是为了更好地前进。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_aftermath_acceptance",
+      "title": "考后·平静的接纳",
+      "description": "考试结束后走出考场，阳光刺眼，突然意识到自己已经走了这么远",
+      "ageRange": { "start": 20 },
+      "category": "spiritual",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "走出教学楼的那一刻，阳光刺得你眯起了眼。考试结束了。不管成绩如何，你知道自己已经赢了——赢过了那个被老师说'不认真'的小学生，赢过了那个在医院走廊安慰妈妈的少年，赢过了无数个深夜里怀疑自己的瞬间。你不需要变得'正常'。你只需要被允许，以自己的方式存在。",
+      "bgmTag": "sunrise_hope",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_04_classroom_reading", "evt_05_exam_prep_night"],
+    "valleyMoments": ["evt_01_childhood_misunderstood"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["学习障碍", "心理压力", "校园经历"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

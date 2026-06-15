@@ -1,0 +1,158 @@
+{
+  "meta": {
+    "id": "tang-huji-wine-shop",
+    "title": "唐朝长安胡姬酒肆的当垆女",
+    "subtitle": "在西市胡风与唐韵交织的酒香里，用异域面孔活出大唐气度的粟特女子",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T16:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_prep",
+      "title": "卯时·晨起备酒",
+      "description": "天未亮即起，检查昨夜存酒、擦拭铜壶银盏，将新到的三勒浆从地窖搬出",
+      "ageRange": { "start": 22, "end": 45, "fuzzy": true },
+      "yearRange": { "start": 742, "end": 765 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "天色微明，西市的轮廓还在晨雾中模糊。你推开木门，铜铃轻响。地窖里的三勒浆泛着琥珀色的光，你用袖口擦去坛口的霜痕。银盏要一只只擦亮，铜壶里的水要换过三次——这是母亲从撒马尔罕传来的规矩，哪怕在长安，也不能失了体面。",
+      "bgmTag": "morning_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_morning_customers",
+      "title": "辰时·开门迎客",
+      "description": "开门迎第一批客人——赶早市的商贾和上朝归来的低级官吏",
+      "ageRange": { "start": 22, "end": 45, "fuzzy": true },
+      "category": "career",
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "第一波客人总是熟面孔。卖绸缎的王掌柜照例要一壶温好的葡萄酒，刚从朝堂回来的李录事偏爱清淡的米酒。你用流利的汉话招呼他们，偶尔夹一句粟特语问候同乡的老商人。语言在你嘴里像酒一样流转自如，每一种舌头背后是一个不同的自己。",
+      "bgmTag": "market_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_peak_multilingual",
+      "title": "巳午·西市高峰",
+      "description": "西市渐入高峰，胡商、波斯珠宝客、大食香料贩子陆续入座，三种语言无缝切换",
+      "ageRange": { "start": 22, "end": 45, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "日头升高，西市彻底醒了。波斯珠宝客的长袍闪着金线，大食香料贩子身上带着肉桂和乳香的气息。你用粟特语问老乡亲切安好，转头用汉语向文人介绍今日特酿，再切换波斯语为珠宝客推荐配酒的果脯。三种语言，三副面孔，同一个笑容。",
+      "bgmTag": "silk_road_bustle",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "一位波斯客人用家乡话问你'想不想回家'，你怎么回应？",
+        "options": [
+          { "label": "用粟特语说'这里也是家'", "response": "客人愣了一下，然后笑了。他举起酒杯，用不太标准的汉语说了句'好酒'。两种归属感在这一刻重叠。" },
+          { "label": "笑着转移话题推荐新酒", "response": "你把话题引向刚到的龙膏酒。有些问题不需要答案，一杯酒的温度足以代替千言万语。" },
+          { "label": "沉默片刻后继续忙碌", "response": "你没有回答，只是多给他添了一勺葡萄干。有些思念太重，不适合在人前说出来。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_scholars_gathering",
+      "title": "未申·文人雅集",
+      "description": "文人墨客午后小聚，陪聊诗文典故，偶尔被要求弹琵琶助兴",
+      "ageRange": { "start": 22, "end": 45, "fuzzy": true },
+      "category": "daily_life",
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "午后的阳光斜斜照进店里，文人们三三两两落座。他们谈论李白的诗、边塞的风，有人请你弹一曲琵琶。指尖拨动琴弦的瞬间，西域的旋律和长安的诗意融在一起。他们说你的琵琶里有'胡沙与汉月'，你不知道这是赞美还是猎奇，但你弹得认真。",
+      "bgmTag": "guqin_pipa",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_officer_insult",
+      "title": "酉时·金吾卫风波",
+      "description": "醉酒的金吾卫军官言语轻薄，她用《礼记》化解，赢得满座喝彩",
+      "ageRange": { "start": 28, "end": 35, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "暮色四合，武将勋贵包场宴客。一个喝多了的金吾卫军官凑过来，嘴里说着不三不四的话。满堂寂静。你不慌不忙，用最标准的长安官话引用了一段《礼记》：'礼者，所以正身也。'声音不大，字字清晰。军官的脸涨成了猪肝色，同桌的人哄笑起来。从此再没人敢在你店里放肆。",
+      "bgmTag": "tension_resolve",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对军官的轻薄，你选择如何回应？",
+        "options": [
+          { "label": "引经据典正色回应", "response": "你用《礼记》让全场安静。知识是最好的铠甲，比任何刀剑都锋利。" },
+          { "label": "巧妙转移话题", "response": "你笑着问他是否尝过新到的三勒浆，把尴尬化为一杯酒的功夫。圆融也是一种力量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_hometown_package",
+      "title": "戌时·故乡包裹",
+      "description": "收到同乡带来的撒马尔罕葡萄干和母亲织的小毯子，关上门在后厨哭了一刻钟",
+      "ageRange": { "start": 30, "end": 40, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "打烊了。你关上店门，拆开同乡带来的包裹。葡萄干还是小时候的味道，小毯子上有母亲手织的花纹——那是撒马尔罕春天才有的图案。你蹲在后厨的角落里，把脸埋进毯子，哭了整整一刻钟。然后擦干眼泪，洗了脸，重新点亮油灯。明天还要笑着迎客。",
+      "bgmTag": "homesick_night",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "收到家乡的包裹，你想怎么做？",
+        "options": [
+          { "label": "独自消化情绪", "response": "你在后厨哭了很久。有些思念只能自己扛，哭完了，日子还得继续。" },
+          { "label": "写信给母亲", "response": "你铺开纸笔，写了一封永远寄不到的家书。笔墨之间，长安和撒马尔罕的距离缩短了一寸。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_anlushan_news",
+      "title": "天宝十四载·叛乱消息",
+      "description": "安禄山叛乱的消息传到长安，常客们沉默饮酒，她第一次主动免了所有人的酒钱",
+      "ageRange": { "start": 38, "end": 42, "fuzzy": true },
+      "yearRange": { "start": 755, "end": 756 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "消息是傍晚传来的。安禄山反了。店里坐满了常客，没有人说话，只有酒杯碰桌子的闷响。你看着这些熟悉的面孔——汉人、胡人、波斯人、大食人——他们和你一样，在这片土地上扎了根，却突然不知道根还在不在。你走到柜台前，轻声说：'今日免单。'没有人道谢，但所有人都抬起了头。",
+      "bgmTag": "silence_heavy",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "叛乱消息传来，你如何应对？",
+        "options": [
+          { "label": "免酒钱表达态度", "response": "你说'今日免单'，声音很轻，但每个人都听见了。有些时刻，沉默比语言更有力量。" },
+          { "label": "照常营业维持日常", "response": "你像往常一样斟酒、擦桌、微笑。日常本身就是一种抵抗，证明生活还没有被恐惧吞噬。" },
+          { "label": "关门歇业一日", "response": "你挂上了'暂歇'的牌子。有些日子不适合做生意，只适合和自己待在一起。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_legacy",
+      "title": "暮年·传承",
+      "description": "年过四十头发花白，新来的年轻胡姬叫她阿姐，她把经营二十年的酒肆招牌擦得锃亮",
+      "ageRange": { "start": 45, "end": 55, "fuzzy": true },
+      "category": "achievement",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "头发白了大半。新来的胡姬怯生生叫你'阿姐'，像极了当年刚来长安的自己。你把招牌擦了一遍又一遍，直到它亮得能照出人影。这条街上再没有第二家店能比——不是因为酒最好，而是因为这里有一个人，用二十年把异乡活成了故乡。",
+      "bgmTag": "reflection_gentle",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_officer_insult", "evt_07_anlushan_news"],
+    "valleyMoments": ["evt_06_hometown_package"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
