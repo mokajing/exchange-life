@@ -1,0 +1,124 @@
+{
+  "meta": {
+    "id": "bullet-train-mechanic",
+    "title": "高铁动车组机械师的凌晨检修",
+    "subtitle": "在所有人熟睡时守护百万人出行安全的'动车医生'",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T04:31:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_night_entry",
+      "title": "深夜入库：末班车回库后的交接",
+      "description": "每晚22:00末班车回库，22:30交接班会。深夜车库的机械轰鸣与寂静交替中的孤独感。",
+      "ageRange": { "start": 25, "end": 30, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2025 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "末班车的尾灯消失在轨道尽头，检修库的大门缓缓升起。LED灯管将金属车身照得泛着冷蓝色的光。他接过对讲机，翻开检修记录本，开始了一夜的工作。远处钢轨热胀冷缩发出轻微的金属声，像是这座钢铁巨兽在呼吸。",
+      "bgmTag": "night_depot_hum",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_inspection",
+      "title": "一级检修：200项检查点的精密秩序",
+      "description": "23:00开始一级检修作业，逐项检查超过200个检查点。力矩扳手的咔嗒声和探伤仪的电子提示音构成节奏底噪。",
+      "ageRange": { "start": 25, "end": 30, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2025 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "车轮踏面擦伤深度不得超过0.5mm，螺栓扭矩偏差不得超过±5%。他的手指沿着转向架的焊缝缓缓移动，探伤仪发出规律的电子提示音。每一项检查都是一次确认，每一次确认都是对安全的承诺。力矩扳手在达到标准值时发出清脆的'咔嗒'声，那是精密秩序的节拍器。",
+      "bgmTag": "precision_rhythm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_crack_discovery",
+      "title": "发现裂纹：手抖与确认的瞬间",
+      "description": "第一次独立发现转向架裂纹时的手抖与确认——用探伤仪反复扫了三遍才敢上报，因为误报意味着整列车停运、数千人行程受阻。",
+      "ageRange": { "start": 26, "end": 29, "fuzzy": true },
+      "yearRange": { "start": 2021, "end": 2024 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "探伤仪的波形突然跳动了一下。他的手停住了，心跳声在寂静的车厢底部格外清晰。他深吸一口气，重新扫描——第二遍，第三遍。波形依旧异常。他知道这意味着什么：如果上报，这列车将停运检修，数千人的行程将被打乱；如果漏判，后果不堪设想。对讲机就在腰间，但他需要再确认一次。",
+      "bgmTag": "heartbeat_alarm",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "发现疑似裂纹时，你如何选择？",
+        "options": [
+          { "label": "立即上报（标准流程）", "response": "你拿起了对讲机。列车将停运检修，数千名旅客的行程会被调整。但你知道，安全没有侥幸。师傅说过：'宁可错停千次，不可放过一处。'" },
+          { "label": "再测一遍确认（争取时间）", "response": "你决定再做一次更仔细的检测。时间一分一秒过去，你的额头渗出了汗。最终确认是真实裂纹后上报，虽然耽误了一些时间，但你排除了误报的可能。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_master_farewell",
+      "title": "师傅退休：像交代一把钥匙般的告别",
+      "description": "师傅退休前最后一次带他走完全流程，临走时说'以后这些车就交给你了'，语气平淡得像交代一把钥匙。",
+      "ageRange": { "start": 27, "end": 30, "fuzzy": true },
+      "yearRange": { "start": 2022, "end": 2025 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "这是师傅最后一个夜班。他们像往常一样走完全部流程，从车头到车尾，从车顶到地沟。师傅没有说太多话，只是在签完最后一份检修记录后，把笔轻轻放在桌上。'以后这些车就交给你了。'语气平淡得像是在交代一把钥匙。但他听出了那句话里三十年的重量。",
+      "bgmTag": "master_legacy",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_signing_certificate",
+      "title": "签发出库合格证：沉默庄重的三个字",
+      "description": "春运前夜连续检修三列车到凌晨五点，签字时笔尖在合格单上停顿了两秒——他知道这三个字背后是上万人的命。不是成就感，是'又一天没人出事'的如释重负。",
+      "ageRange": { "start": 28, "end": 32, "fuzzy": true },
+      "yearRange": { "start": 2023, "end": 2026 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨五点，他完成了今夜第三列车的终检。拿起笔，在出库合格证上签下自己的名字。笔尖在纸面上停顿了两秒——不是因为犹豫，而是因为这三个字太重了。每一笔都承载着上万人的安全。这不是英雄主义的瞬间，只是一个普通人在承担责任时本能流露的谨慎。签完字的那一刻，他没有感到成就，只有一种'又一天没人出事'的如释重负。",
+      "bgmTag": "signature_silence",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "师傅退休后第一次独立签发合格证，你如何面对这一刻？",
+        "options": [
+          { "label": "按师傅教的习惯默念一遍检查清单", "response": "你在心里默默过了一遍所有关键检查点。师傅的声音仿佛在耳边回响。这份传承让你感到安心，仿佛他从未离开。" },
+          { "label": "相信自己直接签字", "response": "你深吸一口气，相信自己的专业判断。笔尖落下时稳而有力。这是属于你的时刻，你准备好了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_dawn_light",
+      "title": "晨光时刻：不被看见的连接感",
+      "description": "清晨走出检修库看到第一缕阳光，想到此刻有无数人正安心坐上这趟车。女儿在作文里写'爸爸的工作就是让火车不坏'，老师批注'爸爸真伟大'。",
+      "ageRange": { "start": 28, "end": 32, "fuzzy": true },
+      "yearRange": { "start": 2023, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "走出检修库的那一刻，第一缕阳光正好穿过云层。远处的站台上，早班的旅客正有序上车。没有人知道昨夜发生了什么，没有人知道他签下了多少份合格证。但他知道，此刻有无数人正安心地坐上他守护过的列车。手机震动了一下，是妻子发来的照片——女儿的作文本上写着：'爸爸的工作就是让火车不坏。'老师的批注是：'爸爸真伟大。'他红了眼眶，但没说话。",
+      "bgmTag": "dawn_warmth_piano",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_03_crack_discovery", "evt_05_signing_certificate"],
+    "valleyMoments": ["evt_04_master_farewell"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

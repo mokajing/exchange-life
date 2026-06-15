@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "inca-quipu-keeper",
+    "title": "印加帝国奇普结绳记事官的最后岁月",
+    "subtitle": "在没有文字的帝国里用绳结记录税收、历史和神话的安第斯记忆守护者",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T04:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_knots",
+      "title": "清晨打结：太阳神庙旁的工作坊",
+      "description": "每日清晨在太阳神庙旁的工作坊中打结，用羊驼毛线按十进制编码系统记录本省人口、粮食储备、劳役配额。手指在绳索间穿梭时的笃定与骄傲。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 1520, "end": 1525 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "他将拇指压进第三个八字结的凹陷处，羊驼毛线在指尖摩擦出细微的声响。阳光穿过土坯墙的缝隙，照亮了工作台上散落的彩色副绳——赭石色代表玉米，靛蓝色代表水源，灰色代表悲伤。每一个结的位置、方向、捻度都承载着特定的语义，这是他作为奇普卡马约克的日常。",
+      "bgmTag": "andean_flute_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_teaching_apprentice",
+      "title": "传授技艺：会说话的绳子",
+      "description": "向年轻学徒传授奇普技艺，但学徒总是把表示悲伤的灰色线和表示玉米的黄色线搞混。知识的传递从来不是复制，而是每一次都重新经历的丧失。",
+      "ageRange": { "start": 56, "end": 58, "fuzzy": true },
+      "yearRange": { "start": 1522, "end": 1524 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "学徒又一次把灰色线和黄色线搞混了。他叹了口气，想起自己的师父也曾为此摇头。'记住，'他轻声说，'灰色是眼泪的颜色，黄色是丰收的颜色。它们在你的手指下应该有不同的温度。'但他知道，有些东西教不会——就像他的师父当年也无法完全传递那份对绳结的敬畏。",
+      "bgmTag": "quipu_teaching",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对有限的教学时间，你选择优先传授什么？",
+        "options": [
+          { "label": "行政记账技术（实用但平庸）", "response": "你选择了稳妥的道路。学徒将能胜任帝国的税务记录工作，但那些关于祖先神话的编码方式可能就此失传。" },
+          { "label": "口述历史的编码方式（珍贵但危险）", "response": "你选择了冒险。这些编码承载着民族的记忆，但在帝国动荡的年代，掌握这种知识可能给学徒带来危险。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_tax_crisis",
+      "title": "皇家普查：超出表达极限的疆域",
+      "description": "收到来自库斯科的皇家奇普查税指令，发现帝国疆域已超出传统结绳系统的表达极限。在主绳末端偷偷多打了一个只有自己知道的八字结——那是他女儿的名字。",
+      "ageRange": { "start": 57, "end": 59, "fuzzy": true },
+      "yearRange": { "start": 1524, "end": 1526 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "皇家使者带来了新的普查指令。帝国的疆域已经超出了传统结绳系统能够表达的极限——新征服的土地上说着他不理解的语言，出产着他从未见过的作物。在为总督编制人口普查奇普时，他偷偷在主绳末端多打了一个八字结。没有人会注意到那个微小的凸起，但对他而言，那是女儿的名字藏在冰冷的行政数据里的一点私人温暖。",
+      "bgmTag": "imperial_pressure",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_stranger_news",
+      "title": "沿海传来的消息：长胡子的人骑着巨兽",
+      "description": "听闻沿海传来陌生入侵者的消息，开始秘密将口述历史编入非行政类奇普。意识到自己可能是最后一个掌握完整技艺的人。",
+      "ageRange": { "start": 58, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 1526, "end": 1528 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "从沿海逃来的信使带来了令人不安的消息：'长胡子的人骑着巨兽，手持能喷火的铁棍。'他知道这不是普通的敌人。夜深人静时，他开始将祖先的神话、部族的歌谣、母亲的摇篮曲编入非行政类的奇普中。手指比意识更快地打着结，仿佛身体知道这些记忆正在消失。",
+      "bgmTag": "drums_of_warning",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "西班牙官员要求编制新的人口税赋奇普，你如何选择？",
+        "options": [
+          { "label": "如实记录", "response": "你选择了诚实。这份精确的记录可能被用来帮助殖民者理解帝国结构，加速征服的进程。但你无法背叛自己作为记事官的职业操守。" },
+          { "label": "故意编入错误数据作为无声抵抗", "response": "你选择了抵抗。在看似完美的绳结中埋下了只有内行人才能察觉的错误。这是一种危险的赌博——如果被识破，代价是你的生命。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_burning_quipus",
+      "title": "火光中的焚毁：最后的守护",
+      "description": "西班牙人抵达后焚毁大量奇普。他在火光中将最后一批记载祖先神话的绳结藏入衣袍内侧。亲眼见证奇普被焚烧时，手指不由自主地做出打结动作。",
+      "ageRange": { "start": 60, "end": 62, "fuzzy": true },
+      "yearRange": { "start": 1528, "end": 1532 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "火光映照在他的脸上。那些承载着数百年记忆的绳结在火焰中蜷缩、焦黑、化为灰烬。他的手指不由自主地做出了打结的动作——身体比意识更快地试图留住正在消失的记忆。在混乱中，他将最后几条记载祖先神话的奇普塞进了衣袍内侧，贴着胸口。它们可能永远不会被读懂，但它们存在过。",
+      "bgmTag": "mourning_fire",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_final_touch",
+      "title": "黑暗中的触摸：认真本身就是对遗忘的抵抗",
+      "description": "在黑暗中触摸藏在胸前的最后几条绳结，知道它们可能永远不会被读懂，但它们存在过。体验结束时的希望注脚：今天仍有盖丘亚社区在复兴奇普传统。",
+      "ageRange": { "start": 62, "end": 65, "fuzzy": true },
+      "yearRange": { "start": 1530, "end": 1535 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "黑暗中，他的手指一个一个摸索着胸前的绳结。每一个凸起都是一段记忆，每一根线条都是一个名字。他知道将来可能没有人能解开这些绳子，但他依然打得一丝不苟。因为认真本身就是对遗忘的抵抗。\n\n【希望注脚】今天，在秘鲁安第斯山脉的盖丘亚社区，仍有人在复兴奇普传统。考古学家Manuel Medrano等人正在用现代数据库技术逐步破译这些古老的绳结。记忆从未真正消失。",
+      "bgmTag": "dawn_hope_andean",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "逃亡途中只能携带有限数量的奇普，你选择带走什么？",
+        "options": [
+          { "label": "行政档案（可能被用来帮助殖民者）", "response": "你选择了实用的记录。这些精确的数据或许能在未来帮助学者理解帝国的运作方式，但也可能被征服者利用。" },
+          { "label": "祖先神话（无人能读但承载灵魂）", "response": "你选择了灵魂的重量。这些绳结可能永远沉睡在某个山洞或博物馆的库房里，但它们承载着一个民族最深层的记忆。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_burning_quipus"],
+    "valleyMoments": ["evt_02_teaching_apprentice", "evt_04_stranger_news"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["colonial_violence_implied", "cultural_loss"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
