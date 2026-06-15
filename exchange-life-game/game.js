@@ -59,7 +59,8 @@ const TIMELINE_LIST = [
   'midlife-crisis-day1',                                  // L2/S/V1 - 中年危机的第一天 (P0第142卷)
   'railway-crossing-keeper',                                // L1/S/V1 - 铁路道口看守员的最后一班岗 (P0第141卷)
   'tang-huji-wine-shop',                                        // L1/S/V1 - 唐朝长安胡姬酒肆的当垆女 (P0第147卷)
-  'dyslexia-exam-week'                                          // L3/S/V2 - 失读症大学生的期末考试周 (P0第146卷)
+  'dyslexia-exam-week',                                          // L3/S/V2 - 失读症大学生的期末考试周 (P0第146卷)
+  'emotion-weather-forecaster'                                     // L1/S/V1 - 情绪天气预报员的混乱第一天 (P0第151卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

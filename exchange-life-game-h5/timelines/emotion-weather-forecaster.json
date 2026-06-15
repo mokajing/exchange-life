@@ -1,0 +1,200 @@
+{
+  "meta": {
+    "id": "emotion-weather-forecaster",
+    "title": "情绪天气预报员的混乱第一天",
+    "subtitle": "在心情直接决定局部气候的世界里，做一个情绪天气预报员",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-15T17:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_storm",
+      "title": "起床气的雷阵雨",
+      "description": "06:30 闹钟响起，林晓晴带着起床气醒来，卧室里下着小型雷阵雨，把枕头淋湿了。在这个世界里，每个人的情绪会以自身为圆心、半径5米生成一个\"情绪微气候泡\"。",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.4,
+      "narrativeText": "闹钟响了。\n\n你睁开眼，发现自己正躺在一场小型雷阵雨里——枕头湿了一半，窗帘被风吹得啪啪作响。\n\n哦对，今天是你在情绪气象台实习的第一天。\n\n而你，刚刚用一场起床气淋湿了自己的早晨。",
+      "bgmTag": "morning_calm",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_subway_fog",
+      "title": "地铁里的焦虑浓雾",
+      "description": "07:15 挤地铁时整节车厢因为早高峰集体焦虑而雾气弥漫，能见度不足两米，有人因为被踩脚暴怒导致局部闪电劈坏了扶手。",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "地铁车厢里什么都看不见。\n\n不是灯坏了，是所有人的焦虑汇成了一片浓雾。有人被踩了脚，一道闪电劈下来，扶手冒出了火花。\n\n你缩在角落，努力让自己平静一点——至少别让周围再下雪了。",
+      "bgmTag": "urban_night",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_typhoon_warning",
+      "title": "情绪台风预警",
+      "description": "08:30 到达情绪气象台，台长宣布今天有\"情绪台风\"预警——市中心商圈一对情侣分手引发的悲伤风暴已升级为12级。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "台长的声音很严肃：\n\n\"市中心商圈检测到12级悲伤风暴，源头是一对情侣分手。所有预报员进入待命状态。\"\n\n你看了看窗外远处的乌云——那不是普通的云，是两个人心碎的形状。\n\n这就是你的工作：在别人情绪崩溃的时候，保持清醒。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对情绪台风预警，你会怎么做？",
+        "options": [
+          { "label": "立即查看历史案例学习应对", "response": "你翻出了过去三年的情绪台风记录，发现大多数都能在2小时内自然消散。知识让你稍微安心了一些。" },
+          { "label": "深呼吸，专注于今天的播报任务", "response": "你把注意力拉回眼前的屏幕。第一次独立播报就在今天，你不能被窗外的风暴分散精力。" },
+          { "label": "偷偷担心那对分手的情侣", "response": "你忍不住想象他们的故事。这份共情让你的指尖飘起了细雨——也许这正是好预报员需要的敏感。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_wrong_prediction",
+      "title": "误判大爷的情绪",
+      "description": "09:00 第一次独立播报：把一位大爷的\"怀旧式惆怅\"误判为\"抑郁级暴雨\"，导致社区紧急出动心理干预团队，结果发现大爷只是在回忆老伴做的红烧肉。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你把大爷的惆怅判定为\"抑郁级暴雨\"。\n\n心理干预团队冲到现场时，大爷正坐在公园长椅上，手里捧着一张照片，嘴角微微上扬。\n\n\"我只是在想老伴做的红烧肉，\"他说，\"她走了三年了，但每次想起那个味道，心里还是暖的。\"\n\n你的脸红了。原来有些雨，是温暖的。",
+      "bgmTag": "nostalgic_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "误判之后，你会怎么做？",
+        "options": [
+          { "label": "立即道歉并上门拜访了解真实情况", "response": "你亲自去见了大爷。他笑着给你讲了很多关于老伴的故事。这一天，你学到了课本上没有的东西。" },
+          { "label": "默默修正记录，假装什么都没发生", "response": "你在系统里悄悄改了分类。但那份愧疚像一团挥不散的雾，跟着你整个上午。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_kindergarten_tornado",
+      "title": "幼儿园的情绪龙卷风",
+      "description": "10:30 紧急任务：幼儿园小朋友集体午睡醒来哭闹，形成\"情绪龙卷风群\"，需要精准预报路径避免波及隔壁小学考试。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "幼儿园的监控画面里，二十几个孩子同时哭了起来。\n\n他们的情绪汇聚成一群小型龙卷风，正朝着隔壁小学的方向移动——那里正在进行期末考试。\n\n你必须在三分钟内算出路径，发出预警。\n\n手指在键盘上飞舞的时候，你突然想起自己小时候，也曾因为午睡醒来找不到妈妈而大哭。",
+      "bgmTag": "tension_rise",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_office_crush",
+      "title": "办公室的樱花与冰雹",
+      "description": "12:00 午休时同事偷偷暗恋实习生，办公室里突然飘起樱花瓣，被主任撞见后瞬间变成冰雹。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.4,
+      "narrativeText": "午饭时间，办公室里莫名其妙飘起了樱花。\n\n你抬头看见实习生小周红着脸低头吃饭，而对面的老李正偷偷看她。\n\n然后主任推门进来。\n\n樱花瞬间变成了冰雹，噼里啪啦砸了一桌子。\n\n有些心事，藏不住也躲不掉。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_broadcast_fail",
+      "title": "演播室的天气失控",
+      "description": "13:30 下午播报时自己的情绪波动导致演播室天气失控，紧张时起了大雾，说错词时下了冰粒，最后深呼吸稳定下来才恢复晴朗。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "镜头亮起的瞬间，你的脑子一片空白。\n\n演播室里起了雾。你说错了第一个词，冰粒开始从天花板掉下来。\n\n\"深……呼吸。\"\n\n你闭上眼睛，感受脚下的地面。一秒，两秒。\n\n再睁眼时，雾散了，阳光从窗外照进来。\n\n原来预报别人的天气之前，要先学会预报自己的。",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "演播室失控的那一刻，你选择了什么？",
+        "options": [
+          { "label": "停下来，深呼吸三次再继续", "response": "那三秒钟很长，但足够让一切归位。你重新开口时，声音稳得像晴天。" },
+          { "label": "硬着头皮念完稿子", "response": "你念完了，但冰粒一直下到结束。导播后来告诉你，观众反而觉得这种\"真实\"很可爱。" },
+          { "label": "干脆承认自己紧张，笑着重新开始", "response": "\"抱歉，预报员也会紧张呢。\"你说完这句话，演播室里竟然真的放晴了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_nursing_home_rain",
+      "title": "养老院的思念暖雨",
+      "description": "15:00 接到报警：养老院一位奶奶持续释放\"思念型暖雨\"已经三天，整个楼层湿度超标，墙壁发霉，但谁也不忍心让她\"停下来\"。",
+      "ageRange": { "start": 28 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "奶奶坐在窗边，窗外是她和爷爷种的那棵桂花树。\n\n雨从她身上落下来，温热的，带着桂花的香气。\n\n\"他走的那天也下着雨，\"她说，\"但不是这种雨。这种雨是我自己想他的时候才有的。\"\n\n湿度计显示超标，墙壁长了霉斑。\n\n但你站在她的雨里，只觉得温暖。\n\n有些情绪不需要被\"治理\"，只需要被陪伴。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对奶奶的思念暖雨，你会怎么做？",
+        "options": [
+          { "label": "按规定启动除湿程序", "response": "机器嗡嗡响起来的时候，奶奶的雨变小了。你完成了任务，但心里有什么也跟着变干了。" },
+          { "label": "坐下来陪奶奶聊天，让思念自然流淌", "response": "你听她讲了三个小时的故事。离开时衣服湿了，但心里装满了另一个人的爱情。" },
+          { "label": "召集其他老人一起分享回忆", "response": "那天下午，整个养老院都下起了温暖的雨。没有人再提湿度的事。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_ex_rainbow",
+      "title": "与前男友的复合气象",
+      "description": "17:00 下班路上遇到前男友，两人情绪气泡碰撞产生罕见的\"复合气象现象\"——先是暴风雪然后突然放晴再转彩虹，路人纷纷拍照。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "他在路口等你。\n\n你们的情绪气泡撞在一起，先是暴风雪——那些没说出口的话冻成了冰晶。\n\n然后突然放晴了。\n\n最后是彩虹。\n\n路人在拍照，但你们只是站着，看着彼此笑了一下。\n\n有些人再见不是为了重来，是为了好好告别。",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_10_mom_sunset",
+      "title": "妈妈电话里的夕阳",
+      "description": "19:00 回到家，妈妈打来视频电话，屏幕那头传来熟悉的唠叨，房间里慢慢升起温暖的夕阳色光晕，这是她一天中最稳定的好天气。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "\"吃饭了吗？\"\n\"今天累不累？\"\n\"早点睡啊。\"\n\n妈妈的唠叨像一首永远不会跑调的歌。\n\n房间里的光变成了夕阳的颜色，暖暖的，稳稳的。\n\n这是你今天最确定的天气。\n\n不管外面是风暴还是浓雾，这通电话永远是晴天。",
+      "bgmTag": "family_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_11_starlight_sleep",
+      "title": "窗内的星光",
+      "description": "22:00 睡前写日记，情绪逐渐平静，窗外——不，是窗内——星光点点，微风拂面。",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.2,
+      "narrativeText": "日记本上写着：\n\n\"今天预报了别人的天气，也被自己的天气折腾了一天。\n\n但最后发现，最好的天气不在天上，在心里。\"\n\n你放下笔，房间里升起了星星。\n\n不是窗外的，是你自己的。\n\n晚安，情绪天气预报员。\n\n明天又是新的一天。",
+      "bgmTag": "ending_peaceful",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_08_nursing_home_rain", "evt_10_mom_sunset"],
+    "valleyMoments": ["evt_04_wrong_prediction", "evt_07_broadcast_fail"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V1",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
