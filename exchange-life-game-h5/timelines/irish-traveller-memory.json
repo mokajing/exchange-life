@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "id": "irish-traveller-memory",
+    "title": "爱尔兰旅人家族的游牧记忆",
+    "subtitle": "在欧洲最古老的流浪民族里用口述史对抗被抹去的身份",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T04:05:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_camp",
+      "title": "清晨营地醒来与祖母采药",
+      "description": "清晨5:30在家族营地醒来，7:00随祖母采集草药并聆听她用Shelta语讲述家族谱系。每一条路都是家谱。",
+      "ageRange": { "start": 8, "end": 8 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "帐篷外的鸟鸣比闹钟更早到来。祖母的手指沾着露水，从草丛中摘下一把你不认识的叶子。她用一种你听不懂的语言低声说着什么——那是Shelta，旅人的秘密语言。'这条路是你曾祖父走过的，'她指着远处蜿蜒的小径，'我们没有土地，但每一条路都是我们的家谱。'晨雾中的营地像一座移动的城堡，没有地址，却处处是家。",
+      "bgmTag": "tin_whistle_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_market_rejection",
+      "title": "集市上被店主拒绝服务",
+      "description": "前往定居城镇集市做锡器修补生意，被店主拒绝：\"你们这种人我们不接待。\"孩子在车里问\"妈妈我们是不是坏人\"。",
+      "ageRange": { "start": 10, "end": 10 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.85,
+      "narrativeText": "锡器在阳光下闪着温润的光，那是父亲花了一整夜敲出来的。但店主的门在你面前关上了，玻璃后面是一张不耐烦的脸：'你们这种人我们不接待。'回到车里，妹妹仰起头问：'妈妈，我们是不是坏人？'这个问题比任何辱骂都更锋利。母亲没有回答，只是把妹妹搂得更紧了些。车窗外的城镇依然美丽，但那美丽与你无关。",
+      "bgmTag": "market_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "集市被拒后，你会怎么做？",
+        "options": [
+          { "label": "沉默离开", "response": "你把锡器收回包里，转身走向下一个摊位。沉默是祖辈教会的生存策略，但每一次沉默都在心里刻下一道痕。" },
+          { "label": "据理力争", "response": "你站在门口说'这是歧视'，声音在发抖。店主耸耸肩关上了门。你赢回了尊严，但也失去了一个可能的顾客。" },
+          { "label": "换一家再试", "response": "你深吸一口气走向隔壁店铺。有些门会打开，有些不会。但你学会了不把一扇关上的门当作全世界的判决。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_police_eviction",
+      "title": "警方要求48小时内离开",
+      "description": "警方以\"非法露营\"为由要求48小时内离开，但附近没有任何合法营地可供使用。流浪不是选择，是被强加的身份。",
+      "ageRange": { "start": 13, "end": 13 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "警车的蓝灯在暮色中闪烁。'48小时，'警察说，语气像在念一份菜单。你问'我们能去哪里？'他指了指公路尽头，那里什么都没有。收拾帐篷时，钉子扎进手指的疼痛让你清醒：这不是冒险故事里的'说走就走'，这是被驱逐。流浪不是你们选择的浪漫，是社会留给你们的唯一选项。",
+      "bgmTag": "eviction_drums",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "警方要求离开时，你会怎么回应？",
+        "options": [
+          { "label": "配合收拾", "response": "你默默拔起帐篷钉，把家当塞进车里。顺从是最安全的选择，但也是最沉重的妥协。" },
+          { "label": "询问合法营地信息", "response": "你拿出手机搜索附近的合法营地，结果是一片空白。这个国家没有给你们留下落脚的地方。" },
+          { "label": "请求宽限到明早", "response": "你说'天黑了孩子们需要休息'。警察犹豫了一下，点了点头。这一夜的宽限，是用尊严换来的喘息。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_fireside_stories",
+      "title": "夜间围火聆听迁徙歌谣",
+      "description": "废弃停车场临时扎营，家族围火晚餐。长老唱起百年前的迁徙歌谣，年轻人改了歌词加入现代苦难。传统是活着的呼吸。",
+      "ageRange": { "start": 15, "end": 15 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.75,
+      "narrativeText": "篝火噼啪作响，火光在每个人脸上跳跃。长老的声音像一条古老的河流，唱着19世纪大饥荒时被驱逐的故事。然后表哥接过了旋律，把歌词换成了去年被赶出停车场的夜晚。旧曲新词，悲伤叠着悲伤，但歌声没有断。你跟着哼唱，发现自己的声音也在颤抖。这不是博物馆里的展品，这是活着的、呼吸着的记忆。",
+      "bgmTag": "sean_nos_fire",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_tiktok_identity",
+      "title": "年轻一代用TikTok重建身份认同",
+      "description": "年轻一代在TikTok上用旅人音乐和舞蹈重建身份认同。从被抹去到主动发声，数字时代的新口述史。",
+      "ageRange": { "start": 18, "end": 22 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "手机屏幕亮起来，评论区里有人问'你们是吉普赛人吗？'你打字回复：'我们是爱尔兰旅人，Minceiri，欧洲最古老的游牧民族。'然后上传了一段祖母教的Shelta语问候视频。点赞数慢慢涨起来，有旅人留言说'谢谢你替我说出了我不会说的话'。在这个小小的屏幕上，你们正在重写被抹去的历史。",
+      "bgmTag": "modern_traveller",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "年轻人邀请你录一段TikTok，你会怎么做？",
+        "options": [
+          { "label": "参与拍摄", "response": "你站在镜头前，用刚学会的Shelta语说了一句问候。视频发出后，收到了来自世界各地的旅人后裔的留言。你的声音成为了新的口述史。" },
+          { "label": "婉拒旁观", "response": "你退到镜头外，看着他们在光影中跳舞。不是每个人都准备好被看见，但见证本身也是一种参与。" },
+          { "label": "提议改为录音存档", "response": "你说'比起短视频，我更想录一段完整的口述史'。他们同意了。那段录音后来被存入了旅人文化档案馆。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_fireside_stories", "evt_05_tiktok_identity"],
+    "valleyMoments": ["evt_02_market_rejection", "evt_03_police_eviction"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["systemic_discrimination", "forced_displacement", "cultural_erasure", "poverty"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
