@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "id": "earthquake-search-dog-handler",
+    "title": "地震搜救犬训导员的废墟72小时",
+    "subtitle": "在瓦砾与绝望之间用鼻子和信任寻找生命信号的无言搭档",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T05:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dispatch",
+      "title": "紧急出动",
+      "description": "地震发生后30分钟内携犬完成装备检查登车出发，紧张与使命感交织。",
+      "ageRange": { "start": 26, "end": 40 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "警报声刺破凌晨的寂静。你抓起战术背包冲向犬舍，'雷霆'已经站在门口等你了——它比你更早知道发生了什么。三十分钟内完成装备检查、登车、出发。车厢里只有引擎声和犬的喘息声，你的手指无意识地摩挲着牵引绳上的磨损痕迹。",
+      "bgmTag": "urgent_drums",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_first_search",
+      "title": "首次实战搜索",
+      "description": "抵达灾区后第一轮全面搜索，犬以之字形路线嗅探，训导员通过肢体语言判断生命信号。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "废墟比训练场大一百倍，也比训练场安静一百倍。'雷霆'开始以之字形路线嗅探，尾巴摆动频率突然加快——你屏住呼吸。它停在一堆预制板前，前爪轻刨了两下，然后回头看你。那个眼神你在训练中见过上千次，但这一次，你知道下面真的有人。",
+      "bgmTag": "tension_strings",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "犬给出了信号，你会如何确认？",
+        "options": [
+          { "label": "立即标记位置呼叫人工确认", "response": "你用喷漆在预制板上画了个圆圈，对讲机里传来'收到，救援组三分钟后到'。" },
+          { "label": "让犬继续嗅探确认信号强度", "response": "'雷霆'再次低头嗅探，尾巴摆动更急促了——信号很强，下面的人还有意识。" },
+          { "label": "自己先靠近倾听是否有回应", "response": "你趴在预制板缝隙边喊了三声，隐约听到一声微弱的敲击。你的眼眶突然热了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_false_alarm",
+      "title": "假警报的考验",
+      "description": "犬对食物残渣产生反应，训导员必须在几秒内区分活人气味与干扰。",
+      "ageRange": { "start": 27 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "'雷霆'在一处塌陷点兴奋地刨爪，你的心猛地提起。但走近后闻到了腐烂食物的味道——是废墟下的厨房残骸。犬的反应强度和发现活人时微妙不同：耳朵朝向偏左、停顿时间短了0.5秒。这些差异只有你能读懂。误判浪费了二十分钟，但你没有责备它。",
+      "bgmTag": "dissonant_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对假警报，你会如何调整？",
+        "options": [
+          { "label": "给犬一个安抚信号继续搜索", "response": "你轻拍'雷霆'的侧腹，低声说'再找找'。它摇了一下尾巴，重新进入工作状态。" },
+          { "label": "短暂休息让犬重置嗅觉基准", "response": "你带'雷霆'到上风口休息三分钟，让它闻一下干净的空气。重新入场后它的判断更精准了。" },
+          { "label": "记录这次误判的特征用于复盘", "response": "你在笔记本上记下：'厨房残骸区，气味特征X，犬反应模式Y'。这些数据会让下一次更快。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_night_watch",
+      "title": "夜间营地休整",
+      "description": "黄金48小时后进入疲劳期，犬每工作20分钟需休息，营地里人与犬共享沉默。",
+      "ageRange": { "start": 27 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "篝火噼啪作响，远处机械声从未停歇。'雷霆'趴在你脚边，头枕着你的靴子。它今天找到了两个幸存者，也经历了三次假警报。你摸了摸它耳后的软毛，它没有抬头，只是尾巴轻轻敲了一下地面。这种沉默比任何话语都重。",
+      "bgmTag": "campfire_guitar",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_final_push",
+      "title": "黄金72小时最后冲刺",
+      "description": "犬的嗅觉因疲劳下降30%，但经验弥补体力损耗，老犬用更高效路线覆盖关键区域。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第七十个小时。'雷霆'的步伐明显慢了，但它拒绝休息。它开始跳过已确认无信号的区域，直奔结构最复杂的坍塌核心——这是老犬才有的直觉。你在后面跟着，知道它在用最后的力气赌一个奇迹。当它再次停下回头看你时，你看到了它眼里的疲惫，也看到了不肯熄灭的光。",
+      "bgmTag": "hope_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "犬已极度疲劳，你会如何选择？",
+        "options": [
+          { "label": "尊重犬的判断继续跟随", "response": "你相信它的鼻子胜过任何仪器。三分钟后，救援队从它标记的位置抬出了一位老人。" },
+          { "label": "强制休息十分钟再继续", "response": "你蹲下来抱住它的头，它喘着粗气靠在你肩上。十分钟后它站起来时，眼神重新聚焦了。" },
+          { "label": "请求换犬但自己留下协助", "response": "新犬需要重新适应场地气味，你用自己的经验帮它缩小搜索范围。时间紧迫，但没有人放弃。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_retirement",
+      "title": "退役那天解开牵引绳",
+      "description": "搜救犬服役8-10年后退役，训导员选择把退役犬接回家养老。",
+      "ageRange": { "start": 36 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "十年了。你解下那条磨得发白的牵引绳，蹲下来平视它的眼睛。'去吧，不用再闻废墟的味道了。'它没有动，只是把头埋进你的掌心。你把它带回了家，给它铺了一个远离门口的软垫——它终于不用随时准备出发了。每天清晨它还是会准时醒来，但不再是因为警报，而是因为阳光。",
+      "bgmTag": "farewell_melody",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "退役时刻，你想对它说什么？",
+        "options": [
+          { "label": "谢谢你把最好的年华给了我", "response": "它听不懂人类的语言，但它听得懂你声音里的颤抖。尾巴轻轻摇了两下，像是在说'我也是'。" },
+          { "label": "以后只做一只普通的狗吧", "response": "你把它最喜欢的网球放在软垫旁边。它叼起来又放下，好像还在等指令。你说'玩吧'，它才慢慢咬住。" },
+          { "label": "什么都不说，只是抱着它", "response": "有些告别不需要语言。你的体温、它的心跳、窗外第一次不为任务而升起的太阳——这就够了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "pattern": "W",
+    "description": "紧张出动→首次发现的希望→假警报的挫败→营地休整的温暖→最后冲刺的极致张力→退役告别的温柔释然",
+    "peakMoments": ["evt_02_first_search", "evt_05_final_push", "evt_06_retirement"],
+    "valleyMoments": ["evt_03_false_alarm", "evt_04_night_watch"]
+  },
+  "safetyConfig": {
+    "contentWarnings": ["自然灾害场景", "搜救压力描写"],
+    "triggerWarnings": ["地震创伤记忆"],
+    "exitStrategy": "每次高强度搜索段落后设置营地休整环节，节奏放缓提供情绪消化空间",
+    "landingGuidance": "结尾聚焦于人犬温暖关系而非灾难本身，提供回到当下的正念引导"
+  }
+}

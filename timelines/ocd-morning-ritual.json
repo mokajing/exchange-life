@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "ocd-morning-ritual",
+    "title": "强迫症患者的出门仪式",
+    "subtitle": "在所有人都能轻松推开门的世界里用一遍遍检查才能迈出第一步的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T05:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_alarm",
+      "title": "清晨六点的闹钟",
+      "description": "闹钟响起，但不是起床的信号，而是90分钟检查仪式的起跑枪。",
+      "ageRange": { "start": 19, "end": 35 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "六点整。闹钟响了，但你已经在黑暗中清醒了半小时——脑子里预演着今天的检查清单。煤气阀门、门锁、电器开关、窗户插销，每一项都要重复三次，每次都要默念口诀确认。你知道这不合逻辑，但如果不做完，焦虑会像潮水一样淹没你。",
+      "bgmTag": "ticking_clock",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_door_check",
+      "title": "门口的反复折返",
+      "description": "出门后在门口反复折返确认锁门，邻居的眼神从好奇变成同情再变成回避。",
+      "ageRange": { "start": 19 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你已经走到电梯口了，但脑海里那个声音说'你真的锁好了吗'。你转身回去，手放在门把上确认——锁住了。但走回电梯时那个声音又来了。第三次折返时，隔壁阿姨开门看了你一眼，又默默关上了门。那个眼神比任何指责都重。",
+      "bgmTag": "anxiety_loop",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "又一次怀疑涌上来，你会怎么做？",
+        "options": [
+          { "label": "第四次回去检查", "response": "你知道这会迟到，但焦虑赢了。手触到门锁的那一刻，短暂的安心像止痛药一样生效——直到下次。" },
+          { "label": "拍下门锁照片作为证据", "response": "手机里已经有三百多张门锁照片了。你看了一眼照片，理智告诉你锁好了，但身体还在发抖。" },
+          { "label": "深呼吸尝试不回去", "response": "你站在电梯里浑身冷汗，手指掐进掌心。电梯下行的三十秒像一个世纪。但你做到了——这一次。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_work_intrusion",
+      "title": "工作中的侵入性思维",
+      "description": "开会时突然担心煤气没关，必须执行隐蔽小仪式才能继续集中注意力。",
+      "ageRange": { "start": 22 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "周会上领导正在讲话，你的脑子突然被一个画面占据：厨房的蓝色火苗舔舐着窗帘。你知道早上检查过三次，但'万一呢'这三个字像钉子一样扎进来。你在桌子底下悄悄敲了三下大腿——这是你的隐蔽仪式。没人注意到，但你自己知道，你又输了一次。",
+      "bgmTag": "intrusive_pulse",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "侵入性思维袭来，你会如何应对？",
+        "options": [
+          { "label": "执行隐蔽仪式缓解焦虑", "response": "敲三下大腿、默念口诀、调整呼吸顺序。焦虑暂时退潮了，但你知道它还会回来。" },
+          { "label": "偷偷打开手机看煤气照片", "response": "照片显示阀门是关闭的。你盯着看了十秒，理智和情感之间的裂缝稍微合拢了一点。" },
+          { "label": "尝试不执行仪式忍受焦虑", "response": "你把双手平放在桌上，感受焦虑像海浪一样冲刷身体。很难受，但你发现自己没有崩溃。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_erp_session",
+      "title": "ERP治疗的第一次突破",
+      "description": "暴露与反应预防治疗中故意不检查直接出门，坐在地铁上浑身冷汗手抖。",
+      "ageRange": { "start": 24 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "治疗师说'今天只检查一次就离开'。你站在门口，手已经伸向门锁准备第二次确认，但停住了。走出家门的那一刻，恐惧像冰水浇遍全身。地铁上你抓着扶手，手心全是汗，脑子里尖叫着'回去检查'。但你没有。到站时你的腿在抖，眼泪掉了下来——不是因为害怕，是因为自由的感觉太陌生了。",
+      "bgmTag": "breakthrough_clarinet",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "治疗中的关键时刻，你会如何选择？",
+        "options": [
+          { "label": "坚持不回去检查", "response": "你在地铁上数了七站，每一站都像一场战役。到站时你蹲在站台角落哭了，但那是释放的眼泪。" },
+          { "label": "允许自己中途暂停", "response": "你给治疗师发了消息'我需要休息一下'。她回复'暂停不等于失败，你随时可以继续'。" },
+          { "label": "打电话让伴侣陪你走完这段路", "response": "电话那头她说'我在下一站等你'。有人陪着难受，比独自承受要轻一些。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_partner_understanding",
+      "title": "伴侣学会不替你检查",
+      "description": "亲密关系里伴侣从不耐烦到学会陪他一起数数再到学会不替他检查的漫长磨合。",
+      "ageRange": { "start": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "最初她会帮你检查门锁，以为这样能让你安心。后来她明白了：替你检查不是在帮你，是在喂养那个永远吃不饱的恐惧。现在当你站在门口犹豫时，她不再说'我帮你看看'，而是握住你发抖的手说'我在这里陪你难受'。这句话比一百次确认都有效。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对伴侣的支持，你的感受是？",
+        "options": [
+          { "label": "感激她的理解和耐心", "response": "爱不一定是消除痛苦，有时候只是陪你在痛苦里待一会儿。她学会了这件事。" },
+          { "label": "愧疚自己给她带来了负担", "response": "你说'对不起让你这么累'，她摇头说'我不是在忍受你，我是在爱你'。" },
+          { "label": "希望有一天不再需要这种支持", "response": "你握紧她的手，心里想着：也许永远需要一个比别人更长的早晨，但至少不是一个人。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_small_victory",
+      "title": "终于只检查一次就离开",
+      "description": "某天终于只检查一次就走出家门，走到楼下时眼泪掉下来因为自由太陌生。",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "今天只检查了一次。手放在门锁上确认，然后转身、下楼、走进阳光里。没有折返，没有拍照，没有敲大腿。走到小区门口时，眼泪毫无预兆地掉了下来。不是因为害怕，是因为这种轻松的感觉太陌生了，陌生得像第一次学会呼吸。你可能永远需要一个比别人更长的早晨，但今天的早晨，属于你自己。",
+      "bgmTag": "morning_birds",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "pattern": "W",
+    "description": "窒息束缚→被误解的委屈→治疗中的恐惧与突破→伴侣理解的温暖→微小胜利的陌生自由",
+    "peakMoments": ["evt_04_erp_session", "evt_06_small_victory"],
+    "valleyMoments": ["evt_02_door_check", "evt_03_work_intrusion"]
+  },
+  "safetyConfig": {
+    "contentWarnings": ["心理健康议题", "强迫行为描写"],
+    "triggerWarnings": ["OCD相关创伤"],
+    "exitStrategy": "全程提供退出按钮与暂停机制，检测到快速点击时触发关怀弹窗",
+    "landingGuidance": "体验结束后引导深呼吸三次，提供专业心理援助热线和资源链接",
+    "disclaimer": "本内容为模拟体验，非诊断依据，如您有相关困扰请联系专业机构"
+  }
+}

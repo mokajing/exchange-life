@@ -1,4 +1,4 @@
-/**
+﻿/**
  * 交换人生 - H5版本入口
  * 使用标准Web API替代微信小游戏API
  */
@@ -99,6 +99,9 @@ const TIMELINE_LIST = [
   { id: 'wechat-exposure-day', label: '微信聊天记录被公开播放的社死第一天', level: 'L1' },
   { id: 'qin-great-wall-guard', label: '秦朝修筑长城的戍卒家书——在夯土与烽火之间用竹简写下「勿念」', level: 'L2' },
   { id: 'funeral-ceremony-host', label: '殡仪馆司仪的告别仪式——在别人的终点站里用声音搭建最后一座桥', level: 'L2' },
+  { id: 'earthquake-search-dog-handler', label: '地震搜救犬训导员的废墟72小时——在瓦砾与绝望之间用鼻子和信任寻找生命信号', level: 'L2' },
+  { id: 'ocd-morning-ritual', label: '强迫症患者的出门仪式——在所有人都能轻松推开门的世界里用一遍遍检查才能迈出第一步', level: 'L3' },
+  { id: 'selective-mutism-kindergarten', label: '选择性缄默症儿童的幼儿园日常——不是不想说话而是恐惧把声音锁在了喉咙里', level: 'L3' },
   { id: 'volcano-scientist', label: '火山爆发前夜的监测站值守科学家', level: 'L1' },
   { id: 'wang-jibing', label: '外卖诗人王计兵——从工地到春晚，用诗句丈量人间', level: 'L1' },
   { id: 'wu-shaoqing', label: '寻找你的名字', level: 'L1' },
