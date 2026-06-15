@@ -21,7 +21,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.5,
       "narrativeText": "你来到这个世界才10个月，一场中毒性脑炎改变了你的命运。从此，你的身体不再听使唤，说话含糊不清，走路摇摇晃晃。",
-      "bgmTag": "melancholy-cello",
+      "bgmTag": "melancholy_cello",
       "visualTone": "cool"
     },
     {
@@ -35,7 +35,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.7,
       "narrativeText": "'傻子！'这两个字像针一样扎进你的耳朵。同学们躲着你，邻居们议论你。你学会了低头走路，学会了把委屈咽进肚子里。",
-      "bgmTag": "lonely-piano",
+      "bgmTag": "lonely_piano",
       "visualTone": "dark"
     },
     {
@@ -49,7 +49,7 @@
       "emotion": "anger",
       "emotionIntensity": 0.9,
       "narrativeText": "那个夏天，你鼓起勇气去工厂应聘。老板看了你一眼，当着所有人的面说：'你这样的人，连狗都不如！'你站在那里，脸烧得通红。那一刻，你在心里发誓：一定要活出个人样来。",
-      "bgmTag": "tense-drum",
+      "bgmTag": "tense_drum",
       "visualTone": "dark",
       "interactionChoice": {
         "prompt": "当你被这样羞辱时，你会怎么回应？",
@@ -71,7 +71,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.5,
       "narrativeText": "你在街边摆了个修车摊。手不灵活，就一遍遍练；动作慢，就比别人早起两小时。慢慢地，来找你修车的人多了起来。",
-      "bgmTag": "determined-rhythm",
+      "bgmTag": "determined_rhythm",
       "visualTone": "neutral"
     },
     {
@@ -85,7 +85,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.6,
       "narrativeText": "你用不灵活的手指，一下下敲击键盘学习PS。别人觉得不可能的照片，你硬是把自己的头'P正'了。你开了照相馆，顾客说：'这师傅手艺真绝！'",
-      "bgmTag": "creative-flow",
+      "bgmTag": "creative_flow",
       "visualTone": "bright"
     },
     {
@@ -99,7 +99,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.8,
       "narrativeText": "你成立了纸制品公司，招了35个和你一样的残疾员工。你说：'我们抱团取暖，谁也别嫌弃谁。'看着他们认真工作的样子，你知道自己做对了。",
-      "bgmTag": "warm-community",
+      "bgmTag": "warm_community",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "如果你有能力帮助和你处境相似的人，你会怎么做？",
@@ -121,7 +121,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.8,
       "narrativeText": "你最信任的合伙人卷走了70万。那是你全部的血汗钱。你躺在床上三天没起来。妻子沈春妹坐在床边说：'没关系，我们从头再来。'她的话像一束光，照进了深渊。",
-      "bgmTag": "heartbreak-violin",
+      "bgmTag": "heartbreak_violin",
       "visualTone": "dark"
     },
     {
@@ -135,7 +135,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.8,
       "narrativeText": "你的相册卖到了十几个国家，故宫和华为都成了你的客户。年营业额超过1500万。曾经被骂'傻子'的你，现在被人叫'陆老板'。",
-      "bgmTag": "triumphant-brass",
+      "bgmTag": "triumphant_brass",
       "visualTone": "bright"
     },
     {
@@ -149,7 +149,7 @@
       "emotion": "joy",
       "emotionIntensity": 1.0,
       "narrativeText": "站在感动中国的舞台上，灯光打在你身上。主持人念出你的名字，台下掌声雷动。你想起了那个被骂'连狗都不如'的夏天，想起了妻子那句'从头再来'。这一刻，所有的苦难都有了意义。",
-      "bgmTag": "emotional-climax",
+      "bgmTag": "emotional_climax",
       "visualTone": "bright",
       "interactionChoice": {
         "prompt": "当你终于被世界看见，你最想感谢谁？",
@@ -171,7 +171,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.7,
       "narrativeText": "你没有停下脚步。2025年，你开始研发轮椅牵引车头。当一个坐上轮椅的员工装上它，激动地说'好像有了翅膀'时，你知道，这才是你真正想做的事。",
-      "bgmTag": "hopeful-strings",
+      "bgmTag": "hopeful_strings",
       "visualTone": "bright"
     }
   ],

@@ -20,7 +20,7 @@
       "emotion": "surprise",
       "emotionIntensity": 0.7,
       "narrativeText": "你睁开眼，发现自己站在一座宏伟的宫殿前。\n\n这里是你熟悉的秦朝，却又处处不同。竹简没有被投入火中，而是被小心翼翼地抄录、分类、送入一座名为「大秦博士院」的建筑。\n\n你的历史课本上写着「焚书坑儒」，但在这个世界里，这四个字从未存在过。",
-      "bgmTag": "ancient-mystery",
+      "bgmTag": "ancient_mystery",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "你想先探索哪里？",

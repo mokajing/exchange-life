@@ -21,7 +21,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.6,
       "narrativeText": "6岁那年，你的左眼永远失去了光明。从此，你只能用一只眼睛看这个世界。视野变窄了，但你学会了用更专注的目光去凝视每一行文字。",
-      "bgmTag": "melancholy-cello",
+      "bgmTag": "melancholy_cello",
       "visualTone": "cool"
     },
     {
@@ -35,7 +35,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.9,
       "narrativeText": "高中的时候，你的情绪开始像过山车一样失控。有时兴奋得彻夜不眠，有时抑郁得想结束一切。医生说是躁郁症。你住进了精神病院，不止一次。那些日子，黑暗得像没有尽头。",
-      "bgmTag": "dark-ambient",
+      "bgmTag": "dark_ambient",
       "visualTone": "dark",
       "interactionChoice": {
         "prompt": "当精神疾病让你反复跌入深渊，什么能让你继续前行？",
@@ -57,7 +57,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.5,
       "narrativeText": "出院后，你把自己关在房间里。父母没有逼你工作，只是默默陪着你。你开始学英语、日语、德语。语言成了你和世界对话的方式，也成了你对抗疾病的武器。",
-      "bgmTag": "gentle-piano",
+      "bgmTag": "gentle_piano",
       "visualTone": "neutral"
     },
     {
@@ -71,7 +71,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.8,
       "narrativeText": "十年，22本书，600万字。你的手指在键盘上敲击出另一个世界的声音。翻译的时候，你不是病人，不是'那个疯子'，你是一个译者，一个让文字跨越语言边界的人。",
-      "bgmTag": "creative-flow",
+      "bgmTag": "creative_flow",
       "visualTone": "bright",
       "interactionChoice": {
         "prompt": "如果你能找到一件事让你忘记痛苦，那会是什么？",
@@ -93,7 +93,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.8,
       "narrativeText": "妈妈忘了很多人和事，但她记得你。你放下了翻译，每天给她做饭、擦身、陪她说话。三年前她照顾你，现在换你了。直到她离开的那天，你握着她的手，轻声说：'妈，谢谢你。'",
-      "bgmTag": "farewell-piano",
+      "bgmTag": "farewell_piano",
       "visualTone": "cool"
     },
     {
@@ -107,7 +107,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.9,
       "narrativeText": "妈妈走后，爸爸老了。他在殡仪馆里拨通了记者的电话：'能不能写写我儿子？他翻译了很多书……'这是一个父亲最后的心愿——让世界知道，他的儿子不是'疯子'，是一个有才华的人。",
-      "bgmTag": "emotional-climax",
+      "bgmTag": "emotional_climax",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "如果你的父母为你做了一件让你意想不到的事，你会怎么感受？",
@@ -129,7 +129,7 @@
       "emotion": "surprise",
       "emotionIntensity": 0.7,
       "narrativeText": "文章发出去后，阅读量破亿。人们叫你'杭州版《美丽心灵》'。你没想到，自己这个躲在房间里翻译的人，会被这么多人看见。",
-      "bgmTag": "hopeful-strings",
+      "bgmTag": "hopeful_strings",
       "visualTone": "bright"
     },
     {
@@ -143,7 +143,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.8,
       "narrativeText": "2023年，爸爸也走了。51岁的你，第一次独自生活。屋子里安静得可怕，但你打开了电脑，继续翻译。你知道，这是爸妈最想看到的——你没有停下来。",
-      "bgmTag": "lonely-piano",
+      "bgmTag": "lonely_piano",
       "visualTone": "cool"
     },
     {
@@ -157,7 +157,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.6,
       "narrativeText": "你签署了遗体捐献书。你说，身体是父母给的，最后也要还给这个世界。而你翻译的文字，会代替你继续活着。",
-      "bgmTag": "peaceful-ambient",
+      "bgmTag": "peaceful_ambient",
       "visualTone": "neutral"
     }
   ],

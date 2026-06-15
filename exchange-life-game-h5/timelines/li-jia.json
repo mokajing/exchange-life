@@ -21,7 +21,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.3,
       "narrativeText": "你出生在一个普通的家庭，没有太多波澜的童年，像大多数孩子一样长大。",
-      "bgmTag": "gentle-piano",
+      "bgmTag": "gentle_piano",
       "visualTone": "warm"
     },
     {
@@ -35,7 +35,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.4,
       "narrativeText": "你选择了英语专业，毕业后踏入社会，对未来有些迷茫但充满期待。",
-      "bgmTag": "hopeful-strings",
+      "bgmTag": "hopeful_strings",
       "visualTone": "bright"
     },
     {
@@ -49,7 +49,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.5,
       "narrativeText": "你结婚了，有了两个孩子。和丈夫一起开了家冒菜店，生活忙碌而充实。但小店后来歇业了，你需要找一份稳定的工作。",
-      "bgmTag": "family-warmth",
+      "bgmTag": "family_warmth",
       "visualTone": "warm"
     },
     {
@@ -63,7 +63,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.4,
       "narrativeText": "你成为了成都理工大学的一名环卫工。每天凌晨5:45起床，清扫校园。日子重复而压抑，但校园里弥漫的书香气息，悄悄在你心里种下了一颗种子。",
-      "bgmTag": "melancholy-cello",
+      "bgmTag": "melancholy_cello",
       "visualTone": "cool"
     },
     {
@@ -77,7 +77,7 @@
       "emotion": "surprise",
       "emotionIntensity": 0.8,
       "narrativeText": "那天你刷到考研录取的消息，心跳突然加速。一个念头闪过脑海：'我也可以试试吗？'你深吸一口气，做出了改变命运的决定。",
-      "bgmTag": "dramatic-buildup",
+      "bgmTag": "dramatic_buildup",
       "visualTone": "bright",
       "interactionChoice": {
         "prompt": "如果你在这个年纪决定重新开始学习，你会怎么做？",
@@ -99,7 +99,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.7,
       "narrativeText": "你被评为一级环卫工，工作量增加了。白天扫地累得直不起腰，晚上还要看书做题。有好几次，你想过放弃。但看着熟睡的孩子，你又翻开了书本。",
-      "bgmTag": "tense-strings",
+      "bgmTag": "tense_strings",
       "visualTone": "dark"
     },
     {
@@ -113,7 +113,7 @@
       "emotion": "neutral",
       "emotionIntensity": 0.6,
       "narrativeText": "你把时间掰成碎片：扫地的间隙背单词，午休时做题，等孩子睡着后看网课。8个月，6门科目，你用别人喝咖啡的时间，拼出了自己的未来。",
-      "bgmTag": "determined-rhythm",
+      "bgmTag": "determined_rhythm",
       "visualTone": "neutral"
     },
     {
@@ -127,7 +127,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.8,
       "narrativeText": "成绩出来了。你颤抖着手点开页面——超国家线40分！那一刻，所有的疲惫都化作了泪水。你做到了。",
-      "bgmTag": "triumphant-brass",
+      "bgmTag": "triumphant_brass",
       "visualTone": "bright"
     },
     {
@@ -141,7 +141,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.7,
       "narrativeText": "复试那天，你的手一直在抖。面试官的问题像连珠炮，但你想起那些凌晨的苦读，深吸一口气，稳稳地回答了每一个问题。",
-      "bgmTag": "suspense-piano",
+      "bgmTag": "suspense_piano",
       "visualTone": "neutral"
     },
     {
@@ -155,7 +155,7 @@
       "emotion": "joy",
       "emotionIntensity": 1.0,
       "narrativeText": "4月7日下午5点32分，手机震动。你看到'拟录取'三个字，眼泪夺眶而出。你第一个拨通了妈妈的电话——此前你从未告诉娘家人自己在考研。电话那头，妈妈哭了。",
-      "bgmTag": "emotional-climax",
+      "bgmTag": "emotional_climax",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "当你终于实现了一个看似不可能的梦想，你最想告诉谁？",
@@ -177,7 +177,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.9,
       "narrativeText": "校园广播里传出了你的名字。曾经你是那个默默扫地的人，现在整个学校都知道——有一位环卫工妈妈，考上了本校的研究生。",
-      "bgmTag": "celebration-orchestra",
+      "bgmTag": "celebration_orchestra",
       "visualTone": "bright"
     },
     {
@@ -191,7 +191,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.8,
       "narrativeText": "九月，你将脱下环卫服，背上书包走进教室。这不是终点，而是另一段人生的起点。你说：'8小时内求生存，8小时外求上进。'",
-      "bgmTag": "new-beginning",
+      "bgmTag": "new_beginning",
       "visualTone": "bright"
     }
   ],

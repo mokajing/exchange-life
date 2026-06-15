@@ -19,7 +19,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.8,
       "narrativeText": "成绩单发下来的那一刻，你的手指在发抖。班主任把你叫到办公室，说了什么你已经记不清了，只记得回教室的路上，走廊特别长。你把卷子揉成一团扔进了垃圾桶，晚自习又偷偷捡回来，一道题一道题地看。",
-      "bgmTag": "piano-slow",
+      "bgmTag": "piano_slow",
       "visualTone": "cool",
       "interactionChoice": {
         "prompt": "模拟考砸了，你会怎么做？",
@@ -39,7 +39,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.7,
       "narrativeText": "不知道从哪天开始，课间十分钟变得安静了。没人聊天，没人打闹，只有翻书声和笔尖划过纸面的沙沙声。倒计时牌上的数字像一把悬在头顶的剑，每一天都在逼近。",
-      "bgmTag": "silence-tension",
+      "bgmTag": "silence_tension",
       "visualTone": "cool"
     },
     {
@@ -52,7 +52,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.6,
       "narrativeText": "凌晨三点，你翻了个身，发现对面床铺也有动静。黑暗中你们对视了一眼，谁也没有说话，但都轻轻笑了一下。那一刻你知道，你不是一个人在扛。",
-      "bgmTag": "ambient-night",
+      "bgmTag": "ambient_night",
       "visualTone": "dark"
     },
     {
@@ -64,7 +64,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.5,
       "narrativeText": "妈妈端来夜宵的时候轻手轻脚，像是怕打扰到什么。爸爸把电视声音调到了最小，坐在沙发上假装在看新闻。他们什么都不说，但你全都知道。",
-      "bgmTag": "warm-quiet",
+      "bgmTag": "warm_quiet",
       "visualTone": "warm"
     },
     {
@@ -77,7 +77,7 @@
       "emotion": "sadness",
       "emotionIntensity": 0.9,
       "narrativeText": "放学走出校门，你看见了一个熟悉的身影。爸爸站在那里，手里拎着一个袋子，有点不自在地朝你笑了笑。他带你去了街角的面馆，点了一碗牛肉面。筷子拿起来又放下，半天才挤出一句：'吃完回去好好考。'",
-      "bgmTag": "no-bgm-ambient",
+      "bgmTag": "no_bgm_ambient",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "面对不善言辞的父亲，你会怎么做？",
@@ -98,7 +98,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.8,
       "narrativeText": "摄影师喊'三二一'的时候，所有人都在笑。可是笑着笑着，有人先红了眼眶。快门按下的那一秒，定格的不只是一张照片，是再也回不去的三年。",
-      "bgmTag": "nostalgic-piano",
+      "bgmTag": "nostalgic_piano",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "毕业照那天，你最想做什么？",
@@ -118,7 +118,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.7,
       "narrativeText": "提前一天去看考场。你沿着从家到考点的路走了一遍，数了几个红绿灯，记住了拐弯处的标志。手心全是汗，心跳声大得像是全世界都能听见。",
-      "bgmTag": "heartbeat-low",
+      "bgmTag": "heartbeat_low",
       "visualTone": "neutral"
     },
     {
@@ -130,7 +130,7 @@
       "emotion": "mixed",
       "emotionIntensity": 0.6,
       "narrativeText": "那天晚上家里特别安静。妈妈在厨房里忙活，刀切在砧板上的声音格外清晰。她给你准备了红色T恤说明天穿，早餐摆了两根油条和一个鸡蛋——100分。你躺在床上，听着这些熟悉的声音，忽然觉得没那么怕了。",
-      "bgmTag": "strings-gentle",
+      "bgmTag": "strings_gentle",
       "visualTone": "warm"
     },
     {
@@ -143,7 +143,7 @@
       "emotion": "fear",
       "emotionIntensity": 0.9,
       "narrativeText": "你深吸一口气，走进了那扇门。坐下来，展开试卷，监考老师的声音从远处传来：'开始答题。'笔尖碰到纸面的那一刻，整个世界安静了。只剩下你和面前的这张卷子。",
-      "bgmTag": "minimal-piano",
+      "bgmTag": "minimal_piano",
       "visualTone": "bright"
     },
     {
