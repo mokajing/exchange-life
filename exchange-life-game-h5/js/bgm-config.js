@@ -267,7 +267,22 @@ const BGM_MAP = {
   emotional_release:      { file: 'audio/bgm/emotional_release.mp3',      volume: 0.45, loop: false },
   connection_warm:        { file: 'audio/bgm/connection_warm.mp3',        volume: 0.35, loop: true },
   daily_peace:            { file: 'audio/bgm/daily_peace.mp3',            volume: 0.25, loop: true },
-  academic_quiet:         { file: 'audio/bgm/academic_quiet.mp3',         volume: 0.25, loop: true }
+  academic_quiet:         { file: 'audio/bgm/academic_quiet.mp3',         volume: 0.25, loop: true },
+
+  // === 水下考古队员专用标签 (2026-06-16 P0第225卷) ===
+  ocean_night:            { file: 'audio/bgm/ocean_night.mp3',            volume: 0.25, loop: true },
+  ocean_morning:          { file: 'audio/bgm/ocean_morning.mp3',          volume: 0.3, loop: true },
+  deep_sea_silence:       { file: 'audio/bgm/deep_sea_silence.mp3',       volume: 0.2, loop: true },
+  deep_sea_work:          { file: 'audio/bgm/deep_sea_work.mp3',          volume: 0.25, loop: true },
+  discovery_cello:        { file: 'audio/bgm/discovery_cello.mp3',        volume: 0.4, loop: false },
+  decompression_wait:     { file: 'audio/bgm/decompression_wait.mp3',     volume: 0.2, loop: true },
+  surface_return:         { file: 'audio/bgm/surface_return.mp3',         volume: 0.35, loop: true },
+  tension_underwater:     { file: 'audio/bgm/tension_underwater.mp3',     volume: 0.4, loop: true },
+  lab_precision:          { file: 'audio/bgm/lab_precision.mp3',          volume: 0.25, loop: true },
+  reunion_piano:          { file: 'audio/bgm/reunion_piano.mp3',          volume: 0.4, loop: false },
+  evening_reflection:     { file: 'audio/bgm/evening_reflection.mp3',     volume: 0.3, loop: true },
+  team_warmth:            { file: 'audio/bgm/team_warmth.mp3',            volume: 0.35, loop: true },
+  night_ocean:            { file: 'audio/bgm/night_ocean.mp3',            volume: 0.2, loop: true }
 };
 
 /**

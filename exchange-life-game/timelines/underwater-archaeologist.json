@@ -1,0 +1,214 @@
+{
+  "meta": {
+    "id": "underwater-archaeologist",
+    "title": "文物水下考古队员的南海沉船发掘",
+    "subtitle": "在30米海底用刷子清理千年瓷片的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T02:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_pre_dawn_check",
+      "title": "凌晨装备检查",
+      "description": "4:30起床检查装备，确认潜水计划与减压表",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "闹钟还没响，身体已经醒了。高压作业要求充足睡眠，但心里总惦记着今天的潜水计划。检查装备是刻进肌肉记忆的流程：气瓶压力、调节器密封、减压表参数...每一项都关乎生死。窗外还是漆黑一片，只有海浪拍打船体的声音。",
+      "bgmTag": "ocean_night",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_briefing",
+      "title": "安全简报",
+      "description": "5:30乘考古船抵达沉船遗址上方，进行安全规程briefing",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "甲板上的晨风带着咸味。队长展开海图，标注今天的作业区域和备用上升路线。\"能见度预计2-3米，注意保持绳距。\"每个人点头确认。这不是第一次下潜，但每一次都像第一次一样郑重。",
+      "bgmTag": "ocean_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_first_dive",
+      "title": "第一次下潜",
+      "description": "6:00下潜至30米海底，能见度仅2-3米",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "入水的瞬间，世界安静了。气泡声渐强又渐弱，最后只剩自己的呼吸调节器声。光线一层层被海水吞噬，从蓝绿变成灰蓝，再变成近乎黑暗。头灯打开，前方两米，什么也看不见。伸手。摸到了绳索。继续下潜。三十米。相当于承受4倍地面气压。耳朵早就适应了，但心里的敬畏从未习惯。",
+      "bgmTag": "deep_sea_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "下潜过程中感到耳压不适，你会怎么做？",
+        "options": [
+          { "label": "暂停下潜做平衡动作", "response": "你捏住鼻子轻轻鼓气，耳膜'噗'的一声通了。队友回头确认你的状态，竖起大拇指。专业训练让这一切成为本能。" },
+          { "label": "继续下潜稍后调整", "response": "你忍着不适继续下沉，直到抵达作业深度才做平衡。有点冒险，但时间窗口有限。事后队长提醒你不要勉强。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_brush_work",
+      "title": "海底清理",
+      "description": "6:40抵达沉船核心区，开始用软毛刷逐寸清理淤泥中的瓷片",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "刷子一寸一寸移开覆盖了几百年的淤泥。动作必须轻柔——这些瓷片比任何博物馆展品都脆弱。泥沙被搅起又缓缓沉降，像时间的呼吸。偶尔有鱼群好奇地靠近，又迅速散去。在这个寂静的世界里，你是唯一的访客。",
+      "bgmTag": "deep_sea_work",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_05_discovery",
+      "title": "发现宋代青白瓷碗",
+      "description": "7:20发现一枚完整的宋代青白瓷碗，心跳加速但手必须稳",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "指尖触到光滑釉面的瞬间，心跳漏了一拍。不是碎片，是完整的。刷子停下，不敢再快了。头灯的光照亮了它——青白色的釉面在海底沉睡了八百年，此刻因为你的注视而重新被看见。这件器物上一次被人触摸，是宋朝工匠的手。现在，是你的手。两个相隔千年的人，通过同一件器物实现了物理接触。",
+      "bgmTag": "discovery_cello",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "发现完整瓷器的那一刻，你会怎么做？",
+        "options": [
+          { "label": "立即标记拍照上报", "response": "你克制住激动，按规范流程拍照、编号、记录坐标。导师后来肯定了你的专业素养。" },
+          { "label": "忍不住多刷几下看清全貌", "response": "你轻轻刷去更多淤泥，想看清纹饰细节。差点碰到边缘——一个惊险的教训。事后你明白了为什么规程那么严格。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_decompression",
+      "title": "减压停留",
+      "description": "8:00在15米处悬停20分钟进行减压",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "悬停在15米深处，无所事事的20分钟。不能动，不能快，只能等待身体适应压力变化。脑中回放刚才的发现——那抹青白色在黑暗中浮现的样子。身边有鱼群游过，水流轻抚面罩。这是水下考古最奇特的时刻：身体被困住，思绪却比任何时候都自由。",
+      "bgmTag": "decompression_wait",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "减压停留的20分钟，你想怎么度过？",
+        "options": [
+          { "label": "闭眼冥想感受水压", "response": "你闭上眼睛，感受水压包裹全身。呼吸声成为唯一的节奏。这20分钟像一场深海冥想。" },
+          { "label": "观察身边的海洋生物", "response": "你睁大眼睛观察周围。一群银色小鱼绕着你转圈，像是好奇这个静止不动的庞然大物。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_surface",
+      "title": "出水记录",
+      "description": "9:00出水，立即填写水下记录表、拍摄文物编号照片",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "破水而出的瞬间，阳光刺得眯起眼睛。身体的重量重新回来，但心里的某种东西还留在海底。甲板上已经有人等着接应。你摘下调节器，第一口空气带着柴油和海水的味道。立即填写记录表——记忆会褪色，数据不会。",
+      "bgmTag": "surface_return",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_emergency",
+      "title": "紧急减压险情",
+      "description": "一次作业中队友气瓶故障，两人共享一个气源完成减压程序",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "队友的气瓶突然报警。你们对视一眼，无需言语。共享气源，交替呼吸，在水下悬停的每一秒都是对信任的考验。减压程序不能跳过，哪怕每一秒都像一年。回到船上后，你们相视一笑，什么都没说。有些默契，比任何语言都精准。",
+      "bgmTag": "tension_underwater",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_09_lab_work",
+      "title": "实验室脱盐处理",
+      "description": "15:30回到实验室，对出水文物进行脱盐处理",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "冷白灯光下，不锈钢台面反射着精密工具的光泽。出水的瓷器需要漫长的脱盐、脱水、加固过程，一件可能需要数年修复。你用镊子夹起一小块瓷片，在显微镜下观察釉层结构。从海底到实验室，从感性到理性，但温情从未缺席。",
+      "bgmTag": "lab_precision",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_10_puzzle_complete",
+      "title": "拼合碎片的顿悟",
+      "description": "连续三天清理出的碎瓷片，在实验室里拼合成一只完整执壶",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "最后一块碎片归位的瞬间，时间仿佛接通了。三天来在水下一寸寸清理的碎片，此刻在你手中重获完整。这不是一只普通的壶——它是八百年前某个匠人的心血，是某艘商船的货物，是某段历史的见证。而你，亲手接上了断裂的时间线。",
+      "bgmTag": "reunion_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "拼合完成后，你有什么感想？",
+        "options": [
+          { "label": "感受到传承的重量", "response": "你轻轻抚摸拼合处，那些缝隙像是时间的伤疤，也是愈合的证明。这份工作不只是考古，更是文明的接力。" },
+          { "label": "想到还有更多碎片等待", "response": "完整的只是少数，更多碎片还在海底等待。你已经在期待明天的下潜了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_11_journal",
+      "title": "撰写考古日志",
+      "description": "17:00撰写当日考古日志，标注每件文物的坐标位置",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "日志是写给未来的自己，也是写给后来的研究者。每一件文物的坐标、状态、关联信息都要精确记录。笔尖划过纸面的沙沙声，是这一天最后的仪式。",
+      "bgmTag": "evening_reflection",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_12_review",
+      "title": "团队复盘",
+      "description": "19:00晚餐后整理影像资料，与团队复盘当日进展",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "餐厅里的灯光暖黄，大家围坐在一起看今天的水下录像。有人指着屏幕喊\"看这里！\"，有人补充当时没注意到的细节。笑声和讨论声交织。在这个远离陆地的世界里，团队就是彼此的家。",
+      "bgmTag": "team_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_13_rest",
+      "title": "提前入睡",
+      "description": "21:00检查次日潜水设备后提前入睡，高压作业要求充足休息",
+      "ageRange": { "start": 28 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "设备检查完毕，明天又是新的一天。躺在床上，耳边是海浪的节奏。闭上眼，脑海里浮现的是那抹青白色，和指尖触碰釉面时的温度。那些沉睡千年的故事，因为你的注视而重新被看见。晚安，海底的世界。",
+      "bgmTag": "night_ocean",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_05_discovery", "evt_10_puzzle_complete"],
+    "valleyMoments": ["evt_08_emergency"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["深水作业", "幽闭空间"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
