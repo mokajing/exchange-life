@@ -155,7 +155,7 @@ const BGM_MAP = {
   harbor_bustle:     { file: 'audio/bgm/harbor_bustle.mp3',     volume: 0.35, loop: true },
   tea_negotiation:   { file: 'audio/bgm/tea_negotiation.mp3',   volume: 0.3, loop: true },
   nostalgic_strings: { file: 'audio/bgm/nostalgic_strings.mp3', volume: 0.35, loop: true },
-  family_warmth:     { file: 'audio/bgm/family_warmth.mp3',     volume: 0.3, loop: true },
+  // family_warmth 已在上方定义（volume: 0.35），此处移除重复定义
   uneasy_whispers:   { file: 'audio/bgm/uneasy_whispers.mp3',   volume: 0.3, loop: true },
   ocean_night:       { file: 'audio/bgm/ocean_night.mp3',       volume: 0.3, loop: true }
 };
