@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "id": "miner-to-streamer",
+    "title": "从煤矿工人到直播带货主播",
+    "subtitle": "一个资源枯竭型城市转型个体的十年挣扎与重生",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_mine_closure",
+      "title": "2016·矿井关闭那天",
+      "description": "煤矿去产能政策落地，矿井关停，最后一次下井把安全帽留在更衣室",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2016 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "最后一次下井，你把安全帽留在了更衣室。十八年的井下生涯，像一场漫长的梦。买断工龄的十二万块钱打到卡上那天，你蹲在矿区门口抽了一整包烟。你不知道明天该干什么，只知道那个叫'矿工李建国'的人，今天死了。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "矿井关闭后的第一个早晨，你会怎么做？",
+        "options": [
+          { "label": "去劳务市场找新工作", "response": "你在劳务市场转了三天，发现自己除了挖煤什么都不会。" },
+          { "label": "在家躺一天再说", "response": "你躺在床上盯着天花板，妻子做好饭叫你，你说没胃口。" },
+          { "label": "打开手机看看有什么机会", "response": "你刷到一条短视频，有人拍自己摆摊卖小吃，点赞几十万。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_failed_attempts",
+      "title": "2017·出租车和烧烤摊都失败了",
+      "description": "尝试开出租车、摆烧烤摊均失败，积蓄耗尽",
+      "ageRange": { "start": 41 },
+      "yearRange": { "start": 2017 },
+      "category": "crisis",
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "出租车开了三个月，赔了。烧烤摊摆了半年，也赔了。你不是不努力，是不知道往哪努力。积蓄见底的时候，女儿打来电话说考上大学了。你笑着说恭喜，挂了电话在厕所里哭了半小时。学费怎么办？你不知道。",
+      "bgmTag": "somber_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_first_video",
+      "title": "2019·第一条视频意外爆火",
+      "description": "女儿学费压力下接触短视频，第一条'煤矿工人的一天'获得50万播放",
+      "ageRange": { "start": 43 },
+      "yearRange": { "start": 2019 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你只是随手拍了一段以前下井的视频，配上几句心里话。第二天醒来，手机炸了。五十万播放，评论区全是'辛苦了''致敬'。你盯着屏幕看了很久，不敢相信这些字是在说你。原来有人愿意听一个矿工的故事。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "视频爆火后，你会怎么回应？",
+        "options": [
+          { "label": "继续拍更多矿工故事", "response": "你开始系统地记录矿区生活，粉丝慢慢涨到十万。" },
+          { "label": "觉得只是运气好不再更新", "response": "你删掉了视频，觉得自己不配被关注。三个月后才重新鼓起勇气。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_livestream_fail",
+      "title": "2020·第一次直播翻车",
+      "description": "疫情居家开始直播带货，紧张到说不出话被观众嘲讽",
+      "ageRange": { "start": 44 },
+      "yearRange": { "start": 2020 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "直播间里只有二十个人，但你紧张得手心全是汗。'介绍一下产品啊''下去吧'——弹幕飘过，你的脑子一片空白。关掉直播后你蹲在厕所哭了半小时。妻子敲门说'没事，下次就好了'。你擦干眼泪，打开了第二次直播。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "第一次直播被嘲讽时，你会怎么做？",
+        "options": [
+          { "label": "关掉直播放弃", "response": "你关掉了直播，但第二天又打开了。有些路，跪着也要走完。" },
+          { "label": "硬着头皮继续", "response": "你深吸一口气，对着镜头说'我第一次播，大家多包涵'。有人刷了个加油。" },
+          { "label": "下播后看鼓励留言", "response": "你发现评论区有人说'大叔别怕，我们支持你'。那句话你截图保存到现在。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_big_order_night",
+      "title": "2021·爆单之夜",
+      "description": "签约MCN后粉丝破百万，一场直播卖出2000斤红枣",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2021 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "两千斤红枣，打包到手抖。妻子和孩子一起帮忙到凌晨三点。订单提示音密集得像下雨，你从来没听过这么好听的声音。月入三万，比以前下井一年还多。你终于还清了女儿的学费贷款。但前工友的一句话让你整夜未眠。",
+      "bgmTag": "driving_beat",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_friend_question",
+      "title": "2021·前工友的质疑",
+      "description": "前工友问'你现在是不是看不起我们了'，身份撕裂感达到顶峰",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2021 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "'你现在是不是看不起我们了？'老张在微信上发来这句话。你盯着屏幕看了很久，打了一行字又删掉。你没有看不起他们，你只是换了一种活法。但这种解释太苍白了。那天晚上你关了直播，一个人坐在阳台上抽了一夜的烟。",
+      "bgmTag": "bittersweet_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对前工友的质疑，你会怎么回应？",
+        "options": [
+          { "label": "解释自己没有变", "response": "你发了一段长长的语音，说了很多'我还是我'。对方回了个'嗯'。" },
+          { "label": "沉默不回复", "response": "你不知道说什么。有些距离，不是语言能填平的。" },
+          { "label": "邀请他来直播间看看", "response": "老张来了，买了两斤红枣，留言'兄弟，为你骄傲'。你看到后红了眼眶。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_company_founded",
+      "title": "2022·成立农产品供应链公司",
+      "description": "成立自己的公司，雇佣5名前矿工，月收入稳定3-5万",
+      "ageRange": { "start": 46 },
+      "yearRange": { "start": 2022 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "公司注册那天，你把五个前矿工都叫来了。'跟我干吧，咱们一起转型。'他们犹豫了一下，点了头。现在你们有了自己的仓库、自己的品牌。你还是会在直播间讲矿区的日子，只是语气里少了苦涩，多了释然。",
+      "bgmTag": "determined_march",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_health_report",
+      "title": "2024·体检报告上的尘肺病早期",
+      "description": "被评转型创业带头人，但身体落下尘肺病早期症状",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 2024 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "医生说'尘肺病早期，定期复查'。你对着镜子看了自己很久。四十八岁，头发白了大半，手上的老茧还在。你用健康换了钱，又用钱换回了尊严。这笔账算不清。但你看着女儿研究生毕业的照片，觉得值了。",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "拿到体检报告后，你会怎么做？",
+        "options": [
+          { "label": "告诉家人并积极配合治疗", "response": "妻子哭了，女儿说要陪你复查。你说没事，但夜里咳醒时会想起医生的话。" },
+          { "label": "瞒着家人继续工作", "response": "你把报告锁进抽屉。有些担子，只能自己扛。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_reconciliation",
+      "title": "2024·和解与新生",
+      "description": "还清房贷，女儿研究生毕业，找到新的自我认同",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 2024 },
+      "category": "spiritual",
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "房贷还清那天，你去矿区旧址站了很久。井口封了，野草长到了腰。你不再是矿工李建国，也不再是网红李建国。你只是一个父亲，一个丈夫，一个活下来了的人。成功不是终点，活着才是。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_big_order_night", "evt_09_reconciliation"],
+    "valleyMoments": ["evt_01_mine_closure", "evt_04_livestream_fail", "evt_08_health_report"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["职业创伤", "中年危机", "健康焦虑"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

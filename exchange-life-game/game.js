@@ -69,7 +69,8 @@ const TIMELINE_LIST = [
   'encyclopedia-editor',                                                                  // L1/S/V1 - 没有互联网世界的纸质百科全书编辑 (P0第167卷)
   'urban-demolition-windfall',                                                                // L2/S/V2 - 城中村拆迁户的一夜暴富 (P0第197卷)
   'intangible-heritage-last-day',                                                                  // L2/S/V2 - 非遗传承人的最后一天 (P0第202卷)
-  'dyslexia-programmer'                                                                              // L3/S/V2 - 阅读障碍程序员的代码人生 (P0第207卷)
+  'dyslexia-programmer',                                                                              // L3/S/V2 - 阅读障碍程序员的代码人生 (P0第207卷)
+  'miner-to-streamer'                                                                                   // L2/S/V2 - 从煤矿工人到直播带货主播 (P0第219卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
