@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "id": "funeral-ceremony-host",
+    "title": "殡仪馆司仪的告别仪式",
+    "subtitle": "在别人的终点站里用声音搭建最后一座桥的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T05:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_arrival",
+      "title": "清晨到岗",
+      "description": "清晨5:30到达殡仪馆，空旷的走廊只有脚步声回响。检查音响设备、调试灯光、确认遗像摆放位置，每一个动作都精确而克制。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "清晨五点半，殡仪馆的走廊还浸在灰蓝色的晨光里。你的皮鞋踩在水磨石地面上，回声比任何话语都清晰。音响设备的指示灯依次亮起，话筒金属杆的凉意透过掌心传来——这是今天第一次触碰'声音'这个工具。",
+      "bgmTag": "morning_silence",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_mistake",
+      "title": "念错名字的教训",
+      "description": "第一次主持时念错逝者名字被家属纠正，从此养成反复核对三遍的习惯。那个瞬间的羞愧成为职业生涯最深的烙印。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "那是你职业生涯的第一场仪式。悼词上的字迹有些模糊，你念出了一个错误的名字。家属席上有人轻声纠正了你，声音里没有责备，只有疲惫的悲伤。那一刻，话筒仿佛重了千斤。从此以后，每个名字你都会默念三遍才敢开口。",
+      "bgmTag": "cello_memory",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对这个失误，你会如何调整？",
+        "options": [
+          { "label": "当场鞠躬致歉，继续完成仪式", "response": "你深深鞠了一躬，声音重新稳下来。家属的眼神从失望变成了理解。" },
+          { "label": "仪式结束后单独向家属道歉", "response": "你在休息室门口等了半小时，家属走出来时握了握你的手说'谢谢你记得她'。" },
+          { "label": "把这次失误写进工作笔记作为警示", "response": "笔记本第一页写着：'名字是一个人留在这个世界上最后的痕迹。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_wifes_song",
+      "title": "亡妻的录音",
+      "description": "一位老人要求播放亡妻年轻时录的一段录音，全场沉默后老人说'谢谢你让她再唱了一次'。",
+      "ageRange": { "start": 35 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "老人从布包里取出一盘磁带，外壳已经泛黄。你说可以试试转成数字格式播放。当那段带着底噪的女声响起时，整个告别厅安静得能听见呼吸。老人的眼泪没有流下来，只是嘴角微微上扬。仪式结束后他握着你的手说：'谢谢你让她再唱了一次。'",
+      "bgmTag": "piano_nostalgia",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这段录音让你想起了什么？",
+        "options": [
+          { "label": "想起自己从未好好告别的人", "response": "有些话没说出口，就成了永远的遗憾。但此刻的安静本身就是一种和解。" },
+          { "label": "感受到声音承载记忆的重量", "response": "一段录音、一个名字、一句谢谢——这些微小的载体，是生者与逝者之间最后的桥。" },
+          { "label": "理解了这份职业的意义", "response": "你不是在主持仪式，而是在帮活着的人找到安放悲伤的位置。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_young_mother",
+      "title": "抱着骨灰盒的母亲",
+      "description": "年轻母亲抱着孩子的骨灰盒不肯放手，司仪蹲下来平视她说'阿姨帮你抱一会儿好吗'。",
+      "ageRange": { "start": 38 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "她看起来不到三十岁，怀里的盒子那么小。工作人员示意你该进行下一环节了，但你蹲下来，让自己的视线和她平齐。'阿姨帮你抱一会儿好吗？'你没有说'节哀'，没有说'时间到了'。她抬起头看你，眼神里有质疑，也有终于被看见的崩溃。",
+      "bgmTag": "silent_embrace",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在这个时刻，你会怎么做？",
+        "options": [
+          { "label": "保持蹲姿，等待她准备好", "response": "你蹲了整整三分钟，膝盖发麻但没有动。她最终轻轻把盒子递给你，像是交出了全世界最重的东西。" },
+          { "label": "轻声告诉她孩子会希望妈妈好好的", "response": "你没有说这句话。因为你知道，此刻任何'应该'都是对她的二次伤害。" },
+          { "label": "示意同事递上温水，给她一个缓冲", "response": "温水放在她手边，她没有喝，但手指碰触杯壁的温度让她稍微回到了现实。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_colleague_burnout",
+      "title": "同事的离开",
+      "description": "同事因长期情绪积压患上抑郁症离职，你接手了他未完成的最后一场仪式。",
+      "ageRange": { "start": 40 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "老陈的工位空了三个月。他走的那天没跟任何人告别，只留下一本写满仪式备注的笔记本。你翻开最后一页，上面写着：'第412场，张老先生，喜欢京剧，告别曲选《锁麟囊》选段。'这是他没来得及完成的最后一场。你替他做完了。",
+      "bgmTag": "empty_desk",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_final_ceremony",
+      "title": "退休前的最后一场",
+      "description": "退休前最后一场仪式，逝者是当年带他入行的老师傅。这一次，他是那个需要被安慰的人。",
+      "ageRange": { "start": 55 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "师傅走的时候七十八岁。你站在告别厅前方，手里拿着自己写的悼词，才发现那些用来安慰别人的词语，轮到自己时一个字也说不出口。你深吸一口气，用和三十年前一样的语调开口。声音很稳，只有你自己知道，每一个字都在发抖。",
+      "bgmTag": "farewell_dawn",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "仪式结束后，你想对师傅说什么？",
+        "options": [
+          { "label": "'您教我的，我都还记得'", "response": "你在心里默念这句话。那些关于声音分寸、关于尊重、关于'让伤心被允许'的教导，早已长进了骨头里。" },
+          { "label": "'我终于理解了您说的重量'", "response": "入行第一天师傅说'这活儿不轻'。二十年后你才明白，轻的不是话筒，是扛住他人崩溃时自己的那份沉默。" },
+          { "label": "什么都不说，只是在遗像前站一会儿", "response": "有些告别不需要语言。你站在那里，像三十年前第一次走进这间屋子时一样安静。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_wifes_song", "evt_04_young_mother"],
+    "valleyMoments": ["evt_02_first_mistake", "evt_05_colleague_burnout"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["death", "grief", "bereavement"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
