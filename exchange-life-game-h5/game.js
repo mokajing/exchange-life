@@ -87,7 +87,8 @@ const TIMELINE_LIST = [
   { id: 'mortuary-makeup-artist',     label: '殡仪馆化妆师：给逝者画上最后一张脸', level: 'L2' },
   { id: 'bianjing-night-market',      label: '宋朝汴京夜市摆摊指南：一个小摊贩的烟火人生', level: 'L1' },
   { id: 'volcano-scientist',          label: '火山爆发前夜的监测站值守科学家：最后48小时的数据守护', level: 'L2' },
-  { id: 'encyclopedia-editor',        label: '没有互联网世界的纸质百科全书编辑：用红笔守护知识的重量', level: 'L1' }
+  { id: 'encyclopedia-editor',        label: '没有互联网世界的纸质百科全书编辑：用红笔守护知识的重量', level: 'L1' },
+  { id: 'urban-demolition-windfall',  label: '城中村拆迁户的一夜暴富：钱来了然后呢？', level: 'L2' }
 ];
 
 let player = null;

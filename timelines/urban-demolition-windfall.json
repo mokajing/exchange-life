@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "urban-demolition-windfall-001",
+    "title": "城中村拆迁户的一夜暴富",
+    "subtitle": "钱来了然后呢？一个关于财富、身份与归属的故事",
+    "sourceType": "documentary",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-15T23:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-udw-01",
+      "title": "拆迁公告",
+      "description": "2018年3月，拆迁公告张贴在村口，全村沸腾。邻居们开始盘算补偿款，你站在公告前看了很久。",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2018 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "红纸黑字贴在村口的老槐树上，旁边围满了人。你挤进去看了一遍又一遍，上面的数字让你心跳加速。邻居王叔拍着你的肩膀说'发了发了'，但你脑子里想的却是院子里那棵石榴树——那是爷爷种的，每年秋天果子红得像灯笼。你知道签了字，它就再也吃不到了。巷口的炸酱面摊、隔壁李婶的唠叨声、傍晚炊烟里的饭菜香……这些东西没有写在补偿协议里，但它们才是你活了三十二年的证据。",
+      "bgmTag": "urban_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-udw-02",
+      "title": "签约日的手印",
+      "description": "2018年6月签约日，按手印那一刻手在抖。87万补偿款到账那天，你数了三遍零。",
+      "ageRange": { "start": 32 },
+      "yearRange": { "start": 2018 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "红泥沾在拇指上，你在协议上按下去的那一刻，手指是抖的。不知道是激动还是害怕。工作人员笑着说'恭喜啊'，你勉强扯了扯嘴角。三个月后，短信提示音响起，87万。你把手机屏幕擦了又擦，生怕看错一个零。这辈子没见过这么多钱。你坐在空荡荡的新房里，存折放在膝盖上，窗外是陌生的高楼。钱来了，但那种踏实的感觉好像也跟着老房子一起被拆走了。",
+      "bgmTag": "tension_rise",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "第一笔钱到手了，你会怎么用？",
+        "options": [
+          { "label": "存银行，稳妥为上", "response": "你把钱转成定期，看着利息数字心里稍微安定了一些。但亲戚们的电话开始响了。" },
+          { "label": "买套房投资", "response": "售楼小姐第一次对你笑得那么甜。你签了合同，觉得自己终于像个城里人了。" },
+          { "label": "改善生活，犒劳自己", "response": "你买了第一件名牌衣服，走进商场时挺直了腰板。但店员上下打量的目光让你浑身不自在。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-udw-03",
+      "title": "借钱的亲情绑架",
+      "description": "亲戚朋友突然多了三倍，借钱电话从早响到晚。亲舅舅跪下来说'帮帮你外甥'。",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2019 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "手机从早响到晚，全是借钱的。以前不走动的远房亲戚突然热情得像亲兄弟。最难受的是舅舅那天——他扑通一声跪在你面前，说'你有钱了帮帮你外甥吧'。你扶他起来，手心全是汗。不借，就是忘恩负义；借了，又怕要不回来。你妈在旁边抹眼泪，说你爸要是还在就好了。那天晚上你失眠了，盯着天花板想：钱没有买来尊重，反而买来了算计。最亲的人因为钱变了脸，这比被骗还疼。",
+      "bgmTag": "night_thoughts",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对至亲的借钱请求，你怎么做？",
+        "options": [
+          { "label": "全部答应，亲情最重要", "response": "你借出去了二十多万。后来有的还了，有的没了。你和几个亲戚的关系也微妙地变了。" },
+          { "label": "全部拒绝，守住底线", "response": "你成了家族里的'铁公鸡'。过年没人来你家串门了，但你保住了大部分钱。" },
+          { "label": "选择性帮助，量力而行", "response": "你帮了最急的两家，其他的婉拒了。有人说你实在，有人说你变了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-udw-04",
+      "title": "被骗的羞耻",
+      "description": "被人骗投资'稳赚不赔'的项目亏了15万。不敢告诉家人，一个人在阳台上抽了一整夜烟。",
+      "ageRange": { "start": 33 },
+      "yearRange": { "start": 2019 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "那个人说'稳赚不赔'的时候，眼神真诚得像你老家的邻居。你把15万转过去的时候，还以为自己终于学会了理财。三个月后人跑了，电话打不通，微信被拉黑。你坐在安置房的阳台上，一根接一根地抽烟。楼下是陌生的车流声，不是老家巷子里的自行车铃。你没敢告诉任何人——丢钱事小，丢人事大。一个连骗子都看不出来的人，凭什么说自己配拥有这些钱？那一夜的烟味，是你这辈子尝过最苦的滋味。",
+      "bgmTag": "emotional_peak",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "被骗之后，你会怎么做？",
+        "options": [
+          { "label": "报警，追回损失", "response": "警察说立案可以但追回希望不大。你做了笔录，心里清楚这笔钱大概率回不来了。" },
+          { "label": "隐瞒，自己消化", "response": "你把这件事烂在肚子里。每次看到银行卡余额，都像被针扎一下。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-udw-05",
+      "title": "格格不入",
+      "description": "穿着名牌走进商场仍觉得所有人都在看自己的笑话。新邻居看不起你，老街坊也不联系了。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2020 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你穿着刚买的名牌外套走进商场，导购小姐礼貌地微笑，但你总觉得她在心里笑你。电梯里遇到新邻居，对方点了点头就低头看手机。你想打招呼，话到嘴边又咽了回去。以前的老街坊搬的搬、散的散，微信群早就没人说话了。你悬浮在两个世界之间——城里人觉得你是暴发户，老家觉得你忘了本。你站在镜子前看着身上那件贵得离谱的外套，突然觉得它像一件戏服，穿在身上却演不出别人的生活。",
+      "bgmTag": "urban_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-udw-06",
+      "title": "小超市开业",
+      "description": "开了个小超市，生意一般但心里踏实了。以前巷子里的张婶来买东西，说了句'还是你实在'。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": 2021 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "货架是你亲手摆的，标签是你一个个贴的。开业那天没什么客人，你坐在收银台后面发呆。下午三点，一个熟悉的身影推门进来——是以前的张婶。她搬到了隔壁小区，专门绕路过来的。她买了一袋盐、一瓶酱油，结账时说了一句'还是你实在'。你的眼泪差点掉下来。不是因为这句话多好听，是因为终于有人不是因为钱才来找你的。你站在小小的超市里，听着远处学校放学的铃声，忽然觉得这才是属于你的日子。不多，但踏实。",
+      "bgmTag": "morning_calm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "经历了这一切，你觉得什么才是真正的富足？",
+        "options": [
+          { "label": "是身边还有真心待你的人", "response": "你想起张婶那句话，想起老房子院子里的石榴树。有些东西丢了就找不回来了，但有些还在。" },
+          { "label": "是找到让自己踏实的生活方式", "response": "小超市的灯亮到晚上十点。你累，但睡得着觉了。这就够了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-udw-02", "evt-udw-04"],
+    "valleyMoments": ["evt-udw-03", "evt-udw-05"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["财富焦虑", "亲情压力", "诈骗经历"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

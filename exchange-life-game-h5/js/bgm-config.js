@@ -245,7 +245,10 @@ const BGM_MAP = {
   melancholy_gentle:   { file: 'audio/bgm/melancholy_gentle.mp3',   volume: 0.3, loop: true },
   nature_peaceful:     { file: 'audio/bgm/nature_peaceful.mp3',     volume: 0.3, loop: true },
   industrial_rhythm:   { file: 'audio/bgm/industrial_rhythm.mp3',   volume: 0.35, loop: true },
-  triumph_warm:        { file: 'audio/bgm/triumph_warm.mp3',        volume: 0.4, loop: false }
+  triumph_warm:        { file: 'audio/bgm/triumph_warm.mp3',        volume: 0.4, loop: false },
+
+  // === 城中村拆迁户专用标签 (2026-06-15 P0第197卷) ===
+  urban_morning:       { file: 'audio/bgm/urban_morning.mp3',       volume: 0.3, loop: true }
 };
 
 /**
