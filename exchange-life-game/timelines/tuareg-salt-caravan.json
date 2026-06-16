@@ -1,0 +1,113 @@
+{
+  "meta": {
+    "id": "tuareg-salt-caravan",
+    "title": "撒哈拉图阿雷格盐商驼队的跨沙漠远征",
+    "subtitle": "在地球上最大的热荒漠中用千年驼道连接绿洲与文明的蓝衣游牧人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_departure_ritual",
+      "title": "出发前的占卜与准备",
+      "description": "族长根据星象和风向决定出发日期，妇女为每头骆驼缝制护蹄布垫，装载塔奥代尼盐矿的岩盐板。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "星辰的位置对了。风从东北方吹来，带着干燥的承诺。族长点了点头，女人们开始缝制护蹄布垫——每一针都是对骆驼的保护，也是对归途的祈祷。三十公斤一块的岩盐板被小心翼翼地绑上驼背，一头骆驼驮两块。你拉紧蓝色面纱，遮住口鼻以上的面容。出发了。",
+      "bgmTag": "desert_imzad",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_blank_zone",
+      "title": "穿越空白之地",
+      "description": "连续5-7天无任何地标、水源或植被的纯沙海区，全靠星辰导航和对沙丘纹理的记忆。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第五天。没有地标。没有水。没有声音。只有沙、天和骆驼的呼吸。你的眼睛在金色的虚无中失去了焦点，时间变得黏稠如蜜。领头的老骆驼低下头嗅着沙粒——它记得路。你把信任交给一个不会说话的生命，在这片连影子都会被吞没的土地上，这是唯一的选择。",
+      "bgmTag": "wind_silence",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "在空白之地中迷失方向时，你选择跟随谁？",
+        "options": [
+          { "label": "跟随老驼夫阿马杜（星辰导航）", "response": "他指着夜空中的某颗星说'跟着它走了一千年了'。你学会了用星星代替GPS。" },
+          { "label": "跟随侄子优素福（GPS+卫星电话）", "response": "屏幕上的蓝点在沙海中闪烁。科技给了你安全感，但老驼夫的眼神里有一种GPS读不出的东西。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_sandstorm",
+      "title": "沙暴中的生死抉择",
+      "description": "遭遇哈马丹风，必须在90秒内让所有骆驼跪卧并用毯子覆盖口鼻，否则沙尘灌入肺部窒息死亡。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "风变了。天际线变成一堵移动的棕黄色墙壁。你有九十秒。骆驼们本能地跪下来，你用毯子裹住它们的口鼻，然后把自己缩成一团贴在骆驼身侧。沙粒像无数根针扎进每一寸暴露的皮肤。世界消失了。只剩下风声、心跳声和骆驼温暖的体温。你不知道这会不会是最后一次呼吸。",
+      "bgmTag": "storm_drums",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "沙暴来袭，你怎么做？",
+        "options": [
+          { "label": "立即让骆驼跪卧", "response": "正确的选择。你在骆驼身侧等到了风暴过去。活着的感觉从未如此清晰。" },
+          { "label": "试图继续前进抢时间", "response": "你走了不到两百步就被迫停下。沙粒让你几乎失明。事后你明白了：在沙漠面前，谦卑不是软弱，是生存。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_oasis_reunion",
+      "title": "绿洲交汇点的人情网络",
+      "description": "抵达阿德拉尔高原绿洲，与定居的哈拉廷人交换盐换谷物、椰枣和茶叶，同时传递信件和部落消息。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "绿色。水的声音。孩子的笑声。绿洲像一个突然打开的拥抱。你用盐换取谷物和椰枣，但更重要的交换发生在茶壶旁边——谁家的女儿要出嫁了，哪个部落的老人走了，远方的亲戚托你带了一封信。这些闲聊对他们来说和盐一样重要。",
+      "bgmTag": "oasis_celebration",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "在绿洲停留时，你想体验什么？",
+        "options": [
+          { "label": "参加盐物交换谈判", "response": "你见证了延续千年的经济体系如何在一次握手中完成。价格不在纸上，在关系里。" },
+          { "label": "加入女性的茶叙和故事会", "response": "她们用提菲纳格文字写下的诗句比任何史诗都温柔。你第一次理解了面纱不是隔绝，是保护。" },
+          { "label": "跟孩子去井边打水", "response": "水桶沉入黑暗又浮上来，装满光。孩子教你说'Akabar'——你好。这个词你会记一辈子。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_return_journey",
+      "title": "归途的重量",
+      "description": "返程驮载南方产的小米、布匹和铁器，骆驼负重增加但步伐反而更稳——回家的路它们比人记得更清楚。",
+      "ageRange": { "start": 25 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "骆驼背上更重了，但它们的步伐比来时更稳。老驼夫说：'回家的路它们比人记得清楚。'你看着夕阳把沙丘染成玫瑰金，意识到这条路正在消失。年轻人去了城市，GPS取代了星辰。七十岁的老驼夫每年仍独自走一趟盐路，不是因为需要盐，是因为'如果我不走了，这条路就真的死了'。",
+      "bgmTag": "imzad_farewell",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt_03_sandstorm", "evt_04_oasis_reunion"],
+    "valleyMoments": ["evt_02_blank_zone"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["natural_disaster", "cultural_sensitivity"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

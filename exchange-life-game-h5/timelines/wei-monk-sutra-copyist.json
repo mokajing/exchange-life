@@ -1,0 +1,119 @@
+{
+  "meta": {
+    "id": "wei-monk-sutra-copyist",
+    "title": "北魏洛阳城佛寺抄经僧的一天",
+    "subtitle": "在灭佛与崇佛的夹缝中用笔墨守护经文的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_ink",
+      "title": "寅时晨课与研墨",
+      "description": "凌晨三点晨课诵经后进入抄经房，以净水研墨，默念开经偈后方才落笔，第一行字必须端正如印。",
+      "ageRange": { "start": 20 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "寅时的钟声还在殿梁间回荡。你跪坐在抄经房的蒲团上，用清水洗净双手，再取净水研墨。墨锭在砚台上画出缓慢的圆，像一种无声的祈祷。开经偈默念三遍，你提起笔，落下第一个字。端正。如印。一天的修行从这一笔开始。",
+      "bgmTag": "guqin_chant",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_debate_distraction",
+      "title": "窗外儒释之辩",
+      "description": "抄到《法华经·药草喻品》时窗外传来太学博士辩论儒释的声音，手未停心已乱。",
+      "ageRange": { "start": 20 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "笔尖行至'药草喻品'四字，墙外忽然传来激烈的争论声。太学的博士们在辩论儒释高下。你的手没有停，但笔画微微颤了一下。一个字歪了。你盯着那个不完美的字看了很久，然后用指甲轻轻刮掉，重写。纸很贵。一张好纸抵三升米。你没有浪费的权利。",
+      "bgmTag": "tension_strings",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_official_inspection",
+      "title": "官吏清点经卷",
+      "description": "午后有官吏来寺中清点经卷数量以备朝廷造册，僧人们紧张地将私抄的注疏藏入夹层。",
+      "ageRange": { "start": 20 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "敲门声。沉闷三下。官吏来了。你们早已习惯了这种突袭——那些私抄的注疏被迅速塞入经箱夹层，动作熟练得像呼吸。官吏翻检着经卷，嘴里念叨着数目。你站在一旁，面无表情，心跳却像鼓点。他走了之后，整个抄经房安静了很久。没有人说话。",
+      "bgmTag": "silence_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "官吏检查时，你怎么做？",
+        "options": [
+          { "label": "主动配合交出所有经卷", "response": "你选择了坦诚。官吏点头离去，但你不知道这份坦诚会被记住还是被利用。" },
+          { "label": "藏起注疏只交正经过目", "response": "注疏安全了。但你整夜都在想：如果被发现，连累的不只是自己。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_night_transfer",
+      "title": "连夜转移经本",
+      "description": "黄昏时分老住持密谈近日朝中'限僧令'的风声，决定连夜将部分珍贵经本转移至城外石窟。",
+      "ageRange": { "start": 20 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "暮色四合。老住持召集众僧，声音压得极低：'限僧令的风声越来越紧了。'他的目光扫过每一张脸。你点了头。深夜，你们把最珍贵的经本装入木箱，沿着暗道运往城外的石窟。木头摩擦的声音在寂静中格外刺耳。每一步都像踩在刀刃上。但你知道，这些经文比你的命更重要。",
+      "bgmTag": "night_mission",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "老住持询问你是否愿意参与夜间转移？",
+        "options": [
+          { "label": "立即答应", "response": "你没有犹豫。有些东西值得用风险去守护。搬运途中你差点摔了一跤，经箱稳稳抱在怀里。" },
+          { "label": "犹豫后答应", "response": "你害怕。但你更怕将来后悔。等待的那半个时辰比搬运本身更漫长。" },
+          { "label": "拒绝", "response": "你说不出'不'字，但身体诚实地后退了一步。那一夜的愧疚比任何惩罚都重。天亮后你找到了住持。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_blood_on_paper",
+      "title": "指尖的血染了纸边",
+      "description": "深夜独自在油灯下继续抄写，指尖磨出茧泡渗血染了纸边，他用指甲掐掉血渍重写那行字。",
+      "ageRange": { "start": 20 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "油灯的光摇曳不定。你的指尖已经磨出了水泡，水泡破了，血渗出来染在了宣纸边缘。你用指甲掐掉那块血渍，蘸墨重写。这不是英雄式的壮烈。只是一个普通人在困境中笨拙而执拗的坚持。不够伟大，但足够真实。窗外的天快亮了。你还有三行字要写完。",
+      "bgmTag": "oil_lamp_solitude",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_put_down_brush",
+      "title": "放下笔的仪式",
+      "description": "完成最后一行字后合上经卷，象征从历史情境中安全返回当下。",
+      "ageRange": { "start": 20 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "最后一个字落定。你放下笔，合上经卷。指尖的痛感渐渐消退，油灯的光也变得柔和。你深吸一口气，再缓缓呼出。这一刻你不是北魏的抄经僧，你是此刻的自己。但那份在动荡中守住什么的决心，已经留在了你的呼吸里。",
+      "bgmTag": "dawn_peace",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_04_night_transfer", "evt_05_blood_on_paper"],
+    "valleyMoments": ["evt_03_official_inspection"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["political_oppression", "religious_context"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "id": "civil-servant-to-blogger",
+    "title": "体制内辞职做自媒体博主的第一年",
+    "subtitle": "铁饭碗碎了之后，流量就是新的KPI",
+    "sourceType": "documentary",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_resignation_day",
+      "title": "辞职那天",
+      "description": "递交辞呈，处长沉默三秒说了句'你想好了？'走出办公楼阳光刺眼得想哭——不是感动，是恐惧。",
+      "ageRange": { "start": 27 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "八点打卡。九点开会。十点写材料。十一点继续写材料。最后一天你把辞呈放在桌上，处长沉默了三秒：'你想好了？'你点头。走出办公楼的那一刻，阳光刺眼得让你想哭。不是因为感动，是因为恐惧。你不知道自己刚才是不是做了一个巨大的错误决定。",
+      "bgmTag": "office_silence",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "辞职时机你怎么选？",
+        "options": [
+          { "label": "攒够半年生活费再走", "response": "你的存款给了你底气，但也让你在舒适区多停留了三个月。" },
+          { "label": "趁热血还在立刻辞职", "response": "你的存款只够撑四个月。自由的代价从第一天就开始倒计时。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_first_livestream",
+      "title": "第一次直播只有12个人看",
+      "description": "其中3个是家人小号。身份真空期：'我不是公务员了，但我还不是博主'。",
+      "ageRange": { "start": 27 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "在线人数：12。你知道其中有三个是你妈、你爸和你姐的小号。你对着镜头说了四十分钟，嗓子干了，弹幕只有两条，一条是'主播好'，另一条是系统提示。关掉直播后你在出租屋里坐了一个小时，手机屏幕暗下去又亮起来，亮起来又暗下去。",
+      "bgmTag": "lofi_beats",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_first_ad",
+      "title": "第一个广告报价2000元",
+      "description": "手抖着回复'好的'，怕对方反悔。月收入首次超过体制内工资时焦虑感反而更重了。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "私信弹出来的时候你以为是垃圾消息。'合作咨询'四个字让你的心跳加速到能听见自己的脉搏。两千块。你的手在键盘上抖了半天才打出'好的'两个字，生怕语气不够专业又怕太热情吓跑对方。发送之后你盯着对话框看了五分钟，直到对方回了个表情包。",
+      "bgmTag": "hope_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "内容方向怎么选？",
+        "options": [
+          { "label": "做自己真正想做的冷门题材", "response": "数据增长缓慢，但每一条视频你都发自内心地享受创作过程。" },
+          { "label": "追热点做流量型内容", "response": "播放量好看，但你开始在深夜问自己：这还是我想做的事吗？" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_parents_call",
+      "title": "父母的电话",
+      "description": "父母打来电话说'邻居问你是不是被开除了'。妈妈转发了一篇'年轻人不要好高骛远'的文章到家族群，没有@你。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "电话响了。妈妈的声音小心翼翼：'邻居问你爸你是不是被开除了……'你解释了半小时，她最后说'那你自己注意身体'。挂了电话你发现家族群里多了一篇文章：《年轻人不要好高骛远》。没有@你，但你知道她在说谁。你在出租屋的床上躺了很久，天花板上的水渍像一张嘲笑的脸。",
+      "bgmTag": "family_tension",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_05_negative_comment",
+      "title": "爆款视频的差评",
+      "description": "数据最好的那条视频，评论区最高赞是'这种人也配当博主'。被原单位同事在评论区认出。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "百万播放。你以为终于可以松口气了。然后你看到了那条置顶评论：'这种人也配当博主'。点赞数比你的自我介绍视频还高。更尴尬的是下面有人回复：'这不是我们处的小王吗'。你关掉手机，出去走了一个小时。回来时重新打开，深呼吸三次。",
+      "bgmTag": "heartbeat_tension",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_year_review",
+      "title": "年终复盘",
+      "description": "粉丝50万，收入是原来的3倍，但失去了所有'稳定'。不再害怕不确定本身就是一种成长。",
+      "ageRange": { "start": 28 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "十二个月。五十万粉丝。收入是去年的三倍。但你再也回不去那个每天有人告诉你该干什么的世界了。有人问你'现在做什么'，你不再需要犹豫三秒。你依然在不确定中，但你不再害怕不确定了。这也许就是这一年真正的收获——不是数字，是一种新的呼吸方式。",
+      "bgmTag": "dawn_breath",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "回顾这一年，你最想对自己说什么？",
+        "options": [
+          { "label": "'你比自己以为的更勇敢'", "response": "那些深夜的自我怀疑都是真的，但你没有在任何一个深夜放弃。" },
+          { "label": "'留在体制内也是一种勇气'", "response": "你不是在否定过去的选择。每一种坚持都值得被尊重。" },
+          { "label": "'我不后悔，但我承认很难'", "response": "诚实面对困难本身就是一种力量。不必美化任何选择。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_first_ad", "evt_06_year_review"],
+    "valleyMoments": ["evt_01_resignation_day", "evt_04_parents_call"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["career_anxiety", "family_pressure"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
