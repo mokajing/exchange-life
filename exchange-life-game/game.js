@@ -88,7 +88,8 @@ const TIMELINE_LIST = [
   'selective-mutism-kindergarten',                                                                                        // L3/S/V2 - 选择性缄默症儿童的幼儿园日常 (P0第270卷)
   'parent-role-swap-week',                                                                                                // L2/S/V2 - 全职妈妈与职场爸爸互换角色的一周 (P0第336卷)
   'county-bride-rich-family',                                                                                              // L1/S/V2 - 从县城体制内家庭嫁入一线城市豪门的第一年 (P0第338卷)
-  'mortician-hand-warmth'                                                                                                  // L2/S/V2 - 入殓师的手温 (P0第345卷)
+  'mortician-hand-warmth'                                                                                                  // L2/S/V2 - 入殓师的手温 (P0第345卷),
+  'war-photographer-viewfinder'                                                                                              // L2/S/V2 - 战地摄影师的取景框 (P0第351卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）

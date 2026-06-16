@@ -331,7 +331,15 @@ const BGM_MAP = {
   hopeful_growth_piano:   { file: 'audio/bgm/hopeful_growth_piano.mp3',   volume: 0.4, loop: false },
   // mortician-hand-warmth BGM tags
   solo_piano_night:       { file: 'audio/bgm/solo_piano_night.mp3',       volume: 0.3, loop: true },
-  white_noise_heartbeat:  { file: 'audio/bgm/white_noise_heartbeat.mp3',  volume: 0.2, loop: true }
+  white_noise_heartbeat:  { file: 'audio/bgm/white_noise_heartbeat.mp3',  volume: 0.2, loop: true },
+  // === 战地摄影师专用标签 (2026-06-16 P0第351卷) ===
+  tense_strings_low:      { file: 'audio/bgm/tense_strings_low.mp3',      volume: 0.35, loop: true },
+  ambient_war_distant:    { file: 'audio/bgm/ambient_war_distant.mp3',    volume: 0.25, loop: true },
+  solo_cello_meditation:  { file: 'audio/bgm/solo_cello_meditation.mp3',  volume: 0.3, loop: true },
+  silence_heartbeat:      { file: 'audio/bgm/silence_heartbeat.mp3',      volume: 0.2, loop: true },
+  acoustic_guitar_farewell:{ file: 'audio/bgm/acoustic_guitar_farewell.mp3', volume: 0.35, loop: true },
+  piano_echo_applause:    { file: 'audio/bgm/piano_echo_applause.mp3',    volume: 0.4, loop: false },
+  warm_kitchen_piano:     { file: 'audio/bgm/warm_kitchen_piano.mp3',     volume: 0.3, loop: true }
 };
 
 /**
