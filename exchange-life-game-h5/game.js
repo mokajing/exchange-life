@@ -300,6 +300,7 @@ const TIMELINE_LIST = [
   'tomb-mural-restorer',
   'cainiao-station-clerk',
   'maya-astronomer-priest',
+  'shu-carpenter-wooden-ox',
 ];
 
 let player = null;
