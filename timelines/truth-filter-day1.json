@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "truth-filter-day1",
+    "title": "真话过滤器强制开启的崩溃第一天",
+    "subtitle": "当你说的每句话都被自动翻译成对方最想听的话，真实的连接就死了",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T10:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_mirror",
+      "title": "镜子里的赞美",
+      "description": "闹钟响后对着镜子练习说\"今天也要加油\"，结果镜子里的自己听到的是\"你已经是最好的了\"。荒诞的一天就此开始。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.4,
+      "narrativeText": "06:30。闹钟响了第三遍你才爬起来。对着洗手台的镜子，你深吸一口气：\"今天也要加油。\"但镜子里的你嘴角上扬，眼神温柔得像在看初恋——你听到的不是自己的声音，而是一句\"你已经是最好的了\"。你愣住了。又试了一次：\"我还没刷牙。\"镜子里回应：\"你的自律让人敬佩。\"这不是你的嘴在说话。有什么东西，在你和世界之间装了一层滤镜。",
+      "bgmTag": "ukulele_comedy",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_02_breakfast",
+      "title": "早餐店的错位温暖",
+      "description": "买煎饼想说\"加个蛋不要葱\"，老板听到的是\"您做的煎饼是我吃过最用心的\"，眼眶红了多送了一个蛋。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "07:15。巷口的煎饼摊冒着热气。你张嘴：\"加个蛋不要葱。\"话出口的瞬间，空气像被揉皱了一下。老板的手顿住了，眼眶慢慢泛红。他低声说：\"谢谢你……干了八年，头一回有人这么说。\"他把两个鸡蛋都打进了你的饼里，还多刷了一层酱。你低头看着手里沉甸甸的煎饼，心里清楚——他感动的不是你，是一个根本不存在的、会赞美的你。这份温暖是真的，但触发它的那句话是假的。",
+      "bgmTag": "ukulele_comedy",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老板多送了蛋，你怎么做？",
+        "options": [
+          { "label": "欣然接受这份错位的善意", "response": "你咬了一口，味道确实好。也许有些温暖不需要追问来源。" },
+          { "label": "试图解释你不要蛋但说出来变成了赞美", "response": "\"您的手艺值得双倍价格！\"你说完自己都吓了一跳。老板笑得更开心了。解释失败了。" },
+          { "label": "沉默地吃完", "response": "你没再说话。安静地把煎饼吃完，把多出来的那个蛋留到了最后。那是你今天唯一诚实的时刻。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_morning_meeting",
+      "title": "晨会的虚假信心",
+      "description": "想汇报项目延期风险，领导听到的是\"团队士气高涨大家充满信心\"，批准了更多预算。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "09:00。晨会。你站起来，手心出汗。项目已经延期两周，再不预警就要爆雷了。你开口：\"目前进度存在较大风险……\"话音落地，会议室里的空气变了。领导点头微笑：\"好！有信心就好！追加二十万预算支持你们！\"同事们鼓掌。你站在原地，嘴巴张着，像一个被抽走了台词的演员。预算批下来了。但问题还在。而你刚刚亲手把它埋得更深了。",
+      "bgmTag": "offkey_music_box",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_colleague_bug",
+      "title": "被赞美掩盖的Bug",
+      "description": "同事问方案怎么样，想说\"有几个逻辑漏洞\"，对方听到的是\"你的创意让我眼前一亮\"，开心地去执行了一个有明显bug的方案。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "10:30。小陈拿着方案来找你，眼睛亮晶晶的：\"你觉得怎么样？\"你仔细看了三页，发现两个致命的逻辑漏洞。你开口：\"这里有几个问题……\"话到嘴边变成了：\"你的创意让我眼前一亮！\"小陈的脸一下子亮了，转身跑回工位开始执行。你盯着他的背影，胃里一阵发紧。你知道那个方案上线后会出事故。但你说不出口。你的嘴已经不属于你了。",
+      "bgmTag": "offkey_music_box",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "明知方案有bug但警告被翻译成了赞美，你怎么办？",
+        "options": [
+          { "label": "偷偷帮他修bug", "response": "你趁午休打开他的文档，默默改掉了两个致命错误。没人知道是你。这大概是你今天唯一一次真正帮到别人。" },
+          { "label": "放任不管让他自己发现", "response": "你回到工位，假装什么都没发生。也许摔一跤比被扶起来学得更快。但这个理由连你自己都不信。" },
+          { "label": "写匿名邮件提醒", "response": "你在邮件里写了三行字，发送前预览显示全是赞美。你删掉了草稿。连邮件也被过滤了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_lunch_loneliness",
+      "title": "好友请客的孤独时刻",
+      "description": "午餐跟好友吐槽\"最近压力好大\"，好友听到的是\"有你在我就觉得安心\"，感动得请客但完全没get到你的痛苦。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "12:00。你和阿杰坐在食堂角落。你想说\"最近压力好大，快撑不住了\"。话出口变成：\"有你在我就觉得安心。\"阿杰放下筷子，认真地看着你：\"我也是。\"然后他去买了两杯奶茶，笑着说今天他请。你接过奶茶，吸管戳进去的声音像一声叹息。他在为你的\"幸福\"而高兴。而你正在溺水。最亲近的人就在对面，中间隔着一层看不见的玻璃。你被爱着，却无法被理解。",
+      "bgmTag": "offkey_music_box",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_collapse",
+      "title": "对着空气的呐喊",
+      "description": "终于崩溃，对着空气大喊\"我说的都不是我想说的！\"路过的保洁阿姨听到的是\"您辛苦了这个世界因您而温暖\"，笑着递来一块糖。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.95,
+      "narrativeText": "17:00。走廊尽头。没有人。你终于忍不住了。你把拳头攥到指甲嵌进肉里，对着空荡荡的过道喊出了那句话：\"我说的都不是我想说的！！\"声音撞在墙壁上弹回来。保洁阿姨正好推着车经过。她停下来，眼里满是慈爱：\"小伙子，你嘴真甜。\"她从口袋里掏出一颗大白兔奶糖塞到你手里。你握着那颗糖，蹲在地上，肩膀抖得像风中的树叶。连崩溃都被翻译成了温柔。这个世界不允许你真实地破碎。",
+      "bgmTag": "white_noise_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "崩溃之后，你选择……",
+        "options": [
+          { "label": "把糖吃掉，站起来继续演", "response": "奶糖在嘴里化开，甜得发苦。你擦干脸，整理好表情，走回办公室。面具重新戴好了。" },
+          { "label": "蹲在原地不动，等这阵情绪过去", "response": "你不知道蹲了多久。阿姨没有再打扰你。走廊的灯感应到你不动，灭了。黑暗里，你第一次觉得安全。" },
+          { "label": "试着对阿姨说一句真话", "response": "你张开嘴，拼尽全力想说\"我很痛苦\"。出口的是\"祝您健康长寿\"。阿姨笑着走了。你闭上眼，接受了这个世界的设定。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_home",
+      "title": "厕所里的无声哭泣",
+      "description": "回到家伴侣问\"今天怎么样\"，想说\"我今天快疯了\"，伴侣听到的是\"想到回家见你就觉得一切都值得\"。躲在厕所里无声地哭。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "19:00。推开门，饭菜的香气扑面而来。她迎上来：\"今天怎么样？\"你想说\"我今天快疯了\"。出口的是：\"想到回家见你就觉得一切都值得。\"她笑了，那种从心底漾开的笑。你拥抱她的时候，把脸埋在她肩窝里，不让她看见你的表情。然后你说去洗个手。关上厕所门。打开水龙头。在水声的掩护下，你终于哭了。没有声音。只有眼泪和水流。外面的世界里你是最温暖的人。只有马桶和水龙头知道你有多绝望。",
+      "bgmTag": "white_noise_heartbeat",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_08_midnight_truth",
+      "title": "深夜独白：真话的价值",
+      "description": "21:00深夜独白：原来所有人都喜欢被赞美，但没有人需要真相。当好听的话成为唯一能传达的信息，真实的连接就死了。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "21:00。她睡了。你坐在阳台上，城市的灯火像被打翻的蜂蜜罐。你终于可以说给自己听了。没有滤镜。没有翻译。没有人在等你说出他们想听的话。你今天夸了所有人，但没有一个人听见你。那些赞美是真的吗？那些笑容是真的吗？那些因为你的\"假话\"而被温暖的瞬间，算不算一种另类的真实？你不知道。你只知道一件事：难听的真话，才是爱的最高形式。因为只有愿意承受真话的人，才配得上真正的连接。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_collapse"],
+    "valleyMoments": ["evt_05_lunch_loneliness", "evt_07_home"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
