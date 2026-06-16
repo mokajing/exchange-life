@@ -392,7 +392,16 @@ const BGM_MAP = {
   warm_fire_tea:          { file: 'audio/bgm/warm_fire_tea.mp3',          volume: 0.35, loop: true },
   emotional_morin_khuur:  { file: 'audio/bgm/emotional_morin_khuur.mp3',  volume: 0.35, loop: true },
   night_camp_quiet:       { file: 'audio/bgm/night_camp_quiet.mp3',       volume: 0.25, loop: true },
-  sunrise_gobi_warm:      { file: 'audio/bgm/sunrise_gobi_warm.mp3',      volume: 0.35, loop: false }
+  sunrise_gobi_warm:      { file: 'audio/bgm/sunrise_gobi_warm.mp3',      volume: 0.35, loop: false },
+
+  // === 浏览器搜索历史纪录片专用标签 (2026-06-16 P0第404卷) ===
+  search_history_opening: { file: 'audio/bgm/search_history_opening.mp3', volume: 0.3, loop: true },
+  tense_minimal_beat:     { file: 'audio/bgm/tense_minimal_beat.mp3',     volume: 0.3, loop: true },
+  emotional_strings_warm: { file: 'audio/bgm/emotional_strings_warm.mp3', volume: 0.35, loop: true },
+  urban_night_cool:       { file: 'audio/bgm/urban_night_cool.mp3',       volume: 0.25, loop: true },
+  nostalgic_piano_soft:   { file: 'audio/bgm/nostalgic_piano_soft.mp3',   volume: 0.3, loop: true },
+  hopeful_strings_gentle_search: { file: 'audio/bgm/hopeful_strings_gentle_search.mp3', volume: 0.35, loop: false },
+  sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false }
 };
 
 /**

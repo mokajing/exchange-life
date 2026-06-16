@@ -278,7 +278,8 @@ const TIMELINE_LIST = [
   { id: 'mortician-hand-warmth', label: '入殓师的手温 (P0第345卷)', level: 'L2' },
   { id: 'war-photographer-viewfinder', label: '战地摄影师的取景框 (P0第351卷)', level: 'L2' },
   { id: 'memory-freshman-first-month', label: '记忆保鲜师的第一个月 (P0第357卷)', level: 'L1' },
-  { id: 'colorblind-daily-vision', label: '色觉异常者的日常视觉世界 (P0第374卷)', level: 'L3' }
+  { id: 'colorblind-daily-vision', label: '色觉异常者的日常视觉世界 (P0第374卷)', level: 'L3' },
+  { id: 'search-history-documentary', label: '浏览器搜索历史纪录片 (P0第404卷)', level: 'L1' }
 ];
 
 let player = null;
