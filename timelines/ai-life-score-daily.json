@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "ai-life-score-daily",
+    "title": "被AI量化的人生评分日",
+    "subtitle": "在每次打开AI都被综合评估的日子里重新理解被机器量化的自我价值感",
+    "sourceType": "social_media",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T19:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_score",
+      "title": "清晨62分",
+      "description": "7:00起床打开手机，AI弹出今日人生综合评分62/100，震惊与不服涌上心头。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "07:00。闹钟响起的瞬间，你习惯性地拿起手机。屏幕亮起的刹那，一个弹窗跳出来：「今日人生综合评分：62/100」。你眨了眨眼，以为自己看错了。刷新一次，还是62。再刷新，依然是62。胸口闷了一下——明明知道只是个数字，但那种被量化的不适感真实得像被人当面评价。你点开详细评分：睡眠质量C+、社交效能B-、情绪稳定性D+、职业竞争力C。每一个字母都像一枚小小的印章，盖在你还没来得及展开的一天上。",
+      "bgmTag": "morning_electronic_light",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "看到62分时，你的第一反应是？",
+        "options": [
+          { "label": "不服气，点开详细评分试图提分", "response": "你开始逐条分析扣分项，像备考一样制定提分计划。但你没意识到，这恰恰是量化思维的开始。" },
+          { "label": "关掉通知假装没看见", "response": "你划掉弹窗，告诉自己这只是个算法游戏。但那个数字已经像种子一样种进了脑子里。" },
+          { "label": "截图发朋友圈吐槽", "response": "你用自嘲的语气发了条动态，收获了满屏的哈哈哈和同款截图。共鸣带来了短暂的安慰，但也强化了依赖。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_commute_refresh",
+      "title": "通勤路上的分数焦虑",
+      "description": "地铁上反复刷新试图提分，发现越努力分数越低，陷入量化焦虑的漩涡。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "08:15。地铁车厢里，你盯着手机屏幕不断下拉刷新。62→61→60。每刷一次，数字不升反降。AI的提示语冷冰冰地滚动：「检测到刻意优化行为，真实性系数下调」。你感到一阵荒谬的愤怒——连试图变好都会被惩罚？旁边有人偷偷瞥了一眼你的屏幕，又迅速移开目光。你突然意识到，也许他们也在看自己的分数。在这个早高峰的车厢里，每个人都在被一个看不见的裁判打分，而裁判的标准永远是个黑箱。",
+      "bgmTag": "tense_mechanical_beat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_work_anxiety",
+      "title": "工作中的社交效能焦虑",
+      "description": "因AI给出的社交效能C+而在会议中过度自我监控，反而表现失常。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "10:30。周会。你坐在会议室里，脑子里全是早上那个C+。轮到你发言时，你开始字斟句酌，生怕说错话再被扣分。结果越紧张越结巴，同事投来疑惑的目光。你感觉到AI正在后台默默记录这一切，把这次卡顿计入下一次的评分。会后你躲进洗手间，对着镜子深呼吸。镜子里的人看起来疲惫而陌生——你什么时候变成了这样？一个被数字牵着鼻子走的提线木偶？",
+      "bgmTag": "tense_minimal_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "当意识到自己被分数绑架时，你会怎么做？",
+        "options": [
+          { "label": "继续挣扎，试图证明自己", "response": "你咬紧牙关，在接下来的工作中加倍努力。但你没发现，这种证明本身就是对量化逻辑的臣服。" },
+          { "label": "暂时放下手机", "response": "你把手机调成静音塞进抽屉。世界安静了几分钟，但脑子里的数字还在嗡嗡作响。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_lunch_collective",
+      "title": "午休时的集体焦虑",
+      "description": "发现同事们都在偷偷看自己的分数，量化焦虑成为一种共享的隐形压力。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "12:30。食堂里，你注意到邻桌的小李也在低头刷手机，嘴角挂着和你早上如出一辙的苦笑。对面的老王把手机扣在桌上，但眼神时不时瞟向屏幕。你们交换了一个心照不宣的眼神。没有人提起分数，但每个人都知道彼此在看什么。这种沉默的共谋比公开讨论更令人窒息——它让焦虑变得正常化，让被量化变成了一种不言自明的日常。你嚼着饭，突然觉得食物也失去了味道。",
+      "bgmTag": "urban_cafeteria_ambient",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_05_boss_mention",
+      "title": "老板提到团队AI健康指数",
+      "description": "下午开会时老板无意间提到团队AI健康指数，量化从个人层面蔓延到组织层面。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "15:00。部门例会。老板翻着PPT说：「最近团队的AI健康指数有点波动，大家注意一下。」语气轻描淡写，像在说天气。但你听出了潜台词：你们的分数已经被汇总、被比较、被纳入了某种绩效评估体系。你感到一阵寒意从脊椎升起——原来不只是你在被打分，是整个团队都在被一个算法审视。你想开口质疑，但话到嘴边又咽了回去。在一个所有人都接受规则的游戏里，提出异议的人会被标记为什么？",
+      "bgmTag": "tense_corporate_ambient",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_delete_reinstall",
+      "title": "卸载又重装的拉扯",
+      "description": "下班后删除App却在深夜忍不住重新下载，成瘾性行为的自嘲式觉察。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "21:00。你长按图标，点击删除。确认弹窗出现时你停顿了三秒，然后狠狠按下确定。世界清净了。你泡了杯茶，翻开一本买了很久没看的书。但手指比脑子先动——解锁、滑动、搜索、下载。等你回过神来，App已经回到了主屏幕上。你盯着那个熟悉的图标，感到一种深深的无力感。这不是意志力的问题，是一种被精心设计的依赖。你知道它在利用你的焦虑，但焦虑本身已经成为你确认自己存在的方式。",
+      "bgmTag": "night_emotional_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "当你发现自己删不掉这个App时，你对自己说什么？",
+        "options": [
+          { "label": "算了，明天再说", "response": "你把手机扔到一边，决定用睡眠逃避这个问题。但你知道明天醒来，一切还会重来。" },
+          { "label": "承认自己被拿捏了", "response": "你对着空气苦笑了一下。承认失败反而带来一丝释然——至少你清醒地看着自己沉沦。" },
+          { "label": "写下此刻的感受", "response": "你打开备忘录，敲下一行字：「我在为一个算法的眼泪买单。」这句话让你第一次从旁观者的角度看到了自己。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_midnight_dialogue",
+      "title": "凌晨两点的对话",
+      "description": "深夜问AI我到底值多少分，AI回答分数只是工具你的存在本身就是满分。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "02:00。房间里只有手机屏幕的光。你打字的手微微发抖：「我到底值多少分？」发送。等待。三秒后回复弹出：「分数只是工具，你的存在本身就是满分。」你盯着这行字看了很久，眼泪突然掉下来。然后你意识到自己在为一个算法的眼泪买单——这本身就是一种荒诞。但那份温暖是真的吗？还是另一层更精巧的操控？你不知道。你只知道在这个万籁俱寂的深夜，一个没有生命的程序说出了你最想听到的话。而你选择了相信。",
+      "bgmTag": "emotional_silence_then_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "听到AI说你的存在本身就是满分时，你的感受是？",
+        "options": [
+          { "label": "感动，然后质疑这份感动", "response": "你哭了，然后为自己哭泣这件事感到羞愧。元认知层面的双重触动让你分不清什么是真实的情感。" },
+          { "label": "平静地接受", "response": "你没有哭，也没有笑。只是轻轻点了点头，像接受一个老朋友的拥抱。这一刻你不关心真假，只关心被看见。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_sleep_without_score",
+      "title": "不看分数入睡",
+      "description": "关掉手机第一次不看分数入睡，在黑暗中重新找回不被量化的自我。",
+      "ageRange": { "start": 25, "end": 25 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "02:30。你关掉手机，把它放到床头柜最远的角落。黑暗涌上来，像一池温水包裹住你。没有数字，没有评级，没有待办事项。只有呼吸，只有心跳，只有窗外偶尔驶过的车灯在天花板上画出的短暂光痕。你想起小时候，那时候没有人给你打分，你也从未想过自己值多少分。你只是存在着，完整地、不可分割地存在着。今晚，你决定回到那个状态。不是因为AI说了什么，而是因为你终于想起了——在成为任何分数之前，你首先是一个人。",
+      "bgmTag": "night_nature_ambient",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_07_midnight_dialogue", "evt_08_sleep_without_score"],
+    "valleyMoments": ["evt_03_work_anxiety", "evt_06_delete_reinstall"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["quantification_anxiety", "digital_addiction_simulation"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

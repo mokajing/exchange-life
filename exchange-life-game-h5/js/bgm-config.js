@@ -422,6 +422,16 @@ const BGM_MAP = {
   night_market_distant:   { file: 'audio/bgm/night_market_distant.mp3',   volume: 0.25, loop: true },
   incense_burning:        { file: 'audio/bgm/incense_burning.mp3',        volume: 0.2, loop: true },
   filing_rhythm:          { file: 'audio/bgm/filing_rhythm.mp3',          volume: 0.3, loop: true }
+,
+
+  // === AI人生评分日专用标签 (2026-06-16 P0第423卷) ===
+  morning_electronic_light:   { file: 'audio/bgm/morning_electronic_light.mp3',   volume: 0.3, loop: true },
+  tense_mechanical_beat:      { file: 'audio/bgm/tense_mechanical_beat.mp3',      volume: 0.35, loop: true },
+  urban_cafeteria_ambient:    { file: 'audio/bgm/urban_cafeteria_ambient.mp3',    volume: 0.25, loop: true },
+  tense_corporate_ambient:    { file: 'audio/bgm/tense_corporate_ambient.mp3',    volume: 0.3, loop: true },
+  night_emotional_piano:      { file: 'audio/bgm/night_emotional_piano.mp3',      volume: 0.35, loop: true },
+  emotional_silence_then_strings: { file: 'audio/bgm/emotional_silence_then_strings.mp3', volume: 0.4, loop: false },
+  night_nature_ambient:       { file: 'audio/bgm/night_nature_ambient.mp3',       volume: 0.25, loop: true }
 
 };
 
