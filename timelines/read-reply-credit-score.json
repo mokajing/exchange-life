@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "id": "read-reply-credit-score",
+    "title": "已读不回信用评分系统",
+    "subtitle": "当每条未回复消息都影响你的社交信用分，重新理解「回复」两个字的分量",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T23:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_system_launch",
+      "title": "社交信用分系统上线",
+      "description": "手机系统更新推送——「社交信用分2.0」正式上线，所有IM平台已读消息的回复率、回复速度、回复质量被纳入评分体系。初始分数612分，低于650分将影响社交功能使用。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "早上7点，手机弹出系统更新通知。你点开一看——「社交信用分（Social Credit Score 2.0）」已激活。界面显示你的初始分数：612/1000。下方小字写着：「低于650分将限制部分社交功能。」\n\n你皱了皱眉，以为是某个App的恶作剧。但打开微信、钉钉、飞书，每个平台的顶部都多了一个醒目的分数标识。\n\n这不是玩笑。",
+      "bgmTag": "electronic_tension_low",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_deduction",
+      "title": "第一次扣分",
+      "description": "地铁上收到领导消息「周末活动安排确认」，已读但想晚点回复——系统弹窗提示已超过3分钟未回复，信用分-2。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "地铁上，领导发来一条消息：「周末团建安排确认一下。」\n\n你点了已读，心想等到公司再仔细回复。三分钟后，屏幕顶部弹出一个灰色气泡：\n\n「您已阅读该消息超过3分钟未回复，信用分 -2」\n\n610分。\n\n你盯着那个数字看了两秒，然后飞快地打了一行字发出去。但心里有个声音说：这真的是我想要的回复方式吗？",
+      "bgmTag": "notification_ping_cold",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对领导的后续追问，你会怎么回复？",
+        "options": [
+          { "label": "立即详细回复", "response": "你花了5分钟组织语言，信用分+1。但回复过于详尽，领导反而觉得你'太紧张了'。" },
+          { "label": "简短确认稍后详谈", "response": "你发了句'收到，到公司跟您当面确认'。信用分不变，但你保住了自己的节奏。" },
+          { "label": "已读不回继续通勤", "response": "信用分-5。系统弹出黄色警告：「连续未回复将触发社交观察期预警」。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_group_message_frenzy",
+      "title": "群消息轰炸",
+      "description": "同事群99+消息，每条@都需要回复否则扣0.5分。敷衍回复被判定为低质量，信用分继续下跌至589分。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "到了公司，同事群已经炸了。99+条消息，其中12条@了你。\n\n你开始疯狂回复：「收到」「好的」「OK」「没问题」……\n\n每回一条，分数纹丝不动。直到第8条「好的」发出后，系统弹出提示：\n\n「检测到连续低质量回复，真诚度评分下降，信用分 -1」\n\n589分。\n\n朋友圈入口变灰了。你点进去，只有一行字：「当前信用分不足，暂无法发布动态。」",
+      "bgmTag": "typing_frantic_loop",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_04_mom_messages",
+      "title": "妈妈的20条消息",
+      "description": "妈妈发来20条消息问吃了没冷不冷回不回家，因开会已读未及时回复，亲情类消息权重×2，信用分暴跌至547分。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "下午七点，会议终于结束。你打开手机，看到妈妈的头像上顶着个红色的「20」。\n\n「吃了没」「今天冷不冷」「周末回不回家」「隔壁王阿姨的女儿结婚了」「你爸腰又疼了」「冰箱里有你爱吃的排骨」……\n\n每一条都是已读。每一条都没有回复。\n\n系统提示音连成一片：「亲情类消息权重×2，信用分 -8」\n\n547分。\n\n家庭群里，妈妈发了一条：「为什么不回我消息？」\n\n下面是一串亲戚的问号。他们都能看到你的信用分。",
+      "bgmTag": "piano_guilt_soft",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对妈妈的质问，你会怎么做？",
+        "options": [
+          { "label": "逐条回复所有消息", "response": "你花了45分钟认真回复每一条。信用分+8，回到555。但你知道，那些回复里有一半是为了分数，不是为了她。" },
+          { "label": "打一个语音电话", "response": "电话接通的那一刻，妈妈的声音比任何文字都暖。信用分+3。她说：'不用打字，听到你声音就好了。'" },
+          { "label": "明天再说吧", "response": "信用分-8，跌至539。家庭群里安静了。那种沉默比质问更重。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_social_observation",
+      "title": "进入社交观察期",
+      "description": "信用分跌至520分，进入「社交观察期」。所有已读消息的回复状态对发送者可见——对方可以看到你「已读但未回复」的精确时长。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第二天早上，520分。\n\n系统弹出一个红色边框的通知：「您已进入社交观察期。您的消息回复状态将对发送者可见。」\n\n你试着给朋友发了条消息测试。对方的回复来得很快：「我看到你昨天已读了我的消息，等了4小时23分钟才回。」\n\n原来如此。\n\n你的每一次沉默，都变成了别人眼中的数据。朋友的生日祝福、同事的协作请求、前任深夜发来的那句「睡了吗」——每一项未回复，都是一笔公开的「社交债务」。",
+      "bgmTag": "silence_pressure_low",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_gray_market",
+      "title": "AI回复服务的诱惑",
+      "description": "发现灰色产业：有人出售「自动回复优化服务」，AI生成个性化回复保证通过质量检测。陷入道德困境。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "disgust",
+      "emotionIntensity": 0.5,
+      "narrativeText": "第三天，你在一个隐秘的微信群里看到了广告：\n\n「专业AI回复优化，每条0.5-2元，保证通过真诚度检测。已有10万+用户使用。」\n\n你点进去，看到了示例：同样的「好的」，AI版本是「好的呢～刚开完会就看到你的消息啦，马上处理！」\n\n系统评分：真诚度92%。\n\n你自己的版本：真诚度34%。\n\n你犹豫了。用AI假装真诚，还是让信用分继续跌？",
+      "bgmTag": "synth_moral_ambiguity",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对AI回复服务的诱惑，你怎么选？",
+        "options": [
+          { "label": "购买AI回复服务", "response": "信用分迅速回升至600+。但每次看到那些'完美'的回复，你都觉得自己离真实越来越远。三天后，一个朋友问你：'你最近说话怎么像机器人？'" },
+          { "label": "拒绝，保持真实", "response": "信用分继续下跌。但你发的每一条消息，都是自己真心想说的话。有些关系因此疏远了，有些反而更近了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_bankruptcy_warning",
+      "title": "社交破产预警",
+      "description": "信用分跌至498分，系统弹出「社交破产预警」——低于480分将被标记为「社交失信人」，在公共场所屏幕上公示。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "498分。\n\n屏幕中央弹出一个全屏警告，红色背景，白色粗体字：\n\n「社交破产预警：您的信用分已低于500。若继续下降至480以下，您将被标记为'社交失信人'，相关信息将在公共场所电子屏公示。」\n\n你想象了一下：商场大屏、地铁广告牌、电梯里的显示屏……上面滚动着你的头像和分数。\n\n像失信被执行人一样。\n\n只不过你欠的不是钱，是回复。",
+      "bgmTag": "alarm_social_dread",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_08_apology_decision",
+      "title": "道歉的决定",
+      "description": "用户决定给所有「已读不回」的人逐一发送真诚的道歉和解释。信用分开始回升。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第三天晚上，你做了一个决定。\n\n不是买AI回复，不是刷分，不是躺平。\n\n你打开了所有未回复的对话，从妈妈开始，一个一个地写：\n\n「妈，对不起。昨天开会太累了，不是不想回你，是真的不知道说什么。你发的每一条我都看了，只是……有时候沉默不是因为不在乎，是因为太在乎了，怕说错话。」\n\n写完这段话，你没有看信用分的变化。\n\n但你感觉到胸口有什么东西松开了。",
+      "bgmTag": "piano_warmth_return",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "道歉的范围，你选择多大？",
+        "options": [
+          { "label": "向所有人公开道歉", "response": "你在朋友圈发了一段长文。信用分大幅回升至620。有人说你矫情，有人说你勇敢。但你不在乎了。" },
+          { "label": "只向重要的人私信解释", "response": "你选了10个人，一一私信。信用分只回到561。但那10个人的回复，每一条都是真心的。" },
+          { "label": "算了，躺平摆烂", "response": "你关掉了所有通知。信用分跌破480，公共场所真的出现了你的头像。但你意外地发现，有一群同样低分的人向你伸出了手。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_score_recovery",
+      "title": "分数回升，但意义已变",
+      "description": "信用分回升至561分。但用户已经不再在乎分数本身——真正重要的关系不需要信用分来维系。",
+      "ageRange": { "start": 25 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "561分。\n\n比最低点高了63分，但离「安全线」还差89分。\n\n奇怪的是，你看着这个数字，心里没有任何波澜。\n\n妈妈的回复来了：「傻孩子，妈不在乎什么分数。就是想你了。」\n\n最好的朋友发来一张表情包：「你这信用分也太惨了吧哈哈哈哈，出来吃饭，我请。」\n\n前任没有回复。但你也不再等那个回复了。\n\n你突然明白了：这个系统最讽刺的地方在于——那些真正重要的关系，从来不需要信用分来证明。而那些被分数胁迫出来的「回复」，反而让一切变得更假。",
+      "bgmTag": "acoustic_release_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_final_message",
+      "title": "最后一条消息",
+      "description": "体验收尾：收到一条不需要回复的消息，理解了真正的连接不在系统里。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "深夜，手机亮了。\n\n是她发来的。你们很久没联系了。\n\n消息只有一行：\n\n「不用回，就是想你了。」\n\n你盯着屏幕看了很久。右上角的信用分默默跳了一下：+1。\n\n但这次，不是因为系统判定你回复了什么。\n\n而是因为她知道你看到了。\n\n这就够了。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_mom_messages", "evt_07_bankruptcy_warning", "evt_10_final_message"],
+    "valleyMoments": ["evt_05_social_observation", "evt_06_gray_market"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["social_anxiety", "digital_pressure"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

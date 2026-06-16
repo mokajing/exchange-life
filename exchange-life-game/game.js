@@ -114,6 +114,9 @@ const TIMELINE_LIST = [
   'mirror-parallel-life',
   'bomb-disposal-officer',
   'solo-chinese-new-year-eve',
+  'read-reply-credit-score',
+  'bankrupt-heir-waiter',
+  'rural-postman-last-mile',
 ];
 
 App({

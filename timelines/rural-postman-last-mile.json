@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "id": "rural-postman-last-mile",
+    "title": "乡村邮递员的最后一公里",
+    "subtitle": "他用脚丈量的大山，是别人的整个世界",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T23:40:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_departure",
+      "title": "天未亮出发",
+      "description": "清晨6点从镇上邮政所出发，检查15公斤邮包。日复一日的仪式感中有一种安定。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "早上六点，天还没亮。\n\n你推开邮政所的后门，冷空气灌进来。邮包已经整理好了——15公斤，不多不少。里面有信件、包裹、药品、种子，还有几份报纸。\n\n你把邮包挎上肩，扣好搭扣。这个动作你做了三十年，闭着眼都不会错。\n\n手电筒的光束切开薄雾，脚下的石板路被露水打湿了。远处传来第一声鸡鸣。\n\n又是新的一天。又是同一条路。",
+      "bgmTag": "dawn_acoustic_walk",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_village",
+      "title": "第一个村子的等候",
+      "description": "走完第一段山路到达第一个村子，村民已在村口等候。邮递员是山里人与外界的连接。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "七点半，第一个村子到了。\n\n老远就看见村口站着几个人。他们看到你，挥了挥手。\n\n「来了啊！」\n\n「来了。」\n\n你把邮包放下来，一个一个地找名字。张大爷的降压药，李婶女儿寄来的衣服，王家小子的录取通知书复印件……\n\n每递出去一样东西，就有一双手接过去。有的手粗糙得像树皮，有的手颤抖着，有的手紧紧攥住包裹不肯松开。\n\n你不是在送邮件。你是在替山外面的人，握住山里面的人的手。",
+      "bgmTag": "village_morning_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_tiger_mouth_cliff",
+      "title": "老虎嘴悬崖栈道",
+      "description": "穿越最窄处仅容一人侧身通过的悬崖栈道，脚下是百米深渊。三十年来从未跳过检查邮包的习惯。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "九点，老虎嘴。\n\n这段栈道凿在悬崖上，最窄的地方只能侧身通过。左边是岩壁，右边是百米深的山谷。风从下面吹上来，带着潮湿的凉意。\n\n你停下来，像过去三十年里的每一次一样，翻了翻邮包，确认没有东西滑落。\n\n第一次走这条路的时候，你腿软了半小时。现在闭着眼都知道哪里该侧身、哪里该扶墙、哪里的石头松了不能踩。\n\n恐惧还在吗？在。但习惯比恐惧更重。\n\n你深吸一口气，侧身走了过去。",
+      "bgmTag": "wind_cliff_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "走过悬崖栈道后，你想做什么？",
+        "options": [
+          { "label": "继续赶路", "response": "你没有停留。路还长，村子还在前面等着你。恐惧是路上的常客，你已经学会了跟它并肩走。" },
+          { "label": "歇一下看看山", "response": "你在栈道的尽头坐下来，看云海在山谷里翻涌。风很大，但心很静。你想起了第一次走上这条路时的自己——那个害怕的年轻人，现在已经变成了山的一部分。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_read_letter_grandma",
+      "title": "给刘奶奶念信",
+      "description": "给82岁独居老人刘奶奶念儿子从深圳寄来的家信。碰到不认识的字会猜，但她说「你念的信听着最真」。",
+      "ageRange": { "start": 52 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "十点二十，刘奶奶家。\n\n她坐在门口的竹椅上，看到你来了，眼睛亮了。\n\n「有信吗？」\n\n「有。您儿子的。」\n\n你拆开信封，展开信纸。字写得工整，但你还是碰到了几个不认识的字。你停顿了一下，猜了一个读音，继续往下念。\n\n「妈，我在这边挺好的，厂里涨了工资……」\n\n刘奶奶听着听着笑了，又听着听着眼眶红了。\n\n念完了，她说：「你念的信听着最真。」\n\n你知道她说的不是发音准不准。她是说，你念信的时候，像一个真正在乎的人在说话。",
+      "bgmTag": "letter_reading_silence",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "刘奶奶想让你帮她写封回信，你会怎么写？",
+        "options": [
+          { "label": "如实转达她的话", "response": "她说'告诉娃儿我身体好得很莫担心'。你照写了。但你明明看到她刚才吃药时手在抖。有些真相，不说也是一种温柔。" },
+          { "label": "加一句自己看到的话", "response": "你在信末加了一句：'你妈每天都会到村口等邮递员。'这不算说谎——这是你亲眼看到的。有些话，老人说不出口，但你可以替她说。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_lunch_by_stream",
+      "title": "溪边的干粮",
+      "description": "中午在溪边啃干粮休息，用山泉水洗脸。短暂的宁静是一天中最私人的时刻。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "十二点半，溪边。\n\n你把邮包放在石头上，掏出干粮啃了两口。山泉水冰凉刺骨，你捧起来洗了把脸，精神了一些。\n\n四周很安静。只有溪水声、鸟叫声、风吹树叶的沙沙声。\n\n这是一天中唯一属于你自己的时间。没有收件人，没有信件，没有需要说的话。\n\n你就这么坐着，看水面上漂过的落叶。\n\n然后站起来，背上邮包，继续走。",
+      "bgmTag": "stream_nature_peace",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_farthest_village",
+      "title": "最远的村子",
+      "description": "下午两点到达最远的村子，捎去降压药和两包种子。这里是邮路的终点，也是情感的起点。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "下午两点，终于到了最远的村子。\n\n这个村子只有十几户人家，年轻人几乎都出去了。留下的都是老人和孩子。\n\n你把降压药递给陈爷爷，把种子交给赵大嫂。他们说谢谢，你说不用谢。\n\n这些对话重复了几千遍，但每一遍都是真的。\n\n因为你知道，如果没有你，这些药、这些种子、这些信，就不会出现在这里。\n\n你是这条路的存在意义。这条路也是你的。",
+      "bgmTag": "remote_village_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_rainstorm_delivery",
+      "title": "暴雨中的录取通知书",
+      "description": "山洪暴发时绕道多走15公里，只为把大学录取通知书安全送到山里姑娘手里。浑身湿透，通知书一点没湿。",
+      "ageRange": { "start": 52 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "那年七月，山洪暴发。\n\n正常路线被冲断了。你绕道多走了15公里，踩着没过膝盖的泥水，一步一步往山里走。\n\n邮包里有一封大学录取通知书。\n\n你把邮包紧紧抱在怀里，用雨衣裹了一层又一层。雨打在脸上睁不开眼，脚下的路滑得站不稳。\n\n到的时候，你浑身湿透了。\n\n但你打开邮包，那封信干干净净。\n\n姑娘接过通知书的时候哭了。你说别哭，这是好事。\n\n你可能永远不会知道她后来成了什么样的人。但你知道，这张纸对她很重要。\n\n这就够了。",
+      "bgmTag": "rain_heroic_mission",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "回想那次暴雨送信的经历，你最记得什么？",
+        "options": [
+          { "label": "通知书完好无损的那一刻", "response": "你打开邮包，看到干燥的信封。那一刻所有的疲惫都值得了。不是因为英雄感，是因为你知道有人正在等你。" },
+          { "label": "姑娘哭泣的脸", "response": "她哭着接过通知书的样子，你记了三十年。不是因为感动了自己，是因为你看到了一个家庭的希望，正从你的手里传递出去。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_return_journey",
+      "title": "夕阳下的返程",
+      "description": "傍晚开始返程，绕道取一封挂号信。虫鸣渐起，炊烟升起，脚步由重变轻。",
+      "ageRange": { "start": 52 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "四点，返程。\n\n你绕道去了另一个村子，取了一封要寄出的挂号信。信封上写着广东的地址，字迹歪歪扭扭的——大概是个不太会写字的老人写的。\n\n夕阳把山染成了金色。远处的村庄升起了炊烟，狗叫声隐隐约约传过来。\n\n虫鸣开始密集起来。你的脚步比早上轻了一些——不是因为不累了，是因为心里踏实了。\n\n今天的信送到了，明天的清单也理好了。\n\n又是一天。",
+      "bgmTag": "sunset_return_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_09_retirement_countdown",
+      "title": "退休倒计时42天",
+      "description": "距离退休还有42天。教年轻邮递员认路，但他说「你这条路导航没有信号」。",
+      "ageRange": { "start": 52 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "还有42天就退休了。\n\n镇上派了个年轻人来跟你学路线。他背着GPS设备，拿着手机地图，一脸认真。\n\n你带他走了两天。\n\n第三天，他说：「师傅，你这条路导航没有信号。」\n\n你笑了笑，没反驳。\n\n你想告诉他：这条路不是靠导航走出来的。是靠一遍一遍的脚印踏出来的。是靠记住哪块石头松了、哪个弯道有落石、哪棵树下面可以避雨走出来的。\n\n但这些话，说出来他也未必懂。\n\n就像三十年前，你的师傅也没能教会你一样。有些路，只能自己走。",
+      "bgmTag": "farewell_bittersweet_strings",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对即将交接的邮路，你想对年轻人说什么？",
+        "options": [
+          { "label": "把经验写成笔记留给他", "response": "你花了一周时间，把每个村子的情况、每段路的注意事项写了下来。他知道这些笔记不如亲自走一遍管用，但他会珍惜的。" },
+          { "label": "什么都不说，让他自己走", "response": "你把邮包交给他，拍了拍他的肩膀。有些东西说不出来，只能走出来。你相信他会找到属于自己的节奏。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_10_last_delivery",
+      "title": "最后一天的邮路",
+      "description": "体验收尾：三十年的邮路浓缩在最后一步。路还在，走这条路的人要换了。",
+      "ageRange": { "start": 52 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "最后一天。\n\n你还是六点出发，还是背着15公斤的邮包，还是走那条走了三十年的路。\n\n但每一步都不一样了。\n\n老虎嘴的风好像比平时大一些。刘奶奶的笑容好像比平时久一些。溪水的声音好像比平时清楚一些。\n\n你不是在告别这条路。你是在把它刻进身体里最后一次。\n\n回到邮政所，你把邮包放在桌上，扣好搭扣。\n\n明天，会有另一个人背上它。\n\n路还在。只是走这条路的人，要换了。\n\n你站在门口，看了看远处的山。\n\n山没有看你。但你知道，它记得你走过的每一步。",
+      "bgmTag": "ending_mountains_memory",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_04_read_letter_grandma", "evt_07_rainstorm_delivery"],
+    "valleyMoments": ["evt_03_tiger_mouth_cliff", "evt_09_retirement_countdown"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["aging", "loneliness"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
