@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "scrap-yard-sorting-philosophy",
+    "title": "废品回收站老板的分类哲学",
+    "subtitle": "物尽其用是一种信仰",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzRpYPoRHkR1NRv0JKe0xjE3",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T14:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_departure",
+      "title": "凌晨出发",
+      "description": "闹钟在4:25响起。摸黑穿上洗得发白的蓝色工装外套，推开门时冷空气灌进领口。三轮车链条发出熟悉的咯吱声，车灯照亮巷子里还没散去的薄雾。这条去收购点的路骑了十八年，闭着眼都知道哪里有个坑。",
+      "ageRange": { "start": 48 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "闹钟还没响完我就醒了。四点半的巷子黑得彻底，只有远处环卫车的低频嗡鸣。三轮车链条咯吱咯吱地响，像在跟我打招呼。这条路我骑了十八年，哪个坑在哪、哪棵树歪了，比自己的掌纹还熟。",
+      "bgmTag": "ambient_dawn_birds",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_morning_rush",
+      "title": "早市高峰",
+      "description": "收购点刚支好秤人就来了。保洁阿姨拖着蛇皮袋，拾荒老人背着压扁的纸箱，居民拎着攒了一周的塑料瓶。不用看就知道谁送的是什么——听袋子落地的声音就能分辨是纸板还是易拉罐。过秤、报价、找零，整套动作行云流水。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "秤刚支好，老张婶就拖着蛇皮袋过来了。袋子落地那一声闷响，不用看就知道是纸板。后面跟着捡瓶子的李大爷，塑料袋哗啦一倒，全是PET瓶。过秤、报价、找零，手上的动作比脑子快。这行干久了，耳朵就是分拣机。",
+      "bgmTag": "morning_market_hustle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_sorting_craft",
+      "title": "分拣的学问",
+      "description": "外行看是一堆垃圾，一眼能分出七种塑料。PET瓶身透明偏蓝，HDPE奶壶乳白不透明，PVC管材硬而脆……每种价格差三倍。手指上的老茧是光谱仪，摸一下就知道材质。拿起、翻转、辨认、归类。这套动作重复了上万次，每一次都郑重得像在完成某种仪式。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "外人看这是一堆破烂，我看这是七种塑料、三种金属、两类纸板。PET瓶子透明带蓝头，HDPE奶壶乳白发乌，PVC管子硬得一掰就断。手指头摸一下就知道是啥，老茧就是我的检测仪。拿起、翻转、归类——纸板朝左，塑料朝右，金属进筐。干了十八年，每一下都像第一次那么认真。",
+      "bgmTag": "rhythmic_sorting_asmr",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对一堆混合废品，你能分清几种？",
+        "options": [
+          { "label": "试试分拣挑战", "response": "你花了45秒只分对了3种。老板30秒分完全部7种，准确率100%。这不是天赋，是十八年的肌肉记忆。" },
+          { "label": "先看老板演示", "response": "他的手指像装了传感器一样掠过每一件废品，动作快到你看清标签就已经归类完毕。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_price_drop",
+      "title": "铜价跌了八毛",
+      "description": "午饭间隙刷手机，铜价一夜跌了8毛/斤。手里还有两吨存货，算下来亏一千六。筷子停在半空，米饭突然没了味道。是等还是卖？这个决定关乎全家一个月的生活费。起身又去库房过了一遍库存清单，指尖划过那些码得整整齐齐的铜线捆。",
+      "ageRange": { "start": 48 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "午饭扒到一半，手机上跳出铜价行情。一夜跌了八毛，我手里两吨货就是一千六。筷子停在碗里，饭突然咽不下去了。等还是卖？想了半天也没想明白。下午去库房又摸了一遍那些铜线捆，码得整整齐齐的，像我的命一样。",
+      "bgmTag": "low_freq_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "铜价跌了，手里的货怎么办？",
+        "options": [
+          { "label": "立刻出手止损", "response": "卖了，亏一千六。但至少不用再半夜醒来算账了。有时候认赔也是一种解脱。" },
+          { "label": "再等等看", "response": "等了三天，铜价又跌了两毛。叹了口气，认赔出场。'等'本身也是一种成本。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_old_photo",
+      "title": "旧书里的全家福",
+      "description": "在一批旧书里翻出一本1970年代的手抄菜谱，纸页泛黄发脆。翻开时掉出一张褪色的全家福——五个孩子站在土坯房前，笑得没心没肺。盯着照片看了很久，然后找出塑封膜仔细包好放回书里。有些东西的重量不在秤上。",
+      "ageRange": { "start": 48 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "翻一本旧书的时候，掉出来一张照片。五个小孩站在土房子前面，笑得牙都露出来了。背面写着1973年春。我把照片拿起来看了好久，然后找了块塑封膜包好，又放回了书里。这东西不值钱，但也不是用钱能衡量的。",
+      "bgmTag": "gentle_piano_memory",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这本夹着全家福的旧书怎么处理？",
+        "options": [
+          { "label": "按废纸卖掉", "response": "秤上加了0.3斤，多了4毛钱。但后来想起那张照片，总觉得少了点什么。" },
+          { "label": "塑封好放回去", "response": "他把照片包好放回书页间。也许有一天，会有另一个人翻开它，看见那个年代的笑容。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_son_shame",
+      "title": "儿子嫌丢人",
+      "description": "儿子大学毕业进了互联网公司，上次打电话说'爸你别跟同事说我干啥的'。不辩解，只是每月默默转五千块生活费。分拣出完好的旧玩具会洗干净存起来，不是留给孙子——是觉得好好的东西扔了可惜。这种不被理解的坚持，比任何反驳都沉。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "儿子上次打电话说，爸你别跟同事说我干啥的。我没吭声。每个月照转五千块生活费，他收不收是他的事。分拣的时候捡到几个还能玩的玩具，洗干净放在架子上。不是给谁留的，就是觉得好好的东西扔了可惜。他不理解就不理解吧。",
+      "bgmTag": "lonely_evening_strings",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_community_hub",
+      "title": "街上的物品中转站",
+      "description": "谁家装修剩的瓷砖给隔壁修灶台的大爷留着，孩子淘汰的书包擦干净送给捡瓶子的阿婆。他是这条街的隐形枢纽，连接着被丢弃的和还需要的人。没人给他发锦旗，但路过的人都习惯性地喊一声'老板'。这个称呼里有种说不清的信任。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "王姐家装修剩的瓷砖我给留着，隔壁刘叔修灶台正好用上。小孩子们不要的书包擦干净，送给捡瓶子的陈阿婆。我就是这条街的中转站，把不要的东西送到需要的地方。没人给我发奖状，但路过的人都喊我一声老板。这一声里头，有东西。",
+      "bgmTag": "warm_community_guitar",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_day_end",
+      "title": "日暮关门",
+      "description": "卷帘门拉下的声音在巷子里回荡。小桌上摆着一碗面、一碟咸菜，电视里新闻联播片头曲准时响起。今天处理了四吨废品，账面上赚了三百多。夹起面条时手上有淡淡的铁锈味。明天铜价可能涨回来也可能继续跌。但至少那些被扔掉的东西，在他手里重新有了归处。",
+      "ageRange": { "start": 48 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "卷帘门哐当一声拉到底，巷子里安静下来了。一碗面、一碟咸菜，新闻联播准时开始。今天过了四吨货，赚了三百出头。手上还有铁锈味，洗不太掉。明天铜价不知道涨不涨，但今天这些被扔掉的东西，至少在我这儿找到了该去的地方。",
+      "bgmTag": "evening_news_ambient",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_sorting_craft", "evt_05_old_photo"],
+    "valleyMoments": ["evt_04_price_drop", "evt_06_son_shame"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

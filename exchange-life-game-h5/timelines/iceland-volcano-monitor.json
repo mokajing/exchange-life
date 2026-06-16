@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "iceland-volcano-monitor",
+    "title": "冰岛火山监测科学家的休眠期值守",
+    "subtitle": "在随时可能苏醒的大地之上用仪器倾听地球心跳的孤独哨兵",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_drive",
+      "title": "穿越苔原与熔岩原",
+      "description": "从雷克雅未克郊外住所出发，驱车45分钟抵达监测站，沿途经过苔原与黑色熔岩原。",
+      "ageRange": { "start": 32 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "车轮碾过黑色的熔岩碎石，两侧是灰绿色的苔藓覆盖着几百年前的岩浆遗迹。四十五分钟的路程你已经走了上千次，但每次看到远处那座沉默的山峰时，心里还是会闪过同一个念头：你今天还在睡吗？监测站的门在你身后关上，隔绝了极地风声。台灯亮起橘黄色的光晕。又一个值班日开始了。",
+      "bgmTag": "arctic_wind",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_low_frequency",
+      "title": "低频震颤信号",
+      "description": "发现一组低频震颤信号持续了6小时——可能是岩浆房缓慢充能，也可能是仪器噪声。需要在不确定性中做出判断。",
+      "ageRange": { "start": 32 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "波形图上出现了一组不该在那里的脉冲。低频。持续。六个小时。你的手指悬在键盘上方——上报还是继续观察？如果是岩浆房充能，每一分钟的延误都可能意味着预警时间的缩短。如果只是仪器噪声，一次误报会消耗整个团队的信任。你反复回放那段波形，手心的汗浸湿了鼠标。",
+      "bgmTag": "seismic_pulse",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "发现异常信号时你怎么做？",
+        "options": [
+          { "label": "立即上报主管", "response": "你选择了谨慎。主管说'先记录，继续监测'。三天后信号消失了。你不知道自己是对的还是反应过度了。" },
+          { "label": "继续观察48小时再判断", "response": "你赌了一把。信号在第三十六小时停止了。如果它没有停呢？这个'如果'会在你心里住很久。" },
+          { "label": "联系同事交叉验证", "response": "三个人的判断比一个人可靠。你们达成共识：值得关注但不必恐慌。协作本身就是一种安全网。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_blizzard_rescue",
+      "title": "暴风雪中独自取数据",
+      "description": "暴风雪导致三个偏远站点通讯中断48小时，独自驾车穿越白茫茫的无人区去手动取回存储卡。",
+      "ageRange": { "start": 32 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "白色。全是白色。挡风玻璃外的世界被简化成了一种颜色。手机没有信号已经四个小时了。雨刷在徒劳地刮着永远刮不完的暴雪。你想起女儿问你'爸爸你的工作是不是就是看石头'，你笑着说对。此刻你才意识到这份工作最核心的部分永远无法向家人描述——比如现在，一个人在世界的尽头开着一辆车，只为了一张存储卡上的数据。",
+      "bgmTag": "blizzard_drive",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_04_steam_eruption",
+      "title": "毫无预兆的蒸汽喷发",
+      "description": "一次小型蒸汽喷发在距站2公里处发生，事后复盘发现前兆信号被日常背景噪声淹没了。",
+      "ageRange": { "start": 33 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "一声尖锐的气流啸叫从两公里外传来，然后迅速归于寂静。你冲出去时只看到了升腾的白色蒸汽柱。回到站内复盘数据，你找到了那个被你忽略的前兆信号——它藏在日常背景噪声里，像万人体育场里一根落地的针。你没有听到它。这件事会在你心里变成一个永远校准不准的刻度。",
+      "bgmTag": "steam_hiss",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_05_tourist_warning",
+      "title": "劝阻闯入禁区的游客",
+      "description": "旅游旺季有游客无视警戒线闯入热泉区，既要劝阻又要解释为什么'看起来没事的地方脚下就是沸腾的泥浆'。",
+      "ageRange": { "start": 33 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他们笑着站在警戒线里面自拍。你用英语喊了三遍'危险'，他们挥挥手说'没事的'。你走过去指着脚下的地面说：'这层壳只有二十厘米厚，下面是两百度的泥浆。'笑容终于消失了。你不想当扫兴的人。但你更不想在新闻里看到他们的名字。",
+      "bgmTag": "tension_strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_validation",
+      "title": "三个月后的验证",
+      "description": "收到同事邮件得知监测的火山进入了活跃期——验证了之前的直觉但毫无成就感。没人记得是他最先标记出那组低频震颤。",
+      "ageRange": { "start": 33 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "邮件标题很短：'Krafla进入活跃期'。你盯着屏幕看了很久。三个月前那组低频震颤不是噪声。你的直觉是对的。新闻铺天盖地，没有人提到那个最先标记出异常信号的值班员。但你记得那天深夜反复回放波形时手心的汗。这就够了。大多数时候什么都不会发生——而'什么都不会发生'本身就是这份工作的意义。",
+      "bgmTag": "quiet_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "独处夜晚，你想怎么度过？",
+        "options": [
+          { "label": "给家人打一通电话", "response": "女儿的声音从卫星电话里传来，带着电流的杂音。她说'爸爸我想你了'。你说'我也是'。这通电话是你和人类世界之间最细的一根线。" },
+          { "label": "写一封不会寄出的信", "response": "你写下了所有无法向任何人解释的感受。写完折好放进抽屉。也许有一天有人会读到它。也许不会。" },
+          { "label": "什么都不做只是坐着听风", "response": "风声是你的同事。它从不说话，但从不离开。在这份沉默里你找到了一种不需要被理解的安宁。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_03_blizzard_rescue", "evt_06_validation"],
+    "valleyMoments": ["evt_02_low_frequency", "evt_04_steam_eruption"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["isolation", "natural_disaster"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

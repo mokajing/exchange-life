@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "mediocre-cultivator",
+    "title": "资质平庸的修仙者的千年苦修",
+    "subtitle": "不是天选之子，靠笨功夫熬到筑基",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_spirit_test",
+      "title": "入门测试被嘲笑",
+      "description": "七品杂灵根，宗门收徒的最低门槛。'七品灵根也配修仙？回家种地吧'——他把这句话刻在床头木板上。",
+      "ageRange": { "start": 14 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "测灵石发出微弱的光。七品。全场沉默。执事勉强收下你，表情像在收容一只流浪猫。身后有人笑出声：'七品灵根也配修仙？回家种地吧。'你没有回头。当晚你用指甲把这句话刻在了床头的木板上。不是为了记住仇恨，是为了在每个想放弃的夜晚提醒自己：你还在。",
+      "bgmTag": "flute_lonely",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "被嘲笑后你怎么做？",
+        "options": [
+          { "label": "咬牙忍住", "response": "你把所有不甘咽下去，化作每天比别人多练两个时辰的动力。" },
+          { "label": "当场反驳", "response": "你说'灵根不代表一切'。声音在发抖，但你说了。后来他们用行动证明了你是错的——又好像是对的。" },
+          { "label": "默默离开", "response": "你转身走了。不是因为认输，是因为你知道证明自己不需要嘴。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_friend_leaves",
+      "title": "唯一的朋友转投内门",
+      "description": "第一次尝试突破练气四层失败，经脉受损卧床三月，醒来发现唯一的朋友已转投了内门。",
+      "ageRange": { "start": 24 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "三个月。你躺在床上看着天花板上的蛛网从一角织到另一角。经脉的痛已经从尖锐变成了钝重的麻木。醒来那天你去敲隔壁的门，开门的是一个陌生的新弟子。'他上个月进了内门。'你没问为什么没来告别。有些答案比问题更伤人。",
+      "bgmTag": "empty_room",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_found_scroll",
+      "title": "藏书阁的残卷",
+      "description": "在藏书阁整理古籍时发现一本残卷，记载了一位上古散修以拙胜巧的修行笔记，从此找到方向。",
+      "ageRange": { "start": 64 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "灰尘。霉味。你在藏书阁最深处翻到了一本没有封面的残卷。字迹潦草得像是在赶路时写的。上面记载着一位上古散修的修行笔记——他也是低灵根，他用了一种笨到极致的呼吸法，慢得可笑，但每一步都踩得比任何人都实。你读了一整夜。天亮时你知道自己找到了什么：不是捷径，是一条允许你慢慢走的路。",
+      "bgmTag": "discovery_chime",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_century_cliff",
+      "title": "百岁寿宴无人来贺",
+      "description": "百岁寿宴无人来贺，独自在山崖边看了一夜星空，想通了'我的道就是慢'。",
+      "ageRange": { "start": 114 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "一百岁。没有寿宴。没有贺礼。同辈的人或飞升或陨落或早已放弃。你是外门最老的弟子。你独自走到山崖边坐下，看了一夜的星空。银河从东转到西，不急不缓。你忽然明白了：你的道就是慢。不是和解，不是认命，是重新定义了'到达'的含义。",
+      "bgmTag": "bowl_resonance",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_05_foundation_quiet",
+      "title": "三百年筑基",
+      "description": "筑基成功那天没有天降异象，只有他自己知道那一刻的平静比任何雷劫都震撼。",
+      "ageRange": { "start": 314 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "没有雷劫。没有天降异象。没有万人瞩目。你只是在一个普通的清晨，呼吸到了第三百年的第一口空气，然后发现身体里有什么东西安静地归位了。筑基。用了三百年。那一刻的平静比任何惊天动地的突破都更震撼——因为只有你知道，这一口气里装了多少个想放弃又被自己拉回来的黎明。",
+      "bgmTag": "silence_wind",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_thousand_years",
+      "title": "千年回望",
+      "description": "仍是筑基修士，但已是宗门藏书阁的活字典，后辈称他'默祖'。当年嘲笑他的天才早已化为尘土，而他还在。",
+      "ageRange": { "start": 1014 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "一千年。你还是筑基。但你已经是这座山上活得最久的记忆。后辈们叫你'默祖'，来找你问那些书上查不到的事。你翻出入门时那块刻字的木板，字迹已被磨平。当年嘲笑你的天才早已化为尘土。你没有赢过任何人。你只是还在。有人问你值不值得，你说：'你们说的值得是登顶，我说的值得是走路本身。'",
+      "bgmTag": "children_humming",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "千年之后，你想留下什么？",
+        "options": [
+          { "label": "一句刻在木板上的话", "response": "你写下了自己的那句话。字迹会被时间磨平，但写下这个动作本身就是答案。" },
+          { "label": "把那本残卷传给下一个笨孩子", "response": "你把它放在了藏书阁最深处那个角落。总有人会找到它，就像你当年一样。" },
+          { "label": "什么都不留", "response": "你来过。你走过了。这就够了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_04_century_cliff", "evt_05_foundation_quiet"],
+    "valleyMoments": ["evt_01_spirit_test", "evt_02_friend_leaves"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
