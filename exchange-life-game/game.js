@@ -104,7 +104,8 @@ const TIMELINE_LIST = [
   'arctic-seed-vault-guardian',
   'migrant-to-driver-midlife',
   'synesthesia-daily-senses',
-  'mongolian-gobi-nomad-storm'
+  'mongolian-gobi-nomad-storm',
+  'search-history-documentary'
 ];
 
 App({
