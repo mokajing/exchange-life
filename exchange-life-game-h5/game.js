@@ -283,6 +283,7 @@ const TIMELINE_LIST = [
   { id: 'lanna-amulet-caster', label: '炉火守艺人：清迈佛牌铸造匠人的千年传承 (P0第412卷)', level: 'L2' }
     { id: 'shadow-relation-mediator', title: '影子关系调解员', subtitle: '替人与自己的影子谈判的第一个月' },
   { id: 'ai-life-score-daily', label: '被AI量化的人生评分日 (P0第423卷)', level: 'L1' },
+  { id: 'adhd-woman-workplace-masking', label: 'ADHD成人女性的职场伪装日常 (P0第431卷)', level: 'L3' },
 ];
 
 let player = null;

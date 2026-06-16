@@ -109,6 +109,7 @@ const TIMELINE_LIST = [
   'lanna-amulet-caster',
   'ai-life-score-daily',
   'shadow-relation-mediator',
+  'adhd-woman-workplace-masking',
 ];
 
 App({
