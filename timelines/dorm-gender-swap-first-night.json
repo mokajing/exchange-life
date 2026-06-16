@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "dorm-gender-swap-first-night",
+    "title": "男生变女生的大学宿舍第一夜",
+    "subtitle": "在兄弟突然变成姐妹的尴尬与温柔里重新理解女性友谊的密度与边界",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T16:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_move_in",
+      "title": "搬进女生宿舍",
+      "description": "大一开学第一天下午，搬进四人间女生宿舍，行李还没拆完就被室友拉去聚餐。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你拖着行李箱站在302室门口，门牌上写着「女生宿舍」。推开门的那一刻，三个女孩同时抬头看你，然后笑了。室友A热情地帮你整理床铺，教你用公共洗衣机的「女生模式」。你意识到自己被默认纳入了一个已经运转多年的互助系统——那种自然到不需要解释的接纳，让你既温暖又局促。行李还没拆完，她们就拉你去食堂聚餐，仿佛你从来就是这里的一员。",
+      "bgmTag": "campus_folk_guitar",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_shower_curtain",
+      "title": "浴室帘子缝隙",
+      "description": "第一次集体洗漱，发现浴室没有隔断只有帘子；帘子被风吹开时本能退缩，室友们却毫不在意。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "晚上八点，第一次集体洗漱。浴室没有隔断，只有塑料帘子。水汽氤氲中，帘子被风吹开一条缝，你本能地缩了一下身体。但室友们继续聊天，没有人看你，没有人停顿。那种「不被凝视」的自由让你愣住了——这不是开放，是她们从小就习惯了彼此的存在。在你的经验里，身体暴露意味着被审视、被评价；但在这里，它只是存在本身。你第一次理解了什么叫安全感。",
+      "bgmTag": "water_echo_ambient",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "当帘子被风吹开时，你的反应是？",
+        "options": [
+          { "label": "下意识捂住身体", "response": "你的身体比意识更快做出了反应。这个动作暴露了你二十年来被训练出的身体边界感——而她们从未被这样训练过。" },
+          { "label": "强迫自己不动", "response": "你用意志力压制住退缩的冲动，假装自然。但这种「表演」本身就是一种消耗——你意识到自己还在用男性的社交规则应对这个空间。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_bedtime_talk",
+      "title": "熄灯后的卧谈会",
+      "description": "话题从课程表跳到前任再到月经痛；室友B说起被PUA的经历，所有人安静倾听无人评判。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "晚上十点，熄灯。黑暗中只剩下床头小灯的橘黄光晕。卧谈会开始了——话题从课程表跳到前任，再到月经痛。室友B说起被前男友PUA的经历，所有人安静下来听她说完才接话。没有人评判，没有人说「你当时为什么不离开」。这种「倾听的纪律」在你过去的男性社交中几乎不存在。你意识到自己以前所谓的「关心朋友」其实都是在表达自己。",
+      "bgmTag": "minimal_piano_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "当室友问你「有没有谈过恋爱」时，你会？",
+        "options": [
+          { "label": "诚实回答", "response": "你讲述了你的恋爱经历，却发现自己的叙事方式和她们完全不同——更注重事件而非感受，更注重结果而非过程。这种差异本身就是答案。" },
+          { "label": "反问对方", "response": "你把话题抛回去，选择成为一个倾听者。在黑暗中，你第一次体验到「不发言也可以被接纳」的感觉。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_midnight_crying",
+      "title": "凌晨的哭泣声",
+      "description": "凌晨两点被上铺翻身声和隔壁床的低泣声吵醒，犹豫是否该出声安慰。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨两点。上铺的翻身声，隔壁床的低泣声。你醒了，不知道该不该出声安慰。在你的经验里，「打扰别人哭」是不礼貌的。但在这个空间里，沉默本身可能就是一种冷漠。你犹豫了很久，最终轻轻敲了一下床板。C小声说了句「谢谢」。那一刻你明白了：轻轻的敲击本身就是语言。不是不会安慰人，是从没被教过。",
+      "bgmTag": "silent_breathing",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "听到哭声时，你会怎么做？",
+        "options": [
+          { "label": "敲床板", "response": "木板传导的轻微振动代替了语言。这是一种不需要词汇的安慰，是你在这个夜晚学会的新语言。" },
+          { "label": "发微信消息", "response": "你在手机上打下「你还好吗」，发送。屏幕的微光照亮天花板。数字媒介提供了安全距离，但也失去了物理在场的温度。" },
+          { "label": "继续装睡", "response": "你闭上眼睛，假装什么都没听见。这不是冷漠，是你过去十八年学到的社交规则——只是在这个空间里，它显得如此格格不入。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_morning_reflection",
+      "title": "清晨的沉默",
+      "description": "第二天早上醒来，有些东西看见了就再也无法假装看不见。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "清晨的阳光透过窗帘缝隙洒进来。室友们陆续起床，互相借衣服、帮带早餐、自然地挽手走出宿舍。你跟在后面，感到一种温柔的遗憾——作为男生时，你从未被允许拥有这种密度的友谊。不是不想，是从来没被教过可以这样。有些东西看见了就再也无法假装看不见。你知道回到自己的身体后，某些改变已经发生了。",
+      "bgmTag": "morning_gentle_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_laundry_room",
+      "title": "公共洗衣机",
+      "description": "室友教你用洗衣机的「女生模式」，你发现自己连洗衣服的方式都被性别化了。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.5,
+      "narrativeText": "第二天下午，室友带你去公共洗衣房。她熟练地按下「女生模式」——水温更低、转速更柔、多了个除菌程序。你盯着面板上的按钮，突然意识到：连洗衣服这件最日常的事，都被性别化了。在你的宿舍，洗衣机只有一个模式，没人讨论过水温或除菌。这种差异不是优劣之分，而是两种完全不同的生活教育。",
+      "bgmTag": "daily_ambient_soft",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_07_classroom_return",
+      "title": "回到课堂",
+      "description": "坐在教室里，发现自己开始注意到以前忽略的细节：女生们课间自然的肢体接触、低声的情绪交流。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "回到课堂，你发现自己变了。不是知识变了，是目光变了。你开始注意到课间女生们自然的挽手、靠肩、低声分享心事；而男生们保持着礼貌的距离，谈论着游戏和成绩。以前你觉得这是「正常」，现在你知道这只是「一种可能」。你不是在批判哪一种更好，只是终于看见了另一种存在的完整性。",
+      "bgmTag": "campus_afternoon_piano",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_integration",
+      "title": "整合与回归",
+      "description": "体验结束后的呼吸练习和白噪音引导，帮助用户从沉浸式情感中平稳着陆。",
+      "ageRange": { "start": 18, "end": 18 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "体验即将结束。请找一个舒适的姿势坐下或躺下，闭上眼睛。跟随引导做三次深呼吸：吸气四秒，屏息四秒，呼气六秒。让刚才经历的一切慢慢沉淀。这不是终点，而是起点。你看见的那些温柔、那些边界、那些未被言说的语言，它们不会因为体验结束而消失。它们已经成为你理解世界的一部分。当你准备好时，慢慢睁开眼睛。欢迎回来。",
+      "bgmTag": "rain_white_noise",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "体验结束后，你想对自己说什么？",
+        "options": [
+          { "label": "「我学会了新的语言」", "response": "是的。敲床板的震动、倾听的沉默、不被凝视的自由——这些都是语言，只是以前没人教过你。" },
+          { "label": "「下次可以试试」", "response": "没关系。改变需要时间。你已经迈出了最重要的一步：看见。下一次，你会更勇敢一点。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_bedtime_talk", "evt_04_midnight_crying"],
+    "valleyMoments": ["evt_02_shower_curtain", "evt_01_move_in"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["gender_identity_topics", "intimate_relationship_discussion", "body_boundary_content"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
