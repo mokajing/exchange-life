@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "id": "search-history-documentary",
+    "title": "浏览器搜索历史纪录片",
+    "subtitle": "当你的深夜搜索记录变成公开放映的纪录片，在所有人的注视下重新理解数字时代的私密忏悔",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T17:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_push_notification",
+      "title": "下班路上的推送",
+      "description": "普通工作日傍晚，下班路上手机弹出通知：'您的专属人生纪录片已上线'。好奇点开，发现竟是自己的浏览器搜索历史剪辑。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "地铁车厢摇晃着，你百无聊赖地划开手机。一条推送安静地躺在锁屏上：'您的专属人生纪录片已上线'。你以为又是哪个App的营销套路，但手指还是不由自主地点了下去。加载画面闪过一行小字：'基于您过去365天的搜索记录生成'。你的心跳漏了一拍。",
+      "bgmTag": "urban_transit_ambient",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_epic_opening",
+      "title": "史诗配乐的社死开场",
+      "description": "纪录片开场用奥斯卡颁奖礼级别的交响乐播放'如何优雅地拒绝同事借钱'，全场爆笑。尴尬与荒诞感同时涌上来。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "银幕亮起，恢弘的管弦乐如洪流般倾泻而出。画面上赫然出现你三个月前在工位上偷偷搜过的那行字——'如何优雅地拒绝同事借钱'。字体被做成了电影海报样式，配乐庄严得像在宣布诺贝尔奖得主。周围传来低低的笑声，你的耳朵瞬间烧了起来。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "纪录片还在继续，你会……",
+        "options": [
+          {"label": "硬着头皮看下去", "response": "你深吸一口气，决定直面这场数字时代的公开处刑。也许最坏的部分已经过去了……吧？"},
+          {"label": "假装在看手机消息", "response": "你低下头假装刷微信，但余光还是忍不住瞟向银幕。那些搜索记录像弹幕一样在你脑海里循环播放。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_03_3am_philosophy",
+      "title": "凌晨三点的哲学追问",
+      "description": "凌晨3点的搜索记录'人活着到底有什么意义'被配上星空画面，笑声突然安静下来。整个影厅陷入沉默。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "配乐骤然切换为极简钢琴独奏。银幕上浮现出一行孤零零的搜索记录，时间戳显示凌晨3:17：'人活着到底有什么意义'。背景是缓慢旋转的银河。刚才还在笑的观众们安静了下来。有人轻轻吸了一下鼻子。你记起那个失眠的夜晚，窗外下着雨，你在黑暗中对着发光的屏幕敲下这行字，仿佛在对宇宙发出求救信号。",
+      "bgmTag": "night_calm_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "这段记忆被公之于众，你感到……",
+        "options": [
+          {"label": "释然——原来不止我一个人这样问过", "response": "你环顾四周，发现好几双眼睛里闪着相似的光。那一刻，孤独变成了某种隐秘的连接。"},
+          {"label": "刺痛——那是只属于自己的深夜", "response": "你把目光从银幕移开，盯着自己的鞋尖。有些问题本就不需要答案，只需要被允许存在。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_04_grandma_searches",
+      "title": "七条罕见病搜索记录",
+      "description": "连续七条关于某种罕见病的搜索记录出现，观众以为是疑病症发作，直到字幕揭示这是替奶奶查的。情绪从好笑急转为心疼。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "银幕上快速闪过七条搜索记录，全是同一种你没听说过的罕见病名称。有人小声嘀咕'又是个百度看病选手'。然后画面切到一张泛黄的照片——一位老人坐在藤椅上对你笑。字幕缓缓浮现：'这些搜索发生在奶奶确诊后的第三天'。影厅里彻底安静了。你感觉到眼眶发热，但没有擦。",
+      "bgmTag": "emotional_strings_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "此刻你想起了奶奶，你会……",
+        "options": [
+          {"label": "在心里对她说一句话", "response": "你没有出声，只是在心里默默地说了一句她最爱听的话。银幕上的星光似乎温柔了一些。"},
+          {"label": "记住这个被看见的瞬间", "response": "你意识到，那些深夜里独自承担的焦虑，其实也是爱的一种形状。被看见了，就不再只是沉重。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_05_appear_in_others",
+      "title": "出现在别人的纪录片里",
+      "description": "片尾字幕滚动时，你发现自己也在别人的纪录片里以'被搜索对象'身份出现。原来你也是某个人偷偷关心着的谜题。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "片尾曲响起，字幕像瀑布一样向上滚动。突然你看到了自己的名字——不是作为主角，而是作为'被搜索对象'出现在某个陌生人的纪录片里。搜索记录写着：'XX最近是不是不开心'、'怎么安慰一个不说自己难过的人'。你不知道是谁搜过这些，但有什么东西在胸口化开了。",
+      "bgmTag": "hopeful_strings_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_silent_departure",
+      "title": "沉默散场",
+      "description": "散场后没有人嘲笑谁，大家沉默着各自删了一些搜索记录，又存回了一些。数字时代的私密忏悔变成了集体共情。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "灯亮了。没有人鼓掌，也没有人急着离场。人们安静地站起来，像刚从一场漫长的深呼吸中回过神来。你打开手机，删掉了几条不再需要的搜索记录，又把那条关于奶奶的存了回来。走出影院时夜风微凉，你觉得有什么东西变轻了，又有什么东西变得更重了——以一种好的方式。",
+      "bgmTag": "peaceful_strings_warm",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_07_time_capsule",
+      "title": "给三年后的搜索建议",
+      "description": "片尾可手写一条'给三年后自己的搜索建议'封存进时光胶囊。这是对未来的温柔承诺。",
+      "ageRange": {"start": 25, "end": 35},
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "出口处有一面发光的墙，上面写着：'给三年后的自己留一条搜索建议'。你站了一会儿，然后慢慢写下：'希望你已经不用再搜怎么让自己开心起来了。'字迹消失在光里，像一颗种子落进了时间的土壤。",
+      "bgmTag": "sunrise_gentle_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "如果要给三年后的自己一条搜索建议，你会写什么？",
+        "options": [
+          {"label": "希望你已经找到了答案", "response": "你把这句话交给了时间。也许三年后的你会笑着摇头，也许会更用力地点头。"},
+          {"label": "希望你还在提问", "response": "只要还在搜索，就说明还没有放弃对世界的好奇。这本身就是最好的答案。"}
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_grandma_searches"],
+    "valleyMoments": ["evt_02_epic_opening"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["数字隐私焦虑", "亲人健康话题"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
