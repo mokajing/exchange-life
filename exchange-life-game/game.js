@@ -87,7 +87,8 @@ const TIMELINE_LIST = [
   'ocd-morning-ritual',                                                                                                   // L3/S/V2 - 强迫症患者的出门仪式 (P0第271卷)
   'selective-mutism-kindergarten',                                                                                        // L3/S/V2 - 选择性缄默症儿童的幼儿园日常 (P0第270卷)
   'parent-role-swap-week',                                                                                                // L2/S/V2 - 全职妈妈与职场爸爸互换角色的一周 (P0第336卷)
-  'county-bride-rich-family'                                                                                               // L1/S/V2 - 从县城体制内家庭嫁入一线城市豪门的第一年 (P0第338卷)
+  'county-bride-rich-family',                                                                                              // L1/S/V2 - 从县城体制内家庭嫁入一线城市豪门的第一年 (P0第338卷)
+  'mortician-hand-warmth'                                                                                                  // L2/S/V2 - 入殓师的手温 (P0第345卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
