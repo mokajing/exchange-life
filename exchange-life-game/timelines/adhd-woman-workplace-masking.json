@@ -1,0 +1,201 @@
+{
+  "meta": {
+    "id": "adhd-woman-workplace-masking",
+    "title": "ADHD成人女性的职场伪装日常",
+    "subtitle": "在所有人都能「自然而然专注」的办公室里，用便签纸、计时器和演技拼凑出「正常人」面具的一天",
+    "sourceType": "social_media",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T19:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_struggle",
+      "title": "闹钟响了三次",
+      "description": "06:30 闹钟响了三次才真正醒来。昨晚忘了把药放在水杯旁，现在要等30分钟药效起来才能开始「启动程序」。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "闹钟响了三次才真正醒来。昨晚忘了把药放在水杯旁，现在要等30分钟药效起来才能开始「启动程序」。这不是懒，是大脑还在冷启动。",
+      "bgmTag": "morning_ambient_slow",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_checklist_chaos",
+      "title": "出门前的混乱检查",
+      "description": "07:15 出门前检查清单：钥匙✓ 手机✓ 工牌✓ 药✓ 午餐盒……忘了。回去拿，又发现袜子穿了两只不一样的。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.4,
+      "narrativeText": "钥匙✓ 手机✓ 工牌✓ 药✓ 午餐盒……忘了。回去拿，又发现袜子穿了两只不一样的。每一天都是从混乱中抢出秩序的战斗。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_03_buffer_time",
+      "title": "刻意设计的缓冲期",
+      "description": "08:45 到公司比同事早15分钟——这是她刻意设计的缓冲期，用来把脑子里的混乱整理成「准备好上班的样子」。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "到公司比同事早15分钟——这是她刻意设计的缓冲期，用来把脑子里的混乱整理成「准备好上班的样子」。",
+      "bgmTag": "office_ambient_quiet",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_morning_meeting",
+      "title": "晨会的演技",
+      "description": "09:00 晨会。坐在固定位置，笔记本上画满格子，每隔3分钟强迫自己抬头看发言人一眼。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "晨会。坐在固定位置，笔记本上画满格子，每隔3分钟强迫自己抬头看发言人一眼。走神的瞬间，世界像隔了一层毛玻璃。",
+      "bgmTag": "metronome_ticking",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "晨会走神时，你会怎么做？",
+        "options": [
+          { "label": "强迫聚焦", "response": "你用力盯着发言人，但思绪像被风吹散的纸页。这种消耗，别人看不见。" },
+          { "label": "允许放空30秒", "response": "你给自己一个小小的喘息窗口。这30秒不是偷懒，是必要的重启。" },
+          { "label": "偷偷记下飘走的念头", "response": "你在本子角落写下那个突然冒出的想法。也许会后它会变成一个创意。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_peak_efficiency",
+      "title": "药效高峰期的奇迹",
+      "description": "10:30 药效高峰期，效率惊人地好。一小时干了别人半天的活。但她知道这个窗口只有90分钟。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "药效高峰期，效率惊人地好。一小时干了别人半天的活。但她知道这个窗口只有90分钟。这是偷来的清醒，珍贵得让人想哭。",
+      "bgmTag": "light_piano_flow",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_lunch_isolation",
+      "title": "午餐时的安静表演",
+      "description": "12:00 午饭。同事们聊天她插不上话。于是微笑点头，被评价为「安静但靠谱」。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "同事们聊天她插不上话。于是微笑点头，被评价为「安静但靠谱」。这句夸奖比批评更刺痛——他们不知道「安静」是她用尽全力维持的面具。",
+      "bgmTag": "cafe_ambient_distant",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "同事邀请聚餐，你会怎么回应？",
+        "options": [
+          { "label": "答应参加", "response": "你笑着说好。但心里已经开始计算需要多少能量来维持这场社交表演。" },
+          { "label": "礼貌拒绝", "response": "你说今晚有事。安全，但又一次错过了建立连接的机会。" },
+          { "label": "答应但提前离场", "response": "你给自己设了一个退出机制。这不是逃避，是对自己能量的尊重。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_afternoon_crash",
+      "title": "药效退潮的深渊",
+      "description": "14:00 药效退潮。盯着屏幕上的文档，字都认识但连不成意思。打开番茄钟，25分钟到了只写了三行。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "药效退潮。盯着屏幕上的文档，字都认识但连不成意思。打开番茄钟，25分钟到了只写了三行。大脑像一台过热的电脑，风扇狂转却什么都处理不了。",
+      "bgmTag": "glitch_static_tone",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "午后过载，你会怎么办？",
+        "options": [
+          { "label": "硬撑到底", "response": "你咬着牙继续。但每一分钟都像在泥沼中跋涉。你已经做得够多了。" },
+          { "label": "申请短暂休息", "response": "你鼓起勇气说需要休息一下。这需要比硬撑更大的勇气。" },
+          { "label": "躲进厕所调整", "response": "你走进隔间，深呼吸三分钟。这个小小的密闭空间，是你唯一的避难所。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_bathroom_breakdown",
+      "title": "厕所隔间的三分钟",
+      "description": "15:30 领导临时加任务。大脑瞬间过载。她说「好的收到」，然后躲进厕所隔间深呼吸三分钟。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "领导临时加任务。大脑瞬间过载。她说「好的收到」，然后躲进厕所隔间深呼吸三分钟。敲门声响起，情绪释放被迫中止。每个在职场厕所偷偷哭过的人，都会在这里停下。",
+      "bgmTag": "enclosed_breathing",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_09_sticky_note_fortress",
+      "title": "便签纸堡垒",
+      "description": "17:00 下班前整理明日待办。便签纸贴满显示器边框，像一座纸质堡垒。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "下班前整理明日待办。便签纸贴满显示器边框，像一座纸质堡垒。这些外部支架，是她维持「正常」的全部依靠。",
+      "bgmTag": "office_evening_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_home_collapse",
+      "title": "到家后的强制关机",
+      "description": "19:30 到家瘫倒。白天的「正常人演技」耗尽了所有能量。这不是懒，是执行功能透支后的强制关机。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "到家瘫倒。白天的「正常人演技」耗尽了所有能量。这不是懒，是执行功能透支后的强制关机。",
+      "bgmTag": "evening_silence",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_11_revenge_bedtime",
+      "title": "报复性熬夜的自由",
+      "description": "22:00 报复性熬夜。白天被压抑的多巴胺需求在深夜反扑。此刻是唯一不需要伪装的自由。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "报复性熬夜。白天被压抑的多巴胺需求在深夜反扑。此刻是唯一不需要伪装的自由。你知道这会透支明天，但这片刻的真实，值得。",
+      "bgmTag": "lofi_night_loop",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "深夜，是否放下手机？",
+        "options": [
+          { "label": "强制关机睡觉", "response": "你关掉手机。但大脑还在运转，入睡还需要一段时间。" },
+          { "label": "再刷30分钟", "response": "你给自己最后30分钟。这是你对自己的小小纵容。" },
+          { "label": "换冥想App", "response": "你打开呼吸引导。也许今晚可以温柔地结束这一天。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_peak_efficiency"],
+    "valleyMoments": ["evt_08_bathroom_breakdown", "evt_10_home_collapse"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["mental_health", "workplace_stress", "neurodivergence"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

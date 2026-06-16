@@ -433,6 +433,20 @@ const BGM_MAP = {
   emotional_silence_then_strings: { file: 'audio/bgm/emotional_silence_then_strings.mp3', volume: 0.4, loop: false },
   night_nature_ambient:       { file: 'audio/bgm/night_nature_ambient.mp3',       volume: 0.25, loop: true }
 
+
+  // === ADHD成人女性职场伪装专用标签 (2026-06-16 P0第431卷) ===
+  morning_ambient_slow:    { file: 'audio/bgm/morning_ambient_slow.mp3',    volume: 0.25, loop: true },
+  tense_minimal_beat:      { file: 'audio/bgm/tense_minimal_beat.mp3',      volume: 0.3, loop: true },
+  office_ambient_quiet:    { file: 'audio/bgm/office_ambient_quiet.mp3',    volume: 0.2, loop: true },
+  metronome_ticking:       { file: 'audio/bgm/metronome_ticking.mp3',       volume: 0.25, loop: true },
+  light_piano_flow:        { file: 'audio/bgm/light_piano_flow.mp3',        volume: 0.35, loop: true },
+  cafe_ambient_distant:    { file: 'audio/bgm/cafe_ambient_distant.mp3',    volume: 0.2, loop: true },
+  glitch_static_tone:      { file: 'audio/bgm/glitch_static_tone.mp3',      volume: 0.3, loop: true },
+  enclosed_breathing:      { file: 'audio/bgm/enclosed_breathing.mp3',      volume: 0.25, loop: true },
+  office_evening_calm:     { file: 'audio/bgm/office_evening_calm.mp3',     volume: 0.25, loop: true },
+  evening_silence:         { file: 'audio/bgm/evening_silence.mp3',         volume: 0.2, loop: true },
+  lofi_night_loop:         { file: 'audio/bgm/lofi_night_loop.mp3',         volume: 0.3, loop: true }
+
 };
 
 /**
