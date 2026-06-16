@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "id": "colorblind-daily-vision",
+    "title": "色觉异常者的日常视觉世界",
+    "subtitle": "在所有人都能分辨红绿灯和花朵颜色的世界里，用明度差和位置记忆代替色彩辨识的人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T14:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_curtain",
+      "title": "窗帘后的天气猜测",
+      "description": "清晨拉开窗帘，阳光照进来——但无法确认天空是蓝色还是灰色，只能通过亮度判断天气好坏。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "06:30。你拉开窗帘，光线涌进来。亮是亮的，但天空是什么颜色？你不知道。从来都不知道。别人说'今天蓝天真美'，你只能点头微笑。对你来说，天空永远是深浅不一的灰。你学会了用亮度判断天气：刺眼就是晴天，柔和就是多云，暗沉就是要下雨。这套系统运行了二十八年，从未出过错。只是偶尔，你会想，蓝色到底是什么样的蓝？",
+      "bgmTag": "string_melancholy",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_02_subway_map",
+      "title": "地铁线路图的灰褐色迷宫",
+      "description": "通勤路上，地铁线路图上的红绿蓝黄线条在眼中几乎融为同一片灰褐色色块，靠站名位置和线路形状记忆辨认方向。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "07:45。地铁站。你盯着墙上的线路图，那些在别人眼中清晰分明的红绿蓝黄线条，在你看来是一片纠缠不清的灰褐色。你早就放弃了靠颜色分辨线路。换乘站的位置、线路的弯曲弧度、站名的排列顺序——这才是你的导航系统。新来的同事问你'坐几号线'，你说'中间那条弯的'。她愣了一下，然后笑了。你没笑。这种解释你已经做了上千次。",
+      "bgmTag": "city_ambience",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "同事问你怎么分辨线路，你如何回应？",
+        "options": [
+          { "label": "耐心解释自己的辨认方式", "response": "你指着地图上的弯曲弧度说'我记形状不记颜色'。同事若有所思地点头。也许她第一次意识到，同一张地图在不同人眼里是完全不同的世界。" },
+          { "label": "轻描淡写带过不想多解释", "response": "'习惯了就好。'你笑了笑转身走向站台。有些疲惫不需要被看见。" },
+          { "label": "打开手机里的色觉模拟App给她看", "response": "你点开App让她看你眼中的线路图。她沉默了三秒说'原来是这样'。那三秒比一千句解释都管用。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_excel_colors",
+      "title": "Excel表格里的隐形障碍",
+      "description": "工作场景中，Excel表格里用颜色标记的优先级毫无意义，同事说'看红色那行'时需要假装理解然后偷偷问旁边的人。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "09:30。周会。项目经理投屏了一张密密麻麻的Excel表格。'大家看红色标注的那几行，这是本周重点。'你盯着屏幕，所有单元格看起来都是差不多的灰。你点点头，假装在看。等会议结束，你悄悄拉住旁边的老王：'刚才说的红色是哪几行？'老王指了指第三列。这种事每周发生三四次。你开始怀疑，自己是不是不适合这份工作。",
+      "bgmTag": "office_tension_strings",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_lunch_guess",
+      "title": "食堂里的味觉替代视觉",
+      "description": "午餐时刻，食堂菜品的色泽判断失效，红烧肉和酱牛肉看起来差不多，只能靠气味和口感区分。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "12:00。食堂。打饭窗口前，你看着一排排菜品，颜色信息全部丢失。红烧肉和酱牛肉在你眼里几乎是同一个色调。你学会了另一套系统：闻气味判断调味，看质地推测做法，尝一口确认食材。同事们夸你'舌头真灵'，他们不知道这只是眼睛罢工后的补偿机制。有时候你想，如果全世界的人都像你一样吃饭，也许食物的味道会比现在更丰富。",
+      "bgmTag": "city_ambience",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_art_class_memory",
+      "title": "美术课上的童年创伤",
+      "description": "小学美术课被老师批评'乱涂颜色'，从此害怕画画，直到成年后才知道自己不是'没有审美'而是'看不见颜色'。",
+      "ageRange": { "start": 8, "end": 8 },
+      "yearRange": { "start": 2006, "end": 2006 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "2006年。三年级美术课。你认真地画了一棵树，用了你觉得最漂亮的颜色。老师走过来，皱着眉说：'你怎么把树叶涂成棕色的？重画。'你低头看了看自己的画，不明白哪里错了。同桌凑过来小声说：'你拿错蜡笔了。'从那以后你再也没主动画过画。直到二十二岁体检时被确诊为红绿色弱，你才终于明白——你不是没有审美，你只是活在一个别人看不到的世界里。那个八岁的你，等了十四年才被原谅。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "回忆起美术课的创伤，你现在怎么看待这件事？",
+        "options": [
+          { "label": "已经释怀，那不是任何人的错", "response": "你深吸一口气。老师不知道，你也不知道。无知不是恶意，只是遗憾。你原谅了所有人，包括那个八岁的自己。" },
+          { "label": "仍然隐隐作痛", "response": "理智上你知道没人有错。但每次看到画笔，胸口还是会紧一下。有些伤口愈合了，疤痕还在。" },
+          { "label": "想把这段经历告诉更多人", "response": "你开始在社交平台分享色觉异常的体验。不是为了诉苦，是为了让下一个八岁的孩子不用等十四年才被理解。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_girlfriend_outfit",
+      "title": "女友穿搭询问时的坦白时刻",
+      "description": "女朋友精心搭配了一身衣服问他好不好看，他说好看但其实完全看不出配色方案，后来被她发现真相时哭了。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "2024年春天。她穿着新买的裙子转了一圈：'好看吗？'你笑着说好看。你确实觉得她好看——但不是因为配色。你看到的是她的轮廓、她的笑容、她眼睛里期待的光。至于裙子的颜色搭配，你一无所知。后来有一天她发现了你的手机里存着色觉测试图。她没有生气，只是抱着你哭了很久。她说：'你为什么从来不告诉我？'你说：'我怕你觉得我不完整。'她说：'你一直都是完整的。'",
+      "bgmTag": "emotional_release_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "女友发现真相后哭了，你想对她说什么？",
+        "options": [
+          { "label": "告诉她你看到的她比颜色更美", "response": "'我看不到裙子的颜色，但我看到了你所有的温柔。这比任何配色方案都珍贵。'她擦掉眼泪笑了。" },
+          { "label": "承诺以后不再隐瞒", "response": "'对不起。以后我会告诉你我看到的世界是什么样的。'你们开始了一段新的对话，关于差异，关于接纳。" },
+          { "label": "安静地抱着她什么都不说", "response": "有些话不需要说出来。你的体温、你的心跳、你抱紧她的力度，都在说同一句话：我在这里，完整地在这里。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_design_review",
+      "title": "设计评审会上的无声失误",
+      "description": "在公司设计评审会上把'警告色'和'安全色'搞反了，虽然没人当面说什么但之后再也没有被安排做过视觉相关的工作。",
+      "ageRange": { "start": 27, "end": 27 },
+      "yearRange": { "start": 2025, "end": 2025 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "2025年秋天。设计评审会。你指着原型图说'这个警告按钮用绿色很醒目'。会议室安静了两秒。产品经理轻声说：'那是红色。'你的脸一下子烫了。没人嘲笑你，没人指责你。但从那以后，再也没人让你参与视觉设计相关的项目。你理解这是合理的分工调整。只是每次路过设计部的工位，看到那些在你眼中毫无区别的色彩方案，心里还是会泛起一阵说不清的失落。",
+      "bgmTag": "office_tension_strings",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_08_child_flower",
+      "title": "公园里孩子指花的温柔谎言",
+      "description": "带孩子去公园，孩子指着花说'爸爸你看这朵红色的好漂亮'，他蹲下来认真看了很久，笑着说'是啊真漂亮'——他不知道那朵花是不是红色的。",
+      "ageRange": { "start": 28, "end": 28 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "2026年春天。公园。孩子蹲在花丛边，小手指着一朵花喊：'爸爸你看！红色的！好漂亮！'你蹲下来，认真地看着那朵花。你看到了花瓣的形状、叶脉的纹理、露珠折射的光。你看到了柔软，看到了生命，看到了孩子眼中闪烁的喜悦。但你不知道它是不是红色的。你笑着说：'是啊，真漂亮。'这不是谎言。在你的世界里，这朵花确实漂亮。只是你的漂亮和她的漂亮，形状不同。你伸出手让孩子摸了摸花瓣。'摸起来也很柔软对不对？'她用力点头。这一刻，你们共享了同一种美。",
+      "bgmTag": "reunion_warm_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "孩子问你花是什么颜色，你如何回答？",
+        "options": [
+          { "label": "诚实地说'爸爸看不太准，你觉得呢'", "response": "孩子歪着头想了想说'像草莓的颜色'。你笑了。也许诚实本身就是一种更深的陪伴。" },
+          { "label": "用其他维度描述这朵花", "response": "'它摸起来很柔软，闻起来甜甜的，风吹过来的时候还会轻轻点头。'孩子闭上眼睛感受了一下说'真的耶'。你们找到了另一种共同语言。" },
+          { "label": "根据位置记忆猜一个答案", "response": "你猜是红色。孩子开心地跳起来说'答对了'。你不知道自己是不是猜对了，但她的快乐是真的。这就够了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_girlfriend_outfit", "evt_08_child_flower"],
+    "valleyMoments": ["evt_05_art_class_memory", "evt_07_design_review"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["identity", "sensory_difference"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  },
+  "ending": {
+    "type": "open",
+    "text": "你的世界少了某些颜色，但从未缺少美。每一种感知都是真实的，每一种真实都值得被看见。",
+    "bgmTag": "piano_reconciliation"
+  }
+}
