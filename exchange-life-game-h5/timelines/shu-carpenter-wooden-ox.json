@@ -2,30 +2,37 @@
   "meta": {
     "id": "shu-carpenter-wooden-ox",
     "title": "三国蜀汉木牛流马工匠的发明日夜",
-    "subtitle": "在诸葛亮北伐大军的粮草压力下用榫卯和齿轮重新发明运输工具的无名匠人",
+    "subtitle": "在诸葛亮北伐大军的粮草压力下，用榫卯和齿轮重新发明运输工具的无名匠人",
     "sourceType": "ugc_submission",
     "narrativeTemplate": "hero_journey",
-    "createdAt": "2026-06-17T03:00:00+08:00",
+    "createdAt": "2026-06-17T05:30:00+08:00",
     "version": 1
   },
   "events": [
     {
-      "id": "evt_01_receive_order",
+      "id": "evt_01_imperial_order",
       "title": "接令时刻",
-      "description": "建兴九年春，四十二岁的木工匠师张衡接到丞相府密令：限三月之内造出无需牛马人力、能自行翻越崎岖蜀道的运粮器械。从普通匠人到承担国家存亡的技术攻坚者，身份转变的震撼。",
+      "description": "建兴九年春，接到丞相府密令：限三月之内造出无需牛马人力、能自行翻越蜀道的运粮器械。从普通匠人到承担国家存亡的技术攻坚者。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
       "category": "career",
-      "isKeyNode": false,
+      "isKeyNode": true,
       "emotion": "surprise",
       "emotionIntensity": 0.8,
-      "narrativeText": "你叫张衡，是蜀汉军器监的一名木工匠师。三个月前，你接到了一个不可能完成的任务——造出会自己走路的木牛。丞相府的使者念完密令就走了，留下你和一屋子沉默的同僚。你知道，这不是请求，是赌上性命的命令。",
-      "bgmTag": "ancient_court_tension",
-      "visualTone": "warm"
+      "narrativeText": "你叫张衡，是蜀汉军器监的一名木工匠师。三个月前，你接到了一个不可能完成的任务——造出会自己走路的木牛。丞相府的密令压在案头，像一块烧红的铁。",
+      "bgmTag": "ancient_qin_tension",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这个不可能的任务，你选择？",
+        "options": [
+          { "label": "从鲁班锁入手，尝试联动机构", "response": "你翻开祖传的木工图谱，试图从古代机械中寻找灵感。这条路更复杂，但可能带来突破。" },
+          { "label": "向丞相府请求更多时间研究", "response": "你上书请求延期，获得了额外资源但进度延后。稳妥，但压力更大。" }
+        ]
+      }
     },
     {
       "id": "evt_02_first_failure",
-      "title": "第一版试制失败",
+      "title": "第一版失败",
       "description": "第11-30日：第一版独轮机关车试制失败——在平地可行，上坡即翻。深夜独坐工坊，对着一地散落的榫卯构件发呆。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
@@ -33,116 +40,120 @@
       "isKeyNode": false,
       "emotion": "sadness",
       "emotionIntensity": 0.7,
-      "narrativeText": "刨子推过。木花卷起。松香弥漫。三十天了，第一版木牛在上坡时轰然倒塌。你跪在地上，看着散落的榫卯构件，像看着自己碎掉的尊严。油灯摇曳，影子在墙上晃成另一个失败的自己。",
-      "bgmTag": "workshop_night_silence",
+      "narrativeText": "刨子推过。木花卷起。松香弥漫。然后——咔嚓。又断了。第三十七次失败。你坐在满地零件中间，油灯把你的影子拉得很长。木头不会说谎，它只是告诉你：此路不通。",
+      "bgmTag": "workshop_silence_night",
       "visualTone": "dark"
     },
     {
-      "id": "evt_03_epiphany",
+      "id": "evt_03_porter_insight",
       "title": "扁担启悟",
-      "description": "第31-50日：从山间挑夫的扁担中得到启发——重心必须随坡度自动调节。第二版加入重力摆锤机构，上坡时摆锤后移、下坡时前移，初步成功。",
+      "description": "第31-50日：从山间挑夫的扁担中得到启发——重心必须随坡度自动调节。第二版加入重力摆锤机构，初步成功。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
       "category": "achievement",
       "isKeyNode": true,
       "emotion": "joy",
-      "emotionIntensity": 0.9,
-      "narrativeText": "你在山路上看到一个挑夫。他的扁担随着步伐起伏，身体自动调整着平衡。灵光如闪电劈开迷雾——机械也需要身体节奏！你冲回工坊，连夜画出重力摆锤的草图。木头比人活得久，但此刻你的心跳比任何齿轮都快。",
-      "bgmTag": "guqin_epiphany_moment",
+      "emotionIntensity": 0.85,
+      "narrativeText": "你在山路上看到一个挑夫。他的扁担随着步伐起伏，身体与重物形成一种奇妙的平衡。灵光一现——机械也需要身体节奏！你冲回工坊，手都在抖。",
+      "bgmTag": "insight_strings_rising",
       "visualTone": "bright",
       "interactionChoice": {
-        "prompt": "设计方向的选择将决定木牛的命运，你会怎么做？",
+        "prompt": "获得灵感后，材料如何选择？",
         "options": [
-          { "label": "从鲁班锁入手，尝试联动机构", "response": "你选择了更复杂的齿轮系统路线。这条路更难，但上限更高。" },
-          { "label": "从扁担原理入手，研究重心平衡", "response": "你选择了更简洁的摆锤系统路线。实用主义战胜了炫技冲动。" },
-          { "label": "向丞相府请求更多时间研究古代车舆", "response": "你获得了额外资源但进度延后。稳妥，但可能错过期限。" }
+          { "label": "使用珍贵的楠木", "response": "楠木坚固但成本高。丞相对你的用料表示赞许，但军需官的脸色不太好看。" },
+          { "label": "使用普通松木", "response": "松木成本低但需要更精巧的结构补偿。同僚们敬重你的务实，但设计难度增加了。" },
+          { "label": "混合使用——关键部位用楠木", "response": "最平衡的选择。既保证了强度，又控制了成本。这是老匠人的智慧。" }
         ]
       }
     },
     {
       "id": "evt_04_chancellor_visit",
-      "title": "丞相亲临视察",
+      "title": "丞相亲临",
       "description": "第51-70日：诸葛丞相亲自视察工坊，抚摸着木牛流马的齿轮组说：此物若成，可抵十万民夫。张衡跪地不敢抬头，但内心燃起火焰。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
       "category": "career",
       "isKeyNode": true,
-      "emotion": "mixed",
-      "emotionIntensity": 0.85,
-      "narrativeText": "白日光突然从门口涌入。丞相来了。他抚摸着你做的齿轮组，手指上有常年握笔的茧。他说「此物若成，可抵十万民夫」。你跪在地上不敢抬头，但那句话像烙铁烫进心里——从此以后，这句话成了你一生的精神支柱。",
-      "bgmTag": "solemn_strings_ancient",
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "白日光从门口涌入。丞相来了。他的手抚过齿轮组，指尖沾了木屑。「此物若成，可抵十万民夫。」你跪在地上不敢抬头，但那句话像火种落进心里，烧得你整夜睡不着。",
+      "bgmTag": "solemn_guqin_moment",
       "visualTone": "bright",
       "interactionChoice": {
-        "prompt": "面对丞相的视察，你会如何回应？",
+        "prompt": "丞相亲临时，你如何汇报？",
         "options": [
-          { "label": "如实汇报困难，请求支持", "response": "丞相点头，给了你更多资源和人手。坦诚换来了信任。" },
-          { "label": "展示已完成部分，淡化困难", "response": "丞相满意地离开，但你知道压力更大了。面子保住了，里子更沉了。" },
-          { "label": "请丞相亲自测试一个部件", "response": "最冒险的选择。丞相试了摆锤机构，眼中闪过赞许的光。你赌赢了。" }
+          { "label": "如实汇报困难", "response": "你坦诚说明了技术瓶颈。丞相沉默片刻，拨给你更多人手和材料。信任是最重的赏赐。" },
+          { "label": "展示已完成部分并淡化困难", "response": "你展示了摆锤机构的成功演示。丞相点头离去，但你肩上的压力更重了。" }
         ]
       }
     },
     {
       "id": "evt_05_final_test",
-      "title": "终极试车成功",
-      "description": "第71-85日：第三版木牛定型——四条木腿通过曲柄连杆机构模拟牛步，腹部可载粮四百斤，一人可推而走。在军器监校场试走三十里，不倾不覆。",
+      "title": "终极试车",
+      "description": "第71-85日：第三版木牛定型。四条木腿通过曲柄连杆机构模拟牛步，腹部可载粮四百斤。在军器监校场试走三十里，不倾不覆。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
       "category": "achievement",
       "isKeyNode": true,
       "emotion": "joy",
       "emotionIntensity": 0.95,
-      "narrativeText": "一步。两步。三步。没有倒。没有倒！木牛载着四百斤粮食，在校场上稳稳走完三十里。沉默的工匠们爆发出压抑已久的欢呼。你站在原地，眼泪模糊了视线——那些深夜的孤独、散落的零件、磨破的手指，都在这一刻有了意义。",
-      "bgmTag": "triumph_drums_guqin",
-      "visualTone": "bright",
+      "narrativeText": "一步。两步。三步。没有倒。没有倒！木牛载着四百斤粮食，独自走完三十里山路。沉默的工匠们爆发出压抑已久的欢呼。你站在原地，眼泪掉进了木屑里。",
+      "bgmTag": "triumph_drums_qin",
+      "visualTone": "warm",
       "interactionChoice": {
-        "prompt": "终极试车时刻，你想以什么方式见证？",
+        "prompt": "终极试车时，谁来推车？",
         "options": [
-          { "label": "亲自推车上路", "response": "你握着木牛的把手，感受它在崎岖路面上自动调节重心的奇妙。像推着一个有生命的伙伴。" },
-          { "label": "让徒弟推车，自己在旁观察", "response": "你站在路边，看着徒弟推着你的心血前行。情感距离让你看得更清楚，但也少了些温度。" },
-          { "label": "与徒弟并肩推车", "response": "师徒二人一起推着木牛走过校场。你的手和他的手在同一根木杆上，技艺与情谊同时传递。" }
+          { "label": "亲自推车上路", "response": "你的手握着推把，感受木牛在崎岖路面上自动调节重心的奇妙。像推着一个有生命的伙伴。" },
+          { "label": "与徒弟并肩推车", "response": "你和徒弟一人一边，师徒的影子在夕阳下拉得很长。木头比人活得久——你把这句话传给了他。" }
         ]
       }
     },
     {
-      "id": "evt_06_delivery",
-      "title": "交付北伐军",
-      "description": "第91日：木牛流马正式交付北伐军使用。张衡站在祁山道旁，看着自己亲手打造的机械在蜀道上如真牛真马般行走，泪流满面。",
+      "id": "evt_06_liuma_creation",
+      "title": "流马完工",
+      "description": "第86-90日：研制流马——更轻便的双轮车型。在最后期限的前夜，连续工作三天三夜，终于在卯时完工。",
       "ageRange": { "start": 42, "fuzzy": true },
       "yearRange": { "start": 231 },
       "category": "achievement",
       "isKeyNode": false,
       "emotion": "joy",
       "emotionIntensity": 0.8,
-      "narrativeText": "晨曦中的青灰色山路，木牛队列在晨雾中若隐若现。你站在祁山道旁，看着它们像真牛真马一样走进蜀道深处。暖木色与青灰山色形成对比，你的眼泪终于落下。它们会替你走完你没走过的路。",
-      "bgmTag": "farewell_xiao_solo",
+      "narrativeText": "三天三夜。油灯添了七次。当最后一个榫卯咬合时，窗外正好透出卯时的晨光。流马比木牛轻一半，快一倍。你摸了摸它光滑的木纹，像摸着自己孩子的脸。",
+      "bgmTag": "dawn_workshop_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_delivery_march",
+      "title": "交付北伐军",
+      "description": "第91日：木牛流马正式交付北伐军使用。张衡站在祁山道旁，看着自己亲手打造的机械在蜀道上如真牛真马般行走，泪流满面。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "yearRange": { "start": 231 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "它们走了。木牛和流马排成长队，在晨雾中若隐若现，消失在蜀道深处。你站在路边，看着自己的心血变成历史的一部分。史书不会记载你的名字，但木头会替你说话。",
+      "bgmTag": "farewell_xiao_distant",
       "visualTone": "cool"
     },
     {
-      "id": "evt_07_legacy",
-      "title": "无名者的尊严",
-      "description": "尾声：史书不会记载张衡的名字，但他在交付木牛的那一刻，感受到了超越个体的意义。木头比人活得久——技艺与精神的代际传递。",
-      "ageRange": { "start": 42, "end": 60, "fuzzy": true },
-      "yearRange": { "start": 231, "end": 249 },
+      "id": "evt_08_legacy_echo",
+      "title": "历史的回声",
+      "description": "千年之后，人们仍在争论木牛流马的真正形制。但那个在油灯下刨木头的匠人，早已把自己的灵魂刻进了每一道榫卯里。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "yearRange": { "start": 231 },
       "category": "spiritual",
-      "isKeyNode": true,
+      "isKeyNode": false,
       "emotion": "neutral",
       "emotionIntensity": 0.6,
-      "narrativeText": "多年后，你把技艺传给儿子时说：木头比人活得久。你知道自己的名字不会被《三国志》记载，但那些在蜀道上行走的木牛会替自己说话。每个时代的无名工匠，都在用自己的方式参与历史。你不是将军，不是丞相，但你是一个用双手改变世界的木匠。",
-      "bgmTag": "legacy_guqin_fade",
-      "visualTone": "warm",
-      "interactionChoice": {
-        "prompt": "回望这一生，你最想记住的是什么？",
-        "options": [
-          { "label": "创造者的孤独与狂喜", "response": "深夜面对失败的孤独，灵感降临时的颤栗。这是每个创造者都懂的密码。" },
-          { "label": "师徒传承的温情", "response": "木头比人活得久。技艺传下去，精神就不会断。" },
-          { "label": "无名者的尊严", "response": "史书不记你的名字，但木头记得。这就够了。" }
-        ]
-      }
+      "narrativeText": "一千八百年后，博物馆里的复原模型旁边，站着一个孩子。他问妈妈：这个木头牛真的会自己走路吗？你听不到这个问题，但你的答案藏在每一道齿轮的咬合声里。",
+      "bgmTag": "echo_guqin_fade",
+      "visualTone": "neutral"
     }
   ],
   "emotionalArc": {
     "overallTone": "uplifting",
-    "peakMoments": ["evt_03_epiphany", "evt_05_final_test"],
+    "peakMoments": ["evt_05_final_test", "evt_04_chancellor_visit"],
     "valleyMoments": ["evt_02_first_failure"]
   },
   "safetyInfo": {
