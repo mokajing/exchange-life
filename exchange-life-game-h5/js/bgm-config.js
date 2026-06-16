@@ -344,7 +344,16 @@ const BGM_MAP = {
   // === 记忆保鲜师专用标签 (2026-06-16 P0第357卷) ===
   ambient_memory_haze:    { file: 'audio/bgm/ambient_memory_haze.mp3',    volume: 0.25, loop: true },
   offkey_music_box:       { file: 'audio/bgm/offkey_music_box.mp3',       volume: 0.3, loop: true },
-  ukulele_comedy:         { file: 'audio/bgm/ukulele_comedy.mp3',         volume: 0.35, loop: true }
+  ukulele_comedy:         { file: 'audio/bgm/ukulele_comedy.mp3',         volume: 0.35, loop: true },
+
+  // === 色觉异常者专用标签 (2026-06-16 P0第374卷) ===
+  string_melancholy:      { file: 'audio/bgm/string_melancholy.mp3',      volume: 0.3, loop: true },
+  city_ambience:          { file: 'audio/bgm/city_ambience.mp3',          volume: 0.25, loop: true },
+  office_tension_strings: { file: 'audio/bgm/office_tension_strings.mp3', volume: 0.3, loop: true },
+  solo_piano_night:       { file: 'audio/bgm/solo_piano_night.mp3',       volume: 0.3, loop: true },
+  emotional_release_piano:{ file: 'audio/bgm/emotional_release_piano.mp3',volume: 0.35, loop: false },
+  reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.35, loop: true },
+  piano_reconciliation:   { file: 'audio/bgm/piano_reconciliation.mp3',   volume: 0.35, loop: false }
 };
 
 /**
