@@ -339,7 +339,12 @@ const BGM_MAP = {
   silence_heartbeat:      { file: 'audio/bgm/silence_heartbeat.mp3',      volume: 0.2, loop: true },
   acoustic_guitar_farewell:{ file: 'audio/bgm/acoustic_guitar_farewell.mp3', volume: 0.35, loop: true },
   piano_echo_applause:    { file: 'audio/bgm/piano_echo_applause.mp3',    volume: 0.4, loop: false },
-  warm_kitchen_piano:     { file: 'audio/bgm/warm_kitchen_piano.mp3',     volume: 0.3, loop: true }
+  warm_kitchen_piano:     { file: 'audio/bgm/warm_kitchen_piano.mp3',     volume: 0.3, loop: true },
+
+  // === 记忆保鲜师专用标签 (2026-06-16 P0第357卷) ===
+  ambient_memory_haze:    { file: 'audio/bgm/ambient_memory_haze.mp3',    volume: 0.25, loop: true },
+  offkey_music_box:       { file: 'audio/bgm/offkey_music_box.mp3',       volume: 0.3, loop: true },
+  ukulele_comedy:         { file: 'audio/bgm/ukulele_comedy.mp3',         volume: 0.35, loop: true }
 };
 
 /**
