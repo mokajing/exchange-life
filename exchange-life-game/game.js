@@ -106,7 +106,8 @@ const TIMELINE_LIST = [
   'synesthesia-daily-senses',
   'mongolian-gobi-nomad-storm',
   'search-history-documentary',
-  'lanna-amulet-caster'
+  'lanna-amulet-caster',
+  'ai-life-score-daily',
   'shadow-relation-mediator',
 ];
 
