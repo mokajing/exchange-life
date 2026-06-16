@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "id": "retired-cadre-first-day",
+    "title": "退休第一天的老干部",
+    "subtitle": "在闹钟响了但不用上班的早晨，权力退场后发现没人再叫他X局的第一天",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T01:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_alarm_no_work",
+      "title": "闹钟响了但不用上班",
+      "description": "06:30闹钟响起，下意识伸手按掉，然后坐在床边愣了五分钟。身体比大脑更早意识到「你不用去了」。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "六点半，闹钟准时响了。你的手比脑子快，啪地一下按掉了它。然后你坐在床边，盯着地板上的拖鞋看了五分钟。以前这个时候你已经穿好西装打好领带准备出门了。今天不用了。这个「不用了」比任何命令都更难适应。",
+      "bgmTag": "morning_silence_soft",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "闹钟响了，你会怎么做？",
+        "options": [
+          { "label": "按掉闹钟继续躺着", "response": "你在床上多躺了半小时，但没有睡着。天花板上的光影慢慢移动，像时间在提醒你：新的一天开始了，只是不再是以前的那种开始。" },
+          { "label": "穿上西装出门", "response": "妻子从厨房探出头说「你今天不用上班了」。你愣了一下，又把西装脱了。习惯的力量比理智更顽固。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_phone_silent",
+      "title": "异常安静的手机",
+      "description": "08:30手机异常安静，平时这个点至少有十几个未读消息。打开微信发现被移出了三个工作群，最后一个是他自己退的。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "八点半，你打开手机。没有未读消息，没有工作群的通知，没有下属的请示汇报。安静得像坏了。你翻了翻微信，发现已经被移出了三个工作群。群主还私信了一句「老领导，按规定……」。你回了个「好的，谢谢」，然后把手机放下了。原来「不被需要」是有声音的——就是这种安静。",
+      "bgmTag": "silence_with_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "被移出工作群后，你会怎么做？",
+        "options": [
+          { "label": "回复「好的，谢谢」", "response": "你保持了最后的体面。这四个字打出去的时候，手指有点僵。不是愤怒，是一种清醒的刺痛。" },
+          { "label": "沉默退出", "response": "你没有回复，直接退出了对话框。有些告别不需要台词，沉默本身就是一种回答。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_lunch_alone",
+      "title": "一个人的午饭",
+      "description": "12:00一个人吃午饭，没有饭局，没有电话，菜很淡。以前这个时间总是在应酬或者单位食堂，身边围满了人。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "十二点，你坐在餐桌前。妻子炒了两个菜，味道清淡。以前这个时候你不是在饭局上就是在单位食堂，身边总有敬酒的人、汇报工作的人、想跟你搭话的人。今天只有筷子和碗碰撞的声音。菜很淡，但你尝出了一种以前从没注意过的味道——安静的味道。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_call_hesitation",
+      "title": "想打电话又放下",
+      "description": "14:30想给老部下打电话，划到通讯录又放下了。不是怕打扰，是怕听到「正在开会」。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "两点半，你拿起手机，翻到老部下的名字。手指悬在拨号键上方停了几秒，然后又放下了。不是怕打扰他，是怕听到那句「领导您好，我正在开会」。以前他说这话时带着恭敬，现在可能只剩下礼貌。你不确定自己想不想验证这个变化。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "想给老部下打电话，你会怎么做？",
+        "options": [
+          { "label": "打了，对方说「正在开会」", "response": "电话通了，对方压低声音说「领导，我在开会，稍后回您」。你说「没事，忙你的」。挂断后你坐了一会儿，明白了有些关系会随着身份的消失而重新定义。" },
+          { "label": "放下手机去散步", "response": "你把手机放回口袋，换了双鞋出门。阳光很好，小区里有老人在遛狗。你突然意识到，自己现在也是「老人」中的一员了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_gate_guard_salute",
+      "title": "门卫的敬礼慢了半拍",
+      "description": "17:00去单位门口转了一圈，门卫还认得他，但敬礼的姿势已经不一样了。手抬得慢了半拍，眼神飘向了别处。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "五点，你不知不觉走到了单位门口。门卫看到你，条件反射地立正敬礼。但手抬得慢了半拍，眼神也没有以前那么专注了。他还是认得你的，只是那份恭敬里少了一些东西。你朝他点了点头，没有停留。有些变化不需要言语，一个动作就够了。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "到了单位门口，你会怎么做？",
+        "options": [
+          { "label": "走进去跟门卫聊聊", "response": "你和门卫聊了几句家常。他的态度依然尊敬，但话题从工作变成了天气和身体。你们都在适应新的关系。" },
+          { "label": "在马路对面看了一眼就走了", "response": "你站在马路对面看了一会儿那栋熟悉的楼，然后转身离开。有些告别不需要走近，远远看一眼就够了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_wife_hand",
+      "title": "妻子的手",
+      "description": "20:00坐在沙发上发呆，妻子过来握了握他的手。一句话没说，但比任何送别会都更真实。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "晚上八点，你坐在沙发上看电视，但其实什么都没看进去。妻子走过来，在你身边坐下，轻轻握住了你的手。她没有说话，你也没有。电视的光映在两个人手上，温度从她的掌心传过来。这一刻你突然明白：所有身份都会褪色，但这只手不会松开。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "妻子握住你的手，你想说什么？",
+        "options": [
+          { "label": "什么都不说，握紧她的手", "response": "你握紧了她的手。有些话不需要说，三十年的默契已经替你们说完了。" },
+          { "label": "轻声说「谢谢你」", "response": "她笑了笑，说「谢什么」。这三个字比任何安慰都更有力量。" },
+          { "label": "把头靠在她肩上", "response": "你靠了过去。她的肩膀没有以前那么宽厚了，但依然是你最安稳的依靠。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_new_beginning",
+      "title": "不被需要的另一面",
+      "description": "入夜后躺在床上，第一次意识到「不被需要」的另一面是「终于可以只属于自己」。这不是结束，是另一种开始。",
+      "ageRange": { "start": 60, "fuzzy": false },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "夜深了，你躺在床上听着窗外的虫鸣。以前这个时候你还在批文件或者接电话，脑子里装满了别人的事。今天你的脑子里只有自己。这种感觉陌生但并不讨厌。你突然想到：不被需要的另一面，是不是就是自由？明天开始，你可以只做自己了。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_wife_hand", "evt_05_gate_guard_salute"],
+    "valleyMoments": ["evt_02_phone_silent", "evt_04_call_hesitation"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["retirement_anxiety", "identity_loss"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
