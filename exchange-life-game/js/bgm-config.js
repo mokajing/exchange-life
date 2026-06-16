@@ -522,6 +522,15 @@ const BGM_MAP = {
   metronome_ticking:      { file: 'audio/bgm/metronome_ticking.mp3',      volume: 0.3, loop: true }
 
 
+,
+
+  // === 刑警与心理咨询师互换专用标签 (2026-06-17 P0第465卷) ===
+  high_tension_suspense:   { file: 'audio/bgm/high_tension_suspense.mp3',   volume: 0.4, loop: true },
+  urban_night_tension:     { file: 'audio/bgm/urban_night_tension.mp3',     volume: 0.35, loop: true },
+  silence_with_piano:      { file: 'audio/bgm/silence_with_piano.mp3',      volume: 0.25, loop: true },
+  gentle_strings_slow:     { file: 'audio/bgm/gentle_strings_slow.mp3',     volume: 0.3, loop: true },
+  tension_release_chord:   { file: 'audio/bgm/tension_release_chord.mp3',   volume: 0.4, loop: false },
+  triumph_warm_strings:    { file: 'audio/bgm/triumph_warm_strings.mp3',    volume: 0.45, loop: false }
 
 };
 
