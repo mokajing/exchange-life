@@ -85,7 +85,8 @@ const TIMELINE_LIST = [
   'funeral-ceremony-host',                                                                                                // L2/S/V2 - 殡仪馆司仪的告别仪式 (P0第265卷)
   'earthquake-search-dog-handler',                                                                                       // L2/S/V2 - 地震搜救犬训导员的废墟72小时 (P0第272卷)
   'ocd-morning-ritual',                                                                                                   // L3/S/V2 - 强迫症患者的出门仪式 (P0第271卷)
-  'selective-mutism-kindergarten'                                                                                         // L3/S/V2 - 选择性缄默症儿童的幼儿园日常 (P0第270卷)
+  'selective-mutism-kindergarten',                                                                                        // L3/S/V2 - 选择性缄默症儿童的幼儿园日常 (P0第270卷)
+  'parent-role-swap-week'                                                                                                  // L2/S/V2 - 全职妈妈与职场爸爸互换角色的一周 (P0第336卷)
 ];
 
 // 当前加载的故事索引（可通过云函数或本地存储动态配置）
