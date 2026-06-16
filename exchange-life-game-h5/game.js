@@ -276,7 +276,8 @@ const TIMELINE_LIST = [
   { id: 'parent-role-swap-week', label: '全职妈妈与职场爸爸互换角色的一周 (P0第336卷)', level: 'L2' },
   { id: 'county-bride-rich-family', label: '从县城体制内家庭嫁入一线城市豪门的第一年 (P0第338卷)', level: 'L1' },
   { id: 'mortician-hand-warmth', label: '入殓师的手温 (P0第345卷)', level: 'L2' },
-  { id: 'war-photographer-viewfinder', label: '战地摄影师的取景框 (P0第351卷)', level: 'L2' }
+  { id: 'war-photographer-viewfinder', label: '战地摄影师的取景框 (P0第351卷)', level: 'L2' },
+  { id: 'memory-freshman-first-month', label: '记忆保鲜师的第一个月 (P0第357卷)', level: 'L1' }
 ];
 
 let player = null;

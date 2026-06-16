@@ -1,0 +1,137 @@
+{
+  "meta": {
+    "id": "memory-freshman-first-month",
+    "title": "记忆保鲜师的第一个月",
+    "subtitle": "在遗忘成为默认设置的世界里，替别人留住正在消逝的时光",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeQ5pjoQuNgjl7lPWxkXOEP2",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T13:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_training",
+      "title": "入职培训：记忆分类学",
+      "description": "学习记忆四级分类（ephemeral/transient/enduring/core），背诵保鲜伦理守则第一条「不替客户决定哪段记忆值得留住」。第一次进入客户的记忆场景时差点迷失在别人的童年里。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.5,
+      "narrativeText": "导师说，记忆分四级：七天消散的日常琐事、三十到九十天的 transient、一年以内的 enduring，以及能撑过三年的 core。她顿了顿，补了一句：'但即使是 core，也会慢慢变成另一个形状。'我第一次进入客户的记忆场景时，闻到了不属于我的桂花香，差点忘了自己是谁。",
+      "bgmTag": "ambient_memory_haze",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_02_first_client",
+      "title": "第一位客户：丈夫做饭的背影",
+      "description": "一位老年女性想保住亡夫做饭的背影，但那背影的保质期只剩11天。她说不清为什么偏偏是这个画面比丈夫临终的话更重要。",
+      "ageRange": { "start": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "她坐在检测椅上，手指绞着手帕。'他走的时候说了很多话，我都记得。可是……我最怕忘的是他在厨房里围着那条蓝围裙的样子。'检测仪显示那段记忆的保质期只剩十一天。她说不出为什么这个画面比遗言更重要。我也说不出。但我开始明白，最珍贵的记忆往往不是最重要的时刻，而是当时没意识到重要的瞬间。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这位老人的请求，你选择……",
+        "options": [
+          { "label": "全力保鲜这段背影记忆", "response": "我用气味锚定和触觉复刻技术锁住了那个厨房的温度。十一天后，她来复查时说：'还在。虽然边缘有点模糊了，但围裙的蓝色还是那么蓝。'她笑了，眼角有泪。" },
+          { "label": "建议她接受记忆的自然消逝", "response": "我告诉她，有些记忆即使褪色了，留下的痕迹也已经变成了她身体的一部分。她沉默了很久，最后说：'也许你说得对。但他做饭的味道，我真的还想再闻一次。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_fake_dilemma",
+      "title": "美丽的赝品：年轻母亲的失真记忆",
+      "description": "一位年轻母亲要求保鲜孩子第一次叫妈妈的瞬间，但检测发现这段记忆的情感纯度已不足40%——她记住的可能不是真实发生的那一刻，而是后来反复回忆加工过的版本。",
+      "ageRange": { "start": 26 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "检测仪上的数字让我愣住了：情感纯度38%。她记住的不是孩子真正开口的那一刻，而是之后无数次回想、修饰、打磨出来的完美版本。如果我帮她保鲜，留住的是一个美丽的赝品。如果我告诉她真相，她会失去一个支撑了她三年的温暖幻象。",
+      "bgmTag": "offkey_music_box",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "关于这段失真的记忆，你决定……",
+        "options": [
+          { "label": "如实告知失真，只保鲜原始残片", "response": "她听完后哭了很久。但一个月后她回来告诉我：'那个粗糙的版本反而更真实。我现在想起来，那天其实下着雨，孩子嘴里还含着饼干。这些细节比完美的叫声更像我的孩子。'" },
+          { "label": "修复美化后再保鲜，不告知失真", "response": "她笑着离开了，怀里抱着一个完美的记忆。但我在工作日志上写下了一行字：'今天我又卖出了一个漂亮的谎言。'我不知道这算不算背叛了职业守则的第一条。" },
+          { "label": "拒绝接单，建议接受自然消逝", "response": "她没有生气，只是安静地站起来说：'谢谢你告诉我实话。'走到门口时回头看了我一眼：'但至少现在我知道，我确实拥有过那一刻。哪怕它已经变了形。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_self_fading",
+      "title": "自己的记忆也在过期",
+      "description": "发现入职时导师说的话已经模糊了，但客户们那些不属于他的悲欢却越来越清晰。开始在日记本上写下自己的事，不是为了保鲜，只是为了确认哪些感受真的属于自己。",
+      "ageRange": { "start": 26 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第二十一天的晚上，我突然想不起导师第一天说的原话了。那些句子像水彩被水洇开一样向外扩散、稀释、融入背景的灰白。但我清楚地记得老妇人厨房里围裙的蓝色，记得年轻母亲听到真相时的呼吸声。我打开日记本，不是为了保鲜，只是想确认：此刻握着笔的这个感觉，是我自己的吗？",
+      "bgmTag": "white_noise_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对自己正在消逝的记忆，你选择……",
+        "options": [
+          { "label": "用专业技能给自己保鲜（违反守则）", "response": "我把传感器贴在自己太阳穴上，按下了启动键。这是违规操作。但那一刻我太害怕了——害怕明天醒来，连害怕的感觉都不再是自己的。" },
+          { "label": "放任它自然消逝", "response": "我放下了日记本。也许遗忘也是保鲜师必须学会的一课。如果连自己的记忆都留不住，又凭什么替别人留住什么呢？" },
+          { "label": "用传统方式写日记试图留住", "response": "我继续写。字迹潦草，墨水洇透了纸背。这不是保鲜技术，只是一个普通人在深夜里笨拙地抓住自己。也许技术的边界就在这里——它保不住的东西，只能用活着的方式去记。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_last_order",
+      "title": "最后一单：伤害过别人的记忆",
+      "description": "月末最后一天，来了一位客户要求保鲜一段「伤害过别人的记忆」。这不是常规的温情委托，而是一个关于痛苦是否值得被留住的伦理拷问。",
+      "ageRange": { "start": 26 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "disgust",
+      "emotionIntensity": 0.8,
+      "narrativeText": "他说那段记忆是他这辈子做过最错的事。他想留住它，不是为了忏悔，是为了提醒自己不要再犯。检测仪显示这段记忆的情感纯度高达92%——痛苦是最不容易褪色的东西。我看着屏幕上跳动的波形，第一次觉得保鲜师的工作不只是留住美好，还要决定是否帮一个人把伤口永远敞开。",
+      "bgmTag": "tense_strings_low",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对这段痛苦的委托，你决定……",
+        "options": [
+          { "label": "按流程执行保鲜（专业中立）", "response": "我完成了操作。他离开时说了一句'谢谢'，语气里没有释然，只有沉重。我在系统里标记了这一单为'已完成'，但在心里标记了一个问号。" },
+          { "label": "询问动机后再决定", "response": "我问了他三个问题。第三个问题是：'如果这段记忆有一天自然消失了，你会觉得轻松还是恐慌？'他想了很久说：'恐慌。'那一刻我明白了，他不是想留住痛苦，是想留住那个还会因为犯错而痛苦的自己。" },
+          { "label": "拒绝并解释理由", "response": "我说：'有些记忆的价值不在于留住，而在于它教会了你什么之后可以被放下。'他没有反驳，只是点了点头。我不知道这是对是错，但我知道这句话同时也是说给我自己听的。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_month_end",
+      "title": "月末总结：十七单与六次眼泪",
+      "description": "完成了17单保鲜委托，成功率82%。但私下记录了一个数字：有6位客户在保鲜成功后反而哭了。不是因为失败，是因为他们终于看清了自己拼命想留住的东西正在变成另一种形状。",
+      "ageRange": { "start": 26 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "月末报表上写着：完成17单，成功率82%。但我自己在笔记本角落记了另一个数字：6个人在成功后哭了。不是因为没留住，是因为留住了才发现，那个形状已经不是当初的模样了。我合上本子，窗外天快亮了。这个月我替别人留住了很多东西，也弄丢了一些属于自己的。但此刻握着笔的感觉，至少还是我的。",
+      "bgmTag": "ukulele_comedy",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_fake_dilemma", "evt_05_last_order"],
+    "valleyMoments": ["evt_04_self_fading"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["memory_loss", "bereavement"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
