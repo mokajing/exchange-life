@@ -402,6 +402,27 @@ const BGM_MAP = {
   nostalgic_piano_soft:   { file: 'audio/bgm/nostalgic_piano_soft.mp3',   volume: 0.3, loop: true },
   hopeful_strings_gentle_search: { file: 'audio/bgm/hopeful_strings_gentle_search.mp3', volume: 0.35, loop: false },
   sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false }
+
+  // 影子关系调解员 - 第417卷
+  gentle_piano_curious:    { file: 'audio/bgm/gentle_piano_curious.mp3', volume: 0.35, loop: true },
+  tense_minimal_piano:     { file: 'audio/bgm/tense_minimal_piano.mp3', volume: 0.4, loop: true },
+  emotional_strings_cold:  { file: 'audio/bgm/emotional_strings_cold.mp3', volume: 0.35, loop: true },
+  night_calm_piano:        { file: 'audio/bgm/night_calm_piano.mp3', volume: 0.3, loop: true },
+  peaceful_strings_warm:   { file: 'audio/bgm/peaceful_strings_warm.mp3', volume: 0.35, loop: true },
+  morning_ambient_soft:    { file: 'audio/bgm/morning_ambient_soft.mp3', volume: 0.3, loop: true },
+  sunrise_gentle_strings:  { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: true },
+  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3', volume: 0.35, loop: true },
+
+  // === 兰纳佛牌铸造匠人专用标签 (2026-06-16 P0第412卷) ===
+  temple_morning_chant:   { file: 'audio/bgm/temple_morning_chant.mp3',   volume: 0.25, loop: true },
+  charcoal_crackling:     { file: 'audio/bgm/charcoal_crackling.mp3',     volume: 0.3, loop: true },
+  molten_metal_pour:      { file: 'audio/bgm/molten_metal_pour.mp3',      volume: 0.35, loop: true },
+  salaw_melancholy:       { file: 'audio/bgm/salaw_melancholy.mp3',       volume: 0.3, loop: true },
+  gentle_strings_warm:    { file: 'audio/bgm/gentle_strings_warm.mp3',    volume: 0.35, loop: true },
+  night_market_distant:   { file: 'audio/bgm/night_market_distant.mp3',   volume: 0.25, loop: true },
+  incense_burning:        { file: 'audio/bgm/incense_burning.mp3',        volume: 0.2, loop: true },
+  filing_rhythm:          { file: 'audio/bgm/filing_rhythm.mp3',          volume: 0.3, loop: true }
+
 };
 
 /**
@@ -534,16 +555,4 @@ function _clearCrossfadeTimer() {
   }
 }
 
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
-
-  // === 兰纳佛牌铸造匠人专用标签 (2026-06-16 P0第412卷) ===
-  temple_morning_chant:   { file: 'audio/bgm/temple_morning_chant.mp3',   volume: 0.25, loop: true },
-  charcoal_crackling:     { file: 'audio/bgm/charcoal_crackling.mp3',     volume: 0.3, loop: true },
-  molten_metal_pour:      { file: 'audio/bgm/molten_metal_pour.mp3',      volume: 0.35, loop: true },
-  salaw_melancholy:       { file: 'audio/bgm/salaw_melancholy.mp3',       volume: 0.3, loop: true },
-  gentle_strings_warm:    { file: 'audio/bgm/gentle_strings_warm.mp3',    volume: 0.35, loop: true },
-  night_market_distant:   { file: 'audio/bgm/night_market_distant.mp3',   volume: 0.25, loop: true },
-  incense_burning:        { file: 'audio/bgm/incense_burning.mp3',        volume: 0.2, loop: true },
-  filing_rhythm:          { file: 'audio/bgm/filing_rhythm.mp3',          volume: 0.3, loop: true }
-
-};
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
