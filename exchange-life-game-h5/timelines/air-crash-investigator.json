@@ -1,0 +1,184 @@
+{
+  "meta": {
+    "id": "air-crash-investigator",
+    "title": "航空灾难调查员的现场",
+    "subtitle": "在坠机现场用残骸碎片拼出真相，替无法开口的人说最后一句话的无名侦探",
+    "sourceType": "documentary",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-17T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_alarm",
+      "title": "凌晨的通知",
+      "description": "06:00 接到通知，某型民航客机坠毁于山区。立即出发。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "电话响起的那一刻，胃里像被攥紧了一样。不是恐惧，是一种沉甸甸的责任感。又有人回不去了。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_arrive_scene",
+      "title": "抵达坠机现场",
+      "description": "09:30 抵达现场。烧焦的气味、散落的行李、破碎的座椅——调查员需要深呼吸三次才能进入工作状态。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "在电视上看过无数次，但真正站在这里时，一切都不同了。一只孩子的鞋子躺在泥泞中。你深吸一口气，戴上手套，开始工作。",
+      "bgmTag": "glitch_static_tone",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对现场的震撼，你如何调整状态？",
+        "options": [
+          { "label": "深呼吸三次，切换到职业模式", "response": "你把情感锁进一个盒子里。现在你是调查员，不是旁观者。" },
+          { "label": "允许自己感受三十秒，然后继续", "response": "你闭上眼，为逝者默哀三十秒。然后睁开眼，带着他们的重量继续前行。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_grid_search",
+      "title": "网格搜索",
+      "description": "以坠机中心点为原点，向外辐射划分搜索网格，每格5米×5米，逐格标记、拍照、记录。一件巴掌大的残骸可能决定调查方向。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "每一步都踩在碎片上。金属探测器蜂鸣声此起彼伏。对讲机里传来同事的声音：'B区发现疑似方向舵作动器。'",
+      "bgmTag": "enclosed_breathing",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_find_black_box",
+      "title": "找到黑匣子",
+      "description": "14:30 在泥泞中翻找了四小时后，橙色圆柱体突然出现在眼前。调查员跪下，用双手捧起它，像捧着一颗还在跳动的心脏。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "心跳声放大了。背景音短暂消失，只有呼吸声。你跪在泥地里，双手捧着这个橙色的圆柱体——它可能是解开一切谜题的钥匙。",
+      "bgmTag": "metronome_ticking",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "找到黑匣子的瞬间，你的第一反应是？",
+        "options": [
+          { "label": "技术冷静：检查外壳完整性", "response": "你强迫自己保持专业。先检查，再感慨。数据比情绪重要。" },
+          { "label": "人类共情：为逝者感到一丝安慰", "response": "你轻轻抚摸外壳。至少，他们的最后时刻不会被遗忘。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_cvr_decode",
+      "title": "CVR解码时刻",
+      "description": "第2天 CVR解码完成。戴上耳机，听到驾驶舱内最后的声音——那可能是平静的呼叫、急促的指令，也可能是沉默。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "30分钟。有人叫妈妈，有人报参数，有人沉默。听完后摘下耳机，在实验室里坐了十分钟没有说话。这不是数据，这是生命最后的痕迹。",
+      "bgmTag": "silence_with_water",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "听完CVR录音后，你需要做什么？",
+        "options": [
+          { "label": "独坐十分钟，消化情绪", "response": "你需要这十分钟。这是心理保护的自我防御机制。" },
+          { "label": "立即投入数据分析", "response": "你把情感暂时封存。真相不能等，但你的心会记住这一刻。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_team_analysis",
+      "title": "团队研判会",
+      "description": "20:00 第一次团队研判会：排除天气因素，聚焦人为操作与系统交互。没有人独自承担所有重量。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "会议室里灯光冷白。每个人都在用自己的专业拼凑真相的碎片。你不是一个人在战斗。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_truth_revealed",
+      "title": "拼出真相的时刻",
+      "description": "第5天 当所有碎片在3D建模软件中还原出飞机最后30秒的姿态，调查员终于知道发生了什么。那种'我知道了'的感觉不是胜利，而是责任。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "屏幕上的3D模型缓缓旋转。最后30秒的姿态被精确还原。你知道了。这不是胜利，这是责任的开始。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_08_family_briefing",
+      "title": "家属通报会",
+      "description": "第30天 调查员用非技术语言向遇难者家属解释事故原因。这不是汇报工作，而是替逝者说最后一句话。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "一个母亲问你：'我女儿最后害怕吗？'你不能说谎，但可以选择如何说真话。空调嗡嗡作响，椅子挪动的声音格外刺耳。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对母亲的提问，你会如何回答？",
+        "options": [
+          { "label": "诚实但温柔地告知技术事实", "response": "你说：'从录音来看，她一直在履行职责。她很勇敢。'这不是谎言，是经过选择的真话。" },
+          { "label": "握住她的手，用沉默陪伴", "response": "有些问题没有答案。你握住她的手，让沉默代替言语。有时候，陪伴比解释更重要。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_report_published",
+      "title": "最终报告发布",
+      "description": "调查报告正式发布。每一次调查完善一个安全漏洞，可能拯救千万人。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "报告发布了。自本次调查以来，全球已实施多项安全改进措施。那些无法开口的人，通过你的笔说了最后一句话。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_10_mission_continues",
+      "title": "使命延续",
+      "description": "调查结束后有心理支持机制。但你知道，下一次电话还会响起。这就是这份工作的意义——防止重演。",
+      "ageRange": { "start": 39, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "晨光透过窗户。一架飞机正常起降的剪影划过天际。你喝了一口咖啡，等待下一次电话。不是为了追责，是为了防止重演。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "tense",
+    "peakMoments": ["evt_05_cvr_decode", "evt_08_family_briefing"],
+    "valleyMoments": ["evt_02_arrive_scene"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["航空事故", "丧亲"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
