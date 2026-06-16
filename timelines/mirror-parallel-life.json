@@ -1,0 +1,198 @@
+{
+  "meta": {
+    "id": "mirror-parallel-life",
+    "title": "镜中平行人生",
+    "subtitle": "如果镜子显示的是另一个选择下的你",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-16T20:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_first_glance",
+      "title": "第一次异象",
+      "description": "早上刷牙时，镜子里的人穿着你从来没买过的衣服，用你从没留过的发型看着你。揉揉眼睛，画面恢复正常。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.4,
+      "narrativeText": "清晨六点半，浴室灯光昏黄。你机械地挤牙膏，抬头——镜子里的人不是你。或者说，是你，但不是这个版本的你。TA穿着你从未买过的墨绿色衬衫，头发剪短了，眼神里有种你没见过的从容。你眨眨眼，画面恢复了正常。也许是没睡醒吧。",
+      "bgmTag": "morning_ambient_slow",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_interaction",
+      "title": "镜中人开始互动",
+      "description": "第三天，镜中人对你做的手势你也做了，但表情完全不同。你笑了，TA在哭。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第三天。你试探性地举起右手，镜中人也举起了手——但TA的眼眶是红的。你在笑，TA在无声地哭泣。那一刻你意识到：这不是幻觉，这是另一个你。一个走了不同路的你。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_03_realization",
+      "title": "未选择的路",
+      "description": "第五天，你发现镜子里显示的是三年前如果做了另一个选择的人生版本。那年你拒绝了某份工作/某个人/某个城市，镜子里的人接受了。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第五天。你终于看清了——镜中人活在三年前的那个岔路口之后。那一年你说了「不」，而TA说了「好」。TA去了你没去的城市，牵了你没牵的手，活成了你没敢活的模样。你盯着镜子，像盯着一扇永远关上的门。",
+      "bgmTag": "glass_resonance_tone",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "你意识到镜中人是「未选择的路」，此刻你想……",
+        "options": [
+          { "label": "继续凝视，试图看清TA的生活细节", "response": "你凑近镜面，指尖几乎触到玻璃。TA的世界比你想象的更真实——书架上有你没读过的书，窗台上有你没养过的花。" },
+          { "label": "转身离开，假装什么都没发生", "response": "你猛地转过身，心跳如鼓。但余光里，所有反光的表面都在闪烁TA的影子。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_jealousy",
+      "title": "嫉妒自己的悖论",
+      "description": "第七天，你在镜子里看到了比你更幸福、更成功的自己。或者反过来，看到比你更惨的自己。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第七天。镜中人笑了——那种发自内心的、毫无保留的笑。TA身边围着你没有的朋友，手里拿着你没有的offer，眼里有你早已熄灭的光。你感到一种前所未有的情绪：嫉妒。不是嫉妒别人，是嫉妒你自己。一个「如果当初」的你。",
+      "bgmTag": "dissonant_strings_loop",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对比你幸福的镜中人，你的第一反应是……",
+        "options": [
+          { "label": "愤怒：凭什么TA可以而我不能？", "response": "拳头砸向洗手台。镜中人依然在笑，那笑容现在看起来像是嘲讽。" },
+          { "label": "悲伤：原来我错过了这么多", "response": "眼泪掉下来。镜中人的笑容渐渐消失，TA伸出手，仿佛想擦去你的泪。" },
+          { "label": "释然：至少有一个我是幸福的", "response": "你深吸一口气，对镜中人点了点头。TA也点头了，这次表情和你一样平静。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_everywhere",
+      "title": "无处不在的影子",
+      "description": "第十四天，不止镜子，所有能反射的表面——车窗、水洼、同事的眼镜片——都会闪现那个「另一个你」。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.85,
+      "narrativeText": "第十四天。你逃不掉了。地铁车窗里有TA，雨后的水洼里有TA，甚至同事推眼镜的瞬间，镜片里也闪过TA的脸。TA不再只存在于镜中——TA渗透进了你世界的每一个反光面。你开始害怕任何光滑的东西。",
+      "bgmTag": "glitch_static_tone",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_avoidance",
+      "title": "逃避期",
+      "description": "你用布盖住家里所有的镜子，避开一切反光表面。但脑子里的画面遮不住。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你把浴室镜子用毛巾盖上，把手机屏幕调成磨砂模式，走路低着头避开水洼。你以为不看就能不想。但闭上眼，TA就在眼皮内侧微笑。你遮住了世界上所有的镜子，却遮不住脑子里的那一面。",
+      "bgmTag": "enclosed_breathing",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "逃避到了极限，你决定……",
+        "options": [
+          { "label": "打碎所有镜子，彻底断绝联系", "response": "玻璃碎裂的声音刺耳。但每一块碎片里，都有一双眼睛在看你。" },
+          { "label": "鼓起勇气，重新站到镜子前", "response": "你揭开毛巾，深呼吸。镜中人还在那里，等着。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_dialogue",
+      "title": "第一次对话",
+      "description": "你尝试与镜中人沟通——通过手势、写字、表情。TA回应了。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你在镜面上哈了一口气，用手指写下「你是谁」。雾气散去后，镜中人也在TA那边的镜面上写了字——是你的名字，但是倒过来的。你们隔着玻璃对视，第一次不再是恐惧，而是某种奇异的亲近。TA是你，又不是你。",
+      "bgmTag": "light_piano_flow",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_interruption",
+      "title": "重要场合的闪现",
+      "description": "在一次重要的面试/约会中，镜中人的影子突然出现在反光表面里，打断了你。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "面试官问你「五年规划」的那一刻，会议室的玻璃墙里闪过了TA的身影——TA正坐在一个你从未进过的办公室里，对着你从未见过的人微笑。你卡壳了三秒。面试官皱了皱眉。你不知道该解释什么：「抱歉，我刚看到了另一个自己的人生。」",
+      "bgmTag": "office_ambient_quiet",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_09_guilt_or_relief",
+      "title": "庆幸与愧疚",
+      "description": "某天你发现镜中人过得比你惨。你感到庆幸，随即被愧疚淹没。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.75,
+      "narrativeText": "今天镜中人的眼睛是肿的。TA的房间比你租的小屋还小，桌上放着泡面，手机屏幕亮着一条未回复的消息。TA选择了那条路，但那条路比你的更难走。你松了一口气——然后立刻恨自己松了这口气。你怎么能为别人的不幸感到庆幸？哪怕那个「别人」是另一个你。",
+      "bgmTag": "melancholy_cello_drone",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_10_acceptance",
+      "title": "和解时刻",
+      "description": "第三十天，你做了一个决定：接受两个版本的自己同时存在。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第三十天。你站在镜子前，不再逃避，不再嫉妒，不再比较。你对镜中人说了声「你好」。TA也说了「你好」——嘴型和你一模一样。你终于明白：TA不是更好的你，也不是更差的你。TA只是你。一个走了另一条路的你。而你此刻站在这里的人生，也是某个平行宇宙里的TA正在羡慕的版本。",
+      "bgmTag": "warm_acoustic_resolve",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "与镜中人和解的方式，你选择……",
+        "options": [
+          { "label": "微笑告别，各自走好当下的路", "response": "你对TA笑了，TA也笑了。镜面恢复了普通的反射——只有你自己。但你知道TA还在某个地方好好活着。" },
+          { "label": "把手贴在镜面上，感受彼此的温度", "response": "玻璃是凉的，但你感觉到了脉搏。TA的手和你重叠在一起，像两条河流汇入同一片海。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_11_echo",
+      "title": "回响：镜子的礼物",
+      "description": "体验结束后的余韵。你开始用新的眼光看待自己的每一个选择。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "镜子变回了普通的镜子。但有些东西不一样了。每次照镜子，你不再只看外表——你会想起那个走了另一条路的自己，然后对现在的自己说一声：「这条路也不错。」你此刻的人生，正是某个平行宇宙中的你，正在羡慕的版本。",
+      "bgmTag": "evening_silence",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_jealousy", "evt_10_acceptance"],
+    "valleyMoments": ["evt_06_avoidance", "evt_09_guilt_or_relief"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["self-reflection", "regret", "identity"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

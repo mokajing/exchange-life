@@ -455,7 +455,13 @@ const BGM_MAP = {
   crossroads_ambient:     { file: 'audio/bgm/crossroads_ambient.mp3',     volume: 0.3, loop: true },
   cello_warm_synth:       { file: 'audio/bgm/cello_warm_synth.mp3',       volume: 0.35, loop: true },
   morning_birds_dream:    { file: 'audio/bgm/morning_birds_dream.mp3',    volume: 0.3, loop: true },
-  gentle_resolution:      { file: 'audio/bgm/gentle_resolution.mp3',      volume: 0.35, loop: true }
+  gentle_resolution:      { file: 'audio/bgm/gentle_resolution.mp3',      volume: 0.35, loop: true },
+
+  // === 镜中平行人生专用标签 (2026-06-16 P0第439卷) ===
+  glass_resonance_tone:   { file: 'audio/bgm/glass_resonance_tone.mp3',   volume: 0.3, loop: true },
+  dissonant_strings_loop: { file: 'audio/bgm/dissonant_strings_loop.mp3', volume: 0.35, loop: true },
+  melancholy_cello_drone: { file: 'audio/bgm/melancholy_cello_drone.mp3', volume: 0.3, loop: true },
+  warm_acoustic_resolve:  { file: 'audio/bgm/warm_acoustic_resolve.mp3',  volume: 0.35, loop: false }
 
 };
 
