@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "id": "aphasia-daily-communication",
+    "title": "失语症患者的日常沟通",
+    "subtitle": "在所有人都能脱口而出'谢谢'的世界里用眼神、手势和碎片音节拼凑出完整心意的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-16T16:10:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_awakening",
+      "title": "清晨醒来",
+      "description": "闹钟响了，想说'早安'却只发出模糊元音；对着镜子练习口型二十分钟，女儿的名字卡在舌尖出不来。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "06:30。闹钟响了。你想说'早安'，喉咙里有词，嘴巴却只发出模糊的元音。镜子里的自己口型练习了二十分钟，女儿的名字卡在舌尖就是出不来。脑子是清醒的，只是语言通道被堵住了。这不是第一次，也不会是最后一次。你深吸一口气，用手势向走进房间的家人比划了一个'早安'的动作。他们假装听懂了但眼眶红了。这种'被体谅的心酸'比直接被误解更刺痛。",
+      "bgmTag": "minimal_piano_sparse",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_breakfast_menu",
+      "title": "早餐桌上的手指菜单",
+      "description": "用手指着菜单上的图片点菜；手机备忘录里存着三百多条未发送的消息草稿。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "坐在餐桌前，你用手指着菜单上的图片点菜。这是中风后学会的新技能——用视觉替代语言。家人微笑着点头，但你看到他们眼里的泪光。手机备忘录里存着三百多条未发送的消息草稿，每一条都是想说却没说出口的话。你打开其中一条，上面写着'今天天气很好想出去走走'，日期是三个月前。你删掉了它，重新打了一行拼音首字母：'jtqh'。这就是你现在与世界对话的方式。",
+      "bgmTag": "morning_ambient_quiet",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_03_bus_ask_directions",
+      "title": "公交车上想问路",
+      "description": "在公交车上想问路却卡在第一个字，身后有人叹气，感到羞耻和退缩。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你在公交车上想问路，却卡在第一个字。'请…问…'后面的词像被胶水粘住了。身后有人叹气，你感到脸颊发烫。羞耻感涌上来，不是因为你做错了什么，而是因为这个世界没有为'说不清楚'的人预留空间。你低头看着自己的手，它们曾经能流畅地写出千字文章，现在连一个简单的问句都拼凑不出来。",
+      "bgmTag": "urban_transit_tense",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "你现在怎么做？",
+        "options": [
+          { "label": "坚持开口说", "response": "你深吸一口气，继续尝试。挫败感像潮水一样涌来，但旁边一位阿姨耐心地等你说完，还帮你指了路。这一刻的温暖比任何流畅的句子都珍贵。" },
+          { "label": "用手机打字展示", "response": "你掏出手机，快速打出'请问XX站怎么走'递过去。高效，但你心里知道这失去了'亲自说出'的尊严感。屏幕上的字再清晰，也不是你的声音。" },
+          { "label": "放弃询问走到下一站再说", "response": "你沉默地坐回座位，决定下一站再想办法。回避让你暂时安全，但也让你又一次确认了自己的'无能'。值不值得为小事挣扎？这个问题没有答案。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_hospital_therapy",
+      "title": "医院复诊",
+      "description": "治疗师用图片卡引导命名，成功说出'苹果'两个字时全教室鼓掌，你哭了。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "治疗室里，治疗师举起一张苹果的图片。你盯着它，脑子里清楚地知道这是什么，但嘴巴像生锈的门。'苹…果…'两个字从喉咙里挤出来，像是用尽了全身的力气。全教室鼓掌，你哭了。这不是简单的词汇，而是重新与世界建立连接的里程碑。微小突破带来的希望像中了彩票一样珍贵。治疗师轻轻拍了拍你的手背，说'很好'。这两个字比任何赞美都有重量。",
+      "bgmTag": "warm_strings_hopeful",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "当成功说出一个词时，你的感受是？",
+        "options": [
+          { "label": "希望——我还能进步", "response": "那一刻你知道康复之路漫长，但每一步都算数。'苹果'不是终点，是新的起点。" },
+          { "label": "心酸——为什么这么难", "response": "掌声让你感动，但也提醒你失去了多少。曾经脱口而出的词，现在需要如此用力才能找回。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_afternoon_diary",
+      "title": "午后独自写日记",
+      "description": "用拼音首字母代替汉字写日记，键盘敲击声代表替代沟通方式的节奏。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "午后的阳光透过窗帘洒在书桌上。你打开笔记本电脑，用拼音首字母代替汉字，一笔一划写下今天的感受。键盘敲击声是你现在的'说话'节奏。内心独白是流畅完整的文体——脑子是清楚的，只是外部表达破碎了。你写道：'今天说了苹果。哭了。但是好的哭。'段落间距加大，制造沉默的空白。这些文字只有你自己能完全读懂，但它们是你与自己保持连接的方式。",
+      "bgmTag": "quiet_keyboard_rhythm",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_06_daughter_wedding",
+      "title": "女儿婚礼致辞",
+      "description": "女儿婚礼上致辞稿写了三个月，上台的那一刻面临表达方式的选择。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "女儿的婚礼。致辞稿写了三个月，每一个字都反复练习过无数遍。上台的那一刻，聚光灯打在你身上，台下是期待的目光。你的手微微颤抖，口袋里装着那张写满拼音标注的稿纸。这是你作为父亲最重要的时刻之一，而你只能用破碎的语言表达完整的心意。",
+      "bgmTag": "emotional_strings_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你选择怎么表达？",
+        "options": [
+          { "label": "照念准备好的简短稿", "response": "你拿出稿纸，一个字一个字地念出来。安全，但有些遗憾——那些没说出口的千言万语，只能留在心里。" },
+          { "label": "脱稿尝试自由表达", "response": "你放下稿纸，看着女儿的眼睛。'我…爱…你…'两个词，全场泪崩。高风险高回报，这可能卡住，也可能创造最动人的瞬间。" },
+          { "label": "播放提前录好的视频", "response": "大屏幕上播放你提前录制的视频，里面的你虽然说得慢但完整。折中方案，技术弥补了现场的局限，但缺少了此刻的温度。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_evening_family",
+      "title": "傍晚家人回来",
+      "description": "用'关键词+表情'完成一段对话；孩子替你回答时善意与剥夺感并存。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "傍晚，家人回来了。你用'关键词+表情'完成一段对话：'今天…好…'加上一个微笑。孩子渐渐不再等你慢慢说完就替你回答，你知道孩子是心疼但也意味着自己被'跳过'了。这种善意的剥夺感与爱并存，是最复杂的情感体验。你想说'让我自己说完'，但这本身又是一句说不完整的话。你选择了沉默的微笑，接受了这份带着痛的爱。",
+      "bgmTag": "family_evening_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_support_group",
+      "title": "互助群的连接",
+      "description": "加入失语症互助群后发现几十万人和你一样'脑子清醒嘴巴不听话'。",
+      "ageRange": { "start": 55, "end": 55 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "深夜，你打开手机里的失语症互助群。这里有几十万人和你一样'脑子清醒嘴巴不听话'。新成员发来求助消息：'刚确诊，不知道以后怎么办'。你今天太累了，但你知道这句话背后有多少恐惧和孤独。在群里打出第一句话收到五十个拥抱emoji的那一刻，你知道：你不是一个人在战斗。失去的语言永远回不来，但新的语言正在生长。",
+      "bgmTag": "night_calm_connection",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对新成员的求助，你怎么做？",
+        "options": [
+          { "label": "详细分享康复经验", "response": "你花时间打字，分享自己的康复历程。赋能他人也疗愈自己，每一次帮助都是对自己价值的确认。" },
+          { "label": "只发一个拥抱emoji", "response": "你发了一个🤗。简单但真诚的连接，有时候一个符号比千言万语更有力量。" },
+          { "label": "暂时不回复因为今天太累了", "response": "你放下手机，允许自己不总是坚强。照顾好自己的能量，明天再回应也是一种负责。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_hospital_therapy", "evt_06_daughter_wedding"],
+    "valleyMoments": ["evt_01_morning_awakening", "evt_03_bus_ask_directions"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["语言障碍模拟", "沟通焦虑", "中风后遗症"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
