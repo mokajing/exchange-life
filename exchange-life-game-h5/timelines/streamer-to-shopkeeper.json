@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "streamer-to-shopkeeper",
+    "title": "从网红主播到实体店小老板",
+    "subtitle": "当流量红利退潮后回到线下重新学习一分钱一分货的生意人",
+    "sourceType": "social_media",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-17T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_last_stream",
+      "title": "最后一次下播",
+      "description": "凌晨3点，直播间在线人数从巅峰时的3万跌到287人。关掉环形灯的那一刻，在黑暗里坐了半小时。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "环形灯灭了。黑暗像潮水一样涌进来。脑海里反复播放的是'3、2、1，上链接！'的嘶吼声——那是过去两年每天重复的话术，但那一刻听起来像是对自己人生的嘲讽。",
+      "bgmTag": "silence_with_water",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_clear_inventory",
+      "title": "清理库存",
+      "description": "将仓库里积压的3000件爆款全部装进纸箱。算了一笔账：两年直播带货赚了476万，扣除各种费用后实际到手不到80万。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "纸箱封胶带的声音在空荡荡的仓库里回响。每一箱都是曾经的'爆款'，现在只是需要处理的负担。计算器按到最后，数字停在798,432元——两年的青春，就值这个数。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "如何处理这些库存？",
+        "options": [
+          { "label": "低价甩卖给二手商（立即回血但亏20万）", "response": "你选择了快速止损。钱回来了，但心更空了。" },
+          { "label": "自己慢慢卖（耗时但能多赚5万）", "response": "你选择了耐心。深夜在仓库打包的每一次动作，都是对直播时代的一次告别。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_find_shop",
+      "title": "找店面",
+      "description": "在杭州九堡到滨江之间看了27家转让店铺，最终在城西一个老小区门口租下一间42平米的门面。月租金1.2万，转让费8万。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.4,
+      "narrativeText": "前租客也是做直播的，墙上还贴着'家人们点个关注'的手写标语。你把它撕下来，换上了一张手写的价目表。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_first_month",
+      "title": "开业第一个月",
+      "description": "日均营业额从第一周的300元逐渐攀升到月底的1800元。发现了完全不同的世界：客人会拿起商品摸一摸、闻一闻，会问'这个好吃吗'而不是'这个多少钱'。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.4,
+      "narrativeText": "第一次有人因为味道不错而第二天又来买了三包。这不是GMV，这是一个真实的人用脚投票。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_first_return_customer",
+      "title": "第一位回头客",
+      "description": "开业第11天，一位阿姨买了坚果后第三天又来了，说'你家的核桃比超市的香'。这是他做了两年直播、卖了几十万单后，第一次亲耳听到客户说'你家的'。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "'你家的核桃比超市的香。'阿姨笑着说。那一刻眼眶湿了。从GMV到'你家的'三个字，是被看见与被需要的本质区别。",
+      "bgmTag": "tv_ambient_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这份真实的认可，你的内心感受是？",
+        "options": [
+          { "label": "终于被真实地看见了", "response": "不是被算法统计，而是被一个真实的人记住。这种重量感，是数字时代最稀缺的体验。" },
+          { "label": "原来做生意可以这么简单", "response": "没有话术，没有套路，只有真诚。你开始理解什么叫'一分钱一分货'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_adjust_products",
+      "title": "调整品类",
+      "description": "砍掉了所有直播爆款——那些包装花哨但复购率接近零的网红零食。开始从本地食品厂进货，卖没有品牌但用料实在的坚果、果干、手工糕点。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "客单价从15元降到12元，但复购率从5%升到35%。第一次用计算器算毛利而不是ROI——一包进价3.5元的零食，卖8元，一天至少卖200包才能回本。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_former_colleague",
+      "title": "前MCN同事来访",
+      "description": "开业第40天，前公司的运营总监路过，站在店里看了五分钟，说'你疯了？这么小个店一个月能赚几个钱？'",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他笑了笑没回答。晚上在账本上写：今天净利润412元，比昨天多27元。向下流动最痛的不是钱少了，而是所有人都在告诉你你失败了。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对前同事的质疑，你会如何回应？",
+        "options": [
+          { "label": "沉默微笑，继续做自己", "response": "你没有解释。有些路，只有自己走过才知道风景。" },
+          { "label": "邀请他尝尝店里的坚果", "response": "你说'尝尝这个，比直播间卖的香'。他用行动代替了言语。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_break_even",
+      "title": "盈亏平衡",
+      "description": "第三个月，月营业额达到5.4万，净利润约1.2万。相当于直播时代一个小时的GMV——但每一天都睡得很踏实。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "年底算账，全年净利润约15万，只有直播巅峰期月收入的零头。但每一分钱都知道是从谁手里赚来的。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_09_mother_message",
+      "title": "母亲的消息",
+      "description": "第90天晚上，母亲发来消息：'儿子，你最近看起来气色好多了。妈妈不问你赚多少钱，妈妈只问你开不开心。'",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "这是他第一次不知道怎么回复妈妈——因为这次，答案是真的。他在手机上打下'今天卖了2317元，比昨天多了184元。晚安。'",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_new_definition",
+      "title": "重新定义成功",
+      "description": "这不是一个逆袭的结局，但这是一个找到自己的结局。从高空坠落到地面爬行再到学会站立——不是V型反弹，而是缓慢的、磕磕绊绊的上升。",
+      "ageRange": { "start": 30, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他给自己泡了一杯茶，看着货架上整齐排列的商品。阳光透过玻璃门照在木质货架上。这不是逆袭，这是回家。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_first_return_customer", "evt_09_mother_message"],
+    "valleyMoments": ["evt_01_last_stream", "evt_02_clear_inventory"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["职业转型焦虑"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

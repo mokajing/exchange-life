@@ -507,7 +507,20 @@ const BGM_MAP = {
   rain_heroic_mission:     { file: 'audio/bgm/rain_heroic_mission.mp3', volume: 0.4, loop: true },
   sunset_return_gentle:     { file: 'audio/bgm/sunset_return_gentle.mp3', volume: 0.3, loop: true },
   farewell_bittersweet_strings:     { file: 'audio/bgm/farewell_bittersweet_strings.mp3', volume: 0.35, loop: true },
-  ending_mountains_memory:     { file: 'audio/bgm/ending_mountains_memory.mp3', volume: 0.35, loop: true }
+  ending_mountains_memory:     { file: 'audio/bgm/ending_mountains_memory.mp3', volume: 0.35, loop: true },
+  // === 阿克苏姆方尖碑雕刻匠专用标签 (2026-06-17 P0第464卷) ===
+  ancient_stone_chisel:   { file: 'audio/bgm/ancient_stone_chisel.mp3',   volume: 0.3, loop: true },
+
+  // === 网红主播转实体店专用标签 (2026-06-17 P0第463卷) ===
+  lofi_afternoon_quiet:   { file: 'audio/bgm/lofi_afternoon_quiet.mp3',   volume: 0.25, loop: true },
+  afternoon_silence_loop: { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
+  tv_ambient_warm:        { file: 'audio/bgm/tv_ambient_warm.mp3',        volume: 0.25, loop: true },
+
+  // === 航空灾难调查员专用标签 (2026-06-17 P0第462卷) ===
+  enclosed_breathing:     { file: 'audio/bgm/enclosed_breathing.mp3',     volume: 0.25, loop: true },
+  glitch_static_tone:     { file: 'audio/bgm/glitch_static_tone.mp3',     volume: 0.3, loop: true },
+  metronome_ticking:      { file: 'audio/bgm/metronome_ticking.mp3',      volume: 0.3, loop: true }
+
 
 
 };

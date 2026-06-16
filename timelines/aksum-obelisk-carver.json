@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "aksum-obelisk-carver",
+    "title": "阿克苏姆方尖碑雕刻匠的凿石岁月",
+    "subtitle": "在非洲之角的云中高原上用整块花岗岩为诸王刻下通天之碑的无名石匠",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-17T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_quarry_dawn",
+      "title": "采石场的黎明",
+      "description": "凌晨四点，赤道的太阳还没升起。工匠站在采石场，用手掌抚摸花岗岩的表面——粗糙、冰冷、比他的体重重一万倍。师父说：石头在早上是活的，等太阳晒热了它就死了。",
+      "ageRange": { "start": 18, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "他吸一口气。举凿。落下。花岗岩碎屑飞溅。一滴汗落在石面上。再举凿。再落下。师父的声音从远处传来：'感受石头的呼吸，不要和它对抗。'",
+      "bgmTag": "ancient_stone_chisel",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_choose_stone",
+      "title": "选择石材",
+      "description": "师父让你选一块花岗岩。左边是大而完整但靠近断崖的石料，右边是小一号但质地均匀的石料。这个选择将决定你未来十年的命运。",
+      "ageRange": { "start": 18, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "两块花岗岩摆在面前。大的那块像一座沉睡的山，小的那块像一个可靠的伙伴。你的手在两者之间犹豫。",
+      "bgmTag": "ancient_stone_chisel",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你会选择哪块石材？",
+        "options": [
+          { "label": "大而完整的石料（风险高，成就大）", "response": "你选择了野心。这块石头里藏着一座33米的巨碑，但也藏着断裂的风险。" },
+          { "label": "小一号但质地均匀的石料（稳健务实）", "response": "你选择了稳妥。石碑虽矮但成功率高，小石碑也有它的重量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_carving_years",
+      "title": "雕刻的日夜",
+      "description": "石碑表面被雕刻出多层楼阁图案——门、窗、横梁、柱头，仿佛一座石化的摩天大楼。每一扇假门、每一根假梁都精确对称，仅凭肉眼和铅垂线完成。",
+      "ageRange": { "start": 19, "end": 28, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "十年。三千六百五十天。每天重复同样的动作：举凿、落下、吹去碎屑、用铅垂线校准。手指的老茧厚得像一层额外的皮肤。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_envoy_pressure",
+      "title": "国王使者的催促",
+      "description": "石碑雕刻到一半，国王的使者来视察。工匠跪在尘土中，使者说'不错，但再快一点，葬礼在雨季前。'三个月，雨季的雷声已经在天边响了。",
+      "ageRange": { "start": 24, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "使者的影子投在未完成的石碑上。'再快一点。'他说。你抬头看天——乌云正在聚集。赶工意味着细节粗糙，坚持品质意味着与时间赛跑。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对使者的催促，你如何选择？",
+        "options": [
+          { "label": "赶工完成（按时但细节粗糙）", "response": "你加快了节奏。石碑按时完成，但假门的花纹不如预期精致。师父用沉默表达了失望。" },
+          { "label": "坚持品质（延期但精益求精）", "response": "你与使者争执，获准延期。从此每天只睡两小时，但每一道刻痕都对得起自己的手艺。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_transport",
+      "title": "四公里的拖运",
+      "description": "采石场距离竖立地约4公里。数百人用滚木和绳索将巨石拖运至王城陵园区。每一步都是对体力和意志的极限考验。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "五百人拉着绳索，滚木在红土上碾出深深的沟痕。号子声在山谷间回荡。四公里的路，走了整整七天。",
+      "bgmTag": "festive_bgm_muffled",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_erection_day",
+      "title": "竖立之日",
+      "description": "土坡堆到三十米高，数百人拉住绳索，祭司念着盖兹语经文。工匠站在石碑底座旁，手握最后的楔子——如果角度差一度，石碑会断裂。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "三百人同时拉紧绳索，滑轮吱呀作响，祭司的经文越来越快。石碑从水平逐渐倾斜成斜角，像一头苏醒的巨兽缓缓抬起它的头——",
+      "bgmTag": "silence_with_water",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "石碑开始倾斜，角度偏了半度。你选择——",
+        "options": [
+          { "label": "冒险继续（可能留下裂纹）", "response": "石碑最终立起，但底座有微裂纹。几十年后它仍在，但裂纹成为你一生的遗憾。" },
+          { "label": "叫停重来（声誉受损但良心安稳）", "response": "当着国王的面喊停。石碑被放回土坡，你的声誉受损，但夜里睡得安稳。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_silence_after",
+      "title": "石碑竖立后的静默",
+      "description": "石碑在正午立起来了。33米高的花岗岩在非洲烈日下投下长长的影子。没有人欢呼——所有人都被这种沉默的巨大感吞没了。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "十秒的沉寂。只有风声和远处山羊的铃铛声。然后是一个老人的叹息。你跪在石碑脚下，第一次从下往上看自己雕刻了十年的东西——就像在看一个巨人。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_broken_stele",
+      "title": "路过断裂的石碑",
+      "description": "阿克苏姆郊外有一块断裂的33米巨型石碑，推测为竖立失败倒塌在地。工匠路过时站了片刻，对着碎石说'对不起，兄弟。'",
+      "ageRange": { "start": 35, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他站在那块断裂的巨石前。风穿过裂缝发出呜咽声。他伸出手，摸了摸断面——光滑得像一面镜子。'对不起，兄弟。'他轻声说。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_09_grandson_question",
+      "title": "孙子问哪个是你刻的",
+      "description": "多年后，工匠老了。他带着孙子走过石碑林。孙子问'爷爷，哪个是你刻的？'他指着最高的那座，然后又指着地上一堆刻了一半就废弃的石料，说'那些也是。'",
+      "ageRange": { "start": 65, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "他站在石碑林里。风从红海方向吹来。石头是热的。他的一生，都在这些石头上。这就够了。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_technology_lost",
+      "title": "技术的失传",
+      "description": "公元7世纪帝国衰落后，最后一代石碑工匠的后人不再学习这门手艺。方尖碑的秘密——如何将520吨花岗岩竖立成33米高的石碑——永远留在了阿克苏姆的红色土壤中。",
+      "ageRange": { "start": 70, "fuzzy": true },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你的名字不会被刻在石碑上，但你的凿痕就在那里。就像你的人生——不被记住，但确实存在过。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_07_silence_after"],
+    "valleyMoments": ["evt_06_erection_day", "evt_08_broken_stele"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

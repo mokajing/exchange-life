@@ -291,6 +291,9 @@ const TIMELINE_LIST = [
   'read-reply-credit-score',
   'bankrupt-heir-waiter',
   'rural-postman-last-mile',
+  'aksum-obelisk-carver',
+  'streamer-to-shopkeeper',
+  'air-crash-investigator',
 ];
 
 let player = null;
