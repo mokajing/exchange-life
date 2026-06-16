@@ -288,6 +288,9 @@ const TIMELINE_LIST = [
   { id: 'mirror-parallel-life', label: '镜中平行人生：如果镜子显示的是另一个选择下的你 (P0第439卷)', level: 'L1' },
   { id: 'bomb-disposal-officer', label: '排爆警察的拆弹现场 (P0第450卷)', level: 'L3' },
   'solo-chinese-new-year-eve',
+  'read-reply-credit-score',
+  'bankrupt-heir-waiter',
+  'rural-postman-last-mile',
 ];
 
 let player = null;

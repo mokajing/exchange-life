@@ -1,0 +1,177 @@
+{
+  "meta": {
+    "id": "bankrupt-heir-waiter",
+    "title": "从破产富二代到海底捞服务员的第一年",
+    "subtitle": "当「曾经拥有」比「从未拥有」更残忍的时候",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T23:35:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_bankruptcy",
+      "title": "别墅被查封的那天",
+      "description": "父亲公司破产，家中别墅被查封，全家从独栋搬到城中村出租屋。账户仅剩3.8万元。",
+      "ageRange": { "start": 26 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "搬家那天下了雨。\n\n你站在出租屋门口，看着搬家公司的人把最后几个纸箱搬进去。箱子比以前少了很多——那些名牌包、手表、高尔夫球杆，都在过去一周变成了还债的数字。\n\n3.8万。这是全家剩下的全部。\n\n妈妈在里屋收拾床铺，爸爸坐在唯一的椅子上抽烟。他没看你，但你看到他夹烟的手指在抖。\n\n你没有哭。只是觉得这屋子太小了，小到连呼吸都要小心别碰到墙壁。",
+      "bgmTag": "rain_strings_melancholy",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_rejection_loop",
+      "title": "被拒23次",
+      "description": "投简历被拒23次，HR说「你之前是老板，我们不敢用」。发现以前的身份成了负担。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第23封拒信。\n\n「感谢您的投递。考虑到您过往的管理层经历与本岗位匹配度较低……」\n\n翻译成人话就是：你以前是老板，我们不敢用。\n\n你把手机扔在床上，盯着天花板。以前这个时候，你应该在办公室里签文件、开会、决定别人的去留。现在你连一个面试机会都求不来。\n\n讽刺的是，那些你曾经拒绝过的简历，现在轮到自己被拒绝了。",
+      "bgmTag": "rejection_loop_cold",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_haidilao_interview",
+      "title": "海底捞的招聘广告",
+      "description": "看到海底捞「包吃住+月薪5500」的招聘广告，决定去面试。在更衣室对着镜子看了很久。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "「某知名火锅连锁·诚聘服务员·包吃住·月薪5500」\n\n你盯着这条招聘广告看了十分钟。然后点了「立即申请」。\n\n面试很顺利。店长没问你为什么一个开过公司的人会来端盘子，只问了一句：「能吃苦吗？」\n\n你说能。\n\n入职那天，你领到了第一套工作服。红色围裙，白色衬衫。你在更衣室的镜子前站了很久。\n\n镜子里的人穿着制服，头发梳得整整齐齐。看起来像一个真正的服务员。\n\n不像一个落魄的富二代。",
+      "bgmTag": "transition_quiet_resolve",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对新身份的落差感，你怎么调整？",
+        "options": [
+          { "label": "告诉自己这只是暂时的", "response": "你把'暂时'两个字刻在心里。但每次弯腰擦桌子时，'暂时'都变得越来越重。" },
+          { "label": "试着接受这就是现在的自己", "response": "你对着镜子练习微笑。不是职业微笑，是那种'我还在'的微笑。很难，但你做到了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_training_grind",
+      "title": "军训式培训",
+      "description": "「您好欢迎光临」说了1380遍，练到喉咙发炎。机械重复中逐渐磨掉过去的骄傲。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "「您好，欢迎光临！」\n\n第1380遍。\n\n培训师说你的笑容还不够自然，让你再练50遍。你的喉咙已经发炎了，每说一个字都像吞刀片。\n\n但你没有停。\n\n因为你发现，当你把同一句话说了一千多遍之后，那些附着在语言上的「身份感」就被磨掉了。「您好欢迎光临」不再是一句客套话，它变成了一种肌肉记忆，一种不需要思考的本能。\n\n就像你现在的生活一样。",
+      "bgmTag": "repetitive_rhythm_work",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_05_first_insult",
+      "title": "被客人指着鼻子骂",
+      "description": "第一次独立上桌，被客人骂「你们这些服务员就是没读过书」。没有反驳，微笑着换了一锅汤底。",
+      "ageRange": { "start": 26 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第一次独立看台。\n\n三号桌的客人喝多了，嫌上菜慢，指着你的鼻子骂：「你们这些服务员就是没读过书，连个菜单都记不住！」\n\n全餐厅的人都看过来了。\n\n你的手在发抖。不是因为害怕，是因为愤怒。你想告诉他：我有两个学位，开过一家200人的公司，我的学历比你高。\n\n但你没有。\n\n你微笑着说：「抱歉让您久等了，我给您换一锅新汤底。」\n\n转身的那一刻，眼泪差点掉下来。但你忍住了。因为你知道，从这一刻起，你才真正开始了。",
+      "bgmTag": "silence_dignity_hold",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对羞辱，你内心的声音是什么？",
+        "options": [
+          { "label": "记住这种痛，让它成为动力", "response": "你把这句话刻在了心里。不是为了报复，是为了提醒自己：尊严不是别人给的，是自己挣的。" },
+          { "label": "告诉自己他不了解你", "response": "你在心里默默说：'你不知道我是谁。'但说完之后发现，这句话已经没有以前那么重要了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_ex_partner_encounter",
+      "title": "前合伙人的那顿饭",
+      "description": "遇到前合作伙伴携新女友来吃饭。两人假装不认识，在「您好请慢用」和「谢谢」之间完成了一场沉默的默契。",
+      "ageRange": { "start": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第45天。\n\n你端着托盘走向七号桌，然后停住了。\n\n是他。以前的合伙人。你们一起创业五年，后来在公司最困难的时候，他撤资了。\n\n他身边坐着一个你不认识的女孩。他们正在看菜单，笑得很开心。\n\n他也看到了你。眼神交汇的那一秒，空气凝固了。\n\n然后，你们都移开了目光。\n\n「您好，请问可以点餐了吗？」你的声音平稳得像另一个人。\n\n「嗯，这个、这个、还有这个。」他指着菜单，语气礼貌而疏远。\n\n全程没有一句多余的话。没有认出，没有寒暄，没有尴尬的解释。\n\n只有「您好请慢用」和「谢谢」。\n\n回到后厨，你把托盘放在桌上，手抖了整整三分钟。",
+      "bgmTag": "silence_tension_unspoken",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "如果可以选择，你会怎么做？",
+        "options": [
+          { "label": "装作不认识，完成服务", "response": "你选择了专业。这不是懦弱，是你给自己留的最后一点体面。" },
+          { "label": "坦然打招呼", "response": "你走过去说：'好久不见。'他愣了一下，然后笑了：'你看起来挺好的。'这段对话很短，但你们都知道，有些东西真的过去了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_help_colleague",
+      "title": "帮同事垫了3000块",
+      "description": "发现后厨小王家里出事，悄悄帮他垫了3000元。第一次理解「3000块能救一个人的急」。",
+      "ageRange": { "start": 26 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "后厨的小王最近总是走神。你问他怎么了，他说妈妈住院了，差3000块押金。\n\n你没有多说。下班后，你把3000块转给了他，备注写的是「加油」。\n\n小王追着你要写借条，你摆摆手说不用。\n\n以前你有100万的时候，3000块只是一顿饭钱。现在你月薪5500，3000块是半个月的生活费。\n\n但奇怪的是，这3000块花出去的感觉，比以前花3万块还要踏实。\n\n你第一次理解了：钱的价值不在于数字，在于它落在了谁的手里。",
+      "bgmTag": "warmth_human_connection",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_promotion",
+      "title": "升为见习领班",
+      "description": "第180天升为见习领班，管理6人小组。发现以前管200人公司时学的东西，现在管6个人居然用上了。",
+      "ageRange": { "start": 26 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第180天。\n\n店长找你谈话，说你被提拔为见习领班，带一个6人小组。\n\n你有点恍惚。以前你管200人的公司，每天看报表、做决策、谈融资。现在你管6个人，排班、盘点、处理客诉。\n\n但当你第一次给组员开会的时候，你发现那些你以为已经「浪费」的经验，全都回来了。\n\n怎么分配任务、怎么激励士气、怎么处理冲突——这些东西不会因为你的身份变了就消失。\n\n它们只是换了一个舞台。",
+      "bgmTag": "growth_gentle_ascent",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_09_annual_speech",
+      "title": "员工大会上的掌声",
+      "description": "年终总结时在员工大会上分享自己的故事。台下200人沉默后爆发出最长的掌声。",
+      "ageRange": { "start": 26 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "年终总结，店长让你上台分享。\n\n你站在台上，看着下面200张面孔。他们中有大学生、有下岗工人、有单亲妈妈、有刚进城的小伙子。\n\n你深吸一口气，开口了：\n\n「一年前，我还是一个公司的老板。现在我是这里的服务员。有人可能会觉得我失败了。但我想说——这一年，是我人生中最真实的一年。」\n\n台下安静了。\n\n「我以前以为成功就是往上爬。现在我知道了，有时候往下走，才能踩到真正的地面。」\n\n沉默了三秒。\n\n然后，掌声响起来了。很长，很长。",
+      "bgmTag": "applause_emotional_peak",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_10_new_identity",
+      "title": "我不再是谁的谁",
+      "description": "体验收尾：从「曾经拥有」到「我就是我自己」的身份重建完成。",
+      "ageRange": { "start": 27 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第365天。\n\n你下班走出店门，夜风吹在脸上。围裙已经摘了，但身上还有一股火锅的味道。\n\n你不再讨厌这个味道了。\n\n一年前，你是「某某的儿子」「某某公司的CEO」。现在你是「那个很靠谱的领班」「帮小王垫钱的哥」「给刘阿姨多盛一碗饭的小伙子」。\n\n这些称呼没有一个跟钱有关，也没有一个跟过去的身份有关。\n\n但它们都是真的。\n\n你抬头看了看天。城中村的天空看不到几颗星，但你觉得，这是你27年来看得最清楚的一次夜空。",
+      "bgmTag": "night_hope_acoustic",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_06_ex_partner_encounter", "evt_09_annual_speech"],
+    "valleyMoments": ["evt_01_bankruptcy", "evt_05_first_insult"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["financial_loss", "class_anxiety"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
