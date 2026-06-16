@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "lanna-amulet-caster",
+    "title": "炉火守艺人：清迈佛牌铸造匠人的千年传承",
+    "subtitle": "在寺庙钟声与熔炉火焰之间，用锡蜡和信仰铸出护身符的最后一代手工铸造者",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/AR4GpnMqJzRpYPoRHkwGXbwxJKe0xjE3",
+    "authorized": false,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T18:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_chant",
+      "title": "清晨四点半的诵经声",
+      "description": "每天凌晨4:30起床，5:00到寺庙与僧侣一同早课祈福。将当天的铸造工作视为修行的一部分，在巴利文经文中沉淀心绪。",
+      "ageRange": { "start": 20, "end": 70 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "天还没亮，古城还在沉睡。我跪在佛前，把今天的每一锤、每一次浇铸都托付给经文。师父说，手艺人心里要有佛，手上才会有神。",
+      "bgmTag": "temple_morning_chant",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "你想先了解兰纳佛牌的历史，还是直接走进匠人的一天？",
+        "options": [
+          { "label": "了解兰纳历史", "response": "兰纳是泰北古王国，佛牌铸造传统可追溯至13世纪芒莱王朝。清迈作为故都，保留着独特的古朴厚重风格。" },
+          { "label": "走进匠人一天", "response": "好的，让我们跟随他的脚步，从黎明开始。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_alloy_recipe",
+      "title": "祖传秘方：四金属的比例口诀",
+      "description": "按祖传秘方调配锡、铅、铜、银四金属比例。每种佛牌对应不同配方，口诀只靠口耳相传，从不写在纸上。",
+      "ageRange": { "start": 25, "end": 70 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "锡七铅二铜一银半钱——这是师父在我耳边念了三百遍的口诀。他说写在纸上的会丢，刻在手里的才不会忘。秤杆起落间，是六十年的肌肉记忆。",
+      "bgmTag": "charcoal_crackling",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "调配合金时，你想遵循古方还是尝试微调？",
+        "options": [
+          { "label": "遵循古方", "response": "你选择了稳妥的传统路线。产量不高，但每一尊都承载着百年的智慧。" },
+          { "label": "尝试微调", "response": "你冒险调整了比例。这批铸件可能更精致，也可能整批报废——这就是创新的代价。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_three_seconds",
+      "title": "浇铸的关键三秒",
+      "description": "浇铸瞬间需在3秒内完成倾注，温度偏差10度即整批报废。液态金属注入模具的嘶嘶声，是匠人最紧张也最神圣的时刻。",
+      "ageRange": { "start": 25, "end": 70 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "三秒。只有三秒。坩埚倾斜的角度、手腕的力度、呼吸的节奏——所有练习都是为了这三秒。液态金属像一条金色的蛇滑入模具，嘶嘶作响。成了，就是一尊佛；败了，就是一块废铁。",
+      "bgmTag": "molten_metal_pour",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "浇铸完成的瞬间，你的感受是？",
+        "options": [
+          { "label": "屏息等待", "response": "你和我一样，在寂静中等待结果。脱模的那一刻，才知道成败。" },
+          { "label": "相信手艺", "response": "六十年的手感不会骗人。但我依然会在脱模前默念师父的名字。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_reject_melt",
+      "title": "瑕疵品的归宿：当场熔毁",
+      "description": "每尊佛牌脱模后需逐一检查'法相'是否完整。瑕疵品当场熔毁绝不流入市场，这是匠人对信仰的敬畏。",
+      "ageRange": { "start": 25, "end": 70 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "这尊的法相缺了一角。我把它放回坩埚，看着它重新化为液态。心疼吗？疼。但师父说过，不完美的佛牌流出去，是对信众的欺骗。再来一次就好。",
+      "bgmTag": "salaw_melancholy",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "发现瑕疵品时，你会怎么做？",
+        "options": [
+          { "label": "立即熔毁", "response": "这是匠人的标准做法。不完美就不能出世，这是对信仰的尊重。" },
+          { "label": "犹豫片刻", "response": "你停了一下。这一停，让你想起了师父第一次教你检查法相时的眼神。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_apprentice_smile",
+      "title": "小学徒的第一次成功",
+      "description": "小学徒第一次独立浇铸成功时眼眶发红却不敢哭，因为师父说过'眼泪滴进模具佛牌会伤心'。传承在这一刻有了重量。",
+      "ageRange": { "start": 60, "end": 70 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "他的手还在抖，但浇铸成功了。他红着眼眶看我，嘴唇抿得紧紧的。我说，想哭就哭吧，只要别滴进模具里。他笑了，那笑容比我铸过的任何佛牌都珍贵。",
+      "bgmTag": "gentle_strings_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_evening_solitude",
+      "title": "暮色中的坚守",
+      "description": "傍晚收工时将当日第一尊成品供奉于作坊神龛前，默念师父名字。对面新开的机器佛牌店霓虹灯亮起，他坐在门口抽烟，笑笑不说话。",
+      "ageRange": { "start": 60, "end": 70 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "对面的霓虹灯亮了，年轻人骑着摩托经过喊我'爷爷还在做啊'。我笑笑，不说话。作坊里的炉火快熄了，但神龛前的那尊佛牌还温着。师父，今天又过了一天。",
+      "bgmTag": "night_market_distant",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_07_offering_shrine",
+      "title": "神龛前的供奉",
+      "description": "每天收工前清洁工具，向佛像行礼。将当日第一尊成品供奉于作坊神龛前，这是与师父跨越时空的对话。",
+      "ageRange": { "start": 20, "end": 70 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "工具擦干净了，炉子封好了。我把今天最好的那尊放在神龛前，点上香。师父走的时候没留下什么话，但这尊佛牌他会看到的。",
+      "bgmTag": "incense_burning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_polishing_rhythm",
+      "title": "锉刀下的节奏",
+      "description": "下午打磨修整上午铸件，锉刀摩擦锡面的声音成为白噪音。每一道纹路都是手工的痕迹，机器永远无法复制的温度。",
+      "ageRange": { "start": 25, "end": 70 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "锉刀推过去，锡屑卷起来。一下，两下，三下……这个节奏我重复了五十年。机器压出来的佛牌光滑完美，但没有指纹。我的佛牌上有我的温度。",
+      "bgmTag": "filing_rhythm",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_03_three_seconds", "evt_05_apprentice_smile"],
+    "valleyMoments": ["evt_04_reject_melt", "evt_06_evening_solitude"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["religious_content", "high_temperature"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

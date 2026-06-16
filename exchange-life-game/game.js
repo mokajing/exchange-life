@@ -105,7 +105,8 @@ const TIMELINE_LIST = [
   'migrant-to-driver-midlife',
   'synesthesia-daily-senses',
   'mongolian-gobi-nomad-storm',
-  'search-history-documentary'
+  'search-history-documentary',
+  'lanna-amulet-caster'
 ];
 
 App({
