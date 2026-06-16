@@ -391,7 +391,7 @@ const BGM_MAP = {
   solemn_strings_ancient:  { file: 'audio/bgm/solemn_strings_ancient.mp3',  volume: 0.35, loop: true },
   triumph_drums_guqin:     { file: 'audio/bgm/triumph_drums_guqin.mp3',     volume: 0.45, loop: false },
   farewell_xiao_solo:      { file: 'audio/bgm/farewell_xiao_solo.mp3',      volume: 0.3, loop: false },
-  legacy_guqin_fade:       { file: 'audio/bgm/legacy_guqin_fade.mp3',       volume: 0.3, loop: true }
+  legacy_guqin_fade:       { file: 'audio/bgm/legacy_guqin_fade.mp3',       volume: 0.3, loop: true },
 
 
   // === 蒙古戈壁游牧民专用标签 (2026-06-16 P0第398卷) ===
@@ -411,8 +411,7 @@ const BGM_MAP = {
   urban_night_cool:       { file: 'audio/bgm/urban_night_cool.mp3',       volume: 0.25, loop: true },
   nostalgic_piano_soft:   { file: 'audio/bgm/nostalgic_piano_soft.mp3',   volume: 0.3, loop: true },
   hopeful_strings_gentle_search: { file: 'audio/bgm/hopeful_strings_gentle_search.mp3', volume: 0.35, loop: false },
-  sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false }
-
+  sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false },
   // 影子关系调解员 - 第417卷
   gentle_piano_curious:    { file: 'audio/bgm/gentle_piano_curious.mp3', volume: 0.35, loop: true },
   tense_minimal_piano:     { file: 'audio/bgm/tense_minimal_piano.mp3', volume: 0.4, loop: true },
@@ -441,9 +440,7 @@ const BGM_MAP = {
   tense_corporate_ambient:    { file: 'audio/bgm/tense_corporate_ambient.mp3',    volume: 0.3, loop: true },
   night_emotional_piano:      { file: 'audio/bgm/night_emotional_piano.mp3',      volume: 0.35, loop: true },
   emotional_silence_then_strings: { file: 'audio/bgm/emotional_silence_then_strings.mp3', volume: 0.4, loop: false },
-  night_nature_ambient:       { file: 'audio/bgm/night_nature_ambient.mp3',       volume: 0.25, loop: true }
-
-
+  night_nature_ambient:       { file: 'audio/bgm/night_nature_ambient.mp3',       volume: 0.25, loop: true },
   // === ADHD成人女性职场伪装专用标签 (2026-06-16 P0第431卷) ===
   morning_ambient_slow:    { file: 'audio/bgm/morning_ambient_slow.mp3',    volume: 0.25, loop: true },
   tense_minimal_beat:      { file: 'audio/bgm/tense_minimal_beat.mp3',      volume: 0.3, loop: true },
@@ -455,7 +452,7 @@ const BGM_MAP = {
   enclosed_breathing:      { file: 'audio/bgm/enclosed_breathing.mp3',      volume: 0.25, loop: true },
   office_evening_calm:     { file: 'audio/bgm/office_evening_calm.mp3',     volume: 0.25, loop: true },
   evening_silence:         { file: 'audio/bgm/evening_silence.mp3',         volume: 0.2, loop: true },
-  lofi_night_loop:         { file: 'audio/bgm/lofi_night_loop.mp3',         volume: 0.3, loop: true }
+  lofi_night_loop:         { file: 'audio/bgm/lofi_night_loop.mp3',         volume: 0.3, loop: true },
   // === 产后第一年新手妈妈专用标签 ===
   minimal_piano_single:   { file: 'audio/bgm/minimal_piano_single.mp3',   volume: 0.25, loop: true },
   night_silence_breath:   { file: 'audio/bgm/night_silence_breath.mp3',   volume: 0.2, loop: true },
@@ -540,9 +537,7 @@ const BGM_MAP = {
   silence_with_piano:      { file: 'audio/bgm/silence_with_piano.mp3',      volume: 0.25, loop: true },
   gentle_strings_slow:     { file: 'audio/bgm/gentle_strings_slow.mp3',     volume: 0.3, loop: true },
   tension_release_chord:   { file: 'audio/bgm/tension_release_chord.mp3',   volume: 0.4, loop: false },
-  triumph_warm_strings:    { file: 'audio/bgm/triumph_warm_strings.mp3',    volume: 0.45, loop: false }
-
-
+  triumph_warm_strings:    { file: 'audio/bgm/triumph_warm_strings.mp3',    volume: 0.45, loop: false },
   // === 胡里族假发匠人 & 退休干部专用标签 (2026-06-17 P0第466-467卷) ===
   silence_with_water       : { file: 'audio/bgm/silence_with_water.mp3', volume: 0.2, loop: true },
   afternoon_silence_loop   : { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
@@ -570,10 +565,7 @@ const BGM_MAP = {
   tense_beat_fast:         { file: 'audio/bgm/tense_beat_fast.mp3',         volume: 0.4, loop: true },
   warm_piano_gentle:       { file: 'audio/bgm/warm_piano_gentle.mp3',       volume: 0.3, loop: true },
   tension_minimal:         { file: 'audio/bgm/tension_minimal.mp3',         volume: 0.3, loop: true },
-  night_farewell_piano:    { file: 'audio/bgm/night_farewell_piano.mp3',    volume: 0.3, loop: false }
-
-
-
+  night_farewell_piano:    { file: 'audio/bgm/night_farewell_piano.mp3',    volume: 0.3, loop: false },
   // === 玛雅天文祭司专用标签 (2026-06-17 P0第472卷) ===
   ancient_flute_calm:      { file: 'audio/bgm/ancient_flute_calm.mp3',      volume: 0.3, loop: true },
   tension_distant_drums:   { file: 'audio/bgm/tension_distant_drums.mp3',   volume: 0.35, loop: true },
