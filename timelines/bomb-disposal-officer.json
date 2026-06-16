@@ -1,0 +1,155 @@
+{
+  "meta": {
+    "id": "bomb-disposal-officer",
+    "title": "排爆警察的拆弹现场",
+    "subtitle": "在倒计时归零前用双手和直觉替整座城市拆掉一颗定时炸弹的「拆弹手」",
+    "sourceType": "documentary",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T22:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_alarm_call",
+      "title": "凌晨的电话铃声",
+      "description": "06:00 排爆中队值班室，手机响起。指挥中心通报：城东地铁三号线某站台发现可疑包裹，疑似爆炸装置。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "电话铃声响起的那一刻，胃里像被攥紧了一样。每次出警都是生死赌局，最怕的不是爆炸，是这该死的铃声。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_gear_up",
+      "title": "穿上35公斤的桑拿房",
+      "description": "06:12 穿好排爆服（重达35公斤的凯夫拉防爆服），检查装备：X光机、排爆机器人、水炮枪、排爆绳钩组、工具箱。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "35公斤的凯夫拉防爆服，穿上它就像被装进一个移动的桑拿房。夏天里面温度能到50度，但从来不敢省掉任何一步穿戴程序。",
+      "bgmTag": "enclosed_breathing",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_arrive_scene",
+      "title": "逆行的100米",
+      "description": "06:25 抵达现场，地铁站已疏散。站台上一个黑色双肩包孤零零地放在长椅下。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "疏散完所有人之后，只有你逆着人流走向那个可能是炸弹的包裹。同事说这是你最孤独的100米。",
+      "bgmTag": "glitch_static_tone",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "抵达现场后，你会如何选择？",
+        "options": [
+          { "label": "使用排爆机器人远程操作", "response": "机器人无法在长椅下精确操作，仍需人工处置。安全但效率低。" },
+          { "label": "直接人工排爆", "response": "风险高但效率高。你深吸一口气，决定亲自上。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_xray_scan",
+      "title": "X光下的真相",
+      "description": "06:30 用X光机扫描，确认内部有电路板、电池、雷管和疑似炸药块。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "X光图像显示：电路板、电池、雷管、疑似炸药块。这不是演习，是真的。",
+      "bgmTag": "metronome_ticking",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_05_approach",
+      "title": "头盔里的呼吸声",
+      "description": "06:40 穿上排爆服，独自走向包裹。头盔里只有自己的呼吸声和心跳声。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "头盔里只有自己的呼吸声和心跳声。世界安静得像在真空里，每一步的脚步声在空旷站台回响。",
+      "bgmTag": "enclosed_breathing",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_open_bag",
+      "title": "打开拉链的瞬间",
+      "description": "06:45 用排爆工具打开拉链，露出内部装置：一个定时器显示剩余时间8分12秒。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "定时器显示剩余时间8分12秒。遥控+定时双触发装置，需先切断遥控接收器，再拆除雷管。",
+      "bgmTag": "metronome_ticking",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "打开包裹后，你会先剪哪根线？",
+        "options": [
+          { "label": "先剪红色导线（遥控接收器电源）", "response": "正确选择。定时器仍在倒计时，但遥控已失效。" },
+          { "label": "先剪蓝色导线（雷管引线）", "response": "可能触发反拆装置。在真实场景中，错误判断可能导致爆炸。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_cut_wire",
+      "title": "剪断导线",
+      "description": "06:49 剪断红色导线（遥控接收器电源线），定时器仍在倒计时。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "剪。瞬间静默。然后定时器滴答声继续——确认未引爆。",
+      "bgmTag": "glitch_static_tone",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_08_disarm",
+      "title": "定时器停在4分02秒",
+      "description": "06:53 使用水炮枪远距离分离雷管与炸药。定时器停在4分02秒。装置彻底失效。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "停了。没有庆祝，没有兴奋。每一次成功拆弹，内行只会去写报告。",
+      "bgmTag": "evening_silence",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_09_aftermath",
+      "title": "凉了的早饭",
+      "description": "07:10 回到中队，写排爆报告。食堂的早饭已经凉了。",
+      "ageRange": { "start": 32, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.4,
+      "narrativeText": "脱掉排爆服，里面的T恤已经完全湿透。食堂的早饭已经凉了。用最日常的细节承载最沉重的情绪。",
+      "bgmTag": "lofi_night_loop",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "startEmotion": "fear",
+    "peakEmotion": "fear",
+    "endEmotion": "sadness",
+    "intensityCurve": [0.6, 0.4, 0.7, 0.8, 0.9, 0.95, 0.9, 0.5, 0.4],
+    "keyTransitions": [
+      { "from": "evt_01_alarm_call", "to": "evt_03_arrive_scene", "type": "escalation" },
+      { "from": "evt_06_open_bag", "to": "evt_07_cut_wire", "type": "climax" },
+      { "from": "evt_08_disarm", "to": "evt_09_aftermath", "type": "resolution" }
+    ]
+  }
+}

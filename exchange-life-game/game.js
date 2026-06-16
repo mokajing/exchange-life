@@ -112,6 +112,7 @@ const TIMELINE_LIST = [
   'adhd-woman-workplace-masking',
   'new-mom-3am-first-year',
   'mirror-parallel-life',
+  'bomb-disposal-officer',
 ];
 
 App({

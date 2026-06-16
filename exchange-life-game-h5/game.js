@@ -286,6 +286,7 @@ const TIMELINE_LIST = [
   { id: 'adhd-woman-workplace-masking', label: 'ADHD成人女性的职场伪装日常 (P0第431卷)', level: 'L3' },
   { id: 'new-mom-3am-first-year', label: '产后第一年新手妈妈的深夜三点 (P0第436卷)', level: 'L2' },
   { id: 'mirror-parallel-life', label: '镜中平行人生：如果镜子显示的是另一个选择下的你 (P0第439卷)', level: 'L1' },
+  { id: 'bomb-disposal-officer', label: '排爆警察的拆弹现场 (P0第450卷)', level: 'L3' },
 ];
 
 let player = null;
