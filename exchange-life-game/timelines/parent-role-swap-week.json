@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "parent-role-swap-week",
+    "title": "全职妈妈与职场爸爸互换角色的一周",
+    "subtitle": "当\"他负责赚钱她负责顾家\"的默契被身体互换撕碎后，两个人才第一次看见对方每天吞下的那些\"没什么\"",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-16T11:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "day1_morning_chaos",
+      "title": "Day1·早晨的并行任务崩溃",
+      "description": "他第一次独自带两个孩子完成早上出门流程，才发现妻子每天6:00-8:30完成了多少并行任务。闹钟、早餐、穿衣、书包、情绪安抚同时爆发。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "06:00。闹钟响了。你翻身下床，脚踩到乐高积木差点摔倒。大宝在哭，二宝把牛奶打翻在地毯上。你一边擦地一边热奶，手机弹出老板的消息：'9点前交报告。'你看了一眼时间——06:47。以前你说'早上不就是送个孩子吗'的时候，她总是笑笑不说话。现在你知道了，那个笑里藏着多少个06:00到08:30。",
+      "bgmTag": "morning_rush_piano",
+      "visualTone": "warm"
+    },
+    {
+      "id": "day2_meeting_interrupted",
+      "title": "Day2·被打断三次的会议",
+      "description": "她在公司会议上发言被打断三次，而以前丈夫说\"你今天又没什么大事\"时她沉默了。第一次体会到职场中被轻视的感觉。",
+      "ageRange": { "start": 30, "end": 30 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "10:00。会议室。你准备了三天的方案终于轮到你讲。刚开口两句，男同事插话：'这个我之前想过……'你等他说完继续，又被另一个声音盖过。第三次被打断时，你听见自己说'好的您先说'——那语气熟悉得让你心口发紧。那是她以前在家里的语气。你曾经觉得她'太敏感'的那些委屈，此刻正坐在你的胸腔里，沉甸甸的。",
+      "bgmTag": "office_tension_strings",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "第三次被打断后，你选择……",
+        "options": [
+          { "label": "坚持说完自己的观点", "response": "你深吸一口气，用比平时低半度的声音把方案讲完。没人再打断你。但你注意到，刚才插话的男同事已经在记笔记了——他记的是你的想法，署的是他的名。" },
+          { "label": "退让，会后单独找领导沟通", "response": "你闭上嘴，把剩下的内容咽回去。会后你在走廊拦住领导，用三分钟讲完了核心要点。领导点头说'不错'。但你想起她说过：'有些话错过了时机就永远说不出口了。'" },
+          { "label": "当场指出被打断的事实", "response": "你说：'我还没讲完。'会议室安静了两秒。有人尴尬地笑了笑。你把方案讲完了，但散会后没人跟你说话。你第一次理解了为什么她宁愿沉默也不愿'计较'。" }
+        ]
+      }
+    },
+    {
+      "id": "day3_kindergarten_isolation",
+      "title": "Day3·幼儿园家长群的社交孤立",
+      "description": "他在幼儿园家长群被其他妈妈排斥，体会到社交孤立的窒息感。发消息问活动安排没人回复，接孩子时被当成\"临时帮忙的爸爸\"。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.75,
+      "narrativeText": "15:30。幼儿园门口。你蹲下来帮二宝系鞋带，旁边几个妈妈聊得热火朝天。你试着搭话：'周末有亲子活动吗？'空气安静了一秒，然后话题无缝切换到了下一个。微信群里你问了同样的问题，二十分钟过去，零回复。你想起她说'家长群的事你别管了'时那种疲惫的语气。原来不是不想让你管，是管了也没人把你当回事。",
+      "bgmTag": "lonely_playground",
+      "visualTone": "cool"
+    },
+    {
+      "id": "day4_toilet_tears",
+      "title": "Day4·公司厕所里的五分钟",
+      "description": "她发现丈夫在公司厕所里偷偷哭了五分钟才回工位。养家者的压力从来不被允许表达。",
+      "ageRange": { "start": 30, "end": 30 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "14:00。你去洗手间补妆。隔间门缝下露出一双皮鞋，熟悉的款式。你站在门外，听见里面极力压抑的呼吸声。五分钟。整整五分钟。冲水声响起，门开了。他看见你，愣了一秒，然后挤出一个笑：'没事，眼睛进沙子了。'你没戳穿。你只是突然明白了，那些他回家后越来越少的沉默，不是冷漠，是一个男人把所有脆弱都锁在了公司厕所的隔间里。",
+      "bgmTag": "white_noise_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "看见他在厕所哭泣后，你选择……",
+        "options": [
+          { "label": "假装什么都没发生", "response": "你点点头，走回工位。给他留一个体面的出口。但你心里有什么东西碎了——不是对他的失望，是对自己过去所有'你怎么又不说话'的愧疚。" },
+          { "label": "晚上回家后主动提起", "response": "晚饭后你说：'今天在公司……你是不是不太舒服？'他沉默了很久，说：'没什么。'但那天的沉默和以前不一样了。以前的沉默是墙，今天的沉默是一扇没锁的门。" },
+          { "label": "写一张纸条放在他包里", "response": "你在便利贴上写了三个字：'我在呢。'塞进他公文包的侧袋。不知道他什么时候会发现。但你知道，有些话当面说不出口，纸上的温度刚好够传递。" }
+        ]
+      }
+    },
+    {
+      "id": "day5_emotional_explosion",
+      "title": "Day5·积压情绪的决堤",
+      "description": "互换第五天，两人在厨房因为一件小事爆发。不是吵架，是所有没说出口的委屈同时找到了出口。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "19:00。厨房。碗没洗干净。就这么一件小事。你说了一句'你就不能认真点吗'，声音突然抖了。然后眼泪掉下来了。不是委屈，不是愤怒，是一种说不清的、积攒了五年的东西终于溢出来了。他站在那里，手里还拿着抹布，眼眶也红了。你们没有吵架。只是站在厨房里，各自哭着，中间隔着一张料理台。那张料理台上放着没洗的碗、孩子的作业本、明天的菜篮子。还有你们之间从未说出口的所有'其实我很累'。",
+      "bgmTag": "emotional_release_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "情绪决堤之后，你选择……",
+        "options": [
+          { "label": "走过去抱住对方", "response": "你绕过料理台，抱住了他/她。没有说话。眼泪蹭在对方的肩膀上。这个拥抱里没有原谅，没有和解，只有两个终于承认自己很累的人。" },
+          { "label": "蹲下来，让对方也蹲下来", "response": "你蹲在地上，背靠着橱柜。他/她也慢慢蹲下来。你们平视着彼此，第一次以同样的高度看对方的脸。原来疲惫的样子是一样的。" },
+          { "label": "先把碗洗完再说", "response": "你擦干眼泪，打开水龙头。他/她也走过来，拿起另一块抹布。你们沉默地把碗洗完了。水流声代替了所有语言。有些事不需要说出来，一起做就是了。" }
+        ]
+      }
+    },
+    {
+      "id": "day6_new_understanding",
+      "title": "Day6·带着新认知重新看见对方",
+      "description": "互换第六天，两人开始用新的眼光看待对方的日常。他主动整理了孩子的衣柜，她给老公的同事发了感谢消息。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "10:00。你把孩子的衣柜按季节重新整理了，还贴了标签。以前你觉得'收拾衣服有什么难的'，现在你知道每一件叠好的衣服背后都是一次弯腰、一次分类、一次记住孩子又长高了的瞬间。她在另一边给你的项目组点了下午茶，附了一张卡片：'谢谢你们照顾我家那位。'你看到照片时笑了。不是客气，是她终于看见了你在公司里也需要被温暖。",
+      "bgmTag": "gentle_acoustic",
+      "visualTone": "warm"
+    },
+    {
+      "id": "day7_silent_reconciliation",
+      "title": "Day7·沙发上的沉默与重建",
+      "description": "互换结束当晚，两人坐在沙发上沉默了很久。不是无话可说，是有太多话不知从何说起。然后他说\"对不起我以前觉得你轻松\"。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "21:00。孩子们睡了。你们坐在沙发上，中间隔着一个靠垫的距离。电视开着但没有声音。沉默了很久。不是冷战的那种沉默，是两个走了很远的路终于坐下来的人，需要一点时间把气喘匀。他先开口了，声音很轻：'对不起。我以前觉得你轻松。'你没有说'没关系'。你说：'我也对不起。我以为你在外面什么都不用操心。'靠垫被挪开了。不是因为问题解决了，是因为你们终于愿意坐在同一个高度上，面对同一个问题。",
+      "bgmTag": "reunion_warm_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "day7_reflection",
+      "title": "Day7·写给原来的自己",
+      "description": "体验结束前的最后时刻，你想对互换前的自己说一句话。不是总结，不是感悟，只是一个提醒。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "23:00。明天一切都会换回来。你会回到自己的身体、自己的角色、自己的日常。但有些东西不会换回去了。你看着镜子里的自己，想说点什么。最后只想到一句：'别再把对方的付出当作理所当然了。'这句话很简单。简单到你以前听过一百遍都没听进去。但现在它刻在你骨头里了。因为你亲手摸过那些'没什么'的重量。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["day5_emotional_explosion"],
+    "valleyMoments": ["day4_toilet_tears", "day3_kindergarten_isolation"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["家庭矛盾", "情绪崩溃", "性别角色压力"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
