@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "id": "migrant-to-driver-midlife",
+    "title": "从工地到方向盘",
+    "subtitle": "当体力不再值钱后在城市夹缝中重新找到方向的中年转型者",
+    "sourceType": "documentary",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-16T15:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_arrive_beijing",
+      "title": "18岁进京",
+      "description": "从河南驻马店农村来到北京，跟着老乡进工地做钢筋工，开启二十年建筑生涯。",
+      "ageRange": { "start": 18, "end": 18 },
+      "yearRange": { "start": 2005, "end": 2005 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "2005年夏天，你背着蛇皮袋走出北京西站。热气混着尘土扑面而来，老乡指着远处塔吊说「那就是你的饭碗」。工地宿舍是铁皮房，八个人挤一间，汗味和水泥味混在一起。第一天扛钢筋，肩膀磨出血泡，晚上疼得睡不着。但想到每月能寄回家八百块钱，你咬着牙告诉自己：中，能干。那一年你18岁，以为力气是用不完的。",
+      "bgmTag": "urban_construction_ambient",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_back_injury",
+      "title": "腰椎确诊",
+      "description": "腰椎间盘突出确诊，医生说不能再干重活。二十年信赖的身体突然背叛了自己。",
+      "ageRange": { "start": 29, "end": 29 },
+      "yearRange": { "start": 2016, "end": 2016 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "CT片子举在灯下，医生指着那团阴影说「突出压迫神经，再干重活可能瘫」。你盯着片子，像看一张判决书。二十年了，你靠这副身板养活了全家，供弟弟读完大专，给老家盖了新房。现在它告诉你：不行了。走出医院时阳光刺眼，你蹲在马路牙子上抽完一根烟。不是怕疼，是怕没了力气之后，你还是谁。那种被自己最信赖的东西抛弃的感觉，比任何伤口都深。",
+      "bgmTag": "tense_minimal_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "身体发出警告时，你怎么选？",
+        "options": [
+          { "label": "咬牙再干一年攒够钱再说", "response": "你又撑了八个月。每弯一次腰都像有人拿锥子扎。存款多了两万块，但走路开始往右歪。老婆哭着骂你不要命，你笑着说「再等等」——其实是不敢停，停了就不知道还能干什么。" },
+          { "label": "立刻停下来哪怕没存款", "response": "你把工具交给带班的徒弟，收拾铺盖离开工地。兜里只剩三千块。躺在出租屋里盯着天花板，第一次觉得安静比噪音更可怕。但至少，腰不用再承受那些重量了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_first_passenger_complaint",
+      "title": "第一次被嫌弃",
+      "description": "刚跑网约车时被乘客嫌弃车内味道，后来买了车载香薰，但自己闻不出区别。",
+      "ageRange": { "start": 30, "end": 30 },
+      "yearRange": { "start": 2017, "end": 2017 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第一周跑车，一个穿西装的男人上车后皱了皱眉，全程把窗户开到底。下车时他说了句「师傅你这车味儿有点大」。你愣了几秒才反应过来——那是二十年工地腌进皮肤里的味道，洗不掉。后来你买了车载香薰，挂在后视镜上。但你自己闻不出区别，就像分不清香水和花露水。每次接单前你都反复检查车内，生怕再被人嫌弃。方向盘握得越紧，心里那根弦就绷得越紧。",
+      "bgmTag": "urban_night_cool",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_old_site_reunion",
+      "title": "接到去老工地的单",
+      "description": "发现当年盖的楼已经住了人，小区门口保安是以前的工友。两个世界在此刻重叠。",
+      "ageRange": { "start": 35, "end": 35 },
+      "yearRange": { "start": 2022, "end": 2022 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "导航把你带到朝阳一个小区。停稳车抬头一看，这栋楼你认识——2012年你在这里绑过钢筋。现在它有了名字，叫「阳光上东」，外墙贴着瓷砖，阳台上晾着衣服。小区门口保安探出头问「师傅找谁」，你对上他的眼睛，两个人同时愣住了。「老张？」「……是你？」他摘下帽子，头发白了一半。你们站在门口聊了十分钟，他说现在月薪三千五，你说跑车一天两百多。没说谁过得好谁过得差，只是互相拍了拍肩膀。离开时你在后视镜里看他重新戴上帽子，站回那个不属于你们的位置。",
+      "bgmTag": "nostalgic_strings_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "遇到老工友后，你的心情如何？",
+        "options": [
+          { "label": "感慨时间过得太快", "response": "你坐在车里没急着接单。十年了，楼还是那栋楼，人已不是那个人。你们都在城市的褶皱里活着，偶尔被命运翻出来见一面，然后又各自折回去。" },
+          { "label": "庆幸自己还在路上", "response": "至少你还在动。方向盘在手里，路就在前面。不像他被困在那个门岗亭里，日复一日看着别人进出。你发动车子，觉得自己比他幸运一点点——只是一点点。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_rainy_night_pregnant",
+      "title": "暴雨夜送孕妇",
+      "description": "暴雨天送孕妇去医院，乘客给了200块小费说不用找了。那天晚上给老婆打电话哭了。",
+      "ageRange": { "start": 38, "end": 38 },
+      "yearRange": { "start": 2025, "end": 2025 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "暴雨砸在车顶像无数只手在敲。后座的孕妇疼得直吸气，她丈夫在旁边急得语无伦次。你关掉导航凭记忆抄近道，雨刮器开到最大也看不清前路。到医院门口时，男人塞给你两张红票子说「师傅谢谢，不用找了」。你摆手说应该的，关上门才发现手在抖。不是因为钱，是因为很久没有人用这种眼神看你——不是嫌弃，不是催促，是真的感激。那天收车后你没直接回家，在停车场坐了半小时。拨通老婆电话，她说「咋了」，你说了句「没事」，然后眼泪就下来了。四十岁的男人，哭起来连声音都不敢有。",
+      "bgmTag": "rain_emotional_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "深夜独自在停车场时，你想什么？",
+        "options": [
+          { "label": "想起这些年所有的不容易", "response": "那些被嫌弃的味道、被差评的委屈、腰痛到直不起身的夜晚……全涌上来。但你没让自己沉下去。擦把脸，发动车子，明天还得跑。" },
+          { "label": "觉得这一切都值得", "response": "两百块不多，但那句「谢谢」的重量抵得过一百个差评。你不是在开车，是在把人安全送到他们该去的地方。这份工作没有名字，但有意义。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_algorithm_change",
+      "title": "平台算法调整",
+      "description": "同样的路线少了30%收入，开始在等单间隙自学短视频剪辑，寻找新的可能性。",
+      "ageRange": { "start": 42, "end": 42 },
+      "yearRange": { "start": 2023, "end": 2023 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "一觉醒来规则变了。以前跑十小时挣四百，现在同样时间只有二百八。客服说「系统优化」，你知道是被算法吃了。等单的间隙你刷手机，看到有人说「中年人要学新技能」。你下载了剪辑软件，对着教程一帧一帧地学。手指粗笨，点不准小图标，一段三十秒的视频剪了三小时。发布后只有七个播放量，其中三个是自己点的。但你没删。这是你在方向盘之外，第一次为自己做点什么。",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_son_video_call",
+      "title": "儿子的视频通话",
+      "description": "儿子说「爸你别太累了」，你笑着说没事，挂了电话在停车场坐了半小时。",
+      "ageRange": { "start": 48, "end": 48 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "屏幕亮起，儿子的脸带着宿舍灯光的暖白色。「爸你别太累了，」他说，「我奖学金够了，你别寄那么多。」你笑着说「不累，够花」，问他食堂饭菜好不好吃。挂断电话后笑容还挂在脸上，但眼眶已经热了。你坐在停车场里，引擎熄了，周围安静得能听见自己的心跳。保温杯里的茶凉了，降压药还没吃。四十八岁了，所有的苦都消化在方向盘上，对家人说的永远是「挺好的」。这不是坚强，是没有别的选项。",
+      "bgmTag": "family_warm_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "挂掉电话后，你想对儿子说什么没说出口的话？",
+        "options": [
+          { "label": "「爸其实很累，但看到你就不累了」", "response": "这句话你永远说不出口。不是因为面子，是因为怕他担心。有些话烂在肚子里，反而成了支撑你继续跑的燃料。" },
+          { "label": "「别回来，外面的世界大」", "response": "你想让他飞得远一点，别像你一样被困在一个城市的一个角落里。哪怕他将来忘了你说过这话，你也认了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_morning_start",
+      "title": "清晨启动",
+      "description": "新的一天开始，导航说「行程开始」，温暖但不煽情的弦乐响起。不是逆袭，是带着伤继续走的韧性。",
+      "ageRange": { "start": 48, "end": 48 },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "05:30。闹钟响第三遍你才睁开眼。贴好膏药，吞下降压药，灌下半杯凉茶。出门时天刚蒙蒙亮，空气里有早餐摊的油条味。坐进车里，插上钥匙，仪表盘亮起微光。导航说「行程开始」，你深吸一口气，把车开出停车场。城市还在醒来，路灯一盏盏熄灭。你不是英雄，没有逆袭的故事。你只是一个四十八岁的男人，腰上贴着膏药，车里放着保温杯，每天跑十二个小时，为了一个叫「家」的地方。方向盘在手里，路就在前面。这就够了。",
+      "bgmTag": "sunrise_gentle_strings",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_rainy_night_pregnant", "evt_07_son_video_call"],
+    "valleyMoments": ["evt_02_back_injury", "evt_03_first_passenger_complaint"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["劳动者权益", "中年困境", "身体损伤"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
