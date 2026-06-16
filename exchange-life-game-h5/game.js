@@ -295,6 +295,8 @@ const TIMELINE_LIST = [
   'streamer-to-shopkeeper',
   'air-crash-investigator',
   'detective-counselor-swap-week',
+  'huli-wigman-coming-of-age',
+  'retired-cadre-first-day',
 ];
 
 let player = null;

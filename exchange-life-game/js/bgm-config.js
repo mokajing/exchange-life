@@ -532,6 +532,18 @@ const BGM_MAP = {
   tension_release_chord:   { file: 'audio/bgm/tension_release_chord.mp3',   volume: 0.4, loop: false },
   triumph_warm_strings:    { file: 'audio/bgm/triumph_warm_strings.mp3',    volume: 0.45, loop: false }
 
+
+  // === 胡里族假发匠人 & 退休干部专用标签 (2026-06-17 P0第466-467卷) ===
+  silence_with_water       : { file: 'audio/bgm/silence_with_water.mp3', volume: 0.2, loop: true },
+  afternoon_silence_loop   : { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
+  dusk_strings_low         : { file: 'audio/bgm/dusk_strings_low.mp3', volume: 0.3, loop: true },
+  warm_family_distant      : { file: 'audio/bgm/warm_family_distant.mp3', volume: 0.3, loop: true },
+  festive_bgm_muffled      : { file: 'audio/bgm/festive_bgm_muffled.mp3', volume: 0.35, loop: true },
+  fireworks_piano_high     : { file: 'audio/bgm/fireworks_piano_high.mp3', volume: 0.4, loop: false },
+  night_silence_soft       : { file: 'audio/bgm/night_silence_soft.mp3', volume: 0.2, loop: true },
+  morning_silence_soft     : { file: 'audio/bgm/morning_silence_soft.mp3', volume: 0.2, loop: true },
+  silence_with_piano       : { file: 'audio/bgm/silence_with_piano.mp3', volume: 0.25, loop: true },
+  lofi_afternoon_quiet     : { file: 'audio/bgm/lofi_afternoon_quiet.mp3', volume: 0.25, loop: true },
 };
 
 /**

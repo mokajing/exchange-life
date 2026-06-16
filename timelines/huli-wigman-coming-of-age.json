@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "huli-wigman-coming-of-age",
+    "title": "巴布亚新几内亚胡里族假发匠人的成年礼",
+    "subtitle": "在云雾缭绕的高地丛林中，一个17岁少年用三年收集的头发编织出雄鸟之冠，戴上它就从男孩变成了男人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-17T01:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_bath",
+      "title": "凌晨圣泉沐浴",
+      "description": "凌晨3点，17岁的Wariso在海拔2200米的冷泉中沐浴净化。这是他成为男人的第一步仪式，身体在寒冷中颤抖，但心里有一种说不清的期待。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨三点，山泉水刺骨地冷。你赤脚踩在湿草地上，每一步都像踩在冰上。师父说这是净化的开始——洗去男孩的最后一丝稚气。你在泉水中站了很久，直到身体不再颤抖，只剩下一种奇异的清醒。",
+      "bgmTag": "silence_with_water",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "在冷泉中，你会怎么做？",
+        "options": [
+          { "label": "多待一会儿，感受身体的变化", "response": "你在寒冷中找到了某种平静。身体记住了这个时刻——这是成为男人的第一道门槛。" },
+          { "label": "快速完成沐浴，赶去师父家", "response": "师父看到你匆忙的样子，笑了笑说「你父亲当年也这么急」。有些仪式，急不得。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_hair_collection",
+      "title": "三年头发的重量",
+      "description": "将过去三年收集的头发按长短、粗细分类。每一根都是时间的见证，从14岁到17岁，这些头发承载着一个少年对成年的全部期待。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "竹筒里的头发被倒在草席上。三年的时光就这样散落在眼前——有长有短，有粗有细。14岁那年第一次掉落的头发还在里面，那时候你还不懂为什么要收集它们。现在你懂了：这不是头发，是你作为男孩的最后证据。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_weaving_begins",
+      "title": "编织仪式开始",
+      "description": "师父哼唱祖传假发歌谣，用一把祖传骨梳将头发一缕一缕编入环形框架。这个过程需要极度的耐心和专注，每一缕头发都有它该去的位置。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "师父的手很稳，骨梳划过头发的声音像风吹过竹林。他哼着一首古老的歌谣，旋律重复而低沉，像是在和祖先对话。你坐在他面前，看着自己的头发在他手中变成另一种形态——不再是你的，又完全是你的。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "编织中途，师父突然提起你的父亲。你会怎么做？",
+        "options": [
+          { "label": "问师父「父亲戴假发是什么样子」", "response": "师父停下手中的活，从角落里拿出一顶褪色的假发。「这是他留下的。」你接过那顶假发，指尖触到了父亲的痕迹。" },
+          { "label": "沉默点头，继续编织", "response": "你没有问出口。师父继续哼歌，但歌声里多了一丝温柔。有些话不需要说出来，沉默本身就是一种传承。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_dyeing_process",
+      "title": "赤金色的诞生",
+      "description": "将发酵的树皮汁与火山泥混合，反复涂抹假发基座。经过多次上色，假发呈现出标志性的赤金色——这是胡里族男性身份的象征。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "树皮汁的味道很冲，混合着火山泥的腥气。师父的手被染成了深褐色，但他的动作依然精准。假发的颜色在一次次涂抹中逐渐显现——从暗黄到赤金，像日出时天空的变化。这是属于你的颜色，属于成年男性的颜色。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_decoration",
+      "title": "天堂鸟羽毛的加冕",
+      "description": "将天堂鸟羽毛、贝壳珠串和野猪獠牙碎片镶嵌在假发上。天堂鸟是连接人间与祖先世界的信使，它的羽毛是最珍贵的装饰。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "天堂鸟的羽毛在阳光下闪着虹彩。师父小心翼翼地将它们一根根固定在假发上，每一根都有特定的位置和角度。贝壳珠串碰撞发出细微的声响，野猪獠牙的碎片被嵌入最显眼的位置。这不仅仅是一顶假发，这是一顶王冠。",
+      "bgmTag": "festive_bgm_muffled",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_first_wear",
+      "title": "倒影中的陌生人",
+      "description": "第一次戴上完成的假发，在泉水中看到自己的倒影。那个戴着天堂鸟羽毛的人是谁？他像父亲，又像一只鸟，又像一个陌生人。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "假发比你想象的要重。当你低头看向泉水中的倒影时，呼吸停了一瞬——那个人是谁？他有着你的眉眼，却戴着不属于你的冠冕。他像父亲年轻时的样子，又像一只准备起飞的鸟。你盯着倒影看了很久，直到水面泛起涟漪，那个陌生人才重新变回你自己。",
+      "bgmTag": "fireworks_piano_high",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "看到倒影的那一刻，你会怎么做？",
+        "options": [
+          { "label": "盯着倒影看很久", "response": "你在倒影中寻找父亲的影子，寻找那个即将成为的自己。水面平静下来后，你终于认出了那个人——是你，又不只是你。" },
+          { "label": "转身看向师父", "response": "师父站在你身后，眼神温和。「你父亲也这么看过我。」他说。那一刻，三代人的目光在泉水中交汇。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_adult_ceremony",
+      "title": "成年礼·鸟舞",
+      "description": "三天后的成年礼上，你在部落长者面前戴上假发，完成传统的「鸟舞」。从此你获得了成年男性的身份和参加部落会议的权利。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "鼓声响起的时候，你的双脚自动开始了舞蹈。这是刻在血液里的节奏，是祖辈传下来的步伐。假发上的天堂鸟羽毛随着你的动作摇曳，你真的像一只鸟。长者们的目光庄严而温暖，他们看到了一个男孩的结束，和一个男人的开始。",
+      "bgmTag": "triumph_warm_strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_hair_burial",
+      "title": "埋在父亲坟前的头发",
+      "description": "入夜后，你把竹筒里剩下的几根头发悄悄带到父亲的坟前埋下。这是一个安静的告别，也是一个无声的承诺：爸爸，我长大了。",
+      "ageRange": { "start": 17, "fuzzy": false },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "夜色很深，只有远处的篝火透出一星橘色。你蹲在父亲的坟前，把最后几根头发放进土里。没有说话，没有哭泣，只是静静地坐了一会儿。风从山谷吹来，带着草木的气息。你知道父亲看不见这一切，但他一定知道——他的儿子今天成为了男人。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在父亲的坟前，你想说什么？",
+        "options": [
+          { "label": "什么都不说，只是坐着", "response": "有些话不需要说出口。风会带走你的思念，土地会记住你的承诺。" },
+          { "label": "轻声说「爸爸，我长大了」", "response": "声音很轻，轻到只有自己能听见。但这句话说出口的瞬间，你感到肩上的重量变了——不再是负担，而是传承。" },
+          { "label": "把师父给的旧假发放在坟前", "response": "父亲的假发已经褪色，但形状依然完好。你把它放在坟前，像是完成了一次跨越生死的交接。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_first_wear", "evt_07_adult_ceremony"],
+    "valleyMoments": ["evt_01_dawn_bath", "evt_08_hair_burial"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["cultural_ritual", "parental_loss_mention"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
