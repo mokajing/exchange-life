@@ -1,0 +1,140 @@
+{
+  "meta": {
+    "id": "war-photographer-viewfinder",
+    "title": "战地摄影师的取景框",
+    "subtitle": "按下快门那一刻的道德困境与使命感拉扯",
+    "sourceType": "documentary",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVB1Ee2d1CPKaeRmpW1DK0g6l",
+    "authorized": true,
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-16T12:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dispatch",
+      "title": "派遣令",
+      "description": "接到通讯社派遣令，目的地叙利亚阿勒颇前线。装备检查：两台机身、四支镜头、防弹背心、卫星电话。妻子把女儿画的画塞进防弹衣内袋。",
+      "ageRange": { "start": 32 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "派遣令到的时候，我正在厨房给女儿热牛奶。桌上摊着防弹背心的检查清单，旁边是她刚画的全家福。妻子没说话，只是把那张画叠好，塞进了防弹衣的内袋里。",
+      "bgmTag": "tense_strings_low",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_02_arrival",
+      "title": "抵达前线",
+      "description": "抵达前线记者站。本地fixer阿米尔在机场举牌等候，他去年失去了弟弟。第一次进入废墟区，空气中弥漫着混凝土粉尘和烧焦的气味。",
+      "ageRange": { "start": 32 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "阿米尔举着我的名字站在到达厅出口，他笑得像老朋友一样。后来我才知道，去年他的弟弟就死在这座城市的某条街道上。空气里有混凝土粉尘的味道，还有烧焦的东西。",
+      "bgmTag": "ambient_war_distant",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_tea_elder",
+      "title": "喝茶的老人",
+      "description": "在半坍塌的居民楼里发现一个老人坐在瓦砾上喝茶，身后是被炸毁的家。举起相机时老人抬头看我，眼神平静得像一面湖水。按下快门后手抖了三秒。",
+      "ageRange": { "start": 32 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "他坐在一堆碎砖上，手里端着一杯茶。身后的墙只剩下一半，露出里面褪色的壁纸。我举起相机的那一刻，他抬起头看我。那双眼睛平静得像一面湖水。快门按下去之后，我的手抖了整整三秒。",
+      "bgmTag": "solo_cello_meditation",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这位老人，你选择……",
+        "options": [
+          { "label": "举起相机，记录这一刻", "response": "快门声在寂静中格外刺耳。老人没有躲闪，他只是继续喝他的茶。我突然不确定，究竟是谁在凝视谁。" },
+          { "label": "放下相机，坐下来陪他喝杯茶", "response": "我没有拍照。我们坐在瓦砾上，他给我倒了一杯茶。茶是温的，有薄荷的味道。有些画面不需要被记录，只需要被经历。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_hospital",
+      "title": "急诊室的白布",
+      "description": "空袭后的医院急诊室。一个孩子被送来时已经没有了呼吸。护士用白布盖上孩子的脸。我拍了这张照片，但后来从没有在公开场合展示过。",
+      "ageRange": { "start": 32 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 1.0,
+      "narrativeText": "急诊室的灯忽明忽暗。他们把一个小小的身体放在担架上，护士用白布盖上了那张脸。我拍了。但那张照片至今还在我的硬盘里，从未见过光。有些重量，连取景框都承受不住。",
+      "bgmTag": "silence_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "关于这张照片，你决定……",
+        "options": [
+          { "label": "发送给编辑，让世界看到", "response": "邮件发出去的那一刻我就后悔了。不是因为它不够好，而是因为它太好了——好到让我觉得自己是个窃贼。" },
+          { "label": "永远不展示，留在心底", "response": "我把那张照片藏在了所有文件夹的最深处。它不属于任何展览、任何奖项。它只属于那个孩子，和那天夜里无法入睡的我。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_farewell",
+      "title": "Fixer的告别",
+      "description": "撤离日。fixer阿米尔送我到边境检查站时说了一句话：'你带走了照片，我们留下来继续活着。'",
+      "ageRange": { "start": 32 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "边境检查站的铁栅栏在阳光下泛着冷光。阿米尔帮我扛下行李，拍了拍我的肩膀。他说：'你带走了照片，我们留下来继续活着。'回程飞机上我把存储卡攥在手心里，指甲嵌进塑料壳。",
+      "bgmTag": "acoustic_guitar_farewell",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_award",
+      "title": "颁奖典礼",
+      "description": "照片获奖。颁奖典礼上穿着西装站在台上，脑子里全是那个喝茶的老人和盖着白布的孩子。致辞只说了一句：'这不是我的作品，是他们的生活。'",
+      "ageRange": { "start": 33 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "聚光灯打在脸上，台下是一片模糊的黑色礼服和闪光。奖杯比想象中沉。我对着麦克风说了唯一一句话：'这不是我的作品，是他们的生活。'掌声响起来的时候，我听见的是阿勒颇的风声。",
+      "bgmTag": "piano_echo_applause",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "回到日常后，朋友问'那边怎么样'，你选择……",
+        "options": [
+          { "label": "讲述真实的经历", "response": "我说了一个小时。他们安静地听着。说完之后房间里沉默了很久。我知道有些东西永远留在了那张桌子中间。" },
+          { "label": "笑着说'还行'", "response": "我说还行。他们也笑了。然后我们聊起了天气和足球。那些没说出口的话，变成了胸口一块永远不会融化的冰。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_return",
+      "title": "回到厨房",
+      "description": "从战区回到家中的厨房。女儿跑过来抱住腿，妻子在灶台前煮汤。烟火气慢慢覆盖了记忆里的硝烟味。",
+      "ageRange": { "start": 33 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "推开家门的那一刻，厨房里飘来番茄蛋汤的味道。女儿从客厅跑过来，一把抱住我的腿。妻子回头看了我一眼，什么都没说，只是往锅里多加了一勺盐。烟火气一点一点地，把那些遥远的声音盖住了。",
+      "bgmTag": "warm_kitchen_piano",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_tea_elder", "evt_04_hospital"],
+    "valleyMoments": ["evt_05_farewell", "evt_06_award"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["战争主题", "死亡暗示", "PTSD相关内容"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
