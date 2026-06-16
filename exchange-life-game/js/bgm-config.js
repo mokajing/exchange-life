@@ -592,7 +592,16 @@ const BGM_MAP = {
   pen_on_paper_quiet:      { file: 'audio/bgm/pen_on_paper_quiet.mp3',      volume: 0.2, loop: true },
   muted_restaurant_warm:   { file: 'audio/bgm/muted_restaurant_warm.mp3',   volume: 0.25, loop: true },
   warm_home_evening:       { file: 'audio/bgm/warm_home_evening.mp3',       volume: 0.3, loop: true },
-  night_strings_gentle:    { file: 'audio/bgm/night_strings_gentle.mp3',    volume: 0.25, loop: true }
+  night_strings_gentle:    { file: 'audio/bgm/night_strings_gentle.mp3',    volume: 0.25, loop: true },
+
+  // === 气味翻译师专用标签 (2026-06-17 P0第470卷) ===
+  lofi_chill_piano:        { file: 'audio/bgm/lofi_chill_piano.mp3',        volume: 0.3, loop: true },
+  gentle_strings_slow:     { file: 'audio/bgm/gentle_strings_slow.mp3',     volume: 0.3, loop: true },
+  tension_low_synth:       { file: 'audio/bgm/tension_low_synth.mp3',       volume: 0.3, loop: true },
+  cello_solo_gentle:       { file: 'audio/bgm/cello_solo_gentle.mp3',       volume: 0.35, loop: false },
+  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.3, loop: true },
+  love_theme_gentle:       { file: 'audio/bgm/love_theme_gentle.mp3',       volume: 0.35, loop: false },
+  reflection_piano_soft:   { file: 'audio/bgm/reflection_piano_soft.mp3',   volume: 0.3, loop: true }
 
 };
 
