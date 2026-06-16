@@ -120,6 +120,7 @@ const TIMELINE_LIST = [
   'aksum-obelisk-carver',
   'streamer-to-shopkeeper',
   'air-crash-investigator',
+  'detective-counselor-swap-week',
 ];
 
 App({

@@ -1,0 +1,149 @@
+{
+  "meta": {
+    "id": "detective-counselor-swap-week",
+    "title": "男刑警与女心理咨询师互换身体的一周",
+    "subtitle": "在审讯与倾听被赋予截然不同性别编码的社会里，一个靠打破心理防线吃饭的刑警和一个靠重建信任感为生的咨询师交换身体后重新理解攻与守的真正含义",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-17T00:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_swap_happens",
+      "title": "互换发生",
+      "description": "Day1周一：刑警队长周岩（42岁）在抓捕行动中头部受撞击，同时心理咨询师林雪（38岁）因低血糖晕倒。两人在同一家医院醒来，发现意识互换了身体。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你在医院的白色天花板下醒来，但身体不对——手太小了，声音太尖了。护士叫你「林老师」，但你明明是周岩。隔壁床传来一个男人惊恐的声音：「我的手怎么这么大？」",
+      "bgmTag": "high_tension_suspense",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_02_domestic_violence_call",
+      "title": "林雪出警家暴案",
+      "description": "Day2周二：林雪（在周岩身体里）被要求带队出警处理家暴案。面对被打断肋骨却坚持「他只是喝了酒」的妻子，她第一次理解了警察的无力感。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你穿着周岩的制服站在受害者面前。她的肋骨断了三根，却说「他只是喝了酒」。你想拥抱她，但同事们在看着——警察不能这么软。你第一次理解了什么叫「抓了人之后受害者会主动原谅」。",
+      "bgmTag": "urban_night_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对坚持不报案的受害者，你会怎么做？",
+        "options": [
+          { "label": "按程序记录证据，尊重她的选择", "response": "你克制住共情本能，用专业流程保护她。这不是冷漠，是另一种守护。" },
+          { "label": "私下留下自己的联系方式", "response": "违规操作，但也许某天她会打这个电话。周岩以前从不这么做。" },
+          { "label": "反复劝说她离开施暴者", "response": "你的急切让她退缩了。有时候过度的关心也是一种压力。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_first_session_collapse",
+      "title": "周岩的第一次咨询崩溃",
+      "description": "Day3周三：周岩（在林雪身体里）面对第一位来访者——一名被性侵后患PTSD的女大学生。他的审讯式提问让来访者当场崩溃大哭。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "来访者坐在你对面，手一直在抖。你习惯性地问「具体发生了什么」「为什么不报警」，她的眼泪突然决堤。你手足无措——审讯室里你是掌控者，在这里你连递纸巾的节奏都不对。",
+      "bgmTag": "silence_with_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "来访者崩溃大哭，你会怎么做？",
+        "options": [
+          { "label": "什么都不做，等她哭完", "response": "来访者抬头说「你是第一个不急着让我好起来的人」。沉默原来是最好的回应。" },
+          { "label": "递纸巾，说「没事的，都会过去的」", "response": "来访者停止哭泣但不再说话。安慰有时是一种打断。" },
+          { "label": "问她「你为什么不报警」", "response": "来访者直接离开。你把审讯室的逻辑带进了咨询室，这是致命的错误。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_learning_silence",
+      "title": "学习闭嘴的艺术",
+      "description": "Day4周四：第二次咨询，周岩学着不说「你为什么不报警」，而是说「你不需要向任何人解释」。他开始理解无条件积极关注的含义。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你咬住舌头，把到嘴边的追问咽回去。来访者在沉默中慢慢开口，说的比昨天多了一倍。你发现「不说」比「说」更难，也更有力量。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_empathic_interrogation",
+      "title": "林雪的共情式审讯",
+      "description": "Day5周五：林雪用「你儿子今年高考吧」而非「你最好老实交代」打开突破口。嫌疑人眼眶红了，5分钟后交代了藏尸地点。",
+      "ageRange": { "start": 38, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "审讯室里的男人已经沉默了六个小时。你没有拍桌子，而是轻声说「你儿子今年高考吧」。他的眼眶红了。五分钟后他开口了。同事们目瞪口呆——这不是他们认识的「周队」。",
+      "bgmTag": "tension_release_chord",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对沉默的嫌疑人，你会用什么方式突破？",
+        "options": [
+          { "label": "提到他的家人，用共情切入", "response": "嫌疑人的防线从内部瓦解。这不是操纵，是让他重新连接自己的人性。" },
+          { "label": "拍桌子威胁「抗拒从严」", "response": "嫌疑人冷笑，继续沉默。强硬对某些人无效。" },
+          { "label": "离开审讯室，让他自己待着", "response": "嫌疑人睡着了。冷处理有时有效，但不是这次。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_dual_breakthrough",
+      "title": "双重结案",
+      "description": "Day6周六：周岩的来访者终于说出性侵细节，林雪的嫌疑人交代了藏尸地点。两个人在各自的新身体里完成了彼此职业生涯中最重要的一次突破。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "这一天，两个不可能完成的案件同时告破。你用林雪的方式打开了受害者的嘴，她用周岩的方式撬开了嫌疑人的心。你们在对方的身体里，找到了自己缺失的那一半武器。",
+      "bgmTag": "triumph_warm_strings",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_07_cafe_debrief",
+      "title": "咖啡厅复盘",
+      "description": "Day7周日：两人在咖啡厅复盘这一周。周岩说「我以前觉得共情就是软弱」，林雪说「我以前觉得审讯就是暴力」。他们决定合作做受害者心理重建的公益项目。",
+      "ageRange": { "start": 42, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "换回自己的身体后，你们坐在咖啡厅里。周岩说「共情不是软弱」，林雪说「审讯不是暴力」。窗外的阳光把两个人的影子叠在一起。你们决定一起做点什么——把这一周学到的东西留给更多人。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "互换结束后，你最想记住的是什么？",
+        "options": [
+          { "label": "力量的反面不是软弱，是另一种力量", "response": "你学会了在硬与软之间找到平衡。这是职业生涯最重要的一课。" },
+          { "label": "性别是职业的滤镜，不是职业本身", "response": "能力不因性别而变，但世界对你的态度因性别而变。看见这一点，就是改变的开始。" },
+          { "label": "替别人承受创伤的代价", "response": "无论你是警察还是咨询师，你都在用自己的方式消化别人的痛苦。承认这份重量，才能继续走下去。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt_05_empathic_interrogation", "evt_06_dual_breakthrough"],
+    "valleyMoments": ["evt_03_first_session_collapse", "evt_02_domestic_violence_call"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["domestic_violence_mention", "sexual_assault_indirect", "ptsd_symptoms"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
