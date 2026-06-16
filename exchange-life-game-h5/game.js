@@ -284,6 +284,7 @@ const TIMELINE_LIST = [
     { id: 'shadow-relation-mediator', title: '影子关系调解员', subtitle: '替人与自己的影子谈判的第一个月' },
   { id: 'ai-life-score-daily', label: '被AI量化的人生评分日 (P0第423卷)', level: 'L1' },
   { id: 'adhd-woman-workplace-masking', label: 'ADHD成人女性的职场伪装日常 (P0第431卷)', level: 'L3' },
+  { id: 'new-mom-3am-first-year', label: '产后第一年新手妈妈的深夜三点 (P0第436卷)', level: 'L2' },
 ];
 
 let player = null;
