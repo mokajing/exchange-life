@@ -113,6 +113,7 @@ const TIMELINE_LIST = [
   'new-mom-3am-first-year',
   'mirror-parallel-life',
   'bomb-disposal-officer',
+  'solo-chinese-new-year-eve',
 ];
 
 App({

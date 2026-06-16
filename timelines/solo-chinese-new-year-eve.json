@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "id": "solo-chinese-new-year-eve",
+    "title": "第一次独自过年的年轻人",
+    "subtitle": "在万家灯火的除夕夜独自面对一桌外卖和一整个沉默的出租屋的第一年",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T23:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_wakeup",
+      "title": "清晨被祝福轰炸",
+      "description": "06:00-08:00 手机被除夕祝福轰炸，家族群已经开始发红包。躺在床上假装没醒，不知道该回复什么。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "手机被除夕祝福轰炸，家族群已经开始发红包。躺在床上假装没醒，不知道该回复什么。窗外的城市比平日更安静。",
+      "bgmTag": "morning_ambient_slow",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_video_call_lie",
+      "title": "视频拜年时的谎言",
+      "description": "08:00-10:00 父母打来视频电话，背景里是老家热闹的厨房。你说「我这边挺好的，和朋友一起过」。窗外是寂静的街道。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "父母打来视频电话，背景里是老家热闹的厨房。镜头扫过一桌子菜，你举着手机在出租屋里转了一圈，说「我这边挺好的，和朋友一起过」。窗外是寂静的街道。",
+      "bgmTag": "warm_family_distant",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "父母问「你那边怎么样？」",
+        "options": [
+          { "label": "挺好的，和朋友一起过呢", "response": "你笑着说谎。这是当代都市青年的标准善意谎言，目的是让父母放心。" },
+          { "label": "其实……我一个人", "response": "你选择坦白。妈妈沉默了两秒，然后说「那你要好好吃饭啊」。" },
+          { "label": "切换镜头让他们看窗外", "response": "你用环境代替语言。父母看到了安静的街道，什么也没说。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_supermarket_ritual",
+      "title": "超市采购仪式感",
+      "description": "10:00-12:00 去超市买了一堆零食、速冻饺子、一瓶红酒。超市里放的《恭喜发财》让人觉得既亲切又刺耳。收银员问「一个人过年啊？」",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.4,
+      "narrativeText": "去超市买了一堆零食、速冻饺子、一瓶红酒。超市里放的《恭喜发财》让人觉得既亲切又刺耳。收银员问「一个人过年啊？」——这是今天第一次被问这个问题。",
+      "bgmTag": "festive_bgm_muffled",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_fake_feast",
+      "title": "朋友圈假年夜饭",
+      "description": "12:00-14:00 外卖点了一份水煮鱼和一份饺子，打开iPad看春晚回放。在朋友圈发了一条「新年快乐」配图是窗外的烟花，实际上烟花是网上找的图。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "外卖点了一份水煮鱼和一份饺子，打开iPad看春晚回放。在朋友圈发了一条「新年快乐」配图是窗外的烟花，实际上烟花是网上找的图。朋友圈体面学的极致体现。",
+      "bgmTag": "lofi_afternoon_quiet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "除夕午餐吃什么？",
+        "options": [
+          { "label": "外卖水煮鱼+饺子", "response": "最接近「年夜饭」仪式感的外卖方案。你精心摆盘，拍了三张照片才选出一张满意的。" },
+          { "label": "速冻饺子自己煮", "response": "热气升腾的瞬间，你想起了小时候和妈妈一起包饺子的下午。" },
+          { "label": "泡面+火腿肠", "response": "最「摆烂」的选择，但反而触发「原来今天也没什么特别的」的释然感。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_long_afternoon",
+      "title": "漫长的下午",
+      "description": "14:00-17:00 刷短视频看到别人家的团圆饭，家族群里亲戚开始问「有对象了吗」「工资涨了吗」。把群消息设成免打扰，开始打游戏，但排了十分钟没排进去。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "刷短视频看到别人家的团圆饭，家族群里亲戚开始问「有对象了吗」「工资涨了吗」。把群消息设成免打扰，开始打游戏，但匹配到的队友都去过年了，排了十分钟没排进去。",
+      "bgmTag": "afternoon_silence_loop",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_06_dusk_threshold",
+      "title": "黄昏临界点",
+      "description": "17:00-19:00 窗户外面开始有鞭炮声，对面楼的灯光一盏盏亮起来，能看到别人家窗户里晃动的身影。你打开了房间所有的灯，把电视声音调到最大。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "天黑了。鞭炮声从很远的地方传来。对面的灯亮了。你打开了所有的灯。电视声音调到最大。这是全天情绪最低落的时刻——心理学称之为「黄昏效应」。",
+      "bgmTag": "dusk_strings_low",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "窗外鞭炮声越来越近，你选择——",
+        "options": [
+          { "label": "站在阳台上看烟花", "response": "全景视角，沉浸式感受万家灯火。远处的热闹和你的沉默形成强烈对比，情绪冲击力最大。" },
+          { "label": "拉上窗帘，打开所有灯", "response": "封闭式自我保护。你把外面的世界隔绝了，但孤独感反而更清晰。" },
+          { "label": "戴上耳机听歌", "response": "用自己的音乐屏蔽外部世界。耳机里是你一个人的跨年歌单。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_chunwan_barrage",
+      "title": "弹幕共情时刻",
+      "description": "19:00-21:00 真正的春晚开始了，一个人坐在沙发上看。弹幕里有人刷「一个人看春晚的举个手」，你终于觉得自己不是一个人。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "真正的春晚开始了，一个人坐在沙发上看。弹幕里有人刷「一个人看春晚的举个手」，你终于觉得自己不是一个人——虽然你并不认识这条弹幕背后的任何人。数字时代的孤独不再是一个人的事，而是一群各自孤独的人同时在线。",
+      "bgmTag": "tv_ambient_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_mom_voice",
+      "title": "妈妈的语音",
+      "description": "21:00-23:00 妈妈又发来一条语音，说「明年一定要回来啊」。你回了一个「嗯嗯」的表情包，然后去洗手间洗了把脸。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "妈妈又发来一条语音，说「明年一定要回来啊」。你回了一个「嗯嗯」的表情包，然后去洗手间洗了把脸。出去洗脸这个动作，是全天唯一一次允许自己情绪外泄的瞬间，但只持续了洗手间的距离。",
+      "bgmTag": "silence_with_water",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "收到妈妈的语音后，你会——",
+        "options": [
+          { "label": "回一个表情包", "response": "你用轻松的表情掩盖情绪。成年人的情绪管理术：用一件无关的事打断涌上来的感觉。" },
+          { "label": "打一段文字又删掉", "response": "你写了「妈我想你们」，又删掉了。有些话打出来太重，怕她担心。" },
+          { "label": "直接回拨语音", "response": "你鼓起勇气回拨过去。妈妈的声音比语音里更温柔，她说「没事，妈知道你忙」。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_midnight_fireworks",
+      "title": "零点烟花下的真心话",
+      "description": "23:00-00:00 零点倒计时的时候，窗外烟花炸开，你站在阳台上看着别人家的灯火，给父母发了一条「新年快乐，爱你们」。这次是真的说了真心话，因为隔着屏幕。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "咻——砰！红色的光铺满了整个阳台。你想起了小时候爸爸把你举在肩膀上看的烟花。你终于说出了那句——「新年快乐，爱你们」。因为隔着屏幕所以敢说，因为烟花的噪音所以不怕被听出鼻音。",
+      "bgmTag": "fireworks_piano_high",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "零点到了，给父母发消息——",
+        "options": [
+          { "label": "「新年快乐，爱你们」", "response": "在烟花掩护下说出真心话。这是中国式亲子关系最精准的隐喻：隔着屏幕才敢说的爱。" },
+          { "label": "发一个红包", "response": "用行动代替言语。红包金额不大，但包含了所有说不出口的话。" },
+          { "label": "打一个视频电话", "response": "实时连接。妈妈接起来第一句是「你怎么还没睡」，但你听到了她的笑声。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_10_sleep_empty",
+      "title": "糖化了以后的空",
+      "description": "00:00-02:00 躺在床上，手机屏幕暗下去，房间安静下来。不是难过，是一种很具体的空旷——像一颗糖被含化了以后嘴巴里的那种空。",
+      "ageRange": { "start": 25, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "躺在床上，手机屏幕暗下去，房间安静下来。不是难过，是一种很具体的空旷——像一颗糖被含化了以后嘴巴里的那种空。窗外还有零星的烟花，远处偶尔传来几声鞭炮。你闭上眼睛，明天又是新的一天。",
+      "bgmTag": "night_silence_soft",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_09_midnight_fireworks"],
+    "valleyMoments": ["evt_06_dusk_threshold", "evt_08_mom_voice"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["loneliness", "family_separation", "holiday_isolation"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

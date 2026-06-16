@@ -467,7 +467,19 @@ const BGM_MAP = {
   bomb_disposal_tension:   { file: 'audio/bgm/bomb_disposal_tension.mp3',   volume: 0.4, loop: true },
   heartbeat_isolated:     { file: 'audio/bgm/heartbeat_isolated.mp3',     volume: 0.35, loop: true },
   timer_countdown_low:    { file: 'audio/bgm/timer_countdown_low.mp3',    volume: 0.3, loop: true },
-  silence_after_blast:    { file: 'audio/bgm/silence_after_blast.mp3',    volume: 0.2, loop: false }
+  silence_after_blast:    { file: 'audio/bgm/silence_after_blast.mp3',    volume: 0.2, loop: false },
+
+  // === 独自过年年轻人专用标签 (2026-06-16 P0第453卷) ===
+  warm_family_distant:    { file: 'audio/bgm/warm_family_distant.mp3',    volume: 0.3, loop: true },
+  festive_bgm_muffled:    { file: 'audio/bgm/festive_bgm_muffled.mp3',    volume: 0.25, loop: true },
+  lofi_afternoon_quiet:   { file: 'audio/bgm/lofi_afternoon_quiet.mp3',   volume: 0.25, loop: true },
+  afternoon_silence_loop: { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
+  dusk_strings_low:       { file: 'audio/bgm/dusk_strings_low.mp3',       volume: 0.3, loop: true },
+  tv_ambient_warm:        { file: 'audio/bgm/tv_ambient_warm.mp3',        volume: 0.25, loop: true },
+  silence_with_water:     { file: 'audio/bgm/silence_with_water.mp3',     volume: 0.2, loop: true },
+  fireworks_piano_high:   { file: 'audio/bgm/fireworks_piano_high.mp3',   volume: 0.4, loop: false },
+  night_silence_soft:     { file: 'audio/bgm/night_silence_soft.mp3',     volume: 0.15, loop: true }
+
 
 };
 
