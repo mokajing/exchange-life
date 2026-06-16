@@ -273,7 +273,8 @@ const TIMELINE_LIST = [
   { id: '阶层跨越体验富豪破产后送外卖的第一年-2026-06-14-1218-utc', label: '阶层跨越体验·富豪破产后送外卖的第一年 — 2026-06-...', level: 'L1' },
   { id: '阶层跨越体验小镇做题家考入名校后的第一个寒假回家', label: '阶层跨越体验·小镇做题家考入名校后的第一个寒假回家', level: 'L1' },
   { id: '阶层跨越体验顶级私厨眼中的富豪餐桌', label: '阶层跨越体验·顶级私厨眼中的富豪餐桌', level: 'L1' },
-  { id: 'parent-role-swap-week', label: '全职妈妈与职场爸爸互换角色的一周 (P0第336卷)', level: 'L2' }
+  { id: 'parent-role-swap-week', label: '全职妈妈与职场爸爸互换角色的一周 (P0第336卷)', level: 'L2' },
+  { id: 'county-bride-rich-family', label: '从县城体制内家庭嫁入一线城市豪门的第一年 (P0第338卷)', level: 'L1' }
 ];
 
 let player = null;

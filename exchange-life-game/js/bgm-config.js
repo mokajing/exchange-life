@@ -320,7 +320,15 @@ const BGM_MAP = {
   office_tension_strings: { file: 'audio/bgm/office_tension_strings.mp3', volume: 0.3, loop: true },
   lonely_playground:      { file: 'audio/bgm/lonely_playground.mp3',      volume: 0.25, loop: true },
   emotional_release_piano:{ file: 'audio/bgm/emotional_release_piano.mp3',volume: 0.45, loop: false },
-  reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.4, loop: false }
+  reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.4, loop: false },
+  // county-bride-rich-family BGM tags
+  tense_family_dinner:    { file: 'audio/bgm/tense_family_dinner.mp3',    volume: 0.35, loop: true },
+  lonely_mansion_night:   { file: 'audio/bgm/lonely_mansion_night.mp3',   volume: 0.25, loop: true },
+  painful_beauty_strings: { file: 'audio/bgm/painful_beauty_strings.mp3', volume: 0.35, loop: true },
+  social_isolation_piano: { file: 'audio/bgm/social_isolation_piano.mp3', volume: 0.3, loop: true },
+  bittersweet_homecoming: { file: 'audio/bgm/bittersweet_homecoming.mp3', volume: 0.35, loop: true },
+  warm_storytelling_guitar:{ file: 'audio/bgm/warm_storytelling_guitar.mp3', volume: 0.4, loop: true },
+  hopeful_growth_piano:   { file: 'audio/bgm/hopeful_growth_piano.mp3',   volume: 0.4, loop: false }
 };
 
 /**
