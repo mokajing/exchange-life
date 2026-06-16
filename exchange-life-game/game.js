@@ -111,6 +111,7 @@ const TIMELINE_LIST = [
   'shadow-relation-mediator',
   'adhd-woman-workplace-masking',
   'new-mom-3am-first-year',
+  'mirror-parallel-life',
 ];
 
 App({
