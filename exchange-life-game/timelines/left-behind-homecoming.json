@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "left-behind-homecoming",
+    "title": "留守儿童十年后第一次回乡探亲",
+    "subtitle": "在城市扎根十年后发现自己既不属于城市也不属于故乡，奶奶用棉花包好的鸡蛋是她唯一还懂的爱",
+    "sourceType": "social_media",
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-16T10:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_village_entrance_shock",
+      "title": "村口下车发现路比记忆里窄了",
+      "description": "高铁转大巴再转三轮车，终于在村口停下。小时候觉得巨大的晒谷场原来只有半个篮球场大。空间错位感瞬间击穿了十年的城市滤镜。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "travel",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "三轮车突突地停在村口那棵老槐树下。你跳下车的时候脚踩在了泥地上，鞋底沾了一层薄薄的黄土——这双鞋在上海的地铁里从未沾过泥土。你抬头看，晒谷场还在，但小得让你怀疑自己的记忆是不是出了错。八岁的时候你觉得它能装下整个世界，现在它连一个篮球场都填不满。路也比印象中窄了，两边的房子矮了，连天空都好像低了一些。不是它们变了，是你变了。你用十年时间把自己撑大到了一个这个村庄再也装不下的尺寸。",
+      "bgmTag": "village_arrival_nostalgia",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_grandma_deaf_ears",
+      "title": "奶奶耳朵背了反复摸手说胖了",
+      "description": "奶奶已经听不清说话了，要贴着耳朵喊。她反复摸着你的手说'胖了胖了'，其实你瘦了二十斤。爱是真的，但了解已经断了。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "奶奶站在堂屋门口，头发全白了，背弯得像一张弓。你走到她面前叫了一声'奶'，她没有反应。你又叫了一声，贴着她的耳朵，声音大得连自己都吓了一跳。她转过头来，眼睛眯成一条缝，然后笑了。她的手摸上你的手背，粗糙的指腹像砂纸一样刮过你的皮肤。'胖了，胖了。'她说。你低头看着自己被加班熬瘦的手腕，没有纠正她。她摸了一遍又一遍，像是在确认你还是那个她养大的孩子。但你已经不是了。她爱你，这一点从未改变；但她已经不了解你了，这一点也从未改变。这两件事同时存在，像两把刀架在你的心上。",
+      "bgmTag": "grandma_touch_silence",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对奶奶'胖了'的误读，你选择——",
+        "options": [
+          { "label": "笑着应承，让她继续摸", "response": "你没有解释。有些真相说出来只会让两个人都难过。你任由她的手在你手背上停留，感受着那份停留在十年前的温度。她需要的不是一个准确的答案，而是一个可以触摸到的你。" },
+          { "label": "凑近耳边轻声说'奶我瘦了'", "response": "你贴着她耳朵说了实话。她愣了一下，然后更用力地握住了你的手：'咋瘦了呢？是不是没好好吃饭？'她的担心还是十年前的配方，只是载体从饭菜变成了工资。你突然意识到，在她的世界里，你永远是需要被喂饱的那个孩子。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_dinner_table_salary",
+      "title": "饭桌上亲戚问工资全桌沉默三秒",
+      "description": "二叔问你'在上海一个月挣多少'，你说了一个数字后全桌沉默了三秒，然后话题被生硬地岔开了。经济优势无法转化为社会认同。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.75,
+      "narrativeText": "圆桌上的菜冒着热气，白酒杯碰了几轮之后，二叔开口了：'在上海一个月挣多少啊？'你知道这个问题迟早会来。你说了一个数字。筷子停在了半空。三秒钟的沉默比三年还长。然后三婶笑着说'来来来吃菜吃菜'，话题像一块烫手的山芋被扔到了桌子底下。你低下头扒饭，感觉那个数字变成了一堵透明的墙，把你和桌上所有人隔开了。他们不知道该怎么回应你的收入，就像你不知道该怎么回应他们的生活。你不是在炫耀，你只是在回答一个问题。但在这个语境里，诚实本身就是一种冒犯。",
+      "bgmTag": "dinner_table_silence",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对那个关于工资的沉默，你会怎么做？",
+        "options": [
+          { "label": "如实回答了，承受之后的尴尬", "response": "你已经说了实话，收不回来了。剩下的时间里你尽量不提工作、不提上海、不提任何需要用钱衡量的东西。你努力做一个'正常的晚辈'，但那个数字已经替你定义了一切。" },
+          { "label": "含糊带过'还行吧够花'", "response": "你笑了笑说'还行'。安全了，但也空洞了。事后你在院子里抽烟时想起自己撒的那个谎，胃里一阵不舒服。你不是怕他们嫉妒，你是怕自己变成了一个连真话都不敢说的'城里人'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_childhood_friend_drift",
+      "title": "发小开三轮来接聊一小时只剩童年回忆",
+      "description": "发小强子骑着电动三轮来接你。你们聊了一个小时，发现除了小时候一起偷红薯的事再无共同语言。两个人都在用力假装熟络。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.65,
+      "narrativeText": "强子的电动三轮停在路边，他冲你咧嘴笑的样子和小时候一模一样。你坐上去，风灌进领口，带着田野的味道。你们开始聊天。他说家里的地今年收成不错，你说上海的地铁又新开了几条线。他说谁家盖了新房，你说公司刚搬了新办公室。每一个话题都像一颗石子扔进了对方的深井里，听不到回声。然后你们同时回到了童年：'还记得那年偷老李家的红薯吗？'两个人都笑了，笑得很大声，像是终于找到了一个不会冷场的频道。但那笑声底下是两个人都知道的事实：我们已经不是同一种人了。不是谁的错，只是路走岔了。",
+      "bgmTag": "childhood_echo_fade",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_05_night_alone_stargazing",
+      "title": "夜晚独自在院子里看星星",
+      "description": "睡不着，走到院子里坐下。头顶的星星比上海多一百倍。童年的自己和现在的自己在这片星空下短暂重逢。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "灯泡的光透过窗户洒在院子里，只够照亮脚下的一小块地面。你搬了一把竹椅坐下来，仰头看天。星星多到不像真的。在上海你已经很久没见过这么多星星了——或者说你已经很久没抬头了。八岁的你也曾坐在这把椅子上数星星，那时候奶奶在旁边摇着蒲扇给你讲牛郎织女。现在椅子还是那把椅子，星星还是那些星星，但坐在上面的人已经被拆成了两半：一半留在这里，一半永远留在了城市的格子间里。你不知道该为哪一半感到遗憾。也许不需要选。也许带着裂缝活着，本身就是一种完整。",
+      "bgmTag": "starry_night_reconciliation",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "在这片星空下，你想对自己说什么？",
+        "options": [
+          { "label": "承认自己已经回不去了，但这不是背叛", "response": "你在心里对八岁的自己说：'我没有抛弃这里，我只是走到了一个你想象不到的地方。'那个小小的影子没有回答，但你觉得他点了点头。和解不是回到原点，而是允许两个自己同时存在。" },
+          { "label": "打开手机刷一会儿社交媒体", "response": "屏幕亮起的瞬间，朋友圈里全是同事们的周末 brunch 和展览打卡。你把手机扣在膝盖上，感觉自己像一个闯入者——在乡村的夜晚里显得格格不入。城市和乡村在你身上打架，而你只能坐着等它们打累。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_train_eggs_cotton",
+      "title": "高铁上发现奶奶用棉花包好的三十个鸡蛋",
+      "description": "临走时奶奶往行李箱塞了土鸡蛋和手工布鞋。高铁上打开箱子发现每个鸡蛋都用棉花单独包好了。她不知道高铁很稳，但她知道你要走很远的路。",
+      "ageRange": { "start": 26, "end": 26 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "高铁平稳地驶出站台，窗外的田野变成了模糊的绿色条纹。你打开行李箱想拿水杯，看到了那三十个土鸡蛋。每一个都被棉花裹得严严实实，像一个个白色的小茧。你拿起一个，棉花上还残留着奶奶手指的温度。她知道高铁是什么吗？大概不知道。她知道这东西跑得又快又稳根本不需要防震吗？大概也不知道。她只知道孙子要走很远的路，而鸡蛋是会碎的。所以她用自己唯一懂的方式保护了它们。你把那个鸡蛋贴在脸上，闭上了眼睛。窗外是时速三百公里的世界，手里是时速为零的爱。",
+      "bgmTag": "cotton_wrapped_love",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_grandma_deaf_ears", "evt_06_train_eggs_cotton"],
+    "valleyMoments": ["evt_03_dinner_table_salary", "evt_04_childhood_friend_drift"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["family_separation", "identity_crisis", "rural_urban_divide"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

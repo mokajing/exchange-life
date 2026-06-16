@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "yuan-post-rider-blizzard",
+    "title": "元朝大都驿站驿卒的急递日常",
+    "subtitle": "在横跨欧亚的帝国血管里用双腿和马匹传递生死文书的无名跑者，帝国的血管里流的不是血是公文",
+    "sourceType": "documentary",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-16T10:15:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_golden_tablet_receive",
+      "title": "寅时三刻接到加急金牌文书",
+      "description": "深夜被急促的马蹄声惊醒，接过沉甸甸的金牌圆符。六个时辰内必须送达下一站120里外。手抖不是因为害怕，而是因为知道这条路可能回不来。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.75,
+      "narrativeText": "马蹄声像一把钝刀劈开了夜的寂静。你从铺板上弹起来的时候，膝盖撞到了桌角，但你感觉不到疼。门外的人已经把金牌举到了火光下——圆形的铜牌在灯影里泛着暗沉的光，上面铸着八思巴文'长生天气力里皇帝圣旨'。你双手接过来，重量压进掌心的瞬间，胃里一阵紧缩。六个时辰，一百二十里。深秋的漠北驿道已经开始结冰，而你上次跑这条线是三伏天。你把金牌揣进怀里贴着胸口，金属的凉意透过衣服渗进来。你不是怕死，你是怕那种感觉——跑到一半发现身体不再属于自己，只剩下一口气和一块牌子在往前挪。",
+      "bgmTag": "horse_hoof_distant",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_blizzard_horse_fall",
+      "title": "暴风雪中马匹失蹄摔伤",
+      "description": "行至半途遭遇暴风雪，马匹踩到暗冰失蹄倒地。你被迫徒步背负文书翻越山岭，每一步都在和风雪争夺体温。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "风是从骨头缝里钻进来的。马倒下的时候你甚至没来得及反应——前蹄踩上了一块被雪覆盖的暗冰，整匹马侧翻下去，你的右腿被压在马鞍下面。你挣扎着爬起来，检查了怀里的文书封套还在，然后去看马。它的左前腿折了一个不可能的角度，眼睛里的光正在熄灭。你没有时间悲伤。你把鞍袋解下来背在自己身上，拍了拍马的脖子说了一句连自己都听不清的话，然后转身走进了白茫茫的风雪里。母亲教过的辨路口诀在脑子里自动播放：'风口朝北走，石堆往右拐，枯树对着泉……'每一个字都是一根救命的绳子。",
+      "bgmTag": "blizzard_white_noise",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "马倒了，风雪越来越大。你会怎么做？",
+        "options": [
+          { "label": "继续徒步，用身体扛完剩下的路", "response": "你把文书绑在背上最紧的位置，开始一步一步往前走。风把雪粒打进眼睛里，你眯着眼靠记忆中的地形辨认方向。每走一步都像在和什么东西谈判——和寒冷谈判，和疲惫谈判，和自己想放弃的念头谈判。你不知道走了多久，只知道停下来的那一刻就是结束。" },
+          { "label": "返回上一个驿站换马再出发", "response": "你回头看了一眼来路，风雪已经把脚印填平了。回去意味着至少多花两个时辰，金牌规定的时限会被打破。杖责是最轻的后果，重则……你没有往下想。但你还是转身往回走了。活着比准时更重要——至少你自己这么认为。只是不知道监督官会不会同意这个排序。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_empty_relay_station",
+      "title": "抵达下一站发现接应驿卒缺席",
+      "description": "拼尽全力抵达下一个急递铺，却发现接应驿卒因病不在。没有人接手，你必须独自继续跑完双倍路程。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "急递铺的门虚掩着。你推开门的时候差点摔倒，扶着门框喘了半天才站稳。屋里空荡荡的，灶台是冷的，铺板上的被子叠得整整齐齐但落了灰。接应的老赵不在。后来才知道他三天前就发了高烧，被人抬回了家。你站在空屋子里，听着外面呼啸的风声，突然觉得整个帝国就剩你一个人了。文书还在背上，时限还在倒计时。你可以等天亮、等老赵回来、等任何一个路过的人帮忙；也可以把这副已经快要散架的身体重新组装起来，再跑一百二十里。制度不会因为你累了就暂停计时。",
+      "bgmTag": "empty_station_wind",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "空无一人的驿站里，你决定——",
+        "options": [
+          { "label": "喝口冷水，立刻继续赶路", "response": "你从水缸里舀了一瓢冷水灌下去，寒意从喉咙一路烧到胃里。你把文书重新绑紧，走出门的时候风把你往后推了一步。你咬着牙迈出了第二步。双倍的路程，一半的身体。但你还在动，这就够了。" },
+          { "label": "等到天亮再出发，哪怕超时受罚", "response": "你在冷灶旁坐下来，把文书抱在怀里取暖。天快亮了，也许再等一个时辰就能看清路。你知道超时的后果，但你也知道自己的腿已经在发抖了。这不是懦弱，这是计算——一个死人送不了任何文书。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_midnight_delivery",
+      "title": "深夜送达边境军情文书",
+      "description": "终于抵达终点站，将文书交给值守军官。得知内容是三千守军的粮草调拨单——每一张公文背后都是活人的命。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "终点站的火把在风雪中像一颗快要熄灭的星星。你走到门口的时候腿已经不听话了，是靠着墙滑进去的。值守军官接过文书封套，拆开看了几眼，脸色变了。'粮草调拨，三千人的冬粮。'他说这话的时候声音很轻，但你听到了。你靠在墙上，看着他把文书递给旁边的书记官登记。一路上你以为自己在送一份普通的公文，也许是某位大人的私信，也许是朝廷的例行通报。但它是三千个人能不能熬过这个冬天的答案。你跑了六个时辰，差点把命丢在路上，换来的是别人活下去的机会。这个认知让你说不出话来。",
+      "bgmTag": "silence_after_storm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "得知文书内容后，你的反应是——",
+        "options": [
+          { "label": "追问更多详情，想知道那三千人现在怎样了", "response": "你开口问：'他们……还撑得住吗？'军官看了你一眼，摇了摇头又点了点头：'撑到了。你送到了。'这四个字比任何奖赏都重。你不再只是一个跑腿的人，你是那条让三千个心跳得以继续的线。" },
+          { "label": "沉默点头，转身去找地方休息", "response": "你没有说话。有些重量不需要被说出来。你慢慢站起来，走向角落里那张空着的铺板。躺下的瞬间全身都在叫嚣着疼痛，但心里有什么东西安静下来了。你完成了。这就够了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_frostbite_by_fire",
+      "title": "灶台旁烤火发现脚趾冻伤",
+      "description": "完成任务后坐在灶台旁烤火，才发现右脚三个脚趾已经失去知觉。温暖回来的时候，疼痛也跟着回来了。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "灶火噼啪作响，橘色的光在你脸上跳动。你脱下靴子的时候动作很慢，像是怕惊动什么。右脚的三个脚趾是白色的，摸上去像别人的肉。你把脚凑近火焰，等了很久，先是麻木，然后是针刺般的痛，最后是烧灼一样的剧痛。你咬着嘴唇没有出声。血液正在重新流回那些差点永远沉睡的组织里，这个过程比冻住本身更疼。你盯着自己的脚趾，想着它们还能不能陪你跑下一条线。驿站里没有大夫，也没有药。你能做的只有烤火，然后祈祷明天早上它们会变成正常的颜色。",
+      "bgmTag": "fire_crackle_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_dawn_reflection",
+      "title": "黎明时分望着驿道尽头",
+      "description": "天亮了，你站在驿站门口望着来时的路。风雪停了，路上什么痕迹都没留下。你发出的每一条消息，都曾有人用命去送。",
+      "ageRange": { "start": 24, "end": 24 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "天边的灰白色一点点变成了淡金色。你站在门口，看着昨夜跑过的那条路。雪覆盖了所有痕迹，好像什么都没有发生过。没有马蹄印，没有脚印，没有血迹。只有你怀里的金牌还在，脚上的疼痛还在，以及某个地方三千个人正在吃上热饭的事实还在。你不会出现在任何史书里。你的名字不会被刻在任何石碑上。但此刻你呼吸着清晨的空气，感觉自己比任何时候都真实。",
+      "bgmTag": "morning_calm_morin_khuur",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_blizzard_horse_fall", "evt_04_midnight_delivery"],
+    "valleyMoments": ["evt_02_blizzard_horse_fall", "evt_05_frostbite_by_fire"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["physical_hardship", "extreme_weather", "labor_exploitation"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
