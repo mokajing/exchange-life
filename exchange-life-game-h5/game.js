@@ -281,6 +281,7 @@ const TIMELINE_LIST = [
   { id: 'colorblind-daily-vision', label: '色觉异常者的日常视觉世界 (P0第374卷)', level: 'L3' },
     { id: 'search-history-documentary', label: '浏览器搜索历史纪录片 (P0第404卷)', level: 'L1' },
   { id: 'lanna-amulet-caster', label: '炉火守艺人：清迈佛牌铸造匠人的千年传承 (P0第412卷)', level: 'L2' }
+    { id: 'shadow-relation-mediator', title: '影子关系调解员', subtitle: '替人与自己的影子谈判的第一个月' },
 ];
 
 let player = null;

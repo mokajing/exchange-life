@@ -1,0 +1,160 @@
+{
+  "meta": {
+    "id": "shadow-relation-mediator",
+    "title": "影子关系调解员——替人与自己的影子谈判的第一个月",
+    "subtitle": "在所有人的影子都会在日落时分离开主人去社交的世界里，学会与不敢见光的自己握手",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T18:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_first_day_observe",
+      "title": "入职第一天：观摩导师的黄昏会谈",
+      "description": "入职影子关系调解事务所，观摩导师处理一对离婚夫妻的影子仍在影界热恋的案例。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你推开事务所的玻璃门，墙上挂着行业格言：「你不是在和别人和解，你是在和自己那个不敢见光的版本握手。」导师正在接待一对中年男女——他们三年前离婚了，但各自的影子在影界依然热恋。日落前十五分钟，两团影子从脚下浮起，像被风吹动的墨迹。它们互相靠近时，两位当事人的眼眶同时红了。导师轻声说：「影子不会说谎，它们表达的是你们压抑的真实。」你第一次亲眼看见「真实」长什么样子。",
+      "bgmTag": "gentle_piano_curious",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_coming_out_case",
+      "title": "首次独立接待：出柜困境",
+      "description": "一位年轻男性因影子在影界公开出柜而自己尚未准备好面对性取向，前来求助。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "他坐在你对面，手指绞着衣角。他的影子在影界已经有了恋人，但他白天连对自己承认的勇气都没有。「它比我勇敢太多了，」他说，声音发抖，「我替它感到骄傲，但我做不到成为它。」你感受到双通道共情的撕裂——实体侧是恐惧和羞耻，影子侧是焦灼的等待和不被接住的委屈。黄昏会谈窗口只剩十分钟，你需要决定如何介入。",
+      "bgmTag": "tense_minimal_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "黄昏会谈中，你选择如何介入？",
+        "options": [
+          { "label": "保持沉默，让影子先说话", "response": "影子说出了那句话：「我替你勇敢了十年，你什么时候才肯接住我？」房间里安静了很久。有时候，最好的介入是不介入。" },
+          { "label": "分享自己与影子的经历", "response": "你说起了自己影子在影界写诗的事。他抬起头看你，眼里有了光——原来调解员也不是完美的人，也在和自己的影子谈判。" },
+          { "label": "提问引导他直面感受", "response": "你问：「如果有一天你和影子站在同一边，你最想对它说什么？」他沉默了很久，然后小声说：「对不起，让你等了这么久。」" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_shadow_strike",
+      "title": "首例影子罢工：丧亲老人",
+      "description": "一位丧亲老人的影子拒绝在日出时回归，这是你遭遇的首例影子罢工危机。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "凌晨五点四十分，天快亮了。老人的影子仍然没有回来。她坐在床边，身体比昨天更轻了一些——影子不回归的日子，人会逐渐失去重量。你通过双通道感知到影子的位置：它在影界的公园里，坐在老伴生前最爱的那张长椅上。「她不在的地方连黑暗都不够黑，」影子说。这不是罢工，这是哀悼。你意识到教科书上写的「影子罢工处理流程」在这里完全不适用——因为这不是冲突，这是爱。",
+      "bgmTag": "emotional_strings_cold",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对不愿回归的影子，你会怎么做？",
+        "options": [
+          { "label": "陪影子坐一会儿", "response": "你没有劝说，只是在影界的长椅旁站了一会儿。日出时，影子轻轻叹了口气，回到了老人身边。有时候陪伴本身就是归途。" },
+          { "label": "转达老人的话给影子", "response": "你把老人白天说的话带给影子：「我知道你不想回来，但你不在的时候我连做梦都不会了。」影子颤抖了一下，慢慢站了起来。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_own_shadow_poetry",
+      "title": "发现影子在写诗",
+      "description": "在处理他人危机的间隙，你发现自己长期压抑的影子开始在影界写诗。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "整理案例记录时，你在自己的影子日记里发现了一首诗。不是你写的——是你的影子写的。诗句笨拙但真诚，写的是你从未对任何人说过的孤独。那些你以为已经消化的情绪，原来一直被影子替你保管着。你盯着那首诗看了很久，眼泪掉在了纸上。作为调解员，你一直在帮别人和自己的影子对话，却忘了自己也需要这场对话。",
+      "bgmTag": "night_calm_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "发现影子写的诗后，你的反应是？",
+        "options": [
+          { "label": "把诗抄下来贴在床头", "response": "你把影子的手迹贴在了床头。每天醒来第一眼看到的，是自己不敢承认的那部分真实。这是一种温柔的提醒。" },
+          { "label": "给影子写一封回信", "response": "你在黄昏会谈的记录本背面写下了回信。不是回应诗的内容，而是说：「谢谢你替我记住这些。」" },
+          { "label": "假装没看到", "response": "你把日记合上了。但你知道，有些东西一旦被看见就无法假装不存在。影子会继续写，而你终有一天会准备好读。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_collective_twilight_talk",
+      "title": "集体黄昏会谈：六对人影的第一次倾听",
+      "description": "主持一场集体黄昏会谈，六对冲突人-影在日落中完成了第一次真正的相互倾听。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "日落前十五分钟，六对人-影围坐在事务所的天台上。琥珀金的光线渐变为深靛蓝，你启动了集体黄昏会谈。没有人说话的前三分钟，只有呼吸声和城市远处的车流声。然后，一个影子开口了。接着是一个人的回应。再然后是另一个影子。你不再需要引导——当足够多的真实被说出来时，真实本身会成为引力。日落的那一刻，十二个轮廓融成了六个完整的人。",
+      "bgmTag": "peaceful_strings_warm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_sunrise_landing",
+      "title": "日出着陆：带着裂痕共处",
+      "description": "第一个月结束，你在日出呼吸同步中确认了自己的完整性——不是融合，是接纳。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第三十天清晨。你站在事务所的阳台上，跟着屏幕上的呼吸引导做日出着陆。吸气时屏幕变亮，呼气时变暗。鸟鸣声渐渐清晰。你想起了这一个月见过的所有人-影故事：出柜的年轻人、丧亲的老人、离婚夫妻的热恋影子、还有你自己那首笨拙的诗。你没有变成一个更好的调解员——你变成了一个更愿意面对自己的人。裂痕还在，但你学会了和它共处。这就是完整。",
+      "bgmTag": "sunrise_gentle_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "第一个月结束时，你对自己和影子的关系做出什么选择？",
+        "options": [
+          { "label": "接受张力，带着裂痕共处", "response": "你选择了最诚实的答案：不追求融合，不消除差异。影子是你的一部分，但不是全部的你。裂痕是光照进来的地方。" },
+          { "label": "继续探索，期待更深的理解", "response": "你知道这只是开始。影子还会写诗，你还会害怕，但你们之间已经有了一条可以对话的路。路比终点重要。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_shadow_sociology",
+      "title": "影子社会学三大定律",
+      "description": "在实践中理解了影子社会学的核心法则：影子不说谎、衰老同步心理年龄、死后存续七天。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "入职培训时背过的三大定律，现在终于有了血肉。第一定律：影子不会说谎——你见过太多人在白天微笑，影子却在夜里哭泣。第二定律：影子的衰老速度与心理年龄同步——那位丧亲老人的影子看起来比她的实体老了二十岁。第三定律：人死后影子会在影界继续存在七天——你还没经历过这个，但导师说那是调解员最难熬的一周。",
+      "bgmTag": "morning_ambient_soft",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_08_dual_shadow_test",
+      "title": "双影测试：获得执照的最终考验",
+      "description": "通过双影测试获得正式执照，测试要求同时感知并平衡两个对立情绪通道。",
+      "ageRange": { "start": 28, "end": 28 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "双影测试的最后一步：考官让你闭上眼睛，同时感知自己和影子的当前情绪。实体侧是紧张和期待，影子侧是平静和笃定。当你不再试图统一这两种感受，而是让它们各自存在时，测试通过了。执照上写着：「持证人具备双通道共情能力，可在黄昏窗口期主持人-影对话。」你把执照挂在墙上，旁边是那首影子写的诗。",
+      "bgmTag": "hopeful_strings_gentle",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_02_coming_out_case", "evt_03_shadow_strike"],
+    "valleyMoments": ["evt_04_own_shadow_poetry"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["self_identity", "grief", "emotional_suppression"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

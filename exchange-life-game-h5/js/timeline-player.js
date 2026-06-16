@@ -50,6 +50,11 @@ class TimelinePlayer {
    * 开始体验
    */
   start() {
+    // 清理可能残留的定时器，防止重启时旧timer触发
+    if (this._advanceTimer) {
+      clearTimeout(this._advanceTimer);
+      this._advanceTimer = null;
+    }
     this.currentEventIndex = 0;
     // PRD V2.1: L2+故事开始前显示心理安全提示
     if (this.requiresSafetyPrompt) {
@@ -254,9 +259,15 @@ class TimelinePlayer {
     // 淡出 → 加载下一事件 → 淡入
     this.renderer.fadeTarget = 0;
     this._advanceTimer = setTimeout(() => {
-      this._advanceTimer = null;
-      this._loadEvent(this.currentEventIndex + 1);
-      this.renderer.fadeTarget = 1;
+      try {
+        this._loadEvent(this.currentEventIndex + 1);
+        this.renderer.fadeTarget = 1;
+      } catch (e) {
+        console.error('[TimelinePlayer] Failed to load event:', e);
+        this.state = 'idle';
+      } finally {
+        this._advanceTimer = null;
+      }
     }, 500);
   }
 

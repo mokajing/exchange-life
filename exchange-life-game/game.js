@@ -107,6 +107,7 @@ const TIMELINE_LIST = [
   'mongolian-gobi-nomad-storm',
   'search-history-documentary',
   'lanna-amulet-caster'
+  'shadow-relation-mediator',
 ];
 
 App({
