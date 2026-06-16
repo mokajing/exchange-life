@@ -353,7 +353,46 @@ const BGM_MAP = {
   solo_piano_night:       { file: 'audio/bgm/solo_piano_night.mp3',       volume: 0.3, loop: true },
   emotional_release_piano:{ file: 'audio/bgm/emotional_release_piano.mp3',volume: 0.35, loop: false },
   reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.35, loop: true },
-  piano_reconciliation:   { file: 'audio/bgm/piano_reconciliation.mp3',   volume: 0.35, loop: false }
+  piano_reconciliation:   { file: 'audio/bgm/piano_reconciliation.mp3',   volume: 0.35, loop: false },
+
+  // === 北极种子库守门人专用标签 (2026-06-16 P0第379卷) ===
+  arctic_wind_ambient:    { file: 'audio/bgm/arctic_wind_ambient.mp3',    volume: 0.25, loop: true },
+  minimal_piano_arctic:   { file: 'audio/bgm/minimal_piano_arctic.mp3',   volume: 0.3, loop: true },
+  blue_moment_piano:      { file: 'audio/bgm/blue_moment_piano.mp3',      volume: 0.3, loop: true },
+  emotional_strings_cold: { file: 'audio/bgm/emotional_strings_cold.mp3', volume: 0.35, loop: true },
+  lonely_white_noise:     { file: 'audio/bgm/lonely_white_noise.mp3',     volume: 0.2, loop: true },
+  tense_arctic_silence:   { file: 'audio/bgm/tense_arctic_silence.mp3',   volume: 0.3, loop: true },
+  urgent_minimal_beat:    { file: 'audio/bgm/urgent_minimal_beat.mp3',    volume: 0.4, loop: true },
+  sunrise_warm_strings:   { file: 'audio/bgm/sunrise_warm_strings.mp3',   volume: 0.35, loop: false },
+
+  // === 中年转型农民工专用标签 (2026-06-16 P0第383卷) ===
+  urban_construction_ambient: { file: 'audio/bgm/urban_construction_ambient.mp3', volume: 0.25, loop: true },
+  tense_minimal_piano:    { file: 'audio/bgm/tense_minimal_piano.mp3',    volume: 0.3, loop: true },
+  urban_night_cool:       { file: 'audio/bgm/urban_night_cool.mp3',       volume: 0.3, loop: true },
+  nostalgic_strings_warm: { file: 'audio/bgm/nostalgic_strings_warm.mp3', volume: 0.35, loop: true },
+  rain_emotional_piano:   { file: 'audio/bgm/rain_emotional_piano.mp3',   volume: 0.3, loop: true },
+  tense_minimal_beat:     { file: 'audio/bgm/tense_minimal_beat.mp3',     volume: 0.4, loop: true },
+  family_warm_strings:    { file: 'audio/bgm/family_warm_strings.mp3',    volume: 0.35, loop: true },
+  sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false },
+
+  // === 联觉者感官混融专用标签 (2026-06-16 P0第387卷) ===
+  gentle_piano_curious:   { file: 'audio/bgm/gentle_piano_curious.mp3',   volume: 0.3, loop: true },
+  morning_ambient_soft:   { file: 'audio/bgm/morning_ambient_soft.mp3',   volume: 0.25, loop: true },
+  urban_transit_ambient:  { file: 'audio/bgm/urban_transit_ambient.mp3',  volume: 0.25, loop: true },
+  peaceful_strings_warm:  { file: 'audio/bgm/peaceful_strings_warm.mp3',  volume: 0.35, loop: true },
+  social_ambient_warm:    { file: 'audio/bgm/social_ambient_warm.mp3',    volume: 0.3, loop: true },
+  night_calm_piano:       { file: 'audio/bgm/night_calm_piano.mp3',       volume: 0.3, loop: true },
+  hopeful_strings_gentle: { file: 'audio/bgm/hopeful_strings_gentle.mp3', volume: 0.35, loop: false },
+
+  // === 蒙古戈壁游牧民专用标签 (2026-06-16 P0第398卷) ===
+  gobi_wind_ambient:      { file: 'audio/bgm/gobi_wind_ambient.mp3',      volume: 0.25, loop: true },
+  morin_khuur_tense:      { file: 'audio/bgm/morin_khuur_tense.mp3',      volume: 0.35, loop: true },
+  camel_bell_distant:     { file: 'audio/bgm/camel_bell_distant.mp3',     volume: 0.3, loop: true },
+  storm_white_noise:      { file: 'audio/bgm/storm_white_noise.mp3',      volume: 0.3, loop: true },
+  warm_fire_tea:          { file: 'audio/bgm/warm_fire_tea.mp3',          volume: 0.35, loop: true },
+  emotional_morin_khuur:  { file: 'audio/bgm/emotional_morin_khuur.mp3',  volume: 0.35, loop: true },
+  night_camp_quiet:       { file: 'audio/bgm/night_camp_quiet.mp3',       volume: 0.25, loop: true },
+  sunrise_gobi_warm:      { file: 'audio/bgm/sunrise_gobi_warm.mp3',      volume: 0.35, loop: false }
 };
 
 /**
