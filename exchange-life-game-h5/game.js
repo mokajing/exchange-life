@@ -299,6 +299,7 @@ const TIMELINE_LIST = [
   'retired-cadre-first-day',
   'tomb-mural-restorer',
   'cainiao-station-clerk',
+  'maya-astronomer-priest',
 ];
 
 let player = null;

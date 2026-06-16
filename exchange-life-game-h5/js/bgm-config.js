@@ -563,6 +563,15 @@ const BGM_MAP = {
   night_farewell_piano:    { file: 'audio/bgm/night_farewell_piano.mp3',    volume: 0.3, loop: false }
 
 
+
+  // === 玛雅天文祭司专用标签 (2026-06-17 P0第472卷) ===
+  ancient_flute_calm:      { file: 'audio/bgm/ancient_flute_calm.mp3',      volume: 0.3, loop: true },
+  tension_distant_drums:   { file: 'audio/bgm/tension_distant_drums.mp3',   volume: 0.35, loop: true },
+  ritual_drums_tension:    { file: 'audio/bgm/ritual_drums_tension.mp3',    volume: 0.4, loop: true },
+  silence_then_flute:      { file: 'audio/bgm/silence_then_flute.mp3',      volume: 0.25, loop: false },
+  melancholy_flute_long:   { file: 'audio/bgm/melancholy_flute_long.mp3',   volume: 0.35, loop: true },
+  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3',  volume: 0.35, loop: false }
+
 };
 
 /**
