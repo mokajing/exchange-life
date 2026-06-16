@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "tomb-mural-restorer",
+    "title": "古墓壁画修复师的千年对话",
+    "subtitle": "在伸手不见五指的墓道深处用手术刀和超声波为千年壁画揭开面纱，在颜料剥落的瞬间与千年前的画师隔空对视",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-17T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_enter_tomb",
+      "title": "进入墓道",
+      "description": "早上6:00从考古营地出发，携带恒温恒湿设备箱进入墓道。地下30米的绝对寂静，手电筒照亮壁画第一眼的震撼。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你深吸一口气，跟随领队走进幽暗的墓道。温度骤降至12°C，湿度计显示85%以上。手电筒的光束划破黑暗，照亮了前方斑驳的壁画——那一刻，千年的时光仿佛凝固在你眼前。",
+      "bgmTag": "tomb_ambient_low",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "你选择如何进入墓道？",
+        "options": [
+          { "label": "亲自下墓", "response": "你决定亲身感受这份沉甸甸的历史。每一步都踏在千年尘埃之上，呼吸声在密闭空间里回荡。" },
+          { "label": "远程操控机械臂", "response": "你选择在地面实验室通过机械臂操作。虽然少了些沉浸感，但能更精确地控制修复力度。" }
+        ]
+      },
+      "sourceAnchor": "第470卷·第581轮·Layer1时间线"
+    },
+    {
+      "id": "evt_02_env_check",
+      "title": "环境检测",
+      "description": "6:30-7:00进行墓道环境检测：温度、湿度、CO2浓度、微生物采样。每次进入都是对壁画的二次伤害。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你小心翼翼地架设环境监测设备。温度12°C，湿度87%，CO2浓度略高于安全阈值。这些数据将被记录存档，50年后下一任修复师可以根据这些记录'反悔'今天的操作。",
+      "bgmTag": "silence_with_drip",
+      "visualTone": "cool",
+      "sourceAnchor": "第470卷·第581轮·Layer1关键事件"
+    },
+    {
+      "id": "evt_03_surface_clean",
+      "title": "壁画表面清理",
+      "description": "7:00-12:00使用手术刀、超声波振动器、日本和纸进行壁画表面清理。极度专注中的心流状态，时间感消失。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "手术刀轻轻触碰千年颜料的瞬间，你的手微微颤抖但必须稳住。这是'第一次接触'——刀尖下的每一粒矿物粉末，都是千年前画师留下的痕迹。时间在专注中消融，你仿佛在与古人对话。",
+      "bgmTag": "asmr_scratch_soft",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "发现霉菌斑，你选择哪种清理方式？",
+        "options": [
+          { "label": "保守清理（手术刀）", "response": "你选择用手术刀一点点刮除霉菌。过程缓慢但安全，不会伤及原始颜料层。" },
+          { "label": "激进清理（化学溶剂）", "response": "你决定使用化学溶剂快速清除。效率高但有风险，可能渗透损伤地仗层。" }
+        ]
+      },
+      "sourceAnchor": "第470卷·第581轮·Layer1时间线"
+    },
+    {
+      "id": "evt_04_discover_underlayer",
+      "title": "发现底层壁画",
+      "description": "一刀下去揭开了底层更古老的壁画——原来这座墓是'二次利用'，下面还有一座更早的墓。考古惊喜时刻。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "手术刀划过一处异常区域，表层颜料应声剥落——底下竟然露出了另一层更古老的壁画！你的心跳骤然加速。原来这座墓是'二次利用'，你在和两个朝代的画师同时对话。",
+      "bgmTag": "ancient_reveal_chime",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "发现底层壁画后，你如何抉择？",
+        "options": [
+          { "label": "继续清理上层", "response": "你决定继续当前工作，但动作更加谨慎。底层壁画的发现已记录在案，待后续专项研究。" },
+          { "label": "暂停上报", "response": "你立即停止操作，拍照记录后向上级汇报。项目将暂停，等待考古专家评估。" }
+        ]
+      },
+      "sourceAnchor": "第470卷·第581轮·Layer1关键事件4"
+    },
+    {
+      "id": "evt_05_pigment_crisis",
+      "title": "颜料剥落危机",
+      "description": "一片朱砂在眼前剥落，0.1秒的决策：按下去还是抬起来。选错会导致颜料永久脱落。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "微弱的噼啪声响起——那是地仗层应力释放的预兆。下一秒，一片朱砂颜料开始翘起剥离！你只有0.1秒做出反应：按压固定，还是抬离避免拉扯？",
+      "bgmTag": "tension_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "颜料正在剥落！0.1秒内做出选择：",
+        "options": [
+          { "label": "按压固定", "response": "你用指腹轻轻按压住翘起的颜料边缘。成功了！朱砂重新贴合地仗层，你长舒一口气。" },
+          { "label": "抬离工具", "response": "你本能地抬起手术刀。可惜晚了，那片朱砂带着千年色彩飘落在地，永远无法复原。" }
+        ]
+      },
+      "sourceAnchor": "第470卷·第581轮·Layer2共鸣节点4"
+    },
+    {
+      "id": "evt_06_uv_inspection",
+      "title": "紫外线灯检查",
+      "description": "紫外线灯下看到肉眼看不到的细节：地仗层里的草茎纤维、画师的指纹。隐藏彩蛋触发点。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你打开紫外线灯，壁画表面浮现出蓝紫色的光斑——那是古代修复的痕迹，肉眼完全不可见。在地仗层的角落里，你发现了一枚清晰的指纹。千年前的画师，曾在这里留下过他的温度。",
+      "bgmTag": "mystery_glow_soft",
+      "visualTone": "cool",
+      "sourceAnchor": "第470卷·第581轮·Layer2共鸣节点6"
+    },
+    {
+      "id": "evt_07_seal_tomb",
+      "title": "封墓告别",
+      "description": "把修复好的壁画重新封回黑暗，与千年前的画师做最后的告别。不舍与平静交织。",
+      "ageRange": { "start": 28, "end": 45 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "修复完成。你最后一次凝视这幅重获新生的壁画，然后缓缓关上墓门。黑暗重新吞没了一切，但你知道，那些色彩会在下一个千年里继续呼吸。这是你写给未来的信。",
+      "bgmTag": "farewell_guqin",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "封墓时，你选择：",
+        "options": [
+          { "label": "全部封存", "response": "你按照专业规范完全封闭墓室。这是最安全的做法，让壁画在恒温恒湿中静待后人。" },
+          { "label": "留一个观察窗", "response": "你忍不住留下一个小窗口，希望能偶尔回来看看。虽然不符合规范，但情感战胜了理智。" }
+        ]
+      },
+      "sourceAnchor": "第470卷·第581轮·Layer2共鸣节点7"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["evt_04_discover_underlayer", "evt_05_pigment_crisis"],
+    "valleyMoments": ["evt_01_enter_tomb", "evt_07_seal_tomb"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["claustrophobia", "darkness"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
