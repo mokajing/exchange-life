@@ -580,7 +580,19 @@ const BGM_MAP = {
   ritual_drums_tension:    { file: 'audio/bgm/ritual_drums_tension.mp3',    volume: 0.4, loop: true },
   silence_then_flute:      { file: 'audio/bgm/silence_then_flute.mp3',      volume: 0.25, loop: false },
   melancholy_flute_long:   { file: 'audio/bgm/melancholy_flute_long.mp3',   volume: 0.35, loop: true },
-  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3',  volume: 0.35, loop: false }
+  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3',  volume: 0.35, loop: false },
+
+  // === 死刑执行法警专用标签 (2026-06-17 P0第471卷) ===
+  rain_piano_minimal:      { file: 'audio/bgm/rain_piano_minimal.mp3',      volume: 0.25, loop: true },
+  silence_with_rain:       { file: 'audio/bgm/silence_with_rain.mp3',       volume: 0.2, loop: true },
+  silence_tension_low:     { file: 'audio/bgm/silence_tension_low.mp3',     volume: 0.2, loop: true },
+  heartbeat_slow:          { file: 'audio/bgm/heartbeat_slow.mp3',          volume: 0.3, loop: true },
+  silence_three_seconds:   { file: 'audio/bgm/silence_three_seconds.mp3',   volume: 0.0, loop: false },
+  empty_corridor_echo:     { file: 'audio/bgm/empty_corridor_echo.mp3',     volume: 0.2, loop: true },
+  pen_on_paper_quiet:      { file: 'audio/bgm/pen_on_paper_quiet.mp3',      volume: 0.2, loop: true },
+  muted_restaurant_warm:   { file: 'audio/bgm/muted_restaurant_warm.mp3',   volume: 0.25, loop: true },
+  warm_home_evening:       { file: 'audio/bgm/warm_home_evening.mp3',       volume: 0.3, loop: true },
+  night_strings_gentle:    { file: 'audio/bgm/night_strings_gentle.mp3',    volume: 0.25, loop: true }
 
 };
 

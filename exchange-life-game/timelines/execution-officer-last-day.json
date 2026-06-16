@@ -1,0 +1,183 @@
+{
+  "meta": {
+    "id": "execution-officer-last-day",
+    "title": "死刑执行法警的最后一次执行",
+    "subtitle": "在注射按钮与女儿消息之间，一个即将退休的执行法警用最后一天的职业身份承载了十一张面孔的重量",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-17T03:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_rainy_morning",
+      "title": "雨晨起床",
+      "description": "06:00 起床，不设闹钟——他知道今天是什么日子。窗外下着雨，雨水在玻璃上形成流动的光斑。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你在灰蓝色的晨光中醒来。没有闹钟，但身体比任何钟表都准时。窗外下着雨，你知道今天是什么日子——这是最后一次了。",
+      "bgmTag": "rain_piano_minimal",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_parking_lot_message",
+      "title": "停车场的女儿消息",
+      "description": "07:30 到达监狱停车场，在车里坐了很久。手机屏幕亮起，是女儿发来的消息：爸，今晚回来吃饭吗？",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "引擎熄火后的寂静。雨刷器的节奏声和远处隐约的雷声。手机屏幕亮了——「爸，今晚回来吃饭吗？」这条消息劈开了你的职业身份，露出一个父亲的样子。",
+      "bgmTag": "silence_with_rain",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "是否回复女儿的消息？",
+        "options": [
+          { "label": "回复「好的，晚上见」", "response": "你打下这几个字，发送。这条消息会成为今天的情感锚点，在每一个沉重的瞬间提醒你：有人在等你回家。" },
+          { "label": "不回复，放下手机", "response": "你把手机放回口袋。执行室的孤独感会更强烈，但深夜里会有「如果当时回了消息」的遗憾。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_preparation_check",
+      "title": "执行前准备",
+      "description": "08:15 进入执行室前的准备间，最后一次检查注射设备和药物。每一个动作都比以往更慢、更郑重。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你检查注射设备，动作比前10次都慢。不是生疏，是告别。这些器械陪你走过了职业生涯最沉重的部分，今天之后，它们将属于别人。",
+      "bgmTag": "silence_tension_low",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_doorway_breath",
+      "title": "执行室门口的深呼吸",
+      "description": "08:45 站在执行室门口，深呼吸三次。这是他职业生涯的第11次，也是最后一次——明天就退休了。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你站在执行室门口。深呼吸。一次。两次。三次。门后是白炽灯和注射泵，门前是你作为执行法警的最后几分钟。",
+      "bgmTag": "heartbeat_slow",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "进入执行室前，是否看受刑人最后一眼？",
+        "options": [
+          { "label": "看", "response": "你看了。那不是恐惧，不是愤怒，而是一种很奇怪的空洞，像是已经不在那里了。这个目光会留在你的记忆里。" },
+          { "label": "不看，视线锁定设备面板", "response": "你把视线固定在按钮和滴答声上。体验更冷，但更安全。有些画面，不看也是一种保护。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_the_button",
+      "title": "按下按钮的瞬间",
+      "description": "09:00 执行开始。手指在按钮上方悬停了一秒——比前10次都长。不是犹豫，是告别。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "灯很亮。他在呼吸。滴答。滴答。按钮是凉的。你的手指悬停了一秒——比前10次都长。不是犹豫杀不杀，而是在告别「执行法警」这个身份本身。然后，你按下了它。",
+      "bgmTag": "silence_three_seconds",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_corridor_void",
+      "title": "走廊里的茫然",
+      "description": "09:12 医生宣布死亡。他走出执行室，在走廊里站了很久，不知道自己是什么感觉。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你走出执行室。脚步声在空旷走廊里回响，越走越远，回响越来越长。你不知道自己是什么感觉。也许什么感觉都没有，才是最重的感觉。",
+      "bgmTag": "empty_corridor_echo",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_last_report",
+      "title": "最后一份执行报告",
+      "description": "10:00 填写最后一份执行报告，在「执行人」一栏签下自己的名字。笔迹比平时轻。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你在「执行人」一栏签下名字。手抖了一下，不是因为紧张，是因为这一生你签过的最重的名字，以后不会再签了。笔迹比平时轻，像怕惊动什么。",
+      "bgmTag": "pen_on_paper_quiet",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_08_farewell_lunch",
+      "title": "散伙饭的沉默",
+      "description": "12:00 和同事吃了散伙饭。没有人提起上午的事。餐桌上有一个心照不宣的空位。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "同事们举杯说「辛苦了」。碗筷碰撞、人声嘈杂，但所有声音都像隔着一层水——清晰但遥远。餐桌上有一个心照不宣的空位，那些话不能说的部分，都在沉默里了。",
+      "bgmTag": "muted_restaurant_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "散伙饭后，是否告诉女儿今天做了什么？",
+        "options": [
+          { "label": "告诉", "response": "你说了。女儿沉默了很久，然后抱住你：「我不知道该说什么，但我在。」这是最温暖的分支，也是情感释放的出口。" },
+          { "label": "不告诉", "response": "你没有说。有些话永远说不出口。你将独自面对深夜的11张脸，以更沉重的方式收束这一天。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_family_dinner",
+      "title": "红烧肉晚餐",
+      "description": "17:30 回到家。女儿做了红烧肉。他吃了一碗饭，说很好吃。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.4,
+      "narrativeText": "女儿做了红烧肉。你吃了一碗饭，说很好吃。这三个字是你今天说过的最轻松的话。家的味道覆盖了执行室的味道，至少在这一刻。",
+      "bgmTag": "warm_home_evening",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_eleven_faces",
+      "title": "深夜的十一张脸",
+      "description": "23:00 躺在床上，闭上眼睛。他看到了11张脸。一个接一个。他记住了每一张，但从来不知道他们的名字。",
+      "ageRange": { "start": 55, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "你闭上眼睛。11张脸依次浮现。胡茬、皱纹、痣——每张脸模糊但特征鲜明。你记住了每一张，但从来不知道他们的名字。这不是原谅，是记住。极轻的弦乐长音在黑暗中存在着，不煽情，只是陪伴。",
+      "bgmTag": "night_strings_gentle",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "startEmotion": "neutral",
+    "peakEmotion": "mixed",
+    "endEmotion": "sadness",
+    "curveType": "wave",
+    "description": "从平静的压抑开始，经过停车场的柔软、执行室的高压、走廊的空洞，最终在深夜的11张脸中达到情感的深层共振。不是闭合的结局，是未完成的余震。"
+  },
+  "safetyAnchors": {
+    "preExperience": "本体验涉及「死刑执行」「死亡」「职业性心理创伤」等敏感主题。提供「跳过执行瞬间」的选项。",
+    "duringExperience": "在执行按钮按下前设置深呼吸引导环节。执行过程不展示受刑人面部细节，仅保留声音和环境。",
+    "postExperience": "强制着陆引导：深呼吸三次，感受脚下地板，说出三个眼前能看到的东西。提供心理咨询热线链接。",
+    "disclaimer": "本体验不涉及任何对死刑制度本身的讨论或立场表态，仅聚焦于「执行者」这一职业身份的个人情感体验。"
+  },
+  "rating": {
+    "compliance": "L3",
+    "popularity": "S",
+    "commercialValue": "V2",
+    "curiosityIndex": 9.05
+  }
+}
