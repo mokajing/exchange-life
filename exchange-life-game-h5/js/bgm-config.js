@@ -384,6 +384,16 @@ const BGM_MAP = {
   night_calm_piano:       { file: 'audio/bgm/night_calm_piano.mp3',       volume: 0.3, loop: true },
   hopeful_strings_gentle: { file: 'audio/bgm/hopeful_strings_gentle.mp3', volume: 0.35, loop: false },
 
+  // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
+  ancient_court_tension:   { file: 'audio/bgm/ancient_court_tension.mp3',   volume: 0.35, loop: true },
+  workshop_night_silence:  { file: 'audio/bgm/workshop_night_silence.mp3',  volume: 0.2, loop: true },
+  guqin_epiphany_moment:   { file: 'audio/bgm/guqin_epiphany_moment.mp3',   volume: 0.4, loop: false },
+  solemn_strings_ancient:  { file: 'audio/bgm/solemn_strings_ancient.mp3',  volume: 0.35, loop: true },
+  triumph_drums_guqin:     { file: 'audio/bgm/triumph_drums_guqin.mp3',     volume: 0.45, loop: false },
+  farewell_xiao_solo:      { file: 'audio/bgm/farewell_xiao_solo.mp3',      volume: 0.3, loop: false },
+  legacy_guqin_fade:       { file: 'audio/bgm/legacy_guqin_fade.mp3',       volume: 0.3, loop: true }
+
+
   // === 蒙古戈壁游牧民专用标签 (2026-06-16 P0第398卷) ===
   gobi_wind_ambient:      { file: 'audio/bgm/gobi_wind_ambient.mp3',      volume: 0.25, loop: true },
   morin_khuur_tense:      { file: 'audio/bgm/morin_khuur_tense.mp3',      volume: 0.35, loop: true },
