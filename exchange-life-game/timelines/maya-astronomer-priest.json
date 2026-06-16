@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "maya-astronomer-priest",
+    "title": "玛雅文明天文祭司",
+    "subtitle": "在古典玛雅文明崩溃前夕的奇琴伊察天文台上，用肉眼和贝壳计算金星周期的最后一位观星者",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-17T02:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_daily_observation",
+      "title": "日常观测金星",
+      "description": "70岁的天文祭司在奇琴伊察El Caracol天文台上，日落时分例行观测金星。手指熟练地调整木棍，眼里只有那颗晨昏之星。这是他做了一辈子的工作。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 900 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "日落时分，你站在El Caracol天文台的西窗前。手指熟练地调整两根交叉木棍，对准金星升起的位置。一。二。三。金星到了。这颗晨昏之星，你已经观测了五十年。",
+      "bgmTag": "ancient_flute_calm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_refugees_arrive",
+      "title": "南部逃难者到来",
+      "description": "南部城邦崩溃的消息传来。蒂卡尔、科潘的祭司带着抄本和玉器逃难北上，带来一句话：众神已经抛弃了南方。焦虑开始侵入平静的观测生活。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 900 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "远处传来模糊的人声和脚步。南部逃难来的祭司们衣衫褴褛，沾满泥土。他们带来了抄本、玉器，还有一句话：'众神已经抛弃了南方。'你的手微微颤抖，但金星仍在它应在的位置。",
+      "bgmTag": "tension_distant_drums",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如何对待这些逃难者？",
+        "options": [
+          { "label": "收留他们，分享天文台的空间", "response": "你打开天文台的侧门，让疲惫的同行们进来。他们的眼中闪过一丝感激。" },
+          { "label": "只接受抄本，让人离开", "response": "你接过珍贵的抄本，但婉拒了人。知识比人更重要——至少在这个时刻你是这么认为的。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_sacrifice_dilemma",
+      "title": "活人祭祀的伦理困境",
+      "description": "奇琴伊察统治者要求增加活人祭祀以安抚神灵。作为天文祭司，你必须参与仪式。但你观测到的金星周期一切正常——星辰没有变化，变化的是人间。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 900 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "鼓声响起，Tunkul鼓的节奏逐渐加快。统治者要求用鲜血滋养神灵，挽救正在崩溃的文明。你站在祭坛旁，心中翻涌：金星周期584天，从未改变。改变的不是星辰，是人心。",
+      "bgmTag": "ritual_drums_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对祭祀仪式，你如何选择？",
+        "options": [
+          { "label": "按规定执行仪式", "response": "你完成了仪式，但内心知道这与星辰无关。鲜血流下石阶，金星依旧沉默。" },
+          { "label": "暗中放走祭品", "response": "你在夜色中解开绳索。年轻人回头看了你一眼，没有说话，消失在雨林深处。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_epiphany",
+      "title": "顿悟时刻",
+      "description": "在一次金星升起时，主角突然明白：不是众神抛弃了人，是人自己放弃了观察众神的耐心。文明崩溃不是因为星象异常，而是因为砍伐森林、土壤耗尽、战争过度。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 900 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "金星升起的瞬间，静默三秒。然后你明白了：不是众神抛弃了人，是人自己放弃了观察众神的耐心。森林被砍伐，土壤被耗尽，战争永无止境——这些都与星辰无关。",
+      "bgmTag": "silence_then_flute",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_05_last_observation",
+      "title": "最后一次金星观测",
+      "description": "主角在El Caracol天文台的西窗，用两根交叉木棍对准金星升起的位置，在贝壳上刻下最后一行金星周期记录。他知道自己可能是有史以来最后一位能用肉眼计算金星周期的玛雅祭司。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 900 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "这是最后一次了。你用木棍对准金星，在贝壳上刻下点和横线。584天。每刻一笔，贝壳发出轻微的嗑声。风从天窗吹进来，金星照常升起。你放下贝壳，知道自己是有史以来最后一位能用肉眼计算金星周期的玛雅祭司。",
+      "bgmTag": "melancholy_flute_long",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "关于德累斯顿抄本，你如何处置？",
+        "options": [
+          { "label": "烧毁抄本，让知识随文明而去", "response": "火焰吞噬了千年的智慧。有些东西注定要消失，就像这个文明本身。" },
+          { "label": "埋藏抄本，等待后人发现", "response": "你将抄本小心包裹，埋在天文台的地基下。也许千年后，会有人读懂这些点和横线。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_legacy",
+      "title": "跨越时间的回响",
+      "description": "1200年后，德累斯顿抄本在现代博物馆的展柜中。一个孩子趴在玻璃上看着那些点和横线。玛雅天文学的精确被证实，个体的坚持穿越了时间。",
+      "ageRange": { "start": 70 },
+      "yearRange": { "start": 2026 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "1200年后。博物馆的灯光柔和地照在展柜上。一个孩子趴在玻璃前，好奇地看着贝壳上的点和横线。她不知道这是一个老人在文明黄昏时最后的坚持。但她看到了。这就够了。",
+      "bgmTag": "hopeful_strings_gentle",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_epiphany", "evt_05_last_observation"],
+    "valleyMoments": ["evt_02_refugees_arrive", "evt_03_sacrifice_dilemma"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["古代祭祀制度描写"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
