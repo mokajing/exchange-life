@@ -461,7 +461,13 @@ const BGM_MAP = {
   glass_resonance_tone:   { file: 'audio/bgm/glass_resonance_tone.mp3',   volume: 0.3, loop: true },
   dissonant_strings_loop: { file: 'audio/bgm/dissonant_strings_loop.mp3', volume: 0.35, loop: true },
   melancholy_cello_drone: { file: 'audio/bgm/melancholy_cello_drone.mp3', volume: 0.3, loop: true },
-  warm_acoustic_resolve:  { file: 'audio/bgm/warm_acoustic_resolve.mp3',  volume: 0.35, loop: false }
+  warm_acoustic_resolve:  { file: 'audio/bgm/warm_acoustic_resolve.mp3',  volume: 0.35, loop: false },
+
+  // === 排爆警察拆弹现场专用标签 (2026-06-16 P0第450卷) ===
+  bomb_disposal_tension:   { file: 'audio/bgm/bomb_disposal_tension.mp3',   volume: 0.4, loop: true },
+  heartbeat_isolated:     { file: 'audio/bgm/heartbeat_isolated.mp3',     volume: 0.35, loop: true },
+  timer_countdown_low:    { file: 'audio/bgm/timer_countdown_low.mp3',    volume: 0.3, loop: true },
+  silence_after_blast:    { file: 'audio/bgm/silence_after_blast.mp3',    volume: 0.2, loop: false }
 
 };
 
