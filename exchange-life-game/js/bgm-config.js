@@ -313,7 +313,14 @@ const BGM_MAP = {
   water_echo:             { file: 'audio/bgm/water_echo.mp3',             volume: 0.2, loop: true },
   crayon_asmr:            { file: 'audio/bgm/crayon_asmr.mp3',            volume: 0.25, loop: true },
   wind_chime_connection:  { file: 'audio/bgm/wind_chime_connection.mp3',  volume: 0.3, loop: false },
-  lullaby_warmth:         { file: 'audio/bgm/lullaby_warmth.mp3',         volume: 0.35, loop: false }
+  lullaby_warmth:         { file: 'audio/bgm/lullaby_warmth.mp3',         volume: 0.35, loop: false },
+
+  // === 全职妈妈与职场爸爸互换角色专用标签 (2026-06-16 P0第336卷) ===
+  morning_rush_piano:     { file: 'audio/bgm/morning_rush_piano.mp3',     volume: 0.35, loop: true },
+  office_tension_strings: { file: 'audio/bgm/office_tension_strings.mp3', volume: 0.3, loop: true },
+  lonely_playground:      { file: 'audio/bgm/lonely_playground.mp3',      volume: 0.25, loop: true },
+  emotional_release_piano:{ file: 'audio/bgm/emotional_release_piano.mp3',volume: 0.45, loop: false },
+  reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.4, loop: false }
 };
 
 /**
