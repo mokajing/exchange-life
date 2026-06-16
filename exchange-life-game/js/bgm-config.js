@@ -328,7 +328,10 @@ const BGM_MAP = {
   social_isolation_piano: { file: 'audio/bgm/social_isolation_piano.mp3', volume: 0.3, loop: true },
   bittersweet_homecoming: { file: 'audio/bgm/bittersweet_homecoming.mp3', volume: 0.35, loop: true },
   warm_storytelling_guitar:{ file: 'audio/bgm/warm_storytelling_guitar.mp3', volume: 0.4, loop: true },
-  hopeful_growth_piano:   { file: 'audio/bgm/hopeful_growth_piano.mp3',   volume: 0.4, loop: false }
+  hopeful_growth_piano:   { file: 'audio/bgm/hopeful_growth_piano.mp3',   volume: 0.4, loop: false },
+  // mortician-hand-warmth BGM tags
+  solo_piano_night:       { file: 'audio/bgm/solo_piano_night.mp3',       volume: 0.3, loop: true },
+  white_noise_heartbeat:  { file: 'audio/bgm/white_noise_heartbeat.mp3',  volume: 0.2, loop: true }
 };
 
 /**
