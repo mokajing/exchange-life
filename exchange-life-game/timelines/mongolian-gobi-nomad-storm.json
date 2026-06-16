@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "id": "mongolian-gobi-nomad-storm",
+    "title": "蒙古戈壁游牧民的风暴迁徙",
+    "subtitle": "在零下40度的白灾中与骆驼群穿越死亡之海的最后一代游牧家庭",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-16T17:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_storm_warning",
+      "title": "暴风雪预警",
+      "description": "凌晨3点，祖母凭风向和云层判断必须在天亮前出发，否则将被困三天以上。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨三点。你被祖母的手摇醒。她没有说话，只是把你的羊皮袄裹紧了些。帐篷外风声已经变了调——不是白天那种呼啸，而是一种低沉的、从地底传来的闷吼。祖母站在门口，脸朝北方，闭着眼睛感受风的纹理。六十年的戈壁生活让她的皮肤变成了一台精密的气象仪。「走。」她只说了一个字。父亲看了看天，犹豫了一下，但没有人反驳祖母。在这个家里，她的判断比任何天气预报都准——因为她不是在预测天气，她是在和这片土地对话。",
+      "bgmTag": "gobi_wind_ambient",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_dismantle_camp",
+      "title": "拆除蒙古包",
+      "description": "全家在黑暗中拆蒙古包，7岁的你帮忙卷毡子，父亲检查骆驼鞍具，母亲把最小的孩子裹进羊皮袄。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "四点三十分。全家人在黑暗中拆卸你们称之为「家」的一切。你的手指冻得发僵，但还是努力帮着卷起厚重的毛毡。父亲蹲在地上检查每一副骆驼鞍具的绑带，他的动作又快又稳，像一台上了发条的机器。母亲把还在熟睡的小弟弟裹进她唯一的外套里，自己只穿着单衣扛风。你看见她的手臂上起了鸡皮疙瘩，但她没有停下来。这不是第一次迁徙，也不会是最后一次。但每一次都像第一次一样紧迫——因为戈壁从不给你从容的机会。",
+      "bgmTag": "morin_khuur_tense",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "出发前你想做什么？",
+        "options": [
+          { "label": "帮母亲抱弟弟", "response": "你接过弟弟，他轻得像一只小猫。他的体温透过羊皮袄传到你胸口，是你在这片寒冷中唯一确定的温暖。" },
+          { "label": "去摸一摸领头骆驼的鼻子", "response": "你走到那头最老的母驼面前，把手放在它温热的鼻子上。它低下头蹭了蹭你的手心。你们之间不需要语言——它知道要走，你也知道。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_caravan_departure",
+      "title": "驼队出发",
+      "description": "清晨6点，30峰骆驼驮着全部家当出发，祖父走在最前面凭记忆辨认被雪覆盖的路标。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "travel",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "六点。天还没亮，但不能再等了。三十峰骆驼排成一列长队，背上驮着你们全部的家当——帐篷、毛毡、炊具、干粮、还有祖母那口用了四十年的铁锅。祖父走在最前面，他的背影在风雪中像一棵弯曲的老树。他不需要GPS，不需要地图，他的脑子里装着方圆两百公里内每一处水源、每一个避风点、每一片危险流沙的精确位置。这份记忆是他父亲传给他的，他父亲的父亲也是这么走过来的。你跟在他身后，努力记住他踩过的每一个脚印。",
+      "bgmTag": "camel_bell_distant",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_04_camel_birth",
+      "title": "风雪中的骆驼接生",
+      "description": "上午10点风速达到每秒25米，能见度不足5米，一峰母驼早产，全家在风雪中接生幼崽。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "十点。风变成了刀子。你看不见前方五米以外的任何东西。就在这时，队伍停了——一峰年轻的母驼倒下了，它在风暴中早产。父亲冲过去跪在雪地里，双手接住滑落的幼崽。母亲脱下自己的外套盖在小骆驼身上。你和姐姐用身体围成一堵人墙，替它们挡住最猛烈的风。幼崽没有呼吸。父亲用手擦掉它口鼻上的黏液，对着它的鼻孔吹气。一秒。两秒。三秒……一声微弱的喘息。活了。你的眼泪瞬间冻在了脸上。这一刻你明白了：在戈壁上，生命从来不是理所当然的事。",
+      "bgmTag": "storm_white_noise",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "幼驼虚弱，队伍不能久停。怎么办？",
+        "options": [
+          { "label": "全队停下全力救幼驼", "response": "父亲把幼驼抱上母驼的背，用自己的体温焐着它。全队等了二十分钟。这二十分钟可能是生死之差，但没有人催促。在戈壁上，放弃一个生命比多等二十分钟更昂贵。" },
+          { "label": "留下母亲照看，大部队继续赶路", "response": "母亲留下来陪幼驼，父亲带着队伍先走。你回头看了一眼——在漫天的白色里，母亲的身影越来越小，最后消失在风雪里。你知道她会追上来。她总是会的。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_shelter_rest",
+      "title": "避风点的茶与火",
+      "description": "下午2点抵达一处岩石凹陷的临时避风点，搭起简易防风墙，点燃干牛粪取暖煮茶。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "两点。祖父举起手，队伍停了。前方有一处岩石凹陷——这是他记忆中的避风点之一。父亲和叔叔用最快的速度搭起简易防风墙，母亲点燃了干牛粪。火光在风中摇曳，但足够把一小片空间烤暖。茶水在铁壶里沸腾的声音，是你今天听到的最美的音乐。你捧着滚烫的茶碗，热量从掌心渗进骨头里。没有人说话。只有风声、火声、骆驼咀嚼草料的声音。这片刻的安宁像是从死神手里偷来的。你知道它不会持续太久，所以格外珍惜。",
+      "bgmTag": "warm_fire_tea",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_final_stretch",
+      "title": "最后八公里",
+      "description": "傍晚6点风暴减弱，继续赶路最后8公里，夜幕降临时终于看到冬营地的灯火。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "travel",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "六点。风终于小了。但不是停了——只是从咆哮变成了低语。祖父说还有八公里。八公里在平时不算什么，但在走了十四个小时之后，每一步都像踩在棉花上。你的腿已经没有知觉了，全靠惯性在移动。天色暗下来，世界缩成了一团模糊的灰。然后你看见了——远处一粒橘黄色的光。是营地。你的喉咙突然哽住了。不是因为冷，是因为你知道今晚可以不用再走了。",
+      "bgmTag": "emotional_morin_khuur",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_arrival_count",
+      "title": "沉默的损失清点",
+      "description": "夜间清点牲畜损失：走失3峰幼驼。没有欢呼，只有安静的统计。活着到了就是胜利。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "夜里。全家人围坐在篝火旁。父亲开始清点——三十峰出发，二十七峰到达。走失了三峰幼驼。没有人哭，没有人抱怨。三峰幼驼意味着来年少了三份奶源和运输力，意味着明年的日子会更紧巴。但此刻，活着的二十七峰和活着的六个人，已经是这场风暴最大的恩赐。祖母往火里添了一块牛粪，轻声说了一句蒙古谚语：「风带走了能带走的，留下了该留下的。」你靠在她身边，闻着她身上混合着烟熏和羊毛的气味，觉得这就是世界上最安全的味道。",
+      "bgmTag": "night_camp_quiet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "清点完毕后，你的心情如何？",
+        "options": [
+          { "label": "为失去的幼驼难过", "response": "你想起那三峰小骆驼的脸。它们可能还活着，在某个避风的沟壑里等着被找到。也可能已经被风雪吞没了。你把这份难过收进心里，像收进一个不能打开的盒子。" },
+          { "label": "为全家平安感到庆幸", "response": "你环顾四周——父亲、母亲、姐姐、弟弟、祖父、祖母。都在。一个都没少。你深吸一口气，把这口气当作祈祷。在戈壁上，完整就是奇迹。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_grandfather_stories",
+      "title": "祖父的祖辈故事",
+      "description": "全家围坐喝奶茶，祖父讲述祖辈在同一条路上遭遇白灾的故事。一种文明形态的黄昏。",
+      "ageRange": { "start": 7, "end": 7 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "夜深了。奶茶的热气在火光中升腾。祖父开口了——他用低沉的蒙古语讲起他曾祖父的故事。那一年也是白灾，曾祖父带着全家在同一条路上走了三天三夜，失去了七峰骆驼和一个刚出生的女儿。但他没有停下，因为他知道停下就是终点。祖父的声音像马头琴的低音弦，缓慢、深沉、带着岁月的震颤。你不全听得懂那些古老的词汇，但你听懂了语调里的东西——那不是悲伤，是一种比悲伤更深沉的情感。是一个民族在千年风沙中磨出来的、对命运的平静接受。你意识到：这些故事正在随着祖父的衰老而消失。而你，可能是最后一个听到它们的人。",
+      "bgmTag": "sunrise_gobi_warm",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想听祖父讲哪个故事？",
+        "options": [
+          { "label": "祖辈如何在白灾中存活", "response": "祖父讲了三天三夜的求生故事。每一个细节都是生存的智慧——如何用骆驼粪便搭建临时庇护所，如何通过观察鸟类判断风向变化。这些知识不在任何教科书里。" },
+          { "label": "这片土地上消失的那些人", "response": "祖父的声音变得更轻了。他说有些家庭走出去就再也没回来。戈壁记得每一个人的名字，但人类正在忘记。你把这些名字刻进记忆里。" },
+          { "label": "骆驼为什么比人更懂这条路", "response": "祖父笑了。他说骆驼的眼睛能看到人看不到的地平线，它们的鼻子能闻到三十公里外的水源。在这条路上，人才是被带领的那个。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "curve": [0.7, 0.6, 0.5, 0.9, 0.6, 0.5, 0.7, 0.8],
+    "peakEventId": "evt_04_camel_birth",
+    "valleyEventId": "evt_03_caravan_departure",
+    "resolution": "在极端环境中理解生命的重量——活着到了就是胜利，而记忆是比骆驼更珍贵的驮载"
+  },
+  "safetyConfig": {
+    "triggerWarnings": ["extreme_cold", "animal_death", "family_separation"],
+    "pauseMechanism": "breathing_break",
+    "postExperienceGuidance": "warm_light_grounding"
+  }
+}
