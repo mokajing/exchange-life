@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "id": "arctic-seed-vault-guardian",
+    "title": "北极种子库守门人",
+    "subtitle": "在极夜中守护人类一万年农业记忆的孤独守望者",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T15:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_arrival_svalbard",
+      "title": "抵达朗伊尔城",
+      "description": "从挪威特罗姆瑟乘飞机抵达斯瓦尔巴群岛，北纬78度的永冻土世界。第一次看到种子库入口时的震撼与敬畏。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "飞机降落在朗伊尔城机场时，窗外是一片白茫茫的寂静。零下25度的空气像刀片一样割过脸颊。你拖着行李走过积雪覆盖的跑道，远处山腰上那个三角形的混凝土入口就是你要守护的地方——斯瓦尔巴全球种子库。它嵌在永久冻土层内120米深处，像一座沉睡的方舟。你站在入口前，手套按在冰冷的铁门上，感受到门后传来的微弱震动——那是制冷机组永恒的心跳。这一刻你意识到：这扇门里锁着人类一万年的农业记忆，而你，是这道防线最后的活人保险。",
+      "bgmTag": "arctic_wind_ambient",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_inspection",
+      "title": "首次巡检",
+      "description": "跟随老守门人完成第一次4小时外部巡查，学习检查密封性、温控系统和通风管道。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "06:00。天还没亮——或者说，在极夜里，天从来不会真正亮起。你穿上三层防寒服，戴上头灯，跟着老守门人走出宿舍。每走一步，雪地都发出咯吱声。他教你检查入口密封条是否有冰晶堆积、温控面板读数是否在-18°C标准线内、通风管道有没有结冰堵塞。「这里不需要英雄，」他说，「只需要一个不会忘记看表的人。」你点头，把每个检查点的读数记在本子上。笔尖在低温下变得迟钝，字迹歪歪扭扭。这是你在北极写下的第一行字。",
+      "bgmTag": "minimal_piano_arctic",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_blue_moment",
+      "title": "蓝色暮光时刻",
+      "description": "极夜期间每天仅有数小时的Blue Moment，天空呈现不真实的靛蓝渐变，雪地反射出冷调柔光。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "11:00。这是一天中最接近「白天」的时刻。太阳依然在地平线以下，但天空会泛起一种幽蓝色的光——当地人叫它Blue Moment。你站在种子库前的山丘上，看着整个世界被浸泡在不真实的靛蓝里。雪地不再是白色，而是反射着冷调的柔光，像一块巨大的蓝宝石。远处的冰川轮廓在蓝光中变得柔和，仿佛一幅未干的水彩画。这个时刻每天只持续三四个小时，然后黑暗就会重新合拢。你学会了在这短暂的光里深呼吸，把蓝色存进眼睛里，留给接下来的漫长黑夜。",
+      "bgmTag": "blue_moment_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "Blue Moment期间，你想做什么？",
+        "options": [
+          { "label": "拍照记录这短暂的蓝光", "response": "你举起相机，但发现镜头里的蓝色远不如眼睛看到的万分之一。最终你放下相机，只是站着，用目光贪婪地吸收每一秒。" },
+          { "label": "坐在雪地里什么都不做", "response": "你坐下来，让寒冷穿透防寒服。不是自虐，是想确认自己还活着。在这片蓝里，连呼吸都变成了一种仪式。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_syria_seeds",
+      "title": "接收叙利亚ICARDA备份种子",
+      "description": "战争摧毁了阿勒颇的种子银行，这批来自战乱区的种子是人类农业记忆的最后碎片。亲手将它们存入冷库。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "补给日。从特罗姆瑟来的运输箱里有一批特殊的货物——来自叙利亚ICARDA的种子备份。阿勒颇的种子银行在战争中被毁，这些黑色塑料盒里装着的，是一个文明几千年的农业记忆最后幸存的碎片。你戴着双层手套，小心翼翼地把它们搬进冷库。每一个盒子都很轻，但你知道它们的重量不是用克来衡量的。你把它们放进编号为SYR-2024-0847的货架上，在登记表上写下来源、品种、数量。笔尖划过纸面时，你突然想到：如果有一天所有图书馆都被烧毁了，至少还有这些种子记得这片土地曾经长出过什么。",
+      "bgmTag": "emotional_strings_cold",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "存放完叙利亚种子后，你的心情如何？",
+        "options": [
+          { "label": "感到沉甸甸的责任", "response": "你站在货架前很久。这些种子不会说话，但它们比任何语言都沉重。你轻轻关上门，像在合上一本不能丢失的书。" },
+          { "label": "感到一丝希望", "response": "战争可以摧毁城市，但这些种子还在。只要它们还在，重建就永远有可能。你深吸一口冷气，觉得这口空气里有未来的味道。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_sad_low_point",
+      "title": "极夜心理低谷",
+      "description": "连续60天不见太阳后出现季节性情绪障碍（SAD），靠写日记和与家人视频通话撑过最黑暗的时期。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第60天。你已经两个月没有见过太阳了。黑暗不再是环境，它变成了皮肤的一部分。你开始跟机器说话，跟风声对话，跟记忆里的人聊天——不是因为疯了，是因为沉默比噪音更消耗人。日记本上的字越来越潦草，内容从「今日巡检正常」变成了「今天梦见了妈妈做的汤」。视频通话时，女儿的脸在屏幕上带着电流杂音的温暖感。她说「爸爸你什么时候回来」，你说「快了」，但你知道「快了」在这里是一个没有刻度的词。挂断电话后，你在黑暗中坐了很久。制冷机组的嗡鸣声是唯一证明时间还在流动的东西。",
+      "bgmTag": "lonely_white_noise",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在最孤独的夜晚，你选择怎么度过？",
+        "options": [
+          { "label": "写一封不会寄出的信", "response": "你把想说的话全写在纸上，然后折好放进抽屉。不是为了寄给谁，是为了让那些话有一个去处，而不是在脑子里无限循环。" },
+          { "label": "对着种子库的铁门说话", "response": "你把手贴在冰冷的门上，轻声说「你们还好吗」。没有回应。但说出来本身就是一种连接——哪怕对方是一万吨混凝土和一百万粒种子。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_bear_encounter",
+      "title": "北极熊遭遇",
+      "description": "在一次外部巡检中与一只好奇的北极熊在雪地对视30秒，按照安全协议缓慢后退而非逃跑。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "巡检途中，你停下脚步。前方三十米处的雪地上，一只北极熊正抬头看你。它的眼睛是黑色的，像两颗没有温度的纽扣。你们对视了整整三十秒。你的心跳声大到自己都能听见，但身体一动不动——安全协议刻进了肌肉记忆：不要跑，不要转身，缓慢后退。你一步一步往后挪，靴子踩在雪地上的声音像是被放大了十倍。熊歪了歪头，似乎在评估你是否值得追。然后它转过身，慢悠悠地走向远处的冰川。你继续后退，直到看不见它为止。回到宿舍后，你的手抖了十分钟才停下来。",
+      "bgmTag": "tense_arctic_silence",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_07_permafrost_crisis",
+      "title": "永冻土融化渗水事件",
+      "description": "气候变化导致种子库入口隧道渗水结冰，在零下25度独自清理冰层三天三夜。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "警报响了。入口隧道的温度传感器显示异常——永冻土正在融化，渗水在隧道壁上结成了厚厚的冰层。如果不及时清理，冰层可能破坏密封结构，威胁到整个种子库的安全。你穿上最厚的防寒服，拿着冰镐和铲子走进隧道。零下25度的空间里，每一次呼吸都像吞下碎玻璃。冰层比你想象的厚，每一镐下去只能凿下一小块。你的手套湿透了又冻硬了，手指失去了知觉。第一天，你清了六个小时。第二天，八个小时。第三天，当你终于看到隧道壁露出原本的混凝土颜色时，你靠在墙上滑坐到地上。不是因为累，是因为你突然意识到：气候变化不是一个遥远的概念，它正在你手里融化。",
+      "bgmTag": "urgent_minimal_beat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "清理完冰层后，你想做什么？",
+        "options": [
+          { "label": "立刻向总部报告情况", "response": "你拿起卫星电话，声音沙哑地汇报了渗水位置和冰层厚度。总部说会派专家来评估。你挂了电话，知道这只是开始——冻土不会再回来了。" },
+          { "label": "先去冷库确认种子安全", "response": "你没有先打电话，而是走进冷库，一个个检查货架的温度标签。所有读数都在-18°C。你松了口气，这才想起自己的手还在发抖。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_first_sunrise",
+      "title": "迎接第一缕晨光",
+      "description": "极夜结束后太阳重新升起的那一刻，站在种子库前的山丘上哭了——不是因为感动，是因为眼睛已经忘了如何适应光明。",
+      "ageRange": { "start": 32, "end": 32 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第100天。天边出现了一条粉橙色的线。起初你以为又是幻觉——极夜里大脑经常制造虚假的光。但那条线越来越宽，颜色从粉橙变成金色，再变成刺眼的白。你站在种子库前的山丘上，摘下了墨镜。光线像针一样扎进眼睛，泪水不受控制地涌出来。你不是因为感动而哭，是因为眼睛已经忘了如何适应光明。三个月的黑暗把你的视觉重塑成了另一种形态，现在它又要被强行拉回人间。你眯着眼，看着太阳一寸寸爬升，感觉自己也在一寸寸解冻。身后，种子库的制冷机组依然在嗡鸣。它不需要阳光，但你需要。",
+      "bgmTag": "sunrise_warm_strings",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "curve": [0.7, 0.4, 0.6, 0.8, 0.9, 0.8, 0.9, 0.9],
+    "peakEventId": "evt_05_sad_low_point",
+    "valleyEventId": "evt_02_first_inspection",
+    "resolution": "在极致的孤独与黑暗中重新理解光明的意义——守护的不是种子，是人类对未来的信念"
+  },
+  "safetyConfig": {
+    "triggerWarnings": ["isolation", "darkness", "claustrophobia"],
+    "pauseMechanism": "breathing_break",
+    "postExperienceGuidance": "warm_light_grounding"
+  }
+}
