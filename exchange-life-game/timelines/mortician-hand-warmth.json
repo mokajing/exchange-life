@@ -1,0 +1,157 @@
+{
+  "meta": {
+    "id": "mortuary-makeup-artist",
+    "title": "入殓师的手温",
+    "subtitle": "用双手给逝者最后的体面，在告别与尊严之间守住生死边界的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T12:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_arrival",
+      "title": "清晨五点半的到岗",
+      "description": "天还没亮就到达工作间，换上白大褂，检查工具，消毒台面。一天的工作从寂静开始。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "05:30。天还是灰蓝色的。你推开工作间的门，消毒水的气味扑面而来，像一道无形的门槛。换上白大褂，把化妆刷按大小排列在台面上，检查粉底液的余量，确认修复蜡的温度。每一个动作都轻而准确，像是怕惊扰了什么。窗外还没有鸟叫，只有远处环卫车的引擎声。这是你一天中最安静的时刻——在见到任何逝者之前，先让自己静下来。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_body",
+      "title": "接收遗体确认信息",
+      "description": "6:00接到通知，今天第一位逝者是一位78岁的老人，自然离世。核对信息，准备相应化妆品和衣物。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "06:00。电话响了。值班室传来简短的信息：张姓老人，七十八岁，凌晨三点在家中睡梦中离开。你在登记表上写下名字、年龄、死因、家属联系方式。笔尖划过纸面的声音在空旷的房间里格外清晰。你打开柜子，取出适合老年肤色的粉底液、遮瑕膏、一支用了三年的眉笔。这些工具和化妆品与活人用的没什么两样，只是它们服务的对象再也不会睁开眼睛了。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_washing_dressing",
+      "title": "清洗、更衣、化妆",
+      "description": "6:30-9:00为逝者清洁身体、更换寿衣、进行面部化妆。左手托住下颌，右手以45度角持粉刷，每个动作精确而温柔。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "06:30。温水浸湿毛巾，拧到半干。你从左肩开始擦拭，顺着手臂、胸口、腹部，每一寸皮肤都擦过三遍。水是热的，但触到的地方是冷的。这种温差你已经习惯了三年，但每次指尖接触的瞬间，身体还是会有一瞬的本能反应——然后呼吸一次，继续。换上深蓝色寿衣，扣子系到最上面一颗。然后是脸。左手轻轻托住下颌，右手以45度角持粉刷，从颧骨向外晕开。老人的皮肤松弛而有斑点，你用遮瑕膏一点点盖住，不是为了掩盖衰老，而是为了让家属看到一张安详的脸。整个过程没有音乐，只有水流声、布料摩擦声、刷子轻触皮肤的细微声响。",
+      "bgmTag": "white_noise_heartbeat",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "化妆时发现老人嘴角有一道旧伤疤，怎么处理？",
+        "options": [
+          { "label": "用遮瑕膏仔细覆盖", "response": "你花了十分钟把伤疤的颜色调到与周围肤色一致。也许没人会注意到，但你知道它在那里。" },
+          { "label": "保留伤疤作为生命痕迹", "response": "你停了一下手，最终决定不遮盖。这道疤是他活过的证据，也许家属更愿意看到完整的他。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_family_arrival",
+      "title": "家属到场确认",
+      "description": "9:30家属到来，女儿看到父亲的面容后从崩溃痛哭到握住你的手说「谢谢你让他走得这么体面」。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "09:30。门外传来脚步声和低低的哭泣。女儿推开门的瞬间停住了，眼泪涌出来但没有发出声音。她走到床边，伸手摸了摸父亲的脸——那是你刚刚整理好的、带着淡淡粉底温度的脸。她哭了很久。然后转过身，握住了你的手。她的手是热的，你的也是。「谢谢你……让他走得这么体面。」你说不出话。只是点了点头。那一刻你知道，这三个小时的工作不是为了逝者——逝者已经感受不到了。是为了活着的人，让他们在最后的告别里，记住一张平静的脸。",
+      "bgmTag": "emotional_release_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "家属情绪失控要求立刻再见一面，但最后一步还没完成，你怎么做？",
+        "options": [
+          { "label": "坚持完成最后一步再让家属进来", "response": "你轻声说「请再等五分钟」。关上门，加快手上的动作。专业判断告诉你，未完成的状态会让家属更难受。" },
+          { "label": "提前开放让家属看一眼", "response": "你打开门，退到一旁。女儿扑到床边。有些时刻，规则要让位于人的需要。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_farewell_ceremony",
+      "title": "告别仪式协助",
+      "description": "10:00-11:30协助告别仪式，站在角落确保一切顺利。看着家属与逝者做最后的告别。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "10:00。告别厅的灯光是暖黄色的，烛火摇曳。你站在角落里，穿着黑色制服，双手交叠在身前。你的工作已经完成了，但你还在。看着孙女把一朵白菊放在爷爷手边，看着老伴颤巍巍地摸他的头发，看着儿子咬着嘴唇不让眼泪掉下来。你不是这个家庭的一员，但你是他们告别的一部分。你把自己变成背景，让所有的注意力都留给那个躺在花丛中的人。仪式结束时，你微微鞠了一躬。不是对家属，是对他。",
+      "bgmTag": "reunion_warm_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_afternoon_cleanup",
+      "title": "整理工具与消毒",
+      "description": "下午回到工作间，清洗所有工具，消毒台面，补充消耗品。把情绪留在工作间里。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "14:00。回到工作间。把用过的粉刷放进消毒液里浸泡，擦拭台面，检查粉底液的存量，把新的棉签摆进盒子里。每一个动作都和早上一样精确，但节奏慢了一些。你站在水槽前洗手，洗了很久。不是因为脏，是因为需要一个仪式——把刚才的三个小时冲走，不带回家。对着镜子深呼吸三次。镜子里的你脸色有点白，但眼神是稳的。你把白大褂挂回柜子，换回自己的衣服。走出门的时候，阳光正好照在脸上。",
+      "bgmTag": "morning_rush_piano",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_07_evening_journal",
+      "title": "傍晚的工作日志",
+      "description": "记录当日工作内容，包括逝者信息、使用的材料、特殊情况备注。写完后合上本子，一天结束。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "17:30。坐在办公桌前，翻开工作日志。姓名：张XX。年龄：78。死因：自然衰老。整容用时：2小时40分。特殊备注：嘴角旧伤疤未遮盖，家属无异议。家属反馈：感谢。你写完最后一行字，合上本子。窗外的天色暗下来了，路灯亮了。你今天让一个人走得体面，让一个家庭在最后的时刻少了一点遗憾。明天还会有新的人来，新的告别要完成。但此刻，你可以休息一下了。",
+      "bgmTag": "solo_piano_night",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "工作三年后收到高薪转行offer，你怎么选？",
+        "options": [
+          { "label": "留下", "response": "你把offer折好放进抽屉。不是因为这行有多伟大，是因为你已经学会了怎么用自己的手，给别人最后一份温暖。这份能力，换了地方就用不上了。" },
+          { "label": "离开", "response": "你签了离职申请。不是不爱这份工作，是你也需要被温暖。没有人有义务一辈子做别人的温度来源。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_hand_temperature",
+      "title": "手温的意义",
+      "description": "同事离职前把用了十五年的化妆刷交给她说「这行最需要的不是技术，是心」。她终于理解了这句话。",
+      "ageRange": { "start": 26, "end": 26 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "后来你才明白，为什么师父走的时候把那套用了十五年的化妆刷留给你。刷子已经磨得发白了，手柄上有指纹磨出的凹痕。她说：「这行最需要的不是技术，是心。」你当时以为她在说要有同情心。做了三年才知道，她说的是——你的手必须是热的。活人的手是热的，逝者的手是冷的。你是这个空间里唯一的温度。当你把手放在他们的脸上时，那不是化妆，是最后一次有人用体温告诉他们：你被认真对待过。",
+      "bgmTag": "reunion_warm_strings",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "curve": [0.3, 0.4, 0.6, 0.8, 0.7, 0.3, 0.5, 0.6],
+    "peakEventId": "evt_04_family_arrival",
+    "valleyEventId": "evt_01_dawn_arrival",
+    "resolution": "平静与释然——理解死亡是生命的一部分，自己的工作是为生者和死者都保留尊严"
+  },
+  "safetyConfig": {
+    "triggerWarnings": ["death", "grief"],
+    "pauseMechanism": "breathing_break",
+    "postExperienceGuidance": "mindfulness_grounding"
+  }
+}
