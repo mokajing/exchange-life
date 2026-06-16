@@ -1,0 +1,171 @@
+{
+  "meta": {
+    "id": "smell-translator-first-month",
+    "title": "气味翻译师的第一个月",
+    "subtitle": "在每个人都会散发情绪气味的透明世界里替人翻译'说不出口的味道'",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T05:03:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "入职测试",
+      "description": "事务所老板让林栩闻一个密封袋里的衬衫，准确说出委托人那天经历的情绪链条：离婚签字→如释重负→吃火锅庆祝→想起前夫的好→愧疚。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你叫林栩，28岁，是一名'嗅觉超敏者'——全球仅0.03%的人能闻到极其微弱的情绪气味。今天是你在深圳'气味翻译事务所'的入职测试。老板递来一个密封袋：'闻一闻这件衬衫，告诉我他那天经历了什么。'你深吸一口气，情绪的气味如潮水涌来——离婚签字时的铁锈味、如释重负的薄荷香、火锅庆祝时的辛辣、想起前夫时的檀木玫瑰、最后是烧焦棉花糖般的愧疚。老板当场录用。",
+      "bgmTag": "lofi_chill_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这个特殊的职业，你的第一感受是？",
+        "options": [
+          { "label": "兴奋：终于找到能用天赋帮助人的工作", "response": "你感到前所未有的使命感——气味不会说谎，而你能帮人们理解彼此。" },
+          { "label": "忐忑：知道太多真相是否是一种负担", "response": "你隐约担心，闻到所有人的真实情绪，可能会让你承受不住。" },
+          { "label": "好奇：这个世界的气味到底有多复杂", "response": "你对即将揭开的'气味世界'充满探索欲，迫不及待想开始。" }
+        ]
+      },
+      "sourceAnchor": "第470卷(1)·Layer1·关键事件·入职测试"
+    },
+    {
+      "id": "evt_02",
+      "title": "第一个委托：妻子的怀疑",
+      "description": "一位妻子怀疑丈夫出轨，但丈夫说'我爱你'时散发的确实是檀木玫瑰味。深入调查发现爱意是真的，但掺杂了极微弱的'愧疚'气味（烧焦的棉花糖味）。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "Day 4，第一个深度委托。一位妻子红着眼眶说：'他说爱我，可我不信。'你见到丈夫，他说'我爱你'时确实散发出檀木玫瑰的爱意气味。但你敏锐地捕捉到一丝极微弱的烧焦棉花糖味——那是愧疚。真相是他在偷偷攒钱买她最想要的礼物，过程中说了很多小谎。你面临选择：告诉她全部真相，还是只报告'爱意真实存在'？",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "你会如何向妻子报告？",
+        "options": [
+          { "label": "据实相告：爱意真实，但有隐瞒", "response": "妻子知道了真相，关系暂时受损，但最终理解了丈夫的初心。" },
+          { "label": "只报告爱意真实存在", "response": "妻子选择信任，但心里留下了刺。你知道这不是最好的结局。" },
+          { "label": "建议他们当面沟通", "response": "丈夫坦白礼物计划，夫妻关系反而加深。你解锁了'温柔解决'结局。" }
+        ]
+      },
+      "sourceAnchor": "第470卷(1)·Layer1·时间线·Day4-7"
+    },
+    {
+      "id": "evt_03",
+      "title": "职业伦理困境",
+      "description": "科技公司CEO请林栩做'董事会气味审计'，发现CTO在讨论新项目时散发出兴奋的柑橘味但混着危险的汽油味（野心/背叛）。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "Day 8，一家科技公司的CEO请你做'董事会气味审计'。会议室里每个人都笑眯眯，但气味不会骗人。你闻到CTO在讨论新项目时散发出兴奋的柑橘味，但混着危险的汽油味——那是野心和背叛的信号。你陷入两难：说出真相可能毁掉项目，隐瞒真相违背职业操守。最终你选择模糊报告：'团队存在情绪盲区'，不点名具体是谁。",
+      "bgmTag": "tension_low_synth",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对CTO的背叛气味，你的报告怎么写？",
+        "options": [
+          { "label": "据实报告：CTO有背叛倾向", "response": "CEO解雇CTO，项目暂停但公司避免更大损失。你被质疑过于激进。" },
+          { "label": "模糊报告：团队存在情绪盲区", "response": "CTO的背叛行为后来被第三方揭发，你被质疑专业能力。" },
+          { "label": "私下找CTO谈话", "response": "CTO被理解后放弃背叛计划，你解锁了'温柔解决'结局。" }
+        ]
+      },
+      "sourceAnchor": "第470卷(1)·Layer1·时间线·Day8-14"
+    },
+    {
+      "id": "evt_04",
+      "title": "临终老人的委托",
+      "description": "一位临终老人想闻一闻自己一生的'情绪气味档案'。子女几十年来收集了父亲在不同场合的衣物样本。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "Day 15，一个特殊的委托。一位临终老人想闻一闻自己一生的'情绪气味档案'。他的子女几十年来收集了父亲在不同场合的衣物样本——EOM分子可在织物上残留数十年。你逐一翻译：女儿出生那天父亲抱她时留在衬衫上的气味是'恐惧+狂喜+爱'的复杂混合——那是他第一次当爸爸的真实感受。老人闻到时说：'我以为他从来不爱我。'你第一次在工作中哭了。",
+      "bgmTag": "cello_solo_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想让老人先闻哪一件衣服？",
+        "options": [
+          { "label": "女儿出生那天的衬衫", "response": "老人闻到了'恐惧+狂喜+爱'的复杂气味，泪流满面地说'原来他一直爱我'。这是情感高潮。" },
+          { "label": "结婚那天的西装", "response": "老人闻到了紧张和承诺交织的气味，回忆起与妻子的誓言。" },
+          { "label": "退休那天的工装", "response": "老人闻到了释然和失落混合的气味，感慨一生的奋斗。" }
+        ]
+      },
+      "sourceAnchor": "第470卷(1)·Layer1·时间线·Day15-21"
+    },
+    {
+      "id": "evt_05",
+      "title": "自我发现：信任不需要证据",
+      "description": "林栩发现自己对一位'无味'委托人产生了感情，但无法闻到对方的气味。这是她人生中第一次只能靠'听'和'看'来判断一个人的真心。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "Day 22，你遇到了他——一个'无味者'，基因变异让他保持透明状态，你闻不到他的任何情绪气味。这是你人生中第一次只能靠'听'和'看'来判断一个人的真心。你发现自己对他产生了感情，却无法用你最擅长的方式确认。在'气味透明'的世界里，你重新理解了'信任'这个词。",
+      "bgmTag": "warm_piano_simple",
+      "visualTone": "bright",
+      "sourceAnchor": "第470卷(1)·Layer1·时间线·Day22-30"
+    },
+    {
+      "id": "evt_06",
+      "title": "接受告白",
+      "description": "林栩接受了'无味者'的告白。她不再需要气味来确认爱情。信任是'在无法确认的时候仍然选择相信'。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "Day 30，他向你告白。你闻不到他的爱意气味，但你看得到他眼中的真诚，听得到他声音里的颤抖。你明白了：气味是通往真相的捷径，但不是唯一的路。信任不是'闻到证据'，而是'在无法确认的时候仍然选择相信'。你点头答应，第一次不用鼻子去爱一个人。",
+      "bgmTag": "love_theme_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这份没有气味证据的爱情，你的选择是？",
+        "options": [
+          { "label": "相信：信任不需要证据", "response": "你选择相信，解锁'信任不需要证据'结局。你明白了爱的本质。" },
+          { "label": "继续观察：用时间证明", "response": "你选择等待，用时间来验证这份感情。" },
+          { "label": "放弃：无法接受不确定", "response": "你选择放手，获得独白：'你将永远记得第一次不用鼻子去爱一个人。'" }
+        ]
+      },
+      "sourceAnchor": "第470卷(1)·Layer2·第五幕·和解与新生"
+    },
+    {
+      "id": "evt_07",
+      "title": "职业的重新认识",
+      "description": "通过临终老人的委托，林栩重新找回这份工作的意义——气味翻译不是'揭穿谎言'，而是'让人被理解'。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2041 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "一个月过去了。你重新认识了这份工作——气味翻译师不是'侦探'或'测谎仪'，而是'翻译'。使命是帮助人们理解彼此，而不是揭穿彼此。每一次委托，都是一次'被理解'的机会。你在日记里写下：'她说我没事，但她的气味在哭。爱不是一种气味，爱是即使闻不到也选择相信。'",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "warm",
+      "sourceAnchor": "第470卷(1)·Layer2·第四幕·崩溃与重建"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04", "evt_06"],
+    "valleyMoments": ["evt_03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
