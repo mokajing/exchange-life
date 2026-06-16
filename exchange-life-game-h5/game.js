@@ -297,6 +297,8 @@ const TIMELINE_LIST = [
   'detective-counselor-swap-week',
   'huli-wigman-coming-of-age',
   'retired-cadre-first-day',
+  'tomb-mural-restorer',
+  'cainiao-station-clerk',
 ];
 
 let player = null;

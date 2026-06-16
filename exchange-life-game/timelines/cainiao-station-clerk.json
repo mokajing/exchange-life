@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "id": "cainiao-station-clerk",
+    "title": "菜鸟驿站取件员的最后100米",
+    "subtitle": "在所有人都懒得下楼取快递的年代里替陌生人守着等待与期待的人",
+    "sourceType": "social_media",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_open",
+      "title": "清晨开门",
+      "description": "06:00起床，骑电动车15分钟到驿站。06:30开门，扫描第一批到站包裹。天蒙蒙亮，驿站灯光是画面里唯一的暖源。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "闹钟在05:45响起。你揉着眼睛骑上电动车，晨风带着凉意。06:30，钥匙转动锁芯，驿站的日光灯管亮起冷白的光。凌晨物流车卸下的包裹堆成小山，扫码枪'嘀'的一声，新的一天开始了。",
+      "bgmTag": "morning_silence_soft",
+      "visualTone": "cool",
+      "sourceAnchor": "第469卷·Layer1时间线"
+    },
+    {
+      "id": "evt_02_morning_rush",
+      "title": "早高峰取件潮",
+      "description": "07:00-09:00早高峰取件潮，上班族排队取件。每天处理200-400件包裹的入库和出库。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "'取件码多少？'这句话你已经说了上百遍。扫码枪嘀嘀作响，包裹在手中流转。有人匆匆拿走包裹连头都不抬，有人笑着说'谢谢'。你的手指记住了每个常客的名字和取件习惯。",
+      "bgmTag": "urban_morning_bustle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "早高峰排队很长，你选择：",
+        "options": [
+          { "label": "加快速度", "response": "你加快扫码节奏，队伍缩短但出了两个错件。后面要花更多时间处理纠纷。" },
+          { "label": "保持节奏", "response": "你维持稳定的速度，队伍更长但零差错。有人等得不耐烦走了。" }
+        ]
+      },
+      "sourceAnchor": "第469卷·Layer1关键事件"
+    },
+    {
+      "id": "evt_03_elderly_help",
+      "title": "帮老人找包裹",
+      "description": "一位老人找不到取件码，需要耐心帮助。老龄化社会的情感痛点。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "老奶奶站在柜台前，手里攥着一张皱巴巴的纸条，上面没有取件码。'姑娘，我儿子给我寄的药，我不会弄那个码...'她的眼神有些无助。你放下扫码枪，轻声说：'奶奶别急，报手机号我帮您查。'",
+      "bgmTag": "warm_strings_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老人找不到取件码，你如何帮助？",
+        "options": [
+          { "label": "让她报手机号查", "response": "你花时间帮她查到取件码，还教她下次怎么保存。老人感激地握住你的手。" },
+          { "label": "让她回家问子女", "response": "你建议她回去问儿子要取件码。老人失望地离开，背影佝偻。" }
+        ]
+      },
+      "sourceAnchor": "第469卷·Layer2共鸣节点3"
+    },
+    {
+      "id": "evt_04_double11_chaos",
+      "title": "双十一爆仓",
+      "description": "双十一期间驿站爆仓，货架堆到天花板，取件队伍排到门外。全民共同的剁手节后遗症。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "双十一后的第三天，驿站已经爆仓。包裹从货架溢出，堆到天花板，门口还排着长队。你的手机不断震动——催件电话、投诉短信、系统报警。今天入库800件，是平时的三倍。",
+      "bgmTag": "tense_beat_fast",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "爆仓了，你决定：",
+        "options": [
+          { "label": "加班整理到凌晨", "response": "你咬牙坚持到凌晨两点，终于理清了库存。深夜独处时，反而有种奇异的平静。" },
+          { "label": "明天再弄", "response": "你选择按时关门。第二天面对更混乱的局面，被投诉了三单。" }
+        ]
+      },
+      "sourceAnchor": "第469卷·Layer1关键事件4"
+    },
+    {
+      "id": "evt_05_warm_moments",
+      "title": "温暖瞬间",
+      "description": "老奶奶送来自己包的饺子，小朋友奶声奶气说谢谢阿姨，加班族深夜取件时的一句辛苦了。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "下午三点，李奶奶又来了，手里端着一盒还烫手的饺子。'姑娘，尝尝我自己包的。'晚上九点，加班到深夜的年轻人来取件，轻声说了句'辛苦了'。这些瞬间像星星，点亮了重复枯燥的日子。",
+      "bgmTag": "warm_piano_gentle",
+      "visualTone": "warm",
+      "sourceAnchor": "第469卷·Layer2情感弧线"
+    },
+    {
+      "id": "evt_06_damaged_package",
+      "title": "破损包裹抉择",
+      "description": "一个包裹明显破损，需要决定是否主动告知收件人。守住原则还是逃避责任。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "分拣时你发现一个包裹外包装严重破损，里面的东西可能已经坏了。如果装作没看到，用户签收后发现问题会投诉快递公司；如果主动告知，可能被骂'为什么不早点说'。",
+      "bgmTag": "tension_minimal",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "发现破损包裹，你选择：",
+        "options": [
+          { "label": "主动告知收件人", "response": "你打电话告知情况，对方虽然生气但感谢你的诚实。你守住了底线。" },
+          { "label": "装作没看到", "response": "你把包裹放在货架上。晚上收到投诉，内心不安。" }
+        ]
+      },
+      "sourceAnchor": "第469卷·Layer4选择分支4"
+    },
+    {
+      "id": "evt_07_close_shop",
+      "title": "深夜关店",
+      "description": "21:00关门，盘点，骑电动车回家。300个包裹各归其主，今天的最后100米跑完了。",
+      "ageRange": { "start": 22, "end": 35 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "21:00，最后一个取件人离开。你锁上门，长按门锁按钮三秒，灯一盏盏熄灭。今天入库287件，出库274件，滞留13件。腿有点酸，但心里是满的。月光照着空了的货架，明天又是新的一天。",
+      "bgmTag": "night_farewell_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "第469卷·Layer2情感弧线"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_warm_moments", "evt_03_elderly_help"],
+    "valleyMoments": ["evt_04_double11_chaos", "evt_06_damaged_package"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

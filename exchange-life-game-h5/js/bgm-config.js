@@ -544,6 +544,25 @@ const BGM_MAP = {
   morning_silence_soft     : { file: 'audio/bgm/morning_silence_soft.mp3', volume: 0.2, loop: true },
   silence_with_piano       : { file: 'audio/bgm/silence_with_piano.mp3', volume: 0.25, loop: true },
   lofi_afternoon_quiet     : { file: 'audio/bgm/lofi_afternoon_quiet.mp3', volume: 0.25, loop: true },
+
+  // === 古墓壁画修复师专用标签 (2026-06-17 P0第470卷) ===
+  tomb_ambient_low:        { file: 'audio/bgm/tomb_ambient_low.mp3',        volume: 0.2, loop: true },
+  silence_with_drip:       { file: 'audio/bgm/silence_with_drip.mp3',       volume: 0.15, loop: true },
+  asmr_scratch_soft:       { file: 'audio/bgm/asmr_scratch_soft.mp3',       volume: 0.25, loop: true },
+  ancient_reveal_chime:    { file: 'audio/bgm/ancient_reveal_chime.mp3',    volume: 0.4, loop: false },
+  tension_heartbeat:       { file: 'audio/bgm/tension_heartbeat.mp3',       volume: 0.35, loop: true },
+  mystery_glow_soft:       { file: 'audio/bgm/mystery_glow_soft.mp3',       volume: 0.25, loop: true },
+  farewell_guqin:          { file: 'audio/bgm/farewell_guqin.mp3',          volume: 0.3, loop: false },
+
+  // === 菜鸟驿站取件员专用标签 (2026-06-17 P0第469卷) ===
+  urban_morning_bustle:    { file: 'audio/bgm/urban_morning_bustle.mp3',    volume: 0.3, loop: true },
+  warm_strings_gentle:     { file: 'audio/bgm/warm_strings_gentle.mp3',     volume: 0.35, loop: true },
+  tense_beat_fast:         { file: 'audio/bgm/tense_beat_fast.mp3',         volume: 0.4, loop: true },
+  warm_piano_gentle:       { file: 'audio/bgm/warm_piano_gentle.mp3',       volume: 0.3, loop: true },
+  tension_minimal:         { file: 'audio/bgm/tension_minimal.mp3',         volume: 0.3, loop: true },
+  night_farewell_piano:    { file: 'audio/bgm/night_farewell_piano.mp3',    volume: 0.3, loop: false }
+
+
 };
 
 /**
