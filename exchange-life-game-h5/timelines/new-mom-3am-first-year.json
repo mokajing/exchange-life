@@ -1,0 +1,187 @@
+{
+  "meta": {
+    "id": "new-mom-3am-first-year",
+    "title": "产后第一年新手妈妈的深夜三点",
+    "subtitle": "在朋友圈里不会发的崩溃、愧疚和被爱——一个关于身份消解与重新定义「足够好」的故事",
+    "sourceType": "social_media",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T20:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_first_breastfeed",
+      "title": "产房里的第一次哺乳",
+      "description": "产后第1天，产房里第一次哺乳，疼痛与喜悦交织。宝宝含乳的瞬间眼泪无声滑落——不是因为疼，是因为突然意识到自己的人生永远改变了。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "产房里第一次哺乳。宝宝含乳的瞬间眼泪无声滑落——不是因为疼，是因为突然意识到：我的人生永远改变了。从一个有名字的人，变成了'XX妈妈'。",
+      "bgmTag": "minimal_piano_single",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_night_feeding_loop",
+      "title": "夜奶循环：每两小时一次",
+      "description": "产后第2周，夜奶频率每2小时一次，睡眠碎片化达到极限。醒了。又醒了。几点？三点。喂奶。换尿布。拍嗝。放下。没放下成功。重来。",
+      "ageRange": { "start": 28, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "醒了。又醒了。几点？三点。喂奶。换尿布。拍嗝。放下。没放下成功。重来。整栋楼只有你醒着，窗外偶尔驶过的车灯是唯一的陪伴。",
+      "bgmTag": "night_silence_breath",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "凌晨三点宝宝哭了，你会怎么做？",
+        "options": [
+          { "label": "立刻起身回应", "response": "身体比意识先动起来。这是母职的身体记忆，也是爱的本能反应。" },
+          { "label": "让自己多躺30秒", "response": "你允许自己不完美。这30秒不是自私，是给自己一个喘息的缝隙。" },
+          { "label": "叫醒身边的人", "response": "开口求助比想象中难。但被接住的瞬间，你知道这不是你一个人的战斗。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_hormone_crash",
+      "title": "产后激素骤降期",
+      "description": "产后第1-3月，产后激素骤降期，情绪波动最剧烈阶段。在浴室镜子前看到自己陌生的身体，哭了十分钟，然后擦干脸回去喂奶。",
+      "ageRange": { "start": 28, "end": 29, "fuzzy": true },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "浴室镜子里的身体陌生得让人害怕。哭了十分钟，然后擦干脸回去喂奶。那一刻不是坚强，是接受了'现在的我就是这样的'。",
+      "bgmTag": "low_freq_white_noise",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_04_first_time_alone",
+      "title": "产后第一次独自出门",
+      "description": "离开宝宝两小时去剪头发，坐在理发店里盯着手机监控画面，剪刀声听不见只听见自己的心跳。分离焦虑不只属于孩子。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "理发店的剪刀声听不见，只听见自己的心跳。手机监控画面里宝宝安静地睡着，但你的手一直在抖。原来分离焦虑不只属于孩子。",
+      "bgmTag": "heartbeat_muffled",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "朋友问「当妈感觉怎么样」，你会怎么回答？",
+        "options": [
+          { "label": "说出真实感受", "response": "你深吸一口气，说出了那些藏在'挺好的'背后的真话。被倾听的感觉，像久违的阳光。" },
+          { "label": "笑着说「挺好的」", "response": "面具戴久了就长在了脸上。但你知道，笑容背后有多少说不出口的孤独。" },
+          { "label": "转移话题", "response": "有些话太重了，重到不知道该怎么开口。沉默也是一种自我保护。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_help_word_sting",
+      "title": "「帮我」这个词的刺痛",
+      "description": "丈夫说「我来帮你」，但她发现自己连「帮忙」这个词都刺痛——因为「帮」意味着这本来就是她的事。隐形劳动的重量无人看见。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.5,
+      "narrativeText": "他说「我来帮你」。但你发现连「帮忙」这个词都刺痛——因为「帮」意味着这本来就是你的事。那些看不见的劳动，什么时候才能被真正看见？",
+      "bgmTag": "tense_minimal_beat",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_06_social_media_filter",
+      "title": "朋友圈的滤镜与现实",
+      "description": "别人晒的是精致的辅食和笑容，她删掉了三次编辑好的「当妈好幸福」文案，最后发了一张模糊的天花板。想说真话却选择了沉默。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "删掉了三次编辑好的「当妈好幸福」文案，最后发了一张模糊的天花板。你是否也有过想说真话却选择了沉默的时刻？",
+      "bgmTag": "phone_screen_glow",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "在这个体验里，你可以选择不那么坚强。",
+        "options": [
+          { "label": "继续硬撑", "response": "你习惯了把脆弱藏起来。但在这里，你可以暂时放下那个「必须坚强」的自己。" },
+          { "label": "承认自己很累", "response": "说出来不容易。但承认疲惫不是失败，是给自己一个被看见的机会。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_career_choice",
+      "title": "重返职场还是全职育儿",
+      "description": "产后第6月，重返职场或继续全职育儿的抉择节点。没有正确答案，只有属于自己的答案。选择背后的经济账和身份重构。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "产假结束前的最后一周。重返职场？继续全职？还在纠结？没有正确答案，只有属于你的答案。每一个选择背后，都是一次身份的重构。",
+      "bgmTag": "crossroads_ambient",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "产假结束，你会怎么选？",
+        "options": [
+          { "label": "准备重返职场", "response": "分离焦虑不只属于孩子。你也在学着放手，学着相信别人能照顾好他。" },
+          { "label": "决定继续全职育儿", "response": "这不是退让，是另一种勇敢。你在重新定义自己的价值，哪怕它不被量化。" },
+          { "label": "还在纠结中", "response": "没有标准答案的困境最折磨人。但纠结本身，说明你在认真对待这个选择。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_first_mama",
+      "title": "宝宝第一次叫「妈妈」",
+      "description": "不是在精心准备的亲子互动里，而是在她累到瘫坐地上时，孩子爬过来把头靠在她膝盖上发出的那个音。所有低谷都被这一声托住了。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "累到瘫坐地上时，孩子爬过来把头靠在你膝盖上，发出了那个音。不是在精心准备的互动里，而是在最低谷时被一个微小瞬间托住了。",
+      "bgmTag": "cello_warm_synth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_09_imperfect_reconciliation",
+      "title": "不完美的和解",
+      "description": "产后第12月，第一次给宝宝过生日，回望一年的自己。不是大团圆，是一种带着倦意的温柔：「我不完美，但我在这里。」",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "宝宝一岁了。回望这一年，不是大团圆结局，是一种带着倦意的温柔。你不完美，但你在这里。这就够了。",
+      "bgmTag": "morning_birds_dream",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_enough_good",
+      "title": "重新定义「足够好」",
+      "description": "某天清晨阳光照进来，宝宝在怀里安静呼吸，忽然觉得这个小小的重量就是答案，虽然答案本身也带着问题。接受不完美，才是成长的开始。",
+      "ageRange": { "start": 29, "fuzzy": true },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "清晨阳光照进来，宝宝在怀里安静呼吸。这个小小的重量就是答案，虽然答案本身也带着问题。但此刻，你是足够好的。",
+      "bgmTag": "gentle_resolution",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_01_first_breastfeed", "evt_08_first_mama", "evt_10_enough_good"],
+    "valleyMoments": ["evt_03_hormone_crash", "evt_06_social_media_filter"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["产后情绪困扰", "身份认同危机", "亲密关系张力"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

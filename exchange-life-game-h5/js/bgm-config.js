@@ -446,6 +446,16 @@ const BGM_MAP = {
   office_evening_calm:     { file: 'audio/bgm/office_evening_calm.mp3',     volume: 0.25, loop: true },
   evening_silence:         { file: 'audio/bgm/evening_silence.mp3',         volume: 0.2, loop: true },
   lofi_night_loop:         { file: 'audio/bgm/lofi_night_loop.mp3',         volume: 0.3, loop: true }
+  // === 产后第一年新手妈妈专用标签 ===
+  minimal_piano_single:   { file: 'audio/bgm/minimal_piano_single.mp3',   volume: 0.25, loop: true },
+  night_silence_breath:   { file: 'audio/bgm/night_silence_breath.mp3',   volume: 0.2, loop: true },
+  low_freq_white_noise:   { file: 'audio/bgm/low_freq_white_noise.mp3',   volume: 0.15, loop: true },
+  heartbeat_muffled:      { file: 'audio/bgm/heartbeat_muffled.mp3',      volume: 0.25, loop: true },
+  phone_screen_glow:      { file: 'audio/bgm/phone_screen_glow.mp3',      volume: 0.2, loop: true },
+  crossroads_ambient:     { file: 'audio/bgm/crossroads_ambient.mp3',     volume: 0.3, loop: true },
+  cello_warm_synth:       { file: 'audio/bgm/cello_warm_synth.mp3',       volume: 0.35, loop: true },
+  morning_birds_dream:    { file: 'audio/bgm/morning_birds_dream.mp3',    volume: 0.3, loop: true },
+  gentle_resolution:      { file: 'audio/bgm/gentle_resolution.mp3',      volume: 0.35, loop: true }
 
 };
 
