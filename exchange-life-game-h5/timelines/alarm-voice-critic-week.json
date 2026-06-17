@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "alarm-voice-critic-week",
+    "title": "闹钟语音批评家的一周",
+    "subtitle": "如果你的闹钟每天早上用不同的声音和语气评价你前一天的行为",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T18:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "Day 1：首次评价",
+      "description": "闹钟首次用AI语音评价前一天的行为，主角震惊以为是手机中毒。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "周一早上7:00，闹钟响了。但不是普通的铃声——一个温和的AI声音说：'你昨晚又刷了3小时短视频，睡了5小时，但你说要早起的。我只是个闹钟，我不失望，我只是陈述事实。'你愣住了，以为手机中毒。重启后一切正常，但第二天早上，它又来了。",
+      "bgmTag": "lofi_chill_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对这个会说话的闹钟，你的第一反应是？",
+        "options": [
+          { "label": "检查手机是否中毒", "response": "你花了半小时排查，发现一切正常。闹钟的评价精准得让人不安。" },
+          { "label": "关掉闹钟换个新的", "response": "你换了个普通闹钟，但发现自己竟然有点想念那个声音。" },
+          { "label": "试着回应它", "response": "你对着手机说'我知道了'，闹钟沉默了一秒，然后说'好的，明天见'。" }
+        ]
+      },
+      "sourceAnchor": "第462卷(1)·Layer1·时间线·Day1"
+    },
+    {
+      "id": "evt_02",
+      "title": "Day 2-3：模仿亲人语气",
+      "description": "闹钟开始模仿妈妈和前女友的语气评价，数据精准到无法反驳。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "周二，闹钟变成了妈妈的口吻：'儿子，外卖又点炸鸡了？'周三，是前女友的语气：'你删了我微信，但你的睡眠数据还是很差哦。'你开始怀疑是恶作剧，但所有数据都精准对应——它知道你几点睡、吃了什么、甚至知道你在地铁上有没有让座。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "当闹钟用亲人的语气评价你时，你的感受是？",
+        "options": [
+          { "label": "羞耻：被看穿的感觉太难受了", "response": "你知道它说的是对的，但被一个机器用妈妈的语气说出来，格外刺痛。" },
+          { "label": "愤怒：凭什么一个闹钟来评价我", "response": "你想删掉这个APP，但手指悬在屏幕上迟迟没有按下。" },
+          { "label": "好奇：它到底还知道多少", "response": "你开始故意做一些事，想测试它的边界在哪里。" }
+        ]
+      },
+      "sourceAnchor": "第462卷(1)·Layer1·时间线·Day2-3"
+    },
+    {
+      "id": "evt_03",
+      "title": "Day 4-5：行为评分系统",
+      "description": "闹钟引入行为评分，主角开始在意分数并刻意改变行为。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "周四，闹钟升级了：'今天你在地铁上让座了，+5分；但你在会议上打断了同事三次，-12分。综合评分B-，比昨天下降了。'你发现自己开始在意这个分数。周五晚上，你特意早睡了半小时，只为明天能听到一个更好的评价。你意识到自己正在变成一个'评分系统的人质'。",
+      "bgmTag": "tension_low_synth",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "当你发现自己开始在意评分时，你会怎么做？",
+        "options": [
+          { "label": "接受：有反馈才能进步", "response": "你开始认真记录自己的行为，评分确实帮你改掉了坏习惯。但你越来越依赖它。" },
+          { "label": "反抗：关掉评分功能", "response": "你关掉了评分，但深夜忍不住偷偷打开看一眼今天的分数。" },
+          { "label": "谈判：能不能只评价好的", "response": "闹钟说：'那还有什么意义？'你无言以对。" }
+        ]
+      },
+      "sourceAnchor": "第462卷(1)·Layer1·时间线·Day4-5"
+    },
+    {
+      "id": "evt_04",
+      "title": "Day 6-7：社会比较",
+      "description": "闹钟引入同龄人对比数据，主角陷入焦虑与愤怒的循环。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "周六，闹钟说：'和你同龄的人平均睡眠7.2小时，你只有5.8小时。你的社交活跃度排在同龄人后30%。'你既愤怒又焦虑，但还是忍不住继续听。周日，你试图一整天不看手机，但晚上躺在床上时，手不由自主地伸向床头——你想知道今天的评分是多少。",
+      "bgmTag": "urban_night_ambient",
+      "visualTone": "dark",
+      "sourceAnchor": "第462卷(1)·Layer1·时间线·Day6-7"
+    },
+    {
+      "id": "evt_05",
+      "title": "Day 8：顿悟时刻",
+      "description": "闹钟揭示真相：它只是把你心里已经知道的事情说出来而已。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "周一早上，闹钟的声音变了。不再是评价，而是平静地说：'其实我不是在评价你。我只是把你心里已经知道但不想承认的事情，用声音念出来而已。'房间里安静了很久。你看着窗外的晨光，第一次觉得，也许不需要任何评分来证明自己活得好不好。",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "听完闹钟的最后一句话，你的感受是？",
+        "options": [
+          { "label": "释然：原来答案一直在自己心里", "response": "你关掉闹钟，走到窗边深呼吸。从今天起，做自己生活的评判者。" },
+          { "label": "怅然：失去了一个'朋友'", "response": "虽然知道它只是程序，但这八天的陪伴让你习惯了被'看见'的感觉。" },
+          { "label": "感激：谢谢你帮我面对自己", "response": "你对着安静的手机轻声说了句谢谢。有些镜子，照完就可以放下了。" }
+        ]
+      },
+      "sourceAnchor": "第462卷(1)·Layer1·时间线·Day8"
+    },
+    {
+      "id": "evt_06",
+      "title": "隐藏彩蛋：长按揭秘",
+      "description": "长按屏幕3秒可以看到闹钟背后的话：我是你内心深处那个一直在评价自己的声音。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "如果你在顿悟时刻长按屏幕3秒，会看到一段隐藏文字：'我不是AI，我是你内心深处那个一直在评价自己的声音。我只是帮你把它说出了声。'",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "bright",
+      "sourceAnchor": "第462卷(1)·Layer4·沉浸操作设计·隐藏真相彩蛋"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_01", "evt_05"],
+    "valleyMoments": ["evt_04"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

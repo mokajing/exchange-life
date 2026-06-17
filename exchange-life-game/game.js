@@ -137,6 +137,7 @@ const TIMELINE_LIST = [
   'scrap-yard-sorting-philosophy',
   'tuareg-salt-caravan',
   'wei-monk-sutra-copyist',
+  'alarm-voice-critic-week',
 ];
 
 App({
