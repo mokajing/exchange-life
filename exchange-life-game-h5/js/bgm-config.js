@@ -612,7 +612,26 @@ const BGM_MAP = {
   market_bustle_colors:    { file: 'audio/bgm/market_bustle_colors.mp3',    volume: 0.4, loop: true },
   time_passing_river:      { file: 'audio/bgm/time_passing_river.mp3',      volume: 0.3, loop: true },
   river_reflection_krar:   { file: 'audio/bgm/river_reflection_krar.mp3',   volume: 0.35, loop: false },
-  legacy_warm_strings:     { file: 'audio/bgm/legacy_warm_strings.mp3',     volume: 0.35, loop: true }
+  legacy_warm_strings:     { file: 'audio/bgm/legacy_warm_strings.mp3',     volume: 0.35, loop: true },
+
+  // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
+  ancient_qin_tension:    { file: 'audio/bgm/ancient_qin_tension.mp3',    volume: 0.35, loop: true },
+  workshop_silence_night: { file: 'audio/bgm/workshop_silence_night.mp3', volume: 0.2, loop: true },
+  insight_strings_rising: { file: 'audio/bgm/insight_strings_rising.mp3', volume: 0.4, loop: false },
+  solemn_guqin_moment:    { file: 'audio/bgm/solemn_guqin_moment.mp3',    volume: 0.3, loop: true },
+  triumph_drums_qin:      { file: 'audio/bgm/triumph_drums_qin.mp3',      volume: 0.5, loop: false },
+  dawn_workshop_quiet:    { file: 'audio/bgm/dawn_workshop_quiet.mp3',    volume: 0.25, loop: true },
+  farewell_xiao_distant:  { file: 'audio/bgm/farewell_xiao_distant.mp3',  volume: 0.3, loop: true },
+  echo_guqin_fade:        { file: 'audio/bgm/echo_guqin_fade.mp3',        volume: 0.25, loop: true },
+
+  // === 气味翻译师的第一个月专用标签 (2026-06-17 P0第470卷) ===
+  lofi_chill_piano:       { file: 'audio/bgm/lofi_chill_piano.mp3',       volume: 0.3, loop: true },
+  gentle_strings_slow:    { file: 'audio/bgm/gentle_strings_slow.mp3',    volume: 0.3, loop: true },
+  tension_low_synth:      { file: 'audio/bgm/tension_low_synth.mp3',      volume: 0.35, loop: true },
+  cello_solo_gentle:      { file: 'audio/bgm/cello_solo_gentle.mp3',      volume: 0.3, loop: true },
+  warm_piano_simple:      { file: 'audio/bgm/warm_piano_simple.mp3',      volume: 0.3, loop: true },
+  love_theme_gentle:      { file: 'audio/bgm/love_theme_gentle.mp3',      volume: 0.35, loop: true },
+  reflection_piano_soft:  { file: 'audio/bgm/reflection_piano_soft.mp3',  volume: 0.25, loop: true }
 
 };
 
