@@ -143,6 +143,7 @@ const TIMELINE_LIST = [
   'ming-forbidden-city-night-watchman',
   'community-group-leader-day',
   'amazigh-tattoo-master',
+  'meghalaya-living-root-bridge',
 ];
 
 App({

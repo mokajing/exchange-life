@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "meghalaya-living-root-bridge",
+    "title": "印度梅加拉亚邦活根桥守护者",
+    "subtitle": "在世界上最湿润之地，用25年等待一座桥生长成型",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-18T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_select_tree",
+      "title": "选种仪式",
+      "description": "雨季清晨，赤脚穿过被雨水浸透的丛林，沿着溪流寻找健康的印度榕母树。用手指感受树皮的湿度与弹性，选择最粗壮的气生根作为桥胚。一棵合格的母树需要至少30年树龄。",
+      "ageRange": { "start": 18, "end": 20 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "雨季的清晨，你赤脚踩在苔藓覆盖的石头上，穿过被雨水浸透的丛林。溪水轰鸣，空气中弥漫着泥土和腐叶的气息。你的手指抚过一棵又一棵印度榕的树皮——感受湿度，感受弹性。祖父说过，一棵合格的母树需要至少30年树龄。你停下脚步，掌心贴上一棵老树的树干，气生根在你指间微微颤动。",
+      "bgmTag": "rain_forest_ambient",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "三棵印度榕母树摆在面前，哪一棵的气生根最有弹性？",
+        "options": [
+          { "label": "左边那棵，根系粗壮但略显僵硬", "response": "这棵树的根已经过了最佳时期，桥的寿命可能会缩短。" },
+          { "label": "中间那棵，根系柔韧且有温度", "response": "你选的和80年前造桥人的祖父选了同一棵。这根将跨越溪流，生长500年。" },
+          { "label": "右边那棵，根系纤细但充满活力", "response": "这棵树还太年轻，需要再等10年才能承担桥梁的重量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_guide_root",
+      "title": "导根十五年",
+      "description": "将选中的气生根穿入槟榔树干挖空的中空管中，引导根系跨过溪流生长。每周穿过密林检查根系走向，用双手调整每一根气生根的生长方向。这个过程无法用任何机器替代。",
+      "ageRange": { "start": 20, "end": 35 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你将气生根小心地穿入槟榔树干挖空的中空管中。根系在黑暗中摸索前进，每天生长1-2毫米。每周你都穿过密林来到溪边，用双手调整根系的走向。15年，5475天，你的手磨出了老茧，根系终于到达了对岸。",
+      "bgmTag": "gentle_growth_patience",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "气生根在生长过程中遇到分叉，向左还是向右？",
+        "options": [
+          { "label": "向左，形成更宽的桥面", "response": "桥面会更宽敞，可以容纳更多人同时通过。但扶手会相对薄弱。" },
+          { "label": "向右，形成更坚固的扶手", "response": "桥面会窄一些，但护栏更加牢固。在暴雨季节，这份坚固能救命。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_weave_bridge",
+      "title": "编织十年",
+      "description": "当气生根到达对岸并扎根后，将多根气生根编织在一起，形成桥面、扶手和护栏。编织手法类似藤编，但材料是活的、继续生长的树根。需要预判根系未来50年的生长趋势。",
+      "ageRange": { "start": 35, "end": 45 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "根系终于在对岸扎下了根。你开始将多根气生根编织在一起——像藤编，但材料是活的。每一根都在继续生长，你需要预判它们未来50年的走向。一根编错，整座桥可能在未来崩解。你的手指在根系间穿梭，感受着生命的脉动。",
+      "bgmTag": "weaving_rhythm_ancient",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_cement_challenge",
+      "title": "水泥桥的挑战",
+      "description": "政府工程师带着水泥桥方案来到村里，说你们的桥不安全，我们有更快的办法。村民动摇了，造桥人沉默。",
+      "ageRange": { "start": 45, "end": 48 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "工程师穿着干净的靴子站在泥地里，手里拿着图纸。他说水泥桥三个月就能建好，安全、现代、可靠。村民们窃窃私语，有人点头。你站在自己尚未完工的活根桥上，沉默不语。桥下的溪水依旧流淌，根系在无人看见的地方继续生长。",
+      "bgmTag": "tension_low_strings",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_05_flood_test",
+      "title": "百年暴雨的考验",
+      "description": "一场百年一遇的暴雨冲垮了附近三座水泥桥，而活根桥在洪水中被淹没24小时后，水位退去，桥面完好无损，根系比暴雨前更粗壮了。",
+      "ageRange": { "start": 48, "end": 49 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "暴雨持续了三天三夜。溪水暴涨，淹没了你的桥。你站在岸边，看着浑浊的洪水吞噬了一切。24小时后，水位退去。你的桥还在——不仅还在，根系吸饱了水，比暴雨前更粗壮了。而附近三座水泥桥，已被冲得只剩残骸。你走上桥，抚摸着祖父80年前亲手引导的那根最粗的根，树皮上还有你小时候刻下的名字。",
+      "bgmTag": "triumph_after_storm",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "洪水中，你是留在桥上守护，还是撤退到安全地带？",
+        "options": [
+          { "label": "留在桥上，与桥共存亡", "response": "你感受到根在洪水中越抱越紧，整座桥像一个活着的生命体，在激流中呼吸。" },
+          { "label": "撤退到高处，等待洪水退去", "response": "你在雨中站了一夜。天亮时回到桥边，发现桥不仅完好，还长出了新的气生根。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_guardian_silence",
+      "title": "守桥的寂静岁月",
+      "description": "活根桥建成后需要持续维护——修剪过于茂密的枝叶、填补根系的空隙、加固被暴雨冲刷的节点。一位造桥人一生通常只能完成2-3座桥。",
+      "ageRange": { "start": 49, "end": 65 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "桥建成了，但工作从未结束。每年雨季过后，你都要修剪过于茂密的枝叶，填补根系的空隙。有时候你只是坐在桥头，听着溪水声，感受着桥在你身下缓慢地呼吸。这座桥不是你建造的，是你和它一起生长的。",
+      "bgmTag": "silence_rain_distant",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_07_passing_torch",
+      "title": "传承：等你的手长大",
+      "description": "造桥人开始教村里最年轻的男孩如何选种。男孩的手太小，握不住气生根。造桥人说：没关系，等你的手长到能握住它的时候，这棵根也长到能跨过溪流了。",
+      "ageRange": { "start": 65, "end": 75 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "男孩的手太小了，握不住那根粗壮的气生根。他有些沮丧地看着你。你蹲下来，把手覆在他的手上，一起感受着树皮的温度和湿度。你说：没关系，等你的手长到能握住它的时候，这棵根也长到能跨过溪流了。男孩的眼睛亮了。你看到了80年前的自己。",
+      "bgmTag": "legacy_hope_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想对男孩说什么？",
+        "options": [
+          { "label": "这座桥会用500年，比你我的生命都长", "response": "男孩沉默了一会儿，然后轻轻点了点头。他似乎理解了某种超越时间的东西。" },
+          { "label": "记住这种感觉，以后你会教给你的孩子", "response": "男孩紧紧握住了那根气生根，仿佛握住了一个承诺。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_05_flood_test", "evt_07_passing_torch"],
+    "valleyMoments": ["evt_04_cement_challenge"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["技艺失传伤感情绪"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
