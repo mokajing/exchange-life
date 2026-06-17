@@ -1,0 +1,125 @@
+{
+  "meta": {
+    "id": "benin-bronze-caster",
+    "title": "贝宁王国青铜铸造匠人的最后一炉",
+    "subtitle": "在西非雨林中用失蜡法为奥巴王铸造永恒头像的无名匠人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_wax_shaping",
+      "title": "蜂蜡塑形",
+      "description": "从蜂蜡塑形开始，老师傅的手因常年接触高温金属而布满疤痕，但抚摸蜡模时比触碰婴儿还轻柔。",
+      "ageRange": { "start": 55 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "蜂蜡在你的指间变暖。这双手布满了烫伤的疤痕，每一道都是与金属对话留下的印记。但此刻它们比触碰新生儿还要轻柔——你在塑造一位国王的面容。这是你生涯中的最后一炉。徒弟还没出师。你必须把一辈子的技艺都揉进这块蜡里。",
+      "bgmTag": "african_drums_soft",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_prayer_before_cast",
+      "title": "浇铸前的祈祷",
+      "description": "祈祷词不是求成功，而是'让祖先的脸在铜中醒来'。他知道自己的名字不会被记住，但奥巴的面容会因他的手而永存。",
+      "ageRange": { "start": 55 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "熔炉的火已经烧到了正确的颜色。你闭上眼，低声念出祖传的祈祷词。你不是在祈求铸造成功——你是在请求祖先的脸在铜中醒来。你的名字不会出现在任何记录里。但奥巴的面容会因为你的手而被铭记千年。这种无名的永恒，是你理解的最高荣耀。",
+      "bgmTag": "ritual_chant",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "蜡模塑形时，你选择塑造什么样的面容？",
+        "options": [
+          { "label": "年轻奥巴的面容", "response": "力量与朝气凝固在铜中。你选择了青春作为永恒的姿态。" },
+          { "label": "老年奥巴的面容", "response": "皱纹里藏着智慧与慈悲。你选择了岁月作为永恒的重量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_melting_pouring",
+      "title": "熔铜与浇铸",
+      "description": "风箱呼吼、金属液流动的沉闷咕噜声。凭经验决定何时浇铸——过早则残缺，过晚则氧化。",
+      "ageRange": { "start": 55 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "风箱在咆哮。铜液在坩埚中翻涌，橙红色的光映在你满是汗水的脸上。温度到了吗？你的眼睛无法测量，只有几十年的直觉能判断。太早，铸件会残缺；太晚，铜液会氧化。你深吸一口气，端起坩埚。这一刻没有犹豫的余地。铜液流入陶范的声音像一条滚烫的河。",
+      "bgmTag": "forge_fire",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "熔铜温度如何判断？",
+        "options": [
+          { "label": "凭经验立即浇铸", "response": "铜液完美地填满了每一个角落。几十年的手感没有骗你。" },
+          { "label": "再等一会儿确保充分熔化", "response": "铜液略有氧化，成品表面有细微瑕疵。但那份等待本身也是一种虔诚。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_breaking_mold",
+      "title": "破范揭晓",
+      "description": "陶片碎裂的清脆声后是短暂寂静，然后悠远的牛角号声响起。一张永恒的面容从灰烬中浮现。",
+      "ageRange": { "start": 55 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.95,
+      "narrativeText": "你用锤子轻敲陶范。碎片一片片剥落，像揭开时间的面纱。青绿色的铜光从灰暗中透出。然后是寂静。完整的寂静。接着远处传来牛角号的声音——有人知道了。一张面容从灰烬中浮现，完美得不像是人手所造。你知道，它比你活得更久。",
+      "bgmTag": "horn_revelation",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_05_secret_mark",
+      "title": "底座上的秘密记号",
+      "description": "收尾时选择在底座刻上自己的秘密记号还是不刻——个体尊严的微小反抗或对传统的完全服从。",
+      "ageRange": { "start": 55 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "打磨完成了。头像在烛光下散发着温润的光泽。你翻过底座，手指停在那里。刻还是不刻？一个微小的记号，没人会发现，但你自己知道。这是你作为一个无名匠人对'被遗忘'的最后一点抵抗。或者，你选择不刻——让作品完全属于传统，属于祖先，属于超越个体的永恒。",
+      "bgmTag": "quiet_reflection",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "是否在底座刻上秘密记号？",
+        "options": [
+          { "label": "刻下记号", "response": "一个极小的符号藏在底座内侧。五百年后也许会有人发现它，然后 wondering：是谁造的？" },
+          { "label": "不刻", "response": "你放下了工具。你的名字不重要。重要的是这张脸会继续注视这个世界。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_museum_echo",
+      "title": "跨越时间的回响",
+      "description": "同一尊头像如今静静立在伦敦的玻璃柜里，标签上写着'Unknown artist'。当代尼日利亚仍在追索这些文物。",
+      "ageRange": { "start": 55 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "时间快进四百年。一八九七年英国远征军焚毁了贝宁城。你的头像被装进木箱运往伦敦。现在它站在大英博物馆的玻璃柜里，冷白灯光照着它完美的面容。标签上写着：'Unknown artist'。但在拉各斯，在阿布贾，在贝宁城，有人在为它的回家而努力。你的手艺没有被忘记。只是回家的路很长。",
+      "bgmTag": "museum_silence",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_04_breaking_mold", "evt_02_prayer_before_cast"],
+    "valleyMoments": ["evt_06_museum_echo"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["colonial_history"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
