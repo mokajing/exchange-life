@@ -719,7 +719,16 @@ const BGM_MAP = {
   silence_wind_room:       { file: 'audio/bgm/silence_wind_room.mp3',       volume: 0.2, loop: true },
   whisper_love_fragments:  { file: 'audio/bgm/whisper_love_fragments.mp3',  volume: 0.25, loop: true },
   piano_slow_hope:         { file: 'audio/bgm/piano_slow_hope.mp3',         volume: 0.35, loop: true },
-  piano_fade_citylife:     { file: 'audio/bgm/piano_fade_citylife.mp3',     volume: 0.3, loop: false }
+  piano_fade_citylife:     { file: 'audio/bgm/piano_fade_citylife.mp3',     volume: 0.3, loop: false },
+  // T1D儿童校园日常 - 第518卷
+  gentle_piano_morning:       { file: 'audio/bgm/gentle_piano_morning.mp3',       volume: 0.3, loop: true },
+  quiet_school_ambience:      { file: 'audio/bgm/quiet_school_ambience.mp3',      volume: 0.25, loop: true },
+  tense_heartbeat_low:        { file: 'audio/bgm/tense_heartbeat_low.mp3',        volume: 0.4, loop: true },
+  melancholy_music_box:       { file: 'audio/bgm/melancholy_music_box.mp3',       volume: 0.3, loop: true },
+  silent_frustration_strings: { file: 'audio/bgm/silent_frustration_strings.mp3', volume: 0.35, loop: true },
+  lonely_afternoon_piano:     { file: 'audio/bgm/lonely_afternoon_piano.mp3',     volume: 0.3, loop: true },
+  warm_lullaby_piano:         { file: 'audio/bgm/warm_lullaby_piano.mp3',         volume: 0.35, loop: true }
+
 
 };
 
