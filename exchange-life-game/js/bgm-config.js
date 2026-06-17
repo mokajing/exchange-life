@@ -594,6 +594,14 @@ const BGM_MAP = {
   warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.3, loop: true },
   love_theme_gentle:       { file: 'audio/bgm/love_theme_gentle.mp3',       volume: 0.35, loop: false },
   reflection_piano_soft:   { file: 'audio/bgm/reflection_piano_soft.mp3',   volume: 0.3, loop: true },
+
+  // === 闹钟语音批评家的一周专用标签 (2026-06-17 P0第462卷) ===
+  urban_night_ambient:    { file: 'audio/bgm/urban_night_ambient.mp3',    volume: 0.25, loop: true },
+  electronic_beep_soft:   { file: 'audio/bgm/electronic_beep_soft.mp3',   volume: 0.2, loop: true },
+  anxiety_pulse_digital:  { file: 'audio/bgm/anxiety_pulse_digital.mp3',  volume: 0.3, loop: true },
+  social_media_noise:     { file: 'audio/bgm/social_media_noise.mp3',     volume: 0.25, loop: true },
+  morning_silence_warm:   { file: 'audio/bgm/morning_silence_warm.mp3',   volume: 0.25, loop: true }
+
   // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
   ancient_qin_tension:     { file: 'audio/bgm/ancient_qin_tension.mp3',     volume: 0.35, loop: true },
   workshop_silence_night:  { file: 'audio/bgm/workshop_silence_night.mp3',  volume: 0.2, loop: true },
