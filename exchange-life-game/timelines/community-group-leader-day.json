@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "id": "community-group-leader-day",
+    "title": "社区团购团长的一天",
+    "subtitle": "在微信群和货架之间充当邻里关系最后一公里连接器的中年团长",
+    "sourceType": "ugc_submission",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VGlodD9lI6gRv1Z2J6EDybno",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T20:31:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-morning-check",
+      "title": "05:30·被窝里查到货清单",
+      "description": "闹钟响，在被窝里用手机检查今天到货清单，确认昨晚的拼团数据。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "05:30，闹钟响了。\n\n你没有立刻起床，而是先摸过手机。屏幕的光刺眼，但你已经习惯了。\n\n到货清单显示今天有38单，比昨天多了5单。你快速扫了一遍品类：鸡蛋、牛奶、时令水果、纸巾……都是邻居们日常需要的东西。\n\n又是新的一天。你是这个小区200多户人家的「团长」。",
+      "bgmTag": "morning_quiet_start",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt-02-sorting",
+      "title": "06:30·分拣货物",
+      "description": "去小区门口接货，画号、对照微信订单、按楼栋分类、标注特殊需求。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "06:30，小区门口。\n\n货拉拉司机已经把货卸在临时存放点。你戴上手套，开始分拣。\n\n画号、对照微信订单、按楼栋分类。「3栋802张爷爷的鸡蛋单独放」「5栋李太太的一人份菜别混了」「7栋小夫妻的纸尿裤要两个尺码」……\n\n你的脑子里装着200多户人家的生活细节。这不是简单的分拣，这是你对这个社区的「记忆」。",
+      "bgmTag": "busy_morning_rhythm",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-03-delivery-elderly",
+      "title": "09:00·给老人上门配送",
+      "description": "上门配送给行动不便的老人，顺便聊几句家常。张爷爷每次只买一盒鸡蛋。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "09:00，3栋802。\n\n你敲开门，张爷爷笑着接过鸡蛋。「又麻烦你了，小王。」\n\n他每次只买一盒鸡蛋。你知道他不是省钱，是担心买多了吃不完。你把鸡蛋单独装好送到楼下，还附了一张便签：「张爷爷，天气热，记得放冰箱。」\n\n他点点头，眼里有光。这一刻，你不是团长，是他的邻居。",
+      "bgmTag": "gentle_care_warmth",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "张爷爷接过鸡蛋时……",
+        "options": [
+          { "label": "多聊几句家常", "response": "你留下来和他聊了十分钟。他说老伴去年走了，现在一个人吃饭没意思。你听着，点头，偶尔应一声。有些陪伴，比商品更重要。" },
+          { "label": "放下东西就走", "response": "你笑着摆摆手，转身离开。效率高，但走出楼道时，你回头看了一眼那扇关上的门。有些温度，错过了就淡了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-complaint-crisis",
+      "title": "11:00·差评崩溃夜的回响",
+      "description": "处理售后问题：烂水果、错尺码、退款请求。想起上次菠萝差评事件。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "11:00，货架旁。\n\n「团长，这苹果有两个烂了。」「尺码发错了，能换吗？」「我婆婆说这个不好吃，退了吧。」\n\n你一条条回复，一个个处理。突然想起上个月那次——有人说了句「团长赚黑心钱」，因为几个菠萝过熟了。\n\n那天晚上你全额退款后，坐在货架旁边哭了半小时。第二天，那个邻居私下道歉，还带了一盒巧克力。\n\n委屈是真的，温暖也是真的。",
+      "bgmTag": "tension_low_synth",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对售后的抱怨……",
+        "options": [
+          { "label": "耐心解释并补偿", "response": "你发了红包，附了一句「下次给您挑最好的」。对方回了个笑脸。你知道，信任是一点点攒起来的。" },
+          { "label": "直接退款不争论", "response": "你秒退了款，没多说一个字。省了事，但心里堵得慌。有些委屈，只能自己消化。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-lunch-break",
+      "title": "13:00·货架旁的泡面",
+      "description": "午饭往往是一碗泡面在货架旁边吃完。短暂的休息时光。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "13:00，货架旁。\n\n一碗泡面，热气腾腾。你蹲在地上，一边吃一边刷手机看供应商的新品。\n\n这是你一天中唯一的「自己的时间」。没有订单，没有咨询，没有售后。只有面和片刻的安静。\n\n吃完擦擦嘴，继续干活。这就是团长的日常。",
+      "bgmTag": "lofi_chill_piano",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt-06-evening-rush",
+      "title": "18:00·拼团高峰期",
+      "description": "不断回复群里的咨询、统计订单、处理各种个性化需求。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "18:00，微信群炸了。\n\n「团长，今晚有什么好吃的？」「我要加一份牛奶！」「能不能换口味？」「你记得我不吃辣对吧？」\n\n你的手指在屏幕上飞快滑动，回复、统计、备注。200多条消息，每一条都是一个邻居的需求。\n\n你不是客服，你是这个社区的「活数据库」。",
+      "bgmTag": "busy_evening_pulse",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt-07-lockdown-memory",
+      "title": "回忆·封控期的圆白菜",
+      "description": "疫情封控期间，为争取一车白菜凌晨三点去批发市场排队，按成本价分给邻居。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2022 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你想起了封控那年。\n\n凌晨三点，批发市场。你排了两个小时队，终于抢到一车白菜。回来时天还没亮，手冻得通红。\n\n那天你把白菜按成本价分给了每一户邻居，一分钱没赚。群里刷屏「王姐好人一生平安」。\n\n那一刻你觉得，一切都值了。",
+      "bgmTag": "triumph_drums_guqin",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "回忆起封控期的日子……",
+        "options": [
+          { "label": "微笑继续前行", "response": "你笑了笑，把这段记忆收好。那些日子苦，但也让你看到了人性最暖的一面。这份温暖，支撑你走到今天。" },
+          { "label": "截图保存群消息", "response": "你翻出当年的聊天记录，截了图。那些「王姐好人一生平安」的字句，是你做团长以来最珍贵的「报酬」。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-08-night-end",
+      "title": "23:00·关灯但手机在枕边",
+      "description": "截团下单后关灯休息，但手机仍放在枕头边以防邻居紧急需要。",
+      "ageRange": { "start": 45 },
+      "yearRange": { "start": 2024 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "23:00，卧室。\n\n你向供应商下完明天的订单，在群里发了「明天到货预告」，然后关灯。\n\n但手机仍放在枕头边。万一有邻居半夜急需什么呢？\n\n你闭上眼，脑海里闪过今天的画面：张爷爷的笑脸、泡面的热气、群里的刷屏……\n\n不是完美的一天，但是真实的一天。明天，还要早起。",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "cool"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt-07-lockdown-memory"],
+    "valleyMoments": ["evt-04-complaint-crisis"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "A",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

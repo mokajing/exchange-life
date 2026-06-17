@@ -140,6 +140,8 @@ const TIMELINE_LIST = [
   'alarm-voice-critic-week',
   'ptsd-daily-life',
   'mycenaean-scribe-linear-b',
+  'ming-forbidden-city-night-watchman',
+  'community-group-leader-day',
 ];
 
 App({

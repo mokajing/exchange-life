@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "ming-forbidden-city-night-watchman",
+    "title": "明朝紫禁城更夫的深夜巡逻",
+    "subtitle": "万历二十五年冬，在所有人都沉睡的皇城里独自醒着的无名守夜人",
+    "sourceType": "ugc_submission",
+    "sourceUrl": "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWeQ5pjoQuNkPaKO0WxkXOEP2",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T20:31:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01-takeover",
+      "title": "子时三刻·午门接班",
+      "description": "23:45，更夫赵老四在午门从白班更夫手中接过梆子、铜锣和更灯。今夜满月，紫禁城琉璃瓦泛着青色冷光。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "子时三刻，午门。\n\n你从老陈手里接过梆子、铜锣和更灯。他打了个哈欠，低声说了句「今夜风紧」，便缩着脖子走了。\n\n满月的光洒在琉璃瓦上，泛着青冷的颜色。7000多间殿宇沉睡着，只有你的脚步声即将踏响这片寂静。\n\n你是这座皇城唯一醒着的人。",
+      "bgmTag": "ancient_night_silence",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-02-third-watch",
+      "title": "子时正·敲三更",
+      "description": "00:00，敲三更——三声梆子响彻太和殿广场。这是紫禁城最安静的时刻。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "子时正。\n\n「咚——咚——咚。」\n\n三声梆子在太和殿广场回荡，余音穿过层层殿宇，消失在夜色深处。这是紫禁城最安静的时刻，连风都屏住了呼吸。\n\n你的影子在月光下拉得很长，投在红墙上缓缓移动。整座城只有你和月亮醒着。",
+      "bgmTag": "solemn_bangzi_echo",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-03-cat-scare",
+      "title": "丑时初·东角门异响",
+      "description": "01:00，巡至乾清宫外围发现东角门有异响。提灯靠近，是一只野猫撞翻了铜缸。虚惊一场。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "丑时初，乾清宫外围。\n\n一声闷响从东角门方向传来。你的心猛地提到嗓子眼——这个时辰，不该有任何声响。\n\n你提起更灯，小心翼翼地靠近。灯光摇曳中，一个黑影窜过……\n\n是一只野猫。它撞翻了墙角的铜缸，正瞪着你看了一眼，然后消失在夜色里。",
+      "bgmTag": "tension_night_alert",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "东角门的异响……",
+        "options": [
+          { "label": "提灯小心探查", "response": "你深吸一口气，走近查看。只是野猫撞翻了铜缸。虚惊一场，但心跳久久不能平复。你擦了擦额头的冷汗，继续巡逻。" },
+          { "label": "先敲锣示警", "response": "你敲响铜锣，锣声在夜里格外刺耳。值夜太监被惊动，跑来责备你大惊小怪。但你获得了「谨慎」的评价。" },
+          { "label": "假装没听见", "response": "你加快脚步走过。整夜心里不安。第二天被发现角门锁损坏，你被罚俸三个月。有些警觉，不该省下。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-04-share-cake",
+      "title": "丑时正·遇见王公公",
+      "description": "02:00，在养心殿后廊遇见值夜太监王公公，两人分食一块芝麻饼。得知皇帝今晚又失眠。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "丑时正，养心殿后廊。\n\n一个佝偻的身影坐在台阶上。是值夜的王公公。\n\n他从怀里掏出一块芝麻饼，掰成两半，递给你一半。「万岁爷今晚又没睡好，御医开了安神汤。」他说这话时语气平淡，像在说天气。\n\n你们就这样坐着，分食一块饼。两个同样孤独的人，在这座巨大的宫殿里，短暂地温暖了彼此。",
+      "bgmTag": "warm_strings_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "王公公递来的芝麻饼……",
+        "options": [
+          { "label": "接过并聊天", "response": "你接过饼，坐下来和他聊了几句。他说皇帝也是凡人，也会失眠叹气。这一刻，天子不再是天子，只是一个睡不着觉的人。" },
+          { "label": "婉拒保持距离", "response": "你摇头谢绝。王公公脸上闪过一丝不悦。之后的巡更中，你感觉被刻意检查了几次。有些温暖，错过了就没了。" },
+          { "label": "多要一块留着", "response": "你笑着多要了一块。后半夜饿了，拿出来吃时，饼已经凉了。但至少有一份「储备」的安全感。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-05-fourth-watch",
+      "title": "寅时初·敲四更",
+      "description": "03:00，敲四更——最冷也最困的时刻。在太和门廊下蹲了半柱香，用袖子擦锣面防霜冻。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "寅时初。\n\n「咚——咚——咚——咚。」\n\n四更。这是一夜中最冷、最困的时刻。你的眼皮像灌了铅，手指冻得几乎握不住梆子。\n\n你在太和门廊下蹲了半柱香，用袖子一遍遍擦拭锣面上的霜。铜锣冰冷刺骨，但你不能让它结霜——否则下一更的声音会哑。\n\n坚持。再熬两个时辰，天就亮了。",
+      "bgmTag": "lonely_wind_cold",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt-06-password",
+      "title": "寅时正·东华门对暗号",
+      "description": "04:00，巡至东华门与守门禁军对暗号「月明」「星稀」。暗号每晚不同，由司礼监提前下发。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "寅时正，东华门。\n\n守门禁军的长矛在月光下闪着寒光。你走近，低声说出今晚的暗号：「月明。」\n\n「星稀。」他回应。\n\n暗号每晚不同，由司礼监提前下发。这是紫禁城的规矩，也是你和这些禁军之间无声的信任。\n\n你们交换了一个眼神，然后各自继续自己的守望。",
+      "bgmTag": "ancient_guard_tension",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt-07-fifth-watch",
+      "title": "卯时初·敲五更（亮更）",
+      "description": "05:00，敲五更——天亮前最后一更，也是最响的一更。梆子敲完后，东方启明星已升起。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "卯时初。\n\n「咚！咚！咚！咚！咚！」\n\n五更，亮更。这是一夜中最后、也是最响的一更。你的梆子敲得比任何时候都用力，仿佛要把这一夜的孤独全部敲碎。\n\n敲完最后一声，你抬起头。东方的天际，启明星已经升起。\n\n天，终于要亮了。",
+      "bgmTag": "dawn_triumph_drum",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "启明星升起的那一刻……",
+        "options": [
+          { "label": "静静注视晨光", "response": "你站在原地，看着天色一点点变亮。一夜的疲惫在这一刻化为淡淡的满足。你又守护了这座城一个安全的夜晚。" },
+          { "label": "对着启明星许愿", "response": "你闭上眼，在心里默默许下一个愿望。也许是家人平安，也许是明年能换个差事。启明星不会回应，但它听见了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt-08-handover",
+      "title": "卯时正·交班走出午门",
+      "description": "06:00，将更灯、梆子、铜锣和巡更记录交给下一班。走出午门时，早朝官员轿子已开始排队。",
+      "ageRange": { "start": 52 },
+      "yearRange": { "start": 1597 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "卯时正，午门。\n\n你把更灯、梆子、铜锣和巡更记录交给接班的小李。他年轻，眼神还带着刚睡醒的惺忪。\n\n「昨夜无事。」你说。\n\n走出午门时，早朝的官员轿子已经开始排队。他们穿着绯红官服，议论着朝政。没有人注意到你这个刚下夜的更夫。\n\n但你不在乎。你知道，昨夜这座城安然无恙，是因为有你。",
+      "bgmTag": "morning_calm_fade",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt-07-fifth-watch"],
+    "valleyMoments": ["evt-03-cat-scare", "evt-05-fourth-watch"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
