@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "orbital-debris-cleaner",
+    "title": "太空垃圾清理轨道工程师",
+    "subtitle": "在400公里近地轨道上用机械臂和激光为人类文明扫垃圾的太空清道夫",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-18T02:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "进入近地轨道",
+      "description": "林远通过两年特训成为全球第47位持证太空清道夫，随天舟-清道夫1号任务首次进入400公里近地轨道。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你叫林远，34岁，前航天飞控中心轨道分析师。经过两年严苛的太空垃圾清理员特训，你成为全球第47位持证太空清道夫。天舟-清道夫1号点火升空，当火箭末级分离、失重感袭来的那一刻，你透过舷窗看到地球的蓝色弧线——这不是旅行，这是上班。你的工位在400公里高空，你的工具是七自由度机械臂和70瓦激光器，你的任务是替全人类收拾一个拖了50年的烂摊子。飞船AI助手'小舟'用温柔女声说：'欢迎来到你的新办公室，林远。'",
+      "bgmTag": "space_ambient_intro",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "进入轨道后的第一个念头是什么？",
+        "options": [
+          { "label": "终于轮到我了（兴奋）", "response": "你跃跃欲试，迫不及待想操控机械臂捕获第一块碎片。" },
+          { "label": "地球真美（敬畏）", "response": "你盯着蓝色弧线看了很久，直到小舟提醒你检查设备。" },
+          { "label": "责任重大（使命感）", "response": "你想起培训时说的那句话：轨道上的每一块碎片都是人类的债。" }
+        ]
+      },
+      "sourceAnchor": "第511卷·Layer1·时间线·2029年3月"
+    },
+    {
+      "id": "evt_02",
+      "title": "首次捕获31年漂流碎片",
+      "description": "操控机械臂捕获一枚1999年发射的长征火箭末级残骸，直径2.4米，重800公斤，在轨道上漂流31年。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.95,
+      "narrativeText": "任务第1天。你操控机械臂接近第一块目标碎片——编号CZ-2D-1999-047B，一枚1999年发射的长征火箭末级残骸。它在轨道上已漂流31年，表面布满微陨石撞击坑和原子氧侵蚀痕迹，像一块太空考古化石。锁定、接近、张开、夹紧、确认——五个动作，31年，26秒。机械臂锁紧瞬间，整艘飞船微微一颤，控制台跳出'捕获成功'四个绿色大字。你盯着那块金属，想起自己1999年还在上小学二年级。小舟说：'碎片档案已更新——漂流天数：11,323天。'",
+      "bgmTag": "tension_space_capture",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对这块漂流31年的太空化石，你的捕获策略是？",
+        "options": [
+          { "label": "直接机械臂捕获（高效）", "response": "碰撞概率3%，但2小时内完成。小舟说：'你很有信心。'" },
+          { "label": "先激光推离再捕获（稳健）", "response": "碰撞概率0.5%，额外消耗8小时。小舟说：'稳健的选择，我喜欢。'" },
+          { "label": "网捕系统远程俘获（大胆）", "response": "失败概率12%，可能产生更多碎片。小舟说：'这是个大胆的尝试。'" }
+        ]
+      },
+      "sourceAnchor": "第511卷·Layer1·事件A"
+    },
+    {
+      "id": "evt_03",
+      "title": "凯斯勒级联预警的48小时",
+      "description": "两块碎片以14km/s碰撞产生386块新碎片，7块进入碰撞预警区，48小时内完成3次紧急规避机动。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "任务第7天。警报响起时你正在吃一袋加热的宫保鸡丁。三声短促蜂鸣后，小舟的声音变了调：'碰撞预警，碰撞预警，请立即执行规避程序。'两块碎片在相邻轨道以14km/s相对速度碰撞，产生386块可追踪新碎片，其中7块进入你的碰撞预警区。你放下筷子，3分钟内完成轨道碰撞概率计算——3块进入黄色预警区。接下来48小时，你睡了不到4小时，完成3次推进器点火规避。每次碎片通过后15分钟内重新校准机械臂精度。事后你才发现手心全是汗。",
+      "bgmTag": "alarm_tension_orbital",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "凯斯勒预警来袭，选择规避方向？",
+        "options": [
+          { "label": "向上方规避+500米", "response": "消耗推进剂8%，维持原有任务轨道。地面语音里听出'松了一口气'。" },
+          { "label": "向下方规避-500米", "response": "消耗推进剂5%，进入大气层边缘有轻微阻力。地面说'再坚持一下'。" },
+          { "label": "保持原位强化监测", "response": "零推进剂消耗，但每15分钟重算碰撞概率，精神压力极大。" }
+        ]
+      },
+      "sourceAnchor": "第511卷·Layer1·事件B"
+    },
+    {
+      "id": "evt_04",
+      "title": "激光推离——用光推走碎片",
+      "description": "首次使用激光烧蚀技术，在10公里外精确照射8厘米碎片23秒，利用光压将其推入大气层烧毁路径。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "任务第14天。这是你最骄傲的技能——激光烧蚀。你需要在10公里外精确锁定一块直径8厘米的碎片，用70瓦激光持续照射23秒，让碎片表面材料汽化产生反冲力。整个过程像'用一支激光笔在10公里外推一颗子弹'。眼动追踪锁定目标，右手柄微调瞄准点，容许误差0.01度。扣动扳机，23秒内保持瞄准不偏移。遥测数据显示碎片轨道下降37公里，将在3周内自然坠入大气层。太空中没有声音，只有屏幕上跳动的数字和微微发热的操纵杆。",
+      "bgmTag": "synth_light_tech",
+      "visualTone": "bright",
+      "sourceAnchor": "第511卷·Layer1·事件C"
+    },
+    {
+      "id": "evt_05",
+      "title": "轨道上的孤独与思念",
+      "description": "任务第20天，开始想念地面上'无聊'的事情——风吹树叶、雨打窗户、楼下早餐摊的豆浆油条。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "任务第20天。你以为在太空中最想念的会是家人，但真正让你眷恋的是地面上最平凡的东西：风吹树叶的声音、雨打在窗户上的味道、楼下早餐摊的豆浆油条。每周一次的视频通话里，妻子在厨房炒菜，女儿在写作业，背景音是锅铲声和电视机声——最普通的地球背景音，在轨道上是最珍贵的镇定剂。你用钢笔在手写日志本上记录，墨水的真实触感是对抗失重虚无感的'重力替代品'。小舟检测到你的心率偏低，轻声说：'林远，要不要听一段雨声？'",
+      "bgmTag": "piano_gentle_reflective",
+      "visualTone": "warm",
+      "sourceAnchor": "第511卷·Layer2·情感弧线·孤独感7/10"
+    },
+    {
+      "id": "evt_06",
+      "title": "第173次轨道日出",
+      "description": "任务最后一天，在出舱检查时看到轨道上的第173次日出，每90分钟一次的日出每一次都不一样。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "任务第30天，最后一次出舱检查。你看到了在轨道上的第173次日出。每90分钟一次，你已经看了整整一个月。在地面上，每天看一次日出觉得稀松平常；在轨道上，每90分钟看一次，你才发现每一次都不一样。这一次，你决定不再看太阳，而是看阳光是如何一寸一寸地爬过地球的弧线。云层像白色大理石纹理，海洋从钴蓝渐变到碧绿，星光不闪烁，像钻石钉在黑色天鹅绒上。你在手记中写道：'我们在地面上扔的每一件东西，最终都会变成轨道上的子弹。'",
+      "bgmTag": "strings_sunrise_orbital",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "离开前，你想留下什么？",
+        "options": [
+          { "label": "在舱外贴一张全家福", "response": "违反安全规定，但没人会知道。下一批清道夫看到了你的照片。" },
+          { "label": "在日志本上写最后一页", "response": "合规但有遗憾。你的日志后来被印在管理署前台墙上。" },
+          { "label": "给下一批清道夫录语音留言", "response": "既合规又有仪式感。回复说：'听到了你的留言，谢谢。'" }
+        ]
+      },
+      "sourceAnchor": "第511卷·Layer1·事件D"
+    },
+    {
+      "id": "evt_07",
+      "title": "返回地球与使命延续",
+      "description": "着陆后48小时内在隔离观察室写下26页《轨道清洁工手记》，那句话被印在轨道环境管理署前台墙上。",
+      "ageRange": { "start": 34 },
+      "yearRange": { "start": 2029 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "返回地球。着陆后48小时，你在隔离观察室内写下26页的《轨道清洁工手记》。重力重新压在身上的感觉像一件久违的外套。你反复写下一句话：'我们在地面上扔的每一件东西，最终都会变成轨道上的子弹。'这句话后来被印在轨道环境管理署的前台墙上。你不再是那个在400公里高空独自工作的人，但你永远是那个看过173次日出、替全人类捡过垃圾的太空清道夫。窗外，风吹树叶的声音回来了。",
+      "bgmTag": "warm_piano_simple",
+      "visualTone": "warm",
+      "sourceAnchor": "第511卷·Layer1·时间线·任务第30天"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_02", "evt_06"],
+    "valleyMoments": ["evt_03", "evt_05"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

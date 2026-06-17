@@ -147,6 +147,7 @@ const TIMELINE_LIST = [
   'sauranthropus-industrial-revolution',
   'market-vendor-dawn',
   'waste-sorter-supervisor',
+  'orbital-debris-cleaner',
 ];
 
 App({
