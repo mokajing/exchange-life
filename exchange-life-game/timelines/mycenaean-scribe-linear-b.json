@@ -1,0 +1,138 @@
+{
+  "meta": {
+    "id": "mycenaean-scribe-linear-b",
+    "title": "迈锡尼线形文字B书吏的最后泥板",
+    "subtitle": "在青铜时代崩溃的暗夜中，用芦苇笔记录一个王国最后呼吸的无名书吏",
+    "sourceType": "documentary",
+    "narrativeTemplate": "flashback",
+    "createdAt": "2026-06-17T20:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "书吏的清晨·磨墨调泥",
+      "description": "皮洛斯宫殿书吏的日常从磨墨调泥开始，为瓦纳克斯记录行政事务。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": -1190 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "约公元前1190年，皮洛斯宫殿。你的清晨从磨墨调泥开始。湿润的黏土在手中揉搓成标准的泥板形状，芦苇笔蘸上墨水，你熟悉每一笔刻痕的走向。作为瓦纳克斯的书吏，你是极少数识字的人——这份骄傲在国王面前不值一提，但在你自己心里，它是你存在的全部意义。",
+      "bgmTag": "ancient_lyre_morning",
+      "visualTone": "warm",
+      "sourceAnchor": "第475卷·Layer2·情感弧线·起始"
+    },
+    {
+      "id": "evt_02",
+      "title": "记录内容突变·武器与粮食",
+      "description": "行政记录从橄榄油和绵羊变成武器和粮食储备，港口传来可怕的消息。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": -1190 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "变化是渐进的。先是粮草分配清单变长了，然后是兵器配件的记录突然增多。从港口回来的商人不再谈论远方的好货，而是逃难的人群。赫梯帝国覆灭了，乌加里特烧了，海上民族的船队正在向西航行。你在泥板边缘偷偷做了记号——不是因为需要记录，而是因为只有写字才能让你冷静。",
+      "bgmTag": "tension_bronze_drums",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对日益紧张的局面，你选择如何记录？",
+        "options": [
+          { "label": "严格按命令记录粮草", "response": "这是你的职责，也是宫殿对你唯一的期待。你把恐惧压在标准化的表格里。" },
+          { "label": "偷偷写下自己的观察", "response": "今天港口来了三个难民、铁匠铺的学徒哭了、天空的颜色很奇怪。这些不在行政记录里，但它们才是真相。" }
+        ]
+      },
+      "sourceAnchor": "第475卷·Layer2·情感弧线·转折1"
+    },
+    {
+      "id": "evt_03",
+      "title": "神庙祭器被熔化·第一次祈祷",
+      "description": "瓦纳克斯下令熔化波塞冬神庙祭器铸造武器，书吏在泥板上写下祈祷。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": -1190 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "瓦纳克斯下令紧急征调所有可用的青铜——连波塞冬神庙的祭器都被熔化了。锻造声日夜不停，空气中弥漫着金属灼烧的气味。你在泥板上写下了'神啊请宽恕我们'——这是你第一次在行政记录中写下祈祷。你知道这不合规矩，但规矩属于和平年代。",
+      "bgmTag": "solemn_chant_ancient",
+      "visualTone": "dark",
+      "sourceAnchor": "第475卷·Layer2·情感弧线·转折2"
+    },
+    {
+      "id": "evt_04",
+      "title": "大火降临·宫殿燃烧三天三夜",
+      "description": "敌人攻入宫殿，大火燃烧三天三夜，书吏在逃离前看了一眼满墙泥板。",
+      "ageRange": { "start": 35 },
+      "yearRange": { "start": -1190 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "火是从东门进来的。所有人都在逃跑，哭喊声被木头燃烧的爆裂声吞没。你跑回档案室看了一眼满墙的泥板——这是你一生的工作。你抱了几块最重要的冲出火海。回头时，宫殿已经在燃烧。你不知道的是，大火烧毁了宫殿，却将你留下的泥板烧成了陶——它们将在三千年的黑暗中等待被人读到。",
+      "bgmTag": "fire_crackling_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "大火中，你选择带走什么？",
+        "options": [
+          { "label": "粮草分配记录", "response": "这关系到整个宫廷的生存。你选择了责任，即使王国可能已经不存在了。" },
+          { "label": "献给波塞冬的祭品清单", "response": "这是最后的祈祷。也许神会记住你们的虔诚，即使人已不在。" },
+          { "label": "只带走芦苇笔", "response": "文字不在泥板上，在你的手里。只要你还活着，记录就不会终结。" }
+        ]
+      },
+      "sourceAnchor": "第475卷·Layer2·情感弧线·高潮"
+    },
+    {
+      "id": "evt_05",
+      "title": "最后一代识字者",
+      "description": "文明崩塌后成为最后一个识字的人，无法传授，因为文字已失去意义。",
+      "ageRange": { "start": 36 },
+      "yearRange": { "start": -1189 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你活了下来。但其他书吏都死了。你是最后一个识字的希腊人。你无法教任何人——不是因为没有学生，而是因为文字在黑暗时代失去了意义。没有宫殿需要管理，没有粮草需要分配，没有国王需要服务。你带着那些抱出来的泥板在山洞里度过了余生，偶尔对着它们念出上面的音节，只是为了确认自己还记得。",
+      "bgmTag": "wind_ruins_lament",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在文明的废墟中，你选择？",
+        "options": [
+          { "label": "教一个孩子学习线形文字", "response": "孩子学了三个字后放弃了。但你觉得没关系——至少有人知道这些符号曾经意味着什么。" },
+          { "label": "将文字的秘密埋在心中", "response": "在这个不再需要文字的时代，学会遗忘也是一种智慧。你在最后一块泥板上刻下了自己的名字。" }
+        ]
+      },
+      "sourceAnchor": "第475卷·Layer2·情感弧线·收束"
+    },
+    {
+      "id": "evt_06",
+      "title": "三千年后的重逢",
+      "description": "考古学家在皮洛斯遗址发掘出档案室，泥板上的琐碎记录让迈锡尼人触手可及。",
+      "ageRange": { "start": 35, "fuzzy": true },
+      "yearRange": { "start": 1952 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "1952年，迈克尔·文特里斯破译了线形文字B。考古学家在皮洛斯遗址发掘出档案室，泥板上记录的不是史诗，而是极为琐碎的日常——橄榄油配额、绵羊数量、铁匠名单、献给波塞冬的祭品清单。正是这些琐碎让迈锡尼人的日常生活变得触手可及。你在Excel表格里统计库存时，三千年前有人用芦苇笔做着和你同样的事。",
+      "bgmTag": "museum_quiet_wonder",
+      "visualTone": "bright",
+      "sourceAnchor": "第475卷·Layer1·核心事件·5"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "melancholic",
+    "peakMoments": ["evt_04", "evt_05"],
+    "valleyMoments": ["evt_01"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

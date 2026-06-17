@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "ptsd-daily-life",
+    "title": "PTSD患者的日常生活",
+    "subtitle": "在所有人说\"都过去了\"的世界里，用每一次闪回重新学习\"安全\"二字含义的人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T20:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "凌晨3:17·噩梦惊醒",
+      "description": "从噩梦中惊醒，床单被汗浸透，分不清此刻是梦还是现实。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "凌晨3:17。你从噩梦中弹起来，床单被汗浸透。心跳像鼓槌敲在肋骨上，耳边只有自己急促的呼吸。你盯着天花板，数裂缝——一条、两条、三条——直到确认这是你的房间，不是那个地方。但身体不信。身体永远停在那个时刻。",
+      "bgmTag": "dark_ambient_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "噩梦惊醒后，你会怎么做？",
+        "options": [
+          { "label": "开灯，确认周围环境", "response": "灯光刺眼，但你需要的就是这份刺痛——它证明你在现在，不在那时。" },
+          { "label": "在黑暗中睁眼等天亮", "response": "你不敢动。黑暗至少不会给你新的触发源。你数天花板裂缝，等天光慢慢渗进来。" },
+          { "label": "做5-4-3-2-1接地练习", "response": "5个看到的东西、4个摸到的、3个听到的、2个闻到的、1个尝到的。你把自己从记忆的深渊里一寸寸拉回来。" }
+        ]
+      },
+      "sourceAnchor": "第477卷·Layer2·情感弧线·节点1"
+    },
+    {
+      "id": "evt_02",
+      "title": "晨间例行检查",
+      "description": "门窗锁、煤气阀、窗帘缝隙——每天早上的安全检查仪式。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "06:00。你开始每天的例行检查：门锁了、窗关了、煤气阀拧紧了、窗帘缝隙没有异常。你知道这些都好好的，昨晚已经检查过三遍。但身体需要再确认一次。这不是强迫症，是你的安保系统永远处于最高警戒状态。",
+      "bgmTag": "tension_low_synth",
+      "visualTone": "cool",
+      "sourceAnchor": "第477卷·Layer1·时间线·06:00-07:30"
+    },
+    {
+      "id": "evt_03",
+      "title": "地铁急刹车·第一次闪回",
+      "description": "通勤路上地铁急刹车触发闪回，身体瞬间僵硬，周围乘客毫无察觉。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "07:47。地铁急刹车。所有人都只是晃了一下，继续刷手机。只有你——身体瞬间僵硬，手心出汗，心率飙升到120。你不是想起了那个时刻，你是回到了那个时刻。视野变窄，声音变远，耳边响起只有你能听到的声响。三十秒后你回来了，但没人注意到你离开过。",
+      "bgmTag": "distorted_heartbeat_rising",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "地铁闪回发生时，你的应对方式是？",
+        "options": [
+          { "label": "闭眼做深呼吸", "response": "吸气4秒，屏息4秒，呼气6秒。你用呼吸把自己锚定在此刻的车厢里。" },
+          { "label": "假装打电话分散注意力", "response": "你举起手机贴在耳边，嘴里说着不存在的话。闪回的强度降低了，但持续时间更长。" },
+          { "label": "提前下车改步行", "response": "你在下一站冲出车厢。地面上新鲜的空气让你缓过来，但你知道回避只会让恐惧扎根更深。" }
+        ]
+      },
+      "sourceAnchor": "第477卷·Layer1·关键事件·1"
+    },
+    {
+      "id": "evt_04",
+      "title": "办公室·背对门口的座位",
+      "description": "开放式工位背对门口，每30分钟回头确认身后，午餐独自在消防通道吃。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "08:30-12:00。你的工位背对门口——这是你能争取到的最好位置，至少背后不会有突然出现的影子。每30分钟你回头确认一次身后，同事们以为你在看时钟。午餐时间你避开食堂高峰，独自在消防通道吃三明治。不是不想合群，是食堂的嘈杂、人流、背后未知的方向让你无法呼吸。",
+      "bgmTag": "office_muffled_ambient",
+      "visualTone": "cool",
+      "sourceAnchor": "第477卷·Layer1·时间线·08:30-13:00"
+    },
+    {
+      "id": "evt_05",
+      "title": "同事拍肩·惊跳反应",
+      "description": "同事打招呼拍肩膀，整个人弹起来打翻咖啡杯，在惊讶目光中说\"没事没事\"。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "14:23。同事从背后拍了你的肩膀：'嘿，下午好！'你整个人弹了起来，咖啡杯翻倒在桌上。所有人的目光投过来，他们的眼神里写着'你至于吗'。你说'没事没事，吓到了'，然后去洗手间冷静。在隔间里你对着镜子说：你不是软弱，你只是身体太敬业了。",
+      "bgmTag": "silence_then_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "同事拍肩引发惊跳后，你会怎么回应？",
+        "options": [
+          { "label": "解释\"最近睡眠不好\"", "response": "半真半假。社交成本最低，但每次说谎都在面具上加一层漆。" },
+          { "label": "假装没事转移话题", "response": "你笑着说'被你吓到了哈哈'，然后迅速切换话题。面具完好，但心里又沉了一点。" },
+          { "label": "借机去洗手间冷静", "response": "你起身离开，留下一个'冷漠'的印象。但在隔间里，你终于可以不演了。" }
+        ]
+      },
+      "sourceAnchor": "第477卷·Layer1·关键事件·3"
+    },
+    {
+      "id": "evt_06",
+      "title": "降噪耳机里的平静",
+      "description": "下午用降噪耳机加白噪音勉强维持专注，像一个茧把自己包裹起来。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "15:00-18:00。你戴上降噪耳机，播放白噪音。世界安静了。这个小小的茧是你一天中最接近'正常'的时刻。你可以假装自己和别人一样专注、一样平静。但你知道这份平静是借来的，摘下耳机的瞬间就会归还。",
+      "bgmTag": "white_noise_gentle",
+      "visualTone": "warm",
+      "sourceAnchor": "第477卷·Layer1·时间线·15:00-18:00"
+    },
+    {
+      "id": "evt_07",
+      "title": "睡前仪式·三次确认",
+      "description": "三次确认闹钟、三次确认门锁、冷水洗脸三次，明知多余却无法停止。",
+      "ageRange": { "start": 28 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "21:00。睡前仪式开始了：确认闹钟响了没（第一次）、确认门锁好了没（第一次）、冷水洗脸（第一次）。然后再来一遍。再来一遍。你知道门确实锁了，你亲眼看到的。但身体不相信眼睛。身体只相信重复。这是一种你自己也无法控制的仪式，荒诞却必要。",
+      "bgmTag": "minimal_piano_repeat",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "完成三次检查后，你选择？",
+        "options": [
+          { "label": "强制自己躺下", "response": "意志力赢了这一次。但你不知道明天还有没有同样的力气。" },
+          { "label": "写下\"门已锁，你很安全\"", "response": "认知行为策略。你把安全感从身体转移到文字上，也许有一天文字会够用。" },
+          { "label": "给信任的人发消息", "response": "'今天又熬过了一天。'对方秒回了一个拥抱的表情。你不知道该感到温暖还是愧疚。" }
+        ]
+      },
+      "sourceAnchor": "第477卷·Layer1·时间线·21:00-23:00"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "tense",
+    "peakMoments": ["evt_01", "evt_03", "evt_05"],
+    "valleyMoments": ["evt_06"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["flashback", "anxiety", "trauma", "sleep_disorder"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
