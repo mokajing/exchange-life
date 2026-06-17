@@ -839,4 +839,14 @@ function _clearCrossfadeTimer() {
   }
 }
 
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
+  // === waste-sorter-supervisor (第506卷·拾荒者到督导员) ===
+  cello_solo_low:          { file: 'audio/bgm/cello_solo_low.mp3',          volume: 0.35, loop: true },
+  tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.4,  loop: true },
+  gentle_piano_learning:   { file: 'audio/bgm/gentle_piano_learning.mp3',   volume: 0.3,  loop: true },
+  solemn_cello_transition: { file: 'audio/bgm/solemn_cello_transition.mp3', volume: 0.4,  loop: true },
+  melancholy_cello:        { file: 'audio/bgm/melancholy_cello.mp3',        volume: 0.35, loop: true },
+  warm_piano_discovery:    { file: 'audio/bgm/warm_piano_discovery.mp3',    volume: 0.35, loop: true },
+  triumph_piano_cello:     { file: 'audio/bgm/triumph_piano_cello.mp3',     volume: 0.5,  loop: false }
+
+};

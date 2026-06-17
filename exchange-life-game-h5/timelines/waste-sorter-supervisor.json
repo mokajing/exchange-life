@@ -1,0 +1,141 @@
+{
+  "meta": {
+    "id": "waste-sorter-supervisor",
+    "title": "从拆迁废墟拾荒者到垃圾分类督导员",
+    "subtitle": "在垃圾堆里重新定义「有用」与「无用」的人",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-18T01:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_scavenger_life",
+      "title": "废墟中的十二年",
+      "description": "老周58岁，在城市边缘拆迁废墟里捡了12年废品，每月收入3000-5000元，供儿子读完大学。他是城市的隐形人，但每月的汇款是他的尊严。",
+      "ageRange": { "start": 46, "end": 58 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "铁皮。塑料。铜线。铝罐。手不停。眼睛更快。十二年了，这片废墟就是我的办公室。每个月寄三千块给儿子，这是我活着的证据。",
+      "bgmTag": "cello_solo_low",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_02_policy_notice",
+      "title": "一纸通知",
+      "description": "社区通知：全市垃圾分类正式实施，所有拾荒者必须登记为「垃圾分类督导员」或停止拾荒。老周的世界被一张纸重新定义了。",
+      "ageRange": { "start": 58 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "通知贴在废墟入口的铁皮上。白纸黑字。我看了三遍。不登记，就不能再捡了。十二年的生计，被一行字判了死刑。",
+      "bgmTag": "tension_low_strings",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_03_training",
+      "title": "三天培训",
+      "description": "老周参加街道组织的三天培训，学习四分类标准，领取蓝色马甲、工作证、对讲机。第一次有了「单位」的感觉。",
+      "ageRange": { "start": 58 },
+      "category": "education",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.5,
+      "narrativeText": "四分类。可回收。有害。厨余。其他。投影仪嗡嗡响，笔在纸上划。我领到了蓝马甲、工作证、对讲机。我也算是有单位的人了。",
+      "bgmTag": "gentle_piano_learning",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_04_first_day",
+      "title": "第一天上岗",
+      "description": "垃圾分类第一天。老周站在小区垃圾站旁，看着曾经的同行变成督导员同事。身份转换的仪式感与撕裂感同时涌来。",
+      "ageRange": { "start": 58 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "蓝马甲穿在身上，对着镜子看了很久。垃圾站旁边站着的老李、老陈，都是以前一起翻废墟的人。现在我们都有了名字——督导员。",
+      "bgmTag": "solemn_cello_transition",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "看到有人翻垃圾桶，你会怎么做？",
+        "options": [
+          { "label": "严厉制止：这是规定，不能翻！", "response": "你说出了三个月前别人对你说的话。声音很稳，心很空。" },
+          { "label": "悄悄递过去一个空瓶子", "response": "下次别让人看见。你保留了废墟时代的温柔。" },
+          { "label": "沉默，转身离开", "response": "你选择不成为任何一种人。沉默是你最后的自由。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_income_drop",
+      "title": "2800块的尊严",
+      "description": "老周发现月收入从4000元变成固定工资2800元（含社保），公司收走所有可回收物的收益。被纳入体系的代价第一次具象化。",
+      "ageRange": { "start": 58 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "2800。不是4000。但有一个本子。绿色的。社保。儿子说，爸，你终于有保障了。我在垃圾站独自抽了一根烟。",
+      "bgmTag": "melancholy_cello",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_find_book",
+      "title": "垃圾桶里的书",
+      "description": "老周在垃圾桶里发现一本被丢弃的《城市废弃物管理》教材，封面用透明胶带粘过，扉页上的名字已经模糊。他开始自学。",
+      "ageRange": { "start": 58 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "那本书的封面用透明胶带粘过，扉页上有人用铅笔写了一个名字，已经模糊了。我用手指描了一遍那些笔画，觉得这个名字的主人应该是个大学生。",
+      "bgmTag": "warm_piano_discovery",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这本被丢弃的教材，你会怎么处理？",
+        "options": [
+          { "label": "带回家自学", "response": "十二年的经验开始变成知识。台灯下，你的手指比翻页的速度更慢。" },
+          { "label": "交给社区，建议放在培训室", "response": "你把钥匙交给了更多人。培训室里多了一本翻旧的书。" },
+          { "label": "扔回垃圾桶", "response": "反正我也看不懂。你说这话的时候，手停顿了三秒。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_top_rank",
+      "title": "片区第一",
+      "description": "社区垃圾分类考核，老周负责的片区排名第一。街道办事处主任问他：愿不愿意做片区的培训讲师？这是58年来第一次被问到「愿不愿意」。",
+      "ageRange": { "start": 58 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "周师傅。第一名。你愿意。做讲师吗。五十八年了，第一次有人问我愿不愿意。不是必须，不是应该，是愿意。",
+      "bgmTag": "triumph_piano_cello",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "被邀请做讲师，你怎么回答？",
+        "options": [
+          { "label": "接受：我试试", "response": "那天晚上，你对着镜子说：大家好，我是周建国。说了三十遍。" },
+          { "label": "拒绝：我不会说话，怕丢人", "response": "你拒绝了舞台，但没有拒绝那本书。镜子前的练习从未停止。" },
+          { "label": "让以前的老李他们也能来听", "response": "你把一个人的机会变成了一群人的入口。垃圾站后面的小屋亮了灯。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_07_top_rank"],
+    "valleyMoments": ["evt_05_income_drop"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

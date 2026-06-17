@@ -146,6 +146,7 @@ const TIMELINE_LIST = [
   'meghalaya-living-root-bridge',
   'sauranthropus-industrial-revolution',
   'market-vendor-dawn',
+  'waste-sorter-supervisor',
 ];
 
 App({
