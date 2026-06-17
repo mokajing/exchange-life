@@ -1,0 +1,146 @@
+{
+  "meta": {
+    "id": "t1d-child-school-day",
+    "title": "边缘群体体验·糖尿病1型儿童患者的校园日常",
+    "subtitle": "在偷偷打针和吃饭要先算碳水的世界里做一个被同学以为不能吃糖的10岁小孩",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-18T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "morning-blood-sugar",
+      "title": "7:00·起床测血糖",
+      "description": "妈妈用血糖仪扎手指测血糖，根据数值和早餐碳水计算胰岛素剂量，在腹部注射胰岛素。",
+      "ageRange": { "start": 10 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "6.1。OK。35克碳水。2单位。妈，我上学去了。第六个月了，扎手指的流程已经像刷牙一样习惯。只是每次针头刺进去的那0.5秒，还是会下意识屏住呼吸。",
+      "bgmTag": "gentle_piano_morning",
+      "visualTone": "warm"
+    },
+    {
+      "id": "school-insulin-handover",
+      "title": "8:30·到校交胰岛素笔",
+      "description": "把胰岛素笔交给班主任保管，被同学看到，感到羞耻。",
+      "ageRange": { "start": 10 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你把胰岛素笔递给老师的时候，后排的小明探过头来：'那是什么？'老师说'小宇的药品'。你低头假装整理书包，耳朵烧得通红。不是怕被知道，是怕被问'为什么'。",
+      "bgmTag": "quiet_school_ambience",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "同学问起胰岛素笔时……",
+        "options": [
+          { "label": "简单解释'这是帮我控制血糖的药'", "response": "小明点点头'哦'了一声就转头了。其实没那么可怕，只是你每次都觉得要准备好一套说辞。" },
+          { "label": "低头不说话，等老师处理", "response": "老师帮你解了围。安全，但那种'被保护'的感觉让你觉得自己更不一样了。" }
+        ]
+      }
+    },
+    {
+      "id": "recess-low-blood-sugar",
+      "title": "10:00·课间低血糖前兆",
+      "description": "手抖、出汗、心慌，需要在教室里吃糖或去厕所偷偷吃。",
+      "ageRange": { "start": 10 },
+      "category": "health",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "手开始抖了。汗从额头冒出来。你知道这是低血糖的信号——身体在喊救命。书包侧袋里有糖，但教室里二十双眼睛……你不想成为那个'又在吃糖的小孩'。",
+      "bgmTag": "tense_heartbeat_low",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "低血糖来了，你选择……",
+        "options": [
+          { "label": "在教室里当着同学面吃糖", "response": "'你不是不能吃糖吗？'你听到有人小声说。你咬紧牙关嚼完那颗葡萄糖片，甜味救了你的命，也换来了一句需要解释的话。" },
+          { "label": "跑到厕所偷偷吃", "response": "隔间的门关上，你终于可以不解释了。糖在嘴里化开，心跳慢慢恢复正常。安全了，但也孤独了。" },
+          { "label": "硬撑到下课再说", "response": "你的手抖得更厉害了，视线开始模糊。同桌发现你不对劲叫了老师。醒来时嘴里有甜味，老师在旁边守着。你输了，身体比面子重要。" }
+        ]
+      }
+    },
+    {
+      "id": "lunch-blood-test",
+      "title": "11:30·午饭前测血糖",
+      "description": "在教室角落用血糖仪测血糖，同学围观询问为什么不能吃糖。",
+      "ageRange": { "start": 10 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "滴——。等待读数的三秒像一个世纪。同学们远远看着，有几个凑过来问'疼不疼'。你习惯了这种注视，像动物园里被参观的动物。不是恶意，只是好奇。但好奇也是一种隔离。",
+      "bgmTag": "melancholy_music_box",
+      "visualTone": "cool"
+    },
+    {
+      "id": "pe-class-bench",
+      "title": "14:00·体育课坐板凳",
+      "description": "老师担心低血糖让他坐旁边看，内心委屈但无法表达。",
+      "ageRange": { "start": 10 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "我能跑我能跳我的腿没有问题我只是身体不产胰岛素而已为什么所有人都觉得我什么都不能做。水泥地的凉意透过裤子渗进来，操场上同学们的欢笑声像隔了一层玻璃。你攥紧了拳头，指甲掐进掌心。",
+      "bgmTag": "silent_frustration_strings",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "体育课被安排坐板凳时……",
+        "options": [
+          { "label": "安静坐着看", "response": "你数着地上的蚂蚁，假装不在意。安全，但心里有个声音越来越小：'也许我真的不行。'" },
+          { "label": "举手说'老师我能跑，我测过血糖了'", "response": "老师犹豫了一下，看了看你的血糖记录本，点了点头。你跑起来的那一刻，风灌进耳朵，感觉自己又变回了一个普通的十岁小孩。" }
+        ]
+      }
+    },
+    {
+      "id": "snack-sharing-refusal",
+      "title": "15:30·放学零食分享",
+      "description": "同学递来薯片，只能拒绝并解释原因，社交货币被排除在外。",
+      "ageRange": { "start": 10 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "小红把薯片塞到你手里：'给你！'你翻过来看配料表——碳水28克。你笑着还回去：'谢谢，我今天额度用完了。'她不懂什么是额度，你也不懂怎么解释。零食是中国小学生最基础的社交货币，而你被排除在这套体系之外。",
+      "bgmTag": "lonely_afternoon_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对同学的零食分享……",
+        "options": [
+          { "label": "拒绝并解释原因", "response": "'我身体不产胰岛素，吃这个血糖会飙高。'你说得很熟练，像在背课文。小红似懂非懂地点头，下次她可能不会再问了。" },
+          { "label": "接过来但不吃，放书包里", "response": "你收下了心意，回家再处理。至少这一刻，你和他们一样手里有零食。哪怕只是拿着。" }
+        ]
+      }
+    },
+    {
+      "id": "bedtime-mom-care",
+      "title": "20:30·睡前妈妈的问候",
+      "description": "妈妈轻轻揉今天打针的针眼，问疼不疼，说今天辛苦你了。一天中最安全的时刻。",
+      "ageRange": { "start": 10 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "妈妈的手指轻轻抚过肚子上的针眼，温热的。'今天疼不疼？'你摇摇头。她又问：'在学校开心吗？'你想了想，说'还行'。她没追问，只是把你搂紧了一点。在这个怀抱里，不用伪装，不用解释，不用算碳水。你只是一个被爱着的十岁小孩。",
+      "bgmTag": "warm_lullaby_piano",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["bedtime-mom-care"],
+    "valleyMoments": ["recess-low-blood-sugar", "pe-class-bench"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["medical_needles", "chronic_illness", "child_medical_procedures"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
