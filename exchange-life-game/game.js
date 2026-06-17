@@ -129,6 +129,7 @@ const TIMELINE_LIST = [
   'shu-carpenter-wooden-ox',
   'mursi-lip-plate-coming-of-age',
   'smell-translator-first-month',
+  { id: 'firefighter-obstetrician-swap', title: '男消防员与女产科医生互换身体的一周', file: 'timelines/firefighter-obstetrician-swap.json' },
   'benin-bronze-caster',
   'cat-perspective-day',
   'civil-servant-to-blogger',

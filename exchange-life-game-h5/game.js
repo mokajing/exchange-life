@@ -113,6 +113,7 @@ const TIMELINE_LIST = [
 { id: 'shu-carpenter-wooden-ox', label: '三国蜀汉木牛流马工匠的发明日夜', level: 'L1' },
   'mursi-lip-plate-coming-of-age',
   'smell-translator-first-month',
+  { id: 'firefighter-obstetrician-swap', title: '男消防员与女产科医生互换身体的一周', file: 'timelines/firefighter-obstetrician-swap.json' },
   'benin-bronze-caster',
   'cat-perspective-day',
   'civil-servant-to-blogger',
