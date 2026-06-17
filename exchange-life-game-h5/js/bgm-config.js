@@ -688,7 +688,16 @@ const BGM_MAP = {
   tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.3, loop: true },
   triumph_after_storm:     { file: 'audio/bgm/triumph_after_storm.mp3',     volume: 0.4, loop: false },
   silence_rain_distant:    { file: 'audio/bgm/silence_rain_distant.mp3',    volume: 0.2, loop: true },
-  legacy_hope_gentle:      { file: 'audio/bgm/legacy_hope_gentle.mp3',      volume: 0.35, loop: false }
+  legacy_hope_gentle:      { file: 'audio/bgm/legacy_hope_gentle.mp3',      volume: 0.35, loop: false },
+
+  // === 智龙人智慧爬行文明专用标签 (2026-06-18 P0第499卷) ===
+  alien_awakening_ambient:  { file: 'audio/bgm/alien_awakening_ambient.mp3',  volume: 0.3, loop: true },
+  warm_clutch_heartbeat:    { file: 'audio/bgm/warm_clutch_heartbeat.mp3',    volume: 0.35, loop: true },
+  organic_steam_city:       { file: 'audio/bgm/organic_steam_city.mp3',       volume: 0.3, loop: true },
+  assembly_tension_drums:   { file: 'audio/bgm/assembly_tension_drums.mp3',   volume: 0.35, loop: true },
+  two_heartbeats_converge:  { file: 'audio/bgm/two_heartbeats_converge.mp3',  volume: 0.3, loop: false },
+  clutch_warmth_fadeout:    { file: 'audio/bgm/clutch_warmth_fadeout.mp3',    volume: 0.35, loop: true },
+  gentle_return_piano:      { file: 'audio/bgm/gentle_return_piano.mp3',      volume: 0.3, loop: false }
 
 };
 

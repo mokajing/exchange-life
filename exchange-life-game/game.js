@@ -144,6 +144,7 @@ const TIMELINE_LIST = [
   'community-group-leader-day',
   'amazigh-tattoo-master',
   'meghalaya-living-root-bridge',
+  'sauranthropus-industrial-revolution',
 ];
 
 App({
