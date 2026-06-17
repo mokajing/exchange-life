@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "sauranthropus-industrial-revolution",
+    "title": "如果恐龙没有灭绝——智慧爬行文明的工业革命",
+    "subtitle": "在热带雨林中体验智龙人的巢群生活与跨物种对话",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-18T00:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_awaken_scales",
+      "title": "鳞片觉醒",
+      "description": "你在热带雨林城市中醒来，发现自己是一只智龙人。看到自己的绿色三指鳞片手，感觉尾巴的存在，听到人类听不到的低频共鸣声。强烈的异类感和身体陌生感涌来。",
+      "ageRange": { "start": 0, "end": 1 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你睁开眼。视野比记忆中宽广了20%。低头，你看到一双绿色的三指手，鳞片在晨光下泛着琥珀色微光。一条尾巴在你身后不由自主地轻轻摆动。空气中有一种你从未听过、却本能理解的低频嗡鸣——那是智龙人的晨间问候。你不是人类了。",
+      "bgmTag": "alien_awakening_ambient",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "你的鳞片开始不由自主地变色，你想控制它吗？",
+        "options": [
+          { "label": "深呼吸，尝试让鳞片变暖橙色", "response": "缓慢的呼吸让你的鳞片逐渐泛起暖光。这是智龙人表达'安心'的方式。你的身体比意识更快学会了归属。" },
+          { "label": "任由鳞片自由变化", "response": "鳞片随着你的困惑闪烁出冷蓝色。这是智龙人的'思考色'。你的身体正在适应这个新世界。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_clutch_belonging",
+      "title": "巢群归属",
+      "description": "回到巢群，成员用鳞片颜色变化向你打招呼。你被分配去值夜班守护一窝卵，用白天储存的体温温暖它们。一种人类从未体验过的巢群归属感涌现。",
+      "ageRange": { "start": 1, "end": 5 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "巢群的入口散发着熟悉的温热气息。六个成员同时转向你，鳞片从深绿渐变为暖橙——这是'欢迎回家'的颜色。你的鳞片自动回应，身体比大脑先说出了'我属于这里'。角落里，一窝卵静静躺在孵化床上。今夜轮到你值守。你蜷缩在卵旁，将白天晒太阳蓄积的体温缓缓传递过去。这不是母爱，这是巢群的温度。",
+      "bgmTag": "warm_clutch_heartbeat",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "一枚卵的温度异常偏低，你怎么做？",
+        "options": [
+          { "label": "用自己的体温去温暖它", "response": "你将身体贴近那枚卵，感受它的温度一点点回升。巢群成员发出低频共鸣，那是'你做对了'的肯定。" },
+          { "label": "检查温度调节设备是否有故障", "response": "你发现通风口被落叶堵塞了。清理后，整个孵化床的温度恢复正常。技术思维也是守护的一种方式。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_vertical_rainforest_city",
+      "title": "垂直雨林之城",
+      "description": "你穿行于智龙人的城市——巨型苏铁树与木质建筑共生，蒸汽管道缠绕树干，空中轨道车穿行于树冠之间。这是一个基于地热和生物质能的有机文明。",
+      "ageRange": { "start": 5, "end": 10 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你踏上空中轨道车，穿过树冠层。脚下是垂直雨林城市——巨型苏铁树的树干中嵌入了居住舱，蒸汽管道像藤蔓一样缠绕其上。远处，地热井喷出白色蒸汽柱，为整座城市提供能量。没有烟囱，没有石油的气味。空气湿润而温暖，带着植物和蒸汽混合的气息。这座城本身就是一个巨大的热交换器。",
+      "bgmTag": "organic_steam_city",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_assembly_debate",
+      "title": "联盟大会辩论",
+      "description": "作为巢群代表参加联盟大会，讨论是否允许一个人类探险家进入城市。会上爆发激烈争论——有的巢群认为人类是温血威胁，有的认为好奇是智慧生命的共同特质。",
+      "ageRange": { "start": 10, "end": 15 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "联盟大厅里，十二个巢群的代表围坐成圈。议题只有一个：那个哺乳动物观察者，是否允许他进入我们的城市？'温血动物不懂我们的温度！'一个代表的鳞片闪出警告的亮黄。'但好奇是智慧生命的共同特质。'另一个代表的鳞片是平静的深绿。所有目光转向你。你的鳞片该是什么颜色？",
+      "bgmTag": "assembly_tension_drums",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "关于是否允许人类进入城市，你的立场是？",
+        "options": [
+          { "label": "支持——智慧生命之间的好奇跨越物种", "response": "你的鳞片亮起坚定的暖橙。投票通过。你被选中去接待那个人类。" },
+          { "label": "反对——温血动物不懂我们的温度", "response": "你的鳞片闪出保护的深绿。你被指派为安全观察员，从远处监控人类的行为。" },
+          { "label": "弃权——我需要更多信息", "response": "你的鳞片呈现思考的冷蓝。你去图书馆查阅人类资料，发现他们也有'巢群'——只是叫'家庭'。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_cross_species_dialogue",
+      "title": "跨物种对话",
+      "description": "你被选中接待人类探险家。带他参观城市，用翻译器交流。人类问你们没有妈妈不觉得缺了什么吗，你反问你们没有巢群不觉得冷吗。两个物种在同一问题上各自困惑，却同时意识到对方的情感世界不是缺失只是不同。",
+      "ageRange": { "start": 15, "end": 20 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "人类站在你面前，皮肤苍白，只有两只手，没有尾巴。他用翻译器问你：'你们没有妈妈……不觉得缺了什么吗？'你看着他，感受着巢群留在你鳞片上的余温。你说：'你们没有巢群，你们不觉得冷吗？'沉默。两个心跳声在安静的房间里各自跳动——一个快，一个慢。然后，他的嘴角微微上扬。你的鳞片泛起从未有过的颜色——不是暖橙，不是冷蓝，是一种介于两者之间的、属于'理解'的光。",
+      "bgmTag": "two_heartbeats_converge",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "人类问你'什么是妈妈'，你怎么回答？",
+        "options": [
+          { "label": "我们不需要妈妈，巢群就是全部", "response": "人类困惑地皱眉。但你感到一种坚定的温暖——你的巢群就是你的答案。" },
+          { "label": "请你解释给我听，什么是妈妈", "response": "人类描述了'一个人孕育、一个人哺育'的过程。你听完后说：'我们也有类似的东西，但不是一个人，是一群人。'" },
+          { "label": "反问：你们没有巢群不觉得冷吗", "response": "人类愣住了。然后他轻声说：'有时候……会觉得。'这一刻，两个物种的距离缩短了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_night_warmth",
+      "title": "热量共享之夜",
+      "description": "夜晚回到巢群，成员用鳞片发出暖橙色代表安心。你蜷缩在热量共享区，感受其他成员的体温。想到独自睡在帐篷里的人类，他是不是很冷？但你也知道他有他自己的巢群。",
+      "ageRange": { "start": 20, "end": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "夜色降临，巢群的热量共享区弥漫着温暖的低频振动。六个成员的鳞片同时发出暖橙色的脉冲，像六颗缓慢跳动的心脏。你蜷缩其中，感受着来自四面八方的体温。你的鳞片自动回应，融入这片光的海洋。你想到了那个人类——此刻他正独自躺在帐篷里，周围没有鳞片的光，没有共享的体温。他是不是很冷？但你也知道，他有自己的'巢群'，只是不叫这个名字。",
+      "bgmTag": "clutch_warmth_fadeout",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_return_human",
+      "title": "回归人类",
+      "description": "体验结束，引导用户感受自己的身体——手指、体温、心跳，重新锚定在人类身份中。带着对'不同情感模式'的理解回归日常生活。",
+      "ageRange": { "start": 25, "end": 30 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "现在，感受一下你自己的手。五根手指，没有鳞片。感受一下你的体温——恒定的37度，不依赖阳光。感受一下你的心跳——只有一个频率，属于你自己。你回来了。但有些东西留在了那片热带雨林里：一种对'不同'的理解，一种对'归属'的新定义。也许今晚，当你和家人围坐在灯下时，你会想起那些暖橙色的鳞片。",
+      "bgmTag": "gentle_return_piano",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_05_cross_species_dialogue", "evt_06_night_warmth"],
+    "valleyMoments": ["evt_04_assembly_debate"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
