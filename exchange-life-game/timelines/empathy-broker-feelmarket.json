@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "empathy-broker-feelmarket",
+    "title": "共情经纪人的第一个月",
+    "subtitle": "在情感可以买卖的近未来世界里守护无法被量化的真实倾听",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-18T02:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "入职FeelMarket",
+      "description": "林默入职情感交易平台FeelMarket成为共情经纪人，第一次体验'被陌生人信任'的情感文件时的震撼。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.75,
+      "narrativeText": "你叫林默，26岁，今天是你在FeelMarket情感交易平台的第一天。作为'共情经纪人'，你的工作是评估、定价和交易人类情感——通过脑机芯片，人们可以将自己的喜怒哀乐提取为'情感文件'出售。你戴上芯片，体验了第一份情感文件：一位退休教师三十年教学生涯中积累的'被学生信任'的温暖。那种感觉像第一次戴上眼镜看清世界。情绪纯度87.3%，市价¥12,400/30min。你感到前所未有的新奇——原来人类的情感真的可以被量化。",
+      "bgmTag": "synth_light_tech",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对这个将情感商品化的新世界，你的第一感受是？",
+        "options": [
+          { "label": "兴奋：终于理解情感也可以有价值", "response": "你觉得这是一个让人类情感被看见、被尊重的时代。" },
+          { "label": "不安：情感被标价后还是原来的情感吗", "response": "你隐约觉得哪里不对，但说不清楚。" },
+          { "label": "好奇：想看看人类情感的边界在哪里", "response": "你对即将揭开的'情感世界'充满探索欲。" }
+        ]
+      },
+      "sourceAnchor": "第508卷·Layer2·第一幕·Day1-7"
+    },
+    {
+      "id": "evt_02",
+      "title": "退休教师的情感定价",
+      "description": "一位退休教师带来三十年教学记忆的情感文件，AI评估价仅为市场价的1/10。林默面临职业路线的关键选择。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "Day 7，一位白发苍苍的退休教师来到你的工位。她带来了一份三十年的教学记忆情感文件——里面有无数个清晨备课的专注、学生毕业时的不舍、第一次被叫'老师'时的惶恐与骄傲。AI评估系统给出冰冷数字：情感纯度62.1%，建议售价¥1,800。你知道这个价格只有市场价的十分之一。老人看着屏幕上的数字，眼神黯淡下去。你的共情额度还剩8小时——如果亲自体验这份情感，你可以更准确地定价，但这意味着消耗你自己的情感能量。",
+      "bgmTag": "piano_gentle_reflective",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你会如何处理这份情感文件的定价？",
+        "options": [
+          { "label": "按AI评估价提交（效率优先）", "response": "你获得了平台效率奖励，但老人失望离去。你的职业路线走向'效率优先'。" },
+          { "label": "亲自体验后上调12倍（深度优先）", "response": "你消耗1小时共情额度，体验到三十年的教育热忱。老人感动落泪，后来成为你的'情感顾问'。" },
+          { "label": "拒绝定价，帮老人联系公益组织", "response": "不消耗额度也不获佣金，但老人的学生看到公益分享后联系了你，触发隐藏剧情。" }
+        ]
+      },
+      "sourceAnchor": "第508卷·Layer4·分支1·Day7"
+    },
+    {
+      "id": "evt_03",
+      "title": "镜子里的眼泪",
+      "description": "连续高强度体验各种情感后的'情感疲劳'，林默开始分不清芯片植入的情感和自己的真实感受。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "Day 10，你已经连续一周高强度体验各种情感文件。今晚回家后，你体验了一份'被抛弃的孤独'——一个中年男人在离婚协议签字那天的绝望。摘下芯片后，你站在浴室镜子前，突然哭了。二十分钟。你用手擦眼泪，盯着镜子里的自己，问了一个此后反复出现的问题：'这眼泪是芯片的残留，还是我的？'如果区分不了，那我还是我吗？BGM消失，只剩浴室滴水声和你的呼吸声。三十秒绝对静默后，一个极低的大提琴音缓缓进入，像心跳。",
+      "bgmTag": "cello_solo_gentle",
+      "visualTone": "dark",
+      "sourceAnchor": "第508卷·Layer2·第二幕·Day10"
+    },
+    {
+      "id": "evt_04",
+      "title": "情感版权纠纷",
+      "description": "已故老人的子女出售父亲的情感文件引发伦理争议，林默必须在遵守规则和遵从良知之间做出选择。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.9,
+      "narrativeText": "Day 18，一份已故老人的情感文件引发版权纠纷。老人的子女未经同意出售了父亲的'临终和解'情感文件。你体验后发现，老人最后的和解对象不是子女，而是五十年前因误会绝交的挚友。老人最后的情感记忆里有一封从未寄出的信：'我知道你恨我，但我还是想告诉你，那年的事不是你想的那样。'他到死都在等一封不会来的回信。你在办公室里无声地哭了很久，这次你知道眼泪是自己的。平台法务要求你完成交易，但你面前有三个选择。",
+      "bgmTag": "silence_wind_room",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对这份不应被交易的情感，你如何选择？",
+        "options": [
+          { "label": "向伦理委员会举报", "response": "交易被冻结，你被扣绩效，但获得老人子女的道歉和'年度伦理卫士'提名。" },
+          { "label": "沉默，让交易完成", "response": "你获得高额佣金，但每夜做噩梦。后来发现老人得知子女出售情感时的'被背叛'记忆。" },
+          { "label": "私下联系老人子女劝说撤回", "response": "你用情感说服达成和解，但平台法务警告你'下次不要越权'。" }
+        ]
+      },
+      "sourceAnchor": "第508卷·Layer4·分支2·Day18"
+    },
+    {
+      "id": "evt_05",
+      "title": "阿尔茨海默患者的记忆碎片",
+      "description": "被扣绩效后，林默用业余时间整理一位阿尔茨海默症患者碎片化的情感文件，每一段碎片里都藏着'我爱你'。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "Day 24，被扣绩效后，同事们都劝你'别太较真'。你开始注意到一些被平台算法忽略的情感文件——一位阿尔茨海默症患者的'记忆碎片'。技术上是碎片化的、不值钱的，每个片段只有3-5秒，像被剪碎的磁带随机播放。但每一段碎片里都藏着一个从未说出口的'我爱你'，每次说出的语气都不一样——像第一次说、像最后一次说、像忘了已经说过。你用自己的业余时间整理这些碎片，不是为了交易，只是觉得'这些碎片不应该被删除'。",
+      "bgmTag": "whisper_love_fragments",
+      "visualTone": "warm",
+      "sourceAnchor": "第508卷·Layer2·第四幕·Day24"
+    },
+    {
+      "id": "evt_06",
+      "title": "老客户的电话",
+      "description": "月末共情额度归零，老客户打来电话不是为了交易，而是因为'你上次真的听懂了'。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "Day 28，月末，你的共情额度归零。右上角仪表盘从黄色变为红色闪烁。这时，一位老客户打来电话。她说：'我不需要交易，只是想聊聊。你上次真的听懂了。'你没有芯片辅助，只是用自己的耳朵和心听了四十分钟。挂电话前她说：'谢谢你。你是唯一一个让我觉得不是买来的理解。'你站在阳台上看着这座情感交易都市的霓虹灯，金色夕阳从左侧打进来，你的侧脸被暖光包裹。第一次觉得：也许在一个所有情感都可以买卖的世界里，真正稀缺的不是那些被明码标价的体验，而是一个人愿意放下所有芯片、所有技术、所有商业模式，只是安静地听另一个人说话。",
+      "bgmTag": "piano_slow_hope",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "共情额度已归零，你会接这个电话吗？",
+        "options": [
+          { "label": "接电话，免费倾听", "response": "你触发了'和解与微光'结局。真正的共情不需要芯片，阳台场景温暖而平静。" },
+          { "label": "拒绝，因为额度已用完", "response": "你继续在FeelMarket工作，但眼神越来越空洞，变成只关心'情感纯度'和'市场报价'的机器。" },
+          { "label": "接电话，但试图推销情感产品", "response": "你成功推销了'被理解的情感体验包'，但客户评价：'这和我跟你聊天时感受到的不一样。'评分从4.9降到3.2。" }
+        ]
+      },
+      "sourceAnchor": "第508卷·Layer4·分支3·Day28"
+    },
+    {
+      "id": "evt_07",
+      "title": "非卖品",
+      "description": "林默在情感商品化的世界里守住了'免费倾听'这份最后的非卖品，找到了不完美但真实的活法。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2035 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "Day 30，月末总结。你的业绩排名中游，共情额度耗尽，被扣了一次绩效。但你收到了三封感谢信：退休教师说'你是第一个认真听我讲完三十年故事的人'；老人子女说'谢谢你让我们理解了父亲'；老客户说'下次我还找你聊天，不买任何东西'。你没有改变这个世界，但世界也没有完全改变你。在一个所有情感都可以买卖的时代里，你守住了'免费倾听'这份最后的非卖品。钢琴回到主旋律，更慢、更轻，像一只手在琴键上犹豫。最后30秒加入城市的环境音——远处的车流、风声——钢琴消失，留下人间烟火的声响。",
+      "bgmTag": "piano_fade_citylife",
+      "visualTone": "bright",
+      "sourceAnchor": "第508卷·Layer2·第五幕·Day30"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04", "evt_06"],
+    "valleyMoments": ["evt_03", "evt_05"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["情感商品化", "孤独", "道德困境", "阿尔茨海默症", "临终关怀"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

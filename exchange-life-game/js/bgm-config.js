@@ -705,7 +705,15 @@ const BGM_MAP = {
   morning_routine_guitar:  { file: 'audio/bgm/morning_routine_guitar.mp3',  volume: 0.3, loop: true },
   warm_interaction_piano:  { file: 'audio/bgm/warm_interaction_piano.mp3',  volume: 0.35, loop: true },
   absence_melancholy_cello:{ file: 'audio/bgm/absence_melancholy_cello.mp3',volume: 0.3, loop: true },
-  dusk_fade_piano:         { file: 'audio/bgm/dusk_fade_piano.mp3',         volume: 0.3, loop: false }
+  dusk_fade_piano:         { file: 'audio/bgm/dusk_fade_piano.mp3',         volume: 0.3, loop: false },
+
+  // === 共情经纪人FeelMarket专用标签 (2026-06-18 P0第508卷) ===
+  synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.3, loop: true },
+  piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3, loop: true },
+  silence_wind_room:       { file: 'audio/bgm/silence_wind_room.mp3',       volume: 0.2, loop: true },
+  whisper_love_fragments:  { file: 'audio/bgm/whisper_love_fragments.mp3',  volume: 0.25, loop: true },
+  piano_slow_hope:         { file: 'audio/bgm/piano_slow_hope.mp3',         volume: 0.35, loop: true },
+  piano_fade_citylife:     { file: 'audio/bgm/piano_fade_citylife.mp3',     volume: 0.3, loop: false }
 
 };
 
