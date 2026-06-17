@@ -864,7 +864,25 @@ function _clearCrossfadeTimer() {
   synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.35, loop: true },
   piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3,  loop: true },
   strings_sunrise_orbital: { file: 'audio/bgm/strings_sunrise_orbital.mp3', volume: 0.4,  loop: true },
-  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true }
+  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true },
+  // === autism-supermarket-shopping (第514卷·自闭症谱系者的超市购物) ===
+  quiet_indoor_pencil:     { file: 'audio/bgm/quiet_indoor_pencil.mp3',     volume: 0.25, loop: true },
+  hallway_echo_muffled:    { file: 'audio/bgm/hallway_echo_muffled.mp3',    volume: 0.2,  loop: true },
+  sensory_overload_multi:  { file: 'audio/bgm/sensory_overload_multi.mp3',  volume: 0.45, loop: true },
+  cognitive_loop_tension:  { file: 'audio/bgm/cognitive_loop_tension.mp3',  volume: 0.35, loop: true },
+  heartbeat_close_space:   { file: 'audio/bgm/heartbeat_close_space.mp3',   volume: 0.3,  loop: true },
+  silence_pause_tension:   { file: 'audio/bgm/silence_pause_tension.mp3',   volume: 0.25, loop: true },
+  gentle_release_birds:    { file: 'audio/bgm/gentle_release_birds.mp3',    volume: 0.3,  loop: true },
+
+  // === motivation-awakener-first-month (第514卷·动力唤醒师的第一个月) ===
+  gentle_worldbuilding:    { file: 'audio/bgm/gentle_worldbuilding.mp3',    volume: 0.3,  loop: true },
+  space_silence_gentle:    { file: 'audio/bgm/space_silence_gentle.mp3',    volume: 0.25, loop: true },
+  youth_confusion_soft:    { file: 'audio/bgm/youth_confusion_soft.mp3',    volume: 0.3,  loop: true },
+  collective_silence_tension: { file: 'audio/bgm/collective_silence_tension.mp3', volume: 0.35, loop: true },
+  night_doubt_piano:       { file: 'audio/bgm/night_doubt_piano.mp3',       volume: 0.3,  loop: true },
+  hope_gentle_strings:     { file: 'audio/bgm/hope_gentle_strings.mp3',     volume: 0.35, loop: true }
+
+
 
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
 

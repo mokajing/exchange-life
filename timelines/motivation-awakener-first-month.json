@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "motivation-awakener-first-month",
+    "title": "动力唤醒师的第一个月",
+    "subtitle": "在没有竞争本能的世界里替人找回'为什么要做这件事'的内在理由",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-18T03:05:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "入职培训：动力唤醒理论",
+      "description": "学习这个世界的心理学分支——研究人类内在动机的触发与维持机制。没有竞争压力的世界里，动力只能来自好奇心、合作愉悦和把事情做对的满足感。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你叫陆沉，30岁，是一名刚入职的'动力唤醒师'。在这个平行世界里，人类从未进化出竞争本能——没有排名、考试、晋升竞争、商业竞争、体育竞技，甚至没有战争。社会的全部驱动力来自内在好奇心、合作愉悦感和把事情做对的满足感。你的工作是在人们失去内在驱动力时，帮助他们重新找到做一件事的理由。入职第一天，导师告诉你：'你不能逼任何人，不能比较，不能用恐惧。你只能用共鸣、好奇心和意义感。'你突然意识到，这可能是世界上最难的职业。",
+      "bgmTag": "gentle_worldbuilding",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这个没有竞争的世界，你的第一反应是？",
+        "options": [
+          { "label": "向往：这才是人类应有的样子", "response": "你觉得这个世界比自己的世界更接近理想。但你也隐约感到不安——没有竞争，真的能持续运转吗？" },
+          { "label": "困惑：没有压力怎么会有动力", "response": "你从小被教导'不努力就会被淘汰'。在这个世界里，这句话毫无意义。你需要重新理解'努力'的含义。" },
+          { "label": "怀疑：这种乌托邦不可能持久", "response": "你认为竞争是人类天性。但导师平静地说：'你已经在这里了。试着理解它，而不是评判它。'" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·Day1-3"
+    },
+    {
+      "id": "evt_02",
+      "title": "第一个案：太空垃圾清理站的工程师",
+      "description": "一位在太空垃圾清理站工作了12年的工程师突然失去了每天上班的动力。不是因为厌倦或不满，而是'忘记了当初为什么觉得这件事有意思'。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "Day 4，你接到第一个案子。委托人叫陈远，45岁，在地球轨道太空垃圾清理站工作了12年。他没有抱怨、没有不满、没有被同事排挤——他只是某天早上醒来，发现自己不想去上班了。'我不是不开心，'他说，'我只是……忘了当初为什么觉得捡太空垃圾有意思。'在没有竞争的世界里，没有人会因为'不去上班就失业'而强迫自己。如果内在动机消失了，就真的消失了。你的任务不是让他'振作起来'，而是帮他找回那个已经熄灭的好奇心火花。",
+      "bgmTag": "space_silence_gentle",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "你会如何帮助陈远找回动力？",
+        "options": [
+          { "label": "带他回顾12年前第一次看到太空垃圾时的感受", "response": "你找到了他入职时的日记。读到'今天捡到一颗螺丝钉，它可能来自1970年代的卫星'时，他的眼睛亮了。" },
+          { "label": "建议他换一种工作方式，比如教新人", "response": "他开始带实习生。在解释'为什么要这样分类'的过程中，他重新发现了自己知识体系的美感。" },
+          { "label": "问他'如果明天不用上班，你最想做什么'", "response": "他沉默了很久说：'种番茄。'你意识到他需要的不是工作的意义，而是生活的质感。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·Day4-10"
+    },
+    {
+      "id": "evt_03",
+      "title": "第二个案：对学习失去兴趣的少年",
+      "description": "16岁少年在没有任何升学压力和排名焦虑的世界里，对一切学习失去了兴趣。'学什么都可以，所以学什么都无所谓。'",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "education",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "Day 11，一个母亲带着16岁的儿子来找你。少年叫林溪，聪明、健康、家庭和睦，但他已经三个月没碰过任何课本了。'学什么都可以，所以学什么都无所谓，'他说。在你的世界里，这句话会被诊断为'叛逆'或'懒惰'。但在这个没有竞争的世界里，这是一种真实的困境：当所有选项都平等地开放，选择本身就失去了重量。你和他聊了三个小时，发现他不是对学习没兴趣——他是对'没有方向感的自由'感到窒息。",
+      "bgmTag": "youth_confusion_soft",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "你会如何帮助林溪找到学习的方向？",
+        "options": [
+          { "label": "帮他找到一个'只属于他的问题'", "response": "你问他'世界上有什么事情让你觉得不对劲？'他说'为什么雨后的泥土味那么好闻'。一个专属问题成了他的锚。" },
+          { "label": "建议他和朋友一起做一个项目", "response": "合作的愉悦感替代了竞争的驱动。他和两个朋友开始研究城市雨水收集系统，学习重新有了社交温度。" },
+          { "label": "告诉他'不学习也可以'", "response": "他愣住了。从来没有人对他说过这句话。卸下'应该学习'的压力后，他反而在两周后主动走进了图书馆。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·Day11-20"
+    },
+    {
+      "id": "evt_04",
+      "title": "集体动力塌陷事件",
+      "description": "30人建筑设计团队在项目中途同时失去了继续的理由。不是罢工、不是矛盾，是一种集体性的'意义蒸发'。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "Day 21，紧急呼叫。一个30人的建筑设计团队在设计一座社区图书馆时，集体陷入了'意义蒸发'状态。没有人吵架，没有人离职，没有人消极怠工——他们只是同时停了下来，坐在各自的位置上发呆。项目负责人说：'我们设计了完美的方案，但突然所有人都觉得……为什么要建这座图书馆？'在没有deadline压力和竞争对手的世界里，一个项目如果失去了内在意义，就会像气球一样无声地瘪下去。你第一次面对群体性的动力危机，而你只有一个人。",
+      "bgmTag": "collective_silence_tension",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对30人的集体动力塌陷，你会怎么做？",
+        "options": [
+          { "label": "逐一和每个人谈话，找到各自的'火种'", "response": "你花了五天时间和所有人一对一聊天。发现每个人的'熄火点'都不同，但根源相同：他们忘了这座图书馆是为谁建的。" },
+          { "label": "带团队去见未来的使用者", "response": "你安排了和社区老人的茶话会。当一位奶奶说'我想有个地方给孙子讲故事'时，设计师们的眼睛重新亮了。" },
+          { "label": "建议暂停项目，让团队休息一周", "response": "没有deadline的世界允许暂停。一周后回来时，三个人提出了全新的设计方案——灵感来自休息时的散步。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·Day21-30"
+    },
+    {
+      "id": "evt_05",
+      "title": "自我怀疑：意义制造者的虚无",
+      "description": "在处理完三个案子后，你自己也开始怀疑：我做的这一切到底有没有意义？在一个不需要竞争的世界里，连'动力唤醒师'这个职业的存在理由都是模糊的。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "Day 28，深夜。你坐在空荡荡的办公室里，面前是三份结案报告。陈远回到了太空垃圾清理站，但你说不上他是真的找回了热情还是只是习惯了回去。林溪开始研究雨后泥土的气味，但你不确定这算不算'学习的方向'。设计团队完成了图书馆方案，但如果下次再塌陷呢？你是一个'意义制造者'，但你自己的意义在哪里？在一个没有竞争的世界里，连'帮助别人'这件事都没有KPI来衡量。你第一次理解了什么叫'与虚无主义对抗'——不是激烈的战斗，而是在寂静中反复确认自己还在呼吸。",
+      "bgmTag": "night_doubt_piano",
+      "visualTone": "dark",
+      "sourceAnchor": "第514卷·Layer1·核心矛盾"
+    },
+    {
+      "id": "evt_06",
+      "title": "月末的微光",
+      "description": "收到陈远从太空站发来的一张照片：他在清理一块碎片时发现上面刻着1972年某位工程师的名字。'我又觉得有意思了。'他说。",
+      "ageRange": { "start": 30 },
+      "yearRange": { "start": 2089 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "Day 30，你的通讯器响了。是陈远从太空站发来的消息，附了一张照片：他在清理一块太空碎片时，发现上面刻着一个名字——1972年参与阿波罗计划的某位工程师。'我不知道他是谁，'陈远说，'但我觉得他在看着我。我又觉得有意思了。'你盯着那张照片看了很久。碎片上的名字已经被宇宙射线侵蚀得模糊不清，但它穿越了半个世纪的寂静，在一个没有竞争的世界里，重新点燃了一个人的好奇心。也许这就是你的意义——不是制造动力，而是帮人们听见那些本来就存在的声音。",
+      "bgmTag": "hope_gentle_strings",
+      "visualTone": "warm",
+      "sourceAnchor": "第514卷·Layer2·情感弧线·收束"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04", "evt_05"],
+    "valleyMoments": ["evt_01", "evt_06"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["existential_crisis"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
