@@ -847,7 +847,7 @@ function _clearCrossfadeTimer() {
   }
 }
 
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
+
   // === waste-sorter-supervisor (第506卷·拾荒者到督导员) ===
   cello_solo_low:          { file: 'audio/bgm/cello_solo_low.mp3',          volume: 0.35, loop: true },
   tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.4,  loop: true },
@@ -856,5 +856,16 @@ module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
   melancholy_cello:        { file: 'audio/bgm/melancholy_cello.mp3',        volume: 0.35, loop: true },
   warm_piano_discovery:    { file: 'audio/bgm/warm_piano_discovery.mp3',    volume: 0.35, loop: true },
   triumph_piano_cello:     { file: 'audio/bgm/triumph_piano_cello.mp3',     volume: 0.5,  loop: false }
+
+  // === orbital-debris-cleaner (第511卷·太空垃圾清理轨道工程师) ===
+  space_ambient_intro:     { file: 'audio/bgm/space_ambient_intro.mp3',     volume: 0.35, loop: true },
+  tension_space_capture:   { file: 'audio/bgm/tension_space_capture.mp3',   volume: 0.45, loop: true },
+  alarm_tension_orbital:   { file: 'audio/bgm/alarm_tension_orbital.mp3',   volume: 0.5,  loop: true },
+  synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.35, loop: true },
+  piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3,  loop: true },
+  strings_sunrise_orbital: { file: 'audio/bgm/strings_sunrise_orbital.mp3', volume: 0.4,  loop: true },
+  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true }
+
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
 
 };
