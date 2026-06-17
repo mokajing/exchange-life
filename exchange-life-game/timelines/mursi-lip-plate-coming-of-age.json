@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "id": "mursi-lip-plate-coming-of-age",
+    "title": "穆尔西族唇盘成人礼",
+    "subtitle": "在一个15岁少女用陶土盘撑开下唇的仪式中，重新理解'美'的定义与身体自主权",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-17T09:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "eve_001",
+      "title": "成人礼前夜",
+      "description": "母亲在篝火旁讲述自己当年的唇盘经历，展示祖母传承的陶土盘。少女心中充满恐惧与期待。",
+      "ageRange": { "start": 15 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "篝火的光影在母亲脸上跳动。她用指甲在泥地上画了一个圈，说：'这是我的唇盘，我母亲给我的，我母亲从她母亲那里得到的。'你盯着那个圆圈，心跳声盖过了柴火的噗啪声。明天，你就要成为女人了。",
+      "bgmTag": "african_drums_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "母亲问：'你准备好了吗？'",
+        "options": [
+          { "label": "点头", "response": "你深吸一口气，点了点头。母亲握住你的手，掌心温暖而粗糙。" },
+          { "label": "摇头", "response": "母亲轻轻抚摸你的头发：'我们再等一年。'但你看到她的眼里有一丝失望。" }
+        ]
+      }
+    },
+    {
+      "id": "eve_002",
+      "title": "仪式当天",
+      "description": "部落女长老在清晨用专用小刀切开下唇与牙龈连接处，拔除两颗下门牙，插入初始小陶土盘。",
+      "ageRange": { "start": 15 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "清晨的鸟鸣声突然变得遥远。刀刃切入的瞬间，疼痛像一道闪电穿过全身。你听到自己的呼吸声急促而破碎。母亲的手紧紧握着你的手腕。女长老的吟唱声从很远的地方传来，像是另一个世界的语言。",
+      "bgmTag": "ritual_chant_morning",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "女长老问：'你要多大的盘子？'",
+        "options": [
+          { "label": "小盘（4cm）", "response": "愈合会快一些，但聘礼会少。母亲说：'大小不重要，重要的是你准备好了。'" },
+          { "label": "中盘（8cm）", "response": "标准的选择。大多数女孩都从这个尺寸开始。" },
+          { "label": "大盘（12cm）", "response": "愈合会很慢，但聘礼更多。母亲轻声说：'你不需要用大盘来证明什么。'" }
+        ]
+      }
+    },
+    {
+      "id": "eve_003",
+      "title": "伤口愈合期",
+      "description": "用草药汁漱口，吃流质食物，不能说话，通过手势与母亲沟通。持续7-14天。",
+      "ageRange": { "start": 15 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "世界变得安静而模糊。你用眼神问母亲想吃什么，她指了指葫芦里的蜂蜜水。草药汁的苦味弥漫在口腔里，但那是治愈的味道。每一天都像一年那么长，但母亲始终在你身边，用手势代替语言，用陪伴代替安慰。",
+      "bgmTag": "healing_silence_wind",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "eve_004",
+      "title": "第一次公共露面",
+      "description": "在奥莫河谷的集市日首次以'成年女性'身份出现，接受其他女性的祝福。",
+      "ageRange": { "start": 15 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "集市的喧嚣像潮水一样涌来。珠子碰撞的声音、牲畜的叫卖声、人们好奇的目光——你感到自己像一个被展示的物件。但当你看到其他女性唇盘轻轻碰撞的'咔嗒'声，看到她们眼中的理解和接纳，你意识到这不是被观看，而是被欢迎。",
+      "bgmTag": "market_bustle_colors",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "一个外来游客举起相机对着你",
+        "options": [
+          { "label": "转开头", "response": "你感到被冒犯，但也习惯了这种凝视。" },
+          { "label": "直视镜头", "response": "你不笑，用沉默回应。那一刻，你不是被拍摄的对象，你是自己故事的主人。" },
+          { "label": "用手遮住脸", "response": "母亲走过来挡在你面前。她的背影是你见过的最坚固的墙。" }
+        ]
+      }
+    },
+    {
+      "id": "eve_005",
+      "title": "唇盘扩容",
+      "description": "随着下唇弹性增加，逐渐更换更大的陶土盘。盘子越大，出嫁时的聘礼（牛）越多。",
+      "ageRange": { "start": 15, "end": 17 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "时间在你的嘴唇上留下痕迹。从小盘到中盘，再到大盘，每一次更换都是一次小小的仪式。你开始理解，这不仅仅是关于美或聘礼，而是关于耐心、关于身体与意志的对话。",
+      "bgmTag": "time_passing_river",
+      "visualTone": "warm"
+    },
+    {
+      "id": "eve_006",
+      "title": "河面自视",
+      "description": "在雨季的河面倒影中第一次看清自己戴着唇盘的样子。这是自我认同的关键时刻。",
+      "ageRange": { "start": 16 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "雨季的河水把天空切成两半，一半是云，一半是你。你第一次发现，那个戴着盘子的女孩，她的眼睛像母亲。不是因为你变成了另一个人，而是因为你终于认出了自己。河水流淌，倒影摇曳，但你的目光不再躲闪。",
+      "bgmTag": "river_reflection_krar",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "看着水中的自己",
+        "options": [
+          { "label": "取下盘子", "response": "你看着没有盘子的嘴唇，感受到一种'空'。但那不是你想要的样子。" },
+          { "label": "换更大的盘子", "response": "你主动选择了更大的盘子。不是因为别人，而是因为'我准备好了'。" },
+          { "label": "保持现状", "response": "母亲说：'你可以慢慢来。'你笑了，知道时间站在你这边。" }
+        ]
+      }
+    },
+    {
+      "id": "eve_007",
+      "title": "传承的理解",
+      "description": "在经历了整个成人礼过程后，终于理解了母亲当年讲述的故事，以及这条传承链的意义。",
+      "ageRange": { "start": 17 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.75,
+      "narrativeText": "你坐在母亲身边，看着她手上的老茧和眼角的皱纹。她曾经也是那个在篝火旁害怕的女孩。现在你明白了，唇盘不仅仅是一个陶土圆盘，它是 generations of women 的勇气、疼痛和爱的结晶。你接过母亲手中的新盘子，知道有一天，你也会把它传给下一个女孩。",
+      "bgmTag": "legacy_warm_strings",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["eve_002", "eve_006"],
+    "valleyMoments": ["eve_003"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["body_modification", "pain_simulation", "cultural_practice"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

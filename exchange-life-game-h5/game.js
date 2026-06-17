@@ -111,6 +111,7 @@ const TIMELINE_LIST = [
   { id: 'zhang-guimei', label: '大山里的女校长——张桂梅', level: 'L1' },
   { id: 'zhang-xue', label: '修车少年张雪——20年死磕，打破世界摩托车37年垄断', level: 'L1' },
 { id: 'shu-carpenter-wooden-ox', label: '三国蜀汉木牛流马工匠的发明日夜', level: 'L1' },
+  'mursi-lip-plate-coming-of-age',
   { id: 'zheng-jinxing', label: '金刚——一米一三的\'高大\'人生', level: 'L1' },
   { id: '一战略定位', label: '一、战略定位', level: 'L1' },
   { id: '中国古代生活-三国蜀汉丞相府书佐的一天', label: '中国古代生活 · 三国蜀汉丞相府书佐的一天', level: 'L1' },

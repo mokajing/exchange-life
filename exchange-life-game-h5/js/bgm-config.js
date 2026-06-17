@@ -604,6 +604,16 @@ const BGM_MAP = {
   farewell_xiao_distant:   { file: 'audio/bgm/farewell_xiao_distant.mp3',   volume: 0.3, loop: true },
   echo_guqin_fade:         { file: 'audio/bgm/echo_guqin_fade.mp3',         volume: 0.25, loop: true }
 
+
+  // === 穆尔西族唇盘成人礼专用标签 (2026-06-17 P0第471卷) ===
+  african_drums_gentle:    { file: 'audio/bgm/african_drums_gentle.mp3',    volume: 0.3, loop: true },
+  ritual_chant_morning:    { file: 'audio/bgm/ritual_chant_morning.mp3',    volume: 0.35, loop: true },
+  healing_silence_wind:    { file: 'audio/bgm/healing_silence_wind.mp3',    volume: 0.25, loop: true },
+  market_bustle_colors:    { file: 'audio/bgm/market_bustle_colors.mp3',    volume: 0.4, loop: true },
+  time_passing_river:      { file: 'audio/bgm/time_passing_river.mp3',      volume: 0.3, loop: true },
+  river_reflection_krar:   { file: 'audio/bgm/river_reflection_krar.mp3',   volume: 0.35, loop: false },
+  legacy_warm_strings:     { file: 'audio/bgm/legacy_warm_strings.mp3',     volume: 0.35, loop: true }
+
 };
 
 /**
