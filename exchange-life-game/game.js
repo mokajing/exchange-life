@@ -138,6 +138,8 @@ const TIMELINE_LIST = [
   'tuareg-salt-caravan',
   'wei-monk-sutra-copyist',
   'alarm-voice-critic-week',
+  'ptsd-daily-life',
+  'mycenaean-scribe-linear-b',
 ];
 
 App({

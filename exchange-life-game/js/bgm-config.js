@@ -641,6 +641,23 @@ const BGM_MAP = {
   love_theme_gentle:      { file: 'audio/bgm/love_theme_gentle.mp3',      volume: 0.35, loop: true },
   reflection_piano_soft:  { file: 'audio/bgm/reflection_piano_soft.mp3',  volume: 0.25, loop: true }
 
+
+  // === PTSD患者日常生活专用标签 (2026-06-17 P0第477卷) ===
+  dark_ambient_heartbeat:     { file: 'audio/bgm/dark_ambient_heartbeat.mp3',     volume: 0.25, loop: true },
+  tension_low_synth_ptsd:     { file: 'audio/bgm/tension_low_synth_ptsd.mp3',     volume: 0.3, loop: true },
+  distorted_heartbeat_rising: { file: 'audio/bgm/distorted_heartbeat_rising.mp3', volume: 0.4, loop: true },
+  office_muffled_ambient:     { file: 'audio/bgm/office_muffled_ambient.mp3',     volume: 0.2, loop: true },
+  silence_then_piano:         { file: 'audio/bgm/silence_then_piano.mp3',         volume: 0.3, loop: false },
+  white_noise_gentle:         { file: 'audio/bgm/white_noise_gentle.mp3',         volume: 0.2, loop: true },
+  minimal_piano_repeat:       { file: 'audio/bgm/minimal_piano_repeat.mp3',       volume: 0.25, loop: true },
+
+  // === 迈锡尼线形文字B书吏专用标签 (2026-06-17 P0第475卷) ===
+  ancient_lyre_morning:       { file: 'audio/bgm/ancient_lyre_morning.mp3',       volume: 0.3, loop: true },
+  tension_bronze_drums:       { file: 'audio/bgm/tension_bronze_drums.mp3',       volume: 0.35, loop: true },
+  solemn_chant_ancient:       { file: 'audio/bgm/solemn_chant_ancient.mp3',       volume: 0.3, loop: true },
+  fire_crackling_silence:     { file: 'audio/bgm/fire_crackling_silence.mp3',     volume: 0.35, loop: true },
+  wind_ruins_lament:          { file: 'audio/bgm/wind_ruins_lament.mp3',          volume: 0.25, loop: true },
+  museum_quiet_wonder:        { file: 'audio/bgm/museum_quiet_wonder.mp3',        volume: 0.3, loop: false },
 };
 
 /**
