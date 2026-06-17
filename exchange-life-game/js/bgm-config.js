@@ -680,6 +680,15 @@ const BGM_MAP = {
   morning_oud_meditation:   { file: 'audio/bgm/morning_oud_meditation.mp3',   volume: 0.3, loop: true },
   ahidous_chant_distant:    { file: 'audio/bgm/ahidous_chant_distant.mp3',    volume: 0.35, loop: false },
   sunset_oud_farewell:      { file: 'audio/bgm/sunset_oud_farewell.mp3',      volume: 0.3, loop: true }
+,
+  // === 印度梅加拉亚邦活根桥守护者专用标签 (2026-06-18 P0第497卷) ===
+  rain_forest_ambient:     { file: 'audio/bgm/rain_forest_ambient.mp3',     volume: 0.25, loop: true },
+  gentle_growth_patience:  { file: 'audio/bgm/gentle_growth_patience.mp3',  volume: 0.3, loop: true },
+  weaving_rhythm_ancient:  { file: 'audio/bgm/weaving_rhythm_ancient.mp3',  volume: 0.3, loop: true },
+  tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.3, loop: true },
+  triumph_after_storm:     { file: 'audio/bgm/triumph_after_storm.mp3',     volume: 0.4, loop: false },
+  silence_rain_distant:    { file: 'audio/bgm/silence_rain_distant.mp3',    volume: 0.2, loop: true },
+  legacy_hope_gentle:      { file: 'audio/bgm/legacy_hope_gentle.mp3',      volume: 0.35, loop: false }
 
 };
 
