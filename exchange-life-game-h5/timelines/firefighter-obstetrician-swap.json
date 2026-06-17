@@ -1,0 +1,165 @@
+{
+  "meta": {
+    "id": "firefighter-obstetrician-swap",
+    "title": "性别交换体验·男消防员与女产科医生互换身体的一周",
+    "subtitle": "烈火与产房之间，他们找到了同一种勇敢",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-18T03:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "day1-swap",
+      "title": "Day 1·身体互换的荒诞清晨",
+      "description": "消防员陈浩（32岁）在产科门诊醒来，面对第一个孕妇手足无措；产科医生林薇（34岁）在消防站穿防护服时被重量压得喘不过气。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "你睁开眼，天花板是陌生的白色。手——不是你的手，指甲修剪得整齐干净。门外传来护士的声音：'林医生，3床产妇宫口开三指了。'你猛地坐起，镜子里是一张女性的脸，眼神里满是惊恐。手机震动，一条陌生号码的消息：'我们好像……换了？'",
+      "bgmTag": "dreamy_electronic",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "互换后的第一反应？",
+        "options": [
+          { "label": "试图联系对方确认发生了什么", "response": "你拨通了自己的号码，听到自己的声音从听筒里传出，带着同样的慌乱。两人约定先稳住各自的工作，晚上再想办法。" },
+          { "label": "先尝试用对方的身体完成手头的工作", "response": "你深吸一口气，推开诊室的门。不管发生了什么，外面的产妇需要你。笨拙但认真地，你开始用这双陌生的手迎接新生命。" }
+        ]
+      }
+    },
+    {
+      "id": "day2-adapt",
+      "title": "Day 2·职业错位的尴尬与坚持",
+      "description": "陈浩在产房听到胎心监护仪时本能进入救援模式，但这里需要的是等待而非冲锋；林薇第一次出警，发现'冲进去'三个字需要多大的勇气。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "胎心监护仪的'咚咚咚'声让你心跳加速。你的身体记忆告诉你该冲、该快、该果断——但助产士轻声说'别急，让她自己来'。你第一次明白，有些战场需要的不是速度，是耐心。",
+      "bgmTag": "tense_heartbeat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "day3-hidden-labor",
+      "title": "Day 3·看见被忽视的隐性劳动",
+      "description": "陈浩发现产科医生的软技能消耗不比扛水带少；林薇发现消防员80%的工作是帮老人取钥匙、处理马蜂窝——被需要的重量是另一种疲劳。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你花了四十分钟安抚一个焦虑的家属，比扛着水带爬十层楼还累。她发现，产妇需要的不是指令，是陪伴。这个发现花了她三年。他花了三天。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对家属的焦虑，你选择……",
+        "options": [
+          { "label": "用消防员的方式直接告知风险", "response": "你像报告火情一样清晰列出情况，家属愣住了，然后点点头。效率很高，但你看到他们眼里的恐惧没有消失。" },
+          { "label": "用观察加倾听的方式安抚情绪", "response": "你坐下来，听他们说完所有担心，然后轻声说'我们会一直在'。时间花得更久，但家属的手不再抖了。" }
+        ]
+      }
+    },
+    {
+      "id": "day4-climax-birth",
+      "title": "Day 4·生死时刻：7分钟的剖宫产",
+      "description": "胎盘早剥紧急剖宫产，陈浩用林薇的身体记忆在7分钟内完成从决策到新生儿娩出，手抖了整整三分钟才停下来。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 1.0,
+      "narrativeText": "7分钟。从决定手术到婴儿啼哭。你的手稳得像机器，直到孩子安全的那一刻才开始颤抖。三分钟。你盯着自己的手，想起火场里从未抖过——原来迎接生命比拯救生命更需要勇气。",
+      "bgmTag": "silence_then_cry",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "进入手术室前……",
+        "options": [
+          { "label": "立即进手术室，靠肌肉记忆", "response": "你没有犹豫，推开门的瞬间身体自动进入了状态。手术顺利，但术后你的手抖得握不住水杯。" },
+          { "label": "先花30秒深呼吸稳定情绪", "response": "你闭上眼，三次深呼吸。推开门时心里多了一份笃定。手术略有波折，但你全程保持了清醒和平静。" }
+        ]
+      }
+    },
+    {
+      "id": "day4-climax-fire",
+      "title": "Day 4·生死时刻：18楼的浓烟救援",
+      "description": "林薇穿着40斤装备爬18层楼，在浓烟中救出一个5岁女孩。抱着孩子往下跑时，脑子里只有一个念头：她妈妈还在等她。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 1.0,
+      "narrativeText": "40斤装备，18层楼，浓烟呛得睁不开眼。你摸到一个小小的身体，她在发抖。你抱起她，跟每个产妇说的一样：'别怕，阿姨在。'往下跑的每一步，你都想起产房里那些紧握你的手。",
+      "bgmTag": "triumph_drums_guqin",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "火场搜救策略？",
+        "options": [
+          { "label": "优先搜索有呼救声的方向", "response": "你循着微弱的哭声冲过去，比标准流程快了40秒找到孩子。但那40秒里，你经过了两个可能也有人的房间。" },
+          { "label": "按标准流程逐间排查", "response": "你强迫自己冷静，一间一间推开房门。找到孩子时晚了一些，但你确认了每一间都没有遗漏。" }
+        ]
+      }
+    },
+    {
+      "id": "day5-fever",
+      "title": "Day 5·同时发烧，在对方身体里撑住极限",
+      "description": "身体互换带来的免疫排斥反应让两人同时高烧。陈浩一边挂水一边写病历，林薇一边吃药一边做体能训练。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "39度。你在产科值班室里挂着水，另一只手还在写病历。她告诉我，她也在消防站一边吃药一边做体能训练。原来你每天都这样撑着——这句话，我们用了五天才说出口。",
+      "bgmTag": "low_hum_fever",
+      "visualTone": "dark"
+    },
+    {
+      "id": "day6-video-call",
+      "title": "Day 6·视频通话：殊途同归的发现",
+      "description": "两人通过视频交流一周的发现。陈浩说产妇喊的不是疼是恐惧，林薇说勇敢是后来说的，当时只有必须把人救出来的念头。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "屏幕两端，我们同时停住了。你说'你每天面对的都是有可能失去'，我说'我每天面对的是已经失去后再争取'。沉默了三秒，然后同时说出了那句话：'其实我们都在做同一件事。'",
+      "bgmTag": "warm_piano_simple",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "视频通话时……",
+        "options": [
+          { "label": "先说出自己的发现", "response": "你先开口，把这一周的震撼倾泻而出。她安静地听完，然后说'我也是'。你们的发现惊人地相似。" },
+          { "label": "先听对方说", "response": "你让她先说。听着她的描述，你不断点头——她说的每一个瞬间，你都经历过镜像的版本。理解不需要语言。" }
+        ]
+      }
+    },
+    {
+      "id": "day7-return",
+      "title": "Day 7·换回身体，带着对方的记忆醒来",
+      "description": "身体换回后，陈浩在训练中加入安抚被困者情绪的项目，林薇在交班时多加了一句关注产妇情绪的提醒。微小的改变，是理解的证据。",
+      "ageRange": { "start": 32, "end": 34 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你在自己的身体里醒来，手还是你的手，但记忆里多了七天的重量。训练场上，你加了一个新项目：模拟在狭窄空间里安抚被困者的情绪。交班时，她说'今天有3个产妇情绪不太稳定，重点关注'。我们没有变成对方，但我们看见了对方。",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "dramatic",
+    "peakMoments": ["day4-climax-birth", "day4-climax-fire"],
+    "valleyMoments": ["day5-fever"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["medical_procedure", "fire_rescue", "high_stress"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

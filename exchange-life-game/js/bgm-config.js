@@ -601,6 +601,12 @@ const BGM_MAP = {
   anxiety_pulse_digital:  { file: 'audio/bgm/anxiety_pulse_digital.mp3',  volume: 0.3, loop: true },
   social_media_noise:     { file: 'audio/bgm/social_media_noise.mp3',     volume: 0.25, loop: true },
   morning_silence_warm:   { file: 'audio/bgm/morning_silence_warm.mp3',   volume: 0.25, loop: true }
+,
+
+  // === 男消防员与女产科医生互换身体专用标签 (2026-06-18 P0第517卷) ===
+  tense_heartbeat:         { file: 'audio/bgm/tense_heartbeat.mp3',         volume: 0.35, loop: true },
+  silence_then_cry:        { file: 'audio/bgm/silence_then_cry.mp3',        volume: 0.4, loop: false },
+  low_hum_fever:           { file: 'audio/bgm/low_hum_fever.mp3',           volume: 0.2, loop: true }
 
   // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
   ancient_qin_tension:     { file: 'audio/bgm/ancient_qin_tension.mp3',     volume: 0.35, loop: true },
