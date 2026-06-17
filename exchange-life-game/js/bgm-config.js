@@ -658,6 +658,23 @@ const BGM_MAP = {
   fire_crackling_silence:     { file: 'audio/bgm/fire_crackling_silence.mp3',     volume: 0.35, loop: true },
   wind_ruins_lament:          { file: 'audio/bgm/wind_ruins_lament.mp3',          volume: 0.25, loop: true },
   museum_quiet_wonder:        { file: 'audio/bgm/museum_quiet_wonder.mp3',        volume: 0.3, loop: false },
+
+  // === 明朝紫禁城更夫专用标签 (2026-06-17 P0第478卷) ===
+  ancient_night_silence:    { file: 'audio/bgm/ancient_night_silence.mp3',    volume: 0.25, loop: true },
+  solemn_bangzi_echo:       { file: 'audio/bgm/solemn_bangzi_echo.mp3',       volume: 0.3, loop: false },
+  tension_night_alert:      { file: 'audio/bgm/tension_night_alert.mp3',      volume: 0.35, loop: true },
+  warm_strings_gentle:      { file: 'audio/bgm/warm_strings_gentle.mp3',      volume: 0.3, loop: true },
+  lonely_wind_cold:         { file: 'audio/bgm/lonely_wind_cold.mp3',         volume: 0.25, loop: true },
+  ancient_guard_tension:    { file: 'audio/bgm/ancient_guard_tension.mp3',    volume: 0.3, loop: true },
+  dawn_triumph_drum:        { file: 'audio/bgm/dawn_triumph_drum.mp3',        volume: 0.4, loop: false },
+  morning_calm_fade:        { file: 'audio/bgm/morning_calm_fade.mp3',        volume: 0.25, loop: true },
+
+  // === 社区团购团长专用标签 (2026-06-17 P0第478卷) ===
+  morning_quiet_start:      { file: 'audio/bgm/morning_quiet_start.mp3',      volume: 0.3, loop: true },
+  busy_morning_rhythm:      { file: 'audio/bgm/busy_morning_rhythm.mp3',      volume: 0.35, loop: true },
+  gentle_care_warmth:       { file: 'audio/bgm/gentle_care_warmth.mp3',       volume: 0.3, loop: true },
+  busy_evening_pulse:       { file: 'audio/bgm/busy_evening_pulse.mp3',       volume: 0.35, loop: true }
+
 };
 
 /**
