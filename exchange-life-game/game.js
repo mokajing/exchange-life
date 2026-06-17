@@ -145,6 +145,7 @@ const TIMELINE_LIST = [
   'amazigh-tattoo-master',
   'meghalaya-living-root-bridge',
   'sauranthropus-industrial-revolution',
+  'market-vendor-dawn',
 ];
 
 App({

@@ -1,0 +1,132 @@
+{
+  "meta": {
+    "id": "market-vendor-dawn",
+    "title": "凌晨四点菜市场摊贩的备货时光",
+    "subtitle": "老周三十年的菜市场人生，从凌晨两点半到黄昏收摊",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-18T01:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_alarm",
+      "title": "凌晨两点半的闹钟",
+      "description": "身体比闹钟先醒。三十年如一日的生物钟，不需要闹钟也能准时醒来。穿衣服、出门，冬天呼出的白气比路灯还亮。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "凌晨两点半，闹钟还没响，身体已经醒了。这是三十年来刻进骨子里的节奏。穿上那件洗得发白的外套，推开门，冬天的冷空气扑面而来，呼出的白气在路灯下像一团团小云。",
+      "bgmTag": "dawn_silence_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "如何开始这一天？",
+        "options": [
+          {"label": "骑三轮车出发", "response": "三轮车的突突声划破寂静，颠簸的路上风吹在脸上，这是老周最熟悉的晨间仪式。"},
+          {"label": "步行慢慢走", "response": "脚步踩在空旷的街道上，可以看见更多凌晨的细节：野猫、早起扫地的环卫工、还没熄灭的路灯。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_02_wholesale",
+      "title": "批发市场的喧嚣",
+      "description": "三点四十到达城郊批发市场。人声鼎沸，手电筒光柱在菜垛间扫来扫去。合作二十年的批发商不用说话就知道他要什么品质。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "批发市场像另一个世界。柴油发动机声、手电筒开关声、塑料筐落地声、吆喝声、计算器归零声……所有声音混在一起，却乱中有序。老周走到熟悉的摊位，老板抬头看了他一眼，已经开始装他要的菜了。二十年默契，不用说一个字。",
+      "bgmTag": "market_bustle_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "在批发市场做什么？",
+        "options": [
+          {"label": "跟老周学挑菜", "response": "\"看这叶子，挺的就是新鲜的。\"老周教你用指尖感受菜叶的弹性，这是三十年练出来的手感。"},
+          {"label": "自己上手试一把", "response": "你挑了一把青菜，批发商笑了：\"这棵老了，炒着吃柴。\"老周帮你换了一把嫩的。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_03_setup",
+      "title": "摆摊的仪式感",
+      "description": "五点半回到菜市场卸货摆摊。每种菜怎么摆有讲究，洒水保鲜的角度也有门道。这是枯燥中藏着的三十年尊严。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "洒水壶沙沙作响，菜叶被轻轻翻动。西红柿要摆在最显眼的位置，绿叶菜要靠里放避免晒蔫。每个动作都重复了三十年，却依然带着一种近乎虔诚的认真。这不是简单的卖菜，是一个人对生活的态度。",
+      "bgmTag": "morning_routine_guitar",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_customers",
+      "title": "老顾客的寒暄",
+      "description": "六点开始，第一批老顾客来了。晨练完的大爷大妈不买菜也要来聊两句。有个老太太每天七点准时来买两棵青菜一个萝卜，从没多说过话。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "\"老周，今天芹菜新鲜吗？\"\"张阿姨，您来得正好，刚到的。\"这样的对话每天都在重复，却从不让人觉得厌烦。在这个小小的摊位前，人和人之间的连接比任何社交软件都真实。一把葱、几根香菜，是不成文的默契，也是数字时代最后的温度。",
+      "bgmTag": "warm_interaction_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对老顾客时",
+        "options": [
+          {"label": "主动搭话聊天", "response": "\"您家孙子考上大学了吧？\"一句话让老人笑开了花。原来你记得每个人的故事。"},
+          {"label": "默默观察互动", "response": "看着老周和不同的人打招呼，你发现他不只是卖菜的，他是这个社区的记忆库。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_05_absence",
+      "title": "老太太没来的那天",
+      "description": "有一天老太太没来，老周心里空了一整天。一个陌生人的缺席，让他意识到自己在意什么。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "七点过了，那个熟悉的身影没有出现。老周看了看表，又看了看路口。手上切菜的动作慢了两拍。他没说什么，但你知道他在想什么。有时候，一个人的存在不是通过在场证明的，而是通过缺席。",
+      "bgmTag": "absence_melancholy_cello",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "要不要问老周？",
+        "options": [
+          {"label": "问问老太太的事", "response": "\"她啊……\"老周停了一下，\"希望没事吧。\"简单的一句话里藏着说不清的牵挂。"},
+          {"label": "不问，陪他沉默", "response": "有些关心不需要说出口。你站在那里，和他一起等一个可能不会来的人。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_06_dusk",
+      "title": "黄昏收摊",
+      "description": "夕阳照在剩下的几根萝卜上，老周数着今天的零钱。又是平凡的一天——但这就是他的整个人生。",
+      "ageRange": {"start": 50, "end": 55},
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "塑料袋卷起来，铁门拉下来。硬币哗啦一声倒进布袋，今天赚的不多不少。夕阳把老周的影子拉得很长，像一幅褪色的老照片。明天凌晨两点半，闹钟还会响，他还会醒来。这就是他的整个人生——平凡，但有重量。",
+      "bgmTag": "dusk_fade_piano",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_customers"],
+    "valleyMoments": ["evt_05_absence"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["丧亲暗示"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
