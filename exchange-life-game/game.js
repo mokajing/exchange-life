@@ -142,6 +142,7 @@ const TIMELINE_LIST = [
   'mycenaean-scribe-linear-b',
   'ming-forbidden-city-night-watchman',
   'community-group-leader-day',
+  'amazigh-tattoo-master',
 ];
 
 App({

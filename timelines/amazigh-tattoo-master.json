@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "id": "amazigh-tattoo-master",
+    "title": "北非柏柏尔族传统纹身师",
+    "subtitle": "在阿特拉斯山脉的橄榄树下，75岁的Fatima用靛蓝与汉娜刺下最后一批沉默字母",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T22:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "清晨研磨",
+      "description": "摩洛哥中阿特拉斯山脉Tizi n'Ougdal村，75岁的Fatima在泥砖厨房点燃橄榄木柴火，用石臼研磨靛蓝粉与汉娜叶。今天是宰牲节前最后一个集市日，也是她答应为最后三位新娘纹面的日子。",
+      "ageRange": { "start": 75 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "清晨5:30，阿特拉斯山脉的寒气还未散去。你叫Fatima，75岁，是这片山区最后一位传统柏柏尔女性纹身师。泥砖厨房里，橄榄木柴火噼啪作响。你用石臼缓缓研磨靛蓝粉与汉娜叶——这个动作你已经重复了六十年。今天是宰牲节前最后一个集市日，邻村还有三位新娘在等你。你知道，这可能是你最后一次拿起针了。",
+      "bgmTag": "morning_oud_meditation",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对可能是最后一天的工作，你的心情是？",
+        "options": [
+          { "label": "平静：做完该做的事就好", "response": "你深吸一口橄榄木的烟气，心中没有遗憾。每一根针都是对大地的承诺。" },
+          { "label": "不舍：这些符号将随你消失", "response": "你看着手背上16个代表过往新娘的符号，每一个都是一段被记住的人生。" },
+          { "label": "期待：今天的新娘会带来什么故事", "response": "你整理好针具，等待第一位新娘的到来。每一次纹面都是一次新的相遇。" }
+        ]
+      },
+      "sourceAnchor": "第487卷·Layer1·时间线·清晨5:30"
+    },
+    {
+      "id": "evt_02",
+      "title": "第一位新娘Aicha",
+      "description": "18岁的Aicha被母亲和三位姑姑簇拥着走进庭院。Fatima让她坐在橄榄树下，不用画稿，用浸过玫瑰水的手指感受皮肤纹理。在下巴刺入Tamazight字母'ⵣ'(Yaz)，象征'自由的人'。",
+      "ageRange": { "start": 75 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "上午7:00，第一位新娘到了。18岁的Aicha被母亲和三位姑姑簇拥着走进庭院，脸上带着少女特有的紧张与庄重。你让她坐在橄榄树下，用浸过玫瑰水的手指轻抚她的额头、下巴和颧骨——每一张脸都是一幅独一无二的地图，不需要画稿。三根棕榈刺绑成的针束蘸取靛蓝，在Aicha的下巴刺入第一排点状符号：'ⵣ'（Yaz），意为'自由的人'。Aicha紧闭双眼，手指攥紧母亲的裙摆，但没有发出任何声音。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "作为纹身师，你在针刺时感受到什么？",
+        "options": [
+          { "label": "责任：每一针都是永恒的标记", "response": "你的手稳如磐石。六十年的经验让每一针都精准无误，这是对Aicha一生的承诺。" },
+          { "label": "传承：祖母教你的手法从未忘记", "response": "你想起了自己的祖母，她也是这样为你纹面的。手法代代相传，从未中断。" },
+          { "label": "心疼：这个年纪的孩子不该承受疼痛", "response": "你放慢了节奏，用最轻柔的手法完成。Aicha睁开眼时，对你露出了微笑。" }
+        ]
+      },
+      "sourceAnchor": "第487卷·Layer1·时间线·上午7:00-9:00"
+    },
+    {
+      "id": "evt_03",
+      "title": "孙女的注视",
+      "description": "中午休息时，24岁的孙女从马拉喀什回来。她在大学读国际商务，脸上没有纹面。她看着祖母的针，眼神里混杂着敬畏与疏离。她用英语说'奶奶，我在做毕业设计，把你的符号做成字体'。",
+      "ageRange": { "start": 75 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "中午12:00，第二位新娘纹面完成。你的手开始颤抖，孙女端来薄荷茶和椰枣。她24岁，在马拉喀什读大学，专业是国际商务，脸上干干净净没有纹面。她看着你手中的针，眼神里有敬畏，也有疏离。'奶奶，'她用流利的英语说，'我的毕业设计是把你的符号做成数字字体。这样它们就不会消失了。'你没有回答，只是沉默地喝着薄荷茶。她不继承你的手艺，但她选择了另一种方式记住。",
+      "bgmTag": "cello_solo_gentle",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对孙女的选择，你的反应是？",
+        "options": [
+          { "label": "欣慰：符号以另一种形式活下去", "response": "你放下茶杯，轻轻握住孙女的手。'好。'一个字，包含了所有的理解与祝福。" },
+          { "label": "失落：皮肤上的温度无法被数字化", "response": "你看着她手机屏幕上冰冷的矢量图形，知道有些东西在转换中永远丢失了。" },
+          { "label": "释然：每一代人都有自己的路", "response": "你微笑着点头。'我奶奶那辈纹面是必须的，我妈妈那辈是耻辱，到我这辈是选择。这就是自由。'" }
+        ]
+      },
+      "sourceAnchor": "第487卷·Layer1·时间线·中午12:00"
+    },
+    {
+      "id": "evt_04",
+      "title": "第三位新娘的眼泪",
+      "description": "下午最后一位新娘来自最偏远的牧区，说着几乎失传的Tachelhit方言。当Fatima在她额头刺下'守护'菱形图腾时，她哭了——不是疼，而是她母亲和外婆都没有纹面，她是家族三代以来第一个选择'回来'的。",
+      "ageRange": { "start": 75 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "下午2:00，最后一位新娘到了。她来自最偏远的牧区，说的是几乎失传的Tachelhit方言。当她坐下时，你发现她的母亲和外婆都没有纹面——她是家族三代以来第一个选择'回来'的。你在她额头刺下象征'守护'的菱形图腾时，她哭了。不是因为疼。你说：'水是干净的，眼泪也是。'那一刻，庭院里安静了三秒，然后远处飘来一声极遥远的柏柏尔女性集体吟唱——仿佛所有纹过面的女性在某个不可见的地方同时叹息。",
+      "bgmTag": "ahidous_chant_distant",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这位回归传统的年轻女性，你想对她说什么？",
+        "options": [
+          { "label": "'你不是在回到过去，你是在选择未来'", "response": "她停止了哭泣，眼中有了光。你完成了最后一个符号，这是你今天最完美的作品。" },
+          { "label": "'你的外婆会在天上微笑'", "response": "她握住了你的手。两个不同时代的女性，在这一刻通过靛蓝连接在一起。" },
+          { "label": "什么都不说，只是继续纹", "response": "沉默本身就是最好的语言。针尖的节奏代替了所有话语，仪式自己完成了自己。" }
+        ]
+      },
+      "sourceAnchor": "第487卷·Layer1·时间线·下午2:00-4:00"
+    },
+    {
+      "id": "evt_05",
+      "title": "傍晚的第17个符号",
+      "description": "集市散去，Fatima独自坐在庭院里。她用一根旧针在自己的左手背上刺下第17个符号——每一个代表她纹过的一位新娘。她抬头看阿特拉斯山的雪线，说：'我死后，这些符号会跟我一起消失。但没关系，大地记得。'",
+      "ageRange": { "start": 75 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.9,
+      "narrativeText": "傍晚5:30，集市散去了。你独自坐在庭院里，橘金色的晚霞覆盖阿特拉斯群山。你用一根旧针在自己的左手背上刺下第17个符号——每一个代表你纹过的一位新娘。针尖刺入皮肤的瞬间，你想起了她们的脸：有的紧张，有的勇敢，有的流泪，有的微笑。你抬头看阿特拉斯山的雪线，轻声说：'我死后，这些符号会跟我一起消失。但没关系，大地记得。山记得。橄榄树记得。'远处传来宣礼塔的唤礼声，悠长而空灵，像是对这一天最后的祝福。",
+      "bgmTag": "sunset_oud_farewell",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "在这个安静的傍晚，你最后想到的是什么？",
+        "options": [
+          { "label": "那些被你纹过面的女性们", "response": "17张面孔在你眼前浮现。她们是你留在世间的痕迹，比任何文字都真实。" },
+          { "label": "孙女和她的数字字体", "response": "也许符号不会真的消失。它们只是换了一种方式存在，就像水变成了云。" },
+          { "label": "明天太阳升起时，橄榄树还在", "response": "你闭上眼睛，感受着最后一缕阳光。大地记得一切，这就够了。" }
+        ]
+      },
+      "sourceAnchor": "第487卷·Layer1·时间线·傍晚5:30"
+    },
+    {
+      "id": "evt_06",
+      "title": "回响：写在皮肤上的族谱",
+      "description": "体验结束后的沉淀时刻。用户被引导触摸自己的脸部三个部位（额头、下巴、颧骨），感受没有纹面的皮肤——这个对比本身就是一种沉淀。系统生成一张属于用户的虚拟柏柏尔纹面图案。",
+      "ageRange": { "start": 75 },
+      "category": "other",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "现在，请用指尖轻触你自己的脸：额头、下巴、颧骨。感受没有纹面的皮肤——光滑、干净、空白。但在刚才的那一天里，你的皮肤上曾经承载着一个古老文明的重量。Fatima说过：'身体即档案。'在你的世界里，人们用手机存储记忆；在她的世界里，记忆被刺进真皮层，永不褪色。你可以保存这张属于你的虚拟纹面图案，上面有你选择的符号组合。它不是真正的纹身，但它是一段被记住的体验。",
+      "bgmTag": "reflection_piano_soft",
+      "visualTone": "neutral",
+      "sourceAnchor": "第487卷·Layer3·安全锚点·回归现实"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04"],
+    "valleyMoments": ["evt_03"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["cultural_practices", "body_modification", "needle_procedures"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

@@ -674,6 +674,12 @@ const BGM_MAP = {
   busy_morning_rhythm:      { file: 'audio/bgm/busy_morning_rhythm.mp3',      volume: 0.35, loop: true },
   gentle_care_warmth:       { file: 'audio/bgm/gentle_care_warmth.mp3',       volume: 0.3, loop: true },
   busy_evening_pulse:       { file: 'audio/bgm/busy_evening_pulse.mp3',       volume: 0.35, loop: true }
+,
+
+  // === 北非柏柏尔纹身师专用标签 (2026-06-17 P0第487卷) ===
+  morning_oud_meditation:   { file: 'audio/bgm/morning_oud_meditation.mp3',   volume: 0.3, loop: true },
+  ahidous_chant_distant:    { file: 'audio/bgm/ahidous_chant_distant.mp3',    volume: 0.35, loop: false },
+  sunset_oud_farewell:      { file: 'audio/bgm/sunset_oud_farewell.mp3',      volume: 0.3, loop: true }
 
 };
 
