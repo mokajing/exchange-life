@@ -1,0 +1,163 @@
+{
+  "meta": {
+    "id": "autism-supermarket-shopping",
+    "title": "自闭症谱系者的超市购物",
+    "subtitle": "在所有人都能轻松完成的一次日常采购中，用感官过载和社交迷雾重新理解'普通'两个字的分量",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-18T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01",
+      "title": "清单准备仪式",
+      "description": "在手机备忘录上列出清单：牛奶、面包、鸡蛋、洗衣液。清单已经反复检查了四遍，因为'不确定'是一种持续的状态。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你叫小安，26岁，是一名自闭症谱系障碍（ASD）成年人。今天下午你需要去超市买四样东西：牛奶、面包、鸡蛋、洗衣液。你在手机备忘录上列好清单，然后从头到尾检查了四遍。不是因为记不住，是因为'不确定'是你生活的底色——确认清单是你进入混乱世界前的最后一道安全阀。窗外阳光很好，但你知道超市里的荧光灯不会这么温柔。",
+      "bgmTag": "quiet_indoor_pencil",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "出门前你还需要做什么准备？",
+        "options": [
+          { "label": "再检查一遍清单，确保万无一失", "response": "你花了额外的三分钟确认每一项。安全感增加了，但出门的时间推迟了。" },
+          { "label": "戴上降噪耳机再出门", "response": "耳机是你的盔甲。虽然别人可能觉得奇怪，但这是你应对世界的工具。" },
+          { "label": "深呼吸三次，告诉自己'今天可以做到'", "response": "你在心里默念了三遍鼓励的话。焦虑没有消失，但你学会了和它共存。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·14:00"
+    },
+    {
+      "id": "evt_02",
+      "title": "门口的社交迷宫",
+      "description": "在门口站了大约两分钟，因为楼道里有邻居在聊天。不是害怕，是不知道要不要打招呼、怎么打、打完之后怎么结束。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你打开门，发现楼道里有两个邻居在聊天。你的脚步停住了。这不是害怕——你不社恐。问题是：要不要打招呼？如果打，说什么？'你好'还是点头微笑？打完之后怎么自然地结束对话走开？对大多数人来说这是一秒钟的自动反应，对你来说这是一个需要手动编程的算法：输入→处理→输出→退出。你选择等他们走远。两分钟的等待里，心跳从75升到了92。",
+      "bgmTag": "hallway_echo_muffled",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对楼道里的邻居，你会怎么做？",
+        "options": [
+          { "label": "主动打招呼（难度：高）", "response": "你说了一句'阿姨好'，对方回应了。但你不确定自己的语气是否自然，接下来一路都在复盘这次互动。" },
+          { "label": "等他们走远再出门", "response": "安全的策略。但等待的两分钟里焦虑持续累积，还没到超市就已经消耗了一部分精力。" },
+          { "label": "假装看手机快速通过", "response": "你低头盯着屏幕走过，余光感觉到对方的视线。通过了，但'被看到'的感觉让你不安。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·14:23"
+    },
+    {
+      "id": "evt_03",
+      "title": "感官过载爆发",
+      "description": "进入超市的一瞬间，荧光灯嗡嗡声、冷柜压缩机震动、促销广播、购物车轮子摩擦声——像同时打开了47个浏览器标签页，每一个都在自动播放。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "自动门打开的一瞬间，世界炸裂了。荧光灯管的60Hz嗡嗡声钻进耳朵，冷柜压缩机的低频震动从脚底传上来，三条不同的促销广播叠在一起，购物车轮子的摩擦声像指甲刮黑板，塑料袋的窸窣声被放大十倍。普通人走进超市就像打开一个网页看看需要什么；你的大脑像同时打开了47个浏览器标签页，每一个都在自动播放，而且关不掉。水产区的鱼腥味和清洁剂的柠檬味在鼻腔里打架。一个小孩突然尖叫——那一瞬间大脑像被闪电击中，你需要15秒才能重新'加载'周围的环境。",
+      "bgmTag": "sensory_overload_multi",
+      "visualTone": "bright",
+      "sourceAnchor": "第514卷·Layer1·时间线·14:35-14:37"
+    },
+    {
+      "id": "evt_04",
+      "title": "12种牛奶的选择瘫痪",
+      "description": "货架上有12种牛奶，每一种包装的颜色和字体都在争夺注意力。选择困难不是因为犹豫，是因为大脑无法自动过滤掉不相关的信息。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你走到乳制品冷柜前。目标明确：全脂牛奶。但货架上排列着12种牛奶——全脂、低脂、脱脂、高钙、有机、A2β-酪蛋白、无乳糖……每一种包装的颜色和字体都在大声争夺你的注意力。普通人的大脑会自动聚焦到'全脂'两个字上，其余11种变成模糊的背景。但你的大脑做不到这个过滤——所有12种牛奶都以同等的重要性呈现在意识里，像一个没有优先级排序的任务列表。全脂还是低脂，低脂还是脱脂，脱脂还是高钙……思维开始循环。",
+      "bgmTag": "cognitive_loop_tension",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对12种牛奶的选择困境，你会怎么做？",
+        "options": [
+          { "label": "随机拿一瓶最近的（效率高但可能后悔）", "response": "你伸手拿了最外面的一瓶。效率很高，但走出超市后你会反复想'是不是选错了'。" },
+          { "label": "拿出手机查每种牛奶的区别", "response": "你站在冷柜前五分钟，逐一搜索对比。获得了确定感，但消耗了大量精力。" },
+          { "label": "严格按照清单拿'全脂牛奶'", "response": "清单是你的锚。你找到了写着'全脂'的那瓶，紧紧握住。安全感回来了。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·14:42"
+    },
+    {
+      "id": "evt_05",
+      "title": "排队的社交距离侵犯",
+      "description": "前面的人站得太近，能感觉到他的呼吸气流。身体对'被侵入的个人空间'的反应不是生气，是一种无法言说的皮肤刺痛感。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "排队结账。前面的人站得太近了——你能感觉到他呼出的气流拂过你的脸颊，他身上古龙水的味道浓烈得像一堵墙。普通人的反应可能是微微后退或者忍耐一下。但你的身体对'个人空间被侵入'的反应不是生气，是一种无法言说的皮肤刺痛感，像被砂纸轻轻摩擦。视场角开始变窄，前面那个人的后脑勺占据了画面大部分。心跳声在耳边越来越响。",
+      "bgmTag": "heartbeat_close_space",
+      "visualTone": "dark",
+      "sourceAnchor": "第514卷·Layer1·时间线·14:50"
+    },
+    {
+      "id": "evt_06",
+      "title": "收银员的2.5秒",
+      "description": "收银员问'要袋子吗？'这个问题需要处理多重任务，但大脑还在处理冷柜嗡嗡声和古龙水味道。回答延迟了2.5秒。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "'要袋子吗？'收银员的声音穿过噪音传来。这个问题需要你的大脑同时处理三件事：①理解字面意思 ②判断是否需要袋子（取决于买了多少东西、袋子多少钱、环保考虑）③组织语言给出回答。但此刻你的大脑还在处理冷柜的嗡嗡声、前面那个人的古龙水味道、以及刚才选择牛奶时残留的认知负荷。所以你的回答延迟了大约2.5秒。收银员又问了一遍，语气变了——那种微妙的不耐烦，你听出来了。'不……不用，谢谢。'你说。声音比预想的轻。",
+      "bgmTag": "silence_pause_tension",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对收银员的提问，你会如何应对？",
+        "options": [
+          { "label": "提前准备好回答'不要，谢谢'", "response": "你在排队时就排练好了答案。流畅地说出来，收银员没有异样表情。掩蔽成功。" },
+          { "label": "当场判断（延迟2.5秒）", "response": "你诚实地处理了这个问题。延迟暴露了你的不同，但你完成了交易。" },
+          { "label": "用点头代替说话", "response": "你摇了摇头表示不需要。避免了语言处理的负担，但不确定对方是否理解了。" }
+        ]
+      },
+      "sourceAnchor": "第514卷·Layer1·时间线·14:52"
+    },
+    {
+      "id": "evt_07",
+      "title": "走出超市的复盘仪式",
+      "description": "走出超市，阳光太亮像对比度调到200%。但任务完成了。回家路上默默复盘：今天没有失误，今天是一个'正常人'。",
+      "ageRange": { "start": 26 },
+      "yearRange": { "start": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你走出超市。阳光太亮了，像有人把对比度调到了200%，眼睛需要几秒钟适应。但——任务完成了。牛奶、面包、鸡蛋、洗衣液，四样东西都在袋子里。回家的路上你在心里默默复盘：今天在门口等了邻居但没有尴尬；在货架前犹豫了但没有崩溃；收银员那里延迟了2.5秒但还是回答了。今天没有'失误'。没有说错话，没有拿错东西，没有在人群中突然站住不动。今天是一个'正常人'。这个念头让你既骄傲又疲惫。你不会告诉任何人——因为正常人不会因为买牛奶而骄傲。",
+      "bgmTag": "gentle_release_birds",
+      "visualTone": "warm",
+      "sourceAnchor": "第514卷·Layer1·时间线·14:55"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03", "evt_05"],
+    "valleyMoments": ["evt_01", "evt_07"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L3",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["sensory_overload", "social_anxiety", "neurodivergence"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": true
+  }
+}

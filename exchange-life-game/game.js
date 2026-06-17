@@ -148,6 +148,8 @@ const TIMELINE_LIST = [
   'market-vendor-dawn',
   'waste-sorter-supervisor',
   'orbital-debris-cleaner',
+  'autism-supermarket-shopping',
+  'motivation-awakener-first-month',
 ];
 
 App({
