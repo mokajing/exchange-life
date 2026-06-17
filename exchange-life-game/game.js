@@ -128,6 +128,7 @@ const TIMELINE_LIST = [
   'maya-astronomer-priest',
   'shu-carpenter-wooden-ox',
   'mursi-lip-plate-coming-of-age',
+  'smell-translator-first-month',
 ];
 
 App({
