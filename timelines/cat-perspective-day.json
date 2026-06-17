@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "id": "cat-perspective-day",
+    "title": "宠物猫视角的一天",
+    "subtitle": "原来在猫眼里我是个奇怪的室友",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-16T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_hunt",
+      "title": "黎明狩猎本能期",
+      "description": "凌晨4:30，人类还在睡。猫的瞳孔放大，听到墙里水管的声音像猎物移动。踩脸不是撒娇，是确认这个大型无毛动物还活着。",
+      "ageRange": { "start": 0 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "声音。大的。从那个方形发光板里传出来的。两脚兽又在看它了。无聊。你的瞳孔在黑暗中放到最大，墙壁里水管的震动像极了老鼠的脚步。那个巨大的、没有毛的生物还在呼吸——你用肉垫拍了拍它的脸，不是撒娇，只是确认它还活着。",
+      "bgmTag": "dawn_birds",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_breakfast_supervision",
+      "title": "早餐监督期",
+      "description": "盯着人类倒猫粮的动作像在审核供应商资质。纸箱比猫窝更有吸引力——封闭空间等于安全感。",
+      "ageRange": { "start": 0 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "食物来了。你审视着那些棕色颗粒落入碗中的轨迹，像一个严格的质检员。旁边那个新买的毛绒窝太大了、太空旷了，完全不符合洞穴标准。倒是那个快递箱——完美的封闭空间，安全感满分。",
+      "bgmTag": "playful_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_03_window_patrol",
+      "title": "窗台瞭望与领地巡逻",
+      "description": "窗外的鸟是永远吃不到的零食频道，快递员是入侵领地的可疑生物。这是猫的'电视时间'。",
+      "ageRange": { "start": 0 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "窗外有东西在动。翅膀。羽毛。你永远够不到的零食频道。尾巴不自觉地左右摆动，下巴发出咔嗒声——那是猎杀本能的残留。门口传来脚步声，一个穿着制服的可疑生物在你的领地边缘徘徊。你弓起背，发出低沉的警告。",
+      "bgmTag": "tension_pluck",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_gift_delivery",
+      "title": "呕吐物的礼物",
+      "description": "猫把半消化的食物叼到枕边——不是恶心你，是把猎物分享给族群中最不会打猎的成员。",
+      "ageRange": { "start": 0 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你精心挑选了一份礼物——虽然它看起来不太体面。你把它放在那个生物的枕头旁边，这是你对族群中最不会打猎的成员的照顾。它尖叫着躲开了。你不理解。下次找个更大的吧。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这份特殊的'礼物'，你会怎么做？",
+        "options": [
+          { "label": "尖叫躲开", "response": "猫困惑地看着你。下次它会换一份更大的猎物来表达关心。" },
+          { "label": "假装感谢收下", "response": "猫勉强接受了你的敷衍，但明显不太满意。" },
+          { "label": "认真端详闻一闻", "response": "猫获得了极大的满足。当晚它会在你枕边多待十分钟——这是最高级别的认可。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_slow_blink",
+      "title": "慢眨眼——猫之吻",
+      "description": "当猫对你慢慢闭眼再睁开，这在猫语中等于'我信任你到可以在你面前闭眼的程度'。",
+      "ageRange": { "start": 0 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "你看着那个巨大的生物。它也在看你。你慢慢地、慢慢地闭上眼睛……再睁开。这不是困倦。这是你能给出的最珍贵的东西：在它面前闭眼的勇气。如果它也回你一个慢眨眼——那就是两个物种之间最温柔的翻译。",
+      "bgmTag": "warm_guitar",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "猫对你慢眨眼了，你会怎么回应？",
+        "options": [
+          { "label": "回一个慢眨眼", "response": "双向信任确认。你解锁了隐藏彩蛋：猫的梦境片段——它在梦里追逐一只永远抓不到的光点。" },
+          { "label": "兴奋凑上去亲", "response": "猫后退一步，重新评估你们的关系。太突然了，人类。" },
+          { "label": "没注意到", "response": "你错过了今日唯一的情感交流窗口。猫转身离开，尾巴轻轻甩了一下。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_06_night_zoomies",
+      "title": "深夜跑酷",
+      "description": "人类关灯等于猫的白天开始了。追影子、对空气凝视——人类以为闹鬼，猫只是在追只有它能看见的飞虫。",
+      "ageRange": { "start": 0 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "灯灭了。终于。你的世界亮了。爪子在地板上打出急促的节奏，从一个房间到另一个房间，没有任何目的，纯粹是因为可以。角落里有什么在动——你盯着那片虚空，瞳孔放到最大。人类以为你在看鬼。其实只是一只只有你能看见的飞虫。",
+      "bgmTag": "night_rhythm",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_04_gift_delivery", "evt_05_slow_blink"],
+    "valleyMoments": ["evt_01_dawn_hunt"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

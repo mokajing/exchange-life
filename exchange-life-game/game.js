@@ -129,6 +129,14 @@ const TIMELINE_LIST = [
   'shu-carpenter-wooden-ox',
   'mursi-lip-plate-coming-of-age',
   'smell-translator-first-month',
+  'benin-bronze-caster',
+  'cat-perspective-day',
+  'civil-servant-to-blogger',
+  'iceland-volcano-monitor',
+  'mediocre-cultivator',
+  'scrap-yard-sorting-philosophy',
+  'tuareg-salt-caravan',
+  'wei-monk-sutra-copyist',
 ];
 
 App({
