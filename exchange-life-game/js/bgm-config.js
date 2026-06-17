@@ -698,6 +698,14 @@ const BGM_MAP = {
   two_heartbeats_converge:  { file: 'audio/bgm/two_heartbeats_converge.mp3',  volume: 0.3, loop: false },
   clutch_warmth_fadeout:    { file: 'audio/bgm/clutch_warmth_fadeout.mp3',    volume: 0.35, loop: true },
   gentle_return_piano:      { file: 'audio/bgm/gentle_return_piano.mp3',      volume: 0.3, loop: false }
+,
+  // === 凌晨菜市场摊贩专用标签 (2026-06-18 P0第502卷) ===
+  dawn_silence_piano:      { file: 'audio/bgm/dawn_silence_piano.mp3',      volume: 0.25, loop: true },
+  market_bustle_strings:   { file: 'audio/bgm/market_bustle_strings.mp3',   volume: 0.35, loop: true },
+  morning_routine_guitar:  { file: 'audio/bgm/morning_routine_guitar.mp3',  volume: 0.3, loop: true },
+  warm_interaction_piano:  { file: 'audio/bgm/warm_interaction_piano.mp3',  volume: 0.35, loop: true },
+  absence_melancholy_cello:{ file: 'audio/bgm/absence_melancholy_cello.mp3',volume: 0.3, loop: true },
+  dusk_fade_piano:         { file: 'audio/bgm/dusk_fade_piano.mp3',         volume: 0.3, loop: false }
 
 };
 
