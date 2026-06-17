@@ -156,7 +156,7 @@
       "emotion": "joy",
       "emotionIntensity": 0.95,
       "narrativeText": "笔放下的瞬间，脑子里一片空白。你站起来，交了卷，走出了那扇门。夕阳特别好，金色的光打在脸上。身后有人在哭，有人在笑，有人在打电话。你站在校门口，突然不知道该往哪走——十八年来，第一次没有人告诉你下一步该做什么。",
-      "bgmTag": "summer-nostalgia",
+      "bgmTag": "summer_nostalgia",
       "visualTone": "warm",
       "interactionChoice": {
         "prompt": "最后一科最后15分钟，你在做什么？",

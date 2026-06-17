@@ -127,6 +127,7 @@ const TIMELINE_LIST = [
   'cainiao-station-clerk',
   'maya-astronomer-priest',
   'shu-carpenter-wooden-ox',
+  'mursi-lip-plate-coming-of-age',
 ];
 
 App({
