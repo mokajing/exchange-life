@@ -154,6 +154,7 @@ const TIMELINE_LIST = [
   't1d-child-school-day',
   'wasteland-scavenger-music-box',
   'time-guardian-first-month'
+  'fireworks-master-last-show',
 ];
 
 App({
