@@ -908,6 +908,15 @@ function _clearCrossfadeTimer() {
 
 
 
+
+  // === time-guardian-first-month (第637卷·时序守护者的第一个月) ===
+  chrono_implant_awakening: { file: 'audio/bgm/chrono_implant_awakening.mp3', volume: 0.4, loop: true },
+  bell_tower_solemn_strike: { file: 'audio/bgm/bell_tower_solemn_strike.mp3', volume: 0.5, loop: true },
+  eternal_garden_wisdom:    { file: 'audio/bgm/eternal_garden_wisdom.mp3',    volume: 0.3, loop: true },
+  chrono_crisis_alarm:      { file: 'audio/bgm/chrono_crisis_alarm.mp3',      volume: 0.5, loop: true },
+  dawn_bell_triumph:        { file: 'audio/bgm/dawn_bell_triumph.mp3',        volume: 0.55, loop: false },
+  sunrise_silence_peace:    { file: 'audio/bgm/sunrise_silence_peace.mp3',    volume: 0.3, loop: true }
+
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
 
 };

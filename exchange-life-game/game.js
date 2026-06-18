@@ -151,8 +151,9 @@ const TIMELINE_LIST = [
   'orbital-debris-cleaner',
   'autism-supermarket-shopping',
   'motivation-awakener-first-month',
-  't1d-child-school-day',,
-  'wasteland-scavenger-music-box'
+  't1d-child-school-day',
+  'wasteland-scavenger-music-box',
+  'time-guardian-first-month'
 ];
 
 App({
