@@ -919,4 +919,11 @@ function _clearCrossfadeTimer() {
 
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
 
+  'workshop_morning_silence': { name: 'workshop_morning_silence', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'fading_tradition_bell': { name: 'fading_tradition_bell', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'apprentice_silence_tension': { name: 'apprentice_silence_tension', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'pencil_on_paper_rhythm': { name: 'pencil_on_paper_rhythm', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'fireworks_finale_crescendo': { name: 'fireworks_finale_crescendo', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'crossroads_wind_pause': { name: 'crossroads_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'farewell_earth_gentle': { name: 'farewell_earth_gentle', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
 };

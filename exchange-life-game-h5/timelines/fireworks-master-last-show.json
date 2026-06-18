@@ -1,0 +1,144 @@
+{
+  "meta": {
+    "id": "fireworks-master-last-show",
+    "title": "烟花设计师的最后一支烟花",
+    "subtitle": "52岁浏阳烟花师傅陈师傅，在无人机时代点燃最后一场手工编排的15分钟烟花秀",
+    "sourceType": "documentary",
+    "authorized": true,
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-19T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_dawn_weighing",
+      "title": "配药室的沉默仪式",
+      "description": "清晨6点，浏阳郊区烟花工坊。52岁的陈师傅在配药室称量火药，35年如一日。不带手机进配药室，因为静电。每种金属粉末决定一种颜色：锶=红，钡=绿，铜=蓝，钠=黄，铝=白。",
+      "ageRange": { "start": 52 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "天还没亮透，工坊的钨丝灯已经亮了。你站在配药台前，天平上的指针微微晃动。硝酸钾、硫磺、木炭粉、铝粉、铜粉——每一种都要精确到克。35年了，你的手稳得像第一天。空气中悬浮的细微粉尘在光柱中缓慢飘动，像一场无声的雪。",
+      "bgmTag": "workshop_morning_silence",
+      "visualTone": "warm",
+      "isKeyNode": true,
+      "interactionChoice": {
+        "prompt": "配药室里只有你和天平。今天的配比怎么做？",
+        "options": [
+          { "label": "仔细称量每一克", "response": "你花了比平时多一倍的时间称量。每一克都精准无误，烟花的颜色将完美呈现。这是你对这门手艺最后的敬意。" },
+          { "label": "凭手感来", "response": "你闭上眼，手指捻起一撮粉末。35年的手感不会骗人。也许颜色会有偏差，但陈师傅说过：有时候惊喜比完美更好。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_last_order",
+      "title": "最后一张手工订单",
+      "description": "上午8:30，确认最后一批手工烟花订单：市里取消了元宵焰火晚会改用无人机编队。这是一个偏远小镇庙会的15分钟烟花秀，也是陈师傅接到的最后一张手工编排订单。",
+      "ageRange": { "start": 52 },
+      "category": "crisis",
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "电话那头说：'陈师傅，今年元宵焰火晚会取消了，改成无人机表演了。'你没说话。然后另一个电话响了——一个偏远小镇的庙会，要做一场15分钟的烟花秀。这是你接到的最后一张手工编排订单。你挂了电话，看了一眼窗外灰白色的天空。第487场烟花秀，也将是最后一场。",
+      "bgmTag": "fading_tradition_bell",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_apprentice_question",
+      "title": "徒弟的质问",
+      "description": "下午1点球壳装填时，徒弟小李问：师父，现在都用电子点火器了，你这引线手艺谁还学？陈师傅没有回答。",
+      "ageRange": { "start": 52 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你把火药球一颗颗塞进纸壳筒，用黄泥封底，引线对折三次。徒弟小李在旁边看着，突然开口：'师父，现在都用电子点火器了，你这引线手艺谁还学？'你没回答。不是不想说，是真的不知道答案。有些话不说，是因为一说就破了。手里的引线继续对折，一下，两下，三下。",
+      "bgmTag": "apprentice_silence_tension",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "徒弟的问题悬在空气里。你怎么回应？",
+        "options": [
+          { "label": "保持沉默", "response": "你没有说话。手里的引线继续对折。有些东西不需要解释，它就在那里，像手上的老茧一样真实。" },
+          { "label": "说说手艺的价值", "response": "你放下引线，看着徒弟的眼睛：'机器能做得更准，但它不知道这批火药的脾气。每批都不一样，你得用手去感觉。'说完你又低下头，继续装填。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_design_sky",
+      "title": "脑子里的天空记忆",
+      "description": "下午5点，陈师傅用铅笔在稿纸上画出烟花升空的角度和节奏。不是电脑模拟的3D动画，是他脑子里35年的天空记忆。",
+      "ageRange": { "start": 52 },
+      "category": "career",
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你坐在桌前，铅笔在稿纸上沙沙作响。第一发从左侧30度升空，炸开金色牡丹；第二发右侧45度，绿孔雀开屏；第三发正上方，蓝珍珠……这不是电脑模拟的3D动画，是你脑子里35年的天空记忆。每一朵烟花的位置、高度、炸开时间，都在你的手指尖。",
+      "bgmTag": "pencil_on_paper_rhythm",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_showtime",
+      "title": "十五分钟的天空",
+      "description": "晚上8:30，庙会现场。陈师傅蹲在距发射点30米的土坡上，手里拿着对讲机，膝盖上放着引线点火器。每一发都是按秒表手动点火的。最后一发满天星在夜空炸开，像整个银河倒扣下来。",
+      "ageRange": { "start": 52 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "你蹲在土坡上，膝盖顶着胸口，手里是对讲机和引线点火器。远处无人机表演队在调试设备，但你不在意。第一发升空——金色牡丹在夜空炸开。然后是绿孔雀、蓝珍珠、红绸带。每一发都是你按秒表手动点火的，不是电脑编程。第15分钟，最后一发满天星——你的招牌——在夜空中炸开，像整个银河倒扣下来。人群发出惊叹。你没有抬头看烟花，你在听引线的嘶嘶声和人群的欢呼声。这是你的第487场，也是最后一场。",
+      "bgmTag": "fireworks_finale_crescendo",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "烟花秀结束了。人群开始散去。你此刻的感受是？",
+        "options": [
+          { "label": "满足", "response": "你收起点火器，嘴角有一丝不易察觉的微笑。487场，每一场都对得起天空。这就够了。" },
+          { "label": "不舍", "response": "你蹲在原地没动。夜空恢复了黑暗，但你眼里还映着刚才的光。你想把这一刻记住，永远记住。" },
+          { "label": "释然", "response": "你站起来，拍了拍膝盖上的土。该结束了。35年，够了。天空会记住你的烟花，即使你自己快要忘了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_drone_invitation",
+      "title": "新旧技术的相遇",
+      "description": "演出结束后，无人机表演队负责人递来名片：陈师傅，我们缺个烟火效果的视觉顾问。陈师傅说：我没读过书，只会用手做，不会用电脑做。",
+      "ageRange": { "start": 52 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "人群散去了。无人机表演队的负责人走过来，递给你一张名片：'陈师傅，我们缺个烟火效果的视觉顾问，想请你来。'你看了看名片，又看了看自己的手——指甲缝里还有火药的痕迹。你说：'我没读过书，只会用手做，不会用电脑做。'他笑了笑，把名片塞到你手里：'考虑考虑。'",
+      "bgmTag": "crossroads_wind_pause",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "名片在你手里。你会怎么做？",
+        "options": [
+          { "label": "收下名片", "response": "你把名片放进口袋。也许未来有一天，你会拨出那个号码。不是妥协，是另一种延续。" },
+          { "label": "婉拒", "response": "你把名片还给他：'谢谢你看得起我。但我这辈子只做一件事，做到头就好了。'他点点头，走了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_bury_first_firework",
+      "title": "土坡上的告别",
+      "description": "晚上9点，收拾完现场。陈师傅一个人蹲在土坡上，从口袋里掏出一颗没舍得放的烟花球——那是他35年前做的第一颗烟花，颜色已经褪了。他把它埋在了发射点旁边的土里。",
+      "ageRange": { "start": 52 },
+      "category": "loss",
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "徒弟在拆发射架。你一个人蹲在土坡上，从口袋里掏出那颗烟花球。35年前做的第一颗，颜色已经褪了，火药也许早就失效了。你用手指在土里挖了一个小坑，把它放进去，盖上土，拍了拍。然后你站起来，看了一眼天空。天空很黑，什么也没有。但你记得它亮过的样子。",
+      "bgmTag": "farewell_earth_gentle",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_showtime"],
+    "valleyMoments": ["evt_apprentice_question", "evt_bury_first_firework"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["fireworks safety disclaimer"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

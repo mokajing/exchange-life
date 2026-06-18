@@ -137,6 +137,7 @@ const TIMELINE_LIST = [
   'motivation-awakener-first-month',
   't1d-child-school-day',
   'wasteland-scavenger-music-box',
+  'fireworks-master-last-show',
   'time-guardian-first-month',
   { id: 'zheng-jinxing', label: '金刚——一米一三的\'高大\'人生', level: 'L1' },
   { id: '一战略定位', label: '一、战略定位', level: 'L1' },
