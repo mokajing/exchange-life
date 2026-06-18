@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "id": "time-guardian-first-month",
+    "title": "时序守护者的第一个月",
+    "subtitle": "在没有时间感知的世界里，成为唯一能感受时间流动的人",
+    "sourceType": "ugc_submission",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-19T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_chrono_implant",
+      "title": "时序感知植入",
+      "description": "入职时序局总部，接受脑机接口时序感知植入。第一次感受到时间在流动，震惊到流泪。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "电极贴上太阳穴的瞬间，世界变了。不是视觉，不是听觉——是一种从未有过的感觉：流动。像一条无形的河穿过身体，每一秒都在向前，不可逆转。你哭了。不是因为疼痛，而是因为你终于理解了'珍惜'这个词的重量。原来一切都在走。一直在走。",
+      "bgmTag": "chrono_implant_awakening",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "时间感涌入意识。你如何面对这份新感知？",
+        "options": [
+          { "label": "接受使命，成为时序守护者", "response": "你擦干眼泪，握紧拳头。如果时间需要有人来守护，那就由你来。" },
+          { "label": "暂时关闭植入，休息一天", "response": "你按下暂停键，世界重归永恒的当下。但明天，你必须重新打开它。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_first_bell_strike",
+      "title": "第一次敲钟",
+      "description": "在信号塔顶端用200公斤铜锤敲响城市报时钟。钟声每15分钟响一次，全城以此为节奏运转。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "铜锤重得几乎举不起来。你深吸一口气，向后拉，向前推——铛！钟声从塔顶漫过城市，漫过河流，漫过每一个正在生活的人。每十五分钟一次。你是这座城市的脉搏。他们听不见时间，但他们听得见你。",
+      "bgmTag": "bell_tower_solemn_strike",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_eternal_elder",
+      "title": "遇见永恒者",
+      "description": "遇到一位从未接受时序植入的老人。她不知道也不在乎自己几岁，她的笑容让你质疑时间感知是否真的是必需品。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "她坐在花丛边，不看表。你看了一眼植入显示的时间，又看了看她。她说：'我不需要知道几点了。我知道太阳会升起来，花会开，人会爱。这就够了。'你突然不确定了——是她在缺失什么，还是你在多余什么？",
+      "bgmTag": "eternal_garden_wisdom",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "老人的话动摇了你的信念。你怎么做？",
+        "options": [
+          { "label": "尝试说服她接受植入", "response": "你说：'如果您能感受到时间，您会更珍惜每一刻。'她微笑着摇头：'我已经很珍惜了。'" },
+          { "label": "坐下来听她讲故事", "response": "你关掉植入的时间显示，在她身边坐下。她讲了一辈子的故事，没有年份，没有日期，只有花开花落和人来人往。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_city_time_chaos",
+      "title": "时序危机爆发",
+      "description": "第23天，主时钟塔因地震受损，全市陷入时间混乱。火车停运、手术无法计时、学校不知何时下课。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "钟停了。火车停了。手术台上的医生不知道过了多久。教室里的孩子不知道何时该回家。城市失去了脉搏，而你体内的人工时间感成了唯一的参照。警报声渐强，人群嘈杂，你的心跳加速——你是此刻唯一知道'已经过了多久'的人。",
+      "bgmTag": "chrono_crisis_alarm",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "城市陷入混乱。你选择去哪里？",
+        "options": [
+          { "label": "留在主钟塔参与修复", "response": "你冲向钟塔核心。齿轮散落一地，你需要按正确顺序重新安装。时间不等人——讽刺的是，此刻只有你知道这句话的真正含义。" },
+          { "label": "前往社区帮助市民", "response": "你跑向最近的社区中心。人们茫然地站在街头，你用声音告诉他们：'现在是下午三点，天黑前还有四个小时。'你的声音成了他们的钟。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_repair_dawn",
+      "title": "黎明重启钟声",
+      "description": "和同事们不眠不休修复主时钟塔。黎明时分敲响恢复后的第一声钟，全城欢呼。",
+      "ageRange": { "start": 25 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.95,
+      "narrativeText": "最后一个齿轮咬合的瞬间，天边泛起了金色。你举起铜锤，手臂酸痛到几乎抬不起来——铛！钟声穿过黎明的空气，比任何一次都厚重。远处传来欢呼声。同事们靠在塔壁上笑了，没有人看表，因为不需要。你们用自己的方式，找回了时间。",
+      "bgmTag": "dawn_bell_triumph",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_sunrise_reflection",
+      "title": "塔顶日出",
+      "description": "修复完成后独自坐在塔顶看日出。不再需要看表，学会了在没有时钟的世界里找到自己的节奏。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你坐在塔顶，看太阳一点点升起。植入还在运行，时间还在流动，但你不再盯着它了。你想起了那位老人。想起了钟声。想起了同事们不眠不休却没有一个人说'太久了'。也许时间的意义不在于感知它，而在于用它来做值得做的事。你没有看表。你只是坐着，呼吸，看日出。这就够了。",
+      "bgmTag": "sunrise_silence_peace",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "日出很美。你想在这里待多久？",
+        "options": [
+          { "label": "待到太阳完全升起", "response": "你看着光线铺满整座城市。没有催促，没有倒计时。这是属于你的时间。" },
+          { "label": "起身回到岗位", "response": "你站起来，拍了拍裤子上的灰。钟还需要人敲，城市还需要脉搏。但你带走了这片日出的温度。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_chrono_implant", "evt_repair_dawn"],
+    "valleyMoments": ["evt_city_time_chaos"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["时间焦虑", "存在主义思考"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
