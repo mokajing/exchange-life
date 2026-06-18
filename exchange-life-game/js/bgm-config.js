@@ -727,7 +727,16 @@ const BGM_MAP = {
   melancholy_music_box:       { file: 'audio/bgm/melancholy_music_box.mp3',       volume: 0.3, loop: true },
   silent_frustration_strings: { file: 'audio/bgm/silent_frustration_strings.mp3', volume: 0.35, loop: true },
   lonely_afternoon_piano:     { file: 'audio/bgm/lonely_afternoon_piano.mp3',     volume: 0.3, loop: true },
-  warm_lullaby_piano:         { file: 'audio/bgm/warm_lullaby_piano.mp3',         volume: 0.35, loop: true }
+  warm_lullaby_piano:         { file: 'audio/bgm/warm_lullaby_piano.mp3',         volume: 0.35, loop: true },
+
+  // === 末日废土拾荒者专用标签 (2026-06-18) ===
+  wasteland_dawn_wind:       { file: 'audio/bgm/wasteland_dawn_wind.mp3',       volume: 0.25, loop: true },
+  ruins_morning_silence:     { file: 'audio/bgm/ruins_morning_silence.mp3',     volume: 0.2, loop: true },
+  dust_and_rust:             { file: 'audio/bgm/dust_and_rust.mp3',             volume: 0.3, loop: true },
+  silent_wind_ruins:         { file: 'audio/bgm/silent_wind_ruins.mp3',         volume: 0.2, loop: true },
+  music_box_fur_elise:       { file: 'audio/bgm/music_box_fur_elise.mp3',       volume: 0.4, loop: false },
+  shelter_warmth:            { file: 'audio/bgm/shelter_warmth.mp3',            volume: 0.3, loop: true },
+  campfire_humming_chorus:   { file: 'audio/bgm/campfire_humming_chorus.mp3',   volume: 0.45, loop: false }
 
 
 };

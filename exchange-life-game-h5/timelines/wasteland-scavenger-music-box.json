@@ -1,0 +1,139 @@
+{
+  "meta": {
+    "id": "wasteland-scavenger-music-box",
+    "title": "末日废土拾荒者的生存日记",
+    "subtitle": "文明崩塌后第37年，找到还能播放的音乐盒，在废墟里坐了一整晚",
+    "sourceType": "ugc_submission",
+    "authorized": true,
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-18T09:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_dawn_prep",
+      "title": "晨曦微光中的装备检查",
+      "description": "新历37年清晨，老陈在希望站聚落中醒来。检查防辐射剂量计、撬棍、帆布背包、水壶和干粮。妻子轻声嘱咐别去东区。",
+      "ageRange": { "start": 47 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "天还没亮透。你摸到枕边的剂量计，指针还在安全区。妻子在旁边轻声说：'今天别去东区，昨晚有人听到那边有动静。'你点头，但心里清楚——东区危险，意味着东区还没被翻过。",
+      "bgmTag": "wasteland_dawn_wind",
+      "visualTone": "dark",
+      "isKeyNode": true,
+      "interactionChoice": {
+        "prompt": "妻子的嘱咐还在耳边。今天的路线怎么走？",
+        "options": [
+          { "label": "听妻子的，去西区", "response": "你选择了安全路线。西区虽然被翻过多次，但胜在安稳。妻子松了口气。" },
+          { "label": "去东区冒险", "response": "你决定去东区。高风险意味着高回报，但也可能遇到未知的危险。" },
+          { "label": "今天不拾荒了", "response": "你放下背包，决定留在聚落帮妻子消毒。有时候，陪伴比物资更重要。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_sentinel_intel",
+      "title": "哨塔情报交换",
+      "description": "经过聚落哨塔时与值夜的老李头交换情报。得知东区旧百货大楼方向昨晚有光亮。",
+      "ageRange": { "start": 47 },
+      "category": "daily_life",
+      "emotion": "neutral",
+      "emotionIntensity": 0.2,
+      "narrativeText": "哨塔上的老李头朝你招手。'地鼠，昨晚东区百货大楼那边有光，可能是野火，也可能是别的拾荒者。'你记在心里，继续前行。废墟在晨光中像一具巨大的骨架。",
+      "bgmTag": "ruins_morning_silence",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_apartment_discovery",
+      "title": "七楼公寓的铁皮盒子",
+      "description": "在旧居民楼七楼发现保存完好的公寓。收获罐头、工具和碘伏。在衣柜深处撬开一个锁着的铁皮盒子，发现相册、未寄出的信和一个八音盒。",
+      "ageRange": { "start": 47 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "七楼的门锁早已锈蚀，轻轻一推就开了。公寓里灰尘厚得像地毯，但结构完好。你在衣柜最深处摸到一个铁皮盒子，锁着。撬棍抵住锁扣，持续用力——咔嗒一声，锁开了。里面是一本相册、一封信，还有一个巴掌大的八音盒。",
+      "bgmTag": "dust_and_rust",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "铁皮盒子打开了。你要怎么处理这些东西？",
+        "options": [
+          { "label": "仔细查看内容", "response": "你翻开相册，展开那封泛黄的信。有些东西比罐头更重。" },
+          { "label": "带走换物资", "response": "你把铁盒装进背包。在废土上，一切都可以交换——但你隐约觉得错过了什么。" },
+          { "label": "只拿走相册和信", "response": "你留下了八音盒，只带走了照片和信。有些东西属于这里，不该被带走。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_rooftop_letter",
+      "title": "废墟顶楼的沉默",
+      "description": "在废墟顶楼吃午饭时打开相册。照片是年轻女人和小女孩的合影，背面写着'2023年夏，囡囡五岁生日'。信是写给前线丈夫的，落款2023年11月。",
+      "ageRange": { "start": 47 },
+      "category": "loss",
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你坐在顶楼的风里，打开相册。照片上是一个年轻女人抱着一个小女孩，笑得那么真。背面写着：'2023年夏，囡囡五岁生日。' 信纸已经发黄：'你在前线一定要注意安全，囡囡每天问爸爸什么时候回来。我会照顾好这个家，等你回来。' 落款：2023年11月。你沉默了很久。风从废墟间穿过，像一声叹息。",
+      "bgmTag": "silent_wind_ruins",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_music_box_plays",
+      "title": "三十七年后的第一首音乐",
+      "description": "拧动八音盒发条，《致爱丽丝》在废墟中响起。这是老陈37年来第一次听到完整的音乐——不是零散的哼唱，而是机械复制的人造旋律。",
+      "ageRange": { "start": 47 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "你拧动发条。37年了，它竟然还能响。《致爱丽丝》的旋律从生锈的齿轮间流出，单薄、微弱，却完整得让人心碎。你坐在废墟顶楼，听了一遍又一遍。这不是聚落里有人哼唱的零散调子——这是完整的、属于另一个时代的旋律。原来文明是这样的：不是信息，不是技术，而是让你想停下来听的东西。",
+      "bgmTag": "music_box_fur_elise",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_return_home",
+      "title": "不换",
+      "description": "回到聚落交出物资，把八音盒藏在枕头下。晚上告诉妻子找到了音乐盒，妻子问值不值钱，老陈说'不换'。",
+      "ageRange": { "start": 47 },
+      "category": "relationship",
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "罐头和工具交给了物资管理员，碘伏给了妻子。八音盒你留在了枕头下面。晚上你说：'我今天找到了一个音乐盒。'妻子问：'值钱吗？'你想了想：'不换。'她沉默片刻，轻轻说：'那我听听。'",
+      "bgmTag": "shelter_warmth",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_campfire_concert",
+      "title": "希望站的第一次音乐",
+      "description": "晚餐后在公共火堆旁播放八音盒。整个聚落安静下来，有人哭有人笑。老奶奶认出贝多芬并哼唱起来，其他人跟着哼。这是37年来希望站第一次响起音乐。",
+      "ageRange": { "start": 47 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "火堆噼啪作响。你拧动发条，《致爱丽丝》在营地里响起。起初只有几个人停下说话，然后越来越多的人围过来。有人哭了，有人笑了。一个老奶奶轻声说：'这是贝多芬。我年轻时学过。'然后她哼了起来，其他人跟着哼。37年了，希望站第一次响起了音乐。不是录音，不是广播——是一群人的声音，在废墟上空重新学会歌唱。",
+      "bgmTag": "campfire_humming_chorus",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "音乐盒成了聚落的宝贝。你打算怎么安置它？",
+        "options": [
+          { "label": "自己留着", "response": "你把音乐盒放回枕头下。每晚黑暗中，只有旋律和你的呼吸。这是属于你的私密温柔。" },
+          { "label": "放在公共区域", "response": "你把音乐盒放在了聚落中央。从此每个夜晚，希望站都有音乐。它不再属于你，它属于所有人。" },
+          { "label": "下次放回原处", "response": "你决定下次拾荒时把它带回那间公寓。有些东西应该留在它等待的地方，完成一场跨越37年的告别。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_music_box_plays", "evt_campfire_concert"],
+    "valleyMoments": ["evt_rooftop_letter"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["post-apocalyptic setting", "implied loss of family"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
