@@ -153,8 +153,9 @@ const TIMELINE_LIST = [
   'motivation-awakener-first-month',
   't1d-child-school-day',
   'wasteland-scavenger-music-box',
-  'time-guardian-first-month'
+  'time-guardian-first-month',
   'fireworks-master-last-show',
+  'doctor-village-clinic-swap',
 ];
 
 App({

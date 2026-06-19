@@ -1,0 +1,154 @@
+{
+  "meta": {
+    "id": "doctor-village-clinic-swap",
+    "title": "从三甲医院主任医师到乡镇卫生院全科医生",
+    "subtitle": "48岁心外科博导陈主任，主动下沉到大别山区只有3名医生的乡镇卫生院，在听诊器和血压计之间重新发现医学的温度",
+    "sourceType": "documentary",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-19T15:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_operating_room_farewell",
+      "title": "手术室的最后一台",
+      "description": "2024年6月，省人民医院心外科手术室。48岁的陈主任完成第3000台心脏手术后，摘下手套，看了一眼监护仪上跳动的绿色波形。这是他在这里的最后一台手术。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "你摘下手套，指尖还残留着消毒水的气味。监护仪上的绿色波形平稳跳动——这是你主刀的第3000台心脏手术。护士递来毛巾，你擦了擦额头的汗，看了一眼窗外灰白色的天空。明天你就要去一个没有手术室、没有体外循环机、甚至没有CT的地方。26年了，你第一次觉得手里的听诊器比手术刀更重。",
+      "bgmTag": "operating_room_monitor_beep",
+      "visualTone": "cool",
+      "isKeyNode": true,
+      "interactionChoice": {
+        "prompt": "离开手术室前，你想做什么？",
+        "options": [
+          { "label": "再看一眼手术台", "response": "你站在手术台旁，手指轻轻触碰不锈钢台面。3000次心跳在这里重启。你深吸一口气，转身离开。有些告别不需要语言。" },
+          { "label": "和团队合影", "response": "你叫住正在收拾器械的护士和麻醉师：'来，拍张照。'快门按下的瞬间，你笑了。照片里每个人都戴着口罩，但眼睛都在笑。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_mountain_road_arrival",
+      "title": "280公里的山路",
+      "description": "2024年7月1日，陈主任驱车280公里抵达大别山区某乡镇卫生院。常住人口1.2万，卫生院仅3名医生。门口挂着一块褪色的牌子。",
+      "ageRange": { "start": 48 },
+      "category": "travel",
+      "emotion": "surprise",
+      "emotionIntensity": 0.5,
+      "narrativeText": "车在山路上颠簸了四个小时。当你终于看到卫生院的白色平房时，第一反应是：比我想象的还小。门口挂着一块褪色的牌子，院子里停着一辆生锈的救护车。三个年轻医生站在门口迎接你，眼神里有好奇，也有怀疑。你拖着行李箱走下车，行李箱轮子在碎石路上发出刺耳的声音。这里没有白炽灯的冷光，没有层流手术室的嗡嗡声，只有蝉鸣和远处山间的鸟叫。",
+      "bgmTag": "mountain_road_cicada",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_stethoscope_diagnosis",
+      "title": "靠耳朵看病的专家",
+      "description": "第一个月，没有CT、没有超声心动图、没有血气分析仪。陈主任靠一个听诊器和30年经验诊断出一例风湿性心脏病。病人走后他沉默了半小时。",
+      "ageRange": { "start": 48 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你把听诊器贴在病人的胸口，闭上眼睛。二尖瓣区有舒张期隆隆样杂音，主动脉瓣区有收缩期喷射性杂音。你的手指在病人手腕上感受脉搏的节律，耳朵捕捉每一个异常的心音。三十年了，这些声音刻在你的神经里。诊断结果写在纸上：风湿性心脏病，二尖瓣狭窄伴关闭不全。病人拿着纸条走了，你坐在诊室里没动。在省城开了30年刀，从来没想过这世上还有医生只能靠耳朵看病。",
+      "bgmTag": "stethoscope_silence",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "诊断完成后，你的心情如何？",
+        "options": [
+          { "label": "挫败感", "response": "你靠在椅背上，盯着天花板。30年的技术在这里几乎归零。但你刚才的诊断是对的——这让你稍微安心了一点。" },
+          { "label": "重新发现", "response": "你低头看了看手里的听诊器。原来医学可以这么简单，也可以这么难。这不是降级，是另一种专业。" },
+          { "label": "平静接受", "response": "你站起来，走到窗边。窗外的阳光照在脸上，暖洋洋的。也许这就是你来这里的原因——回到最基础的视触叩听。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_pesticide_rescue_night",
+      "title": "凌晨两点的敌敌畏",
+      "description": "凌晨2点，一个喝了半瓶敌敌畏的农民被抬进来。卫生院的阿托品只有3支（标准抢救需要10支以上）。陈主任用土办法——肥皂水灌胃+仅有的阿托品+持续手动呼吸球囊按压4小时，把人救回来了。",
+      "ageRange": { "start": 48 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "担架抬进来的时候，病人的瞳孔已经缩小如针尖。你摸了摸他的脉搏——细速，每分钟120次。阿托品只有3支。你让护士准备肥皂水灌胃，自己拿起呼吸球囊开始手动按压。一下，两下，三下……每分钟20次，不能停。窗外的暴雨敲打着铁皮屋顶，像无数只手在拍打。你的手酸了，换左手；左手也酸了，再换回来。四个小时后，天亮了。病人的瞳孔开始散大，自主呼吸恢复了。你放下球囊，发现自己的手在抖。这是你的第13个病人，也是第一个让你体验到没有设备也敢拼命的病人。",
+      "bgmTag": "rainy_night_rescue_drone",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "阿托品只有3支，你怎么分配？",
+        "options": [
+          { "label": "按标准剂量用", "response": "你把3支阿托品按标准剂量分次注射。用完就没了，剩下的全靠手动呼吸球囊和你的经验。病人挺过来了，但你知道这次运气占了大半。" },
+          { "label": "分次小剂量延长", "response": "你把每支阿托品分成三份，小剂量多次注射，延长作用时间。同时加快手动按压频率。这是一场和时间的拉锯战，你赢了。" },
+          { "label": "派人去镇上买药", "response": "你让卫生院的年轻人骑摩托车去镇上药店买阿托品，同时用仅有的3支撑过前两个小时。摩托车在暴雨中消失在山路尽头。四十分钟后，他带着药回来了，浑身湿透。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_eggs_payment",
+      "title": "二十个土鸡蛋的诊金",
+      "description": "一个月后，70岁高血压老太太背着20个土鸡蛋走了6里山路来谢谢陈医生。她说：你开的药真好，我吃了头不晕了，能下地干活了。这是他从医26年来收到的第一份鸡蛋诊金。",
+      "ageRange": { "start": 48 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "清晨的阳光从窗户斜射进来，照在旧木桌上。你听到门外有脚步声，竹杖敲地的声音由远及近。门开了，一个头发花白的老太太站在门口，背着一个竹篮，里面装着20个土鸡蛋。她笑着说：'陈医生，你开的药真好，我吃了头不晕了，能下地干活了。'她把竹篮放在桌上，鸡蛋碰在一起发出清脆的声音。你站在那里，喉咙发紧。在省城收了26年锦旗和红包，这是你第一次收到鸡蛋诊金。那天晚上，你在日记里写了一句话：原来当医生可以这么简单，也可以这么好。",
+      "bgmTag": "morning_sun_erhu",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "老太太放下鸡蛋准备离开。你会怎么做？",
+        "options": [
+          { "label": "收下鸡蛋", "response": "你收下了鸡蛋。不是因为需要，而是因为拒绝会伤害她的尊严。这20个鸡蛋比任何锦旗都重。" },
+          { "label": "回赠药品", "response": "你从药柜里拿出一盒降压药塞给她：'大妈，这个您留着，吃完了再来拿。'她推辞了半天，最后笑着收下了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_colleague_phone_call",
+      "title": "省城同行的电话",
+      "description": "原科室副主任打电话问后悔吗。陈主任说：我在这里一天看的病人比在省城一周还多，但我不累。对方沉默了很久说：你好像变了。他回答：不是变了，是回来了。",
+      "ageRange": { "start": 49 },
+      "category": "relationship",
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "手机响了，是原科室副主任老张。他说：'老陈，副院长位置还给你留着呢，后悔了吗？'你笑了笑：'我在这里一天看的病人比在省城一周还多，但我不累。'电话那头沉默了很久。然后他说：'你好像变了。'你看着窗外卫生院的院子，那棵枇杷树刚发了新芽。你说：'不是变了，是回来了——回到学医第一天宣誓时想成为的那种医生。'",
+      "bgmTag": "phone_call_wind_pause",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_one_year_review",
+      "title": "一年后的枇杷树",
+      "description": "一年后，陈主任教会了3个年轻医生做基础心电图判读和溶栓治疗。自己晒黑了、瘦了15斤、白头发多了一半。他在卫生院门口种了一棵枇杷树，说要等它结果，给来看病的孩子们吃。",
+      "ageRange": { "start": 49 },
+      "category": "achievement",
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你蹲在卫生院门口的土地上，手里拿着一棵枇杷树苗。一年了，你教会了三个年轻人看心电图、做溶栓、识别危重症。你晒黑了，瘦了15斤，白头发多了一半。但你睡得比以前踏实了。你把树苗放进坑里，培好土，浇了水。你说要等它结果，给来看病的孩子们吃。远处的广播体操音乐响起来了，孩子们在操场上跑步。你站起来，拍了拍手上的土，走回诊室。桌上放着今天的第一个病历本，封面上写着：姓名，李小花，年龄，7岁。",
+      "bgmTag": "pipa_tree_guitar_strum",
+      "visualTone": "warm",
+      "isKeyNode": true,
+      "interactionChoice": {
+        "prompt": "省城医院说副院长位置还留着。你的选择是？",
+        "options": [
+          { "label": "回去", "response": "你决定回去。不是因为留恋权力，而是想把基层的经验带回去，改变更多人的就医体验。离开不是结束，是另一种开始。" },
+          { "label": "再留一年", "response": "你决定再留一年。枇杷树还没结果，三个年轻人还需要你。有些承诺比职位更重要。" },
+          { "label": "两边兼顾", "response": "你选择每月回去做几台大手术，其余时间在卫生院。两种生活都不放弃，虽然累，但你觉得这才是完整的医生。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["evt_eggs_payment", "evt_one_year_review"],
+    "valleyMoments": ["evt_stethoscope_diagnosis", "evt_pesticide_rescue_night"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["medical emergency scene", "pesticide poisoning depiction"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

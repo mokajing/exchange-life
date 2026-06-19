@@ -739,6 +739,13 @@ const BGM_MAP = {
   campfire_humming_chorus:   { file: 'audio/bgm/campfire_humming_chorus.mp3',   volume: 0.45, loop: false }
 
 
+  'operating_room_monitor_beep': { name: 'operating_room_monitor_beep', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'mountain_road_cicada': { name: 'mountain_road_cicada', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'stethoscope_silence': { name: 'stethoscope_silence', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'rainy_night_rescue_drone': { name: 'rainy_night_rescue_drone', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'morning_sun_erhu': { name: 'morning_sun_erhu', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'phone_call_wind_pause': { name: 'phone_call_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'pipa_tree_guitar_strum': { name: 'pipa_tree_guitar_strum', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
 };
 
 /**
