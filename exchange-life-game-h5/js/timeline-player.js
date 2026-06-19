@@ -3,8 +3,8 @@
  * 管理事件流转、交互选择、进度追踪
  */
 
-const Renderer = require('./renderer');
-const TONE_COLORS = Renderer.TONE_COLORS;
+// H5 browser version: Renderer is loaded as global via script tag before this file
+const TONE_COLORS = window.Renderer.TONE_COLORS;
 
 class TimelinePlayer {
   constructor(options) {
@@ -438,4 +438,5 @@ class TimelinePlayer {
   }
 }
 
-module.exports = TimelinePlayer;
+// H5 browser version: TimelinePlayer is exposed as global via script tag
+window.TimelinePlayer = TimelinePlayer;
