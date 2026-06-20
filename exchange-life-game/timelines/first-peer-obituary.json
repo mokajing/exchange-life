@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "first-peer-obituary",
+    "title": "第一次收到同龄人讣告的那一天",
+    "subtitle": "改天聚聚变成了再也不聚，通讯录里又多了一个永远不会亮起的头像",
+    "sourceType": "social_media",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-06-21T03:10:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "morning-subway",
+      "title": "7:23·地铁上刷到讣告",
+      "description": "一个普通周三早晨，42岁的主人公在早高峰地铁上刷手机，大学同学群里一条讣告：室友老张，心梗，享年43岁。胃部一紧，反复确认照片。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "七点二十三分。周三。早高峰。朋友圈。一条讣告。你的拇指停在屏幕上，胃像被人攥了一把。老张。一九七九年生。心梗。享年四十三岁。你点开那张黑白照片，放大，再放大——是他。那个毕业时借了你学士服、咧着嘴笑得比谁都大声的老张。地铁到站的提示音响了，你没有动。",
+      "bgmTag": "subway_hum_muted",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "看到讣告后的第一反应……",
+        "options": [
+          { "label": "立即打开老张的微信对话框", "response": "你切到微信，翻到和他的聊天。最后一条消息是三个月前他发的'改天聚聚'，你回了个'好'。那就是你们的最后一句对话。四个字，成了当代人际关系中最痛的墓志铭。" },
+          { "label": "关掉手机继续通勤", "response": "你把手机塞回口袋，盯着车窗里自己的倒影。假装没看到。但到了公司坐下后，你还是打开了微信。有些消息，你以为可以推迟面对，但它已经在那里等你了。" }
+        ]
+      }
+    },
+    {
+      "id": "graduation-photo",
+      "title": "9:15·翻出二十年前的毕业照",
+      "description": "在办公室翻出2005年的毕业照，发现自己站在老张左边，两人都穿着借来的学士服。时间在视觉比对中变得触目惊心。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你在手机相册里翻了很久才找到那张照片。二零零五年六月，图书馆门口。你和老张站在一起，学士服的袖子都短了一截，但你们笑得比谁都大声。照片里的脸饱满、明亮、不知道什么叫永远。你把照片和讣告上的黑白照放在一起看。二十年。两张脸之间的距离，比你以为的要远得多。",
+      "bgmTag": "nostalgic_piano_soft",
+      "visualTone": "warm"
+    },
+    {
+      "id": "last-wechat-message",
+      "title": "12:30·改天聚聚，再也不聚",
+      "description": "午餐时打开老张的微信对话框，最后一条消息是三个月前他发的改天聚聚，你回了个好。发现他半年前开始转发养生文章，三个月前发了最后一条最近有点累。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.85,
+      "narrativeText": "食堂的饭菜没什么味道。你盯着屏幕上那两个字：'改天聚聚。'三个月前他发的。你回了个'好'。然后就没有然后了。你往上翻他的朋友圈——半年前开始转发养生文章，三个月前发了最后一条：'最近有点累。'没有人评论。你也看到了，但没有问。现在你想问，但对话框那头再也不会有人回复了。",
+      "bgmTag": "silence_room_tone",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "afternoon-numbness",
+      "title": "15:40·下午的失语症",
+      "description": "无法集中注意力工作，开会时PPT在翻页但脑子里全是老张。在厕所隔间偷偷深呼吸。发现自己开始数通讯录里已逝同龄人的名字。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "下午。开会。PPT。他在说什么。你在想老张。三点四十，你借口上厕所，躲进隔间，关上门，深吸一口气。镜子里的脸看起来比早上老了十岁。你打开手机通讯录，开始数那些不会再亮起的头像。三个。加上老张，四个。我们这代人，从正在上场变成开始退场了。",
+      "bgmTag": "office_ambient_low",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evening-wife-words",
+      "title": "19:30·你不是说过要请他吃饭的吗",
+      "description": "回家给老婆看老张的照片，老婆说这个人你不是说过要请他吃饭的吗。最亲近的人用最日常的语气说出最残忍的话。无言以对。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "晚饭后你把手机递给老婆，指着毕业照上的老张。她看了一眼，说：'这个人你不是说过要请他吃饭的吗？'声音很轻，像平时问你明天吃什么一样自然。但你被击中了。她没有恶意，她只是记得。而你忘了。不是忘了这个人，是忘了自己欠他一顿饭。一顿永远补不上的饭。",
+      "bgmTag": "home_evening_quiet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对妻子的这句话……",
+        "options": [
+          { "label": "沉默。然后给她讲老张的故事", "response": "你没有回答那句话。过了很久，你开始讲毕业那年老张帮你搬行李、借钱给你交学费、在你失恋时陪你喝到天亮的事。她安静地听着。有些话说不出口，但说出来之后会好一点。" },
+          { "label": "说下次一定。然后意识到没有下次了", "response": "'下次……'你刚开口就停住了。没有下次了。这四个字卡在喉咙里，比任何悲伤都重。你低下头，看着碗里剩下的米饭，一粒一粒数着，像在数来不及说出口的话。" }
+        ]
+      }
+    },
+    {
+      "id": "late-night-list",
+      "title": "22:15·备忘录里的逝者名单",
+      "description": "深夜在手机备忘录里写下通讯录中已逝者的名字。关上手机看着身边熟睡的伴侣，第一次认真想要活得更久一点。",
+      "ageRange": { "start": 42 },
+      "yearRange": { "start": 2025 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "台灯的光圈很小，只照亮手机屏幕和你写字的手。你在备忘录里一个一个打下那些名字。四个。不多，但每一个都曾是一个完整的世界。打完最后一个字，你关上手机。身边的呼吸声均匀而安稳。你在黑暗中睁着眼，第一次认真地想：我要活得更久一点。不是为了自己，是为了那些还没来得及说的'改天聚聚'。",
+      "bgmTag": "night_lamp_gentle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "写完名单之后……",
+        "options": [
+          { "label": "给一个还在世的老朋友发条消息", "response": "你打开微信，找到一个很久没联系的名字。打了又删，删了又打，最后发了三个字：'在吗？'对方秒回：'在！怎么突然想起我了？'你说：'没什么，就是想你了。'有些话不需要理由。" },
+          { "label": "关上灯，把今天记住就好", "response": "你把手机放在床头，闭上眼。今天不会重来，老张也不会回来。但你记住了。记住就是最好的告别。明天还要上班，但通讯录里少了一个人这件事，你会一直记得。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "melancholic",
+    "peakMoments": ["morning-subway", "evening-wife-words"],
+    "valleyMoments": ["late-night-list"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["death_awareness", "grief", "midlife_crisis"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}

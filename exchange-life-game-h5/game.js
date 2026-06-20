@@ -332,6 +332,9 @@ const TIMELINE_LIST = [
   'maya-astronomer-priest',
   'shu-carpenter-wooden-ox',
   { id: 'lawyer-legal-aid-swap', label: '从顶级律所合伙人到法律援助律师', level: 'L2' },
+  { id: 'carthage-elephant-handler', title: '迦太基战象驭手·阿尔卑斯雪山上的最后征程', file: 'timelines/carthage-elephant-handler.json' },
+  { id: 'sherpa-everest-guide', title: '珠峰夏尔巴向导·登顶37次从未被叫征服者', file: 'timelines/sherpa-everest-guide.json' },
+  { id: 'first-peer-obituary', title: '第一次收到同龄人讣告的那一天', file: 'timelines/first-peer-obituary.json' },
 ];
 
 let player = null;

@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "id": "carthage-elephant-handler",
+    "title": "迦太基战象驭手·阿尔卑斯雪山上守护战象的最后征程",
+    "subtitle": "公元前218年，一人一象翻越阿尔卑斯山，用斗篷裹住象脚，用额头抵着象鼻说了一夜话",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-21T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "departure-spain",
+      "title": "出发之日·新迦太基城外的最后检查",
+      "description": "公元前218年9月，25岁的迦太基象夫巴尔米卡在西班牙军营中最后一次检查战象苏尔的鞍具和战甲，用棕榈油擦拭象牙。其他象夫嘲笑他把象当老婆伺候，他只是笑笑。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": -218 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你蹲在苏尔身旁，手掌沿着它的象牙缓缓滑过。棕榈油在阳光下泛着琥珀色的光。身后传来笑声——'巴尔米卡又把象当老婆伺候了！'你没有回头。苏尔用鼻子轻轻碰了碰你的肩膀，像八年前你第一次见到它时那样。那年你十七岁，它刚出生。",
+      "bgmTag": "ancient_drums_slow",
+      "visualTone": "warm"
+    },
+    {
+      "id": "rhone-crossing",
+      "title": "罗纳河渡河·哄象曲与椰枣",
+      "description": "公元前218年10月，战象拒绝上木筏。巴尔米卡用椰枣和腓尼基语低声哼唱哄象曲，苏尔第一个踏上木筏，其他战象跟随，全军渡过罗纳河。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": -218 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "河水湍急，木筏在水面上摇晃。苏尔的前腿僵住了，眼睛里映出水面的波光和你的倒影。你从怀里掏出一把椰枣，凑到它鼻尖前，然后用腓尼基语哼起那首从小听到大的曲子。声音很低，低到只有你们两个能听见。苏尔的耳朵微微扇动了一下，然后迈出了第一步。",
+      "bgmTag": "water_flow_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "苏尔拒绝上筏，你选择……",
+        "options": [
+          { "label": "用椰枣和哄象曲安抚", "response": "你蹲下来，与苏尔平视。椰枣的甜味混着河水的腥气，你的歌声盖过了水流的轰鸣。苏尔犹豫了三秒，然后把鼻子搭在你的肩上——这是信任的重量。" },
+          { "label": "等别的象先上，让苏尔跟着", "response": "你退后一步，让另一头更勇敢的战象先登筏。苏尔看着同伴安全上去，才小心翼翼地跟上。慢了一些，但没有强迫。同僚投来嘲笑的目光，你不在乎。" }
+        ]
+      }
+    },
+    {
+      "id": "alps-blizzard",
+      "title": "阿尔卑斯山隘口·暴风雪中的一人一象",
+      "description": "公元前218年11月，暴风雪中苏尔在仅容一人通过的冰崖小径上停下，前腿颤抖。巴尔米卡脱下斗篷裹住象脚防滑，用额头顶着象鼻说了整整一夜的话。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": -218 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "风像刀子一样割过脸颊。苏尔停在了悬崖边，前腿在冰面上打颤，每一步都可能滑入深渊。你解下身上最后一件斗篷，跪下来裹住它的脚。冰冷的铁钉刺穿布料扎进你的膝盖，但你没有停。你把额头抵在它的鼻子上，开始说话——说小时候第一次见它，说它在河里洗澡溅了你一身水，说你们一起走过的所有路。一整夜。天亮时，苏尔迈出了那一步。",
+      "bgmTag": "wind_howl_silence",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "暴风雪中的冰崖之夜……",
+        "options": [
+          { "label": "脱下斗篷裹住象脚，陪它过夜", "response": "你的身体在零下二十度的风中逐渐失去知觉，但苏尔的呼吸声就在耳边。你用尽最后的力气说话，不是为了自己，是为了让它知道：你不是一个人。天亮时，你们都还活着。" },
+          { "label": "给苏尔喂最后一把椰枣，原地等待", "response": "你把最后的椰枣放在苏尔嘴边，然后蜷缩在它身侧避风。它的体温是你唯一的暖源。你不知道要等多久，但你知道不能丢下它。风雪在黎明前减弱了。" }
+        ]
+      }
+    },
+    {
+      "id": "highest-pass-wound",
+      "title": "最高隘口·用内衣包扎象脚伤口",
+      "description": "在最高隘口，已有11头战象冻死在路上。苏尔的左前腿被冰刃划伤，巴尔米卡用自己最后一件内衣为象包扎，赤裸上身走在零下20度的风雪中。一名努米底亚骑兵把斗篷披在他身上。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": -218 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "血迹在冰面上触目惊心。苏尔的左前腿上有一道长长的口子，是被藏在雪下的冰刃划开的。你已经没有布了——斗篷裹了它的脚，外衣在前几天给了另一个生病的象夫。你脱下最后一件内衣，撕成条，一圈一圈缠在苏尔的伤口上。风穿过你赤裸的上身，像无数根针。一个努米底亚骑兵骑马经过，什么都没说，把自己的斗篷披在你肩上。那一刻你没有哭，但眼眶是热的。",
+      "bgmTag": "mourning_strings",
+      "visualTone": "dark"
+    },
+    {
+      "id": "descent-italy",
+      "title": "下山·意大利在望，回家的路被切断",
+      "description": "公元前218年12月，走出阿尔卑斯山，波河平原在晨光中展开。37头战象仅存活21头。苏尔用鼻子卷起一把意大利的泥土放在巴尔米卡手中——往后的路只有向前。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": -218 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "阳光。真正的、温暖的阳光。你已经忘了这种感觉。脚下的土地不再是冰雪，而是柔软的泥土和青草。波河平原在你面前铺展开来，金色的晨雾笼罩着远处的村庄。苏尔停下来，用鼻子卷起一把泥土，轻轻放在你的手心。你握着这把异国的土，回望身后的雪山。37头战象，只剩下21头。你知道，从这一刻起，回家的路已经被切断了。往后的路，只有向前。",
+      "bgmTag": "dawn_warm_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "站在山脚下回望雪山……",
+        "options": [
+          { "label": "握住泥土，转身面向前方", "response": "你把泥土攥紧，放进贴身的口袋里。然后转身，不再回头。苏尔跟在你身后，步伐比上山时稳了许多。前方的路很长，但你们还在一起。" },
+          { "label": "在雪山前沉默片刻，向逝去的同伴致意", "response": "你闭上眼睛，为那些留在山上的同伴默哀。风从山顶吹下来，像是回应。三分钟后你睁开眼，擦干脸上的霜和泪，牵着苏尔走向平原。活着的人要继续走。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["alps-blizzard", "descent-italy"],
+    "valleyMoments": ["highest-pass-wound"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["extreme_cold", "animal_injury"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
