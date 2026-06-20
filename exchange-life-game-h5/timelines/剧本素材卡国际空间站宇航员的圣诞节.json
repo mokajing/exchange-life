@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "剧本素材卡国际空间站宇航员的圣诞节-001",
+    "title": "剧本素材卡：国际空间站宇航员的圣诞节",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:51:31+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "T-7天",
+      "description": "地面任务控制中心提前将圣诞包裹通过货运飞船送达ISS",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "地面任务控制中心提前将圣诞包裹通过货运飞船送达ISS",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第2卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "T-3天",
+      "description": "宇航员利用休息时间用实验室废料DIY圣诞装饰——锡箔纸星星、手套做的圣诞袜",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "宇航员利用休息时间用实验室废料DIY圣诞装饰——锡箔纸星星、手套做的圣诞袜",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第2卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "12月24日 平安夜",
+      "description": "按照NASA传统，轮值宇航员朗读《创世纪》片段（致敬阿波罗8号1968年平安夜传统）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "按照NASA传统，轮值宇航员朗读《创世纪》片段（致敬阿波罗8号1968年平安夜传统）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第2卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "12月25日 06:00 UTC",
+      "description": "全体6名宇航员在节点舱集合，拆礼物（主要是家人录的视频、孩子画的画、一小袋M&M巧克力）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "全体6名宇航员在节点舱集合，拆礼物（主要是家人录的视频、孩子画的画、一小袋M&M巧克力）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第2卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "12月25日 09:00 UTC",
+      "description": "与地面家人视频通话，因信号延迟0.5秒，每句话都要等一拍（延迟短但心理距离漫长）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "与地面家人视频通话，因信号延迟0.5秒，每句话都要等一拍（延迟短但心理距离漫长）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第2卷"
+    }
+  ]
+}

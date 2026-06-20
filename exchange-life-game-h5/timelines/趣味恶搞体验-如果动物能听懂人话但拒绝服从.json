@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "趣味恶搞体验-如果动物能听懂人话但拒绝服从-001",
+    "title": "趣味恶搞体验 · 如果动物能听懂人话但拒绝服从",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:37+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "08:30 在公司刷手机，看到全网热搜",
+      "description": "#我家猫终于承认它能听懂了 #它只是不想理我",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "#我家猫终于承认它能听懂了 #它只是不想理我",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第174卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "12:00 午休视频通话查监控，发现猫正用你的键盘打字，屏幕上是一行字",
+      "description": "\"你的品味需要提升。\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "\"你的品味需要提升。\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第174卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    }
+  ]
+}

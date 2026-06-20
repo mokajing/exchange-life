@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "特殊职业体验野生动物救助站兽医的第一年-001",
+    "title": "特殊职业体验·野生动物救助站兽医的第一年",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:22+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "上午7:00 — 查房",
+      "description": "逐一检查住院动物的伤口愈合、进食情况、精神状态",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "逐一检查住院动物的伤口愈合、进食情况、精神状态",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第179卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "上午9:00 — 第一台手术",
+      "description": "一只被渔网缠住导致翅膀骨折的白鹭，需要钢板固定",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "一只被渔网缠住导致翅膀骨折的白鹭，需要钢板固定",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第179卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "下午14:00 — 野外放归评估",
+      "description": "检查上周康复的红隼是否达到飞行标准",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "检查上周康复的红隼是否达到飞行标准",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第179卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "下午16:00 — 第二台手术",
+      "description": "误吞塑料瓶盖的绿海龟，内镜取出",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "误吞塑料瓶盖的绿海龟，内镜取出",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第179卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "晚上20:00 — 接到电话",
+      "description": "高速公路上发现一只被撞的貉，需要紧急出诊",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "高速公路上发现一只被撞的貉，需要紧急出诊",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第179卷"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "特殊职业体验-深海焊接工程师-001",
+    "title": "特殊职业体验 · 深海焊接工程师",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:52+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "07:00 装备检查",
+      "description": "热水服、焊接面罩、液压工具、脐带缆（供气\\+供热\\+通讯三合一）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "热水服、焊接面罩、液压工具、脐带缆（供气\\+供热\\+通讯三合一）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第168卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "08:30-12:00 第一段作业",
+      "description": "对海底输油管道裂缝进行湿法焊接，能见度不足2米",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "对海底输油管道裂缝进行湿法焊接，能见度不足2米",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第168卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-03",
+      "title": "13:00-17:00 第二段作业",
+      "description": "更换管道法兰密封件，手指在12°C海水中逐渐僵硬",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "更换管道法兰密封件，手指在12°C海水中逐渐僵硬",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第168卷(1)"
+    }
+  ]
+}

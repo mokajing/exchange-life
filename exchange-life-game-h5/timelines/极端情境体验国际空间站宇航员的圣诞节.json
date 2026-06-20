@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "极端情境体验国际空间站宇航员的圣诞节-001",
+    "title": "极端情境体验·国际空间站宇航员的圣诞节",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:48:13+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "12月23日",
+      "description": "休斯顿地面控制中心发来圣诞祝福，同时传来一段3秒延迟的家人视频",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "休斯顿地面控制中心发来圣诞祝福，同时传来一段3秒延迟的家人视频",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第6卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "12月24日（平安夜）",
+      "description": "完成当日实验任务后，六名宇航员（美俄日各两人）用魔术贴把圣诞袜固定在舱壁上",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "完成当日实验任务后，六名宇航员（美俄日各两人）用魔术贴把圣诞袜固定在舱壁上",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第6卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "12月25日 00:00 GMT（ISS使用GMT计时）",
+      "description": "在距地球408公里的轨道上\"过夜\"，每90分钟看到一次日出",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "在距地球408公里的轨道上\"过夜\"，每90分钟看到一次日出",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第6卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "12月25日 06:30 GMT",
+      "description": "用复水食品包\"加热\"圣诞大餐——火鸡片、玉米面包酱、冻干蔓越莓",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "用复水食品包\"加热\"圣诞大餐——火鸡片、玉米面包酱、冻干蔓越莓",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第6卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "12月25日 12:00 GMT",
+      "description": "与家人进行15分钟的视频通话，信号延迟0.5秒，每次说完话要等一秒才能看到对方反应",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "与家人进行15分钟的视频通话，信号延迟0.5秒，每次说完话要等一秒才能看到对方反应",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第6卷"
+    }
+  ]
+}

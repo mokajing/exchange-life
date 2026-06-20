@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "极端地理体验格陵兰岛因纽特猎人的极冬海豹狩猎-001",
+    "title": "极端地理体验·格陵兰岛因纽特猎人的极冬海豹狩猎",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:45:06+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "清晨4:00",
+      "description": "在极夜中醒来，窗外只有星光和偶尔的极光。检查雪橇犬状态、整理猎具",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "在极夜中醒来，窗外只有星光和偶尔的极光。检查雪橇犬状态、整理猎具",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第161卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "5:30",
+      "description": "出发前往海冰裂隙区，依靠星象和风向判断安全冰面路线",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "出发前往海冰裂隙区，依靠星象和风向判断安全冰面路线",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第161卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "7:00-12:00",
+      "description": "在海豹呼吸孔旁静候，可能长达数小时的绝对静止与等待",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "在海豹呼吸孔旁静候，可能长达数小时的绝对静止与等待",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第161卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "12:30",
+      "description": "若成功捕获，现场处理猎物，用传统方式分割、保存",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "若成功捕获，现场处理猎物，用传统方式分割、保存",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第161卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "14:00",
+      "description": "返程途中检查冰面变化，避开薄冰区和北极熊活动痕迹",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "返程途中检查冰面变化，避开薄冰区和北极熊活动痕迹",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第161卷"
+    }
+  ]
+}

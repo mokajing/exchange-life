@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "极端情境体验火山爆发前夜的火山监测站值守科学家-001",
+    "title": "极端情境体验·火山爆发前夜的火山监测站值守科学家",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:57+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "D-48h",
+      "description": "地震仪群捕捉到异常低频震颤，岩浆房压力突破历史阈值",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "地震仪群捕捉到异常低频震颤，岩浆房压力突破历史阈值",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第166卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "D-36h",
+      "description": "火山口二氧化硫排放量骤增3倍，地表裂缝开始冒出热气",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "火山口二氧化硫排放量骤增3倍，地表裂缝开始冒出热气",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第166卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "D-24h",
+      "description": "政府发布红色预警，周边居民全部撤离，监测站接到撤退命令",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "政府发布红色预警，周边居民全部撤离，监测站接到撤退命令",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第166卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "D-18h",
+      "description": "站长决定带两名志愿者留守，其余人员撤离",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "站长决定带两名志愿者留守，其余人员撤离",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第166卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "D-12h",
+      "description": "地面温度升至60°C，设备开始过热报警",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "地面温度升至60°C，设备开始过热报警",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第166卷"
+    }
+  ]
+}

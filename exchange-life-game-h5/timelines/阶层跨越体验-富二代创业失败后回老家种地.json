@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "阶层跨越体验-富二代创业失败后回老家种地-001",
+    "title": "阶层跨越体验 · 富二代创业失败后回老家种地",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:50:44+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "2022年",
+      "description": "林启航（化名，26岁）从英国帝国理工金融硕士毕业，父亲是浙江义乌小商品制造业老板，年营收约2亿",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "林启航（化名，26岁）从英国帝国理工金融硕士毕业，父亲是浙江义乌小商品制造业老板，年营收约2亿",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第109卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "2023年初",
+      "description": "拒绝接手家族企业，拿父亲给的300万启动资金在上海创立Web3社交平台元聚，团队12人",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "拒绝接手家族企业，拿父亲给的300万启动资金在上海创立Web3社交平台元聚，团队12人",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第109卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "2023年Q4",
+      "description": "产品上线首月DAU仅700，融资失败，团队缩减至4人",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "产品上线首月DAU仅700，融资失败，团队缩减至4人",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第109卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "2024年3月",
+      "description": "资金耗尽，产品关停，个人负债40万（信用卡\\+个人借贷），父亲拒绝追加投资",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "资金耗尽，产品关停，个人负债40万（信用卡\\+个人借贷），父亲拒绝追加投资",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第109卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "2024年4月",
+      "description": "搬回义乌农村老家，住进爷爷留下的老宅。开始用剩余5万元承包2亩大棚种有机草莓",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "搬回义乌农村老家，住进爷爷留下的老宅。开始用剩余5万元承包2亩大棚种有机草莓",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第109卷"
+    }
+  ]
+}

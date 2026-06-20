@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "中国古代生活-三国蜀汉丞相府书佐的一天-001",
+    "title": "中国古代生活 · 三国蜀汉丞相府书佐的一天",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:50:51+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "故事的开始",
+      "description": "中国古代生活 · 三国蜀汉丞相府书佐的一天",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你即将体验「中国古代生活 · 三国蜀汉丞相府书佐的一天」的人生片段。\n\n这是一个关于坚持、选择和成长的故事。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库·第106卷"
+    }
+  ]
+}

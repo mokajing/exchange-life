@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "文化身份体验维吾尔族木卡姆乐师在乌鲁木齐与喀什之间-001",
+    "title": "文化身份体验·维吾尔族木卡姆乐师在乌鲁木齐与喀什之间",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:48:14+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "Day 0·抵达",
+      "description": "从北京飞抵乌鲁木齐，进入新疆艺术学院音乐系，导师是一位曾师从吐尔地·阿洪家族的维吾尔族音乐学教授",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "从北京飞抵乌鲁木齐，进入新疆艺术学院音乐系，导师是一位曾师从吐尔地·阿洪家族的维吾尔族音乐学教授",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第5卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "Day 1-3·课堂碰撞",
+      "description": "学习木卡姆理论基础——十二套大曲的结构（穹拉克曼、达斯坦、麦西热甫三部分），但在视唱练耳课上遭遇五声音阶与木卡姆微分音的根本冲突",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "学习木卡姆理论基础——十二套大曲的结构（穹拉克曼、达斯坦、麦西热甫三部分），但在视唱练耳课上遭遇五声音阶与木卡姆微分音的根本冲突",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第5卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "Day 4·初次疏离",
+      "description": "同组维吾尔族同学用母语讨论音乐处理时，玩家被排斥在讨论圈外，产生强烈的局外人感",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "同组维吾尔族同学用母语讨论音乐处理时，玩家被排斥在讨论圈外，产生强烈的局外人感",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第5卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "Day 5-7·喀什之行",
+      "description": "随导师前往喀什，在吾斯塘博依老街深处的民居中见到78岁的民间木卡姆艺人吐尔逊·马木提",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "随导师前往喀什，在吾斯塘博依老街深处的民居中见到78岁的民间木卡姆艺人吐尔逊·马木提",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第5卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "Day 8-10·口传心授",
+      "description": "老人不用谱，用都塔尔琴一句一句教，玩家录音、记谱、模仿，每天练习到手指起泡。老人用维语说音乐不在纸上，在心里，由导师翻译",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "老人不用谱，用都塔尔琴一句一句教，玩家录音、记谱、模仿，每天练习到手指起泡。老人用维语说音乐不在纸上，在心里，由导师翻译",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第5卷"
+    }
+  ]
+}

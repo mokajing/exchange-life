@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "边缘群体体验听障舞者的无声排练厅-001",
+    "title": "边缘群体体验·听障舞者的无声排练厅",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:28+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "6:30-8:00 — 基本功训练",
+      "description": "把杆练习、地面组合，全靠肌肉记忆和镜面反馈",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "把杆练习、地面组合，全靠肌肉记忆和镜面反馈",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第177卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "8:00-10:00 — 新编舞段排练",
+      "description": "编导用手语\\+触觉提示（拍肩=重拍，推背=延伸）传递动作意图",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "编导用手语\\+触觉提示（拍肩=重拍，推背=延伸）传递动作意图",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第177卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "10:15-12:00 — 合乐排练",
+      "description": "音响开到最大音量，通过地板振动\\+低频声波感知节奏",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "音响开到最大音量，通过地板振动\\+低频声波感知节奏",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第177卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "13:30-15:30 — 个人创作时间",
+      "description": "用身体\"翻译\"一首从未听过的曲子，录下视频反复回看修正",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "用身体\"翻译\"一首从未听过的曲子，录下视频反复回看修正",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第177卷(1)"
+    },
+    {
+      "id": "evt-05",
+      "title": "15:30-17:00 — 演出彩排",
+      "description": "灯光配合振动标记（地面LED随节拍闪烁），舞台成为巨大的\"乐器\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "灯光配合振动标记（地面LED随节拍闪烁），舞台成为巨大的\"乐器\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第177卷(1)"
+    }
+  ]
+}

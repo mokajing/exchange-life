@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "极端地理体验-深海热泉载人潜水器驾驶员-001",
+    "title": "极端地理体验 · 深海热泉载人潜水器驾驶员",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:05+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "06:00 出航前检查",
+      "description": "与潜航工程师共同确认潜水器各系统状态，重点检查生命维持系统、机械臂液压、通信浮标",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "与潜航工程师共同确认潜水器各系统状态，重点检查生命维持系统、机械臂液压、通信浮标",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第189卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "07:30 入水",
+      "description": "从母船甲板被吊放入海，下潜速度约30米/分钟，预计到达目标深度需约60-70分钟",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "从母船甲板被吊放入海，下潜速度约30米/分钟，预计到达目标深度需约60-70分钟",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第189卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "08:40 抵达工作区（2000-3000米深）",
+      "description": "外部水温仅2℃，水压相当于每平方厘米承受200公斤重量",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "外部水温仅2℃，水压相当于每平方厘米承受200公斤重量",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第189卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "08:40-14:00 作业窗口期",
+      "description": "沿预定路线观测热液喷口、采集矿物样本、记录生物群落、部署仪器",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "沿预定路线观测热液喷口、采集矿物样本、记录生物群落、部署仪器",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第189卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "14:00 开始上浮",
+      "description": "同样需要约60分钟返回水面",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "同样需要约60分钟返回水面",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第189卷"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "特殊职业体验-野生动物救助站兽医的第一年-001",
+    "title": "特殊职业体验 · 野生动物救助站兽医的第一年",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:19+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "入职前",
+      "description": "兽医学院5年\\+实习半年，以为准备好了",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "兽医学院5年\\+实习半年，以为准备好了",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第181卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "第1个月",
+      "description": "第一次独立处理被车撞的獾，手抖到缝针歪了",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "第一次独立处理被车撞的獾，手抖到缝针歪了",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第181卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "第3个月",
+      "description": "救活一只被渔网缠住的海豹，它放归时回头看了一眼",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "救活一只被渔网缠住的海豹，它放归时回头看了一眼",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第181卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "第6个月",
+      "description": "没能救回一头误食塑料的鲸鱼幼崽，在解剖台前站了一整夜",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "没能救回一头误食塑料的鲸鱼幼崽，在解剖台前站了一整夜",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第181卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "第9个月",
+      "description": "开始带实习生，发现自己已经能平静地面对死亡",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "开始带实习生，发现自己已经能平静地面对死亡",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第181卷"
+    }
+  ]
+}

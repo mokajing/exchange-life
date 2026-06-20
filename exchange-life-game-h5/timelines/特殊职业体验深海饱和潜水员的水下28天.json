@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "id": "特殊职业体验深海饱和潜水员的水下28天-001",
+    "title": "特殊职业体验·深海饱和潜水员的水下28天",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:50:12+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "第1-3天",
+      "description": "加压舱过渡期，身体从1个大气压逐步加压至作业深度对应压力（通常200-300米，约21-31个大气压）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "加压舱过渡期，身体从1个大气压逐步加压至作业深度对应压力（通常200-300米，约21-31个大气压）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库·第101卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "第4-25天",
+      "description": "饱和潜水作业期，每天8小时水下工作，其余时间在高压生活舱内度过",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "饱和潜水作业期，每天8小时水下工作，其余时间在高压生活舱内度过",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库·第101卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    }
+  ]
+}

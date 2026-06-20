@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "日常奇迹-乡村邮递员的最后一公里-001",
+    "title": "日常奇迹 · 乡村邮递员的最后一公里",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:15+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "清晨5:30",
+      "description": "天未亮即起床，煮一壶浓茶，检查邮包",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "天未亮即起床，煮一壶浓茶，检查邮包",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第183卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "6:00",
+      "description": "从乡镇邮政所出发，骑上那辆换了四次链条的绿色自行车",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "从乡镇邮政所出发，骑上那辆换了四次链条的绿色自行车",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第183卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "6:00-11:30",
+      "description": "翻过两座山梁，途经7个自然村，投递报刊信件包裹",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "翻过两座山梁，途经7个自然村，投递报刊信件包裹",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第183卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "11:30-12:30",
+      "description": "在某个村民家吃午饭（轮流被\"截住\"吃饭是30年的默契）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "在某个村民家吃午饭（轮流被\"截住\"吃饭是30年的默契）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第183卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "12:30-17:00",
+      "description": "返程路线，代收农产品寄出、帮老人代写汇款单、捎带日用品",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "返程路线，代收农产品寄出、帮老人代写汇款单、捎带日用品",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第183卷"
+    }
+  ]
+}

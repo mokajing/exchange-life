@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "性别交换体验-全职爸爸与职场妈妈互换身体的一周-001",
+    "title": "性别交换体验 · 全职爸爸与职场妈妈互换身体的一周",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:45:16+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "Day 0（周日晚）",
+      "description": "互换前的最后对话，双方都觉得对方的生活\"挺轻松的\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "互换前的最后对话，双方都觉得对方的生活\"挺轻松的\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第155卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "Day 1（周一）",
+      "description": "她（在他的身体里）第一次送孩子上学，被幼儿园老师问\"爸爸怎么连书包都没整理好\"；他（在她的身体里）第一次走进办公室，发现没人问他周末过得怎么样",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "她（在他的身体里）第一次送孩子上学，被幼儿园老师问\"爸爸怎么连书包都没整理好\"；他（在她的身体里）第一次走进办公室，发现没人问他周末过得怎么样",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第155卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "Day 2-3",
+      "description": "她发现全职爸爸的社交圈几乎为零，公园里全是妈妈和奶奶，他是唯一的男性；他发现职场妈妈的会议永远被打断，午餐只有15分钟",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "她发现全职爸爸的社交圈几乎为零，公园里全是妈妈和奶奶，他是唯一的男性；他发现职场妈妈的会议永远被打断，午餐只有15分钟",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第155卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "Day 4",
+      "description": "她在家长群里被质疑\"这个爸爸是不是不上班\"；他在公司厕所听到同事议论\"她老公是不是吃软饭的\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "她在家长群里被质疑\"这个爸爸是不是不上班\"；他在公司厕所听到同事议论\"她老公是不是吃软饭的\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第155卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "Day 5",
+      "description": "孩子发烧，她手忙脚乱量体温、喂药、哄睡，全程没人帮忙；他被要求加班到晚上9点，想到孩子在哭却回不去",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "孩子发烧，她手忙脚乱量体温、喂药、哄睡，全程没人帮忙；他被要求加班到晚上9点，想到孩子在哭却回不去",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第155卷"
+    }
+  ]
+}

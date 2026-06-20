@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "外国古代文明奥斯曼帝国宫廷建筑师的一天-001",
+    "title": "外国古代文明·奥斯曼帝国宫廷建筑师的一天",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:49:22+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "凌晨4:30",
+      "description": "晨礼唤拜声中起床，住在建筑工地旁的石屋",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "晨礼唤拜声中起床，住在建筑工地旁的石屋",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第69卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "5:00-7:00",
+      "description": "巡视工地，检查穹顶拱肋的石材拼接",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "巡视工地，检查穹顶拱肋的石材拼接",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第69卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "7:00-8:00",
+      "description": "与大师傅们共进早餐（橄榄、面包、羊奶），讨论当日进度",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "与大师傅们共进早餐（橄榄、面包、羊奶），讨论当日进度",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第69卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "8:00-12:00",
+      "description": "绘制宣礼塔尖的铅皮覆盖方案，计算弧度与承重",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "绘制宣礼塔尖的铅皮覆盖方案，计算弧度与承重",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第69卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "12:00-13:00",
+      "description": "晌礼后在工地阴凉处小憩",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "晌礼后在工地阴凉处小憩",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第69卷"
+    }
+  ]
+}

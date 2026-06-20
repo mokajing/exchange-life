@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "性别交换体验体育生与芭蕾舞者互换身体的一周-001",
+    "title": "性别交换体验·体育生与芭蕾舞者互换身体的一周",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:49:48+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "周一",
+      "description": "交换第一天。体育生（男，21岁，校篮球队主力，185cm/85kg）醒来发现自己变成了芭蕾舞者（女，23岁，省歌舞团演员，165cm/47kg）。第一反应不是恐惧而是这腿怎么这么细。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "交换第一天。体育生（男，21岁，校篮球队主力，185cm/85kg）醒来发现自己变成了芭蕾舞者（女，23岁，省歌舞团演员，165cm/47kg）。第一反应不是恐惧而是这腿怎么这么细。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第85卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "周二",
+      "description": "芭蕾早课。男性的空间感知和爆发力在芭蕾基础训练中几乎帮不上忙——肌肉记忆才是核心。一个简单的Arabesque把他困住俩小时。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "芭蕾早课。男性的空间感知和爆发力在芭蕾基础训练中几乎帮不上忙——肌肉记忆才是核心。一个简单的Arabesque把他困住俩小时。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第85卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "周三",
+      "description": "舞者那边。165cm的她在篮球场上被当成透明人，没人传球给她。她试着投篮，发现手感和以前完全不同——身高和臂展是天赋，不是努力能替代的。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "舞者那边。165cm的她在篮球场上被当成透明人，没人传球给她。她试着投篮，发现手感和以前完全不同——身高和臂展是天赋，不是努力能替代的。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第85卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "周四",
+      "description": "身体默契。两人通过视频通话互相教对方怎么用对方的身体。体育生教舞者投篮姿势，舞者教体育生足尖站立。两个人都体会到对方的身体是一套完全不同的操作系统。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "身体默契。两人通过视频通话互相教对方怎么用对方的身体。体育生教舞者投篮姿势，舞者教体育生足尖站立。两个人都体会到对方的身体是一套完全不同的操作系统。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第85卷(1)"
+    },
+    {
+      "id": "evt-05",
+      "title": "周五",
+      "description": "表演日。体育生要为舞者的独舞演出做准备——他必须在台上假装自己能跳舞。彩排时韧带拉伤（舞者身体的柔韧度很好，但体育生不懂控制力度）。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "表演日。体育生要为舞者的独舞演出做准备——他必须在台上假装自己能跳舞。彩排时韧带拉伤（舞者身体的柔韧度很好，但体育生不懂控制力度）。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第85卷(1)"
+    }
+  ]
+}

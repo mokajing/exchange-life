@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "第183轮-剧本素材卡-001",
+    "title": "第183轮 剧本素材卡",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:46:44+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "T-0h（周二 14:30）",
+      "description": "矿井深处传来一声闷响，震动波从600米深处向上传递。采煤面局部塌方，12名矿工被困。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "矿井深处传来一声闷响，震动波从600米深处向上传递。采煤面局部塌方，12名矿工被困。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第127卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "T\\+0h~T\\+6h",
+      "description": "黑暗降临。矿灯逐个熄灭，只有头灯微弱的光。清点人数、物资：3瓶水、半包饼干、一个打火机。尝试向外联络，对讲机无信号。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "黑暗降临。矿灯逐个熄灭，只有头灯微弱的光。清点人数、物资：3瓶水、半包饼干、一个打火机。尝试向外联络，对讲机无信号。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第127卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "T\\+6h~T\\+24h",
+      "description": "第一个24小时。建立\"存活协议\"——每人每6小时一口水。老矿工老赵开始讲他当年经历过的三次塌方，稳定军心。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第一个24小时。建立\"存活协议\"——每人每6小时一口水。老矿工老赵开始讲他当年经历过的三次塌方，稳定军心。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第127卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "T\\+24h~T\\+48h",
+      "description": "最漫长的寂静。水分耗尽。开始听到头顶隐约的敲击声——救援队在钻孔。希望与绝望交替。",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "最漫长的寂静。水分耗尽。开始听到头顶隐约的敲击声——救援队在钻孔。希望与绝望交替。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第127卷"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "第182轮-文化身份体验伊朗波斯地毯编织世家的最后一代传人-001",
+    "title": "第182轮 文化身份体验：伊朗波斯地毯编织世家的最后一代传人",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:46:46+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "09:00 开始编织",
+      "description": "波斯结（Senneh knot），每平方英寸约400结",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "波斯结（Senneh knot），每平方英寸约400结",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第126卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "12:00 午餐",
+      "description": "与父亲讨论订单——来自迪拜的富豪定制6m×4m挂毯，工期预估3年",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "与父亲讨论订单——来自迪拜的富豪定制6m×4m挂毯，工期预估3年",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第126卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "14:00 继续编织，父亲口述图案背后的故事",
+      "description": "生命树的每一片叶子代表一个家族世代",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "生命树的每一片叶子代表一个家族世代",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第126卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "17:00 调试天然染料",
+      "description": "茜草根（红）、石榴皮（黄）、靛蓝叶（蓝）、核桃壳（棕）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "茜草根（红）、石榴皮（黄）、靛蓝叶（蓝）、核桃壳（棕）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第126卷(1)"
+    }
+  ]
+}
