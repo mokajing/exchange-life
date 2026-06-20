@@ -157,6 +157,9 @@ const TIMELINE_LIST = [
   'fireworks-master-last-show',
   'doctor-village-clinic-swap',
   { id: 'lawyer-legal-aid-swap', title: '从顶级律所合伙人到法律援助律师', file: 'timelines/lawyer-legal-aid-swap.json' },
+  { id: 'carthage-elephant-handler', title: '迦太基战象驭手·阿尔卑斯雪山上的最后征程', file: 'timelines/carthage-elephant-handler.json' },
+  { id: 'sherpa-everest-guide', title: '珠峰夏尔巴向导·登顶37次从未被叫征服者', file: 'timelines/sherpa-everest-guide.json' },
+  { id: 'first-peer-obituary', title: '第一次收到同龄人讣告的那一天', file: 'timelines/first-peer-obituary.json' },
 ];
 
 App({

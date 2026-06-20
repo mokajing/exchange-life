@@ -606,7 +606,7 @@ const BGM_MAP = {
   // === 男消防员与女产科医生互换身体专用标签 (2026-06-18 P0第517卷) ===
   tense_heartbeat:         { file: 'audio/bgm/tense_heartbeat.mp3',         volume: 0.35, loop: true },
   silence_then_cry:        { file: 'audio/bgm/silence_then_cry.mp3',        volume: 0.4, loop: false },
-  low_hum_fever:           { file: 'audio/bgm/low_hum_fever.mp3',           volume: 0.2, loop: true }
+  low_hum_fever:           { file: 'audio/bgm/low_hum_fever.mp3',           volume: 0.2, loop: true },
 
   // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
   ancient_qin_tension:     { file: 'audio/bgm/ancient_qin_tension.mp3',     volume: 0.35, loop: true },
@@ -616,7 +616,7 @@ const BGM_MAP = {
   triumph_drums_qin:       { file: 'audio/bgm/triumph_drums_qin.mp3',       volume: 0.45, loop: false },
   dawn_workshop_quiet:     { file: 'audio/bgm/dawn_workshop_quiet.mp3',     volume: 0.25, loop: true },
   farewell_xiao_distant:   { file: 'audio/bgm/farewell_xiao_distant.mp3',   volume: 0.3, loop: true },
-  echo_guqin_fade:         { file: 'audio/bgm/echo_guqin_fade.mp3',         volume: 0.25, loop: true }
+  echo_guqin_fade:         { file: 'audio/bgm/echo_guqin_fade.mp3',         volume: 0.25, loop: true },
 
 
   // === 穆尔西族唇盘成人礼专用标签 (2026-06-17 P0第471卷) ===
@@ -645,7 +645,7 @@ const BGM_MAP = {
   cello_solo_gentle:      { file: 'audio/bgm/cello_solo_gentle.mp3',      volume: 0.3, loop: true },
   warm_piano_simple:      { file: 'audio/bgm/warm_piano_simple.mp3',      volume: 0.3, loop: true },
   love_theme_gentle:      { file: 'audio/bgm/love_theme_gentle.mp3',      volume: 0.35, loop: true },
-  reflection_piano_soft:  { file: 'audio/bgm/reflection_piano_soft.mp3',  volume: 0.25, loop: true }
+  reflection_piano_soft:  { file: 'audio/bgm/reflection_piano_soft.mp3',  volume: 0.25, loop: true },
 
 
   // === PTSD患者日常生活专用标签 (2026-06-17 P0第477卷) ===
@@ -736,7 +736,7 @@ const BGM_MAP = {
   silent_wind_ruins:         { file: 'audio/bgm/silent_wind_ruins.mp3',         volume: 0.2, loop: true },
   music_box_fur_elise:       { file: 'audio/bgm/music_box_fur_elise.mp3',       volume: 0.4, loop: false },
   shelter_warmth:            { file: 'audio/bgm/shelter_warmth.mp3',            volume: 0.3, loop: true },
-  campfire_humming_chorus:   { file: 'audio/bgm/campfire_humming_chorus.mp3',   volume: 0.45, loop: false }
+  campfire_humming_chorus:   { file: 'audio/bgm/campfire_humming_chorus.mp3',   volume: 0.45, loop: false },
 
 
   'operating_room_monitor_beep': { name: 'operating_room_monitor_beep', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
@@ -753,6 +753,55 @@ const BGM_MAP = {
   quiet_contemplation: { file: 'audio/bgm/quiet_contemplation.mp3', volume: 0.25, loop: true },
   silence_then_cry:    { file: 'audio/bgm/silence_then_cry.mp3',    volume: 0.4, loop: false },
 
+  cello_solo_low:          { file: 'audio/bgm/cello_solo_low.mp3',          volume: 0.35, loop: true },
+  tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.4,  loop: true },
+  gentle_piano_learning:   { file: 'audio/bgm/gentle_piano_learning.mp3',   volume: 0.3,  loop: true },
+  solemn_cello_transition: { file: 'audio/bgm/solemn_cello_transition.mp3', volume: 0.4,  loop: true },
+  melancholy_cello:        { file: 'audio/bgm/melancholy_cello.mp3',        volume: 0.35, loop: true },
+  warm_piano_discovery:    { file: 'audio/bgm/warm_piano_discovery.mp3',    volume: 0.35, loop: true },
+  triumph_piano_cello:     { file: 'audio/bgm/triumph_piano_cello.mp3',     volume: 0.5,  loop: false },
+  space_ambient_intro:     { file: 'audio/bgm/space_ambient_intro.mp3',     volume: 0.35, loop: true },
+  tension_space_capture:   { file: 'audio/bgm/tension_space_capture.mp3',   volume: 0.45, loop: true },
+  alarm_tension_orbital:   { file: 'audio/bgm/alarm_tension_orbital.mp3',   volume: 0.5,  loop: true },
+  synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.35, loop: true },
+  piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3,  loop: true },
+  strings_sunrise_orbital: { file: 'audio/bgm/strings_sunrise_orbital.mp3', volume: 0.4,  loop: true },
+  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true },
+  quiet_indoor_pencil:     { file: 'audio/bgm/quiet_indoor_pencil.mp3',     volume: 0.25, loop: true },
+  hallway_echo_muffled:    { file: 'audio/bgm/hallway_echo_muffled.mp3',    volume: 0.2,  loop: true },
+  sensory_overload_multi:  { file: 'audio/bgm/sensory_overload_multi.mp3',  volume: 0.45, loop: true },
+  cognitive_loop_tension:  { file: 'audio/bgm/cognitive_loop_tension.mp3',  volume: 0.35, loop: true },
+  heartbeat_close_space:   { file: 'audio/bgm/heartbeat_close_space.mp3',   volume: 0.3,  loop: true },
+  silence_pause_tension:   { file: 'audio/bgm/silence_pause_tension.mp3',   volume: 0.25, loop: true },
+  gentle_release_birds:    { file: 'audio/bgm/gentle_release_birds.mp3',    volume: 0.3,  loop: true },
+  gentle_worldbuilding:    { file: 'audio/bgm/gentle_worldbuilding.mp3',    volume: 0.3,  loop: true },
+  space_silence_gentle:    { file: 'audio/bgm/space_silence_gentle.mp3',    volume: 0.25, loop: true },
+  youth_confusion_soft:    { file: 'audio/bgm/youth_confusion_soft.mp3',    volume: 0.3,  loop: true },
+  collective_silence_tension: { file: 'audio/bgm/collective_silence_tension.mp3', volume: 0.35, loop: true },
+  night_doubt_piano:       { file: 'audio/bgm/night_doubt_piano.mp3',       volume: 0.3,  loop: true },
+  hope_gentle_strings:     { file: 'audio/bgm/hope_gentle_strings.mp3',     volume: 0.35, loop: true },
+  chrono_implant_awakening: { file: 'audio/bgm/chrono_implant_awakening.mp3', volume: 0.4, loop: true },
+  bell_tower_solemn_strike: { file: 'audio/bgm/bell_tower_solemn_strike.mp3', volume: 0.5, loop: true },
+  eternal_garden_wisdom:    { file: 'audio/bgm/eternal_garden_wisdom.mp3',    volume: 0.3, loop: true },
+  chrono_crisis_alarm:      { file: 'audio/bgm/chrono_crisis_alarm.mp3',      volume: 0.5, loop: true },
+  dawn_bell_triumph:        { file: 'audio/bgm/dawn_bell_triumph.mp3',        volume: 0.55, loop: false },
+  sunrise_silence_peace:    { file: 'audio/bgm/sunrise_silence_peace.mp3',    volume: 0.3, loop: true },
+  ancient_drums_slow:       { file: 'audio/bgm/ancient_drums_slow.mp3',       volume: 0.4, loop: true },
+  water_flow_tension:       { file: 'audio/bgm/water_flow_tension.mp3',       volume: 0.45, loop: true },
+  wind_howl_silence:        { file: 'audio/bgm/wind_howl_silence.mp3',        volume: 0.35, loop: true },
+  mourning_strings:         { file: 'audio/bgm/mourning_strings.mp3',         volume: 0.35, loop: true },
+  dawn_warm_strings:        { file: 'audio/bgm/dawn_warm_strings.mp3',        volume: 0.4, loop: true },
+  mountain_wind_gentle:     { file: 'audio/bgm/mountain_wind_gentle.mp3',     volume: 0.35, loop: true },
+  silence_heartbeat:        { file: 'audio/bgm/silence_heartbeat.mp3',        volume: 0.3, loop: true },
+  mourning_flute:           { file: 'audio/bgm/mourning_flute.mp3',           volume: 0.35, loop: true },
+  tense_drums_low:          { file: 'audio/bgm/tense_drums_low.mp3',          volume: 0.45, loop: true },
+  summit_silence:           { file: 'audio/bgm/summit_silence.mp3',           volume: 0.3, loop: false },
+  subway_hum_muted:         { file: 'audio/bgm/subway_hum_muted.mp3',         volume: 0.25, loop: true },
+  nostalgic_piano_soft:     { file: 'audio/bgm/nostalgic_piano_soft.mp3',     volume: 0.3, loop: true },
+  silence_room_tone:        { file: 'audio/bgm/silence_room_tone.mp3',        volume: 0.2, loop: true },
+  office_ambient_low:       { file: 'audio/bgm/office_ambient_low.mp3',       volume: 0.2, loop: true },
+  home_evening_quiet:       { file: 'audio/bgm/home_evening_quiet.mp3',       volume: 0.3, loop: true },
+  night_lamp_gentle:        { file: 'audio/bgm/night_lamp_gentle.mp3',        volume: 0.25, loop: true }
 };
 
 /**
@@ -887,49 +936,22 @@ function _clearCrossfadeTimer() {
 
 
   // === waste-sorter-supervisor (第506卷·拾荒者到督导员) ===
-  cello_solo_low:          { file: 'audio/bgm/cello_solo_low.mp3',          volume: 0.35, loop: true },
-  tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.4,  loop: true },
-  gentle_piano_learning:   { file: 'audio/bgm/gentle_piano_learning.mp3',   volume: 0.3,  loop: true },
-  solemn_cello_transition: { file: 'audio/bgm/solemn_cello_transition.mp3', volume: 0.4,  loop: true },
-  melancholy_cello:        { file: 'audio/bgm/melancholy_cello.mp3',        volume: 0.35, loop: true },
-  warm_piano_discovery:    { file: 'audio/bgm/warm_piano_discovery.mp3',    volume: 0.35, loop: true },
-  triumph_piano_cello:     { file: 'audio/bgm/triumph_piano_cello.mp3',     volume: 0.5,  loop: false }
 
   // === orbital-debris-cleaner (第511卷·太空垃圾清理轨道工程师) ===
-  space_ambient_intro:     { file: 'audio/bgm/space_ambient_intro.mp3',     volume: 0.35, loop: true },
-  tension_space_capture:   { file: 'audio/bgm/tension_space_capture.mp3',   volume: 0.45, loop: true },
-  alarm_tension_orbital:   { file: 'audio/bgm/alarm_tension_orbital.mp3',   volume: 0.5,  loop: true },
-  synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.35, loop: true },
-  piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3,  loop: true },
-  strings_sunrise_orbital: { file: 'audio/bgm/strings_sunrise_orbital.mp3', volume: 0.4,  loop: true },
-  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true },
   // === autism-supermarket-shopping (第514卷·自闭症谱系者的超市购物) ===
-  quiet_indoor_pencil:     { file: 'audio/bgm/quiet_indoor_pencil.mp3',     volume: 0.25, loop: true },
-  hallway_echo_muffled:    { file: 'audio/bgm/hallway_echo_muffled.mp3',    volume: 0.2,  loop: true },
-  sensory_overload_multi:  { file: 'audio/bgm/sensory_overload_multi.mp3',  volume: 0.45, loop: true },
-  cognitive_loop_tension:  { file: 'audio/bgm/cognitive_loop_tension.mp3',  volume: 0.35, loop: true },
-  heartbeat_close_space:   { file: 'audio/bgm/heartbeat_close_space.mp3',   volume: 0.3,  loop: true },
-  silence_pause_tension:   { file: 'audio/bgm/silence_pause_tension.mp3',   volume: 0.25, loop: true },
-  gentle_release_birds:    { file: 'audio/bgm/gentle_release_birds.mp3',    volume: 0.3,  loop: true },
 
   // === motivation-awakener-first-month (第514卷·动力唤醒师的第一个月) ===
-  gentle_worldbuilding:    { file: 'audio/bgm/gentle_worldbuilding.mp3',    volume: 0.3,  loop: true },
-  space_silence_gentle:    { file: 'audio/bgm/space_silence_gentle.mp3',    volume: 0.25, loop: true },
-  youth_confusion_soft:    { file: 'audio/bgm/youth_confusion_soft.mp3',    volume: 0.3,  loop: true },
-  collective_silence_tension: { file: 'audio/bgm/collective_silence_tension.mp3', volume: 0.35, loop: true },
-  night_doubt_piano:       { file: 'audio/bgm/night_doubt_piano.mp3',       volume: 0.3,  loop: true },
-  hope_gentle_strings:     { file: 'audio/bgm/hope_gentle_strings.mp3',     volume: 0.35, loop: true }
 
 
 
 
   // === time-guardian-first-month (第637卷·时序守护者的第一个月) ===
-  chrono_implant_awakening: { file: 'audio/bgm/chrono_implant_awakening.mp3', volume: 0.4, loop: true },
-  bell_tower_solemn_strike: { file: 'audio/bgm/bell_tower_solemn_strike.mp3', volume: 0.5, loop: true },
-  eternal_garden_wisdom:    { file: 'audio/bgm/eternal_garden_wisdom.mp3',    volume: 0.3, loop: true },
-  chrono_crisis_alarm:      { file: 'audio/bgm/chrono_crisis_alarm.mp3',      volume: 0.5, loop: true },
-  dawn_bell_triumph:        { file: 'audio/bgm/dawn_bell_triumph.mp3',        volume: 0.55, loop: false },
-  sunrise_silence_peace:    { file: 'audio/bgm/sunrise_silence_peace.mp3',    volume: 0.3, loop: true }
+
+  // === carthage-elephant-handler (迦太基战象驭手) ===
+
+  // === sherpa-everest-guide (珠峰夏尔巴向导) ===
+
+  // === first-peer-obituary (第一次收到同龄人讣告) ===
 
 module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
 

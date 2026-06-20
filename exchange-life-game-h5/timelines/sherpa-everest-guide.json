@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "id": "sherpa-everest-guide",
+    "title": "珠峰夏尔巴向导·登顶37次却从未被叫做征服者",
+    "subtitle": "在海拔8848米的世界之巅，用20年替别人的梦想踩出安全路的人",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-21T03:05:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "first-porter-1988",
+      "title": "1988·17岁第一次当背夫",
+      "description": "17岁的丹增·诺布第一次跟随父亲为登山队当背夫，从南池巴扎负重35公斤走到珠峰大本营，拿到人生第一笔工钱200美元。",
+      "ageRange": { "start": 17 },
+      "yearRange": { "start": 1988 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "三十五公斤的背包压在你的肩上，每一步都像踩在棉花上。你十七岁，第一次走出南池巴扎。父亲走在前面，背影在逆光中变成一个沉默的剪影。到达大本营时你的肩膀磨出了血泡，但手里攥着两百美元——那是你见过的最多的钱。登山者们叫你'Sherpa'，语气里既有依赖也有轻视。你还不懂这意味着什么。",
+      "bgmTag": "mountain_wind_gentle",
+      "visualTone": "warm"
+    },
+    {
+      "id": "body-recovery-1996",
+      "title": "1996·死亡地带的遗体回收",
+      "description": "珠峰山难年，25岁的丹增第一次参与遗体回收任务，在海拔8350米用冰镐挖了3小时将一位韩国登山者的遗体从冰层中挖出。下山后连续一周做噩梦。",
+      "ageRange": { "start": 25 },
+      "yearRange": { "start": 1996 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "冰镐砸进冰层的声音在八千三百五十米的高空格外清脆。你已经挖了三个小时，手套里的指尖失去了知觉。当那张被冰封的脸终于露出来时，你停下了动作。他看起来像是在睡觉。你用绳索固定好遗体，一步一步拖下死亡地带。那天晚上你在帐篷里蜷缩成一团，梦见自己变成了那具被冰封的身体。从那以后，每次经过那个位置你都会多看一眼。",
+      "bgmTag": "silence_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "队长问你是否愿意参与遗体回收……",
+        "options": [
+          { "label": "去。至少他的家人可以知道他在哪里", "response": "你穿上冰爪走进死亡地带。三个小时的挖掘让你的手臂几乎失去知觉，但当绳索绑紧的那一刻，你感到一种奇怪的平静。你不是英雄，你只是在做必须有人做的事。" },
+          { "label": "不去。你还没准备好面对这个", "response": "你坐在帐篷里听着外面冰镐敲击的声音。第二天早上队友们回来了，脸上没有表情。你后悔了。但从那以后，每次经过八千三百五十米你都会多看一眼那个位置。" }
+        ]
+      }
+    },
+    {
+      "id": "father-death-2002",
+      "title": "2002·父亲死在山上，自己也在山上",
+      "description": "31岁的丹增成为IFMGA认证向导的同一年，父亲在背运物资途中因高原肺水肿去世。收到噩耗时正在海拔6500米的2号营地，无法下山奔丧。",
+      "ageRange": { "start": 31 },
+      "yearRange": { "start": 2002 },
+      "category": "loss",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.95,
+      "narrativeText": "对讲机里的声音断断续续：'你父亲……肺水肿……走了。'你站在六千五百米的二号营地，四周是白茫茫的雪和永远吹不完的风。你朝着南池巴扎的方向跪下来，在帐篷里磕了三个头。额头碰到帐篷布的那一刻，你终于哭了。父亲一辈子当背夫，从未登顶，五十八岁死在了海拔五千八百米的地方。你把生命献给山，山从不回报任何东西。",
+      "bgmTag": "mourning_flute",
+      "visualTone": "dark"
+    },
+    {
+      "id": "khumbu-avalanche-2014",
+      "title": "2014·昆布冰瀑雪崩，失去三位挚友",
+      "description": "昆布冰瀑发生史上最严重雪崩，16名夏尔巴向导遇难。丹增失去了3位从小一起长大的朋友。第二天早上依然穿上冰爪带队出发。",
+      "ageRange": { "start": 43 },
+      "yearRange": { "start": 2014 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.9,
+      "narrativeText": "十六个人。一夜之间。你在帐篷里坐了整整一夜，脑子里全是他们的脸——帕桑的笑、尼玛的口头禅、多杰总是借你的打火机。第二天早上你穿上冰爪走出帐篷，大本营里所有人都在看你。你对他们点了点头，他们也点了点头。没有人说话。一位西方登山者走过来对你说：'你们夏尔巴人真是天生的登山者。'你没有回答。天生的？你把三个朋友的遗体从冰瀑里拖出来，不是天生就该做这个的。",
+      "bgmTag": "tense_drums_low",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "雪崩后的第二天清晨……",
+        "options": [
+          { "label": "穿上冰爪，继续带队", "response": "你是总向导。你的选择会影响所有人。你走出帐篷的那一刻，年轻的向导们纷纷站起来。没有人说话，但所有人都懂了。责任不是天生的，是你选择了承担。" },
+          { "label": "在帐篷里再坐一天", "response": "你需要时间。第三天，一个年轻向导来找你：'丹增大哥，我的客户在等。你去，我就去。'他长得像你死去的朋友。你站起来，穿上冰爪。脆弱不是软弱，是让人信任你的理由。" }
+        ]
+      }
+    },
+    {
+      "id": "summit-37-2019",
+      "title": "2019·第37次登顶：你征服了什么？",
+      "description": "48岁的丹增第37次登顶珠峰。在峰顶停留15分钟检查氧气瓶、确认下撤路线、给客户拍照。一位客户激动地喊我征服了珠峰，丹增心想：它只是今天心情好让你上来看看。",
+      "ageRange": { "start": 48 },
+      "yearRange": { "start": 2019 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "八千八百四十八米。第三十七次。风停了。世界突然安静得只剩心跳声。你用了十五分钟——不是看风景，而是检查每个客户的氧气瓶余量、确认下撤路线、给每个人拍完登顶照。一个客户跪下来哭着喊：'我终于征服了珠峰！'你在心里想：你征服了什么？它只是今天心情好，让你上来看看。明天它心情不好，一场雪崩就能把这条路线埋掉。山从来不记得谁来过。",
+      "bgmTag": "summit_silence",
+      "visualTone": "bright"
+    },
+    {
+      "id": "son-inherits-2025",
+      "title": "2025·儿子穿上冰爪出发的背影",
+      "description": "53岁的丹增不再带队登顶，担任大本营总指挥。24岁的儿子帕桑开始自己的第3次登顶带队。丹增看着儿子的背影，祈祷的内容和妻子一样：平安回来。",
+      "ageRange": { "start": 53 },
+      "yearRange": { "start": 2025 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "晨光中冰块融化落入茶杯，发出清脆的声音。帕桑扣紧冰爪的金属咔哒声像三十年前你自己的脚步。你看着他走出帐篷的背影，发现自己正在祈祷——向山神、向父亲、向所有埋在冰里的朋友。祈祷的不是登顶成功，而是平安回来。三十年前你第一次出发时，父亲也是这么祈祷的。山永远在那里，但人走了就回不来了。",
+      "bgmTag": "dawn_warm_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "儿子要带队登顶，你的态度……",
+        "options": [
+          { "label": "帮他检查装备，目送出发", "response": "你帮帕桑调整氧气面罩，拍了拍他的肩。什么都没说。他走出五十米后回头看了你一眼，你点了点头。信任中有不安，但你选择了放手。" },
+          { "label": "让他再积累一个攀登季", "response": "帕桑有些失望，但还是点了头。晚上你发现他在帐篷里偷偷看你的登顶照片。保护中有愧疚，但你知道这条路急不得。他会准备好的。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["body-recovery-1996", "father-death-2002", "son-inherits-2025"],
+    "valleyMoments": ["khumbu-avalanche-2014"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["death_description", "grief", "extreme_altitude"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
