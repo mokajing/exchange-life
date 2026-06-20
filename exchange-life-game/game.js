@@ -156,6 +156,7 @@ const TIMELINE_LIST = [
   'time-guardian-first-month',
   'fireworks-master-last-show',
   'doctor-village-clinic-swap',
+  { id: 'lawyer-legal-aid-swap', title: '从顶级律所合伙人到法律援助律师', file: 'timelines/lawyer-legal-aid-swap.json' },
 ];
 
 App({

@@ -746,6 +746,13 @@ const BGM_MAP = {
   'morning_sun_erhu': { name: 'morning_sun_erhu', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
   'phone_call_wind_pause': { name: 'phone_call_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
   'pipa_tree_guitar_strum': { name: 'pipa_tree_guitar_strum', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+
+  // === 法律援助律师专用标签 (2026-06-21 P0第766卷) ===
+  gentle_strings_slow: { file: 'audio/bgm/gentle_strings_slow.mp3', volume: 0.3, loop: true },
+  warm_piano:          { file: 'audio/bgm/warm_piano.mp3',          volume: 0.35, loop: true },
+  quiet_contemplation: { file: 'audio/bgm/quiet_contemplation.mp3', volume: 0.25, loop: true },
+  silence_then_cry:    { file: 'audio/bgm/silence_then_cry.mp3',    volume: 0.4, loop: false },
+
 };
 
 /**
