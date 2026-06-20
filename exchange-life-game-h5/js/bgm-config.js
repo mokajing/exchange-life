@@ -962,4 +962,12 @@ module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
   'fireworks_finale_crescendo': { name: 'fireworks_finale_crescendo', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
   'crossroads_wind_pause': { name: 'crossroads_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
   'farewell_earth_gentle': { name: 'farewell_earth_gentle', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+
+  // === 记忆原片鉴定师专用标签 ===
+  lofi_electronic:          { file: 'audio/bgm/lofi_electronic.mp3',      volume: 0.3, loop: true },
+  melancholy_piano:         { file: 'audio/bgm/melancholy_piano.mp3',     volume: 0.35, loop: true },
+  ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',         volume: 0.25, loop: true },
+  tension_strings:          { file: 'audio/bgm/tension_strings.mp3',      volume: 0.4, loop: true },
+  silence_then_single_note: { file: 'audio/bgm/silence_single_note.mp3', volume: 0.2, loop: false },
+
 };

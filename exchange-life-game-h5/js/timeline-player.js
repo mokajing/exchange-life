@@ -331,7 +331,7 @@ class TimelinePlayer {
     ctx.fillRect(0, 0, w, h);
 
     // 反馈文字居中
-    const colors = TONE_COLORS[this.renderer.targetTone] || TONE_COLORS.neutral;
+    const colors = (getToneColors() && getToneColors()[this.renderer.targetTone]) || (getToneColors() && getToneColors().neutral) || { bg: '#1C1C1C', text: '#E0E0E0', accent: '#888888' };
     ctx.textAlign = 'center';
     ctx.fillStyle = '#FFFFFF';
     ctx.font = '22px "PingFang SC", serif';
