@@ -331,6 +331,7 @@ const TIMELINE_LIST = [
   'cainiao-station-clerk',
   'maya-astronomer-priest',
   'shu-carpenter-wooden-ox',
+  { id: 'lawyer-legal-aid-swap', label: '从顶级律所合伙人到法律援助律师', level: 'L2' },
 ];
 
 let player = null;
