@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "文化身份体验-印尼爪哇皮影戏wayang-kulit达郎的最后一代-001",
+    "title": "文化身份体验 · 印尼爪哇皮影戏（Wayang Kulit）达郎的最后一代",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:43:47+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "黄昏（17:00-18:30）",
+      "description": "达郎（dalang，皮影戏大师）在自家作坊中检查皮影人偶，修补破损的水牛皮雕刻，调配椰油灯的灯芯",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "达郎（dalang，皮影戏大师）在自家作坊中检查皮影人偶，修补破损的水牛皮雕刻，调配椰油灯的灯芯",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第198卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "夜幕降临（18:30-19:00）",
+      "description": "甘美兰乐队（gamelan）陆续到场调音，村民自带草席占位，小贩支起炸香蕉和甜茶摊",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "甘美兰乐队（gamelan）陆续到场调音，村民自带草席占位，小贩支起炸香蕉和甜茶摊",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第198卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "演出开始（19:00-20:30）",
+      "description": "第一幕《摩诃婆罗多》选段，达郎一人操控数十个皮影，同时担任旁白、对话、指挥乐队",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第一幕《摩诃婆罗多》选段，达郎一人操控数十个皮影，同时担任旁白、对话、指挥乐队",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第198卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "深夜高潮（20:30-01:00）",
+      "description": "进入战争场面，达郎的声音在英雄与恶魔间切换，油灯摇曳使影子产生呼吸般的颤动",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "进入战争场面，达郎的声音在英雄与恶魔间切换，油灯摇曳使影子产生呼吸般的颤动",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第198卷(1)"
+    },
+    {
+      "id": "evt-05",
+      "title": "黎明收尾（01:00-03:00）",
+      "description": "哲学独白段落，观众大半已睡去，达郎对着仅剩的几个老人讲完最后一段关于命运与责任的箴言",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "哲学独白段落，观众大半已睡去，达郎对着仅剩的几个老人讲完最后一段关于命运与责任的箴言",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第198卷(1)"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "阶层跨越体验-城中村拆迁户的一夜暴富-001",
+    "title": "阶层跨越体验 · 城中村拆迁户的一夜暴富",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:43:50+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "2018年3月",
+      "description": "拆迁公告张贴，全村沸腾，邻居们开始盘算补偿款",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "拆迁公告张贴，全村沸腾，邻居们开始盘算补偿款",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "2018年6月",
+      "description": "签约日，按手印那一刻手在抖，不知道是激动还是害怕",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "签约日，按手印那一刻手在抖，不知道是激动还是害怕",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "2018年9月",
+      "description": "第一笔补偿款到账，87万，这辈子没见过这么多零",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第一笔补偿款到账，87万，这辈子没见过这么多零",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "2018年10月",
+      "description": "搬进安置房小区，电梯不会按，门锁不会开",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "搬进安置房小区，电梯不会按，门锁不会开",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷(1)"
+    },
+    {
+      "id": "evt-05",
+      "title": "2019年春节",
+      "description": "亲戚朋友突然多了三倍，借钱电话从早响到晚",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "亲戚朋友突然多了三倍，借钱电话从早响到晚",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷(1)"
+    }
+  ]
+}

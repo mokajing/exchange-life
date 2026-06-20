@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "极端情境体验高空跳伞教练的失控自由落体-001",
+    "title": "极端情境体验·高空跳伞教练的失控自由落体",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:41+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "T-60min",
+      "description": "登机前装备检查，教练第三次确认备用伞状态（职业习惯，每次都不省略）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "登机前装备检查，教练第三次确认备用伞状态（职业习惯，每次都不省略）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第172卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "T-15min",
+      "description": "飞机爬升至4000米，教练向学员讲解今天的编队动作",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "飞机爬升至4000米，教练向学员讲解今天的编队动作",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第172卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "T-0",
+      "description": "跳出机舱，自由落体开始，时速200公里的风压包裹全身",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "跳出机舱，自由落体开始，时速200公里的风压包裹全身",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第172卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "T\\+45s",
+      "description": "预定开伞高度1500米，拉伞绳——主伞缠绳，未能正常展开",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "预定开伞高度1500米，拉伞绳——主伞缠绳，未能正常展开",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第172卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "T\\+47s",
+      "description": "切伞程序启动，但切割器卡滞0.8秒（后查明是上次保养遗漏的微小沙粒）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "切伞程序启动，但切割器卡滞0.8秒（后查明是上次保养遗漏的微小沙粒）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第172卷"
+    }
+  ]
+}

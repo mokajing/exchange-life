@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "文化身份体验-安第斯山脉艾马拉织布妇人的最后一代-001",
+    "title": "文化身份体验 · 安第斯山脉艾马拉织布妇人的最后一代",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:45:15+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "清晨4:30",
+      "description": "起身喂羊驼、挤奶，晨雾中检查纺锤上的昨日剩线",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "起身喂羊驼、挤奶，晨雾中检查纺锤上的昨日剩线",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第156卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "5:30-7:00",
+      "description": "在庭院里用背带织机（backstrap loom）开始当日第一匹布，经线已提前数月染色晾干",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "在庭院里用背带织机（backstrap loom）开始当日第一匹布，经线已提前数月染色晾干",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第156卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "7:00-8:00",
+      "description": "为家人准备藜麦粥和土豆，丈夫出门放牧前交代今日要赶的集市订单",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "为家人准备藜麦粥和土豆，丈夫出门放牧前交代今日要赶的集市订单",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第156卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "8:00-12:00",
+      "description": "持续织布，中间穿插照看孙辈、晾晒染料植物（茜草根、万寿菊、靛蓝叶）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "持续织布，中间穿插照看孙辈、晾晒染料植物（茜草根、万寿菊、靛蓝叶）",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第156卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "12:00-13:00",
+      "description": "午休，与邻居妇人交换纱线和花样信息，口传新的纹样变体",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "午休，与邻居妇人交换纱线和花样信息，口传新的纹样变体",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第156卷"
+    }
+  ]
+}

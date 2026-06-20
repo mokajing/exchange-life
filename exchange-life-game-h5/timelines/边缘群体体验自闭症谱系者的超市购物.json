@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "边缘群体体验自闭症谱系者的超市购物-001",
+    "title": "边缘群体体验·自闭症谱系者的超市购物",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:24+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "周六上午9:30 — 出发前准备",
+      "description": "检查购物清单（按货架顺序排列）、戴上降噪耳机、确认路线",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "检查购物清单（按货架顺序排列）、戴上降噪耳机、确认路线",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第178卷(1)"
+    },
+    {
+      "id": "evt-02",
+      "title": "9:45 — 进入超市",
+      "description": "荧光灯嗡嗡声、购物车轮子摩擦地面的尖锐声响扑面而来",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "荧光灯嗡嗡声、购物车轮子摩擦地面的尖锐声响扑面而来",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第178卷(1)"
+    },
+    {
+      "id": "evt-03",
+      "title": "10:00 — 生鲜区",
+      "description": "冷柜压缩机的低频震动让手指发麻，需要触摸每种水果确认成熟度但被店员注视",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "冷柜压缩机的低频震动让手指发麻，需要触摸每种水果确认成熟度但被店员注视",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第178卷(1)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "10:20 — 零食货架前崩溃",
+      "description": "品牌换了包装，找不到\"那个蓝色盒子\"，大脑过载，蹲在过道里深呼吸",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "品牌换了包装，找不到\"那个蓝色盒子\"，大脑过载，蹲在过道里深呼吸",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第178卷(1)"
+    },
+    {
+      "id": "evt-05",
+      "title": "10:35 — 收银台",
+      "description": "排队时身后的人靠太近，呼吸急促；收银员问\"要袋子吗\"没反应过来被催促",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "排队时身后的人靠太近，呼吸急促；收银员问\"要袋子吗\"没反应过来被催促",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第178卷(1)"
+    }
+  ]
+}

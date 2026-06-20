@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "平行人生假设-如果人类从未发展出数学-001",
+    "title": "平行人生假设 · 如果人类从未发展出数学",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:43:55+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "黎明",
+      "description": "部落长老唤醒计数者，今日是\"大分配日\"——三个家族要平分猎获物",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "部落长老唤醒计数者，今日是\"大分配日\"——三个家族要平分猎获物",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第195卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "上午",
+      "description": "用结绳系统记录猎物数量，一根主绳代表一个家族，每根副绳上的结代表一份肉",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "用结绳系统记录猎物数量，一根主绳代表一个家族，每根副绳上的结代表一份肉",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第195卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "正午",
+      "description": "发现今年的猎物比去年\"少了一些\"，但无法说出少了多少——只能凭绳结的疏密感受差异",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "发现今年的猎物比去年\"少了一些\"，但无法说出少了多少——只能凭绳结的疏密感受差异",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第195卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "下午",
+      "description": "年轻猎人质疑分配是否公平，计数者必须用身体比划和歌谣节奏来\"证明\"均等",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "年轻猎人质疑分配是否公平，计数者必须用身体比划和歌谣节奏来\"证明\"均等",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第195卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "黄昏",
+      "description": "独自坐在河边解开旧绳结，每一段绳子都是一段被记住的历史",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "独自坐在河边解开旧绳结，每一段绳子都是一段被记住的历史",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第195卷"
+    }
+  ]
+}

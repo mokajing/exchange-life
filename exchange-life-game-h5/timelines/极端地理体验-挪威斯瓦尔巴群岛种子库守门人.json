@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "id": "极端地理体验-挪威斯瓦尔巴群岛种子库守门人-001",
+    "title": "极端地理体验 · 挪威斯瓦尔巴群岛种子库守门人",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:44:50+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "至今",
+      "description": "已存储来自全球76个国家/地区的超过120万份种子样本，覆盖6000多个物种",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "已存储来自全球76个国家/地区的超过120万份种子样本，覆盖6000多个物种",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第168卷(2)",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "阶层跨越体验小镇做题家考入名校后的第一个寒假回家-001",
+    "title": "阶层跨越体验·小镇做题家考入名校后的第一个寒假回家",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:43:53+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "Day 0（腊月二十八）",
+      "description": "从北京/上海坐高铁转大巴再转摩的回到县城老家，行李箱轮子在泥路上卡住",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "从北京/上海坐高铁转大巴再转摩的回到县城老家，行李箱轮子在泥路上卡住",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第196卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "Day 1（除夕前）",
+      "description": "帮家里贴春联时发现父亲又老了一截，母亲问\"大学里吃得饱吗\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "帮家里贴春联时发现父亲又老了一截，母亲问\"大学里吃得饱吗\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第196卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "Day 2（除夕）",
+      "description": "年夜饭桌上亲戚问\"以后挣多少钱\"\"留不留北京\"，笑着应付但筷子握紧",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "年夜饭桌上亲戚问\"以后挣多少钱\"\"留不留北京\"，笑着应付但筷子握紧",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第196卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "Day 3（初一）",
+      "description": "走亲戚时被夸\"咱家出了个大学生\"，同时被暗示\"别看不起老家\"",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "走亲戚时被夸\"咱家出了个大学生\"，同时被暗示\"别看不起老家\"",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第196卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "Day 4（初二）",
+      "description": "高中同学聚会，发现曾经的好友聊的话题自己接不上了，沉默比说话更累",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "高中同学聚会，发现曾经的好友聊的话题自己接不上了，沉默比说话更累",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第196卷"
+    }
+  ]
+}

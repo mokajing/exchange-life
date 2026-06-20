@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "id": "2026-06-14-1435-第142轮创作者激励体系第四轮循环深化-001",
+    "title": "\\[2026-06-14 14:35\\] 第142轮·创作者激励体系（第四轮循环·深化）",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:47:57+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "故事的开始",
+      "description": "\\[2026-06-14 14:35\\] 第142轮·创作者激励体系（第四轮循环·深化）",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "你即将体验「\\[2026-06-14 14:35\\] 第142轮·创作者激励体系（第四轮循环·深化）」的人生片段。\n\n这是一个关于坚持、选择和成长的故事。",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生·产品方案打磨记录（续篇）"
+    }
+  ]
+}

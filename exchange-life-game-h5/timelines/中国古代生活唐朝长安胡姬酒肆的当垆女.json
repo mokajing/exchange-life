@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "id": "中国古代生活唐朝长安胡姬酒肆的当垆女-001",
+    "title": "中国古代生活·唐朝长安胡姬酒肆的当垆女",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:45:33+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "卯时（5:00-7:00）",
+      "description": "天未亮即起，检查昨夜存酒、擦拭铜壶银盏，将新到的三勒浆从地窖搬出",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "天未亮即起，检查昨夜存酒、擦拭铜壶银盏，将新到的三勒浆从地窖搬出",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第147卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "辰时（7:00-9:00）",
+      "description": "开门迎第一批客人——赶早市的商贾和上朝归来的低级官吏",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "开门迎第一批客人——赶早市的商贾和上朝归来的低级官吏",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第147卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "巳时至午时（9:00-13:00）",
+      "description": "西市渐入高峰，胡商、波斯珠宝客、大食香料贩子陆续入座，她用粟特语、汉语、波斯语三种语言招呼",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "西市渐入高峰，胡商、波斯珠宝客、大食香料贩子陆续入座，她用粟特语、汉语、波斯语三种语言招呼",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第147卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "未时至申时（13:00-17:00）",
+      "description": "文人墨客午后小聚，她需陪聊诗文典故，偶尔被要求弹琵琶助兴",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "文人墨客午后小聚，她需陪聊诗文典故，偶尔被要求弹琵琶助兴",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第147卷"
+    },
+    {
+      "id": "evt-05",
+      "title": "酉时至戌时（17:00-21:00）",
+      "description": "暮鼓响前最后一波豪饮高峰，武将勋贵包场宴客，气氛最热烈也最需谨慎",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.8999999999999999,
+      "narrativeText": "暮鼓响前最后一波豪饮高峰，武将勋贵包场宴客，气氛最热烈也最需谨慎",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第147卷"
+    }
+  ]
+}

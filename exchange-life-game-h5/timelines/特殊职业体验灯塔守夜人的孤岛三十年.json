@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "id": "特殊职业体验灯塔守夜人的孤岛三十年-001",
+    "title": "特殊职业体验·灯塔守夜人的孤岛三十年",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:43:51+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "1990年代",
+      "description": "中国沿海尚有超过200座有人值守灯塔，守塔人多为海军转业或海事系统职工",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "中国沿海尚有超过200座有人值守灯塔，守塔人多为海军转业或海事系统职工",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "2000年代起",
+      "description": "自动化改造加速，太阳能\\+遥测系统逐步替代人工",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "自动化改造加速，太阳能\\+遥测系统逐步替代人工",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-03",
+      "title": "2020年代",
+      "description": "全国仅余不到30座有人值守灯塔，守塔人平均年龄超55岁",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "全国仅余不到30座有人值守灯塔，守塔人平均年龄超55岁",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第197卷"
+    }
+  ]
+}

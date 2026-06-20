@@ -1,0 +1,95 @@
+{
+  "meta": {
+    "id": "性别交换体验-健身房私教与瑜伽教练互换身体的一周-001",
+    "title": "性别交换体验 · 健身房私教与瑜伽教练互换身体的一周",
+    "subtitle": "基于真实人生故事改编的沉浸式体验",
+    "sourceType": "dingtalk_doc",
+    "authorized": true,
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-15T23:45:01+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt-01",
+      "title": "Day 1 清晨",
+      "description": "互换发生，双方在各自熟悉的场景中醒来却发现身体完全陌生",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "互换发生，双方在各自熟悉的场景中醒来却发现身体完全陌生",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第164卷"
+    },
+    {
+      "id": "evt-02",
+      "title": "Day 1-2",
+      "description": "适应期，肌肉记忆与新身体的错位导致训练事故频发",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.44999999999999996,
+      "narrativeText": "适应期，肌肉记忆与新身体的错位导致训练事故频发",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第164卷"
+    },
+    {
+      "id": "evt-03",
+      "title": "Day 3-4",
+      "description": "社交碰撞期，学员/同事对\"变了个人\"的教练产生困惑与质疑",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "社交碰撞期，学员/同事对\"变了个人\"的教练产生困惑与质疑",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第164卷",
+      "interactionChoice": {
+        "prompt": "在这个关键时刻，你会如何选择？",
+        "options": [
+          {
+            "label": "坚持自己的道路，即使困难重重",
+            "response": "你的坚持会在未来某个时刻开花结果。"
+          },
+          {
+            "label": "暂时妥协，寻找更好的时机",
+            "response": "有时候退一步是为了走得更远。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "evt-04",
+      "title": "Day 5-6",
+      "description": "突破期，被迫用对方的方法论解决自己身体遇到的困境",
+      "ageRange": {
+        "start": 0,
+        "end": 0
+      },
+      "category": "experience",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.75,
+      "narrativeText": "突破期，被迫用对方的方法论解决自己身体遇到的困境",
+      "bgmTag": "gentle_folk",
+      "visualTone": "warm",
+      "sourceAnchor": "交换人生素材剧本库·交换人生素材剧本库-第164卷"
+    }
+  ]
+}
