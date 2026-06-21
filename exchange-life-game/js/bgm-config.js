@@ -801,7 +801,33 @@ const BGM_MAP = {
   silence_room_tone:        { file: 'audio/bgm/silence_room_tone.mp3',        volume: 0.2, loop: true },
   office_ambient_low:       { file: 'audio/bgm/office_ambient_low.mp3',       volume: 0.2, loop: true },
   home_evening_quiet:       { file: 'audio/bgm/home_evening_quiet.mp3',       volume: 0.3, loop: true },
-  night_lamp_gentle:        { file: 'audio/bgm/night_lamp_gentle.mp3',        volume: 0.25, loop: true }
+  night_lamp_gentle:        { file: 'audio/bgm/night_lamp_gentle.mp3',        volume: 0.25, loop: true },
+
+  // === 额外BGM标签（从module.exports移回） ===
+  'workshop_morning_silence': { name: 'workshop_morning_silence', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'fading_tradition_bell': { name: 'fading_tradition_bell', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'apprentice_silence_tension': { name: 'apprentice_silence_tension', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'pencil_on_paper_rhythm': { name: 'pencil_on_paper_rhythm', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'fireworks_finale_crescendo': { name: 'fireworks_finale_crescendo', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'crossroads_wind_pause': { name: 'crossroads_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  'farewell_earth_gentle': { name: 'farewell_earth_gentle', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
+  // === 记忆原片鉴定师专用标签 ===
+  lofi_electronic:          { file: 'audio/bgm/lofi_electronic.mp3',      volume: 0.3, loop: true },
+  melancholy_piano:         { file: 'audio/bgm/melancholy_piano.mp3',     volume: 0.35, loop: true },
+  ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',         volume: 0.25, loop: true },
+  tension_strings:          { file: 'audio/bgm/tension_strings.mp3',      volume: 0.4, loop: true },
+  silence_then_single_note: { file: 'audio/bgm/silence_single_note.mp3', volume: 0.2, loop: false },
+  // === 达纳基尔硫磺矿工专用标签 (2026-06-21 专家团迭代) ===
+  ethiopian_krar_dawn:    { file: 'audio/bgm/ethiopian_krar_dawn.mp3',    volume: 0.3, loop: true },
+  camel_bells_desert:     { file: 'audio/bgm/camel_bells_desert.mp3',     volume: 0.35, loop: true },
+  sulfur_hiss_ambient:    { file: 'audio/bgm/sulfur_hiss_ambient.mp3',    volume: 0.25, loop: true },
+  iron_shovel_rhythm:     { file: 'audio/bgm/iron_shovel_rhythm.mp3',     volume: 0.4, loop: true },
+  coughing_breath_tension:{ file: 'audio/bgm/coughing_breath_tension.mp3',volume: 0.3, loop: true },
+  heavy_load_march:       { file: 'audio/bgm/heavy_load_march.mp3',       volume: 0.45, loop: true },
+  acid_spring_tension:    { file: 'audio/bgm/acid_spring_tension.mp3',    volume: 0.3, loop: true },
+  scale_clink_quiet:      { file: 'audio/bgm/scale_clink_quiet.mp3',      volume: 0.25, loop: true },
+  afar_folk_humming:      { file: 'audio/bgm/afar_folk_humming.mp3',      volume: 0.35, loop: true },
+  desert_silence_stars:   { file: 'audio/bgm/desert_silence_stars.mp3',   volume: 0.2, loop: true },
 };
 
 /**
@@ -903,9 +929,7 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
       // 线性衰减：从startVolume到0
       currentAudio.volume = Math.max(0, startVolume * (1 - progress));
     }
-    // 线性增长：从0到targetVolume
     nextAudio.volume = Math.min(targetVolume, targetVolume * progress);
-
     if (step >= steps) {
       clearInterval(timer);
       if (currentAudio) {
@@ -913,17 +937,12 @@ function crossfadeBGM(currentAudio, nextTag, duration = 1.5) {
         currentAudio.destroy();
       }
       nextAudio.volume = targetVolume;
-      // 更新全局BGM实例引用，防止内存泄漏
       _currentBGMInstance = nextAudio;
     }
   }, interval);
-
-  // 跟踪定时器以便后续清理
   _activeCrossfadeTimer = timer;
-
   return nextAudio;
 }
-
 /**
  * 内部工具：清理活跃的crossfade定时器
  */
@@ -933,54 +952,4 @@ function _clearCrossfadeTimer() {
     _activeCrossfadeTimer = null;
   }
 }
-
-
-  // === waste-sorter-supervisor (第506卷·拾荒者到督导员) ===
-
-  // === orbital-debris-cleaner (第511卷·太空垃圾清理轨道工程师) ===
-  // === autism-supermarket-shopping (第514卷·自闭症谱系者的超市购物) ===
-
-  // === motivation-awakener-first-month (第514卷·动力唤醒师的第一个月) ===
-
-
-
-
-  // === time-guardian-first-month (第637卷·时序守护者的第一个月) ===
-
-  // === carthage-elephant-handler (迦太基战象驭手) ===
-
-  // === sherpa-everest-guide (珠峰夏尔巴向导) ===
-
-  // === first-peer-obituary (第一次收到同龄人讣告) ===
-
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
-
-  'workshop_morning_silence': { name: 'workshop_morning_silence', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'fading_tradition_bell': { name: 'fading_tradition_bell', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'apprentice_silence_tension': { name: 'apprentice_silence_tension', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'pencil_on_paper_rhythm': { name: 'pencil_on_paper_rhythm', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'fireworks_finale_crescendo': { name: 'fireworks_finale_crescendo', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'crossroads_wind_pause': { name: 'crossroads_wind_pause', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-  'farewell_earth_gentle': { name: 'farewell_earth_gentle', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
-
-  // === 记忆原片鉴定师专用标签 ===
-  lofi_electronic:          { file: 'audio/bgm/lofi_electronic.mp3',      volume: 0.3, loop: true },
-  melancholy_piano:         { file: 'audio/bgm/melancholy_piano.mp3',     volume: 0.35, loop: true },
-  ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',         volume: 0.25, loop: true },
-  tension_strings:          { file: 'audio/bgm/tension_strings.mp3',      volume: 0.4, loop: true },
-  silence_then_single_note: { file: 'audio/bgm/silence_single_note.mp3', volume: 0.2, loop: false },
-
-
-  // === 达纳基尔硫磺矿工专用标签 (2026-06-21 专家团迭代) ===
-  ethiopian_krar_dawn:    { file: 'audio/bgm/ethiopian_krar_dawn.mp3',    volume: 0.3, loop: true },
-  camel_bells_desert:     { file: 'audio/bgm/camel_bells_desert.mp3',     volume: 0.35, loop: true },
-  sulfur_hiss_ambient:    { file: 'audio/bgm/sulfur_hiss_ambient.mp3',    volume: 0.25, loop: true },
-  iron_shovel_rhythm:     { file: 'audio/bgm/iron_shovel_rhythm.mp3',     volume: 0.4, loop: true },
-  coughing_breath_tension:{ file: 'audio/bgm/coughing_breath_tension.mp3',volume: 0.3, loop: true },
-  heavy_load_march:       { file: 'audio/bgm/heavy_load_march.mp3',       volume: 0.45, loop: true },
-  acid_spring_tension:    { file: 'audio/bgm/acid_spring_tension.mp3',    volume: 0.3, loop: true },
-  scale_clink_quiet:      { file: 'audio/bgm/scale_clink_quiet.mp3',      volume: 0.25, loop: true },
-  afar_folk_humming:      { file: 'audio/bgm/afar_folk_humming.mp3',      volume: 0.35, loop: true },
-  desert_silence_stars:   { file: 'audio/bgm/desert_silence_stars.mp3',   volume: 0.2, loop: true },
-
-};
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
