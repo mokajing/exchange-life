@@ -1,139 +1,140 @@
 {
   "meta": {
     "id": "memory-authenticator-first-month",
-    "title": "记忆原片鉴定师的第一个月——当所有人的记忆都被AI美颜",
-    "subtitle": "在98%的人都选择美化记忆的世界里，他是唯一拒绝安装滤镜的人",
+    "title": "记忆原片鉴定师·在记忆被AI美颜的世界里找回真实",
+    "subtitle": "当98%的人选择美化记忆，你是那个拒绝滤镜的守夜人",
     "sourceType": "ugc_submission",
-    "narrativeTemplate": "daily_poetry",
-    "createdAt": "2026-06-21T06:00:00+08:00",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-22T06:00:00+08:00",
     "version": 1
   },
   "events": [
     {
       "id": "day0-launch",
       "title": "Day 0·记忆美颜滤镜全球上线",
-      "description": "NeuroGlow公司发布记忆美颜脑机接口滤镜，98%用户在48小时内开通。林默的记忆原片鉴定所挂牌，第一位客户上门。",
+      "description": "NeuroGlow公司发布记忆美颜脑机接口滤镜，98%用户在48小时内开通。你的记忆原片鉴定所挂牌，第一位客户上门——一位声称'我好像从来没有跟任何人吵过架'的中年女性。",
       "ageRange": { "start": 28 },
       "category": "career",
       "isKeyNode": true,
-      "emotion": "mixed",
-      "emotionIntensity": 0.6,
-      "narrativeText": "新闻弹窗铺满了每一块屏幕：'NeuroGlow记忆美颜滤镜全球同步上线'。你看着窗外排队购买的人群，像极了当年iPhone发售的盛况。你的鉴定所门可罗雀——直到一个中年女人推门进来，说了一句让你脊背发凉的话：'我好像从来没有跟任何人吵过架。'",
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "2027年3月15日，NeuroGlow的记忆美颜滤镜全球同步上线。你的手机被推送淹没：'恭喜！您的记忆已自动优化。'你关掉通知，把写着'记忆原片鉴定所'的木牌挂在门口。第一个客户是个中年女人，她说她已经三年没跟女儿说话了，但在记忆里她们'关系很好'。",
       "bgmTag": "lofi_electronic",
-      "visualTone": "bright",
+      "visualTone": "cool",
       "interactionChoice": {
         "prompt": "面对第一位客户……",
         "options": [
-          { "label": "详细询问她的感受", "response": "她坐下来，眼神空洞地说：'我记得我和老公一直很恩爱，但家里的碗全是碎的。我不知道为什么。'" },
-          { "label": "直接开始技术检测", "response": "你让她戴上脑电波感应器。屏幕上，她的记忆波形平滑得像一条直线——太完美了，完美得不真实。" }
+          { "label": "立即开始鉴定，帮她找回原片", "response": "你戴上耳机，调出她的记忆档案。美颜版里母女俩笑容灿烂，但你注意到女儿的眼睛从未真正看向母亲。" },
+          { "label": "先询问她为什么想找回真实记忆", "response": "她沉默了很久，说：'因为我发现我不记得自己生气的样子了。一个不会生气的人，还是人吗？'" }
         ]
       }
     },
     {
-      "id": "day3-rush",
+      "id": "day3-busy",
       "title": "Day 3-5·业务爆发期",
-      "description": "每天30+客户排队。典型案例：母亲发现滤镜把对女儿说的狠话美颜成了温暖鼓励，女儿已三年不跟她说话。",
+      "description": "每天30+客户排队。典型案例：一位母亲发现滤镜把她对女儿说的狠话美颜成了'妈妈永远支持你的选择'。女儿已经不跟她说话三年，但记忆里她们关系很好。",
       "ageRange": { "start": 28 },
       "category": "career",
       "isKeyNode": false,
-      "emotion": "sadness",
-      "emotionIntensity": 0.7,
-      "narrativeText": "第三天起，门口排起了长队。一个母亲哭着告诉你：她记忆里一直对女儿说'妈妈永远支持你的选择'，但原片恢复后，她说的是'你考不上大学就去打工'。女儿已经三年没跟她说话了。在她的记忆里，她们关系很好。",
-      "bgmTag": "melancholy_piano",
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第三天起，门口排起了队。一个男人发现自己求婚被拒的记忆变成了'浪漫的错过'；一个女孩发现被霸凌的记忆变成了'宝贵的成长经历'。最让你心痛的是那位母亲——滤镜把她骂女儿'考不上大学就去打工'变成了温柔的鼓励。女儿已经三年没叫她妈了，但在美颜记忆里，她们每天都在拥抱。",
+      "bgmTag": "gentle_acoustic",
       "visualTone": "warm"
     },
     {
       "id": "day7-breakthrough",
-      "title": "Day 7-10·梦境回溯引导法",
-      "description": "发现杏仁核在REM睡眠期会绕过滤镜存储原始副本。开发出梦境回溯引导法，通过特定音频刺激唤醒原始记忆。",
+      "title": "Day 7-10·技术突破：梦境回溯法",
+      "description": "发现大脑杏仁核在REM睡眠期会短暂绕过滤镜存储原始副本。开发出'梦境回溯引导法'，通过特定音频刺激唤醒原始记忆。",
       "ageRange": { "start": 28 },
       "category": "achievement",
       "isKeyNode": true,
-      "emotion": "surprise",
+      "emotion": "joy",
       "emotionIntensity": 0.8,
-      "narrativeText": "凌晨三点，你在实验室里盯着脑电波图谱发呆。突然你注意到一个规律：每次进入REM睡眠，杏仁核的信号会出现短暂的'毛刺'——那是滤镜没能完全覆盖的原始情绪残留。你花了三天调试出一组特定频率的音频，能在REM期触发原始记忆的唤醒。你把它叫做'梦境回溯引导法'。",
+      "narrativeText": "第七天凌晨三点，你在实验室里盯着脑波图发呆。突然你发现了——杏仁核，情绪记忆的中枢，在REM睡眠期会短暂绕过滤镜。就像相机快门关闭的瞬间，原始画面偷偷溜了进去。你花了三天开发出'梦境回溯引导法'：让客户进入REM睡眠，用40Hz的伽马波音频刺激杏仁核，唤醒那些被美颜覆盖的原片。第一次成功时，客户醒来哭了。她说她终于记起了自己愤怒的样子。",
       "bgmTag": "ambient_rain",
-      "visualTone": "dark",
+      "visualTone": "neutral",
       "interactionChoice": {
-        "prompt": "这项技术有风险……",
+        "prompt": "梦境回溯法有风险……",
         "options": [
-          { "label": "先在自己身上测试", "response": "你给自己戴上感应器，播放音频。一段被你自己遗忘的记忆涌上来——高中时你对同桌说的那句伤人的话。原来你也美颜了自己的记忆。" },
-          { "label": "直接用于客户", "response": "第一个使用梦境回溯法的客户在醒来后沉默了很久，然后说：'我想起来了。那天我不是生气，我是害怕。'" }
+          { "label": "谨慎使用，每次只做一例", "response": "你给自己定了规矩：每天只接一个需要梦境回溯的客户。慢，但安全。" },
+          { "label": "扩大规模，帮助更多人", "response": "你把方法写成手册，培训了两个助手。效率提高了，但你开始担心质量控制。" }
         ]
       }
     },
     {
       "id": "day14-lawsuit",
-      "title": "Day 14-18·伦理风暴",
-      "description": "NeuroGlow法务部起诉非法破解专利技术。反滤镜地下组织联系合作，要求批量恢复社会真相。林默拒绝。",
+      "title": "Day 14-18·伦理争议与诉讼",
+      "description": "NeuroGlow法务部起诉你'非法破解专利技术'。同时反滤镜地下组织'记忆原教旨主义'联系你，要求合作批量恢复社会真相。你拒绝了。",
       "ageRange": { "start": 28 },
       "category": "crisis",
       "isKeyNode": true,
-      "emotion": "anger",
+      "emotion": "fear",
       "emotionIntensity": 0.7,
-      "narrativeText": "律师函比客户来得更快。NeuroGlow指控你'非法破解专利技术'。与此同时，一个叫'记忆原教旨主义'的组织找上门，要你帮他们恢复被系统美化过的集体记忆——包括一些你不该碰的东西。你拒绝了。他们说：'你以为你在保护个人记忆？你在维护一个巨大的谎言。'",
-      "bgmTag": "tension_strings",
+      "narrativeText": "律师函比客户来得更早。NeuroGlow说你'非法破解专利技术'，索赔五百万。同一天，一个戴兜帽的男人在巷子里拦住你，自称'记忆原教旨主义'的成员。他说政府暴力、企业丑闻都被系统美化了，要你帮忙恢复'社会真相'。你拒绝了。他说你会后悔的。那天晚上，你把鉴定所的灯关了，坐在黑暗里听自己的心跳。",
+      "bgmTag": "urban_night",
       "visualTone": "dark",
       "interactionChoice": {
-        "prompt": "面对两方压力……",
+        "prompt": "面对压力……",
         "options": [
-          { "label": "坚持只做个人记忆恢复", "response": "你在鉴定所门口贴了一张纸条：'只找回属于你的记忆。不属于你的真相，不在我的业务范围。'" },
-          { "label": "考虑扩大服务范围", "response": "你犹豫了一整夜。第二天早上，你把那张纸条撕了，又写了一张新的：'记忆是私人的。真相也是。'" }
+          { "label": "坚持立场，继续做记忆守夜人", "response": "你把律师函钉在墙上，旁边贴了一张便利贴：'真相不是专利。'" },
+          { "label": "暂时低调，减少公开业务", "response": "你关掉了线上预约，只接受熟人介绍的客户。安静，但没有停止。" }
         ]
       }
     },
     {
       "id": "day22-old-zhang",
-      "title": "Day 22-25·老张的案子",
-      "description": "前同事刑警老张来访，需要恢复一段被美颜的办案记忆。恢复后发现冤案真凶另有其人，但也暴露了自己当年的选择性忽视。",
+      "title": "Day 22-25·老张的案子：选择性忽视",
+      "description": "前同事刑警老张来访，需要恢复一段被美颜的办案记忆。找回原片后发现冤案真凶另有其人，但也意味着老张必须面对自己当时'选择性忽视'的愧疚。",
       "ageRange": { "start": 28 },
       "category": "relationship",
       "isKeyNode": true,
-      "emotion": "mixed",
+      "emotion": "sadness",
       "emotionIntensity": 0.9,
-      "narrativeText": "老张坐在你对面，双手交叉放在膝盖上。他说那段记忆里有一个关键证据被他潜意识模糊了。你帮他找回原片后，他盯着屏幕看了很久。真凶不是系统记录的那个人。但他也看到了自己当年'选择性忽视'的那个细节——不是AI美颜了他的记忆，是他自己选择了不看。",
-      "bgmTag": "silence_then_single_note",
-      "visualTone": "neutral",
+      "narrativeText": "老张是你当刑警时的搭档。他坐在你对面，手一直在抖。'那段记忆里有证据，'他说，'但我潜意识把它模糊了。'你帮他进入REM睡眠，用40Hz音频唤醒了原片。他看到了——案发当晚他其实注意到了关键细节，但因为太累、因为想早点结案、因为不想承认自己可能抓错了人，他选择了'没看见'。醒来后他哭了整整一个小时。不是因为AI美颜了他的记忆，而是因为他终于看清了自己。",
+      "bgmTag": "melancholy_piano",
+      "visualTone": "dark",
       "interactionChoice": {
-        "prompt": "老张沉默了很久……",
+        "prompt": "老张的原片揭示了人性的弱点……",
         "options": [
-          { "label": "陪他坐着，不说话", "response": "你们就这样坐了二十分钟。窗外的雨声填满了所有空白。他站起来时说了一句：'谢谢你让我看见自己不想看的东西。'" },
-          { "label": "问他打算怎么办", "response": "他把U盘攥在手心里，指节发白。'翻案。'他说这两个字的时候，声音比你听过的任何审讯录音都轻。" }
+          { "label": "完全恢复，让他面对全部真相", "response": "你把所有细节都展示给他。他颤抖着点头：'这才是我该承受的。'" },
+          { "label": "保留部分美颜，给他缓冲空间", "response": "你隐去了最刺痛的部分。他松了口气，但你知道，有些真相迟早要面对。" }
         ]
       }
     },
     {
       "id": "day28-choice",
-      "title": "Day 28-30·终极抉择",
-      "description": "NeuroGlow提出和解：关闭鉴定换取不被起诉。全球美颜依赖症爆发，抑郁症确诊率上升340%。林默面临最终选择。",
+      "title": "Day 28-30·终极抉择：善意谎言vs残酷真相",
+      "description": "NeuroGlow提出和解：关闭鉴定所换取不被起诉。同时全球用户出现'美颜依赖症'，抑郁症确诊率上升340%。你面临最终选择。",
       "ageRange": { "start": 28 },
       "category": "crisis",
       "isKeyNode": true,
       "emotion": "mixed",
-      "emotionIntensity": 0.95,
-      "narrativeText": "和解协议摆在桌上。签字，鉴定所关门，一切回到正轨。但你刚看完最新的统计数据：全球美颜依赖症患者激增，抑郁症确诊率上升了340%。越来越多人无法接受未经美颜的现实。你是继续做记忆原片的守夜人，还是接受'善意的谎言就是善意'这个逻辑？",
-      "bgmTag": "lofi_electronic",
-      "visualTone": "cool",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第三十天。NeuroGlow的和解协议放在桌上：签字，关店，免于起诉。窗外，一个女孩对着手机笑，但眼睛里没有光——她已经无法接受未经美颜的现实了。抑郁症确诊率上升了340%。你看着协议，想起老张的眼泪，想起那位母亲终于记起自己生气的样子。如果真相让人痛苦，美化后的记忆让人幸福，哪一个更道德？",
+      "bgmTag": "silence_then_single_note",
+      "visualTone": "neutral",
       "interactionChoice": {
-        "prompt": "这是你的选择……",
+        "prompt": "最终的选择……",
         "options": [
-          { "label": "拒绝和解，继续坚守", "response": "你把协议推回去。'如果连记忆都不再真实，我们还能相信什么？'走出大楼时，阳光刺眼得让你眯起了眼睛。真实的阳光。" },
-          { "label": "接受和解，但保留地下业务", "response": "你签了字。但在回家的路上，你把那套音频设备藏进了地下室。有些记忆，值得在黑暗中守护。" },
-          { "label": "接受和解，彻底放下", "response": "你签了字，关上门，把钥匙放在了门框上。也许这个世界需要的不是真相，而是被允许慢慢醒来的时间。" }
+          { "label": "拒绝和解，继续做记忆守夜人", "response": "你把协议推回去。'有些人需要痛，才能确认自己还活着。'门关上了，但灯还亮着。" },
+          { "label": "接受和解，但保留地下业务", "response": "你签了字。鉴定所关门了。但深夜，你依然在公寓里帮少数人找回他们的原片。真相转入地下，但没有消失。" },
+          { "label": "接受和解，彻底退出", "response": "你签了字，摘下了木牌。也许这个世界真的更喜欢美颜版的自己。你不确定这是对是错。" }
         ]
       }
     }
   ],
   "emotionalArc": {
-    "overallShape": "complex",
-    "peakMoment": "day22-old-zhang",
-    "valleyMoment": "day28-choice",
-    "resolution": "open",
-    "dominantEmotions": ["curiosity", "confusion", "anger", "helplessness", "determination", "compassion"]
+    "overallTone": "bittersweet",
+    "peakMoments": ["day7-breakthrough", "day22-old-zhang"],
+    "valleyMoments": ["day14-lawsuit", "day28-choice"]
   },
-  "safetyNotes": {
-    "contentWarnings": ["科技伦理", "记忆真实性"],
-    "skipOptions": [],
-    "landingGuidance": "体验结束后请花一分钟回忆一件你今天真实经历的小事——不需要完美，只需要真实。"
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V3",
+    "triggerWarnings": ["科技伦理", "记忆真实性", "心理健康"],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
   }
 }
