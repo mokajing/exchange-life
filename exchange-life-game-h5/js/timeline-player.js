@@ -3,8 +3,8 @@
  * 管理事件流转、交互选择、进度追踪
  */
 
-// H5 browser version: Renderer is loaded as global via script tag before this file
-const TONE_COLORS = window.Renderer.TONE_COLORS;
+const Renderer = require('./renderer');
+const TONE_COLORS = Renderer.TONE_COLORS;
 
 class TimelinePlayer {
   constructor(options) {
@@ -331,7 +331,7 @@ class TimelinePlayer {
     ctx.fillRect(0, 0, w, h);
 
     // 反馈文字居中
-    const colors = (getToneColors() && getToneColors()[this.renderer.targetTone]) || (getToneColors() && getToneColors().neutral) || { bg: '#1C1C1C', text: '#E0E0E0', accent: '#888888' };
+    const colors = TONE_COLORS[this.renderer.targetTone] || TONE_COLORS.neutral;
     ctx.textAlign = 'center';
     ctx.fillStyle = '#FFFFFF';
     ctx.font = '22px "PingFang SC", serif';
@@ -438,5 +438,4 @@ class TimelinePlayer {
   }
 }
 
-// H5 browser version: TimelinePlayer is exposed as global via script tag
-window.TimelinePlayer = TimelinePlayer;
+module.exports = TimelinePlayer;
