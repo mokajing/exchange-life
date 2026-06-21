@@ -336,6 +336,7 @@ const TIMELINE_LIST = [
   { id: 'sherpa-everest-guide', title: '珠峰夏尔巴向导·登顶37次从未被叫征服者', file: 'timelines/sherpa-everest-guide.json' },
   { id: 'first-peer-obituary', title: '第一次收到同龄人讣告的那一天', file: 'timelines/first-peer-obituary.json' },
     { id: 'memory-authenticator-first-month', title: '记忆原片鉴定师的第一个月', file: 'timelines/memory-authenticator-first-month.json' },
+  { id: 'danakil-sulfur-miner', title: '埃塞俄比亚达纳基尔硫磺矿工的一天', file: 'timelines/danakil-sulfur-miner.json' },
 ];
 
 let player = null;
