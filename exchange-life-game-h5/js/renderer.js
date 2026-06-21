@@ -386,6 +386,6 @@ class Renderer {
   }
 }
 
-// H5 browser version: Renderer is exposed as global via script tag
+// 导出TONE_COLORS供其他模块使用
 Renderer.TONE_COLORS = TONE_COLORS;
-window.Renderer = Renderer;
+module.exports = Renderer;
