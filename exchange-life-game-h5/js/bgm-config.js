@@ -970,4 +970,17 @@ module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM ,
   tension_strings:          { file: 'audio/bgm/tension_strings.mp3',      volume: 0.4, loop: true },
   silence_then_single_note: { file: 'audio/bgm/silence_single_note.mp3', volume: 0.2, loop: false },
 
+
+  // === 达纳基尔硫磺矿工专用标签 (2026-06-21 专家团迭代) ===
+  ethiopian_krar_dawn:    { file: 'audio/bgm/ethiopian_krar_dawn.mp3',    volume: 0.3, loop: true },
+  camel_bells_desert:     { file: 'audio/bgm/camel_bells_desert.mp3',     volume: 0.35, loop: true },
+  sulfur_hiss_ambient:    { file: 'audio/bgm/sulfur_hiss_ambient.mp3',    volume: 0.25, loop: true },
+  iron_shovel_rhythm:     { file: 'audio/bgm/iron_shovel_rhythm.mp3',     volume: 0.4, loop: true },
+  coughing_breath_tension:{ file: 'audio/bgm/coughing_breath_tension.mp3',volume: 0.3, loop: true },
+  heavy_load_march:       { file: 'audio/bgm/heavy_load_march.mp3',       volume: 0.45, loop: true },
+  acid_spring_tension:    { file: 'audio/bgm/acid_spring_tension.mp3',    volume: 0.3, loop: true },
+  scale_clink_quiet:      { file: 'audio/bgm/scale_clink_quiet.mp3',      volume: 0.25, loop: true },
+  afar_folk_humming:      { file: 'audio/bgm/afar_folk_humming.mp3',      volume: 0.35, loop: true },
+  desert_silence_stars:   { file: 'audio/bgm/desert_silence_stars.mp3',   volume: 0.2, loop: true },
+
 };

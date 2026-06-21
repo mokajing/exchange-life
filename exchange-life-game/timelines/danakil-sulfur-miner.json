@@ -1,0 +1,186 @@
+{
+  "meta": {
+    "id": "danakil-sulfur-miner",
+    "title": "埃塞俄比亚达纳基尔凹地硫磺矿工的一天",
+    "subtitle": "在地球上最热的有人居住之地，用赤裸双脚和骆驼运送硫磺的地狱矿工",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-17T22:30:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_predawn_wake",
+      "title": "黑暗中醒来",
+      "description": "凌晨3:30，没有电，用星光和手电筒准备行装。妻子默默递上一壶水和两块英吉拉（injera）。这是第7年往返于这片地狱之门。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "你叫Abdi，25岁的阿法尔族牧民转行矿工。凌晨三点半，黑暗中没有电。妻子默默递来一壶水和两块英吉拉面饼。她的沉默比任何话语都沉重。这是你第七年走进那片被称为地狱之门的地方。",
+      "bgmTag": "ethiopian_krar_dawn",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "出发前，你对妻子？",
+        "options": [
+          { "label": "说一句「我很快就回来」", "response": "她点了点头，眼神里有光。希望是最轻的行囊。" },
+          { "label": "沉默接过水壶转身离开", "response": "你转身时听见门轻轻关上。沉默是你们之间最深的默契。" },
+          { "label": "抱一下她再走", "response": "短暂的拥抱里，你闻到她头发上的烟熏味。柔软是奢侈的。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_02_caravan_depart",
+      "title": "骆驼队出发",
+      "description": "凌晨4:00，与另外5名矿工会合，牵上骆驼，在45°C的余热中出发前往25公里外的采矿区。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.5,
+      "narrativeText": "四点整，六个人，三匹骆驼。地面还残留着白天的45度余温。骆驼铃铛声在黑暗中摇晃，像某种古老的安魂曲。你知道前方是什么，但每次出发都像第一次那样沉重。",
+      "bgmTag": "camel_bells_desert",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_03_fumarole_passage",
+      "title": "穿越硫磺喷气孔",
+      "description": "5:30，经过第一片硫磺喷气孔，地面开始出现黄绿色硫磺晶体，空气变得刺鼻。",
+      "ageRange": { "start": 25 },
+      "category": "travel",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "五点半，第一片喷气孔出现了。黄绿色的硫磺晶体在晨光中闪烁，像外星地表。空气开始刺鼻，每一次呼吸都是提醒：你正在进入地球最不像地球的地方。",
+      "bgmTag": "sulfur_hiss_ambient",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_mining_start",
+      "title": "开始撬矿",
+      "description": "6:30，抵达采矿区，太阳刚从地平线升起，地表温度已升至48°C。用铁锹从硫磺沉积层中撬下每块重约20-30公斤的矿石。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.8,
+      "narrativeText": "六点三十，太阳升起。地表温度四十八度。铁锹插进硫磺层，撬。撬。撬。每一块二十到三十公斤。没有手套，没有护目镜，只有头巾蒙住口鼻。汗水流进眼睛，刺痛，但你不能停。",
+      "bgmTag": "iron_shovel_rhythm",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "看到一位老矿工咳嗽不止，你？",
+        "options": [
+          { "label": "把自己的水给他喝一口", "response": "他接过水壶，眼神里有感激。你的体力在流失，但心里多了点什么。" },
+          { "label": "劝他今天少背一块", "response": "他摇头苦笑，但还是放下了最小的一块。关心有时比水更解渴。" },
+          { "label": "继续自己的活", "response": "你低下头继续撬矿。孤独是这里的常态，但今天它格外沉重。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_toxic_gas_peak",
+      "title": "毒气峰值时刻",
+      "description": "8:00，毒气浓度达到峰值，每个人都用头巾蒙住口鼻但无济于事，咳嗽声此起彼伏。",
+      "ageRange": { "start": 25 },
+      "category": "health",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "八点。毒气最浓的时候。头巾没用，什么都没用。咳嗽声从四面八方传来，像一场没有观众的合唱。肺部在抗议，但你不能停下。停下来就意味着今天的收入不够买明天的水。",
+      "bgmTag": "coughing_breath_tension",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_load_camels",
+      "title": "装载完成",
+      "description": "10:00，每匹骆驼背4-5块硫磺（约100-150公斤），矿工每人背1块（约25公斤）。准备返程。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "十点。装载完成。每匹骆驼背上四到五块硫磺，一百到一百五十公斤。你自己背一块，二十五公斤压在肩上。重量是真实的，疼痛也是。但至少，今天的劳动有了形状。",
+      "bgmTag": "heavy_load_march",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_07_camel_injury",
+      "title": "骆驼被热泉溅伤",
+      "description": "11:30，返回途中经过酸性热泉区，一匹骆驼的腿被热泉溅伤，需要紧急处理。",
+      "ageRange": { "start": 25 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "十一点半，酸性热泉区。一匹骆驼的腿被溅伤了，它发出低沉的哀鸣。你停下来，用湿布裹住伤口。时间在流逝，地面温度还在升高。但你不能丢下它——它是你的伙伴，不是工具。",
+      "bgmTag": "acid_spring_tension",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "骆驼受伤了，你选择？",
+        "options": [
+          { "label": "停下来仔细处理伤口", "response": "你花了十分钟包扎。回到村庄时已经过了正午，高温让你几乎脱水。但骆驼保住了。" },
+          { "label": "简单处理后继续赶路", "response": "你用湿布匆匆裹了一下就继续走。骆驼跛着跟上了队伍。安全了，但伤口可能会感染。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_08_weigh_settle",
+      "title": "称重结算",
+      "description": "12:30，抵达村庄边缘的收购点，称重结算。今日收入：280比尔（约42元人民币）。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "十二点半，收购点。秤砣落下，数字定格。二百八十比尔。四十二元人民币。这就是你今天的全部——用肺、用脚、用命换来的。你想起城市里一杯咖啡的价格，突然觉得荒诞。",
+      "bgmTag": "scale_clink_quiet",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "拿到今天的收入，你想到了什么？",
+        "options": [
+          { "label": "明天还要再来", "response": "你把钱塞进口袋，摸了摸妻子的头巾。明天凌晨三点半，闹钟还会响。" },
+          { "label": "这值得吗", "response": "你看着手里的钱，又看了看远处的火山。答案在风里，吹散了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_09_evening_khat",
+      "title": "黄昏嚼恰特草",
+      "description": "19:00，黄昏时分，矿工们聚在村口嚼恰特草（khat），用微醺缓解一天的疲惫。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "七点，黄昏。村口，几个人围坐，嚼着恰特草。叶子在嘴里慢慢释放出轻微的兴奋感。对话变得断断续续，笑声也变得柔软。这是一天中最接近平静的时刻。虚假的，但珍贵。",
+      "bgmTag": "afar_folk_humming",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_10_night_silence",
+      "title": "深夜星空下的恐惧",
+      "description": "深夜，躺在星空下，银河横跨天际。光污染为零的极致星空下，是对明天还要再来的无声恐惧。",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.6,
+      "narrativeText": "深夜。你躺在地上，银河就在头顶。没有光污染，星星多得像要掉下来。远处火山发出低沉的轰鸣。很美。但你知道，几个小时后，这一切又会重来。恐惧不是尖叫，是沉默。",
+      "bgmTag": "desert_silence_stars",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_04_mining_start", "evt_05_toxic_gas_peak"],
+    "valleyMoments": ["evt_08_weigh_settle", "evt_10_night_silence"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["extreme_heat", "toxic_environment", "labor_exploitation"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
