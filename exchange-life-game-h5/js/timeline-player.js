@@ -3,16 +3,11 @@
  * 管理事件流转、交互选择、进度追踪
  */
 
-// Renderer 已通过 <script> 标签加载到 window.Renderer
-// TONE_COLORS 延迟获取，避免脚本加载时 Renderer 尚未就绪
-var TONE_COLORS = null;
+const Renderer = require('./renderer');
+const TONE_COLORS = Renderer.TONE_COLORS;
 
 class TimelinePlayer {
   constructor(options) {
-    // 确保 TONE_COLORS 已初始化
-    if (!TONE_COLORS && window.Renderer) {
-      TONE_COLORS = window.Renderer.TONE_COLORS;
-    }
     this.canvas = options.canvas;
     this.ctx = options.ctx;
     this.width = options.width;
@@ -443,5 +438,4 @@ class TimelinePlayer {
   }
 }
 
-// TimelinePlayer 已通过 <script> 标签加载到全局作用域
-window.TimelinePlayer = TimelinePlayer;
+module.exports = TimelinePlayer;
