@@ -836,6 +836,8 @@ const BGM_MAP = {
   silence_then_single_note: { file: 'audio/bgm/silence_then_single_note.mp3', volume: 0.2, loop: false },
   gentle_strings_slow:      { file: 'audio/bgm/gentle_strings_slow.mp3',      volume: 0.3, loop: true },
   urban_night:              { file: 'audio/bgm/urban_night.mp3',              volume: 0.3, loop: true },
+  tension_pulse:            { file: 'audio/bgm/tension_pulse.mp3',            volume: 0.4, loop: true },
+  silence_then_piano:       { file: 'audio/bgm/silence_then_piano.mp3',       volume: 0.2, loop: false },
 };
 
 /**
