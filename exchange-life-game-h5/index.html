@@ -12,9 +12,24 @@
 </head>
 <body>
   <canvas id="gameCanvas"></canvas>
-  <script src="js/renderer.js?v=3"></script>
-  <script src="js/timeline-player.js?v=3"></script>
-  <script src="js/bgm-config.js?v=3"></script>
-  <script src="game.js?v=3"></script>
+  <script src="js/renderer.js?v=7"></script>
+  <script>
+    // 动态加载timeline-player.js，确保Renderer已就绪
+    (function() {
+      var xhr = new XMLHttpRequest();
+      xhr.open('GET', 'js/timeline-player.js?v=' + Date.now(), false); // 同步加载
+      xhr.send();
+      if (xhr.status === 200) {
+        try {
+          new Function('Renderer', xhr.responseText)(window.Renderer);
+          console.log('[Loader] TimelinePlayer loaded:', typeof window.TimelinePlayer);
+        } catch(e) {
+          console.error('[Loader] TimelinePlayer load error:', e.message);
+        }
+      }
+    })();
+  </script>
+  <script src="js/bgm-config.js?v=7"></script>
+  <script src="game.js?v=7"></script>
 </body>
 </html>
