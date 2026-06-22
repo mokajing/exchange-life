@@ -828,6 +828,14 @@ const BGM_MAP = {
   scale_clink_quiet:      { file: 'audio/bgm/scale_clink_quiet.mp3',      volume: 0.25, loop: true },
   afar_folk_humming:      { file: 'audio/bgm/afar_folk_humming.mp3',      volume: 0.35, loop: true },
   desert_silence_stars:   { file: 'audio/bgm/desert_silence_stars.mp3',   volume: 0.2, loop: true },
+  // === 记忆原片鉴定师 + 法援律师专用标签 (2026-06-22) ===
+  lo_fi_electronic:         { file: 'audio/bgm/lo_fi_electronic.mp3',         volume: 0.3, loop: true },
+  melancholic_piano:        { file: 'audio/bgm/melancholic_piano.mp3',        volume: 0.35, loop: true },
+  ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',             volume: 0.25, loop: true },
+  tense_strings:            { file: 'audio/bgm/tense_strings.mp3',            volume: 0.4, loop: true },
+  silence_then_single_note: { file: 'audio/bgm/silence_then_single_note.mp3', volume: 0.2, loop: false },
+  gentle_strings_slow:      { file: 'audio/bgm/gentle_strings_slow.mp3',      volume: 0.3, loop: true },
+  urban_night:              { file: 'audio/bgm/urban_night.mp3',              volume: 0.3, loop: true },
 };
 
 /**
