@@ -163,7 +163,7 @@ App({
     this.globalData = {
       currentTimeline: null,
       playerChoices: [],
-      unlockedTimelines: ['delivery-rider-first-day'], // 默认解锁第一个
+      unlockedTimelines: ['adhd-woman-workplace-masking'], // 默认解锁第一个
       totalPlayTime: 0,
       achievementProgress: {}
     };
