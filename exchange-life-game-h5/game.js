@@ -109,6 +109,7 @@ const TIMELINE_LIST = [
   'mediocre-cultivator',
   'meghalaya-living-root-bridge',
   'memory-authenticator-first-month',
+  'memory-authenticator-first-month',
   'memory-freshman-first-month',
   'miao-jie',
   'midlife-crisis-day1',
