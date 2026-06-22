@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "memory-beautifier-authenticator",
+    "title": "记忆美颜滤镜上线——在记忆被自动PS的世界里做一名记忆原片鉴定师的第一个月",
+    "subtitle": "如果连记忆都不再真实，你还能相信什么？",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-23T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "day0-launch",
+      "title": "Day 0·记忆美颜滤镜全球上线",
+      "description": "NeuroGlow公司发布记忆美颜脑机接口滤镜，所有人的自传体记忆在存储时自动被AI美化。98%用户在48小时内开通。你的记忆原片鉴定所挂牌，第一位客户上门。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "2027年3月15日，NeuroGlow的记忆美颜滤镜全球同步上线。你吵过的架变成'深度沟通'，被拒绝的表白变成'浪漫的错过'。98%的人在48小时内开通了滤镜。你没有。你的鉴定所在一条老巷子里挂牌，第一位客户是个中年女性，她说：'我好像从来没有跟任何人吵过架。'",
+      "bgmTag": "lo_fi_electronic",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对第一位客户……",
+        "options": [
+          { "label": "直接开始鉴定，用专业说话", "response": "你打开设备，让她坐下。'我们先看看原始数据。'你的语气平静得像在读一份报告。" },
+          { "label": "先聊聊，了解她为什么来", "response": "'您是什么时候发现自己没有吵架记忆的？'你倒了杯茶递给她。她的眼神里有一种说不清的空洞。" }
+        ]
+      }
+    },
+    {
+      "id": "day3-business-boom",
+      "title": "Day 3-5·业务爆发与母女裂痕",
+      "description": "每天30+客户排队。一位母亲发现滤镜把她对女儿说的狠话美颜成了支持的话，女儿三年不跟她说话，但在记忆里她们关系很好。",
+      "ageRange": { "start": 28 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第三天起，门口排起了队。最让你心痛的是那位母亲。滤镜把她当年说的'你考不上大学就去打工'美颜成了'妈妈永远支持你的选择'。女儿已经三年没跟她说话了，但在她的记忆里，母女关系一直很好。她看着恢复的原片，眼泪砸在设备上。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "这位母亲的记忆原片……",
+        "options": [
+          { "label": "完整展示原片，真相不能打折", "response": "你把完整的原始记忆投射出来。她看到了自己当年的表情、语气、每一个字。痛，但真实。" },
+          { "label": "先做心理缓冲，再逐步展示", "response": "你先让她深呼吸三次，然后从最不伤人的片段开始。有些真相需要慢慢接住。" }
+        ]
+      }
+    },
+    {
+      "id": "day7-tech-breakthrough",
+      "title": "Day 7-10·梦境回溯引导法",
+      "description": "发现大脑杏仁核在REM睡眠期会短暂绕过滤镜存储原始副本。开发出梦境回溯引导法，通过特定音频刺激唤醒原始记忆。",
+      "ageRange": { "start": 28 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第七天凌晨三点，你在实验室里发现了突破口。杏仁核——情绪记忆的中枢——在REM睡眠期会短暂绕过NeuroGlow的滤镜，偷偷存下一份原始副本。你用特定的音频频率刺激，像钥匙一样打开了那扇被锁住的门。第一份完整的原始记忆恢复了。",
+      "bgmTag": "ambient_rain",
+      "visualTone": "dark"
+    },
+    {
+      "id": "day14-lawsuit",
+      "title": "Day 14-18·诉讼与伦理风暴",
+      "description": "NeuroGlow法务部起诉你非法破解专利技术。反滤镜地下组织联系你要求合作批量恢复社会真相，你拒绝了。",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "律师函比客户来得更快。NeuroGlow说你'非法破解专利技术'。同时，一个叫'记忆原教旨主义'的组织找上门，要你帮他们恢复被美化的政府丑闻和企业黑幕。你拒绝了。你不是革命者，你只是一个想让人们记住真实的人。",
+      "bgmTag": "tension_pulse",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对双重压力……",
+        "options": [
+          { "label": "坚持独立立场，谁也不站", "response": "你关上门，继续做你的事。你不是任何人的棋子，你只是记忆的守夜人。" },
+          { "label": "考虑和解，保存实力再说", "response": "你约了NeuroGlow的律师见面。有时候退一步不是认输，是为了走得更远。" }
+        ]
+      }
+    },
+    {
+      "id": "day22-old-colleague",
+      "title": "Day 22-25·老张的冤案记忆",
+      "description": "前同事刑警老张来访，需要恢复一段被美颜的办案记忆。找回原片后发现冤案真凶另有其人，但老张也必须面对自己选择性忽视的愧疚。",
+      "ageRange": { "start": 28 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "老张是你当刑警时的搭档。他来找你恢复一段办案记忆——那段记忆里有个关键证据被他潜意识模糊了。原片恢复后，他发现那起冤案的真正凶手不是系统记录的那个人。但他也看到了自己当年'选择性忽视'的瞬间。不是AI美颜了他的记忆，是他自己选择了不看。",
+      "bgmTag": "somber_piano",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "老张面对自己的逃避……",
+        "options": [
+          { "label": "陪他一起看完所有原片", "response": "你坐在他旁边，一言不发地陪他看完了全部。有些真相需要有人陪着才能承受。" },
+          { "label": "给他空间，让他自己消化", "response": "你走出房间，把门轻轻带上。有些面对，只能一个人完成。" }
+        ]
+      }
+    },
+    {
+      "id": "day28-final-choice",
+      "title": "Day 28-30·终极抉择",
+      "description": "NeuroGlow提出和解：关闭鉴定所换取不被起诉。全球美颜依赖症爆发，抑郁症确诊率上升340%。你面临最终选择。",
+      "ageRange": { "start": 28 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "第28天，NeuroGlow的和解协议放在桌上。关掉鉴定所，一切既往不咎。与此同时，新闻里说全球美颜依赖症爆发，抑郁症确诊率飙升340%。越来越多人无法接受未经美颜的现实。你是继续做记忆原片的守夜人，还是接受'善意的谎言就是善意'这个逻辑？",
+      "bgmTag": "silence_then_piano",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "你的最终选择是……",
+        "options": [
+          { "label": "继续做记忆原片的守夜人", "response": "你把和解协议推回去。真相让人痛苦，但没有真相的世界更可怕。鉴定所的灯还亮着。" },
+          { "label": "接受和解，但保留地下业务", "response": "你签了字，关掉了招牌。但巷子深处，还有一扇门为需要真相的人留着。" },
+          { "label": "接受和解，彻底放下", "response": "你签了字，关了灯。也许这个世界需要的不是真相，而是学会和不完美的记忆共处。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallShape": "complex",
+    "peakMoment": "day22-old-colleague",
+    "valleyMoment": "day28-final-choice",
+    "resolution": "open",
+    "summary": "从好奇到困惑，从愤怒到无力，最终在真相与善意之间做出属于自己的选择。这不是一个关于对错的故事，而是一个关于'我们愿意承受多少真实'的追问。"
+  }
+}
