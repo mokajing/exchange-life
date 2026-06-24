@@ -1,6 +1,6 @@
 /**
  * 交换人生 - H5版本入口
- * 使用标准Web API替代微信小游戏API
+ * Phase 1: 入场仪式 + 音频解锁 + 暂停安全按钮
  */
 
 // === wx API polyfill for H5 ===
@@ -30,6 +30,33 @@ const wx = {
 
 // Make wx globally available for shared modules
 window.wx = wx;
+
+// Phase 1: Audio context unlock state
+let _audioUnlocked = false;
+let _audioCtx = null;
+
+/**
+ * Phase 1: Unlock AudioContext for iOS autoplay restriction
+ */
+function unlockAudio() {
+  if (_audioUnlocked) return;
+  try {
+    if (!_audioCtx) {
+      _audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+    }
+    if (_audioCtx.state === 'suspended') {
+      _audioCtx.resume().then(() => {
+        _audioUnlocked = true;
+        console.log('[Audio] AudioContext unlocked');
+      }).catch(() => {});
+    } else {
+      _audioUnlocked = true;
+    }
+  } catch (e) {
+    console.warn('[Audio] AudioContext not available:', e.message);
+    _audioUnlocked = true; // Mark as done to avoid retrying
+  }
+}
 
 // Timeline故事列表（按安全等级排序，L1优先）
 const TIMELINE_LIST = [
@@ -193,12 +220,134 @@ let player = null;
 // Load timeline data (H5 uses fetch instead of require)
 async function init() {
   try {
-    // 显示故事选择界面
-    showStorySelector();
+    // Phase 1: Show intro ceremony before story selector
+    showIntroCeremony();
   } catch (err) {
     console.error('初始化失败:', err);
     document.body.innerHTML = '<div style="color:#fff;padding:40px;font-size:18px;">加载失败，请确保通过HTTP服务器访问（非file://协议）</div>';
   }
+}
+
+/**
+ * Phase 1: 入场仪式页面 - 呼吸引导 + 音频提示
+ */
+function showIntroCeremony() {
+  const canvas = document.getElementById('gameCanvas');
+  const ctx = canvas.getContext('2d');
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+
+  let breathPhase = 0;
+  let animId = null;
+  let fadeInAlpha = 0;
+
+  function renderCeremony() {
+    const w = canvas.width;
+    const h = canvas.height;
+
+    // Black background
+    ctx.fillStyle = '#000000';
+    ctx.fillRect(0, 0, w, h);
+
+    // Breathing light dot animation
+    breathPhase += 0.02;
+    const breathCycle = Math.sin(breathPhase) * 0.5 + 0.5; // 0→1
+    const radius = 20 + breathCycle * 30;
+    const glowAlpha = 0.1 + breathCycle * 0.25;
+
+    // Outer glow
+    const gradient = ctx.createRadialGradient(w / 2, h / 2 - 40, 0, w / 2, h / 2 - 40, radius * 3);
+    gradient.addColorStop(0, `rgba(255, 255, 255, ${glowAlpha})`);
+    gradient.addColorStop(0.5, `rgba(200, 200, 220, ${glowAlpha * 0.3})`);
+    gradient.addColorStop(1, 'rgba(0, 0, 0, 0)');
+    ctx.fillStyle = gradient;
+    ctx.fillRect(0, 0, w, h);
+
+    // Core light dot
+    ctx.globalAlpha = 0.3 + breathCycle * 0.4;
+    ctx.fillStyle = '#FFFFFF';
+    ctx.beginPath();
+    ctx.arc(w / 2, h / 2 - 40, radius, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.globalAlpha = 1;
+
+    // Guidance text with fade-in
+    fadeInAlpha = Math.min(1, fadeInAlpha + 0.008);
+    ctx.textAlign = 'center';
+    ctx.globalAlpha = fadeInAlpha * 0.8;
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '18px "PingFang SC", serif';
+    
+    const guideText = '在接下来的几分钟里，你将暂时放下自己……';
+    const guideText2 = '准备好了吗？';
+    ctx.fillText(guideText, w / 2, h / 2 + 40);
+    ctx.fillText(guideText2, w / 2, h / 2 + 68);
+
+    // Audio hint
+    ctx.globalAlpha = fadeInAlpha * 0.5;
+    ctx.fillStyle = '#888888';
+    ctx.font = '14px "PingFang SC", sans-serif';
+    ctx.fillText('🎧 戴上耳机，开始体验', w / 2, h / 2 + 110);
+
+    // Start button
+    const btnW = 180;
+    const btnH = 48;
+    const btnX = (w - btnW) / 2;
+    const btnY = h / 2 + 140;
+    
+    ctx.globalAlpha = fadeInAlpha * 0.9;
+    ctx.fillStyle = 'rgba(255,255,255,0.08)';
+    ctx.beginPath();
+    ctx.roundRect(btnX, btnY, btnW, btnH, 24);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.25)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+    
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '16px "PingFang SC", sans-serif';
+    ctx.fillText('开始体验', w / 2, btnY + btnH / 2 + 6);
+    ctx.globalAlpha = 1;
+
+    animId = requestAnimationFrame(renderCeremony);
+  }
+
+  renderCeremony();
+
+  // Click/touch handler for start button
+  function handleCeremonyClick(e) {
+    const rect = canvas.getBoundingClientRect();
+    const x = (e.clientX || (e.touches && e.touches[0].clientX)) - rect.left;
+    const y = (e.clientY || (e.touches && e.touches[0].clientY)) - rect.top;
+
+    const w = canvas.width;
+    const h = canvas.height;
+    const btnW = 180;
+    const btnH = 48;
+    const btnX = (w - btnW) / 2;
+    const btnY = h / 2 + 140;
+
+    if (x >= btnX && x <= btnX + btnW && y >= btnY && y <= btnY + btnH) {
+      // Phase 1: Unlock audio on first user interaction
+      unlockAudio();
+      
+      // Stop ceremony animation
+      if (animId) cancelAnimationFrame(animId);
+      canvas.removeEventListener('click', handleCeremonyClick);
+      canvas.removeEventListener('touchstart', handleCeremonyTouch);
+      
+      // Transition to story selector
+      showStorySelector();
+    }
+  }
+
+  function handleCeremonyTouch(e) {
+    e.preventDefault();
+    handleCeremonyClick(e);
+  }
+
+  canvas.addEventListener('click', handleCeremonyClick);
+  canvas.addEventListener('touchstart', handleCeremonyTouch, { passive: false });
 }
 
 function showStorySelector() {
@@ -365,6 +514,7 @@ async function loadStory(storyId) {
     // Game loop
     let lastTime = Date.now();
     function gameLoop() {
+      if (!player) return; // Stop loop if player destroyed
       const now = Date.now();
       const dt = (now - lastTime) / 1000;
       lastTime = now;
