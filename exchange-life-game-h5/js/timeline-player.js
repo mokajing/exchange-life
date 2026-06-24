@@ -1,6 +1,6 @@
 /**
  * Timeline播放器 - 数据驱动的沉浸式体验控制器
- * 管理事件流转、交互选择、进度追踪
+ * Phase 1: 打字机变速+停顿 + 暂停安全按钮 + 角色简介支持
  */
 
 const Renderer = require('./renderer');
@@ -15,16 +15,21 @@ class TimelinePlayer {
     this.timeline = options.timeline;
     this.onChoiceCallback = options.onChoice || (() => {});
     this.onCompleteCallback = options.onComplete || (() => {});
+    this.onBackToMenuCallback = options.onBackToMenu || (() => {});
 
     // 渲染器
     this.renderer = new Renderer(this.ctx, this.width, this.height);
 
     // 播放状态
     this.currentEventIndex = 0;
-    this.state = 'idle'; // idle | safety_prompt | typing | waiting | choosing | feedback | echo | complete
+    this.state = 'idle'; // idle | safety_prompt | typing | waiting | choosing | feedback | echo | complete | paused
     this.selectedChoice = -1;
     this.choiceFeedbackTimer = 0;
     this.choiceFeedbackDuration = 3; // 秒
+
+    // Phase 1: 暂停状态
+    this._stateBeforePause = null;
+    this._pauseBreathPhase = 0; // for breathing animation
 
     // PRD V3.0 回响环节状态
     this.echoStep = 0; // 0=渐弱音景 1=身份锚定 2=记录入口 3=温和出口
@@ -35,6 +40,13 @@ class TimelinePlayer {
     this.safetyLevel = (this.timeline.safetyInfo && this.timeline.safetyInfo.complianceLevel) || 'L1';
     this.requiresSafetyPrompt = this.safetyLevel === 'L2' || this.safetyLevel === 'L3' || this.safetyLevel === 'L4';
 
+    // Phase 2: characterProfile support
+    this.characterProfile = (this.timeline.meta && this.timeline.meta.characterProfile) || null;
+    this._profileShown = false;
+
+    // Phase 3: 后果标签系统
+    this._consequenceLabel = null;
+
     // 触摸检测
     this.touchStartY = 0;
     this.touchStartTime = 0;
@@ -44,6 +56,9 @@ class TimelinePlayer {
 
     // 防重复定时器
     this._advanceTimer = null;
+
+    // Phase 1: 暂停按钮区域（右上角）
+    this._pauseBtnRect = { x: 0, y: 0, w: 44, h: 44 };
   }
 
   /**
@@ -56,6 +71,14 @@ class TimelinePlayer {
       this._advanceTimer = null;
     }
     this.currentEventIndex = 0;
+    this._profileShown = false;
+
+    // Phase 2: Show character profile if available before starting
+    if (this.characterProfile && !this._profileShown) {
+      this._showCharacterProfile();
+      return;
+    }
+
     // PRD V2.1: L2+故事开始前显示心理安全提示
     if (this.requiresSafetyPrompt) {
       this.state = 'safety_prompt';
@@ -67,6 +90,27 @@ class TimelinePlayer {
       this.renderer.fadeAlpha = 0;
       this.renderer.fadeTarget = 1;
     }
+  }
+
+  /**
+   * Phase 2: 展示角色简介
+   */
+  _showCharacterProfile() {
+    this._profileShown = true;
+    const profile = this.characterProfile;
+    let profileText = '';
+    if (typeof profile === 'string') {
+      profileText = profile;
+    } else {
+      const name = profile.name || '';
+      const desc = profile.description || profile.bio || '';
+      const age = profile.age ? `，${profile.age}岁` : '';
+      profileText = `即将进入${name}${age}的人生片段。\n\n${desc}\n\n点击开始体验。`;
+    }
+    this.state = 'safety_prompt'; // reuse safety_prompt state for profile display
+    this.renderer.setText(profileText, 0.3);
+    this.renderer.fadeAlpha = 0;
+    this.renderer.fadeTarget = 1;
   }
 
   /**
@@ -87,6 +131,12 @@ class TimelinePlayer {
   update(dt) {
     this.renderer.update(dt);
 
+    // Phase 1: 暂停状态呼吸动画
+    if (this.state === 'paused') {
+      this._pauseBreathPhase += dt * 1.5;
+      return; // Don't update game logic while paused
+    }
+
     // 选择反馈倒计时
     if (this.state === 'feedback') {
       this.choiceFeedbackTimer -= dt;
@@ -99,12 +149,23 @@ class TimelinePlayer {
     if (this.state === 'echo') {
       this._updateEcho(dt);
     }
+
+    // Phase 1: Check if typing finished → transition to waiting/choosing
+    if (this.state === 'typing' && !this.renderer.typing) {
+      this.state = this._hasChoices() ? 'choosing' : 'waiting';
+    }
   }
 
   /**
    * 每帧渲染
    */
   render() {
+    // Phase 1: 暂停界面渲染
+    if (this.state === 'paused') {
+      this._renderPauseScreen();
+      return;
+    }
+
     // echo/complete状态下不渲染event内容，由回响环节自行处理
     if (this.state === 'echo' || this.state === 'complete') {
       const progress = 1;
@@ -137,6 +198,114 @@ class TimelinePlayer {
     if (this.state === 'feedback') {
       this._renderFeedbackOverlay();
     }
+
+    // Phase 1: 渲染暂停按钮（右上角半透明）
+    this._renderPauseButton();
+  }
+
+  /**
+   * Phase 1: 渲染暂停按钮
+   */
+  _renderPauseButton() {
+    const ctx = this.ctx;
+    const btnSize = 44;
+    const margin = 16;
+    const x = this.width - btnSize - margin;
+    const y = margin;
+    
+    // Update rect for hit testing
+    this._pauseBtnRect = { x: x, y: y, w: btnSize, h: btnSize };
+
+    // Semi-transparent circle background
+    ctx.globalAlpha = 0.3;
+    ctx.fillStyle = '#FFFFFF';
+    ctx.beginPath();
+    ctx.arc(x + btnSize / 2, y + btnSize / 2, btnSize / 2, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.globalAlpha = 1;
+
+    // Pause icon (two vertical bars)
+    ctx.fillStyle = '#FFFFFF';
+    ctx.globalAlpha = 0.7;
+    const barW = 4;
+    const barH = 16;
+    const gap = 6;
+    const cx = x + btnSize / 2;
+    const cy = y + btnSize / 2;
+    ctx.fillRect(cx - gap / 2 - barW, cy - barH / 2, barW, barH);
+    ctx.fillRect(cx + gap / 2, cy - barH / 2, barW, barH);
+    ctx.globalAlpha = 1;
+  }
+
+  /**
+   * Phase 1: 渲染暂停界面
+   */
+  _renderPauseScreen() {
+    const ctx = this.ctx;
+    const w = this.width;
+    const h = this.height;
+
+    // Neutral dark background
+    ctx.fillStyle = '#0A0A0A';
+    ctx.fillRect(0, 0, w, h);
+
+    // Breathing circle animation
+    const breathCycle = Math.sin(this._pauseBreathPhase) * 0.5 + 0.5; // 0→1
+    const radius = 30 + breathCycle * 20;
+    const alpha = 0.15 + breathCycle * 0.15;
+
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = '#FFFFFF';
+    ctx.beginPath();
+    ctx.arc(w / 2, h / 2 - 60, radius, 0, Math.PI * 2);
+    ctx.fill();
+    ctx.globalAlpha = 1;
+
+    // Breathing guidance text
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '18px "PingFang SC", sans-serif';
+    ctx.globalAlpha = 0.6 + breathCycle * 0.3;
+    ctx.fillText('深呼吸……', w / 2, h / 2 - 60 + 5);
+    ctx.globalAlpha = 1;
+
+    // Title
+    ctx.fillStyle = '#B0B0B0';
+    ctx.font = '14px "PingFang SC", sans-serif';
+    ctx.fillText('体验已暂停', w / 2, h / 2 + 20);
+
+    // Buttons
+    const btnW = 200;
+    const btnH = 48;
+    const btnGap = 20;
+    const continueY = h / 2 + 60;
+    const exitY = continueY + btnH + btnGap;
+
+    // Continue button
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    this._roundRect(ctx, (w - btnW) / 2, continueY, btnW, btnH, 10);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+    ctx.lineWidth = 1;
+    this._roundRect(ctx, (w - btnW) / 2, continueY, btnW, btnH, 10);
+    ctx.stroke();
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '16px "PingFang SC", sans-serif';
+    ctx.fillText('继续体验', w / 2, continueY + btnH / 2 + 6);
+
+    // Exit button
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    this._roundRect(ctx, (w - btnW) / 2, exitY, btnW, btnH, 10);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+    this._roundRect(ctx, (w - btnW) / 2, exitY, btnW, btnH, 10);
+    ctx.stroke();
+    ctx.fillStyle = '#888888';
+    ctx.fillText('退出到目录', w / 2, exitY + btnH / 2 + 6);
+
+    // Store button rects for hit testing
+    this._pauseContinueBtn = { x: (w - btnW) / 2, y: continueY, w: btnW, h: btnH };
+    this._pauseExitBtn = { x: (w - btnW) / 2, y: exitY, w: btnW, h: btnH };
   }
 
   // === 触摸事件处理 ===
@@ -165,10 +334,34 @@ class TimelinePlayer {
   }
 
   _handleTap(x, y) {
+    // Phase 1: 暂停状态处理
+    if (this.state === 'paused') {
+      this._handlePauseTap(x, y);
+      return;
+    }
+
+    // Phase 1: Check pause button hit (in all active states)
+    if (this._hitTestPauseBtn(x, y)) {
+      this._enterPause();
+      return;
+    }
+
     switch (this.state) {
       case 'safety_prompt':
         // PRD V2.1: 用户确认安全提示后开始体验
-        this._loadEvent(0);
+        // Phase 2: If showing profile, proceed to safety prompt or first event
+        if (this.characterProfile && !this._profileShown) {
+          // Should not happen, but safety fallback
+          this._profileShown = true;
+        }
+        if (this.requiresSafetyPrompt && this._profileShown) {
+          // Profile was shown, now show actual safety prompt
+          this.state = 'safety_prompt';
+          this.renderer.setText(this._getSafetyPromptText(), 0.3);
+          this._profileShown = false; // mark as "safety shown"
+        } else {
+          this._loadEvent(0);
+        }
         break;
 
       case 'typing':
@@ -199,6 +392,8 @@ class TimelinePlayer {
           this.state = 'feedback';
           this.choiceFeedbackTimer = this.choiceFeedbackDuration;
           const feedbackText = this._getFeedbackText(event);
+          // Phase 3: 提取后果标签
+          this._consequenceLabel = this._getConsequenceHint(event);
           // 反馈文本使用中等情绪强度0.5，避免过快或过慢
           this.renderer.setText(feedbackText, 0.5);
         }
@@ -219,6 +414,57 @@ class TimelinePlayer {
         this.start();
         break;
     }
+  }
+
+  /**
+   * Phase 1: 进入暂停状态
+   */
+  _enterPause() {
+    this._stateBeforePause = this.state;
+    this.state = 'paused';
+    this._pauseBreathPhase = 0;
+  }
+
+  /**
+   * Phase 1: 恢复暂停
+   */
+  _resumeFromPause() {
+    if (this._stateBeforePause) {
+      this.state = this._stateBeforePause;
+      this._stateBeforePause = null;
+    } else {
+      this.state = 'waiting';
+    }
+  }
+
+  /**
+   * Phase 1: 暂停界面点击处理
+   */
+  _handlePauseTap(x, y) {
+    // Check continue button
+    if (this._pauseContinueBtn && this._hitRect(x, y, this._pauseContinueBtn)) {
+      this._resumeFromPause();
+      return;
+    }
+    // Check exit button
+    if (this._pauseExitBtn && this._hitRect(x, y, this._pauseExitBtn)) {
+      this.state = 'idle';
+      this._stateBeforePause = null;
+      this.destroy();
+      this.onBackToMenuCallback();
+      return;
+    }
+  }
+
+  /**
+   * Phase 1: 暂停按钮点击检测
+   */
+  _hitTestPauseBtn(x, y) {
+    return this._hitRect(x, y, this._pauseBtnRect);
+  }
+
+  _hitRect(x, y, rect) {
+    return x >= rect.x && x <= rect.x + rect.w && y >= rect.y && y <= rect.y + rect.h;
   }
 
   // === 事件流转逻辑 ===
@@ -246,6 +492,11 @@ class TimelinePlayer {
     this.renderer.setText(narrativeText, event.emotionIntensity);
     if (event.visualTone) {
       this.renderer.setTone(event.visualTone);
+      // Phase 1: Also apply emotion-tone color mapping if available
+      const toneColorMap = Renderer.TONE_COLOR_MAP;
+      if (toneColorMap && toneColorMap[event.visualTone]) {
+        this.renderer.setBackgroundTone(toneColorMap[event.visualTone]);
+      }
     }
 
     this.state = 'typing';
@@ -294,7 +545,32 @@ class TimelinePlayer {
 
   _getFeedbackText(event) {
     if (!event.interactionChoice || this.selectedChoice < 0) return '';
-    return event.interactionChoice.options[this.selectedChoice].response || '';
+    const response = event.interactionChoice.options[this.selectedChoice].response;
+    
+    // Phase 3: 向后兼容 - 支持旧格式(字符串)和新格式(三层对象)
+    if (typeof response === 'string') {
+      return response;
+    }
+    if (response && typeof response === 'object') {
+      const parts = [];
+      if (response.immediateReaction) parts.push(response.immediateReaction);
+      if (response.innerThought) parts.push('\n\n' + response.innerThought);
+      // consequenceHint不在反馈文本中显示，由后果标签系统单独处理
+      return parts.join('');
+    }
+    return '';
+  }
+
+  /**
+   * Phase 3: 获取当前选择的后果提示标签
+   */
+  _getConsequenceHint(event) {
+    if (!event.interactionChoice || this.selectedChoice < 0) return null;
+    const response = event.interactionChoice.options[this.selectedChoice].response;
+    if (response && typeof response === 'object' && response.consequenceHint) {
+      return response.consequenceHint;
+    }
+    return null;
   }
 
   // === 选项点击检测 ===
@@ -351,11 +627,35 @@ class TimelinePlayer {
     ctx.font = '14px "PingFang SC", sans-serif';
     ctx.fillText('点击继续', w / 2, h - 60);
     ctx.globalAlpha = 1;
+
+    // Phase 3: 后果标签 - 灰色小字显示在底部
+    if (this._consequenceLabel) {
+      ctx.globalAlpha = 0.4;
+      ctx.fillStyle = '#999999';
+      ctx.font = '12px "PingFang SC", sans-serif';
+      ctx.fillText(this._consequenceLabel, w / 2, h - 36);
+      ctx.globalAlpha = 1;
+    }
   }
 
   _wrapFeedbackText(ctx, text, maxWidth) {
     // 复用Renderer的_wrapText方法，避免代码重复
     return this.renderer._wrapText(ctx, text, maxWidth);
+  }
+
+  // Utility: roundRect for pause screen
+  _roundRect(ctx, x, y, w, h, r) {
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.lineTo(x + w - r, y);
+    ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+    ctx.lineTo(x + w, y + h - r);
+    ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+    ctx.lineTo(x + r, y + h);
+    ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+    ctx.lineTo(x, y + r);
+    ctx.quadraticCurveTo(x, y, x + r, y);
+    ctx.closePath();
   }
 
   // === PRD V3.0 回响环节 ===
