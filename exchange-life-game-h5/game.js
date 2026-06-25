@@ -94,6 +94,7 @@ const TIMELINE_LIST = [
   'danmu-world',
   'detective-counselor-swap-week',
   'doctor-village-clinic-swap',
+  'dream-archaeologist-first-month',
   'dorm-gender-swap-first-night',
   'dyslexia-exam-week',
   'dyslexia-programmer',

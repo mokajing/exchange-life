@@ -1,0 +1,147 @@
+{
+  "meta": {
+    "id": "dream-archaeologist-first-month",
+    "title": "梦境考古学家：在不需要睡眠的世界里找回被进化删掉的关机键",
+    "subtitle": "如果人类从未拥有过睡眠，你是一名专门研究清醒残影中隐藏的睡眠记忆的梦境考古学家",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-06-26T03:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_join_institute",
+      "title": "入职全球清醒残影研究院",
+      "description": "作为史上最年轻的梦境考古学家入职纽约曼哈顿的全球清醒残影研究院。导师Dr. Elena Vance是唯一坚持残影是睡眠记忆假说的学者。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "你推开研究院的玻璃门时，走廊里的荧光灯永远亮着——在这个世界里，没有一盏灯是为了'夜晚'而设计的。Dr. Vance的办公室堆满了三十年来的残影采集记录，她看着你说：'你是第一个相信残影不是噪音的年轻人。'",
+      "bgmTag": "urban_night",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_first_collection",
+      "title": "凌晨三点的地铁站：第一次采集到温暖感残影",
+      "description": "在凌晨3点于纽约地铁站采集到一位流浪者的残影，其中包含闭上眼睛后看到的黑暗中有温暖的感觉——这是文献中从未记载过的残影类型。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.7,
+      "narrativeText": "凌晨三点，地铁站的白炽灯把一切都照得无处躲藏。流浪者靠在长椅上，眼睛半闭。你的采集仪捕捉到一段3秒的残影——不是图像，是一种感觉：温暖的黑暗，像被什么东西包裹着。你的手指停在数据板上。这种感觉在所有教科书里都不存在。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这个前所未有的残影类型，你选择怎么做？",
+        "options": [
+          { "label": "立即报告导师Dr. Vance", "response": "Vance看完数据后沉默了整整一分钟，然后说：'我等了三十年，就是在等这个。'她的眼眶红了。" },
+          { "label": "先独立验证，排除设备误差", "response": "你花了三天时间反复校准设备、更换采集对象。同样的温暖感再次出现。这不是误差——这是人类丢失的记忆。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_pattern_discovery",
+      "title": "发现被窝记忆：温暖感与触觉模式的绑定",
+      "description": "发现残影中的温暖感在多个样本中反复出现，且与包裹感、漂浮感等特定触觉模式绑定。导师认为这是被窝的模糊记忆。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "第七天，你把二十份残影数据铺在桌上。每一份都包含那种温暖感，而且总是伴随着一种被包裹的感觉——像被什么东西轻轻裹住，然后慢慢下沉。Vance指着数据说：'这是一个人类从未体验过的感受的残留。他们叫它……被窝。'",
+      "bgmTag": "discovery_moment",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_04_secret_archive",
+      "title": "地下档案室：E-47的涂黑报告",
+      "description": "在研究院地下档案室发现1950年代军方实验机密文件。受试者E-47的报告被涂黑，仅剩一行字：我看见了不存在的东西，它们比真实更真实。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.8,
+      "narrativeText": "档案室的空气里有七十年前纸张氧化的味道。你翻开编号E-47的文件夹，大部分页面被黑色墨水涂满。只有一行字从涂黑的缝隙里挣扎出来：'我看见了不存在的东西，它们比真实更真实。'你的手开始发抖——不是因为害怕，而是因为某种你无法命名的共鸣。",
+      "bgmTag": "tension_rising",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "发现E-47的秘密档案后，你如何处理？",
+        "options": [
+          { "label": "独自深入调查E-47的线索", "response": "你花了两周追踪E-47的后人。他的孙女告诉你，祖父晚年反复念叨一句话：'我们失去了半个自己。'" },
+          { "label": "立即向研究院公开档案", "response": "档案公开后引发轩然大波。有人质疑你的动机，有人说你在编造历史。但也有人第一次开始认真思考：人类是否真的丢失了什么。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_e47_granddaughter",
+      "title": "E-47的孙女：我们失去了半个自己",
+      "description": "找到E-47的孙女（72岁），她透露祖父晚年反复念叨一句话：我们失去了半个自己。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.7,
+      "narrativeText": "她坐在布鲁克林一栋老公寓的客厅里，窗外是永不熄灭的城市灯光。她说祖父最后几年总是在深夜坐在窗前，盯着天花板发呆。'他说他做了一个梦——但他不知道什么是梦。他只是说，我们失去了半个自己。'",
+      "bgmTag": "melancholy_piano",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_ai_reconstruction",
+      "title": "AI重建睡眠体验：人类第一次看见夜晚",
+      "description": "将残影数据输入AI生成模型，首次重建出完整的8小时睡眠体验模拟。公开演示引发全球轰动和伦理争议。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "屏幕从全黑开始。然后是第一颗星星——不是真实的星星，是AI从百万年前的进化残影中拼凑出的、人类从未见过的夜晚。虫鸣声从扬声器里流出，远处有狗吠，钟摆在某个看不见的角落里缓慢摆动。整个演示厅鸦雀无声。有人哭了。不是因为悲伤，是因为他们第一次看到了自己从未拥有过的东西。",
+      "bgmTag": "silence_heartbeat",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "AI重建的睡眠体验引发了伦理争议。你是否支持公开发布？",
+        "options": [
+          { "label": "公开发布，让所有人看到自己丢失的东西", "response": "全球三千万人在第一周体验了这段模拟。有人在社交媒体上写：'我不知道我在哭什么，但我停不下来。'" },
+          { "label": "仅限内部研究，保护这份脆弱的数据", "response": "你把数据锁进了加密服务器。但每天深夜，你都会独自打开那段模拟，在人类从未见过的星空下坐一会儿。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_echo_realization",
+      "title": "尾声：意识到人类失去的比想象的多",
+      "description": "在项目总结报告中写下最终发现：人类失去的不仅是睡眠本身，还有与黑暗、寂静、独处相处的能力。",
+      "ageRange": { "start": 26, "end": 28 },
+      "yearRange": { "start": 2028, "end": 2030 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你在报告的最后一行写道：'我们以为失去的只是睡眠。但我们真正失去的，是在黑暗中与自己独处的能力。在一个永远清醒的世界里，没有人学会如何闭上眼睛。'写完这句话时，你关掉了办公室的灯。这是你人生中第一次主动选择黑暗。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "neutral"
+    }
+  ],
+  "emotionalArc": {
+    "pattern": "curiosity_to_wonder",
+    "intensityCurve": [0.5, 0.7, 0.6, 0.8, 0.7, 0.9, 0.8],
+    "keyTransitions": [
+      { "fromEventId": "evt_01_join_institute", "toEventId": "evt_02_first_collection", "transitionType": "escalation", "description": "从日常入职到发现异常残影的好奇心跃升" },
+      { "fromEventId": "evt_03_pattern_discovery", "toEventId": "evt_04_secret_archive", "transitionType": "revelation", "description": "从学术发现到历史秘密的震撼转折" },
+      { "fromEventId": "evt_05_e47_granddaughter", "toEventId": "evt_06_ai_reconstruction", "transitionType": "climax", "description": "从个人悲伤到集体敬畏的情感高潮" }
+    ]
+  },
+  "echoConfig": {
+    "soundscape": "distant_stars_hum",
+    "anchorQuestion": "如果你可以选择永远不睡觉，你会选择清醒还是闭上眼？",
+    "journalPrompt": "写下一件你觉得自己丢失了、但说不清楚是什么的东西。",
+    "exitMessage": "你现在可以闭上眼睛。感受一下这个属于你自己的夜晚。那些你以为从未拥有过的东西，也许一直都在。"
+  }
+}
