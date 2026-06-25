@@ -166,8 +166,8 @@ class TimelinePlayer {
       return;
     }
 
-    // echo/complete状态下不渲染event内容，由回响环节自行处理
-    if (this.state === 'echo' || this.state === 'complete') {
+    // echo状态下不渲染event内容，由回响环节自行处理
+    if (this.state === 'echo') {
       const progress = 1;
       this.renderer.render({
         title: '',
@@ -177,6 +177,12 @@ class TimelinePlayer {
         progress: progress,
         feedbackText: null
       });
+      return;
+    }
+
+    // complete状态渲染专门的结束界面
+    if (this.state === 'complete') {
+      this._renderCompleteScreen();
       return;
     }
 
@@ -410,8 +416,8 @@ class TimelinePlayer {
         break;
 
       case 'complete':
-        // 体验结束，可重新开始
-        this.start();
+        // 体验结束，处理按钮点击
+        this._handleCompleteTap(x, y);
         break;
     }
   }
@@ -711,7 +717,7 @@ class TimelinePlayer {
     } else if (this.echoStep === 3) {
       // 温和出口→complete
       this.state = 'complete';
-      this.renderer.setText('感谢你的陪伴。\n\n点击重新开始。', 0.3);
+      // complete状态由_renderCompleteScreen渲染，无需设置文本
     }
   }
 
@@ -736,6 +742,81 @@ class TimelinePlayer {
   _getGentleExitText() {
     return '每一段人生都值得被温柔对待。\n\n你可以稍后再来，也可以试试其他故事。\n\n不着急，按自己的节奏来。';
   }
+
+  /**
+   * 渲染完成界面（包含重新开始和返回目录按钮）
+   */
+  _renderCompleteScreen() {
+    const ctx = this.ctx;
+    const w = this.width;
+    const h = this.height;
+
+    // 深色背景
+    ctx.fillStyle = '#0A0A0A';
+    ctx.fillRect(0, 0, w, h);
+
+    // 感谢文本
+    ctx.textAlign = 'center';
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '20px "PingFang SC", sans-serif';
+    ctx.fillText('感谢你的陪伴', w / 2, h / 2 - 80);
+
+    ctx.font = '14px "PingFang SC", sans-serif';
+    ctx.fillStyle = '#888888';
+    ctx.fillText('这段人生体验已结束', w / 2, h / 2 - 50);
+
+    // 按钮样式
+    const btnW = 200;
+    const btnH = 48;
+    const btnGap = 20;
+    const restartY = h / 2 + 10;
+    const menuY = restartY + btnH + btnGap;
+
+    // 重新开始按钮
+    ctx.fillStyle = 'rgba(255,255,255,0.1)';
+    this._roundRect(ctx, (w - btnW) / 2, restartY, btnW, btnH, 10);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.3)';
+    ctx.lineWidth = 1;
+    this._roundRect(ctx, (w - btnW) / 2, restartY, btnW, btnH, 10);
+    ctx.stroke();
+    ctx.fillStyle = '#E0E0E0';
+    ctx.font = '16px "PingFang SC", sans-serif';
+    ctx.fillText('重新开始', w / 2, restartY + btnH / 2 + 6);
+
+    // 返回目录按钮
+    ctx.fillStyle = 'rgba(255,255,255,0.05)';
+    this._roundRect(ctx, (w - btnW) / 2, menuY, btnW, btnH, 10);
+    ctx.fill();
+    ctx.strokeStyle = 'rgba(255,255,255,0.15)';
+    this._roundRect(ctx, (w - btnW) / 2, menuY, btnW, btnH, 10);
+    ctx.stroke();
+    ctx.fillStyle = '#888888';
+    ctx.fillText('返回目录', w / 2, menuY + btnH / 2 + 6);
+
+    // 存储按钮区域用于点击检测
+    this._completeRestartBtn = { x: (w - btnW) / 2, y: restartY, w: btnW, h: btnH };
+    this._completeMenuBtn = { x: (w - btnW) / 2, y: menuY, w: btnW, h: btnH };
+  }
+
+  /**
+   * 完成界面点击处理
+   */
+  _handleCompleteTap(x, y) {
+    // 检查重新开始按钮
+    if (this._completeRestartBtn && this._hitRect(x, y, this._completeRestartBtn)) {
+      this.start();
+      return;
+    }
+    // 检查返回目录按钮
+    if (this._completeMenuBtn && this._hitRect(x, y, this._completeMenuBtn)) {
+      this.state = 'idle';
+      this.destroy();
+      this.onBackToMenuCallback();
+      return;
+    }
+  }
+
 }
 
 module.exports = TimelinePlayer;
