@@ -74,6 +74,7 @@ const TIMELINE_LIST = [
   'aymara-weaver',
   'bankrupt-heir-waiter',
   'benin-bronze-caster',
+  'bhutan-thangka-painter',
   'bianjing-night-market',
   'bomb-disposal-officer',
   'bullet-train-mechanic',
