@@ -1,0 +1,159 @@
+{
+  "meta": {
+    "id": "bhutan-thangka-painter",
+    "title": "不丹廷布最后一代手工唐卡画师",
+    "subtitle": "在喜马拉雅山麓的寺院画室里，用矿物颜料和千年度量经守护即将被数字印刷取代的佛教视觉经典",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-06-25T18:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_dawn_prep",
+      "title": "清晨净化：燃香诵经研磨颜料",
+      "description": "06:00在廷布山谷寺院单人禅房醒来，燃香诵《心经》三遍。07:00开始研磨孔雀石、青金石、朱砂等矿物颜料，每种需手磨40分钟以上。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2026 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "晨光穿过木窗，照亮了工作台上散落的矿石。他拿起一块阿富汗青金石，放入石臼中缓慢研磨。沙沙声在寂静的画室里回荡，像一种古老的祷告。四十年了，这个动作从未改变——手指的力度、研磨的节奏、矿石从粗粝到细腻的渐变，都是身体记住的经文。",
+      "bgmTag": "monastery_morning_chant",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_thangka_drawing",
+      "title": "绘制绿度母：指甲盖上的莲花",
+      "description": "按《度量经》比例起稿上色，今日绘制绿度母的背光。每一层颜色需等待前一层完全干透。今天只画了度母左手第三指的指甲盖，用了四种颜色。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2026 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "他用最细的笔尖蘸取第四种绿色，屏住呼吸，在度母左手无名指的指甲盖上点下一朵肉眼几乎看不见的莲花。没有人会看到这朵莲花。全世界78亿人中，看到这一笔的只有他自己。但他知道它在那里——就像佛陀知道每一粒尘埃的重量。",
+      "bgmTag": "thangka_painting_focus",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对表哥'打印只要三分钟'的微信，你如何回应？",
+        "options": [
+          { "label": "回复'你说得对，但我还是要画'", "response": "表哥发来长篇大论劝你'醒醒吧'。你关掉手机，继续研磨手中的孔雀石。有些话不需要说服别人，只需要说服自己的手。" },
+          { "label": "打字又删除，反复三次，最终什么也没发", "response": "沉默有时候比语言更有力量。你把手机翻过来扣在桌上，重新拿起画笔。窗外的风铃响了，像是某种回答。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_master_critique",
+      "title": "老师父的三个字：太急了",
+      "description": "83岁的Lopon Dorji拄着拐杖走进画室，坐在身后看了20分钟，只说了三个字：'太急了'。然后离开。这是师父这辈子对他说过最多的一句话。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "拐杖敲击木地板的声音由远及近。他没有回头，但背脊自动挺直了。老师父在他身后坐下，沉默地看了二十分钟。然后三个字落在空气里：'太急了。'脚步声远去。他放下笔，闭上眼睛。四十年前师父第一次说这三个字时，他以为是在说画。现在他知道，师父说的是命。",
+      "bgmTag": "silence_after_words",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "听到'太急了'之后，你选择怎么做？",
+        "options": [
+          { "label": "放慢呼吸，重新开始这一笔", "response": "你深吸一口气，用绸布擦掉刚才画的线条。重新蘸色，重新落笔。这一次，你的手慢得像石头生长。" },
+          { "label": "继续画完这一笔，明天再改", "response": "你知道师父是对的，但今天的进度不能停。你把这句话收进心里，像收进一个永远打不开的抽屉。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_digital_threat",
+      "title": "数字冲击：三分钟vs三个月",
+      "description": "廷布市中心开了第一家佛教艺术数字打印店，UV打印机在画布上打印唐卡，售价是手工唐卡的1/20，交货时间从3个月缩短到3分钟。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2023, "end": 2026 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "anger",
+      "emotionIntensity": 0.7,
+      "narrativeText": "表哥的打印店就在市中心最繁华的街上。他路过时看到橱窗里挂着一幅'唐卡'——颜色鲜艳，线条精准，和他画的一模一样。但那是机器在三分钟内吐出来的。他在日记本上用力写下：'如果唐卡可以打印，那佛陀为什么不直接复印出来？'墨水洇透了纸背，像一滴无法收回的眼泪。",
+      "bgmTag": "digital_vs_traditional_tension",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_05_government_order",
+      "title": "王室订单被砍：选择了数字打印版",
+      "description": "不丹王室委托他绘制一幅释迦牟尼佛传唐卡用于国家博物馆，但预算被砍，最后选择了数字打印版本。这是对他技艺的官方否定。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2025, "end": 2026 },
+      "category": "loss",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "消息传来那天，他正在研磨一批新的青金石。手里的石杵停在半空，悬了很久。国家博物馆要的是'看起来像唐卡的东西'，不是'唐卡本身'。他把石杵轻轻放回石臼，继续研磨。矿石不会说谎，它只是变成粉末，然后变成颜色，然后变成一幅不会被选择的画。",
+      "bgmTag": "loss_and_continuation",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_06_young_monk",
+      "title": "唯一弟子：学了两个月后想用iPad",
+      "description": "一个19岁的年轻僧人表达了学艺意愿，但学了两个月后说'太慢了，我可以用iPad画吗'。他沉默地拒绝了。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2025, "end": 2026 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "年轻人的眼睛里有光，但那光是屏幕的光，不是油灯的光。他说'太慢了'的时候，语气像在抱怨网速。他没有生气，只是把《度量经》手抄本从柜子里拿出来，放在桌上。'我不收你为徒，'他说，'但你可以看。如果有一天你想学，我还在。'门关上后，他在黑暗中坐了很久。传承不一定是手把手，也可以是留一扇门。",
+      "bgmTag": "door_left_open",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "面对年轻僧人的请求，你如何选择传承方式？",
+        "options": [
+          { "label": "严格按传统方式教学（三年后才能碰画笔）", "response": "你选择了最严格的路。年轻人两个月后离开了。你看着空荡荡的画室，知道这条路可能真的走到了尽头。" },
+          { "label": "不收徒，但把《度量经》借给他看", "response": "你选择了留一扇门。年轻人拍了照片发到网上，有人评论'这才是真正的匠心'。你不知道这算不算传承，但至少，经书没有被锁在柜子里。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_realization",
+      "title": "黎明释然：不是守护唐卡，是唐卡在守护我",
+      "description": "第二天清晨研磨孔雀石时，矿石在石臼中发出细微的沙沙声，他突然意识到——这不是我在守护唐卡，是唐卡在守护我。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2026, "end": 2026 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "矿石在石臼中发出细微的沙沙声，像一句迟到了四十年的回答。他忽然明白了：不是他在守护唐卡，是唐卡在守护他。守护他在快的世界里做一件慢的事的权利，守护他不被效率吞噬的尊严，守护他作为一个人的、完整的、不被压缩的时间。",
+      "bgmTag": "epiphany_gentle_strings",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_evening_prayer",
+      "title": "晚课：唯一一个还在画唐卡的僧人",
+      "description": "18:00在寺院大殿与其他7位僧人一起诵经。他是唯一一个还在画唐卡的。21:00在日记本上用宗卡语写下今天的记录。",
+      "ageRange": { "start": 55, "end": 60, "fuzzy": true },
+      "yearRange": { "start": 2020, "end": 2026 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "诵经声在大殿中回荡，七个声音汇成一条河流。他的声音在其中，但他的双手还沾着颜料的痕迹。回到禅房后，他在日记本上用宗卡语写下：'今天画了度母左手第三指的指甲盖。用了四种颜色。Nobody will ever see this fingernail. But the Buddha will.'窗外，喜马拉雅的夜风吹过松林，像一首没有终点的歌。",
+      "bgmTag": "night_wind_himalaya",
+      "visualTone": "dark"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "serene",
+    "peakMoments": ["evt_03_master_critique", "evt_05_government_order"],
+    "valleyMoments": ["evt_07_realization"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}

@@ -838,6 +838,16 @@ const BGM_MAP = {
   urban_night:              { file: 'audio/bgm/urban_night.mp3',              volume: 0.3, loop: true },
   tension_pulse:            { file: 'audio/bgm/tension_pulse.mp3',            volume: 0.4, loop: true },
   silence_then_piano:       { file: 'audio/bgm/silence_then_piano.mp3',       volume: 0.2, loop: false },
+
+  // === 不丹唐卡画师专用标签 (2026-06-25 P0第759卷) ===
+  monastery_morning_chant:    { file: 'audio/bgm/monastery_morning_chant.mp3',    volume: 0.25, loop: true },
+  thangka_painting_focus:     { file: 'audio/bgm/thangka_painting_focus.mp3',     volume: 0.3, loop: true },
+  silence_after_words:        { file: 'audio/bgm/silence_after_words.mp3',        volume: 0.2, loop: false },
+  digital_vs_traditional_tension: { file: 'audio/bgm/digital_vs_traditional_tension.mp3', volume: 0.35, loop: true },
+  loss_and_continuation:      { file: 'audio/bgm/loss_and_continuation.mp3',      volume: 0.3, loop: true },
+  door_left_open:             { file: 'audio/bgm/door_left_open.mp3',             volume: 0.25, loop: true },
+  epiphany_gentle_strings:    { file: 'audio/bgm/epiphany_gentle_strings.mp3',    volume: 0.35, loop: false },
+  night_wind_himalaya:        { file: 'audio/bgm/night_wind_himalaya.mp3',        volume: 0.25, loop: true },
 };
 
 /**
