@@ -134,6 +134,62 @@ class SFXEngine {
   }
 
   /**
+   * Phase 3 P1: 播放记忆闪回音效(高频清脆音+短暂回响)
+   */
+  playMemoryFlash() {
+    if (!this.enabled || !this.audioCtx) return;
+    
+    // 主音：高频正弦波(800Hz)
+    const osc1 = this.audioCtx.createOscillator();
+    const gain1 = this.audioCtx.createGain();
+    osc1.type = 'sine';
+    osc1.frequency.setValueAtTime(800, this.audioCtx.currentTime);
+    
+    gain1.gain.setValueAtTime(0, this.audioCtx.currentTime);
+    gain1.gain.linearRampToValueAtTime(0.15, this.audioCtx.currentTime + 0.05);
+    gain1.gain.exponentialRampToValueAtTime(0.001, this.audioCtx.currentTime + 0.6);
+    
+    osc1.connect(gain1);
+    gain1.connect(this.audioCtx.destination);
+    osc1.start(this.audioCtx.currentTime);
+    osc1.stop(this.audioCtx.currentTime + 0.6);
+    
+    // 回响：延迟的低频泛音(400Hz)
+    const osc2 = this.audioCtx.createOscillator();
+    const gain2 = this.audioCtx.createGain();
+    osc2.type = 'triangle';
+    osc2.frequency.setValueAtTime(400, this.audioCtx.currentTime + 0.1);
+    
+    gain2.gain.setValueAtTime(0, this.audioCtx.currentTime + 0.1);
+    gain2.gain.linearRampToValueAtTime(0.08, this.audioCtx.currentTime + 0.15);
+    gain2.gain.exponentialRampToValueAtTime(0.001, this.audioCtx.currentTime + 0.8);
+    
+    osc2.connect(gain2);
+    gain2.connect(this.audioCtx.destination);
+    osc2.start(this.audioCtx.currentTime + 0.1);
+    osc2.stop(this.audioCtx.currentTime + 0.8);
+    
+    // 跟踪节点
+    this.oscillatorNodes.push(osc1, osc2);
+    this.gainNodes.push(gain1, gain2);
+    
+    setTimeout(() => {
+      [osc1, osc2].forEach(osc => {
+        const idx = this.oscillatorNodes.indexOf(osc);
+        if (idx !== -1) {
+          this.oscillatorNodes.splice(idx, 1);
+        }
+      });
+      [gain1, gain2].forEach(gain => {
+        const idx = this.gainNodes.indexOf(gain);
+        if (idx !== -1) {
+          this.gainNodes.splice(idx, 1);
+        }
+      });
+    }, 900);
+  }
+
+  /**
    * 停止所有正在播放的音效
    */
   stopAll() {

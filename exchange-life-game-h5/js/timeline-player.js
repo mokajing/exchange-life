@@ -417,6 +417,10 @@ class TimelinePlayer {
               eventId: event.id
             });
             console.log('[Memory] Recorded fragment:', chosenOption.memoryKeyword);
+            // Phase 3 P1: 触发记忆闪回音效
+            if (this.sfxEngine && typeof this.sfxEngine.playMemoryFlash === 'function') {
+              this.sfxEngine.playMemoryFlash();
+            }
           }
           
           // 显示反馈文本（保持情感节拍器节奏）
