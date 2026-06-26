@@ -110,6 +110,7 @@ const TIMELINE_LIST = [
   'firefighter-obstetrician-swap',
   'fireworks-master-last-show',
   'first-peer-obituary',
+  'fund-manager-kindergarten-swap-week',
   'funeral-ceremony-host',
   'gaokao-100days',
   'gaokao-30days',

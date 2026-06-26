@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "id": "fund-manager-kindergarten-swap-week",
+    "title": "男基金经理与女幼师互换身体的一周",
+    "subtitle": "在「资本」与「童真」被赋予截然不同性别编码的领域里，重新理解「价值」的两种定义",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-06-27T06:00:00+08:00",
+    "version": 1,
+    "characterProfile": {
+      "name": "陆远 / 林小禾",
+      "age": "34 / 29",
+      "description": "管理87亿规模的男基金经理与市第一幼儿园大班主班老师互换身体的一周体验"
+    }
+  },
+  "events": [
+    {
+      "id": "evt_01_swap_morning",
+      "title": "身体互换的清晨",
+      "description": "基金经理陆远在晨会前发现自己变成了幼师林小禾的身体，而林小禾则穿着定制西装手拿Bloomberg终端出现在幼儿园门口。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "crisis",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你睁开眼，看到的不是熟悉的卧室天花板，而是一张贴满星星贴纸的粉色墙壁。\n\n你的手——不，这不是你的手。纤细、指甲修剪得圆润整齐，手腕上戴着一只卡通小熊手表。\n\n手机响了。屏幕上显示「幼儿园园长」。\n\n与此同时，在城市另一端的公寓里，一个穿着你定制西装的女人正对着镜子里你的脸发出尖叫。",
+      "bgmTag": "tense_buildup",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_02_first_day_chaos",
+      "title": "第一天：系统过载",
+      "description": "陆远第一次带班面对25个孩子同时喊老师时的崩溃；林小禾在投决会用'给你贴小红花'回应分析师提问。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "25个孩子同时向你涌来。「老师老师老师老师——」\n\n你试图用番茄工作法管理班级。10分钟后，3个在哭，2个在打架，1个把蜡笔塞进了鼻孔。\n\n你第一次理解了什么叫「信息过载」——不是10个分析师同时报数据的那种，而是25种完全不同的需求同时炸开的那种。\n\n而在城市的另一端，林小禾坐在投决会的长桌尽头。当分析师问她「对这只票怎么看」时，她脱口而出：「你再这样我要给你贴小红花了。」\n\n全场沉默了三秒。然后有人笑了。",
+      "bgmTag": "driving_beat",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对混乱的教室，你会怎么做？",
+        "options": [
+          { "label": "用基金经理的冷静分析每个孩子的需求优先级", "response": "你拿出笔记本，开始画矩阵图。但孩子们不会等你画完——他们只需要一个拥抱。" },
+          { "label": "放弃管理思维，蹲下来和他们平视", "response": "当你蹲到和他们一样高的时候，哭声渐渐小了。原来视角的高度，决定了沟通的温度。" },
+          { "label": "打电话求助林小禾", "response": "电话那头传来交易大厅的噪音。她说：'我现在连K线图都看不懂，但我发现你们班的朵朵连续三天穿同一件外套。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_duoduo_coat",
+      "title": "朵朵的外套",
+      "description": "陆远发现班里有个叫朵朵的女孩连续三天穿同一件外套，用基金经理的尽调能力查到她妈妈在住院。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第三天，你注意到朵朵又穿了那件洗得发白的粉色外套。\n\n你用做尽职调查的方式去了解——不是直接问，而是观察、记录、交叉验证。\n\n午饭时朵朵吃得最快，因为饿了。午睡时她不脱外套，因为里面没有换洗衣服。放学时没有人来接她，奶奶走路来的，背有点驼。\n\n你查到了：朵朵的妈妈在市三院住院，爸爸在外地打工寄钱回来。奶奶每天走40分钟来接她。\n\n你悄悄联系了社区帮扶中心。这一次，你不是在管理资产，你是在守护一个人。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你想为朵朵做些什么？",
+        "options": [
+          { "label": "用自己的钱给朵朵买新衣服", "response": "但你意识到这不是钱的问题。她需要的不是一件新外套，而是一个不用穿旧外套也不会被嘲笑的环境。" },
+          { "label": "发动全班同学一起关心朵朵", "response": "你说：'每个人都有需要帮助的时候。今天我们帮朵朵，明天可能就是你。'25个孩子安静地点头。" },
+          { "label": "联系朵朵的爸爸让他回来", "response": "电话那头沉默了很久。他说：'我也想回来，但回来的路费够她妈住三天院。'" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_female_analyst",
+      "title": "被忽视的女分析师",
+      "description": "林小禾在男性主导的金融职场中发现女分析师被系统性忽视，用幼师的公平发言原则打破偏见。",
+      "ageRange": { "start": 29, "end": 29 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.6,
+      "narrativeText": "林小禾在你的身体里参加了三次会议。每次她都注意到同一个现象：那个叫陈薇的女分析师提出的策略，总是被跳过或被男同事用不同的话重复一遍后获得认可。\n\n她在幼儿园学到的第一件事就是：让每个人都有机会说话。\n\n于是在投决会上，她点名：「陈薇，你刚才想说什么？请完整地说一遍。」\n\n陈薇愣了两秒，然后说出了被压了三个月的策略。会议室安静了。\n\n那个策略后来被证明是当年最成功的投资决策之一。",
+      "bgmTag": "determined_march",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "面对职场中的性别偏见，你会怎么做？",
+        "options": [
+          { "label": "像幼师一样点名让每个人发言", "response": "简单的规则改变了一切。有时候公平不需要宏大的制度变革，只需要一个愿意点名的人。" },
+          { "label": "私下和陈薇谈话了解她的想法", "response": "她说：'我已经习惯了。'这句话比任何数据都让你震惊。" },
+          { "label": "在下一次会议上公开肯定陈薇的贡献", "response": "你说：'这个策略是陈薇提出的，我们应该记住这一点。'会议室里的空气变了。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_risk_hedging_classroom",
+      "title": "风险对冲式班级管理",
+      "description": "陆远用风险对冲思维设计班级管理方案，给爱打架的浩浩当安全委员，班级秩序奇迹般好转。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "第四天，你突然明白了：管理25个孩子和管理投资组合是一样的逻辑。\n\n浩浩爱打架？给他当「安全委员」，负责保护比他小的同学。他的攻击性转化成了责任感。\n\n果果爱哭？让她当「情绪记录员」，每天画出自己的心情。她的敏感转化成了共情力。\n\n你把每个孩子看作一种「资产」，不是要消除他们的特质，而是要找到让这些特质产生正收益的配置方式。\n\n班级秩序奇迹般好转了。不是因为纪律变严了，而是因为每个人都找到了自己的位置。",
+      "bgmTag": "hopeful_rise",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_06_parent_open_day",
+      "title": "家长开放日的终极考验",
+      "description": "陆远面对鸡娃家长的咄咄逼人，用基金经理的冷静和幼师的温柔说出让人沉默的话。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "周五的家长开放日。一位妈妈拿着孩子识字量统计表走过来：「老师，我家子轩已经认识800个字了，你们班其他孩子呢？」\n\n你看着她焦虑的眼睛，看到了交易大厅里那些盯着K线图的面孔。\n\n你说：「您孩子的年化收益率不是用认识多少字来计算的。」\n\n她愣住了。\n\n你继续说：「他在画画时会把太阳画成蓝色，因为他觉得蓝色的太阳更凉快，小朋友就不会热了。这种想象力，是任何识字卡片教不出来的。」\n\n教室里安静了。那位妈妈的眼睛红了。",
+      "bgmTag": "emotional_buildup",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对焦虑的家长，你会如何回应？",
+        "options": [
+          { "label": "用金融术语拆解育儿焦虑", "response": "「您是在做短线交易还是在做价值投资？」这句话让所有家长都沉默了。" },
+          { "label": "分享孩子在幼儿园的真实瞬间", "response": "你拿出手机里偷拍的照片：子轩在给哭泣的同学擦眼泪。这才是真正的成长指标。" },
+          { "label": "承认自己也不确定什么是最好的教育", "response": "「我也在学习怎么当一个好老师。」坦诚比权威更有力量。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_strategy_meeting",
+      "title": "季度策略会的答辩",
+      "description": "林小禾面对LP质疑不够aggressive，用幼师的护犊子本能守护团队。",
+      "ageRange": { "start": 29, "end": 29 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "季度策略会上，一位LP皱着眉说：「你们的风格太保守了，不够aggressive。」\n\n林小禾站起来。她用你的声音说出了她自己从未想过会说的话：\n\n「我每天保护25个孩子不被世界伤害。我也可以保护你们的钱不被市场伤害。」\n\n「aggressive不是攻击性，是对风险的敬畏。就像我不会让孩子在没有防护的情况下爬滑梯，我也不会让资金在没有对冲的情况下裸奔。」\n\nLP沉默了十秒。然后点了点头。\n\n会后，你的团队成员第一次主动来找「你」聊天。他们说：「老大，你今天说的话，是我们一直想说但不敢说的。」",
+      "bgmTag": "triumphant_crescendo",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_08_weekend_review",
+      "title": "周末复盘：两种长期投资",
+      "description": "互换结束前两人见面复盘，达成共识：基金经理和幼师本质上都在做长期投资。",
+      "ageRange": { "start": 34, "end": 34 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "周六下午，你们约在一家安静的咖啡馆见面。\n\n看着自己的脸坐在对面，感觉像照一面会说话的镜子。\n\n陆远说：「我现在看K线图会想起朵朵的体温。」\n\n林小禾说：「我现在听孩子吵闹会想起交易大厅的噪音——原来都是人在焦虑。」\n\n你们达成了一个共识：基金经理和幼师，本质上都在做「长期投资」。\n\n一个投资资产，一个投资人。\n\n但投资的底层逻辑是一样的：相信时间，相信成长，相信每一个被认真对待的生命都会给出回报。\n\n互换结束了。但有些东西永远改变了。",
+      "bgmTag": "warm_resolution",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_06_parent_open_day", "evt_07_strategy_meeting"],
+    "valleyMoments": ["evt_02_first_day_chaos", "evt_03_duoduo_coat"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
