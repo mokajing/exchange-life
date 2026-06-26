@@ -333,10 +333,23 @@ class Renderer {
   /**
    * 渲染一帧
    */
-  render(state) {
+  render(state, dt) {
     const ctx = this.ctx;
     const w = this.width;
     const h = this.height;
+
+    // Phase 3 P0: 更新粒子和震动特效
+    if (typeof dt === 'number') {
+      this._updateEffects(dt);
+    }
+
+    // Phase 3 P0: 应用屏幕震动偏移
+    const shakeX = (this.shakeOffset && this.shakeOffset.x) || 0;
+    const shakeY = (this.shakeOffset && this.shakeOffset.y) || 0;
+    if (shakeX !== 0 || shakeY !== 0) {
+      ctx.save();
+      ctx.translate(shakeX, shakeY);
+    }
 
     // 1. 绘制背景（含色调过渡）
     this._renderBackground(ctx, w, h);
@@ -366,10 +379,18 @@ class Renderer {
       this._renderHint(ctx, w, h, '点击跳过');
     }
 
+    // Phase 3 P0: 渲染粒子特效
+    this._renderParticles(ctx);
+
     // 7. 全局淡入淡出遮罩
     if (this.fadeAlpha < 1) {
       ctx.fillStyle = `rgba(0,0,0,${1 - this.fadeAlpha})`;
       ctx.fillRect(0, 0, w, h);
+    }
+
+    // Phase 3 P0: 恢复震动偏移
+    if (shakeX !== 0 || shakeY !== 0) {
+      ctx.restore();
     }
   }
 

@@ -170,7 +170,7 @@ class TimelinePlayer {
   /**
    * 每帧渲染
    */
-  render() {
+  render(dt) {
     // Phase 1: 暂停界面渲染
     if (this.state === 'paused') {
       this._renderPauseScreen();
@@ -187,7 +187,7 @@ class TimelinePlayer {
         selectedChoice: -1,
         progress: progress,
         feedbackText: null
-      });
+      }, dt);
       return;
     }
 
@@ -209,7 +209,7 @@ class TimelinePlayer {
       selectedChoice: this.selectedChoice,
       progress: progress,
       feedbackText: this.state === 'feedback' ? this._getFeedbackText(event) : null
-    });
+    }, dt);
 
     // 反馈文本覆盖渲染
     if (this.state === 'feedback') {
