@@ -13,8 +13,14 @@
       "id": "evt_01_dawn_arrival",
       "title": "清晨五点半的到岗",
       "description": "天还没亮就到达工作间，换上白大褂，检查工具，消毒台面。一天的工作从寂静开始。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "career",
       "isKeyNode": false,
       "emotion": "neutral",
@@ -27,8 +33,14 @@
       "id": "evt_02_first_body",
       "title": "接收遗体确认信息",
       "description": "6:00接到通知，今天第一位逝者是一位78岁的老人，自然离世。核对信息，准备相应化妆品和衣物。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "career",
       "isKeyNode": false,
       "emotion": "neutral",
@@ -41,8 +53,14 @@
       "id": "evt_03_washing_dressing",
       "title": "清洗、更衣、化妆",
       "description": "6:30-9:00为逝者清洁身体、更换寿衣、进行面部化妆。左手托住下颌，右手以45度角持粉刷，每个动作精确而温柔。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "career",
       "isKeyNode": true,
       "emotion": "mixed",
@@ -53,8 +71,25 @@
       "interactionChoice": {
         "prompt": "化妆时发现老人嘴角有一道旧伤疤，怎么处理？",
         "options": [
-          { "label": "用遮瑕膏仔细覆盖", "response": "你花了十分钟把伤疤的颜色调到与周围肤色一致。也许没人会注意到，但你知道它在那里。" },
-          { "label": "保留伤疤作为生命痕迹", "response": "你停了一下手，最终决定不遮盖。这道疤是他活过的证据，也许家属更愿意看到完整的他。" }
+          {
+            "label": "用遮瑕膏仔细覆盖",
+            "response": "你花了十分钟把伤疤的颜色调到与周围肤色一致。也许没人会注意到，但你知道它在那里。"
+          },
+          {
+            "label": "保留伤疤作为生命痕迹",
+            "response": "你停了一下手，最终决定不遮盖。这道疤是他活过的证据，也许家属更愿意看到完整的他。"
+          },
+          {
+            "label": "多花十分钟，仔细整理逝者的衣领和头发",
+            "response": {
+              "immediateReaction": "你俯下身，用指腹轻轻抚平衣领的每一道褶皱，将散落的发丝一一归位。动作很慢，像在对待一件易碎的艺术品。",
+              "innerThought": "这不是工作，是对生命的最后致敬。每一处细节都承载着家属的记忆。",
+              "consequenceHint": "这份细致让家属记住了你的名字"
+            },
+            "nextEventId": "evt_03_washing_dressing_detail",
+            "isMemorable": true,
+            "memoryKeyword": "尊重"
+          }
         ]
       }
     },
@@ -62,8 +97,14 @@
       "id": "evt_04_family_arrival",
       "title": "家属到场确认",
       "description": "9:30家属到来，女儿看到父亲的面容后从崩溃痛哭到握住你的手说「谢谢你让他走得这么体面」。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "relationship",
       "isKeyNode": true,
       "emotion": "sadness",
@@ -74,8 +115,14 @@
       "interactionChoice": {
         "prompt": "家属情绪失控要求立刻再见一面，但最后一步还没完成，你怎么做？",
         "options": [
-          { "label": "坚持完成最后一步再让家属进来", "response": "你轻声说「请再等五分钟」。关上门，加快手上的动作。专业判断告诉你，未完成的状态会让家属更难受。" },
-          { "label": "提前开放让家属看一眼", "response": "你打开门，退到一旁。女儿扑到床边。有些时刻，规则要让位于人的需要。" }
+          {
+            "label": "坚持完成最后一步再让家属进来",
+            "response": "你轻声说「请再等五分钟」。关上门，加快手上的动作。专业判断告诉你，未完成的状态会让家属更难受。"
+          },
+          {
+            "label": "提前开放让家属看一眼",
+            "response": "你打开门，退到一旁。女儿扑到床边。有些时刻，规则要让位于人的需要。"
+          }
         ]
       }
     },
@@ -83,8 +130,14 @@
       "id": "evt_05_farewell_ceremony",
       "title": "告别仪式协助",
       "description": "10:00-11:30协助告别仪式，站在角落确保一切顺利。看着家属与逝者做最后的告别。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "career",
       "isKeyNode": false,
       "emotion": "sadness",
@@ -97,8 +150,14 @@
       "id": "evt_06_afternoon_cleanup",
       "title": "整理工具与消毒",
       "description": "下午回到工作间，清洗所有工具，消毒台面，补充消耗品。把情绪留在工作间里。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "daily_life",
       "isKeyNode": false,
       "emotion": "neutral",
@@ -111,8 +170,14 @@
       "id": "evt_07_evening_journal",
       "title": "傍晚的工作日志",
       "description": "记录当日工作内容，包括逝者信息、使用的材料、特殊情况备注。写完后合上本子，一天结束。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "career",
       "isKeyNode": true,
       "emotion": "mixed",
@@ -123,8 +188,14 @@
       "interactionChoice": {
         "prompt": "工作三年后收到高薪转行offer，你怎么选？",
         "options": [
-          { "label": "留下", "response": "你把offer折好放进抽屉。不是因为这行有多伟大，是因为你已经学会了怎么用自己的手，给别人最后一份温暖。这份能力，换了地方就用不上了。" },
-          { "label": "离开", "response": "你签了离职申请。不是不爱这份工作，是你也需要被温暖。没有人有义务一辈子做别人的温度来源。" }
+          {
+            "label": "留下",
+            "response": "你把offer折好放进抽屉。不是因为这行有多伟大，是因为你已经学会了怎么用自己的手，给别人最后一份温暖。这份能力，换了地方就用不上了。"
+          },
+          {
+            "label": "离开",
+            "response": "你签了离职申请。不是不爱这份工作，是你也需要被温暖。没有人有义务一辈子做别人的温度来源。"
+          }
         ]
       }
     },
@@ -132,8 +203,14 @@
       "id": "evt_08_hand_temperature",
       "title": "手温的意义",
       "description": "同事离职前把用了十五年的化妆刷交给她说「这行最需要的不是技术，是心」。她终于理解了这句话。",
-      "ageRange": { "start": 26, "end": 26 },
-      "yearRange": { "start": 2024, "end": 2024 },
+      "ageRange": {
+        "start": 26,
+        "end": 26
+      },
+      "yearRange": {
+        "start": 2024,
+        "end": 2024
+      },
       "category": "spiritual",
       "isKeyNode": false,
       "emotion": "joy",
@@ -144,13 +221,25 @@
     }
   ],
   "emotionalArc": {
-    "curve": [0.3, 0.4, 0.6, 0.8, 0.7, 0.3, 0.5, 0.6],
+    "curve": [
+      0.3,
+      0.4,
+      0.6,
+      0.8,
+      0.7,
+      0.3,
+      0.5,
+      0.6
+    ],
     "peakEventId": "evt_04_family_arrival",
     "valleyEventId": "evt_01_dawn_arrival",
     "resolution": "平静与释然——理解死亡是生命的一部分，自己的工作是为生者和死者都保留尊严"
   },
   "safetyConfig": {
-    "triggerWarnings": ["death", "grief"],
+    "triggerWarnings": [
+      "death",
+      "grief"
+    ],
     "pauseMechanism": "breathing_break",
     "postExperienceGuidance": "mindfulness_grounding"
   }

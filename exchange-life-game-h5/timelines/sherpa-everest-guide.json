@@ -13,8 +13,12 @@
       "id": "first-porter-1988",
       "title": "1988·17岁第一次当背夫",
       "description": "17岁的丹增·诺布第一次跟随父亲为登山队当背夫，从南池巴扎负重35公斤走到珠峰大本营，拿到人生第一笔工钱200美元。",
-      "ageRange": { "start": 17 },
-      "yearRange": { "start": 1988 },
+      "ageRange": {
+        "start": 17
+      },
+      "yearRange": {
+        "start": 1988
+      },
       "category": "career",
       "isKeyNode": false,
       "emotion": "surprise",
@@ -27,8 +31,12 @@
       "id": "body-recovery-1996",
       "title": "1996·死亡地带的遗体回收",
       "description": "珠峰山难年，25岁的丹增第一次参与遗体回收任务，在海拔8350米用冰镐挖了3小时将一位韩国登山者的遗体从冰层中挖出。下山后连续一周做噩梦。",
-      "ageRange": { "start": 25 },
-      "yearRange": { "start": 1996 },
+      "ageRange": {
+        "start": 25
+      },
+      "yearRange": {
+        "start": 1996
+      },
       "category": "loss",
       "isKeyNode": true,
       "emotion": "fear",
@@ -39,8 +47,25 @@
       "interactionChoice": {
         "prompt": "队长问你是否愿意参与遗体回收……",
         "options": [
-          { "label": "去。至少他的家人可以知道他在哪里", "response": "你穿上冰爪走进死亡地带。三个小时的挖掘让你的手臂几乎失去知觉，但当绳索绑紧的那一刻，你感到一种奇怪的平静。你不是英雄，你只是在做必须有人做的事。" },
-          { "label": "不去。你还没准备好面对这个", "response": "你坐在帐篷里听着外面冰镐敲击的声音。第二天早上队友们回来了，脸上没有表情。你后悔了。但从那以后，每次经过八千三百五十米你都会多看一眼那个位置。" }
+          {
+            "label": "去。至少他的家人可以知道他在哪里",
+            "response": "你穿上冰爪走进死亡地带。三个小时的挖掘让你的手臂几乎失去知觉，但当绳索绑紧的那一刻，你感到一种奇怪的平静。你不是英雄，你只是在做必须有人做的事。"
+          },
+          {
+            "label": "不去。你还没准备好面对这个",
+            "response": "你坐在帐篷里听着外面冰镐敲击的声音。第二天早上队友们回来了，脸上没有表情。你后悔了。但从那以后，每次经过八千三百五十米你都会多看一眼那个位置。"
+          },
+          {
+            "label": "停下来，帮一个气喘吁吁的客户调整装备",
+            "response": {
+              "immediateReaction": "你放慢脚步，耐心地帮那位客户重新系紧背包带，调整登山杖的长度。客户感激地点头，虽然耽误了几分钟，但你能看到他眼中的安心。",
+              "innerThought": "父亲教过：夏尔巴不只是背夫，更是山与人之间的桥梁。每一次帮助都是在延续这份传承。",
+              "consequenceHint": "这份善意会在山上被记住"
+            },
+            "nextEventId": "body-recovery-1996_alt",
+            "isMemorable": true,
+            "memoryKeyword": "传承"
+          }
         ]
       }
     },
@@ -48,8 +73,12 @@
       "id": "father-death-2002",
       "title": "2002·父亲死在山上，自己也在山上",
       "description": "31岁的丹增成为IFMGA认证向导的同一年，父亲在背运物资途中因高原肺水肿去世。收到噩耗时正在海拔6500米的2号营地，无法下山奔丧。",
-      "ageRange": { "start": 31 },
-      "yearRange": { "start": 2002 },
+      "ageRange": {
+        "start": 31
+      },
+      "yearRange": {
+        "start": 2002
+      },
       "category": "loss",
       "isKeyNode": true,
       "emotion": "sadness",
@@ -62,8 +91,12 @@
       "id": "khumbu-avalanche-2014",
       "title": "2014·昆布冰瀑雪崩，失去三位挚友",
       "description": "昆布冰瀑发生史上最严重雪崩，16名夏尔巴向导遇难。丹增失去了3位从小一起长大的朋友。第二天早上依然穿上冰爪带队出发。",
-      "ageRange": { "start": 43 },
-      "yearRange": { "start": 2014 },
+      "ageRange": {
+        "start": 43
+      },
+      "yearRange": {
+        "start": 2014
+      },
       "category": "crisis",
       "isKeyNode": true,
       "emotion": "anger",
@@ -74,8 +107,14 @@
       "interactionChoice": {
         "prompt": "雪崩后的第二天清晨……",
         "options": [
-          { "label": "穿上冰爪，继续带队", "response": "你是总向导。你的选择会影响所有人。你走出帐篷的那一刻，年轻的向导们纷纷站起来。没有人说话，但所有人都懂了。责任不是天生的，是你选择了承担。" },
-          { "label": "在帐篷里再坐一天", "response": "你需要时间。第三天，一个年轻向导来找你：'丹增大哥，我的客户在等。你去，我就去。'他长得像你死去的朋友。你站起来，穿上冰爪。脆弱不是软弱，是让人信任你的理由。" }
+          {
+            "label": "穿上冰爪，继续带队",
+            "response": "你是总向导。你的选择会影响所有人。你走出帐篷的那一刻，年轻的向导们纷纷站起来。没有人说话，但所有人都懂了。责任不是天生的，是你选择了承担。"
+          },
+          {
+            "label": "在帐篷里再坐一天",
+            "response": "你需要时间。第三天，一个年轻向导来找你：'丹增大哥，我的客户在等。你去，我就去。'他长得像你死去的朋友。你站起来，穿上冰爪。脆弱不是软弱，是让人信任你的理由。"
+          }
         ]
       }
     },
@@ -83,8 +122,12 @@
       "id": "summit-37-2019",
       "title": "2019·第37次登顶：你征服了什么？",
       "description": "48岁的丹增第37次登顶珠峰。在峰顶停留15分钟检查氧气瓶、确认下撤路线、给客户拍照。一位客户激动地喊我征服了珠峰，丹增心想：它只是今天心情好让你上来看看。",
-      "ageRange": { "start": 48 },
-      "yearRange": { "start": 2019 },
+      "ageRange": {
+        "start": 48
+      },
+      "yearRange": {
+        "start": 2019
+      },
       "category": "achievement",
       "isKeyNode": true,
       "emotion": "mixed",
@@ -97,8 +140,12 @@
       "id": "son-inherits-2025",
       "title": "2025·儿子穿上冰爪出发的背影",
       "description": "53岁的丹增不再带队登顶，担任大本营总指挥。24岁的儿子帕桑开始自己的第3次登顶带队。丹增看着儿子的背影，祈祷的内容和妻子一样：平安回来。",
-      "ageRange": { "start": 53 },
-      "yearRange": { "start": 2025 },
+      "ageRange": {
+        "start": 53
+      },
+      "yearRange": {
+        "start": 2025
+      },
       "category": "relationship",
       "isKeyNode": true,
       "emotion": "mixed",
@@ -109,22 +156,38 @@
       "interactionChoice": {
         "prompt": "儿子要带队登顶，你的态度……",
         "options": [
-          { "label": "帮他检查装备，目送出发", "response": "你帮帕桑调整氧气面罩，拍了拍他的肩。什么都没说。他走出五十米后回头看了你一眼，你点了点头。信任中有不安，但你选择了放手。" },
-          { "label": "让他再积累一个攀登季", "response": "帕桑有些失望，但还是点了头。晚上你发现他在帐篷里偷偷看你的登顶照片。保护中有愧疚，但你知道这条路急不得。他会准备好的。" }
+          {
+            "label": "帮他检查装备，目送出发",
+            "response": "你帮帕桑调整氧气面罩，拍了拍他的肩。什么都没说。他走出五十米后回头看了你一眼，你点了点头。信任中有不安，但你选择了放手。"
+          },
+          {
+            "label": "让他再积累一个攀登季",
+            "response": "帕桑有些失望，但还是点了头。晚上你发现他在帐篷里偷偷看你的登顶照片。保护中有愧疚，但你知道这条路急不得。他会准备好的。"
+          }
         ]
       }
     }
   ],
   "emotionalArc": {
     "overallTone": "bittersweet",
-    "peakMoments": ["body-recovery-1996", "father-death-2002", "son-inherits-2025"],
-    "valleyMoments": ["khumbu-avalanche-2014"]
+    "peakMoments": [
+      "body-recovery-1996",
+      "father-death-2002",
+      "son-inherits-2025"
+    ],
+    "valleyMoments": [
+      "khumbu-avalanche-2014"
+    ]
   },
   "safetyInfo": {
     "complianceLevel": "L2",
     "popularityLevel": "S",
     "commercialValue": "V2",
-    "triggerWarnings": ["death_description", "grief", "extreme_altitude"],
+    "triggerWarnings": [
+      "death_description",
+      "grief",
+      "extreme_altitude"
+    ],
     "requiresSafetyPrompt": true,
     "requiresAgeVerification": false
   }
