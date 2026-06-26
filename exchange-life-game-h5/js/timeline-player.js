@@ -17,6 +17,13 @@ class TimelinePlayer {
     this.onCompleteCallback = options.onComplete || (() => {});
     this.onBackToMenuCallback = options.onBackToMenu || (() => {});
 
+    // Phase 3 P0: SFX引擎引用
+    this.sfxEngine = window.SFXEngine || null;
+    
+    // Phase 3 P0: 心跳音效冷却计时器(避免频繁触发)
+    this._heartbeatCooldown = 0;
+    this._lastHeartbeatEventId = null;
+
     // 渲染器
     this.renderer = new Renderer(this.ctx, this.width, this.height);
 
@@ -528,6 +535,35 @@ class TimelinePlayer {
     
     // PRD V2.1情感节拍器：传入情绪强度调节打字速度
     this.renderer.setText(narrativeText, event.emotionIntensity);
+    
+    // Phase 3 P0: 高情绪强度事件触放心跳SFX + 多感官锚点
+    if (event.emotionIntensity > 0.6) {
+      // SFX心跳音效
+      if (this.sfxEngine) {
+        const now = Date.now();
+        const cooldownElapsed = (now - this._heartbeatCooldown) > 2000;
+        const differentEvent = this._lastHeartbeatEventId !== event.id;
+        
+        if (cooldownElapsed && differentEvent) {
+          this.sfxEngine.playHeartbeat(event.emotionIntensity);
+          this._heartbeatCooldown = now;
+          this._lastHeartbeatEventId = event.id;
+          console.log('[SFX] Heartbeat triggered for event:', event.id, 'intensity:', event.emotionIntensity);
+        }
+      }
+      
+      // Phase 3 P0: 视觉粒子爆发（关键叙事节点）
+      if (this.renderer && typeof this.renderer.triggerParticleBurst === 'function') {
+        const particleCount = Math.floor(15 + event.emotionIntensity * 15); // 15-30个粒子
+        this.renderer.triggerParticleBurst(particleCount);
+      }
+      
+      // Phase 3 P0: 屏幕微震动（高强度事件）
+      if (event.emotionIntensity > 0.8 && this.renderer && typeof this.renderer.triggerScreenShake === 'function') {
+        this.renderer.triggerScreenShake(0.4, 4); // 0.4秒，4像素偏移
+      }
+    }
+    
     if (event.visualTone) {
       this.renderer.setTone(event.visualTone);
       // Phase 1: Also apply emotion-tone color mapping if available
