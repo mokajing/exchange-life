@@ -140,6 +140,104 @@ class Renderer {
   }
 
   /**
+   * Phase 3 P0: 触发粒子爆发效果（关键叙事节点）
+   * @param {number} count - 粒子数量（默认20，最大40）
+   * @param {string} color - 粒子颜色（hex），默认使用当前accent色
+   */
+  triggerParticleBurst(count, color) {
+    const colors = TONE_COLORS[this.targetTone] || TONE_COLORS.neutral;
+    const particleColor = color || colors.accent;
+    const actualCount = Math.min(count || 20, this.maxParticles);
+    
+    for (let i = 0; i < actualCount; i++) {
+      if (this.particles.length >= this.maxParticles) break;
+      
+      const angle = (Math.PI * 2 * i) / actualCount + Math.random() * 0.5;
+      const speed = 1 + Math.random() * 3;
+      this.particles.push({
+        x: this.width / 2,
+        y: this.height / 2,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        life: 1.0,
+        decay: 0.01 + Math.random() * 0.02,
+        size: 2 + Math.random() * 3,
+        color: particleColor
+      });
+    }
+  }
+
+  /**
+   * Phase 3 P0: 触发屏幕微震动效果
+   * @param {number} duration - 震动持续时间（秒），默认0.3
+   * @param {number} intensity - 震动强度（像素偏移），默认3
+   */
+  triggerScreenShake(duration, intensity) {
+    this.shakeDuration = duration || 0.3;
+    this.shakeIntensity = intensity || 3;
+  }
+
+  /**
+   * Phase 3 P0: 更新粒子系统和震动效果
+   */
+  _updateEffects(dt) {
+    // 更新粒子
+    for (let i = this.particles.length - 1; i >= 0; i--) {
+      const p = this.particles[i];
+      p.x += p.vx;
+      p.y += p.vy;
+      p.life -= p.decay;
+      if (p.life <= 0) {
+        this.particles.splice(i, 1);
+      }
+    }
+    
+    // 更新震动
+    if (this.shakeDuration > 0) {
+      this.shakeDuration -= dt;
+      if (this.shakeDuration <= 0) {
+        this.shakeOffset = { x: 0, y: 0 };
+        this.shakeDuration = 0;
+      } else {
+        const progress = this.shakeDuration / (this.shakeDuration + dt);
+        this.shakeOffset.x = (Math.random() - 0.5) * 2 * this.shakeIntensity * progress;
+        this.shakeOffset.y = (Math.random() - 0.5) * 2 * this.shakeIntensity * progress;
+      }
+    }
+  }
+
+  /**
+   * Phase 3 P0: 渲染粒子效果
+   */
+  _renderParticles(ctx) {
+    this.particles.forEach(p => {
+      ctx.globalAlpha = p.life;
+      ctx.fillStyle = p.color;
+      ctx.beginPath();
+      ctx.arc(p.x + this.shakeOffset.x, p.y + this.shakeOffset.y, p.size, 0, Math.PI * 2);
+      ctx.fill();
+    });
+    ctx.globalAlpha = 1;
+  }
+
+  /**
+   * Phase 3 P0: 根据emotion字段自动推断并设置色调
+   * @param {string} emotion - 情绪类型(fear/anxiety/sadness/joy/tension/anger/calm/hope)
+   */
+  setEmotionTone(emotion) {
+    if (!emotion || !Renderer.EMOTION_TONE_MAP[emotion]) {
+      return; // 未知情绪,不处理
+    }
+    const toneColors = Renderer.EMOTION_TONE_MAP[emotion];
+    // 使用setBackgroundTone触发渐变
+    this.setBackgroundTone(toneColors.bg);
+    // 同时更新targetTone以同步text/accent颜色
+    this.targetTone = 'neutral'; // 重置为neutral避免冲突
+    // 手动覆盖当前配色方案
+    TONE_COLORS.neutral = toneColors;
+  }
+
+  /**
    * 跳过打字机动画，直接显示全部
    */
   skipTyping() {
@@ -525,6 +623,18 @@ Renderer.TONE_COLOR_MAP = {
   'hopeful': '#1b2d2a',
   'sad': '#1a1a28',
   'neutral': '#0A0A0A'
+};
+
+// Phase 3 P0: 情感色谱扩展 - 基于emotion字段的自动推断映射
+Renderer.EMOTION_TONE_MAP = {
+  fear:     { bg: '#1A1F2E', text: '#C8D8E8', accent: '#5B7FA5' },  // 恐惧→深蓝灰
+  anxiety:  { bg: '#1E2A1A', text: '#D0E0C8', accent: '#6B8F5B' },  // 焦虑→偏绿冷调
+  sadness:  { bg: '#1A1A2A', text: '#C8C8E0', accent: '#6B6BA5' },  // 悲伤→偏紫暗调
+  joy:      { bg: '#2A251A', text: '#F0E8D0', accent: '#D4B574' },  // 喜悦→暖金
+  tension:  { bg: '#2A1A1A', text: '#E8C8C8', accent: '#A55B5B' },  // 紧张→偏红
+  anger:    { bg: '#2A1515', text: '#E8C0C0', accent: '#B54545' },  // 愤怒→深红
+  calm:     { bg: '#1A2525', text: '#C8E0E0', accent: '#5B9B9B' },  // 平静→青绿
+  hope:     { bg: '#252A1A', text: '#E0E8C8', accent: '#9BA55B' }   // 希望→黄绿
 };
 
 // 导出TONE_COLORS供其他模块使用

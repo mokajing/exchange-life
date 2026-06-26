@@ -17,6 +17,13 @@ class TimelinePlayer {
     this.onCompleteCallback = options.onComplete || (() => {});
     this.onBackToMenuCallback = options.onBackToMenu || (() => {});
 
+    // Phase 3 P0: SFX引擎引用
+    this.sfxEngine = window.SFXEngine || null;
+    
+    // Phase 3 P0: 心跳音效冷却计时器(避免频繁触发)
+    this._heartbeatCooldown = 0;
+    this._lastHeartbeatEventId = null;
+
     // 渲染器
     this.renderer = new Renderer(this.ctx, this.width, this.height);
 
@@ -46,6 +53,10 @@ class TimelinePlayer {
 
     // Phase 3: 后果标签系统
     this._consequenceLabel = null;
+
+    // Phase 3: 记忆碎片系统
+    this.memoryFragments = []; // 存储 {keyword, timestamp, eventId}
+    this._currentTriggeredMemories = null;
 
     // 触摸检测
     this.touchStartY = 0;
@@ -207,6 +218,9 @@ class TimelinePlayer {
 
     // Phase 1: 渲染暂停按钮（右上角半透明）
     this._renderPauseButton();
+    
+    // Phase 3: 渲染触发的记忆
+    this._renderTriggeredMemories();
   }
 
   /**
@@ -394,6 +408,17 @@ class TimelinePlayer {
           const event = this.timeline.events[this.currentEventIndex];
           this.onChoiceCallback(event.id, choiceIdx);
           
+          // Phase 3: 记录记忆碎片
+          const chosenOption = event.interactionChoice.options[choiceIdx];
+          if (chosenOption.isMemorable && chosenOption.memoryKeyword) {
+            this.memoryFragments.push({
+              keyword: chosenOption.memoryKeyword,
+              timestamp: Date.now(),
+              eventId: event.id
+            });
+            console.log('[Memory] Recorded fragment:', chosenOption.memoryKeyword);
+          }
+          
           // 显示反馈文本（保持情感节拍器节奏）
           this.state = 'feedback';
           this.choiceFeedbackTimer = this.choiceFeedbackDuration;
@@ -493,9 +518,52 @@ class TimelinePlayer {
     }
 
     // 设置叙事文本和视觉色调
-    const narrativeText = event.narrativeText || event.description || '';
+    let narrativeText = event.narrativeText || event.description || '';
+    
+    // Phase 3: 检查是否有触发的记忆
+    this._currentTriggeredMemories = [];
+    this.memoryFragments.forEach(fragment => {
+      if (narrativeText.includes('[' + fragment.keyword + ']')) {
+        this._currentTriggeredMemories.push(fragment);
+        // 替换标记为高亮格式
+        narrativeText = narrativeText.replace(
+          new RegExp('\\[' + fragment.keyword + '\\]', 'g'),
+          '【' + fragment.keyword + '】'
+        );
+      }
+    });
+    
     // PRD V2.1情感节拍器：传入情绪强度调节打字速度
     this.renderer.setText(narrativeText, event.emotionIntensity);
+    
+    // Phase 3 P0: 高情绪强度事件触放心跳SFX + 多感官锚点
+    if (event.emotionIntensity > 0.6) {
+      // SFX心跳音效
+      if (this.sfxEngine) {
+        const now = Date.now();
+        const cooldownElapsed = (now - this._heartbeatCooldown) > 2000;
+        const differentEvent = this._lastHeartbeatEventId !== event.id;
+        
+        if (cooldownElapsed && differentEvent) {
+          this.sfxEngine.playHeartbeat(event.emotionIntensity);
+          this._heartbeatCooldown = now;
+          this._lastHeartbeatEventId = event.id;
+          console.log('[SFX] Heartbeat triggered for event:', event.id, 'intensity:', event.emotionIntensity);
+        }
+      }
+      
+      // Phase 3 P0: 视觉粒子爆发（关键叙事节点）
+      if (this.renderer && typeof this.renderer.triggerParticleBurst === 'function') {
+        const particleCount = Math.floor(15 + event.emotionIntensity * 15); // 15-30个粒子
+        this.renderer.triggerParticleBurst(particleCount);
+      }
+      
+      // Phase 3 P0: 屏幕微震动（高强度事件）
+      if (event.emotionIntensity > 0.8 && this.renderer && typeof this.renderer.triggerScreenShake === 'function') {
+        this.renderer.triggerScreenShake(0.4, 4); // 0.4秒，4像素偏移
+      }
+    }
+    
     if (event.visualTone) {
       this.renderer.setTone(event.visualTone);
       // Phase 1: Also apply emotion-tone color mapping if available
@@ -815,6 +883,30 @@ class TimelinePlayer {
       this.onBackToMenuCallback();
       return;
     }
+  }
+
+  /**
+   * Phase 3: 渲染触发的记忆关键词（高亮显示）
+   */
+  _renderTriggeredMemories() {
+    if (!this._currentTriggeredMemories || this._currentTriggeredMemories.length === 0) {
+      return;
+    }
+    
+    const ctx = this.ctx;
+    const w = this.width;
+    const h = this.height;
+    
+    // 在屏幕底部显示记忆提示
+    ctx.save();
+    ctx.textAlign = 'center';
+    ctx.fillStyle = 'rgba(212, 165, 116, 0.8)'; // 金色半透明
+    ctx.font = 'italic 14px "PingFang SC", sans-serif';
+    
+    const memoryTexts = this._currentTriggeredMemories.map(m => m.keyword).join(' · ');
+    ctx.fillText('想起：' + memoryTexts, w / 2, h - 60);
+    
+    ctx.restore();
   }
 
 }
