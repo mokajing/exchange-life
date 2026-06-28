@@ -634,6 +634,74 @@ class Renderer {
     ctx.quadraticCurveTo(x, y, x + r, y);
     ctx.closePath();
   }
+
+  /**
+   * Phase 3 P0: 粒子爆发效果（高情绪强度事件触发）
+   * @param {number} count - 粒子数量(15-30)
+   */
+  triggerParticleBurst(count) {
+    if (!this._particles) this._particles = [];
+    const cx = this.width / 2;
+    const cy = this.height / 2;
+    for (let i = 0; i < count; i++) {
+      const angle = Math.random() * Math.PI * 2;
+      const speed = 1 + Math.random() * 3;
+      this._particles.push({
+        x: cx, y: cy,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        life: 1.0,
+        decay: 0.01 + Math.random() * 0.02,
+        size: 2 + Math.random() * 3,
+        color: TONE_COLORS[this.currentTone] ? TONE_COLORS[this.currentTone].accent : '#D4A574'
+      });
+    }
+  }
+
+  /**
+   * Phase 3 P0: 屏幕微震动效果
+   * @param {number} duration - 震动持续时间(秒)
+   * @param {number} magnitude - 偏移像素
+   */
+  triggerScreenShake(duration, magnitude) {
+    this._shakeTimer = duration;
+    this._shakeMagnitude = magnitude;
+  }
+
+  /**
+   * 更新并渲染粒子和震动效果（应在每帧render中调用）
+   * @param {number} dt - 帧间隔(秒)
+   */
+  updateEffects(dt) {
+    // 粒子更新
+    if (this._particles && this._particles.length > 0) {
+      for (let i = this._particles.length - 1; i >= 0; i--) {
+        const p = this._particles[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.life -= p.decay;
+        if (p.life <= 0) {
+          this._particles.splice(i, 1);
+          continue;
+        }
+        this.ctx.globalAlpha = p.life * 0.8;
+        this.ctx.fillStyle = p.color;
+        this.ctx.beginPath();
+        this.ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+        this.ctx.fill();
+      }
+      this.ctx.globalAlpha = 1;
+    }
+
+    // 震动更新
+    if (this._shakeTimer && this._shakeTimer > 0) {
+      this._shakeTimer -= dt;
+      const ox = (Math.random() - 0.5) * 2 * this._shakeMagnitude;
+      const oy = (Math.random() - 0.5) * 2 * this._shakeMagnitude;
+      this.ctx.translate(ox, oy);
+    }
+  }
+
 }
 
 // Phase 1: 情绪-色调映射表（静态属性）
