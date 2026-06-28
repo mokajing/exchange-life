@@ -234,8 +234,6 @@ const BGM_MAP = {
 
   // === 火山科学家专用标签 (2026-06-15 P0第166卷) ===
   tension_low:         { file: 'audio/bgm/tension_low.mp3',         volume: 0.25, loop: true },
-  tension_rising:      { file: 'audio/bgm/tension_rising.mp3',      volume: 0.35, loop: true },
-  tension_silence:     { file: 'audio/bgm/tension_silence.mp3',     volume: 0.2, loop: true },
   solitude_calm:       { file: 'audio/bgm/solitude_calm.mp3',       volume: 0.25, loop: true },
   tension_peak:        { file: 'audio/bgm/tension_peak.mp3',        volume: 0.45, loop: true },
   resolution_peaceful: { file: 'audio/bgm/resolution_peaceful.mp3', volume: 0.35, loop: false },
@@ -270,7 +268,6 @@ const BGM_MAP = {
   academic_quiet:         { file: 'audio/bgm/academic_quiet.mp3',         volume: 0.25, loop: true },
 
   // === 水下考古队员专用标签 (2026-06-16 P0第225卷) ===
-  ocean_night:            { file: 'audio/bgm/ocean_night.mp3',            volume: 0.25, loop: true },
   ocean_morning:          { file: 'audio/bgm/ocean_morning.mp3',          volume: 0.3, loop: true },
   deep_sea_silence:       { file: 'audio/bgm/deep_sea_silence.mp3',       volume: 0.2, loop: true },
   deep_sea_work:          { file: 'audio/bgm/deep_sea_work.mp3',          volume: 0.25, loop: true },
@@ -305,7 +302,6 @@ const BGM_MAP = {
   anxiety_loop:           { file: 'audio/bgm/anxiety_loop.mp3',           volume: 0.35, loop: true },
   intrusive_pulse:        { file: 'audio/bgm/intrusive_pulse.mp3',        volume: 0.3, loop: true },
   breakthrough_clarinet:  { file: 'audio/bgm/breakthrough_clarinet.mp3',  volume: 0.4, loop: false },
-  gentle_piano:           { file: 'audio/bgm/gentle_piano.mp3',           volume: 0.3, loop: true },
   morning_birds:          { file: 'audio/bgm/morning_birds.mp3',          volume: 0.35, loop: false },
 
   // === 选择性缄默症儿童专用标签 (2026-06-16 P0第270卷) ===
@@ -336,7 +332,6 @@ const BGM_MAP = {
   tense_strings_low:      { file: 'audio/bgm/tense_strings_low.mp3',      volume: 0.35, loop: true },
   ambient_war_distant:    { file: 'audio/bgm/ambient_war_distant.mp3',    volume: 0.25, loop: true },
   solo_cello_meditation:  { file: 'audio/bgm/solo_cello_meditation.mp3',  volume: 0.3, loop: true },
-  silence_heartbeat:      { file: 'audio/bgm/silence_heartbeat.mp3',      volume: 0.2, loop: true },
   acoustic_guitar_farewell:{ file: 'audio/bgm/acoustic_guitar_farewell.mp3', volume: 0.35, loop: true },
   piano_echo_applause:    { file: 'audio/bgm/piano_echo_applause.mp3',    volume: 0.4, loop: false },
   warm_kitchen_piano:     { file: 'audio/bgm/warm_kitchen_piano.mp3',     volume: 0.3, loop: true },
@@ -349,10 +344,6 @@ const BGM_MAP = {
   // === 色觉异常者专用标签 (2026-06-16 P0第374卷) ===
   string_melancholy:      { file: 'audio/bgm/string_melancholy.mp3',      volume: 0.3, loop: true },
   city_ambience:          { file: 'audio/bgm/city_ambience.mp3',          volume: 0.25, loop: true },
-  office_tension_strings: { file: 'audio/bgm/office_tension_strings.mp3', volume: 0.3, loop: true },
-  solo_piano_night:       { file: 'audio/bgm/solo_piano_night.mp3',       volume: 0.3, loop: true },
-  emotional_release_piano:{ file: 'audio/bgm/emotional_release_piano.mp3',volume: 0.35, loop: false },
-  reunion_warm_strings:   { file: 'audio/bgm/reunion_warm_strings.mp3',   volume: 0.35, loop: true },
   piano_reconciliation:   { file: 'audio/bgm/piano_reconciliation.mp3',   volume: 0.35, loop: false },
 
   // === 北极种子库守门人专用标签 (2026-06-16 P0第379卷) ===
@@ -406,21 +397,10 @@ const BGM_MAP = {
 
   // === 浏览器搜索历史纪录片专用标签 (2026-06-16 P0第404卷) ===
   search_history_opening: { file: 'audio/bgm/search_history_opening.mp3', volume: 0.3, loop: true },
-  tense_minimal_beat:     { file: 'audio/bgm/tense_minimal_beat.mp3',     volume: 0.3, loop: true },
   emotional_strings_warm: { file: 'audio/bgm/emotional_strings_warm.mp3', volume: 0.35, loop: true },
-  urban_night_cool:       { file: 'audio/bgm/urban_night_cool.mp3',       volume: 0.25, loop: true },
   nostalgic_piano_soft:   { file: 'audio/bgm/nostalgic_piano_soft.mp3',   volume: 0.3, loop: true },
   hopeful_strings_gentle_search: { file: 'audio/bgm/hopeful_strings_gentle_search.mp3', volume: 0.35, loop: false },
-  sunrise_gentle_strings: { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: false },
   // 影子关系调解员 - 第417卷
-  gentle_piano_curious:    { file: 'audio/bgm/gentle_piano_curious.mp3', volume: 0.35, loop: true },
-  tense_minimal_piano:     { file: 'audio/bgm/tense_minimal_piano.mp3', volume: 0.4, loop: true },
-  emotional_strings_cold:  { file: 'audio/bgm/emotional_strings_cold.mp3', volume: 0.35, loop: true },
-  night_calm_piano:        { file: 'audio/bgm/night_calm_piano.mp3', volume: 0.3, loop: true },
-  peaceful_strings_warm:   { file: 'audio/bgm/peaceful_strings_warm.mp3', volume: 0.35, loop: true },
-  morning_ambient_soft:    { file: 'audio/bgm/morning_ambient_soft.mp3', volume: 0.3, loop: true },
-  sunrise_gentle_strings:  { file: 'audio/bgm/sunrise_gentle_strings.mp3', volume: 0.35, loop: true },
-  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3', volume: 0.35, loop: true },
 
   // === 兰纳佛牌铸造匠人专用标签 (2026-06-16 P0第412卷) ===
   temple_morning_chant:   { file: 'audio/bgm/temple_morning_chant.mp3',   volume: 0.25, loop: true },
@@ -443,7 +423,6 @@ const BGM_MAP = {
   night_nature_ambient:       { file: 'audio/bgm/night_nature_ambient.mp3',       volume: 0.25, loop: true },
   // === ADHD成人女性职场伪装专用标签 (2026-06-16 P0第431卷) ===
   morning_ambient_slow:    { file: 'audio/bgm/morning_ambient_slow.mp3',    volume: 0.25, loop: true },
-  tense_minimal_beat:      { file: 'audio/bgm/tense_minimal_beat.mp3',      volume: 0.3, loop: true },
   office_ambient_quiet:    { file: 'audio/bgm/office_ambient_quiet.mp3',    volume: 0.2, loop: true },
   metronome_ticking:       { file: 'audio/bgm/metronome_ticking.mp3',       volume: 0.25, loop: true },
   light_piano_flow:        { file: 'audio/bgm/light_piano_flow.mp3',        volume: 0.35, loop: true },
@@ -519,14 +498,8 @@ const BGM_MAP = {
   ancient_stone_chisel:   { file: 'audio/bgm/ancient_stone_chisel.mp3',   volume: 0.3, loop: true },
 
   // === 网红主播转实体店专用标签 (2026-06-17 P0第463卷) ===
-  lofi_afternoon_quiet:   { file: 'audio/bgm/lofi_afternoon_quiet.mp3',   volume: 0.25, loop: true },
-  afternoon_silence_loop: { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
-  tv_ambient_warm:        { file: 'audio/bgm/tv_ambient_warm.mp3',        volume: 0.25, loop: true },
 
   // === 航空灾难调查员专用标签 (2026-06-17 P0第462卷) ===
-  enclosed_breathing:     { file: 'audio/bgm/enclosed_breathing.mp3',     volume: 0.25, loop: true },
-  glitch_static_tone:     { file: 'audio/bgm/glitch_static_tone.mp3',     volume: 0.3, loop: true },
-  metronome_ticking:      { file: 'audio/bgm/metronome_ticking.mp3',      volume: 0.3, loop: true }
 
 
 ,
@@ -539,16 +512,7 @@ const BGM_MAP = {
   tension_release_chord:   { file: 'audio/bgm/tension_release_chord.mp3',   volume: 0.4, loop: false },
   triumph_warm_strings:    { file: 'audio/bgm/triumph_warm_strings.mp3',    volume: 0.45, loop: false },
   // === 胡里族假发匠人 & 退休干部专用标签 (2026-06-17 P0第466-467卷) ===
-  silence_with_water       : { file: 'audio/bgm/silence_with_water.mp3', volume: 0.2, loop: true },
-  afternoon_silence_loop   : { file: 'audio/bgm/afternoon_silence_loop.mp3', volume: 0.2, loop: true },
-  dusk_strings_low         : { file: 'audio/bgm/dusk_strings_low.mp3', volume: 0.3, loop: true },
-  warm_family_distant      : { file: 'audio/bgm/warm_family_distant.mp3', volume: 0.3, loop: true },
-  festive_bgm_muffled      : { file: 'audio/bgm/festive_bgm_muffled.mp3', volume: 0.35, loop: true },
-  fireworks_piano_high     : { file: 'audio/bgm/fireworks_piano_high.mp3', volume: 0.4, loop: false },
-  night_silence_soft       : { file: 'audio/bgm/night_silence_soft.mp3', volume: 0.2, loop: true },
   morning_silence_soft     : { file: 'audio/bgm/morning_silence_soft.mp3', volume: 0.2, loop: true },
-  silence_with_piano       : { file: 'audio/bgm/silence_with_piano.mp3', volume: 0.25, loop: true },
-  lofi_afternoon_quiet     : { file: 'audio/bgm/lofi_afternoon_quiet.mp3', volume: 0.25, loop: true },
 
   // === 古墓壁画修复师专用标签 (2026-06-17 P0第470卷) ===
   tomb_ambient_low:        { file: 'audio/bgm/tomb_ambient_low.mp3',        volume: 0.2, loop: true },
@@ -572,7 +536,6 @@ const BGM_MAP = {
   ritual_drums_tension:    { file: 'audio/bgm/ritual_drums_tension.mp3',    volume: 0.4, loop: true },
   silence_then_flute:      { file: 'audio/bgm/silence_then_flute.mp3',      volume: 0.25, loop: false },
   melancholy_flute_long:   { file: 'audio/bgm/melancholy_flute_long.mp3',   volume: 0.35, loop: true },
-  hopeful_strings_gentle:  { file: 'audio/bgm/hopeful_strings_gentle.mp3',  volume: 0.35, loop: false },
 
   // === 死刑执行法警专用标签 (2026-06-17 P0第471卷) ===
   rain_piano_minimal:      { file: 'audio/bgm/rain_piano_minimal.mp3',      volume: 0.25, loop: true },
@@ -588,7 +551,6 @@ const BGM_MAP = {
 
   // === 气味翻译师专用标签 (2026-06-17 P0第470卷) ===
   lofi_chill_piano:        { file: 'audio/bgm/lofi_chill_piano.mp3',        volume: 0.3, loop: true },
-  gentle_strings_slow:     { file: 'audio/bgm/gentle_strings_slow.mp3',     volume: 0.3, loop: true },
   tension_low_synth:       { file: 'audio/bgm/tension_low_synth.mp3',       volume: 0.3, loop: true },
   cello_solo_gentle:       { file: 'audio/bgm/cello_solo_gentle.mp3',       volume: 0.35, loop: false },
   warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.3, loop: true },
@@ -629,23 +591,8 @@ const BGM_MAP = {
   legacy_warm_strings:     { file: 'audio/bgm/legacy_warm_strings.mp3',     volume: 0.35, loop: true },
 
   // === 三国蜀汉木牛流马工匠专用标签 (2026-06-17 P0第472卷) ===
-  ancient_qin_tension:    { file: 'audio/bgm/ancient_qin_tension.mp3',    volume: 0.35, loop: true },
-  workshop_silence_night: { file: 'audio/bgm/workshop_silence_night.mp3', volume: 0.2, loop: true },
-  insight_strings_rising: { file: 'audio/bgm/insight_strings_rising.mp3', volume: 0.4, loop: false },
-  solemn_guqin_moment:    { file: 'audio/bgm/solemn_guqin_moment.mp3',    volume: 0.3, loop: true },
-  triumph_drums_qin:      { file: 'audio/bgm/triumph_drums_qin.mp3',      volume: 0.5, loop: false },
-  dawn_workshop_quiet:    { file: 'audio/bgm/dawn_workshop_quiet.mp3',    volume: 0.25, loop: true },
-  farewell_xiao_distant:  { file: 'audio/bgm/farewell_xiao_distant.mp3',  volume: 0.3, loop: true },
-  echo_guqin_fade:        { file: 'audio/bgm/echo_guqin_fade.mp3',        volume: 0.25, loop: true },
 
   // === 气味翻译师的第一个月专用标签 (2026-06-17 P0第470卷) ===
-  lofi_chill_piano:       { file: 'audio/bgm/lofi_chill_piano.mp3',       volume: 0.3, loop: true },
-  gentle_strings_slow:    { file: 'audio/bgm/gentle_strings_slow.mp3',    volume: 0.3, loop: true },
-  tension_low_synth:      { file: 'audio/bgm/tension_low_synth.mp3',      volume: 0.35, loop: true },
-  cello_solo_gentle:      { file: 'audio/bgm/cello_solo_gentle.mp3',      volume: 0.3, loop: true },
-  warm_piano_simple:      { file: 'audio/bgm/warm_piano_simple.mp3',      volume: 0.3, loop: true },
-  love_theme_gentle:      { file: 'audio/bgm/love_theme_gentle.mp3',      volume: 0.35, loop: true },
-  reflection_piano_soft:  { file: 'audio/bgm/reflection_piano_soft.mp3',  volume: 0.25, loop: true },
 
 
   // === PTSD患者日常生活专用标签 (2026-06-17 P0第477卷) ===
@@ -669,7 +616,6 @@ const BGM_MAP = {
   ancient_night_silence:    { file: 'audio/bgm/ancient_night_silence.mp3',    volume: 0.25, loop: true },
   solemn_bangzi_echo:       { file: 'audio/bgm/solemn_bangzi_echo.mp3',       volume: 0.3, loop: false },
   tension_night_alert:      { file: 'audio/bgm/tension_night_alert.mp3',      volume: 0.35, loop: true },
-  warm_strings_gentle:      { file: 'audio/bgm/warm_strings_gentle.mp3',      volume: 0.3, loop: true },
   lonely_wind_cold:         { file: 'audio/bgm/lonely_wind_cold.mp3',         volume: 0.25, loop: true },
   ancient_guard_tension:    { file: 'audio/bgm/ancient_guard_tension.mp3',    volume: 0.3, loop: true },
   dawn_triumph_drum:        { file: 'audio/bgm/dawn_triumph_drum.mp3',        volume: 0.4, loop: false },
@@ -748,13 +694,10 @@ const BGM_MAP = {
   'pipa_tree_guitar_strum': { name: 'pipa_tree_guitar_strum', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
 
   // === 法律援助律师专用标签 (2026-06-21 P0第766卷) ===
-  gentle_strings_slow: { file: 'audio/bgm/gentle_strings_slow.mp3', volume: 0.3, loop: true },
   warm_piano:          { file: 'audio/bgm/warm_piano.mp3',          volume: 0.35, loop: true },
   quiet_contemplation: { file: 'audio/bgm/quiet_contemplation.mp3', volume: 0.25, loop: true },
-  silence_then_cry:    { file: 'audio/bgm/silence_then_cry.mp3',    volume: 0.4, loop: false },
 
   cello_solo_low:          { file: 'audio/bgm/cello_solo_low.mp3',          volume: 0.35, loop: true },
-  tension_low_strings:     { file: 'audio/bgm/tension_low_strings.mp3',     volume: 0.4,  loop: true },
   gentle_piano_learning:   { file: 'audio/bgm/gentle_piano_learning.mp3',   volume: 0.3,  loop: true },
   solemn_cello_transition: { file: 'audio/bgm/solemn_cello_transition.mp3', volume: 0.4,  loop: true },
   melancholy_cello:        { file: 'audio/bgm/melancholy_cello.mp3',        volume: 0.35, loop: true },
@@ -763,10 +706,7 @@ const BGM_MAP = {
   space_ambient_intro:     { file: 'audio/bgm/space_ambient_intro.mp3',     volume: 0.35, loop: true },
   tension_space_capture:   { file: 'audio/bgm/tension_space_capture.mp3',   volume: 0.45, loop: true },
   alarm_tension_orbital:   { file: 'audio/bgm/alarm_tension_orbital.mp3',   volume: 0.5,  loop: true },
-  synth_light_tech:        { file: 'audio/bgm/synth_light_tech.mp3',        volume: 0.35, loop: true },
-  piano_gentle_reflective: { file: 'audio/bgm/piano_gentle_reflective.mp3', volume: 0.3,  loop: true },
   strings_sunrise_orbital: { file: 'audio/bgm/strings_sunrise_orbital.mp3', volume: 0.4,  loop: true },
-  warm_piano_simple:       { file: 'audio/bgm/warm_piano_simple.mp3',       volume: 0.35, loop: true },
   quiet_indoor_pencil:     { file: 'audio/bgm/quiet_indoor_pencil.mp3',     volume: 0.25, loop: true },
   hallway_echo_muffled:    { file: 'audio/bgm/hallway_echo_muffled.mp3',    volume: 0.2,  loop: true },
   sensory_overload_multi:  { file: 'audio/bgm/sensory_overload_multi.mp3',  volume: 0.45, loop: true },
@@ -792,12 +732,10 @@ const BGM_MAP = {
   mourning_strings:         { file: 'audio/bgm/mourning_strings.mp3',         volume: 0.35, loop: true },
   dawn_warm_strings:        { file: 'audio/bgm/dawn_warm_strings.mp3',        volume: 0.4, loop: true },
   mountain_wind_gentle:     { file: 'audio/bgm/mountain_wind_gentle.mp3',     volume: 0.35, loop: true },
-  silence_heartbeat:        { file: 'audio/bgm/silence_heartbeat.mp3',        volume: 0.3, loop: true },
   mourning_flute:           { file: 'audio/bgm/mourning_flute.mp3',           volume: 0.35, loop: true },
   tense_drums_low:          { file: 'audio/bgm/tense_drums_low.mp3',          volume: 0.45, loop: true },
   summit_silence:           { file: 'audio/bgm/summit_silence.mp3',           volume: 0.3, loop: false },
   subway_hum_muted:         { file: 'audio/bgm/subway_hum_muted.mp3',         volume: 0.25, loop: true },
-  nostalgic_piano_soft:     { file: 'audio/bgm/nostalgic_piano_soft.mp3',     volume: 0.3, loop: true },
   silence_room_tone:        { file: 'audio/bgm/silence_room_tone.mp3',        volume: 0.2, loop: true },
   office_ambient_low:       { file: 'audio/bgm/office_ambient_low.mp3',       volume: 0.2, loop: true },
   home_evening_quiet:       { file: 'audio/bgm/home_evening_quiet.mp3',       volume: 0.3, loop: true },
@@ -813,9 +751,7 @@ const BGM_MAP = {
   'farewell_earth_gentle': { name: 'farewell_earth_gentle', loop: true, fadeIn: 1.5, fadeOut: 2.0 },
   // === 记忆原片鉴定师专用标签 ===
   lofi_electronic:          { file: 'audio/bgm/lofi_electronic.mp3',      volume: 0.3, loop: true },
-  melancholy_piano:         { file: 'audio/bgm/melancholy_piano.mp3',     volume: 0.35, loop: true },
   ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',         volume: 0.25, loop: true },
-  tension_strings:          { file: 'audio/bgm/tension_strings.mp3',      volume: 0.4, loop: true },
   silence_then_single_note: { file: 'audio/bgm/silence_single_note.mp3', volume: 0.2, loop: false },
   // === 达纳基尔硫磺矿工专用标签 (2026-06-21 专家团迭代) ===
   ethiopian_krar_dawn:    { file: 'audio/bgm/ethiopian_krar_dawn.mp3',    volume: 0.3, loop: true },
@@ -831,13 +767,8 @@ const BGM_MAP = {
   // === 记忆原片鉴定师 + 法援律师专用标签 (2026-06-22) ===
   lo_fi_electronic:         { file: 'audio/bgm/lo_fi_electronic.mp3',         volume: 0.3, loop: true },
   melancholic_piano:        { file: 'audio/bgm/melancholic_piano.mp3',        volume: 0.35, loop: true },
-  ambient_rain:             { file: 'audio/bgm/ambient_rain.mp3',             volume: 0.25, loop: true },
   tense_strings:            { file: 'audio/bgm/tense_strings.mp3',            volume: 0.4, loop: true },
-  silence_then_single_note: { file: 'audio/bgm/silence_then_single_note.mp3', volume: 0.2, loop: false },
-  gentle_strings_slow:      { file: 'audio/bgm/gentle_strings_slow.mp3',      volume: 0.3, loop: true },
-  urban_night:              { file: 'audio/bgm/urban_night.mp3',              volume: 0.3, loop: true },
   tension_pulse:            { file: 'audio/bgm/tension_pulse.mp3',            volume: 0.4, loop: true },
-  silence_then_piano:       { file: 'audio/bgm/silence_then_piano.mp3',       volume: 0.2, loop: false },
 
   // === 不丹唐卡画师专用标签 (2026-06-25 P0第759卷) ===
   monastery_morning_chant:    { file: 'audio/bgm/monastery_morning_chant.mp3',    volume: 0.25, loop: true },
