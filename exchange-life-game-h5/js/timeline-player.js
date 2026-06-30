@@ -416,7 +416,7 @@ class TimelinePlayer {
               timestamp: Date.now(),
               eventId: event.id
             });
-            console.log('[Memory] Recorded fragment:', chosenOption.memoryKeyword);
+            // Memory fragment recorded (debug removed for production)
             // Phase 3 P1: 触发记忆闪回音效
             if (this.sfxEngine && typeof this.sfxEngine.playMemoryFlash === 'function') {
               this.sfxEngine.playMemoryFlash();
@@ -552,7 +552,7 @@ class TimelinePlayer {
           this.sfxEngine.playHeartbeat(event.emotionIntensity);
           this._heartbeatCooldown = now;
           this._lastHeartbeatEventId = event.id;
-          console.log('[SFX] Heartbeat triggered for event:', event.id, 'intensity:', event.emotionIntensity);
+          // SFX heartbeat triggered (debug removed for production)
         }
       }
       
