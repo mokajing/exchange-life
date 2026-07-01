@@ -969,6 +969,14 @@ const BGM_MAP = {
   wind_through_leaves: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.3, loop: true },
   work_focus: { file: 'audio/bgm/focused_rhythm.mp3', volume: 0.35, loop: true },
   workshop_morning_silence: { file: 'audio/bgm/somber_piano.mp3', volume: 0.3, loop: true },
+  // === 地铁末班车清洁工专用标签 (2026-07-01 P0第761卷) ===
+  night_silence_piano:    { file: 'audio/bgm/night_silence_piano.mp3',    volume: 0.25, loop: true },
+  work_rhythm_ambient:    { file: 'audio/bgm/work_rhythm_ambient.mp3',    volume: 0.3, loop: true },
+  warm_memory_strings:    { file: 'audio/bgm/warm_memory_strings.mp3',    volume: 0.35, loop: true },
+  farewell_piano:         { file: 'audio/bgm/farewell_piano.mp3',         volume: 0.3, loop: true },
+  quiet_pride_ambient:    { file: 'audio/bgm/quiet_pride_ambient.mp3',    volume: 0.25, loop: true },
+  reflection_piano:       { file: 'audio/bgm/reflection_piano.mp3',       volume: 0.3, loop: true },
+  dawn_warmth_strings:    { file: 'audio/bgm/dawn_warmth_strings.mp3',    volume: 0.35, loop: false },
 };
 
 /**
