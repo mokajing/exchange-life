@@ -187,6 +187,7 @@ const TIMELINE_LIST = [
   'smell-translator-first-month',
   'solo-chinese-new-year-eve',
   'song-yuansheng',
+  'song-storyteller-last-show',
   'streamer-to-shopkeeper',
   'stutterer-interview',
   'su-min',

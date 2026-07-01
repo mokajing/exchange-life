@@ -231,6 +231,9 @@ const BGM_MAP = {
   ancient_china_bustle:{ file: 'audio/bgm/ancient_china_bustle.mp3',volume: 0.45, loop: true },
   ancient_china_warm:  { file: 'audio/bgm/ancient_china_warm.mp3',  volume: 0.35, loop: true },
   ancient_china_night: { file: 'audio/bgm/ancient_china_night.mp3', volume: 0.3, loop: true },
+  ancient_china_battle:{ file: 'audio/bgm/ancient_china_battle.mp3',volume: 0.45, loop: true },
+  ancient_china_sad:   { file: 'audio/bgm/ancient_china_sad.mp3',   volume: 0.3, loop: true },
+  ancient_china_hope:  { file: 'audio/bgm/ancient_china_hope.mp3',  volume: 0.35, loop: true },
 
   // === 火山科学家专用标签 (2026-06-15 P0第166卷) ===
   tension_low:         { file: 'audio/bgm/tension_low.mp3',         volume: 0.25, loop: true },
