@@ -1,0 +1,167 @@
+{
+  "meta": {
+    "id": "song-storyteller-last-show",
+    "title": "宋朝汴京勾栏瓦舍说书人的最后一场",
+    "subtitle": "在印刷术普及前夜，用一张嘴和一块醒木守护口传文学最后的黄金时代",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-07-02T06:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_morning_voice",
+      "title": "卯时吊嗓",
+      "description": "清晨五更，在小院对着水缸练声。水缸是最好的共鸣器，二十年练就的嗓子像一把老刀，钝了但还在。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "卯时刚过，天还蒙蒙亮。你站在小院里，对着那口用了十五年的水缸深吸一口气。'话说天下大势——'声音撞进缸里又弹回来，带着水汽的回响。二十年了，这把嗓子模仿过曹操的奸笑、关羽的怒吼、崔宁的叹息，今天还要再响一次。",
+      "bgmTag": "ancient_china_day",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_02_book_club",
+      "title": "辰时书会换本",
+      "description": "到瓦子后巷的书会与同行交换今日话本，茶三文钱一碗。听说隔壁棚的杂剧班子排了新戏，书会才子昨夜赶出了《碾玉观音》新稿。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.5,
+      "narrativeText": "桑家瓦子的后巷飘着茶香。你把昨儿讲完的《三分》话本递给老赵，换回一卷墨迹未干的《碾玉观音》。'昨夜赶出来的，你第一个讲。'书会才子冲你眨眼。茶三文钱一碗，你抿了一口，烫嘴，但心里热乎。",
+      "bgmTag": "ancient_china_day",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "开场前去哪里？",
+        "options": [
+          { "label": "去书会换新话本", "response": "你拿到了最新的《碾玉观音》手稿，今晚可以首讲这段新故事。" },
+          { "label": "去茶肆多喝一碗茶", "response": "茶肆里有人议论活字印刷的新书便宜得很，你听了一耳朵，心里隐隐不安。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_first_show",
+      "title": "午时第一场·赤壁之战",
+      "description": "勾栏内满座238人，讲《三分》赤壁之战。讲到火烧曹营时台下老兵喊'火烧得不对'，即兴接话满堂喝彩。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "'话说那曹操，率八十万大军，顺江而下，旌旗蔽日，樯橹如林——'啪！醒木一拍，全场屏息。你讲到东风起、火船出，台下二百多双眼睛全盯着你。忽然一个粗嗓子喊：'火烧得不对！'你定睛一看，是个满脸疤痕的老兵。你不慌不忙：'这位老哥当年在否？上来替我说！'满堂喝彩。这就是勾栏的魂——印在纸上的字没有这个。",
+      "bgmTag": "ancient_china_battle",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对老兵质疑，你怎么做？",
+        "options": [
+          { "label": "请他上台共讲", "response": "老兵上台讲了真正的赤壁烟火味，满堂喝彩。节奏乱了，但这份真实比什么都珍贵。" },
+          { "label": "巧妙圆过去", "response": "你用一句'且听书中分晓'化解了场面，专业气场保住了，但少了一个共创的瞬间。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_04_lunch_break",
+      "title": "未时歇晌",
+      "description": "中场休息，吃一碗羊杂汤泡饼。听隔壁棚杂剧班子排练，铜钱287文已入账，扣去场租净剩114文。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "羊杂汤泡饼热气腾腾，你蹲在勾栏后头吃得满头汗。布袋里铜钱叮当——287文，扣去场租和茶钱，净剩114文。够买五升米，养一家三口紧巴巴的。隔壁棚传来杂剧的锣鼓声，你嚼着饼听了会儿，心想：这行当虽然苦，可离了它，你还真不知道自己是哪个。",
+      "bgmTag": "ancient_china_day",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_05_new_story",
+      "title": "申时第二场·碾玉观音首讲",
+      "description": "第一次讲新话本《碾玉观音》，边讲边改。讲到崔宁被发配时台下有妇人落泪——这是说书人的数据反馈。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.6,
+      "narrativeText": "新话本的墨香还没散尽。你讲到崔宁被发配、秀秀含冤而死，声音不由自主地低了下去。台下一位妇人用帕子按住眼角，肩膀微微发抖。你没停，只是把语速放慢了些。这就是说书人和读书人的区别——你能看见你的故事落在谁心上，落得多重。",
+      "bgmTag": "ancient_china_sad",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_printed_book",
+      "title": "戌时·活字本的冲击",
+      "description": "灯下润色明日话本时，隔壁老秀才送来一本新刻的《三国志》活字印本。字迹清晰、价格低廉，说书人第一次感到这行可能要消亡了。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.7,
+      "narrativeText": "油灯摇曳，你正拿毛笔润色明日的话本。门帘一掀，老秀才笑眯眯递来一本书。'瞧瞧，活字印的《三国志》，才三十文。'你接过来，字迹比手抄还清整，装订齐整得像官家的文书。三十文——你讲一场书才收几文？手指摸着光滑的书页，心里像被什么堵住了。两个月前张铁嘴已经改行做了书铺伙计。你看着手里的醒木，第一次觉得它轻了。",
+      "bgmTag": "ancient_china_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对活字印刷的冲击，你怎么想？",
+        "options": [
+          { "label": "书是死的，人是活的", "response": "你攥紧醒木：书上写的是字，嘴里说出来的是命。只要还有人愿意听，这行就断不了。" },
+          { "label": "也许该教侄儿识字排版", "response": "时代变了，与其让侄儿跟你吃苦，不如让他学门新手艺。可心里总觉得少了点什么。" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_master_memory",
+      "title": "亥时·师父的醒木",
+      "description": "深夜失眠，想起二十年前师父退休时把醒木交给他说的话：这块醒木拍了几万下，每一下都不一样。书是一样的，魂是活的。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.9,
+      "narrativeText": "夜深了，窗外打更的梆子声远了又近。你坐在桌前，左手是那本崭新的活字印本，右手是包浆发亮的醒木。二十年前师父把这块醒木放在你手心时说：'这块木头拍了几万下，每一下都不一样。你记住，书是一样的，魂是活的。'那时候你不懂。今夜你忽然懂了——活字能印一万本一模一样的书，但印不出你讲到赤壁时那一声拍案的脆响，印不出台下妇人落泪时你放慢的那半拍呼吸。",
+      "bgmTag": "ancient_china_night",
+      "visualTone": "dark"
+    },
+    {
+      "id": "evt_08_decision",
+      "title": "子时·最后的决定",
+      "description": "决定明天开始教侄儿说书。不是对抗时代，是把最好的留在一个人心里。与其让口传消亡，不如让它在下一代身上换个活法。",
+      "ageRange": { "start": 40, "end": 40 },
+      "yearRange": { "start": 1106, "end": 1106 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "你把醒木擦了又擦，放回桌上。侄儿今年十四，嗓子条件比你还好，就是眼睛总盯着书铺的招工告示。你决定了：明天开始教他说书。不是逼他接班，是让他自己听听，这行当里有没有什么东西值得留下来。如果他说'叔，我还是想去书铺'，你就带他去。但如果他在听到赤壁那场火的时候眼睛亮了——那你就知道，有些东西活字印不出来，但能传下去。",
+      "bgmTag": "ancient_china_hope",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "你决定怎么安排侄儿的未来？",
+        "options": [
+          { "label": "教他说书，传承口传技艺", "response": "你开始教侄儿吊嗓、拍醒木、讲故事。前路艰难，但这门手艺在他身上活了下来。" },
+          { "label": "让他去书铺学排版", "response": "侄儿去了书铺，学会了活字排版。你偶尔去看他，发现他排的字比你写的还整齐。时代变了，人没丢。" },
+          { "label": "两样都学，口传与印刷共生", "response": "侄儿白天在书铺学排版，晚上跟你学说书。他成了第一个既懂活字又懂醒木的人——两种文明在他身上和解了。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["evt_03_first_show", "evt_07_master_memory"],
+    "valleyMoments": ["evt_06_printed_book"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": [],
+    "requiresSafetyPrompt": false,
+    "requiresAgeVerification": false
+  }
+}
