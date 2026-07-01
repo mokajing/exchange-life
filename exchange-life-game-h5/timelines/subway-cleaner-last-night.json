@@ -1,0 +1,162 @@
+{
+  "meta": {
+    "id": "subway-cleaner-last-night",
+    "title": "地铁末班车清洁工的最后一次夜班",
+    "subtitle": "28年零事故零投诉零缺勤，她用一把拖把守护城市地下动脉的最后体面，在退休前最后一个夜班与这条线路做沉默告别",
+    "sourceType": "documentary",
+    "narrativeTemplate": "daily_poetry",
+    "createdAt": "2026-07-01T21:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_last_train_leaves",
+      "title": "末班车驶离·空荡站台",
+      "description": "23:30，末班车驶出，最后一拨乘客散尽。站台广播响起运营已结束的提示音。她换上灰色工装，戴上橡胶手套，从工具间推出拖把车和消毒喷雾器。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.3,
+      "narrativeText": "末班车的尾灯消失在隧道深处，站台突然安静下来。广播里传来'运营已结束'的提示音，像一句温柔的晚安。你换上那件洗了无数遍的灰色工装，橡胶手套套上手指的瞬间，28年的肌肉记忆自动启动。拖把车推出来，轮子在瓷砖上滚过，发出熟悉的咕噜声。",
+      "bgmTag": "night_silence_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_deep_clean",
+      "title": "逐节车厢深度清洁",
+      "description": "00:00-03:00，擦扶手、铲口香糖、吸尘、消毒、换垃圾袋、清理座椅缝隙。每节车厢约300平方米，深度清洁需1.5-2小时。这是她28年来每天重复的动作。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "拖过去。拉回来。拖过去。拉回来。这个动作你做了28年，闭着眼睛都不会错。扶手上的指纹要擦两遍，口香糖要用铲子一点一点抠掉，座椅缝隙里的碎屑要用吸尘器吸干净。消毒水的味道弥漫在车厢里，这是你最熟悉的气味——比任何香水都让你安心。",
+      "bgmTag": "work_rhythm_ambient",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "清洁时想起什么？",
+        "options": [
+          {"label": "28年前第一天上班", "response": "1998年，你从纺织厂下岗，经人介绍进了刚开通的地铁1号线。月薪680元，第一天下班时腰疼得直不起来，但第二天还是准时来了。"},
+          {"label": "非典那年背喷雾器", "response": "2003年非典，你主动申请负责消毒车厢。每天背着40斤喷雾器走完38个站，手套里的手泡得发白。有人问你怕不怕，你说：'怕，但这是我的活。'"}
+        ]
+      }
+    },
+    {
+      "id": "evt_03_rest_moment",
+      "title": "凌晨三点的凉茶",
+      "description": "03:00-03:30，休息15分钟。在空无一人的站台上喝保温杯里的凉茶，这是她28年来每天最安静的时刻。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "daily_life",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.5,
+      "narrativeText": "空无一人的站台，只有应急灯发出微弱的光。你坐在长椅上，拧开保温杯，凉茶已经温了。这是每天最安静的15分钟——没有乘客的脚步声，没有广播的提示音，只有自己的呼吸和远处轨道偶尔传来的低鸣。28年来，这15分钟是你和自己独处的唯一时刻。",
+      "bgmTag": "solitude_piano",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "这15分钟里想什么？",
+        "options": [
+          {"label": "想儿子", "response": "2018年儿子大学毕业，你没去参加毕业典礼。那天是地铁大检查，你在站台上给他打了个电话：'妈在上班，你替妈高兴一下。'他说：'妈，你拖的地比我走过的路还长。'"},
+          {"label": "什么都不想", "response": "有时候什么都不想就是最好的休息。让脑子放空，让身体放松，让这15分钟成为一天里最奢侈的时光。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_04_found_money",
+      "title": "那个黑色双肩包",
+      "description": "2010年，在地铁座位上捡到一个黑色双肩包，里面有12万现金。她交到失物招领处，失主是给女儿凑手术费的农民工。",
+      "ageRange": {"start": 44},
+      "yearRange": {"start": 2010},
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "那个黑色双肩包沉甸甸的。拉开拉链，一沓沓现金整齐地码在里面。12万——相当于你两年的工资。你没有犹豫，直接交到失物招领处。后来才知道，那是一个农民工给女儿凑的手术费。他拿到包的时候哭了，你也差点哭了。不是因为钱，是因为你守住了自己。",
+      "bgmTag": "warm_memory_strings",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "如果当时打开看了怎么办？",
+        "options": [
+          {"label": "还是会交上去", "response": "你知道自己会交上去。不是因为高尚，是因为你妈从小教你：'不是你的东西，一分都不能拿。'这句话刻在骨子里，比任何诱惑都重。"},
+          {"label": "可能会犹豫一秒", "response": "说实话，可能会犹豫一秒。但那一秒之后，你还是会把包交到失物招领处。因为你知道，拿了不该拿的钱，这辈子都睡不安稳。"}
+        ]
+      }
+    },
+    {
+      "id": "evt_05_station_clean",
+      "title": "站台与卫生间的最后清洁",
+      "description": "03:30-04:30，清洁站台地面、卫生间、电梯扶手、闸机。今晚她比平时多花了30分钟，把每个扶手都擦了两遍。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "sadness",
+      "emotionIntensity": 0.5,
+      "narrativeText": "今晚的清洁比平时慢了30分钟。你把每个扶手都擦了两遍，把每块地砖都拖得能照出人影。这不是强迫症，是告别。28年了，这条线路的每一寸地面你都踩过，每一个扶手你都擦过。它们是你的老朋友，虽然不会说话，但记得你所有的汗水和弯腰。",
+      "bgmTag": "farewell_piano",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_06_inspection",
+      "title": "质检员签字确认",
+      "description": "04:30，质检员巡检，签字确认。28年零事故、零投诉、零缺勤。站长说要办欢送会，她说不用，让我安安静静把地拖完就行。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "质检员拿着检查表逐项打勾，最后签上名字。28年，这张表上从来没有出现过不合格的记录。站长说给你办个欢送会，你摆摆手：'不用，让我安安静静把地拖完就行。'你不是不喜欢热闹，只是觉得最好的告别方式，就是把最后一天的活干得和第一天一样认真。",
+      "bgmTag": "quiet_pride_ambient",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "evt_07_mirror",
+      "title": "更衣室镜子里的白发",
+      "description": "04:45，脱下工装，在更衣室镜子里看到自己鬓角的白发。28年前进来时还是个年轻女人，现在已经是奶奶辈了。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.6,
+      "narrativeText": "脱下工装的那一刻，你在镜子里看到了自己。鬓角的白发什么时候多了这么多？眼角的皱纹是什么时候刻上去的？28年前走进这个更衣室时，你还是个32岁的年轻女人，刚从纺织厂下岗，对未来充满忐忑。现在镜子里的人，已经是奶奶辈了。但你笑了——这28年，你没有辜负自己。",
+      "bgmTag": "reflection_piano",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_08_dawn",
+      "title": "首班车进站·晨光打在脸上",
+      "description": "05:00，首班车进站，她走出地铁口。晨光从淡紫渐变到金黄，温暖而柔和。深呼吸，微笑。这不是结束，是圆满。",
+      "ageRange": {"start": 60},
+      "yearRange": {"start": 2026},
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "首班车的广播声从远处传来，像一声问候。你走出地铁口，晨光从淡紫渐变到金黄，温柔地打在你的脸上。深呼吸。空气里有清晨特有的清新味道。你回头看了一眼地铁站入口，心里默默说了一句：再见了，老伙计。然后转身，微笑着走向回家的路。天亮了。",
+      "bgmTag": "dawn_warmth_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "走出地铁口后做什么？",
+        "options": [
+          {"label": "慢慢走回家", "response": "脚步比上班时慢了很多。路上有早起跑步的人、遛狗的老人、开门的早餐店。你第一次以'退休人员'的身份看这条走了28年的路，一切都新鲜又熟悉。"},
+          {"label": "在路边坐一会儿", "response": "你在路边的长椅上坐下来，看着城市慢慢醒来。公交车开始运行，自行车铃声响起，学生背着书包走过。这座城市因为你昨晚的清洁，又以干净的面貌迎接新的一天。"}
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "curve": "gentle_rise_fall",
+    "peakEventId": "evt_08_dawn",
+    "valleyEventId": "evt_03_rest_moment",
+    "description": "从平静的日常开始，通过回忆闪回逐渐积累情感厚度，在晨光中的释然达到情感高峰。整体是一条温和上升后平稳落地的弧线，像一次深呼吸。"
+  },
+  "tags": ["daily_miracle", "labor_dignity", "silent_hero", "retirement", "urban_worker"],
+  "difficultyLevel": "easy",
+  "estimatedDuration": 1200
+}

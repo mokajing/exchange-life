@@ -156,7 +156,8 @@ const TIMELINE_LIST = [
   'yuan-post-rider-blizzard',
   'zhang-guimei',
   'zhang-xue',
-  'zheng-jinxing'
+  'zheng-jinxing',
+  'subway-cleaner-last-night'
 ];
 
 App({
