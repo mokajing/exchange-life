@@ -1,0 +1,114 @@
+{
+  "meta": {
+    "id": "nuclear-waste-geological-engineer",
+    "title": "核废料地质处置工程师——给地球最深处的垃圾盖一个永远的家",
+    "subtitle": "他设计的东西需要撑过十万年，而他自己的名字不会被记住一天",
+    "sourceType": "documentary",
+    "narrativeTemplate": "hero_journey",
+    "createdAt": "2026-07-02T18:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "year0-first-descent",
+      "title": "第一次下到500米深处",
+      "description": "在全国地质稳定区域找到一块2.5亿年未发生地质运动的稳定花岗岩体后，第一次乘坐升降机下降到地下500米的处置巷道。意识到脚下的废物将比自己活得更久。",
+      "ageRange": { "start": 32 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.85,
+      "narrativeText": "升降机的绞盘声在耳边嗡鸣了整整四分钟。当门打开的那一刻，你闻到了花岗岩特有的干燥气息。头顶500米的地层像一本合上的书，把你和地面上的阳光、风声、孩子的笑声彻底隔开。通风系统的低频嗡鸣成了这里唯一的心跳。你把手贴在裸露的岩壁上，指尖触到的是2.5亿年的沉默。",
+      "bgmTag": "deep_underground",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "升降机门打开了……",
+        "options": [
+          { "label": "先站在原地感受片刻", "response": "你闭上眼睛，让黑暗和寂静包裹自己三十秒。这是你职业生涯中最安静的入职仪式。" },
+          { "label": "大步走进处置巷道", "response": "你的脚步声在混凝土隧道里回荡。每一步都在提醒自己：从今天起，你是地球最深处秘密的守护者。" }
+        ]
+      }
+    },
+    {
+      "id": "year5-warning-design",
+      "title": "设计十万年警告系统",
+      "description": "参与跨学科会议，与语言学家、符号学家、人类学家一起讨论如何向未来文明传递'这里危险，不要挖'的信息。争论骷髅头标志在十万年后是否还能被理解。",
+      "ageRange": { "start": 37 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.9,
+      "narrativeText": "会议室里坐了十二个人。语言学家说所有现存语言都会在十万年内消亡。符号学家说骷髅头在某些文化里代表神圣而非危险。人类学家说如果人类灭绝了，新的智慧物种可能根本看不懂任何人类的符号。你们在设计一种跨越十万年的对话，而对方甚至可能不是人类。这大概是地球上最孤独的设计任务。",
+      "bgmTag": "ambient_tension",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "三种警告方案摆在面前……",
+        "options": [
+          { "label": "物理威慑：巨大的尖刺结构", "response": "用纯粹的物理形态制造本能恐惧。不需要语言，不需要文化，尖锐的东西在任何时代都意味着危险。" },
+          { "label": "符号系统：超越语言的图形", "response": "设计一套不依赖任何现存语言的符号体系。也许十万年后没人能读懂文字，但几何图形可能穿越时间。" },
+          { "label": "什么都不做：遗忘即保护", "response": "也许最好的警告就是不留痕迹。让这个地方被彻底遗忘，反而比任何标记都更安全。" }
+        ]
+      }
+    },
+    {
+      "id": "year10-child-question",
+      "title": "孩子问爸爸你在做什么工作",
+      "description": "六岁的儿子问你每天去那么远的地方上班到底在做什么。你试图用'给地球最深处的垃圾盖一个永远的家'来解释一份无法被普通人理解的工作。",
+      "ageRange": { "start": 42 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.95,
+      "narrativeText": "晚饭桌上，儿子突然放下筷子看着你：'爸爸，你到底在做什么工作？'你停下了咀嚼。怎么跟一个六岁的孩子解释半衰期、玻璃固化体和十万年的安全承诺？你说：'爸爸在给地球最深处的垃圾盖一个永远的家。'他歪着头想了想：'那它们会乖乖待在里面吗？'你说：'会的，爸爸保证。'你不知道这个保证的有效期是十万年。",
+      "bgmTag": "warm_family",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对孩子清澈的眼神……",
+        "options": [
+          { "label": "用工程原理认真解释", "response": "你拿出纸笔画了一个简单的示意图。他听不懂半衰期，但他听懂了'保护'两个字。" },
+          { "label": "给他看井下的照片", "response": "手机屏幕上，暖黄色的隧道灯光打在花岗岩壁上。他说：'好像一个很深很深的山洞。'你说：'对，爸爸在山洞里守护大家。'" },
+          { "label": "沉默，然后抱紧他", "response": "有些工作注定无法被解释，只能被感受。你把他抱在怀里，听着他均匀的心跳，觉得这就是你守护的全部意义。" }
+        ]
+      }
+    },
+    {
+      "id": "year20-glass-sealing",
+      "title": "第一批高放废物玻璃固化体入场",
+      "description": "经过二十年的建设和验证，首批高放废物玻璃固化体正式进入处置巷道。每一个不锈钢包裹的容器都承载着数万年的安全责任。",
+      "ageRange": { "start": 52 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.7,
+      "narrativeText": "玻璃固化体被缓缓推入处置孔的那一刻，整个巷道安静得只剩下机械臂的轻微嗡鸣。不锈钢外壳反射着隧道灯的光，像一个沉默的金属茧。你知道里面封存的是什么——那些在反应堆里燃烧过的铀和钚，它们的半衰期以万年计。你用双手为它们安了一个家，而这个家的保质期超过了人类文明的全部历史。",
+      "bgmTag": "solemn_moment",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "year30-retirement",
+      "title": "退休那天站在封堵完成的竖井口",
+      "description": "所有处置巷道填满后，用膨润土和混凝土逐层回填，永久封堵所有竖井。退休那天站在地面设施旁，知道这个工程将在自己死后十万年仍然默默守护人类。",
+      "ageRange": { "start": 62 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "最后一方混凝土浇筑完成的那天下午，你站在竖井口的围栏边。夕阳把影子拉得很长。脚下500米处，那些被你亲手安置的玻璃固化体正在黑暗中开始它们漫长的沉睡。没有人会记得你的名字，没有人会在新闻里报道这件事。但十万年后，当某个未来的生命踏足这片土地时，你设计的屏障仍然在默默地说：别担心，这里有人守护过。",
+      "bgmTag": "eternal_silence",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "最后一次回望这片土地……",
+        "options": [
+          { "label": "写一封给十万年后的信", "response": "你在心里默念了一句话。没有纸笔，没有石碑。但你知道，真正的信不在文字里，在那500米深处的每一层屏障中。" },
+          { "label": "平静地转身离开", "response": "你没有回头。有些告别不需要仪式感。你走向停车场，发动引擎，收音机里传来一首老歌。回家的路很短，而你走过的路很长。" }
+        ]
+      }
+    }
+  ],
+  "emotionalArc": {
+    "overallShape": "rise_and_settle",
+    "peakEventId": "year10-child-question",
+    "troughEventId": "year0-first-descent",
+    "summary": "从初入地下的敬畏与渺小感出发，经历十万年时间尺度的存在主义震撼，在与孩子的对话中找到守护的意义，最终在退休时达到平静的接受——我做的事比我更长久。"
+  }
+}

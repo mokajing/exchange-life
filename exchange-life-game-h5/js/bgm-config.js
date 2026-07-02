@@ -981,6 +981,12 @@ const BGM_MAP = {
   quiet_pride_ambient:    { file: 'audio/bgm/quiet_pride_ambient.mp3',    volume: 0.25, loop: true },
   reflection_piano:       { file: 'audio/bgm/reflection_piano.mp3',       volume: 0.3, loop: true },
   dawn_warmth_strings:    { file: 'audio/bgm/dawn_warmth_strings.mp3',    volume: 0.35, loop: false },
+
+  // === 核废料地质处置工程师专用标签 (2026-07-02 P0第760卷) ===
+  deep_underground:     { file: 'audio/bgm/deep_underground.mp3',     volume: 0.25, loop: true },
+  ambient_tension:      { file: 'audio/bgm/ambient_tension.mp3',      volume: 0.3, loop: true },
+  solemn_moment:        { file: 'audio/bgm/solemn_moment.mp3',        volume: 0.3, loop: true },
+  eternal_silence:      { file: 'audio/bgm/eternal_silence.mp3',      volume: 0.2, loop: true },
 };
 
 /**

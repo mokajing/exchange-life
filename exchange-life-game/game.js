@@ -98,6 +98,7 @@ const TIMELINE_LIST = [
   'mycenaean-scribe-linear-b',
   'new-mom-3am-first-year',
   'no-fire-humanity',
+  'nuclear-waste-geological-engineer',
   'ocd-morning-ritual',
   'oil-rig-worker',
   'oral-historian-last-day',
