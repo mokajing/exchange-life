@@ -10,6 +10,7 @@ const wx = {
     windowWidth: window.innerWidth,
     windowHeight: window.innerHeight
   }),
+  'nuclear-waste-geological-engineer',
   onTouchStart: (cb) => document.addEventListener('touchstart', (e) => cb(e), { passive: false }),
   onTouchMove: (cb) => document.addEventListener('touchmove', (e) => cb(e), { passive: false }),
   onTouchEnd: (cb) => document.addEventListener('touchend', (e) => cb(e), { passive: false }),
