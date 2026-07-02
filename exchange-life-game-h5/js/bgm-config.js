@@ -887,6 +887,7 @@ const BGM_MAP = {
   morning_hope: { file: 'audio/bgm/hopeful_rise.mp3', volume: 0.35, loop: true },
   morning_market_hustle: { file: 'audio/bgm/focused_rhythm.mp3', volume: 0.35, loop: true },
   morning_silence: { file: 'audio/bgm/somber_piano.mp3', volume: 0.3, loop: true },
+  morning_silence_soft: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.25, loop: true },
   morning_sun_erhu: { file: 'audio/bgm/hopeful_rise.mp3', volume: 0.35, loop: true },
   mountain_road_cicada: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.3, loop: true },
   mourning_fire: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
