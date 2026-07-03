@@ -47,6 +47,13 @@ class Renderer {
     this.fadeAlpha = 0;
     this.fadeTarget = 1;
     this.fadeSpeed = 2;
+
+    // Phase 3 P0: 粒子系统和屏幕震动效果
+    this.particles = [];
+    this.maxParticles = 40;
+    this.shakeDuration = 0;
+    this.shakeIntensity = 0;
+    this.shakeOffset = { x: 0, y: 0 };
   }
 
   /**
