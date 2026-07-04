@@ -1111,4 +1111,11 @@ function _clearCrossfadeTimer() {
     _activeCrossfadeTimer = null;
   }
 }
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM 
+  // === 律所合伙人到法援律师专用标签 (2026-07-05 P0第766卷) ===
+  tense_heartbeat:   { file: 'audio/bgm/tense_heartbeat.mp3',   volume: 0.4, loop: true },
+  gentle_strings_slow:{ file: 'audio/bgm/gentle_strings_slow.mp3',volume: 0.35, loop: true },
+  triumph_drums_guqin:{ file: 'audio/bgm/triumph_drums_guqin.mp3',volume: 0.5, loop: false },
+  silence_then_cry:  { file: 'audio/bgm/silence_then_cry.mp3',  volume: 0.3, loop: false },
+
+};

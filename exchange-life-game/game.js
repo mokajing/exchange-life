@@ -68,6 +68,7 @@ const TIMELINE_LIST = [
   'kyoto-wagashi-heir',
   'lanna-amulet-caster',
   'lawyer-legal-aid-swap',
+  'lawyer-legal-aid-partner-swap',
   'left-behind-homecoming',
   'li-jia',
   'lighthouse-keeper',

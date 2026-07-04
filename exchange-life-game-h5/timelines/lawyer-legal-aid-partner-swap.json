@@ -1,0 +1,134 @@
+{
+  "meta": {
+    "id": "lawyer-legal-aid-partner-swap",
+    "title": "阶层跨越体验·从顶级律所合伙人到法律援助律师",
+    "subtitle": "当\"按小时收费\"变成\"按良心收费\"",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-07-05T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "resignation",
+      "title": "辞职信·黄浦江畔的最后一次日落",
+      "description": "在律所干了15年，最后一次看办公室窗外的黄浦江，发现看了15年从来没认真看过一次日落。卖掉陆家嘴公寓，搬进法援中心附近的老小区。",
+      "ageRange": { "start": 38 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你站在48楼的落地窗前，黄浦江的波光在夕阳下碎成金片。15年了，你第一次认真看这场日落。桌上的辞职信已经签好字，旁边是陆家嘴公寓的卖房合同。明天起，你的时薪从5000元变成0元——或者说，变成另一种无法计价的东西。",
+      "bgmTag": "urban_night",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "离开前的最后一刻……",
+        "options": [
+          { "label": "再看一眼窗外的日落", "response": "你站了很久，直到太阳完全沉入江面。15年的忙碌在这一刻凝固成一道光。你转身离开时，脚步比来时轻了一些。" },
+          { "label": "直接收拾东西离开", "response": "你没有回头。有些告别不需要仪式，行动本身就是答案。电梯门关上的那一刻，你感到一种陌生的轻松。" }
+        ]
+      }
+    },
+    {
+      "id": "first-case-orange",
+      "title": "第一个案子·一只皱巴巴的橘子",
+      "description": "农民工在工地摔断腿，包工头跑了。用了3天找到包工头、2天谈下和解。拿到赔偿款那天，农民工用塑料袋包着钱递给他一只皱巴巴的橘子。",
+      "ageRange": { "start": 38 },
+      "yearRange": { "start": 2024, "end": 2024 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "标的额3800元。你在律所时一顿商务午餐的价格。但当你把赔偿款交到那个男人手里时，他从塑料袋里掏出一只橘子——皱巴巴的，带着体温。'律师，这个给你。'他说这是他全部的水果储备。你接过橘子的那一刻，手指触到的粗糙感比任何胜诉判决都真实。",
+      "bgmTag": "gentle_strings_slow",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这份感谢……",
+        "options": [
+          { "label": "收下橘子，告诉他以后有困难再来找你", "response": "你剥开橘子，酸涩中带着一丝甜。你说'下次有事直接来找我'，他点点头，眼眶红了。这是你收到的最珍贵的代理费。" },
+          { "label": "婉拒橘子，只收法律规定内的补贴", "response": "你把橘子塞回他手里，说'留着给孩子吃'。他坚持要给你，你们推让了好几次。最后你收下了，放在办公桌上，舍不得吃。" }
+        ]
+      }
+    },
+    {
+      "id": "hardest-case-domestic",
+      "title": "最难的案子·七年家暴与新旧交叠的淤青",
+      "description": "家暴受害者的离婚诉讼。女方被丈夫打了7年，证据却只有医院病历。第一次在法庭上拍了桌子——不是因为愤怒，是因为看到女方手臂上新旧交叠的淤青。",
+      "ageRange": { "start": 39 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.95,
+      "narrativeText": "她挽起袖子的那一刻，你看到了时间的形状——新伤叠着旧痕，紫红挨着暗黄。七年。她在法庭上说话的声音很轻，像怕惊动什么。你拍了桌子，不是对法官，是对自己——为什么现在才看见这些？法槌落下时，她的手还在抖。但你注意到，她的眼神里第一次有了光。",
+      "bgmTag": "tense_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "庭审策略选择……",
+        "options": [
+          { "label": "重点呈现伤情证据，争取法官同情", "response": "你把七年的病历一张张摊开，每一张都是一个沉默的证词。法官的表情从严肃变得凝重。你知道，法律的天平正在倾斜。" },
+          { "label": "强调女方的独立能力和未来规划", "response": "你让她自己讲述想做什么、能做什么。当她说到'我想开个裁缝铺'时，声音不再发抖了。法官看到的不再只是一个受害者，而是一个准备重新开始的人。" }
+        ]
+      }
+    },
+    {
+      "id": "colleague-call",
+      "title": "前同事的电话·\"你疯了吗\"",
+      "description": "前律所同事打电话问他\"你疯了吗\"，他说\"疯了，但这是我15年来睡得最踏实的一年\"。",
+      "ageRange": { "start": 39 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.6,
+      "narrativeText": "电话那头是熟悉的声音，带着不解和一丝担忧。'你疯了吗？年薪百万不要，去挣那点补贴？'你笑了，看着窗外老小区的梧桐树。'疯了，'你说，'但这是我15年来睡得最踏实的一年。'挂掉电话后，你发现自己并不想解释更多。有些路，走过的人才知道风景。",
+      "bgmTag": "urban_night",
+      "visualTone": "neutral"
+    },
+    {
+      "id": "collective-case-win",
+      "title": "集体讨薪案·36个人的谢谢",
+      "description": "代理一起涉及36名农民工的集体讨薪案，标的额合计127万，赢了。36个人在法院门口等了两个小时就为了当面说一声\"谢谢\"。",
+      "ageRange": { "start": 40 },
+      "yearRange": { "start": 2025, "end": 2025 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "127万。36个家庭过冬的钱。宣判的那一刻，旁听席上有人哭了。走出法院，36个人站在台阶下，等了两个小时。他们没有锦旗，没有感谢信，只是一个个走过来，握住你的手说'谢谢'。有的手粗糙得像砂纸，有的手还在颤抖。你站在那里，感到一种从未有过的重量——不是负担，是锚点。",
+      "bgmTag": "triumph_drums_guqin",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "胜诉后的感受……",
+        "options": [
+          { "label": "和他们一起站在法院门口，接受这份感谢", "response": "你站了一个小时，握了36双手。每一双都不一样，但传递的温度是一样的。你想起律所年会上的香槟塔，突然觉得那些泡沫消散得很快，而这些手的温度会留很久。" },
+          { "label": "请他们去吃顿热饭，边吃边聊", "response": "路边的小馆子，36个人挤满了四张桌子。你点了最贵的菜，他们说太浪费了。但当你举杯说'敬大家'时，所有人都安静了。那一刻你不是律师，是他们中的一个。" }
+        ]
+      }
+    },
+    {
+      "id": "banner-moment",
+      "title": "锦旗时刻·\"天下第一好人\"",
+      "description": "在法援中心门口，一个大爷递给他一面锦旗，上面写着\"天下第一好人\"。他笑着说\"不是好人，是律师\"。",
+      "ageRange": { "start": 40 },
+      "category": "spiritual",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "锦旗在阳光下微微反光，红底金字写着'天下第一好人'。大爷的手颤巍巍的，眼神却坚定。你接过锦旗，笑着说'不是好人，是律师'。这句话你说得很轻，但心里有什么东西落定了。职业尊严不再是名片上的头衔，而是这一刻阳光照在锦旗上的温度。",
+      "bgmTag": "silence_then_cry",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "uplifting",
+    "peakMoments": ["first-case-orange", "collective-case-win", "banner-moment"],
+    "valleyMoments": ["hardest-case-domestic"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L2",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["domestic_violence", "minor_crime", "income_anxiety"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
