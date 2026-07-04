@@ -128,6 +128,7 @@ const TIMELINE_LIST = [
   'kyoto-wagashi-heir',
   'lanna-amulet-caster',
   'lawyer-legal-aid-swap',
+  'timelines/lawyer-legal-aid-partner-swap.json',
   'left-behind-homecoming',
   'li-jia',
   'lighthouse-keeper',
