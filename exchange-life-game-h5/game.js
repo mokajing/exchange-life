@@ -95,8 +95,8 @@ const TIMELINE_LIST = [
   'danmu-world',
   'detective-counselor-swap-week',
   'doctor-village-clinic-swap',
-  'dream-archaeologist-first-month',
   'dorm-gender-swap-first-night',
+  'dream-archaeologist-first-month',
   'dyslexia-exam-week',
   'dyslexia-programmer',
   'earthquake-search-dog-handler',
@@ -127,8 +127,8 @@ const TIMELINE_LIST = [
   'john-davidson',
   'kyoto-wagashi-heir',
   'lanna-amulet-caster',
+  'lawyer-legal-aid-partner-swap',
   'lawyer-legal-aid-swap',
-  'timelines/lawyer-legal-aid-partner-swap.json',
   'left-behind-homecoming',
   'li-jia',
   'lighthouse-keeper',
@@ -159,6 +159,7 @@ const TIMELINE_LIST = [
   'mycenaean-scribe-linear-b',
   'new-mom-3am-first-year',
   'no-fire-humanity',
+  'nuclear-waste-geological-engineer',
   'ocd-morning-ritual',
   'oil-rig-worker',
   'oral-historian-last-day',
@@ -188,11 +189,12 @@ const TIMELINE_LIST = [
   'shu-carpenter-wooden-ox',
   'smell-translator-first-month',
   'solo-chinese-new-year-eve',
-  'song-yuansheng',
   'song-storyteller-last-show',
+  'song-yuansheng',
   'streamer-to-shopkeeper',
   'stutterer-interview',
   'su-min',
+  'subway-cleaner-last-night',
   'synesthesia-daily-senses',
   't1d-child-school-day',
   'tang-huji-wine-shop',
@@ -218,8 +220,7 @@ const TIMELINE_LIST = [
   'yuan-post-rider-blizzard',
   'zhang-guimei',
   'zhang-xue',
-  'zheng-jinxing',
-  'subway-cleaner-last-night'
+  'zheng-jinxing'
 ];
 
 let player = null;
