@@ -157,6 +157,7 @@ const TIMELINE_LIST = [
   'mursi-lip-plate-coming-of-age',
   'mycenaean-scribe-linear-b',
   'new-mom-3am-first-year',
+  'nuclear-waste-geological-engineer',
   'no-fire-humanity',
   'ocd-morning-ritual',
   'oil-rig-worker',
