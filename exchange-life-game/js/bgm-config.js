@@ -413,8 +413,7 @@ const BGM_MAP = {
   gentle_strings_warm:    { file: 'audio/bgm/gentle_strings_warm.mp3',    volume: 0.35, loop: true },
   night_market_distant:   { file: 'audio/bgm/night_market_distant.mp3',   volume: 0.25, loop: true },
   incense_burning:        { file: 'audio/bgm/incense_burning.mp3',        volume: 0.2, loop: true },
-  filing_rhythm:          { file: 'audio/bgm/filing_rhythm.mp3',          volume: 0.3, loop: true }
-,
+  filing_rhythm:          { file: 'audio/bgm/filing_rhythm.mp3',          volume: 0.3, loop: true },
 
   // === AI人生评分日专用标签 (2026-06-16 P0第423卷) ===
   morning_electronic_light:   { file: 'audio/bgm/morning_electronic_light.mp3',   volume: 0.3, loop: true },
@@ -505,7 +504,6 @@ const BGM_MAP = {
   // === 航空灾难调查员专用标签 (2026-06-17 P0第462卷) ===
 
 
-,
 
   // === 刑警与心理咨询师互换专用标签 (2026-06-17 P0第465卷) ===
   high_tension_suspense:   { file: 'audio/bgm/high_tension_suspense.mp3',   volume: 0.4, loop: true },
@@ -565,8 +563,7 @@ const BGM_MAP = {
   electronic_beep_soft:   { file: 'audio/bgm/electronic_beep_soft.mp3',   volume: 0.2, loop: true },
   anxiety_pulse_digital:  { file: 'audio/bgm/anxiety_pulse_digital.mp3',  volume: 0.3, loop: true },
   social_media_noise:     { file: 'audio/bgm/social_media_noise.mp3',     volume: 0.25, loop: true },
-  morning_silence_warm:   { file: 'audio/bgm/morning_silence_warm.mp3',   volume: 0.25, loop: true }
-,
+  morning_silence_warm:   { file: 'audio/bgm/morning_silence_warm.mp3',   volume: 0.25, loop: true },
 
   // === 男消防员与女产科医生互换身体专用标签 (2026-06-18 P0第517卷) ===
   tense_heartbeat:         { file: 'audio/bgm/tense_heartbeat.mp3',         volume: 0.35, loop: true },
@@ -628,14 +625,12 @@ const BGM_MAP = {
   morning_quiet_start:      { file: 'audio/bgm/morning_quiet_start.mp3',      volume: 0.3, loop: true },
   busy_morning_rhythm:      { file: 'audio/bgm/busy_morning_rhythm.mp3',      volume: 0.35, loop: true },
   gentle_care_warmth:       { file: 'audio/bgm/gentle_care_warmth.mp3',       volume: 0.3, loop: true },
-  busy_evening_pulse:       { file: 'audio/bgm/busy_evening_pulse.mp3',       volume: 0.35, loop: true }
-,
+  busy_evening_pulse:       { file: 'audio/bgm/busy_evening_pulse.mp3',       volume: 0.35, loop: true },
 
   // === 北非柏柏尔纹身师专用标签 (2026-06-17 P0第487卷) ===
   morning_oud_meditation:   { file: 'audio/bgm/morning_oud_meditation.mp3',   volume: 0.3, loop: true },
   ahidous_chant_distant:    { file: 'audio/bgm/ahidous_chant_distant.mp3',    volume: 0.35, loop: false },
-  sunset_oud_farewell:      { file: 'audio/bgm/sunset_oud_farewell.mp3',      volume: 0.3, loop: true }
-,
+  sunset_oud_farewell:      { file: 'audio/bgm/sunset_oud_farewell.mp3',      volume: 0.3, loop: true },
   // === 印度梅加拉亚邦活根桥守护者专用标签 (2026-06-18 P0第497卷) ===
   rain_forest_ambient:     { file: 'audio/bgm/rain_forest_ambient.mp3',     volume: 0.25, loop: true },
   gentle_growth_patience:  { file: 'audio/bgm/gentle_growth_patience.mp3',  volume: 0.3, loop: true },
@@ -652,8 +647,7 @@ const BGM_MAP = {
   assembly_tension_drums:   { file: 'audio/bgm/assembly_tension_drums.mp3',   volume: 0.35, loop: true },
   two_heartbeats_converge:  { file: 'audio/bgm/two_heartbeats_converge.mp3',  volume: 0.3, loop: false },
   clutch_warmth_fadeout:    { file: 'audio/bgm/clutch_warmth_fadeout.mp3',    volume: 0.35, loop: true },
-  gentle_return_piano:      { file: 'audio/bgm/gentle_return_piano.mp3',      volume: 0.3, loop: false }
-,
+  gentle_return_piano:      { file: 'audio/bgm/gentle_return_piano.mp3',      volume: 0.3, loop: false },
   // === 凌晨菜市场摊贩专用标签 (2026-06-18 P0第502卷) ===
   dawn_silence_piano:      { file: 'audio/bgm/dawn_silence_piano.mp3',      volume: 0.25, loop: true },
   market_bustle_strings:   { file: 'audio/bgm/market_bustle_strings.mp3',   volume: 0.35, loop: true },
@@ -987,6 +981,12 @@ const BGM_MAP = {
   ambient_tension:      { file: 'audio/bgm/ambient_tension.mp3',      volume: 0.3, loop: true },
   solemn_moment:        { file: 'audio/bgm/solemn_moment.mp3',        volume: 0.3, loop: true },
   eternal_silence:      { file: 'audio/bgm/eternal_silence.mp3',      volume: 0.2, loop: true },
+
+  // === 律所合伙人到法援律师专用标签 (2026-07-05 P0第766卷) ===
+  tense_heartbeat:   { file: 'audio/bgm/tense_heartbeat.mp3',   volume: 0.4, loop: true },
+  gentle_strings_slow:{ file: 'audio/bgm/gentle_strings_slow.mp3',volume: 0.35, loop: true },
+  triumph_drums_guqin:{ file: 'audio/bgm/triumph_drums_guqin.mp3',volume: 0.5, loop: false },
+  silence_then_cry:  { file: 'audio/bgm/silence_then_cry.mp3',  volume: 0.3, loop: false },
 };
 
 /**
@@ -1111,11 +1111,4 @@ function _clearCrossfadeTimer() {
     _activeCrossfadeTimer = null;
   }
 }
-module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM 
-  // === 律所合伙人到法援律师专用标签 (2026-07-05 P0第766卷) ===
-  tense_heartbeat:   { file: 'audio/bgm/tense_heartbeat.mp3',   volume: 0.4, loop: true },
-  gentle_strings_slow:{ file: 'audio/bgm/gentle_strings_slow.mp3',volume: 0.35, loop: true },
-  triumph_drums_guqin:{ file: 'audio/bgm/triumph_drums_guqin.mp3',volume: 0.5, loop: false },
-  silence_then_cry:  { file: 'audio/bgm/silence_then_cry.mp3',  volume: 0.3, loop: false },
-
-};
+module.exports = { BGM_MAP, getBGM, playBGM, stopBGM, crossfadeBGM };
