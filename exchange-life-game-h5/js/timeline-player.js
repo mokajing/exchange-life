@@ -609,6 +609,10 @@ class TimelinePlayer {
       this._advanceTimer = null;
     }
     this.state = 'idle';
+    this.currentEventIndex = 0;
+    this.renderer.particles = [];
+    this.memoryFragments = [];
+    this._currentTriggeredMemories = null;
   }
 
   _hasChoices() {
