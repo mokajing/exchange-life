@@ -611,6 +611,7 @@ class TimelinePlayer {
     this.state = 'idle';
     this.currentEventIndex = 0;
     this.renderer.particles = [];
+    if (this.renderer._particles) this.renderer._particles = [];
     this.memoryFragments = [];
     this._currentTriggeredMemories = null;
   }
