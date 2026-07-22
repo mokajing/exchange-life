@@ -836,7 +836,6 @@ const BGM_MAP = {
   family_tension: { file: 'audio/bgm/tense_buildup.mp3', volume: 0.45, loop: true },
   farewell_dawn: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
   farewell_earth_gentle: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
-  farewell_piano: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
   fire_crackle_warmth: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.3, loop: true },
   fireworks_finale_crescendo: { file: 'audio/bgm/epic_landscape.mp3', volume: 0.45, loop: true },
   flute_lonely: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
