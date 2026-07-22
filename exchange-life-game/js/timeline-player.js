@@ -610,10 +610,23 @@ class TimelinePlayer {
     }
     this.state = 'idle';
     this.currentEventIndex = 0;
-    this.renderer.particles = [];
-    if (this.renderer._particles) this.renderer._particles = [];
+    // 使用renderer的reset方法完整清理渲染状态
+    if (this.renderer && typeof this.renderer.reset === 'function') {
+      this.renderer.reset();
+    } else {
+      // 向后兼容：手动清理粒子
+      this.renderer.particles = [];
+      if (this.renderer._particles) this.renderer._particles = [];
+    }
     this.memoryFragments = [];
     this._currentTriggeredMemories = null;
+    this.echoStep = 0;
+    this.echoTimer = 0;
+    this.echoUserInput = '';
+    this._consequenceLabel = null;
+    this._profileShown = false;
+    this.selectedChoice = -1;
+    this.choiceFeedbackTimer = 0;
   }
 
   _hasChoices() {
