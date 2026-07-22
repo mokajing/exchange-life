@@ -709,7 +709,6 @@ class Renderer {
     }
   }
 
-}
 
   /**
    * 重置渲染器状态（用于体验重启时清理残留状态）
@@ -753,6 +752,8 @@ class Renderer {
 
 
 // Phase 1: 情绪-色调映射表（静态属性）
+}
+
 Renderer.TONE_COLOR_MAP = {
   'lonely': '#1a1a2e',
   'warm': '#3d2b1f',
