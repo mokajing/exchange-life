@@ -711,6 +711,47 @@ class Renderer {
 
 }
 
+  /**
+   * 重置渲染器状态（用于体验重启时清理残留状态）
+   */
+  reset() {
+    // 粒子系统清理
+    this.particles = [];
+    if (this._particles) this._particles = [];
+    
+    // lerp渐变状态重置
+    this._lerpStartColor = null;
+    this._lerpEndColor = null;
+    this._lerpProgress = 1;
+    this._currentBgHex = TONE_COLORS.neutral.bg;
+    
+    // 色调状态重置
+    this.currentTone = 'neutral';
+    this.targetTone = 'neutral';
+    this.toneTransition = 0;
+    this.bgColor = TONE_COLORS.neutral.bg;
+    
+    // 打字机状态重置
+    this.displayedChars = 0;
+    this.totalChars = 0;
+    this.currentText = '';
+    this.isTyping = false;
+    this._pauseTimer = 0;
+    this._pausePositions = [];
+    
+    // 淡入淡出重置
+    this.fadeAlpha = 0;
+    this.fadeTarget = 1;
+    
+    // 震动效果重置
+    this.shakeDuration = 0;
+    this.shakeIntensity = 0;
+    this.shakeOffset = { x: 0, y: 0 };
+    if (this._shakeTimer !== undefined) this._shakeTimer = 0;
+    if (this._shakeMagnitude !== undefined) this._shakeMagnitude = 0;
+  }
+
+
 // Phase 1: 情绪-色调映射表（静态属性）
 Renderer.TONE_COLOR_MAP = {
   'lonely': '#1a1a2e',
