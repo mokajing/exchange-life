@@ -768,7 +768,7 @@ class TimelinePlayer {
     // 步骤0：渐弱音景（3秒BGM渐弱至静默）
     this.renderer.setText('', 0.1);
     this.renderer.fadeTarget = 1;
-    this.onCompleteCallback();
+    // onCompleteCallback moved to complete state entry (echo fix)
   }
 
   /**
@@ -808,6 +808,8 @@ class TimelinePlayer {
       // 温和出口→complete
       this.state = 'complete';
       // complete状态由_renderCompleteScreen渲染，无需设置文本
+      // PRD V3.0: Trigger completion callback only when truly complete
+      this.onCompleteCallback();
     }
   }
 
