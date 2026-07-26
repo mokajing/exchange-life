@@ -997,6 +997,17 @@ const BGM_MAP = {
   ambient_rain:        { file: 'audio/bgm/ambient_rain.mp3',        volume: 0.25, loop: true },
   tense_electronic:    { file: 'audio/bgm/tense_electronic.mp3',    volume: 0.4, loop: true },
 
+
+  // === 第765/766卷新增BGM标签 (2026-07-26) ===
+  urban_night:         { file: 'audio/bgm/urban_night.mp3',         volume: 0.3, loop: true },
+  warm_acoustic:       { file: 'audio/bgm/warm_acoustic.mp3',       volume: 0.35, loop: true },
+  gentle_piano:        { file: 'audio/bgm/gentle_piano.mp3',        volume: 0.3, loop: true },
+  triumph_strings:     { file: 'audio/bgm/triumph_strings.mp3',     volume: 0.5, loop: false },
+  lofi_electronic:     { file: 'audio/bgm/lofi_electronic.mp3',     volume: 0.3, loop: true },
+  melancholy_piano:    { file: 'audio/bgm/melancholy_piano.mp3',    volume: 0.35, loop: true },
+  ambient_rain:        { file: 'audio/bgm/ambient_rain.mp3',        volume: 0.25, loop: true },
+  tense_electronic:    { file: 'audio/bgm/tense_electronic.mp3',    volume: 0.4, loop: true },
+
 };
 
 /**

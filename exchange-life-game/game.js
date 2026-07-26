@@ -163,6 +163,8 @@ const TIMELINE_LIST = [
   'subway-cleaner-last-night'
   'vol765-memory-authenticator',
   'vol766-lawyer-to-legal-aid'
+  'vol765-memory-authenticator',
+  'vol766-lawyer-to-legal-aid'
 ];
 
 App({
