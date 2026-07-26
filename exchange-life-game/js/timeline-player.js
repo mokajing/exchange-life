@@ -933,6 +933,28 @@ class TimelinePlayer {
     ctx.restore();
   }
 
+
+  /**
+   * 销毁播放器，释放所有资源（防止内存泄漏）
+   */
+  destroy() {
+    if (this._advanceTimer) {
+      clearTimeout(this._advanceTimer);
+      this._advanceTimer = null;
+    }
+    this.state = 'idle';
+    this.currentEventIndex = 0;
+    this.memoryFragments = [];
+    this._currentTriggeredMemories = null;
+    this.renderer.particles = [];
+    this.choiceRects = [];
+    this.timeline = null;
+    this.onChoiceCallback = null;
+    this.onCompleteCallback = null;
+    this.onBackToMenuCallback = null;
+  }
+
+
 }
 
 module.exports = TimelinePlayer;

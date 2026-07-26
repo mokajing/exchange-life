@@ -194,6 +194,8 @@ const TIMELINE_LIST = [
   'stutterer-interview',
   'su-min',
   'subway-cleaner-last-night',
+  'vol765-memory-authenticator',
+  'vol766-lawyer-to-legal-aid'
   'synesthesia-daily-senses',
   't1d-child-school-day',
   'tang-huji-wine-shop',

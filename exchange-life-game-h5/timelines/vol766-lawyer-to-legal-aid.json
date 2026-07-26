@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "id": "vol766-lawyer-to-legal-aid",
+    "title": "从顶级律所合伙人到法律援助律师",
+    "subtitle": "当\"按小时收费\"变成\"按良心收费\"",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-07-26T09:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "resignation",
+      "title": "辞职信·黄浦江边的最后一次日落",
+      "description": "在律所干了15年，最后一次看办公室窗外的黄浦江，发现看了15年从来没认真看过一次日落。卖掉陆家嘴公寓，搬进法援中心附近的老小区。",
+      "ageRange": { "start": 38 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.8,
+      "narrativeText": "你把辞职信放在桌上，最后一次走到落地窗前。黄浦江的夕阳把玻璃染成金色，你突然意识到——在这间办公室十五年了，你从来没有认真看过一次日落。那些被你计费的小时里，有多少个这样的黄昏被错过了？",
+      "bgmTag": "urban_night",
+      "visualTone": "cool",
+      "interactionChoice": {
+        "prompt": "离开前的最后一刻……",
+        "options": [
+          { "label": "再看一眼窗外的日落", "response": "你站了很久，直到太阳完全沉入地平线。这是你第一次完整地看完一场日落。十五年的账单里没有这一场日落的费用。" },
+          { "label": "直接转身离开", "response": "你没有回头。电梯门关上的那一刻，你感到一种从未有过的轻松——像是卸下了一副穿了十五年的铠甲。" }
+        ]
+      }
+    },
+    {
+      "id": "first-case-orange",
+      "title": "第一个案子·一只皱巴巴的橘子",
+      "description": "农民工在工地摔断腿，包工头跑了。用了3天找到包工头、2天谈下和解。拿到赔偿款那天，农民工用塑料袋包着钱递给他一只皱巴巴的橘子。",
+      "ageRange": { "start": 38 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "标的额3800元。比你在律所时一顿商务午餐还便宜。但你花了五天时间，找到了跑路的包工头，谈下了和解。他接过赔偿款的时候，从口袋里掏出一只橘子——皱巴巴的，带着体温。'律师，这个给你。'你接过橘子的那一刻，手比签千万合同的时候还要重。",
+      "bgmTag": "warm_acoustic",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对这只橘子……",
+        "options": [
+          { "label": "收下，当面剥开吃掉", "response": "你在他面前剥开了橘子，酸中带甜。他笑了，露出缺了两颗的门牙。这是你吃过最贵的一只橘子——因为它不能用钱衡量。" },
+          { "label": "收下，但偷偷塞回他的口袋", "response": "你把橘子放进自己口袋，转头又塞回了他的包里。你不知道该说什么，但他看到了。两个人都没说话，但什么都说了。" }
+        ]
+      }
+    },
+    {
+      "id": "domestic-violence-case",
+      "title": "最难的案子·新旧交叠的淤青",
+      "description": "家暴受害者的离婚诉讼。女方被丈夫打了7年，证据却只有医院病历。第一次在法庭上拍了桌子——不是因为愤怒，是因为看到女方手臂上新旧交叠的淤青。",
+      "ageRange": { "start": 39 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "anger",
+      "emotionIntensity": 0.95,
+      "narrativeText": "她挽起袖子的时候，你看到了七年的时间——新伤叠着旧伤，紫色叠着黄色，像一幅没有人想画的地图。你在法庭上拍了桌子。法官看了你一眼。你不是因为愤怒拍的，是因为你发现自己当了十五年律师，第一次觉得法律的语言不够用。",
+      "bgmTag": "tense_heartbeat",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "庭审结束后……",
+        "options": [
+          { "label": "陪她在法院门口坐一会儿", "response": "你们坐在台阶上，谁也没说话。风吹过来的时候，她第一次没有下意识地缩肩膀。你知道这不是结束，但至少今天，她不用一个人走回去。" },
+          { "label": "告诉她下一步该怎么做", "response": "你列出了清晰的计划：人身安全保护令、财产保全、子女抚养权。她一边听一边点头，眼里有了光。专业是你的武器，但此刻它有了温度。" }
+        ]
+      }
+    },
+    {
+      "id": "colleague-call",
+      "title": "转折点·\"疯了，但睡得最踏实\"",
+      "description": "前律所同事打电话问\"你疯了吗\"。他说\"疯了，但这是我15年来睡得最踏实的一年\"。",
+      "ageRange": { "start": 39 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.85,
+      "narrativeText": "电话那头是老搭档的声音：'你疯了吗？年薪百万不要了去拿两千块补贴？'你笑了笑，看着窗外老小区的晾衣绳和楼下下棋的大爷。'疯了。但这是我十五年来睡得最踏实的一年。'挂了电话，你发现自己已经不记得上一次失眠是什么时候了。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm"
+    },
+    {
+      "id": "collective-wage-case",
+      "title": "第二年·36个人的\"谢谢\"",
+      "description": "代理涉及36名农民工的集体讨薪案，标的额合计127万，赢了。36个人在法院门口等了两个小时就为了当面说一声\"谢谢\"。",
+      "ageRange": { "start": 40 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 1.0,
+      "narrativeText": "127万。36个人。两年的欠薪。判决书下来的时候，你的手没有抖，但眼眶热了。走出法院，36个人站在门口，有的穿着工装，有的抱着孩子。他们等了两小时，就为了当面说一句'谢谢'。你以前打赢过更大的案子，但从没被人这样等过。",
+      "bgmTag": "triumph_strings",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对这36个人……",
+        "options": [
+          { "label": "一个一个握手", "response": "你握了36双手。有的粗糙，有的带着茧，有的在发抖。每一双手背后都是一个家庭的重量。你数得很清楚，一双都没有漏。" },
+          { "label": "鞠一个躬", "response": "你深深鞠了一躬。不是感谢他们的谢意，是感谢他们让你明白了律师这两个字真正的分量。抬起头的时候，阳光正好照在脸上。" }
+        ]
+      }
+    },
+    {
+      "id": "banner-moment",
+      "title": "职业尊严·\"不是好人，是律师\"",
+      "description": "大爷送来锦旗写着\"天下第一好人\"。他笑着说\"不是好人，是律师\"。职业尊严被重新定义的那一刻。",
+      "ageRange": { "start": 40 },
+      "category": "achievement",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "锦旗在阳光下微微反光。'天下第一好人'——六个大字，红底金字。你笑着摆手：'大爷，不是好人，是律师。'大爷不管，非要挂在你办公室墙上。那面墙以前挂的是律所合伙人的证书，现在挂着一面锦旗和一封手写感谢信。你觉得这面墙比以前好看多了。",
+      "bgmTag": "warm_acoustic",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "overallShape": "valley_to_peak",
+    "keyTransitions": [
+      { "fromEventId": "resignation", "toEventId": "first-case-orange", "transitionType": "descent", "description": "从优越感到面对真实苦难的冲击" },
+      { "fromEventId": "domestic-violence-case", "toEventId": "colleague-call", "transitionType": "ascent", "description": "从职业困境到内心确认" },
+      { "fromEventId": "collective-wage-case", "toEventId": "banner-moment", "transitionType": "plateau", "description": "职业尊严重建完成" }
+    ],
+    "climaxEventId": "collective-wage-case",
+    "resolutionTone": "hopeful"
+  }
+}
