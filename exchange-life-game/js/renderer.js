@@ -54,6 +54,9 @@ class Renderer {
     this.shakeDuration = 0;
     this.shakeIntensity = 0;
     this.shakeOffset = { x: 0, y: 0 };
+
+    // Phase 3 P0: emotion色调覆盖（避免修改全局TONE_COLORS）
+    this._emotionOverride = null;
   }
 
   /**
@@ -241,7 +244,8 @@ class Renderer {
     // 同时更新targetTone以同步text/accent颜色
     this.targetTone = 'neutral'; // 重置为neutral避免冲突
     // 手动覆盖当前配色方案
-    TONE_COLORS.neutral = toneColors;
+    // 存储当前emotion覆盖色供渲染时使用
+    this._emotionOverride = toneColors;
   }
 
   /**
@@ -680,6 +684,9 @@ class Renderer {
     this.shakeOffset = { x: 0, y: 0 };
     if (this._shakeTimer !== undefined) this._shakeTimer = 0;
     if (this._shakeMagnitude !== undefined) this._shakeMagnitude = 0;
+
+    // emotion色调覆盖重置
+    this._emotionOverride = null;
   }
 
 
