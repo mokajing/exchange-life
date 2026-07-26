@@ -600,35 +600,6 @@ class TimelinePlayer {
     }, 500);
   }
 
-  /**
-   * 销毁播放器，清理所有定时器和资源
-   */
-  destroy() {
-    if (this._advanceTimer) {
-      clearTimeout(this._advanceTimer);
-      this._advanceTimer = null;
-    }
-    this.state = 'idle';
-    this.currentEventIndex = 0;
-    // 使用renderer的reset方法完整清理渲染状态
-    if (this.renderer && typeof this.renderer.reset === 'function') {
-      this.renderer.reset();
-    } else {
-      // 向后兼容：手动清理粒子
-      this.renderer.particles = [];
-      if (this.renderer._particles) this.renderer._particles = [];
-    }
-    this.memoryFragments = [];
-    this._currentTriggeredMemories = null;
-    this.echoStep = 0;
-    this.echoTimer = 0;
-    this.echoUserInput = '';
-    this._consequenceLabel = null;
-    this._profileShown = false;
-    this.selectedChoice = -1;
-    this.choiceFeedbackTimer = 0;
-  }
-
   _hasChoices() {
     const event = this.timeline.events[this.currentEventIndex];
     return event && event.isKeyNode && event.interactionChoice && event.interactionChoice.options;
@@ -934,27 +905,6 @@ class TimelinePlayer {
   }
 
 
-  /**
-   * 销毁播放器，释放所有资源（防止内存泄漏）
-   */
-  destroy() {
-    if (this._advanceTimer) {
-      clearTimeout(this._advanceTimer);
-      this._advanceTimer = null;
-    }
-    this.state = 'idle';
-    this.currentEventIndex = 0;
-    this.memoryFragments = [];
-    this._currentTriggeredMemories = null;
-    this.renderer.particles = [];
-    this.choiceRects = [];
-    this.timeline = null;
-    this.onChoiceCallback = null;
-    this.onCompleteCallback = null;
-    this.onBackToMenuCallback = null;
-  }
-
-
 
   /**
    * 销毁播放器，释放所有资源（防止内存泄漏）
@@ -966,16 +916,37 @@ class TimelinePlayer {
     }
     this.state = 'idle';
     this.currentEventIndex = 0;
+    
+    // 使用renderer的reset方法完整清理渲染状态
+    if (this.renderer && typeof this.renderer.reset === 'function') {
+      this.renderer.reset();
+    } else {
+      this.renderer.particles = [];
+      if (this.renderer._particles) this.renderer._particles = [];
+    }
+    
+    // 清理所有业务状态
     this.memoryFragments = [];
     this._currentTriggeredMemories = null;
-    this.renderer.particles = [];
+    this.echoStep = 0;
+    this.echoTimer = 0;
+    this.echoUserInput = '';
+    this._consequenceLabel = null;
+    this._profileShown = false;
+    this.selectedChoice = -1;
+    this.choiceFeedbackTimer = 0;
     this.choiceRects = [];
+    this._stateBeforePause = null;
+    this._pauseBreathPhase = 0;
+    this._heartbeatCooldown = 0;
+    this._lastHeartbeatEventId = null;
+    
+    // 释放引用
     this.timeline = null;
     this.onChoiceCallback = null;
     this.onCompleteCallback = null;
     this.onBackToMenuCallback = null;
   }
-
 
 }
 
