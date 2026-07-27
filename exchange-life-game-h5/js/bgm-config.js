@@ -1008,6 +1008,10 @@ const BGM_MAP = {
   ambient_rain:        { file: 'audio/bgm/ambient_rain.mp3',        volume: 0.25, loop: true },
   tense_electronic:    { file: 'audio/bgm/tense_electronic.mp3',    volume: 0.4, loop: true },
 
+
+  // === 第764卷刑警×心理咨询师专用BGM标签 (2026-07-28) ===
+  jazz_cafe:           { file: 'audio/bgm/jazz_cafe.mp3',           volume: 0.3, loop: true },
+
 };
 
 /**

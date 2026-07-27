@@ -160,11 +160,10 @@ const TIMELINE_LIST = [
   'zhang-guimei',
   'zhang-xue',
   'zheng-jinxing',
-  'subway-cleaner-last-night'
+  'subway-cleaner-last-night',
   'vol765-memory-authenticator',
-  'vol766-lawyer-to-legal-aid'
-  'vol765-memory-authenticator',
-  'vol766-lawyer-to-legal-aid'
+  'vol766-lawyer-to-legal-aid',
+  'vol764-detective-counselor-swap'
 ];
 
 App({

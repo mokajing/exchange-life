@@ -1,0 +1,185 @@
+{
+  "meta": {
+    "id": "vol764-detective-counselor-swap",
+    "title": "男刑警与女心理咨询师互换身体的一周",
+    "subtitle": "在审讯室与咨询室之间，重新理解真相与治愈的两种抵达方式",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "crossroads",
+    "createdAt": "2026-07-28T00:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "interrogation-routine",
+      "title": "周一·审讯室的第17个小时",
+      "description": "38岁刑警队长陈刚连续审问17小时，嫌疑人终于开口。走出审讯室点烟，手还在抖——不是因为累，是差一点就用错了方式。",
+      "ageRange": { "start": 38 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.5,
+      "narrativeText": "灯亮着。嫌疑人坐着。你在看。他在躲。第十七个小时，他终于开口了。你走出审讯室，在走廊里点燃一根烟。手还在抖。不是因为累，是因为差一点就用错了方式。十五年刑警生涯，你以为自己早就习惯了这种颤抖。",
+      "bgmTag": "tense_heartbeat",
+      "visualTone": "cool"
+    },
+    {
+      "id": "counseling-routine",
+      "title": "周一·咨询室的第3位来访者",
+      "description": "34岁心理咨询师林语接待被校园霸凌的高中女生。50分钟里说了不到20句话，大部分时间在听。",
+      "ageRange": { "start": 34 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "neutral",
+      "emotionIntensity": 0.4,
+      "narrativeText": "她说了很久，久到窗外的光从白变成了黄，久到她的声音从颤抖变成了平静。你说了不到二十句话。大部分时间在听。十年咨询师生涯，你以为自己早就习惯了这种沉默。",
+      "bgmTag": "warm_acoustic",
+      "visualTone": "warm"
+    },
+    {
+      "id": "swap-moment",
+      "title": "周一14:00·交换发生",
+      "description": "陈刚在审讯室突发晕厥，林语在咨询室同步晕厥。两人在同一家医院急救室醒来，发现自己变成了对方。",
+      "ageRange": { "start": 38 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.95,
+      "narrativeText": "急救室的灯光刺眼得发白。你睁开眼，看到一双不属于你的手。护士叫你'林老师'，但你知道自己是陈刚。隔壁床传来一个男人的声音——那是你的声音，说着'我是陈刚，这是怎么回事'。你们对视的那一刻，世界安静了。",
+      "bgmTag": "silence",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "醒来的第一反应……",
+        "options": [
+          { "label": "试图冷静分析发生了什么", "response": "你用对方的手摸了摸脸。皮肤细腻，没有老茧。这不是你的手。但你的大脑还在运转——十五年刑警训练的本能告诉你：先确认环境安全，再找答案。" },
+          { "label": "本能地喊出'你是谁'", "response": "声音从喉咙里出来，却不是你的声音。尖锐、柔软、带着恐惧。你第一次体会到'失控'是什么感觉——不是案件失控，是自己失控了。" }
+        ]
+      }
+    },
+    {
+      "id": "first-counseling-session",
+      "title": "周二·第一次坐在咨询室沙发上",
+      "description": "陈刚（在林语身体里）面对高中女生来访者。本能想问出真相，但发现女孩需要的不是审问是被听见。一上午只说了三句话，却收到了第一次'谢谢'。",
+      "ageRange": { "start": 38 },
+      "category": "growth",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.85,
+      "narrativeText": "你坐在咨询室的沙发上，面前是一个十六岁的女孩。你的肌肉记忆在尖叫：问她细节、追问时间线、找出矛盾点。但你忍住了。她说了很多话，你几乎没回应。五十分钟后她说'谢谢'。你说'谢什么？'她说'你是第一个不打断我的人。'那一刻你发现，有时候不说话比说话更需要勇气。",
+      "bgmTag": "gentle_piano",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对来访者的沉默……",
+        "options": [
+          { "label": "用审讯技巧追问细节", "response": "你开口了，语气精准、克制、不带感情。女孩的眼神暗了下去。她站起来说'我不想说了'。咨询记录本上你写了又划掉，最后只剩下一行字：'来访者提前离开。'" },
+          { "label": "什么都不说，只是听", "response": "你沉默着。空气里有挂钟的滴答声和她翻纸巾的窸窣声。她开始说话了，从校园霸凌说到家里的争吵，说到半夜躲在被子里哭。你没有打断。她说'谢谢'的时候，你感到胸口有一种陌生的热。" }
+        ]
+      }
+    },
+    {
+      "id": "crime-scene",
+      "title": "周三凌晨·第一次面对真实的尸体",
+      "description": "林语（在陈刚身体里）被紧急叫去命案现场。第一次看到真正的尸体，蹲在警戒线外吐了三次。在审讯室发现嫌疑人不开口的原因不是不配合，是恐惧。",
+      "ageRange": { "start": 34 },
+      "category": "crisis",
+      "isKeyNode": true,
+      "emotion": "fear",
+      "emotionIntensity": 0.95,
+      "narrativeText": "警戒线在风中绷紧。法医工具箱的金属扣打开的声音清脆得刺耳。你蹲在地上吐了三次。教科书里的'创伤应激'和眼前的现实之间隔着一道你永远跨不过去的鸿沟。回到审讯室，嫌疑人低着头不说话。你看着他发抖的手指，突然明白了：他不是不配合，他是害怕。",
+      "bgmTag": "dark_ambient",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "在命案现场……",
+        "options": [
+          { "label": "强迫自己蹲下来观察", "response": "你深吸一口气，蹲了下来。手指在发抖，但你看到了一个被忽略的细节——死者指甲缝里的纤维。这不是理论中的创伤，这是真实的人。你的专业知识在现场面前失效了，但另一种东西正在生长。" },
+          { "label": "后退一步，让同事处理", "response": "你退到了警戒线外。同事看了你一眼，眼神里有失望。你知道他们在想什么——'这个男人怎么这么软弱'。但他们不知道的是，这具身体里住着一个从未见过死亡的女人。" }
+        ]
+      }
+    },
+    {
+      "id": "domestic-violence-session",
+      "title": "周四·'别想太多'这四个字",
+      "description": "陈刚接待家暴受害者来访者。听到她说'我老公说我想太多'，突然意识到自己对妻子也说过一模一样的话。在咨询室里沉默了很久，来访者以为他在共情，其实他在忏悔。",
+      "ageRange": { "start": 38 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.98,
+      "narrativeText": "她挽起袖子的时候，你看到了新旧交叠的淤青。她说'我老公说我想太多'。你的心脏停跳了一拍。因为你对妻子说过一模一样的话。无数次。在她加班回来疲惫地说'我好累'的时候，在她半夜惊醒说'我做噩梦了'的时候。你说'别想太多'。你以为那是安慰。现在你才知道，那是一种暴力。",
+      "bgmTag": "melancholic_strings",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "听到那句话的瞬间……",
+        "options": [
+          { "label": "以刑警身份建议报警", "response": "你说'你可以报警，保留证据'。她看着你，眼神空洞：'我不需要另一个审问我的人。'你愣住了。你不是在帮她，你是在用自己熟悉的方式逃避她的痛苦。" },
+          { "label": "先问一句'你觉得安全吗'", "response": "你问了这句话。声音在发抖。她沉默了很久，然后点了点头。眼泪掉下来的时候，你没有递纸巾。你只是坐在那里，陪着她。这是你第一次真正理解'共情'不是软弱，是一种比审讯技巧更需要勇气的力量。" }
+        ]
+      }
+    },
+    {
+      "id": "breakthrough-interrogation",
+      "title": "周五·'你害怕的不是坐牢对吧'",
+      "description": "林语面对沉默72小时的嫌疑人。放弃所有审讯技巧，问了一句关于他妈妈的话。嫌疑人哭了——不是因为被抓，是因为被看见了。",
+      "ageRange": { "start": 34 },
+      "category": "achievement",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.9,
+      "narrativeText": "七十二小时了。他一句话没说。审讯笔记上的技巧你一个都没用。你只是看着他，然后说了一句：'你害怕的不是坐牢，是让你妈知道对吧？'他的肩膀塌了下来。眼泪掉在不锈钢桌面上。审讯室里所有人都愣住了。你不是在审讯，是在理解。每个人心里都有一扇门，关键是找到钥匙，不是撬锁。",
+      "bgmTag": "emotional_climax",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "面对沉默的嫌疑人……",
+        "options": [
+          { "label": "用陈刚的审讯技巧施压", "response": "你翻开审讯笔记，按照流程一步步来。他继续沉默。技术完美，但无效。你合上笔记本的那一刻明白了：有些门不能用技巧打开。" },
+          { "label": "放弃技巧，问一句关于他妈妈的话", "response": "你没有看笔记。你看着他的眼睛，问出了那句话。他哭了。不是崩溃的哭，是被看见的哭。你做到了陈刚十五年都没做到的事——不是让他开口，是让他感到安全。" }
+        ]
+      }
+    },
+    {
+      "id": "cafe-conversation",
+      "title": "周六·咖啡厅的沉默",
+      "description": "交换第5天，两人在咖啡厅见面。陈刚说'我审的不是犯人是我自己'，林语说'治愈别人之前先要治愈自己'。那个沉默不是尴尬，是理解的余震。",
+      "ageRange": { "start": 38 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "mixed",
+      "emotionIntensity": 0.92,
+      "narrativeText": "咖啡厅里爵士钢琴轻柔铺底。你们各自说了很多，然后沉默了很长时间。那个沉默不是尴尬，是'我终于理解你了'的余震。你说'我当了十五年刑警，第一次发现我审的不是犯人，是我自己'。她说'我做了十年咨询，第一次发现治愈别人之前，先要治愈自己'。窗外的天空是蓝紫色的。两个世界终于在一个场景里找到了平衡。",
+      "bgmTag": "jazz_cafe",
+      "visualTone": "neutral",
+      "interactionChoice": {
+        "prompt": "见面的方式……",
+        "options": [
+          { "label": "各自汇报体验，像工作报告", "response": "你们列出了各自的发现和感悟。对话停留在表面。离开咖啡厅的时候，你知道交换没有改变任何东西。有些理解错过了就不会再来。" },
+          { "label": "先沉默，等对方先开口", "response": "你们沉默了很久。然后她说'我好像从来没问过你累不累'。你笑了。不是礼貌的笑，是释然的笑。这不是交换身体，是交换了理解。" }
+        ]
+      }
+    },
+    {
+      "id": "farewell-notes",
+      "title": "周日·来自另一个自己的信",
+      "description": "交换即将结束。陈刚写下'这世界不只是审问和招供，还有倾听和原谅'。林语写下'真相不是用来碾压的，是用来让人自由的'。",
+      "ageRange": { "start": 38 },
+      "category": "growth",
+      "isKeyNode": false,
+      "emotion": "mixed",
+      "emotionIntensity": 0.88,
+      "narrativeText": "交换结束了。你在咨询室写下了最后一句话：'感谢你让我知道，这世界不是只有审问和招供，还有倾听和原谅。'她在审讯室写下了最后一句话：'感谢你让我知道，真相不是用来碾压的，是用来让人自由的。'你们回到了各自的身体里，但再也回不去原来的自己了。",
+      "bgmTag": "resolution",
+      "visualTone": "warm"
+    }
+  ],
+  "emotionalArc": {
+    "overallTone": "bittersweet",
+    "peakMoments": ["domestic-violence-session", "breakthrough-interrogation", "cafe-conversation"],
+    "valleyMoments": ["swap-moment", "crime-scene"]
+  },
+  "safetyInfo": {
+    "complianceLevel": "L1",
+    "popularityLevel": "S",
+    "commercialValue": "V2",
+    "triggerWarnings": ["domestic_violence", "death_scene", "trauma"],
+    "requiresSafetyPrompt": true,
+    "requiresAgeVerification": false
+  }
+}
