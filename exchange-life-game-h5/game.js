@@ -196,7 +196,7 @@ const TIMELINE_LIST = [
   'subway-cleaner-last-night',
   'vol765-memory-authenticator',
   'vol766-lawyer-to-legal-aid',
-  'vol764-detective-counselor-swap'
+  'vol764-detective-counselor-swap',
   'synesthesia-daily-senses',
   't1d-child-school-day',
   'tang-huji-wine-shop',
