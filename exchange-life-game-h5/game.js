@@ -120,6 +120,7 @@ const TIMELINE_LIST = [
   'iceland-volcano-monitor',
   'inca-quipu-keeper',
   'intangible-heritage-last-day',
+  'inner-voice-broadcast-day1',
   'irish-traveller-memory',
   'jiang-yanchen',
   'jin-xiaoyu',

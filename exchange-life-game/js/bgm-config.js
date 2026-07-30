@@ -1012,6 +1012,15 @@ const BGM_MAP = {
   // === 第764卷刑警×心理咨询师专用BGM标签 (2026-07-28) ===
   jazz_cafe:           { file: 'audio/bgm/jazz_cafe.mp3',           volume: 0.3, loop: true },
 
+
+  // === 内心OS广播电台专用标签 (2026-07-30 P0第635卷) ===
+  electronic_tension_low: { file: 'audio/bgm/electronic_tension_low.mp3', volume: 0.3, loop: true },
+  jazz_hop_light:         { file: 'audio/bgm/jazz_hop_light.mp3',         volume: 0.3, loop: true },
+  silence_then_jazz:      { file: 'audio/bgm/silence_then_jazz.mp3',      volume: 0.35, loop: false },
+  warm_piano_acoustic:    { file: 'audio/bgm/warm_piano_acoustic.mp3',    volume: 0.35, loop: true },
+  gentle_strings_night:   { file: 'audio/bgm/gentle_strings_night.mp3',   volume: 0.3, loop: true },
+  ambient_rain_night:     { file: 'audio/bgm/ambient_rain_night.mp3',     volume: 0.25, loop: true },
+  morning_light_acoustic: { file: 'audio/bgm/morning_light_acoustic.mp3', volume: 0.3, loop: true },
 };
 
 /**

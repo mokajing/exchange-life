@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "id": "inner-voice-broadcast-day1",
+    "title": "内心OS广播电台·第一天",
+    "subtitle": "当你的心里话被公放出来，才发现最需要听到真话的人是自己",
+    "sourceType": "ugc_submission",
+    "narrativeTemplate": "single_turning_point",
+    "createdAt": "2026-07-30T12:00:00+08:00",
+    "version": 1
+  },
+  "events": [
+    {
+      "id": "evt_01_device_activation",
+      "title": "戴上「心音」设备",
+      "description": "2028年3月15日，你戴上刚买的「心音」MindVoice脑机接口设备。这个299元的耳机大小设备能将你的内心独白实时转化为语音公放。激活瞬间，轻微电流嗡鸣声后，世界变得不一样了。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "surprise",
+      "emotionIntensity": 0.6,
+      "narrativeText": "早上9点，你拆开「心音」的包装盒。蓝牙耳机大小的设备贴在右耳垂上，指尖触碰激活区的瞬间——\n\n嗡。\n\n一声极轻的电流音。然后，你听到了自己的声音从肩头传来：「这玩意儿真的有用吗？」\n\n不是你在说话。是你的心里话被广播出来了。\n\n你愣了三秒。然后意识到：从今天起，你说的每一句假话旁边，都会跟着一个说真话的你。",
+      "bgmTag": "electronic_tension_low",
+      "visualTone": "cool"
+    },
+    {
+      "id": "evt_02_office_truth_bomb",
+      "title": "办公室真心话现场",
+      "description": "走进办公室，发现所有同事都戴着心音。每个人的内心OS都在公放——「这个项目太无聊了」「他今天穿得像土豆」「好想辞职」。整个办公室变成了巨大的真心话现场。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": true,
+      "emotion": "surprise",
+      "emotionIntensity": 0.8,
+      "narrativeText": "推开办公室门的那一刻，你被声音淹没了。\n\n左边工位的小王嘴上说着「早上好李总」，肩头的声音却说：「这老头今天又穿那件绿毛衣。」\n\n右边的实习生笑着点头「辛苦了辛苦了」，内心OS是：「不辛苦，命苦。」\n\n你自己的声音也在响：「天哪这也太尴尬了……等等，他们是不是也听到我了？」\n\n没有人看你。但所有人的内心OS都在说同一件事：「他也听到了。」\n\n办公室变成了一个巨大的、无处遁形的真心话现场。",
+      "bgmTag": "jazz_hop_light",
+      "visualTone": "bright",
+      "interactionChoice": {
+        "prompt": "面对老板即将到来的晨会，你选择？",
+        "options": [
+          { "id": "opt_a", "label": "假装没听到，正常开会", "consequence": "安全但不真实，你的内心OS开始说「我是个懦夫」" },
+          { "id": "opt_b", "label": "直接回应听到的内容", "consequence": "冒险但真实，同事们对你刮目相看" },
+          { "id": "opt_c", "label": "会后单独找老板聊聊", "consequence": "平衡之选，关系反而更近了" }
+        ]
+      }
+    },
+    {
+      "id": "evt_03_boss_reveal",
+      "title": "老板的内心OS",
+      "description": "晨会上老板说「这个季度大家辛苦了」，内心OS同步播放：「这些人的工资也该砍一砍了」。全场沉默3秒后，HR总监的内心OS接上：「老板说得对，但先砍他自己吧」。",
+      "ageRange": { "start": 25 },
+      "category": "career",
+      "isKeyNode": false,
+      "emotion": "fear",
+      "emotionIntensity": 0.9,
+      "narrativeText": "会议室安静得可怕。\n\n老板站在投影幕前，微笑着说：「这个季度大家辛苦了。」\n\n然后他的肩头响了：「这些人的工资也该砍一砍了。」\n\n三秒的沉默。像三个世纪那么长。\n\n然后HR总监的声音打破了寂静——不是她的嘴，是她的内心OS：「老板说得对，但先砍他自己吧。」\n\n有人憋不住笑了。然后更多人笑了。老板的脸从红变白再变红。\n\n你发现自己的内心OS在说：「原来权威人物也会社死。」\n\n权力结构在这一刻坍塌了。不是因为反抗，而是因为真话。",
+      "bgmTag": "silence_then_jazz",
+      "visualTone": "bright"
+    },
+    {
+      "id": "evt_04_girlfriend_shirt",
+      "title": "女朋友的衬衫吐槽",
+      "description": "晚上和女朋友约会。她说「你今天真好看」，内心OS却是「这件衬衫我去年就说过丑了」。两人对视，同时笑出声——这是今天最真实的时刻。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": true,
+      "emotion": "joy",
+      "emotionIntensity": 0.7,
+      "narrativeText": "餐厅里，她笑着说：「你今天真好看。」\n\n然后她的肩头响了：「这件衬衫我去年就说过丑了。」\n\n你愣住了。她看到你的表情，意识到你听到了。\n\n空气凝固了两秒。\n\n然后你们同时笑出了声。\n\n你的内心OS说：「我知道，但这是我妈送的，所以我一直穿。」\n\n她的内心OS说：「这才是我想听的。」\n\n没有争吵，没有委屈。只有两个终于不用猜对方心思的人，在一顿晚饭里找到了比「好看」更珍贵的东西——真实。",
+      "bgmTag": "warm_piano_acoustic",
+      "visualTone": "warm",
+      "interactionChoice": {
+        "prompt": "听到女朋友的内心吐槽，你选择？",
+        "options": [
+          { "id": "opt_a", "label": "假装没听到，明天换衬衫", "consequence": "回避，感到一丝委屈" },
+          { "id": "opt_b", "label": "也打开内心OS吐槽回去", "consequence": "甜蜜的吵架，感情升温" },
+          { "id": "opt_c", "label": "笑出来，说出真相", "consequence": "用真实回应真实，她抱了你" }
+        ]
+      }
+    },
+    {
+      "id": "evt_05_cashier_care",
+      "title": "收银员的关心",
+      "description": "超市结账时，收银员对你微笑，内心OS说「这个人购物车里有三瓶酒，是不是有什么难过的事」。你多买了一包糖给她，她的内心OS说「原来他听到了我的关心」。",
+      "ageRange": { "start": 25 },
+      "category": "daily_life",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.6,
+      "narrativeText": "晚上十点，超市快打烊了。\n\n收银员是个二十出头的女孩，疲惫地扫着你的商品。她对你笑了笑，嘴上说「一共87块」。\n\n然后她的内心OS响了：「三瓶酒……他是不是有什么难过的事？」\n\n你的手停在钱包上。\n\n你转身回货架拿了一包糖，放在柜台上。「给你的。」\n\n她愣了一下。\n\n内心OS说：「原来他听到了我的关心。」\n\n你走出超市的时候，夜风很凉。但心里有什么东西暖了一下。\n\n在这个所有人都在广播真话的世界里，一个陌生人的关心，是最温柔的「被看见」。",
+      "bgmTag": "gentle_strings_night",
+      "visualTone": "warm"
+    },
+    {
+      "id": "evt_06_midnight_alone",
+      "title": "凌晨三点的自我对话",
+      "description": "失眠的凌晨三点，你摘下心音设备。黑暗中，你第一次听到自己内心的声音不是通过设备传来的——而是直接从心里传来的。它问：你在害怕什么？",
+      "ageRange": { "start": 25 },
+      "category": "spiritual",
+      "isKeyNode": true,
+      "emotion": "sadness",
+      "emotionIntensity": 0.9,
+      "narrativeText": "凌晨三点。\n\n你躺在床上，摘下了心音。\n\n世界安静了。没有别人的OS，没有自己的广播。只有黑暗和心跳。\n\n然后你听到一个声音。不是从设备里传来的。是从你自己心里传来的。\n\n它说：你在害怕什么？\n\n你说：我不知道。\n\n它说：你知道。\n\n沉默了很久。\n\n然后你说：害怕不够好。害怕被抛弃。害怕承认自己其实很孤独。\n\n没有人听到这些话。没有设备把它们变成声音。\n\n但你听到了。\n\n这是今天第一次，你对自己说了真话。\n\n原来最需要听到这些真话的人，不是别人。是你自己。",
+      "bgmTag": "ambient_rain_night",
+      "visualTone": "dark",
+      "interactionChoice": {
+        "prompt": "面对自己的内心，你选择？",
+        "options": [
+          { "id": "opt_a", "label": "继续听，让内心说完", "consequence": "哭了出来，但感到前所未有的轻松" },
+          { "id": "opt_b", "label": "假装什么都没发生", "consequence": "失眠到天亮，逃避的代价" },
+          { "id": "opt_c", "label": "接纳并承诺改变", "consequence": "平静入睡，做了一个安稳的梦" }
+        ]
+      }
+    },
+    {
+      "id": "evt_07_morning_after",
+      "title": "第二天早晨",
+      "description": "重新戴上心音。女朋友说「今天穿这件挺好看的」，内心OS沉默了。你也沉默了。然后你们都笑了。有些话不用说出来，也都听到了。",
+      "ageRange": { "start": 25 },
+      "category": "relationship",
+      "isKeyNode": false,
+      "emotion": "joy",
+      "emotionIntensity": 0.8,
+      "narrativeText": "第二天早上，你重新戴上心音。\n\n女朋友看着你说：「今天穿这件衬衫挺好看的。」\n\n内心OS沉默了。\n\n你也沉默了。\n\n然后你笑了。她也笑了。\n\n有些话，不用说出来，你们也都听到了。\n\n你走出家门，阳光很好。路上的行人依然戴着心音，肩头的声音此起彼伏。但你不再觉得尴尬了。\n\n因为你知道了：真话不是为了让人难堪，是为了让人靠近。\n\n而那个昨晚在黑暗中对自己说真话的你，才是这一切的起点。",
+      "bgmTag": "morning_light_acoustic",
+      "visualTone": "bright"
+    }
+  ],
+  "emotionalArc": {
+    "startEmotion": "surprise",
+    "peakEmotion": "fear",
+    "endEmotion": "joy",
+    "arcDescription": "从好奇搞笑到职场震撼，再到亲密关系的真实温暖，最终在深夜独处中完成与自我的和解。情感曲线：好奇→错位喜剧→权力反转→亲密真相→自我和解→释然温暖。",
+    "keyTransitions": [
+      { "fromEventId": "evt_02_office_truth_bomb", "toEventId": "evt_03_boss_reveal", "transitionType": "escalation", "description": "从群体尴尬升级到权威崩塌" },
+      { "fromEventId": "evt_04_girlfriend_shirt", "toEventId": "evt_05_cashier_care", "transitionType": "expansion", "description": "从亲密关系到陌生人善意的共鸣扩展" },
+      { "fromEventId": "evt_05_cashier_care", "toEventId": "evt_06_midnight_alone", "transitionType": "inversion", "description": "从外部世界的喧嚣转向内在的寂静" }
+    ]
+  },
+  "tags": ["funny", "social_experiment", "inner_voice", "workplace", "relationship", "self_reflection", "mindvoice"],
+  "difficulty": "easy",
+  "estimatedDurationMinutes": 15
+}
