@@ -880,7 +880,6 @@ const BGM_MAP = {
   morning_hope: { file: 'audio/bgm/hopeful_rise.mp3', volume: 0.35, loop: true },
   morning_market_hustle: { file: 'audio/bgm/focused_rhythm.mp3', volume: 0.35, loop: true },
   morning_silence: { file: 'audio/bgm/somber_piano.mp3', volume: 0.3, loop: true },
-  morning_silence_soft: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.25, loop: true },
   morning_sun_erhu: { file: 'audio/bgm/hopeful_rise.mp3', volume: 0.35, loop: true },
   mountain_road_cicada: { file: 'audio/bgm/gentle_acoustic.mp3', volume: 0.3, loop: true },
   mourning_fire: { file: 'audio/bgm/melancholic.mp3', volume: 0.35, loop: true },
@@ -982,31 +981,13 @@ const BGM_MAP = {
   eternal_silence:      { file: 'audio/bgm/eternal_silence.mp3',      volume: 0.2, loop: true },
 
   // === 律所合伙人到法援律师专用标签 (2026-07-05 P0第766卷) ===
-  tense_heartbeat:   { file: 'audio/bgm/tense_heartbeat.mp3',   volume: 0.4, loop: true },
-  gentle_strings_slow:{ file: 'audio/bgm/gentle_strings_slow.mp3',volume: 0.35, loop: true },
-  triumph_drums_guqin:{ file: 'audio/bgm/triumph_drums_guqin.mp3',volume: 0.5, loop: false },
-  silence_then_cry:  { file: 'audio/bgm/silence_then_cry.mp3',  volume: 0.3, loop: false },
 
   // === 第765/766卷新增BGM标签 (2026-07-26) ===
-  urban_night:         { file: 'audio/bgm/urban_night.mp3',         volume: 0.3, loop: true },
-  warm_acoustic:       { file: 'audio/bgm/warm_acoustic.mp3',       volume: 0.35, loop: true },
-  gentle_piano:        { file: 'audio/bgm/gentle_piano.mp3',        volume: 0.3, loop: true },
   triumph_strings:     { file: 'audio/bgm/triumph_strings.mp3',     volume: 0.5, loop: false },
-  lofi_electronic:     { file: 'audio/bgm/lofi_electronic.mp3',     volume: 0.3, loop: true },
-  melancholy_piano:    { file: 'audio/bgm/melancholy_piano.mp3',    volume: 0.35, loop: true },
-  ambient_rain:        { file: 'audio/bgm/ambient_rain.mp3',        volume: 0.25, loop: true },
   tense_electronic:    { file: 'audio/bgm/tense_electronic.mp3',    volume: 0.4, loop: true },
 
 
   // === 第765/766卷新增BGM标签 (2026-07-26) ===
-  urban_night:         { file: 'audio/bgm/urban_night.mp3',         volume: 0.3, loop: true },
-  warm_acoustic:       { file: 'audio/bgm/warm_acoustic.mp3',       volume: 0.35, loop: true },
-  gentle_piano:        { file: 'audio/bgm/gentle_piano.mp3',        volume: 0.3, loop: true },
-  triumph_strings:     { file: 'audio/bgm/triumph_strings.mp3',     volume: 0.5, loop: false },
-  lofi_electronic:     { file: 'audio/bgm/lofi_electronic.mp3',     volume: 0.3, loop: true },
-  melancholy_piano:    { file: 'audio/bgm/melancholy_piano.mp3',    volume: 0.35, loop: true },
-  ambient_rain:        { file: 'audio/bgm/ambient_rain.mp3',        volume: 0.25, loop: true },
-  tense_electronic:    { file: 'audio/bgm/tense_electronic.mp3',    volume: 0.4, loop: true },
 
 
   // === 第764卷刑警×心理咨询师专用BGM标签 (2026-07-28) ===
@@ -1014,7 +995,6 @@ const BGM_MAP = {
 
 
   // === 内心OS广播电台专用标签 (2026-07-30 P0第635卷) ===
-  electronic_tension_low: { file: 'audio/bgm/electronic_tension_low.mp3', volume: 0.3, loop: true },
   jazz_hop_light:         { file: 'audio/bgm/jazz_hop_light.mp3',         volume: 0.3, loop: true },
   silence_then_jazz:      { file: 'audio/bgm/silence_then_jazz.mp3',      volume: 0.35, loop: false },
   warm_piano_acoustic:    { file: 'audio/bgm/warm_piano_acoustic.mp3',    volume: 0.35, loop: true },
